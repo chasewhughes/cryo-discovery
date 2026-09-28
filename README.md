@@ -14,22 +14,9 @@ flowchart LR
     D --> E["Bounded conclusion<br/>pass / fail / not qualified against the frozen gate"]
 ```
 
-## What I decided vs. what agents built
+## Who did what
 
-**Decided (Chase):**
-- The research question and scope: an evidence-linked cryopreservation resource separating physical ice protection, biological stress protection, and protocol effects, with cell-specific preservation benchmarks rather than a claimed universal optimum.
-- Evidence standards: pre-registered plans with frozen thresholds, SHA256-hashed provenance, and independent verification before any result is reported.
-- Which tracks to pursue or stop: after the IRI (ice-recrystallization-inhibition) models failed to generalize to unseen scaffolds, added a biological-target track: ROCK2, the kinase targeted by the ROCK inhibitor (chroman 1) in the CEPT recovery cocktail, the #2 candidate on the ranked shortlist. That track uses Boltz-2 structural affinity prediction.
-- The pre-registered pass/fail thresholds for each benchmark (e.g. ≥20% MAE improvement and Spearman ≥0.5 for ROCK2 transfer gates; MAE ≤0.5 pIC50 and absolute bias ≤0.25 pIC50 for calibration gates).
-- The $10 cumulative GPU spend cap and the per-run spend guards enforced before every Pod launch.
-- The call to record the radiometric-assay calibration miss (absolute bias short by 0.013 pIC50) as an unqualified joint gate, rather than relaxing the threshold to pass it.
-
-**Built (AI agents, Claude/Codex):**
-- All code: literature acquisition and screening scripts, IRI and hydration-MD pipelines, Boltz-2 inference and RunPod orchestration, budget/lifecycle watchdogs.
-- Data acquisition and curation: 40+ papers screened, evidence extraction, coverage and evidence tables.
-- Simulations and GPU runs: hydration molecular-dynamics trajectories, the reference-cell transport model, and three ROCK2 Boltz-2 affinity panels (43, 30 and 50 compounds) under a fixed two-seed protocol.
-- Report drafting: the phase-by-phase findings, verification logs, and the compiled PDF report.
-- Tests: provenance and physics-consistency checks, budget and lifecycle safeguards, regression tests for every frozen pipeline.
+I set the question, the ground rules and the $10 budget, and made the calls along the way: which tracks to keep or drop (adding ROCK2 when the ice models didn't generalize), what counted as a pass before each run, and leaving the ROCK2 calibration miss as a miss. AI coding agents (Claude and Codex) wrote the code, gathered the data, ran the simulations and GPU jobs, and drafted the reports.
 
 ## Results
 
