@@ -1,6 +1,6 @@
 # cryo-discovery
 
-A pre-registered computational discovery pipeline for cryopreservation research: evidence base → frozen hypothesis → locked run → verified, bounded conclusion. Built end to end in about three days (2026-09-05 to 2026-09-07) by directing AI coding agents, on under $10 of GPU spend. This is a research and engineering artifact, not a validated discovery or an efficacy claim.
+A pre-registered computational discovery pipeline for cryopreservation research: evidence base → frozen hypothesis → locked run → verified, bounded conclusion. Built end to end in about three days (2026-09-05 to 2026-09-07) by directing AI coding agents. This is a research and engineering artifact, not a validated discovery or an efficacy claim.
 
 ## How it works
 
@@ -16,7 +16,7 @@ flowchart LR
 
 ## Who did what
 
-I set the question, the ground rules and the $10 budget, and made the calls along the way: which tracks to keep or drop (adding ROCK2 when the ice models didn't generalize), what counted as a pass before each run, and leaving the ROCK2 calibration miss as a miss. AI coding agents (Claude and Codex) wrote the code, gathered the data, ran the simulations and GPU jobs, and drafted the reports.
+I set the question and the ground rules, and made the calls along the way: which tracks to keep or drop (adding ROCK2 when the ice models didn't generalize), what counted as a pass before each run, and leaving the ROCK2 calibration miss as a miss. AI coding agents (Claude and Codex) wrote the code, gathered the data, ran the simulations and GPU jobs, and drafted the reports.
 
 ## Results
 
@@ -40,7 +40,7 @@ All ROCK2 evaluations below are retrospective on compounds from published assays
 - Every experiment is frozen before execution: a written plan, hashed (SHA256), committed to version control, with pass/fail thresholds fixed in advance.
 - Re-runs of a completed, frozen plan are refused by the tooling itself (`discovery_pipeline.py` refuses to repeat a run ID; the Boltz inference scripts refuse to reuse an existing seed output directory).
 - Failed attempts are preserved, not deleted: failed GPU launches, provider setup failures, and rejected retries all remain in the cost and verification records rather than being cleaned out of the history.
-- Spend guards: a $10 cumulative GPU budget was enforced before every launch, with per-phase and running-total cost reconciliation recorded in [verification.md](reports/verification.md). Total estimated GPU spend across the project was about $6.75 (reconciled all-phase estimate, $10 cap).
+- Cost controls: every GPU launch was checked against a spend limit, and costs were reconciled per phase in [verification.md](reports/verification.md).
 
 ## Reproduce
 
@@ -69,7 +69,7 @@ The optional IRI/MD/Boltz-2 tracks use separate pinned scientific environments; 
 
 ## Next step
 
-A calibration-transfer test on a broader, independent set of scaffolds is pre-specified but not yet run. Its panel and plan are frozen in [data/phase21/scaffold-plan.json](data/phase21/scaffold-plan.json) (frozen 2026-09-07); see also [rock2-orthogonal-assay-review.md](reports/rock2-orthogonal-assay-review.md). Execution needs a fresh GPU budget reconciliation.
+A calibration-transfer test on a broader, independent set of scaffolds is pre-specified but not yet run. Its panel and plan are frozen in [data/phase21/scaffold-plan.json](data/phase21/scaffold-plan.json) (frozen 2026-09-07); see also [rock2-orthogonal-assay-review.md](reports/rock2-orthogonal-assay-review.md).
 
 ## Full report
 
