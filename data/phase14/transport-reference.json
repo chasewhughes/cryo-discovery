@@ -1,0 +1,43 @@
+{
+  "title": "Mathematically optimized cryoprotectant equilibration procedures for cryopreservation of human oocytes",
+  "authors": "Davidson, Benson and Higgins",
+  "year": 2014,
+  "doi": "10.1186/1742-4682-11-13",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3994563/",
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3994563/fullTextXML",
+  "source_path": "data/raw/phase14/transport/PMC3994563.xml",
+  "sha256": "0a0d6b271a1db9361d915361f8fd050b134fb053a42f9e889901bb98afa704a4",
+  "license": "CC BY 2.0, as stated in article",
+  "equations": {
+    "Eq1": "dw/dtau=-m1-m2+(1+s)/w; ds/dtau=b*(m2-s/w)",
+    "Eq2": "0.47 <= w+gamma*s <= 1.67 (published reference-cell volume limits)",
+    "Eq7": "dx=dtau/w",
+    "AppendixA1": "dw/dx=-(m1+m2)*w+s+1; ds/dx=b*m2*w-b*s; dtau/dx=w"
+  },
+  "parameters": {
+    "b": 1.62,
+    "minutes_per_tau": 4.33,
+    "gamma": 0.0168,
+    "temperature_C": 22,
+    "isotonic_osm_per_kg": 0.3
+  },
+  "locators": {
+    "equations": "Methods, bmcM1,bmcM2,bmcM7; Appendix bmcMA1,bmcMA8 in XML",
+    "parameters": "Methods, paragraphs immediately following Eq1 and Eq2"
+  },
+  "state_units": {
+    "w": "intracellular water / isotonic intracellular water",
+    "s": "intracellular CPA moles / isotonic intracellular solute moles",
+    "m1,m2": "extracellular nonpermeant and CPA molality normalized to 0.3 Osm/kg",
+    "s/w": "intracellular CPA molality normalized to 0.3 Osm/kg",
+    "relative_volume": "source-defined w+gamma*s, not water volume alone"
+  },
+  "qualification": "Equation/parameter implementation with independent transformed-system numerical reference. No source optimization reproduced; no measured curve digitized or independently validated.",
+  "limitations": [
+    "Human oocyte ethylene glycol at 22 C, not iPSC or other CPA calibration.",
+    "Isothermal fixed bath steps; no cooling, ice growth, toxicity or survival response.",
+    "Exposure integral is reported in Osm min/kg, without the paper toxicity exponent or a fitted damage rate.",
+    "Schedules and sensitivity factors are analyst-designed virtual comparisons, not published protocols or laboratory instructions.",
+    "Generic staged loading is established prior art."
+  ]
+}

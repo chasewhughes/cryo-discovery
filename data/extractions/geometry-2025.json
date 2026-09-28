@@ -1,0 +1,147 @@
+[
+  {
+    "study_id": "doi:10.1002/btpr.70019",
+    "doi": "10.1002/btpr.70019",
+    "title": "Enhancing cryopreservation of human induced pluripotent stem cells: Bottom-up versus conventional freezing geometry.",
+    "year": 2025,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1002/btpr.70019",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase3/geometry-results-indexed.txt",
+    "additional_source_paths": [
+      "data/raw/phase3/geometry-methods-indexed.txt"
+    ],
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "engineered WTC11 human iPSC line with doxycycline-inducible Ngn2"
+    ],
+    "study_design": "Primary study comparing bottom-up controlled ice nucleation/freezing with conventional radial freezing in cryovials and 30 mL bags.",
+    "interventions": [
+      "bottom-up freezing geometry",
+      "DMSO concentration",
+      "cooling rate",
+      "ice nucleation time"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "geometry-2025-1",
+        "model": "Engineered WTC11 human iPSCs",
+        "intervention": "Bottom-up freezing with 5% DMSO, 90 s bottom ice nucleation, and controlled cooling at −1, −2, or −3 °C/min",
+        "comparator": "Conventional CoolCell freezing, nominal −1 °C/min",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 5,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "KnockOut Serum Replacement",
+            "concentration": 50,
+            "unit": "% v/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "Bottom-up −1, −2, or −3 °C/min from −5 to −80 °C; conventional nominal −1 °C/min",
+        "warming": "37 °C water bath",
+        "storage": "−80 °C; methods describe 72 h after freezing while results describe 2 days, an internal inconsistency",
+        "outcome_name": "Post-thaw membrane integrity and cell reducing-power metabolic assay",
+        "outcome_type": "viability",
+        "timepoint": "After thaw; metabolic assay after 24 h adherent culture",
+        "result": "At 5% DMSO and 90 s nucleation, bottom-up cooling at −2 °C/min was the selected optimization condition; reported average viability was 87% by membrane integrity and 62% by reducing power. The 1% DMSO condition showed a membrane-integrity increase from 5% to 20% with bottom-up geometry, while metabolic state was not significantly improved.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Three cryovials per geometry in the described parameter experiments; authors call independently frozen vials biological replicates, but these are not independent donors; plated wells are technical replicates.",
+        "source_locator": "geometry-methods-indexed.txt, iPSCs freezing; geometry-results-indexed.txt, DMSO, nucleation-time, and cooling-rate sections",
+        "evidence_excerpt": "Average cell viability was 46% for 60 s nucleation time"
+      },
+      {
+        "experiment_id": "geometry-2025-2",
+        "model": "Engineered WTC11 human iPSCs in 30 mL cryobags",
+        "intervention": "Bottom-up freezing with 5% DMSO, 90 s nucleation, and −2 °C/min cooling",
+        "comparator": "30 mL bag placed directly into −80 °C freezer; passive cooling rate unknown",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 5,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "KnockOut Serum Replacement",
+            "concentration": 50,
+            "unit": "% v/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "scale_up"
+        ],
+        "cooling": "Bottom-up −2 °C/min from −5 to −80 °C; passive bag comparator rate not reported",
+        "warming": "37 °C water bath",
+        "storage": "−80 °C; duration described inconsistently as 72 h in methods and 2 days in results",
+        "outcome_name": "Post-thaw membrane integrity and cell reducing-power metabolic assay",
+        "outcome_type": "viability",
+        "timepoint": "After thaw; assays after plating",
+        "result": "In 30 mL bags, bottom-up versus conventional values were 69% versus 60% by membrane integrity and 31% versus 23% by reducing power. The passive −80 °C comparator prevents isolating geometry from its unreported thermal history.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Bag/donor replication count not established from the inspected passages; no independent donor replication established.",
+        "source_locator": "geometry-methods-indexed.txt, Scale-up of iPSC freezing; geometry-results-indexed.txt, Scale-up section",
+        "evidence_excerpt": "30 mL bags"
+      },
+      {
+        "experiment_id": "geometry-2025-3",
+        "model": "Engineered WTC11 human iPSCs differentiated into neurons",
+        "intervention": "Neuronal differentiation after bottom-up or conventional freezing",
+        "comparator": "Alternate freezing geometries and tested DMSO conditions; do not infer a separate unfrozen control from the inspected text",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "post_thaw_differentiation"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Neuronal morphogenesis: terminal branch length and branch-node number",
+        "outcome_type": "function",
+        "timepoint": "Differentiation days 5–8",
+        "result": "Neuronal differentiation pace and degree were similar after the compared freezing geometries and tested DMSO conditions. The indexed manuscript reports morphology measures only; electrophysiology was not reported in this experiment.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Replicate count not established from the inspected passages; no independent donor replication established.",
+        "source_locator": "geometry-methods-indexed.txt, iPSCs differentiation into neurons; geometry-results-indexed.txt, iPSC differentiation into neurons",
+        "evidence_excerpt": "not affected by different cooling rates"
+      }
+    ],
+    "main_finding": "In this engineered WTC11 iPSC model, bottom-up controlled nucleation/freezing improved selected post-thaw viability measures under optimized conditions and retained a scale-up advantage, while neuronal morphology through day 8 was similar across freezing geometries.",
+    "limitations": [
+      "Institutionally deposited manuscript text was used; journal version was not verified in detail.",
+      "Technical cryovials, wells, and bags are not independent donor replicates.",
+      "Passive bag comparator cooling rate was not reported, so geometry cannot be isolated.",
+      "Methods state 72 h storage while results state 2 days.",
+      "No electrophysiology result was reported for neuronal differentiation.",
+      "One engineered WTC11 line with inducible Ngn2; forced neuronal differentiation limits generalization.",
+      "Membrane integrity is a live-cell fraction and PrestoBlue is a metabolic signal after 24 h plating plus 4 h reagent incubation; neither establishes absolute viable-cell yield.",
+      "Absolute bag outcomes were lower than optimized vial outcomes despite a relative bottom-up advantage.",
+      "The described 5% DMSO formulation also contains 50% KnockOut Serum Replacement and 10 µM Y-27632; geometry effects cannot be generalized without the full medium/recovery context."
+    ],
+    "mechanism_claim": "The study directly compares freezing geometry, cooling, nucleation, and post-thaw assays; reduced mechanical/ice stress is a protocol interpretation, not direct proof of a specific intracellular mechanism.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root indexed institutional manuscript methods/results review",
+    "source_version": "Selected text from an institutional manuscript; exact agreement with the published journal version has not been established"
+  }
+]

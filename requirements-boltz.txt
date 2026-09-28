@@ -1,0 +1,3 @@
+# Official Boltz-2 PyPI release, pinned for reproducible pilot execution.
+boltz==2.2.1
+torch==2.8.0

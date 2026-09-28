@@ -1,0 +1,124 @@
+[
+  {
+    "study_id": "doi:10.1038/s41531-026-01399-4",
+    "doi": "10.1038/s41531-026-01399-4",
+    "title": "Cryopreservable dopaminergic progenitors derived from human iPSCs with accelerated loss of pluripotency and early functional restoration in Parkinsonian rats.",
+    "year": 2026,
+    "pmcid": "PMC13316032",
+    "source_url": "https://doi.org/10.1038/s41531-026-01399-4",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase4/dopaminergic.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens",
+      "Rattus norvegicus"
+    ],
+    "cell_types": [
+      "PBMC-derived iPSC midbrain dopaminergic progenitor spheroids"
+    ],
+    "study_design": "Differentiation, spheroid storage/recovery and transplantation workflow; cryopreservation feasibility with delayed phenotype and rat behavioral outcomes",
+    "interventions": [
+      "STEM-CELLBANKER plus ROCK inhibitor and RevitaCell",
+      "n-butylidenephthalide during differentiation (not a demonstrated CPA)"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "model": "Healthy-donor PBMC-derived iPSC midbrain dopaminergic progenitor spheroids",
+        "formulation": [
+          {
+            "compound": "STEM-CELLBANKER",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "additional ROCK inhibitor",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "RevitaCell",
+            "concentration": 1,
+            "unit": "% as reported"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing",
+          "post_thaw_culture"
+        ],
+        "cooling": "Isopropanol Cryo 1 °C container precooled to 4 °C; −80 °C for 24 h then liquid nitrogen; measured rate not reported",
+        "warming": "37 °C bath until small ice remains; dilute with DMEM/F12, centrifuge and resuspend",
+        "storage": "Liquid nitrogen, 3 months; marker comparison also tested 11 months",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "experiment_id": "p4-neural-1",
+        "intervention": "Freeze day-23 reaggregated dopaminergic progenitor spheroids using the combined commercial medium/recovery workflow",
+        "comparator": "Prefreeze cell counts and 3-versus-11-month storage comparison",
+        "outcome_name": "Post-thaw viable-cell recovery and dopaminergic identity",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate thaw; phenotype 22 days after thaw",
+        "result": "After 3-month storage, reported survival was 85.48 ± 5.16% and recovery (post/pre cell-number ratio) was 83.96 ± 9.96%. Viable cells per spheroid averaged 6.16 × 10^4 before and 5.24 × 10^4 after freezing. At 22 days after thaw, 71.04 ± 1.98% expressed TH/FOXA2; marker fractions did not significantly differ between 3- and 11-month storage. Do not derive the mean recovery by dividing the two grand means.",
+        "sample_size": "Figure 5 n=8 independent experiments for immediate counts/viability/recovery; n=3 for marker comparison; not eight donors",
+        "source_locator": "Results Cryopreservation of mDAp; Figure 5B–G; Methods mDAp cryopreservation and thawing",
+        "evidence_excerpt": "the spheroids were thawed and exhibited healthy morphology"
+      },
+      {
+        "model": "Healthy-donor PBMC-derived iPSC midbrain dopaminergic progenitor spheroids",
+        "formulation": [
+          {
+            "compound": "STEM-CELLBANKER",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "additional ROCK inhibitor",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "RevitaCell",
+            "concentration": 1,
+            "unit": "% as reported"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing",
+          "post_thaw_culture"
+        ],
+        "cooling": "Isopropanol Cryo 1 °C container precooled to 4 °C; −80 °C for 24 h then liquid nitrogen; measured rate not reported",
+        "warming": "37 °C bath until small ice remains; dilute with DMEM/F12, centrifuge and resuspend",
+        "storage": "Liquid nitrogen, 3 months; marker comparison also tested 11 months",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "experiment_id": "p4-neural-2",
+        "intervention": "Transplant thawed progenitor spheroids prepared with the optimized differentiation workflow, including n-BP pretreatment",
+        "comparator": "Medium control and additional cells differentiated without n-BP; no matched fresh-versus-frozen transplant comparison established here",
+        "outcome_name": "Post-transplant motor behavior and graft maturation",
+        "outcome_type": "function",
+        "timepoint": "Functional recovery by 8 weeks; graft observation to 20 weeks and rotation follow-up to 24 weeks",
+        "result": "Thawed grafts survived, formed TH-positive neurites and were associated with motor improvement in 6-OHDA Parkinsonian rats by eight weeks. A no-n-BP differentiation arm improved later. This is evidence of usability after storage, not a test that n-BP is an ice inhibitor or directly improves freeze-thaw survival.",
+        "sample_size": "Figure 7 rotation groups n=8/13 rats and cylinder groups n=14/12; donor-independent replication not established",
+        "source_locator": "Results graft maturation/motor recovery; Figure 7 and supplemental Figure S8 discussion; Methods transplantation",
+        "evidence_excerpt": "accelerated motor recovery in Parkinsonian rats"
+      }
+    ],
+    "main_finding": "The combined workflow permits long-term spheroid storage followed by dopaminergic identity and animal functional outcomes, without isolating CPA ingredients or proving a dual-action cryoprotective molecule.",
+    "limitations": [
+      "Main storage workflow uses one PBMC-derived line; H9 and IMR-90 differentiation checks do not establish matched multi-line cryopreservation validation.",
+      "Methods describe approximately 200 µm spheroids whereas results describe approximately 300 µm; diameter must be clarified before process transfer.",
+      "Methods use approximately 40 spheroids per 1 mL cryotube; ROCK-inhibitor identity/dose in the freezing mixture and commercial formulation composition are not specified in that section.",
+      "All components, differentiation and recovery handling vary together; no physical ice assay or ingredient-isolating freezing comparison is established.",
+      "Recovery and survival have distinct denominators; raw cell counts and paired sample IDs were not independently obtained.",
+      "The paper states raw imaging exceeds 1 TB and is available upon author request. No bulk download or outreach was performed.",
+      "n-BP differentiation effects and animal behavior do not establish cryoprotectant target engagement, clinical efficacy or a new CPA."
+    ],
+    "mechanism_claim": "Direct evidence is storage/recovery, differentiation markers and animal graft function. n-BP is a differentiation intervention; no direct ice activity or isolated cryoinjury pathway effect is established.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "root selected methods, Figure 5/7 results and data-availability review"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "scope": "Primary post-2024-09-15 external sources for small-molecule IRI evaluation. One public experimental supplement was acquired and inspected; no condition-matched numeric external test set has been assembled or scored.",
+  "screening_notes": {
+    "date_rule": "Publication date is after 2024-09-15 (the Warren et al. Nature Communications paper is therefore not repeated here).",
+    "alreadyseen40papers": "The existing 40-paper list is data/pilot-studies.json. DOI checks found no exact DOI overlap with any of the four leads below; title/structure-level overlap was not inferred.",
+    "dolmen_overlap": "No compound-level overlap is asserted. The pinned DOLMEN data are the 2024 Amino/Glyco/Glyco2 benchmark; checking structures in the paywalled/supplementary candidates would require acquiring files and was not performed.",
+    "eligibility_summary": "Two records are direct experimental IRI sources. Two additional records are primary small-molecule ice/cryoprotection mechanism leads but computational-only and must not supply training labels."
+  },
+  "sources": [
+    {
+      "doi": "10.1021/acs.cgd.5c00221",
+      "date": "2025-05-29",
+      "title": "Do Inhibition Studies of Ice Crystallization Indicate Cryoprotectant Efficacy?",
+      "date_type": "online publication 2025-05-29; issue publication 2025-06-18",
+      "sourceURLs": [
+        "https://doi.org/10.1021/acs.cgd.5c00221",
+        "https://pubs.acs.org/doi/abs/10.1021/acs.cgd.5c00221",
+        "https://pubs.acs.org/doi/suppl/10.1021/acs.cgd.5c00221/suppl_file/cg5c00221_si_001.pdf",
+        "https://acs.figshare.com/articles/journal_contribution/Do_Inhibition_Studies_of_Ice_Crystallization_Indicate_Cryoprotectant_Efficacy_/29185191",
+        "https://api.figshare.com/v2/articles/29185191"
+      ],
+      "materialclass": "small molecules (saccharides and other low-molecular-mass compounds); polymers and proteins are also tested in the same study and must be filtered out",
+      "dataavailability": "Official ACS Figshare record 29185191 is public and supplies cg5c00221_si_001.pdf (5,260,937 bytes; application/pdf; MD5 0adbefadfeada8a496b3a825b4b0edcf). The SI contains IRI splat raw images, grain-size distribution plots, experimental methods, and small-molecule/material lists; it does not expose a machine-readable structure/activity table.",
+      "readstatus": "abstract, publisher metadata, official Figshare API metadata, and all 24 SI PDF pages read; pages 1-2 visually inspected with Poppler rendering",
+      "primarysupport": "ACS publisher record plus official ACS Figshare SI record/API (article 29185191) and downloaded SI PDF.",
+      "acquisition": {
+        "figshare_article_id": 29185191,
+        "figshare_doi": "10.1021/acs.cgd.5c00221.s001",
+        "file_id": 54935598,
+        "filename": "cg5c00221_si_001.pdf",
+        "bytes": 5260937,
+        "md5": "0adbefadfeada8a496b3a825b4b0edcf",
+        "sha256": "65b36e1f5bbf3bf05228c8c07af8a8fe7867ec0db32d26a1d01cbc394b2caf4c",
+        "local_path": "data/raw/phase9/acs-2025-si.pdf",
+        "download_status": "downloaded via scripts/with_external_storage.py; hash verified against Figshare metadata; no presentation or main-article bypass downloaded"
+      },
+      "assay_conditions": "IRI splat assay uses triplicate runs and 5, 15, and 30 minute time points; SI documents cross-polarized microscopy, image preprocessing/Cellpose 3 segmentation, ROI filtering, and grain-size distributions. Tested low-molecular-mass materials include glucose, sucrose, maltose, trehalose, DMSO, glycerol, cysteamine, and L-histidine; polymers/protein are separately present and must be excluded. The SI's IRI figures are condition-specific and do not provide a DOLMEN-compatible machine-readable table.",
+      "endpoint_comparability": "The endpoint is splat-assay grain-size distribution/IRI image analysis and is directionally related to DOLMEN %MGS, but time points, formulation details, image-analysis pipeline, and material panel differ. Use only for a separately conditioned external evaluation after structure/condition curation; no numeric outcomes were transcribed.",
+      "eligibility": "Original experimental source acquired, but not eligible for pooled 20/22 mM %MGS evaluation as currently available: reported small-molecule conditions include 1 mM, and the SI presents grain-area distributions without a verified compatible normalization table. Reserve as a condition-shift source; do not add training labels.",
+      "independence_caveats": "Eligible direct experimental lead, but assay conditions and concentration regime differ from DOLMEN and may not be directly poolable. The study reports mixed material classes, so a small-molecule-only extraction and structure normalization are required. Do not transcribe numeric outcomes into training data without a preregistered condition mapping."
+    },
+    {
+      "doi": "10.1016/j.jcis.2026.140021",
+      "date": "2026-05-15",
+      "title": "Self-assembled nanostructures of 3ph-imi[FeCl4] as a strong ice recrystallization inhibitor",
+      "date_type": "ScienceDirect online/article date 2026-05-15; volume 710, article 140021",
+      "sourceURLs": [
+        "https://doi.org/10.1016/j.jcis.2026.140021",
+        "https://www.sciencedirect.com/science/article/pii/S0021979726001980"
+      ],
+      "materialclass": "small-molecule imidazole-based ionic liquids with triphenyl groups (3ph-imi[X]); self-assembled molecular/nanostructured materials",
+      "dataavailability": "Publisher record and abstract are accessible; full text is access restricted. Supplementary files, machine-readable structures, assay-condition labels, and raw IRI measurements were not verified.",
+      "readstatus": "publisher abstract/metadata read; experimental IRI claim confirmed; full text and data not read",
+      "primarysupport": "ScienceDirect publisher article record and abstract; no secondary summary used for the experimental claim.",
+      "independence_caveats": "Promising independent direct-IRI lead, but self-assembly and ionic-liquid counterion effects make it chemically distant from DOLMEN Amino/Glyco2. Treat as a prospective external challenge set only after obtaining structures, formulation conditions, and raw replicate data; no label extraction has been done."
+    },
+    {
+      "doi": "10.1039/d5cc05435d",
+      "date": "2025-11-25",
+      "title": "Collective mechanism of ice recrystallization inhibition by small molecules",
+      "date_type": "online publication 2025-11-25; Chemical Communications 61(95), 18878-18881",
+      "sourceURLs": [
+        "https://doi.org/10.1039/d5cc05435d",
+        "https://pubmed.ncbi.nlm.nih.gov/41186328/"
+      ],
+      "materialclass": "small-molecule solutes and self-assembled solute nanocrystals (theoretical mechanism study)",
+      "dataavailability": "Primary abstract and bibliographic record are accessible; no experimental compound-by-condition IRI dataset was identified.",
+      "readstatus": "PubMed abstract read",
+      "primarysupport": "RSC DOI record is the primary publication; PubMed was used only to confirm bibliographic metadata and abstract.",
+      "independence_caveats": "Screened out for label generation: this is a theoretical model paper that interprets prior experimental trends, not a new experimental IRI source. It may inform mechanism/compatibility review only."
+    },
+    {
+      "doi": "10.1063/5.0282695",
+      "date": "2025-08-07",
+      "title": "Molecular dynamics of ice-active solutions at ice-water interfaces",
+      "date_type": "online publication 2025-08-07; Journal of Chemical Physics 163(21), 214501",
+      "sourceURLs": [
+        "https://doi.org/10.1063/5.0282695",
+        "https://pubmed.ncbi.nlm.nih.gov/40762510/"
+      ],
+      "materialclass": "small solutes including DMSO, methanediol, formic acid/formate, ammonium chloride, sodium chloride, and sodium fluoride",
+      "dataavailability": "Primary abstract and DOI metadata are accessible; reported work is molecular-dynamics simulation with no experimental IRI measurements or label table identified.",
+      "readstatus": "PubMed abstract read",
+      "primarysupport": "AIP DOI record is the primary publication; PubMed was used only to confirm bibliographic metadata and abstract.",
+      "independence_caveats": "Screened out for label generation: computational ice-interface mechanism study, not an experimental IRI source. It can support condition/assay compatibility hypotheses only and must not be presented as an independent external test."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "retrieved_at":"2026-09-06",
+  "attempts":[
+    {"doi":"10.1016/j.isci.2025.113802","pmcid":"PMC12651731","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12651731/","status":"HTTP 200; full article body retrieved","access":"full_text","path":"data/raw/phase5/isci-2025-113802.html","sha256":"e73790738d729b4b363a16bf86c07fb10d4beabf2b9fdabea9d97315ca220c8f"},
+    {"doi":"10.1039/d6tb01172a","url":"https://pubs.rsc.org/en/content/articlelanding/2026/tb/d6tb01172a","status":"HTTP 403 publisher page; no legitimate open full text located in bounded pass","access":"abstract_only","license_or_gap":"Crossref/queued abstract metadata available; methods and supplement unavailable without bypass."}
+  ]
+}

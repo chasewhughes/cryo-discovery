@@ -1,0 +1,2150 @@
+{
+  "retrieved_at": "2026-09-05",
+  "source_files": [
+    "data/discovery/physical-search.json",
+    "data/discovery/ice-search.json"
+  ],
+  "successful_query_count": 2,
+  "failed_query_count": 2,
+  "record_count": 194,
+  "records": [
+    {
+      "doi": "10.1002/adma.202420504",
+      "pmid": "40878389",
+      "title": "An Ultrapotent, Ultraeconomical, Antifreeze Polypeptide.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/adma.72714",
+      "pmid": "41811195",
+      "title": "Cryopreservative Bioink Enables Direct Bioprinting of Adherent Cells.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1002/adma.73464",
+      "pmid": "42281270",
+      "title": "Bioinspired (Glyco)Polypeptides for Ice-Control and Cell Cryopreservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/advs.75947",
+      "pmid": "42272450",
+      "title": "Lessons From Drug Discovery for Cryoprotective Agent Design: An AI-Oriented Perspective.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/bies.70156",
+      "pmid": "42370811",
+      "title": "Biobanked Liver Organoids: A Roadmap for Precision Hepatology.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/bit.70116",
+      "pmid": "41313085",
+      "title": "Bottom-Up Ice Growth Geometry Attenuates Shear Stress and Improves the Cryopreservation of Hematopoietic Stem/Progenitor Cells Under Low DMSO Concentrations.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/btpr.3504",
+      "pmid": "39268839",
+      "title": "Optimizing cryopreservation strategies for scalable cell therapies: A comprehensive review with insights from iPSC-derived therapies.",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")",
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/btpr.70019",
+      "pmid": "40071781",
+      "title": "Enhancing cryopreservation of human induced pluripotent stem cells: Bottom-up versus conventional freezing geometry.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1002/btpr.70031",
+      "pmid": "40171754",
+      "title": "Cryopreservation practices in clinical and preclinical iPSC-based cell therapies: Current challenges and future directions.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/ibra.12189",
+      "pmid": "40103698",
+      "title": "Somatic cell reprogramming for Parkinson's disease treatment.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/mabi.202500217",
+      "pmid": "40843489",
+      "title": "Microfluidics-Generated Cryo-Fracture Resistant CNCs-Reinforced Composite Microcapsules for Enhanced Cryopreservation of Encapsulated Cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1002/mrd.70072",
+      "pmid": "41376602",
+      "title": "In Vitro Gamete Production in Mammals: Decades of Pioneering Approaches in Germ Cell and Stem Cell Biology Supporting Innovative Discovery and Expansion of Human Reproductive Potential.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1007/978-3-031-97297-3_20",
+      "pmid": "41136846",
+      "title": "Barriers to Effective Cryopreservation of Cell Therapies: Challenges and Emerging Solution.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1007/s11259-025-10651-w",
+      "pmid": "39841301",
+      "title": "Optimization of canine sperm cryopreservation by focusing on glycerol concentration and freezing rate.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1007/s11626-025-01027-0",
+      "pmid": "40266443",
+      "title": "Cryopreservation of biological materials: applications and economic perspectives.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1007/s12015-026-11156-y",
+      "pmid": "42189488",
+      "title": "Induced Pluripotent Stem Cell-Derived NK Cells as an Off-the-Shelf Platform for Cancer Immunotherapy: Opportunities, Challenges, and Clinical Translation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1007/s44211-025-00815-8",
+      "pmid": "40613876",
+      "title": "The impact of initial cooling rates on cell preservation in frozen water-dimethyl sulfoxide media: a morphological study.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.bbamem.2026.184502",
+      "pmid": "41571223",
+      "title": "Effect of ice recrystallization inhibition on hydrogen bonding interactions and membrane leakage of liposomes.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.bbrep.2025.102383",
+      "pmid": "41362646",
+      "title": "Systematic optimization of &lt;i&gt;Caenorhabditis elegans&lt;/i&gt; cryopreservation.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.bioactmat.2025.12.053",
+      "pmid": "41551757",
+      "title": "Antifreezing hydrogels for biomedical applications from design strategies to emerging multifunctionality.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105620",
+      "pmid": "42008860",
+      "title": "Cryopreservation of primary human brain vascular pericytes in suspension.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105627",
+      "pmid": "41932003",
+      "title": "Electric fields for warming cryopreserved tissue.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105635",
+      "pmid": "42150237",
+      "title": "The interconnection of cryobiology and tissue engineering.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105640",
+      "pmid": "42127885",
+      "title": "External N-2-fluorophenyl-D-gluconamide does not affect zebrafish embryogenesis.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105650",
+      "pmid": "42229219",
+      "title": "Multiscale investigation of Snomax effects on supercooling with application to high-subzero cryopreservation: Calorimetry and cryomacroscopy.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105688",
+      "pmid": "42607523",
+      "title": "Perfusion-based delivery of an ice recrystallization inhibitor in rat liver tissue.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105699",
+      "pmid": "42648083",
+      "title": "Vacuum-assisted sucrose impregnation improves frozen pineapple quality through water-state modification.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.ejpb.2026.115168",
+      "pmid": "42364663",
+      "title": "Systematic evaluation of cryopreservation parameters for natural killer cells in clinically relevant cyclic olefin polymer vials.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.exphem.2026.105873",
+      "pmid": "42660306",
+      "title": "Evolution in the cryopreservation of hematopoietic stem cells.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.fochx.2026.104140",
+      "pmid": "42394676",
+      "title": "Bio-based trifunctional integration strategies for aquatic products during frozen storage: Synergistic mechanisms and perspectives.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2025.147495",
+      "pmid": "41386088",
+      "title": "New insights into the cryoprotective mechanism of antifreeze peptides for surimi: Dual regulation of ice crystals and myosin.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2025.147834",
+      "pmid": "41570687",
+      "title": "Uncovering cryoprotective mechanism of natural deep eutectic solvents for highly efficient cryopreservation of Lactiplantibacillus plantarum.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2026.149173",
+      "pmid": "41967405",
+      "title": "Improving porcine meat quality during freezing with agaro-oligosaccharide and pigskin collagen peptides: A study on ice recrystallization and myofibrillar proteins structure.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodres.2025.118310",
+      "pmid": "41652712",
+      "title": "Casein phosphopeptide as a high-performance cryoprotectant in frozen dough: Ice inhibition behaviors, stabilized gluten network, and improved quality attributes.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.118549",
+      "pmid": "41794538",
+      "title": "Chitosan and sulfated glucan nanoparticles: A novel strategy for cryopreservation of Lactobacillus plantarum.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119348",
+      "pmid": "42169309",
+      "title": "Glycyrrhizic acid nanofibrils as potent ice recrystallization inhibitors: mechanism and application in ice cream.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119902",
+      "pmid": "42632737",
+      "title": "Cryoprotective effects of fish skin collagen peptide on frozen gluten proteins: From conformational changes to functional properties.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119924",
+      "pmid": "42632679",
+      "title": "Molecular mechanisms of antifreeze natural deep eutectic solvents in frozen food systems: Hydrogen-bond network and ice regulation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.ijbiomac.2025.148084",
+      "pmid": "41046892",
+      "title": "Freeze-denaturation mitigation in surimi by Naematelia aurantialba polysaccharides: structural stabilization and ice recrystallization inhibition.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.isci.2025.113802",
+      "pmid": "41312381",
+      "title": "Protease-catalyzed enzymatic synthesis of antifreeze peptide oligomers and their cryopreservation performance.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1016/j.jcyt.2025.102008",
+      "pmid": "41344218",
+      "title": "Very cold but still too warm; functional characterization of transient warming events in stem cell grafts.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.jcyt.2025.102041",
+      "pmid": "41762958",
+      "title": "Bridging process diversity in cell therapies toward standardization of manufacturing workflows.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.jcyt.2026.102815",
+      "pmid": "42580029",
+      "title": "cGMP-compliant large-scale manufacturing of human-induced pluripotent stem cells: current progress and challenges.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.jpha.2026.101676",
+      "pmid": "42381656",
+      "title": "Recent advances and expanding applications of organoid models in unveiling drug ADME profiles.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.jtherbio.2025.104234",
+      "pmid": "40912070",
+      "title": "Impact of nucleation temperature and hydroxyethyl starch on ice crystal growth: Implications for cell viability during extreme temperature fluctuations.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.lssr.2025.08.002",
+      "pmid": "41565410",
+      "title": "3D culture and cryopreservation/thawing strategy of human induced pluripotent stem cells for spaceflight experiments.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1016/j.mtbio.2025.102148",
+      "pmid": "40791795",
+      "title": "Organoid-on-a-chip (OrgOC): Advancing cystic fibrosis research.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.mtbio.2025.102529",
+      "pmid": "41322149",
+      "title": "Red blood cell-activated antifreeze metal-organic framework armor for cryopreservation.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.mtbio.2026.103433",
+      "pmid": "42472010",
+      "title": "Multiscale biomimetic design for peripheral nerve repair: Beyond passive bridging.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.nsa.2026.106988",
+      "pmid": "41756022",
+      "title": "Differentiation of human iPSCs into dopaminergic neurons: comparative analysis of 2D and 3D protocols for disease modeling and pharmacology.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.omta.2026.201813",
+      "pmid": "42564981",
+      "title": "Natural killer cell cryopreservation: Influence of composition, temperature, and granules on post-thaw survival and function.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")",
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.psj.2026.106710",
+      "pmid": "41846085",
+      "title": "Oxidative homeostasis and survival instincts of chicken egg, embryo and adult.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.scr.2026.103936",
+      "pmid": "41719743",
+      "title": "Generation of two isogenic sickle cell disease induced pluripotent stem cell lines from ovarian fibroblasts.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.stemcr.2026.102968",
+      "pmid": "42314676",
+      "title": "Early replication fragile sites are associated with cancer-related CNVs and SNVs in human embryonic stem cells.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.102881",
+      "pmid": "42349415",
+      "title": "Advancing CAR-NK cell therapy in solid tumors: Current landscape and future directions.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xpro.2025.104263",
+      "pmid": "41364556",
+      "title": "Protocol for the differentiation of induced pluripotent stem cells into retinal pigment epithelial cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xpro.2026.104385",
+      "pmid": "41719137",
+      "title": "Protocol for combining BMP, MEK, WNT inhibition and iNGN2 to enable rapid neuronal differentiation and regional patterning from hiPSCs.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xpro.2026.104393",
+      "pmid": "41762654",
+      "title": "Protocol for generating megakaryocytes from patient induced pluripotent stem cells for disease modeling and compound screening.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xpro.2026.104532",
+      "pmid": "42054213",
+      "title": "Protocol for culture and maintenance of canine induced pluripotent stem cells.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.xpro.2026.104552",
+      "pmid": "42149716",
+      "title": "Protocol for insulin dosing during expansion and maturation of human iPSC-derived cardiomyocytes.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1016/j.ymthe.2025.07.045",
+      "pmid": "40745920",
+      "title": "Advancing CAR-T cell therapy: Insights into patient biology, leukapheresis, and cryopreservation.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.biomac.4c00760",
+      "pmid": "39051654",
+      "title": "Cryopreserved Kidney Epithelial (Vero) Cell Monolayers for Rapid Viral Quantification, Enabled by a Combination of Macromolecular Cryoprotectants.",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00086",
+      "pmid": "40084906",
+      "title": "Side-Functionalization of Poly(l-methionine) for Ice Control.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00559",
+      "pmid": "41088883",
+      "title": "Ethylene Glycol and Trehalose Cryopreservation of Cell-Laden Hydrogel Microspheres Enabled by Microfluidic Fabrication.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.5c06104",
+      "pmid": "41992706",
+      "title": "Programmable Cooling-Free Cryopreservation via Multi-Parameter Optimization of Natural Deep Eutectic Solvents.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c00027",
+      "pmid": "41824941",
+      "title": "Enhanced Preservation of HEK293T Cells and Rat Kidneys by Optimizing Double-Phase Isochoric Freezing with Active Nucleation Management.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c00431",
+      "pmid": "42081670",
+      "title": "Microstructured Surface Design for Ice Nucleation Control Assisted by a Hybrid Classical Nucleation Theory-Blackbox Approach.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c02072",
+      "pmid": "42689668",
+      "title": "Regulating Heterogeneous Ice Nucleation via Cation-Specific Modulation of the Electric Double Layer.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acsami.3c11260",
+      "pmid": "38060278",
+      "title": "Poly(l-alanine-<i>co</i>-l-threonine succinate) as a Biomimetic Cryoprotectant.",
+      "pubYear": "2023",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acsami.5c22113",
+      "pmid": "41591409",
+      "title": "Development of Organogel-AFPT System for Encapsulation and Cryopreservation of &lt;i&gt;Yarrowia lipolytica&lt;/i&gt;.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acsmacrolett.5c00473",
+      "pmid": "41061204",
+      "title": "Structural Insights into Ice Recrystallization Activity of Helical Disubstituted Polypeptoids.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acsomega.5c10512",
+      "pmid": "41908451",
+      "title": "Disappearance of Electro-Freezing in Salt Solutions Beyond a Critical Ion Concentration: Salt-Type Independence.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acsomega.5c11565",
+      "pmid": "41939373",
+      "title": "Silk Microneedles for Targeted Epidermal Delivery of Antifreeze Proteins.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1021/acspolymersau.5c00151",
+      "pmid": "41693816",
+      "title": "Cryopreservation of Avian Erythrocytes Using Macromolecular Cryoprotectants.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41392-026-02582-y",
+      "pmid": "42135300",
+      "title": "Clinical translational research on stem cell products: prospects and challenges.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41526-026-00598-w",
+      "pmid": "42020394",
+      "title": "Efficient long-term cryopreservation of Arthrospira platensis NIES-39 and adaptation for the Space Algae-2 spaceflight experiment.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41531-026-01399-4",
+      "pmid": "42191734",
+      "title": "Cryopreservable dopaminergic progenitors derived from human iPSCs with accelerated loss of pluripotency and early functional restoration in Parkinsonian rats.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1038/s41570-022-00407-4",
+      "pmid": "35875681",
+      "title": "Chemical approaches to cryopreservation.",
+      "pubYear": "2022",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41596-026-01347-9",
+      "pmid": "41912763",
+      "title": "Patient-derived ependymoma and medulloblastoma tumoroids: generation, biobanking and drug screening.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41598-025-32439-3",
+      "pmid": "41526428",
+      "title": "Improved cryopreservation of cardiomyocyte aggregates differentiated from GMP iPSC in a 3D culture format.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1038/s41598-026-37136-3",
+      "pmid": "41571879",
+      "title": "Pressure enhanced dual-solid-surface ultra-rapid cooling improves post-thaw recovery in hepatocytes and precision cut liver slices.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41598-026-55500-1",
+      "pmid": "42230920",
+      "title": "Resurrection of chromosomes from frozen animals by single chromosome transfer into mouse oocytes.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s41598-026-59927-4",
+      "pmid": "42393174",
+      "title": "Cryopreservation alters contractile function of human induced pluripotent stem cell-derived cardiomyocytes.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1038/s44303-026-00181-8",
+      "pmid": "42426321",
+      "title": "Automated image analysis for intracellular ice detection in monolayers by freeze-substitution.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1038/s44385-025-00048-4",
+      "pmid": "41522237",
+      "title": "Progress and challenges in transplantation of human pluripotent stem cell derived cardiomyocytes for cardiac therapy.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1039/d5lp00131e",
+      "pmid": "40503111",
+      "title": "Cryopreservation and post-thaw differentiation of monocytes enabled by macromolecular cryoprotectants which restrict intracellular ice formation.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1039/d5na00534e",
+      "pmid": "41210600",
+      "title": "Application of nanomaterials in organoid culture and cryopreservation.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1039/d6tb00077k",
+      "pmid": "42171213",
+      "title": "Tyrosine monomer nanocrystal as a potent ice recrystallization inhibition activity.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1039/d6tb01172a",
+      "pmid": "42478158",
+      "title": "Amino acid-functionalised trehalose for multifunctional cryopreservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1063/5.0312183",
+      "pmid": "41711335",
+      "title": "Predictive correlation and mechanistic understanding of ice nucleation in cryoprotective solutions.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1080/10717544.2026.2614101",
+      "pmid": "41548121",
+      "title": "Cryopreservation technology for improving the stability of liposomes and its precise drug monitoring in clinical drug research.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1093/biolre/ioag089",
+      "pmid": "42176253",
+      "title": "A feeder-free culture system supports long-term expansion and germline competence of bovine formative embryonic stem cells†.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1093/hropen/hoag054",
+      "pmid": "42389191",
+      "title": "Human iPSCs derived from cryopreserved testicular somatic cells enable germline regeneration in childhood cancer survivors.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1093/humupd/dmaf032",
+      "pmid": "41445111",
+      "title": "Epitranscriptomic modifications in embryonic development: insights into natural and ART-induced mechanisms and implications.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1093/stcltm/szaf073",
+      "pmid": "41510818",
+      "title": "Human induced pluripotent stem cell-derived neural stem/progenitor cell therapy for spinal cord injury: preclinical advances and translational perspectives.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1093/stcltm/szag040",
+      "pmid": "42367074",
+      "title": "Genomic stability of human pluripotent stem cells: advances in research and screening criteria.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1097/tp.0000000000005494",
+      "pmid": "40702598",
+      "title": "Cryopreservation Strategies to Improve Access to Organ Transplantation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1101/2024.10.30.621091",
+      "pmid": null,
+      "title": "Enhancing cryopreservation of human iPSCs: Bottom-up vs Conventional freezing geometry",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1101/2025.07.18.664799",
+      "pmid": null,
+      "title": "Tailoring a glycerol-free cryopreservation protocol with anti-freeze (glycol)proteins for commercial and native breeds of chicken",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1111/andr.70303",
+      "pmid": "42381517",
+      "title": "Proteomic Profiling of Cryopreservation-Induced Alterations in Rhesus Macaque Sperm.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1111/cpr.70008",
+      "pmid": "39995219",
+      "title": "Advances in the Study of Pluripotent Stem Cells in Livestock.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1111/eci.70172",
+      "pmid": "41587925",
+      "title": "Advancing urine-derived stem cells: Cryopreservation validation and sex-specific metabolism.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1111/trf.18204",
+      "pmid": "40059666",
+      "title": "Strategies to improve platelet cryopreservation: A narrative review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1111/trf.70253",
+      "pmid": "42083450",
+      "title": "Hold on to your units: Quality of red cell concentrates is only affected after multiple transient warming events.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1136/bmjonc-2025-000843",
+      "pmid": "41623933",
+      "title": "Impact of immunotherapy and small molecule cancer therapy on fertility: a narrative review of current evidence, mechanisms and future directions.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1136/bmjopen-2025-111718",
+      "pmid": "42419896",
+      "title": "Safety and early efficacy of iPSC-derived motor neuron progenitor cells in subacute spinal cord injury: protocol for a phase I, multicentre, open-label, single-arm trial.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1159/000552492",
+      "pmid": "42427961",
+      "title": "From Donation to Innovation: New Blood-Derived Products.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1177/09636897261417623",
+      "pmid": "41685625",
+      "title": "Advances in stem cell-derived beta-cell therapy: A new frontier in type 1 diabetes treatment.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1177/11795735261463495",
+      "pmid": "42482997",
+      "title": "A Translational Readiness Checklist for Stem-Cell-Based Trials in Movement Disorders: A Practical Roadmap.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1177/20417314251373038",
+      "pmid": "41728257",
+      "title": "Nanopatterned bioresorbable elastomeric scaffolds to promote neural, glial, and endothelial differentiation using human embryonic and induced pluripotent stem cells.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12893-025-03413-7",
+      "pmid": "41413516",
+      "title": "Progress and future prospects for the surgical treatment of permanent hypoparathyroidism after thyroid surgery: a narrative review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12917-025-04872-z",
+      "pmid": "40702466",
+      "title": "Knowledge of companion animals' practitionerson stem-cell based therapies in a clinical context: a questionnaire-based survey in Portugal.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12931-025-03265-y",
+      "pmid": "40375251",
+      "title": "Cryopreservation of human lung tissue for 3D ex vivo analysis.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12943-026-02648-z",
+      "pmid": "41882710",
+      "title": "CAR-NK cell therapy for hematologic malignancies: advances, challenges and optimization strategies.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12951-025-03265-6",
+      "pmid": "40050919",
+      "title": "Overcoming ice: cutting-edge materials and advanced strategies for effective cryopreservation of biosample.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s12958-026-01540-1",
+      "pmid": "41776625",
+      "title": "Frozen-Thawed ovarian autografts treated with scaffold-based melatonin delivery in rats.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s13048-025-01793-1",
+      "pmid": "41035050",
+      "title": "The mechanism and protective strategies of follicle injury after ovarian tissue cryopreservation and thawed transplantation: a review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s13287-025-04384-5",
+      "pmid": "40495211",
+      "title": "DMSO-free cryopreservation of hiPSC-derived cardiomyocytes: low temperature characterization and protocol development.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.1186/s13287-025-04818-0",
+      "pmid": "41316377",
+      "title": "Scaffold-free cell sheet therapies: clinical advances, global approval landscapes, and strategic directions to address regenerative medicine barriers.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s13287-025-04871-9",
+      "pmid": "41457250",
+      "title": "Cryogenic microcarrier-assisted stem cell storage (Cryo-MASCS): a preservation method enabling scalable culture of human mesenchymal stem cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")",
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s13619-025-00256-8",
+      "pmid": "40794227",
+      "title": "Female germline stem cells: recent advances, opportunities, and challenges to overcome.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1186/s13619-026-00291-z",
+      "pmid": "42298247",
+      "title": "Standard: human breast cancer organoids derived from diverse clinical sample sources.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1262/jrd.2025-114",
+      "pmid": "42309731",
+      "title": "Biobanking biodiversity: recent strategies, challenges, and opportunities.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1292/jvms.25-0390",
+      "pmid": "41423246",
+      "title": "Induction of pluripotency in large Japanese field mouse (Apodemus speciosus) fibroblasts via reprogramming.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1371/journal.pone.0318459",
+      "pmid": "40048460",
+      "title": "Antifreeze proteins produced by Antarctic yeast from the genus Glaciozyma as cryoprotectants in food storage.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1530/raf-25-0196",
+      "pmid": "42447040",
+      "title": "Patient-specific in vitro follicle development in response to ovarian freezing and culture.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.1590/1984-3143-ar2025-0096",
+      "pmid": "42524470",
+      "title": "Cryopreservation of jaguar (&lt;i&gt;Panthera onca&lt;/i&gt;) fibroblast-like cells in straws and cryovials: a comparison of rapid and slow-freezing protocols.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.18699/vjgb-26-43",
+      "pmid": "42245181",
+      "title": "Factors of wheat frost hardiness - ice recrystallization inhibitor proteins.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.20517/evcna.2025.65",
+      "pmid": "41132506",
+      "title": "Stem-cell-derived extracellular vesicles in neurodegeneration and neuroaging: therapeutic potential and challenges.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-5183739/v1",
+      "pmid": null,
+      "title": "DMSO-free cryopreservation of hiPSC-derived cardiomyocytes: Low temperature characterization and protocol development",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.31557/apjcp.2026.27.1.297",
+      "pmid": "41569198",
+      "title": "Immunogenicity of Fetal Liver-Derived Progenitor and Stem Cells: Expression of MHC Molecules.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3343/alm.2025.0687",
+      "pmid": "42037133",
+      "title": "Laboratory Assessment and Clinical Outlook for &lt;i&gt;Ex Vivo&lt;/i&gt;-Produced Human Platelets and Megakaryocytes from Stem Cell Sources.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fbioe.2025.1536750",
+      "pmid": "40242357",
+      "title": "Non-human primate: the new frontier model of female reproductive engineering.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fbioe.2025.1734717",
+      "pmid": "41425154",
+      "title": "Editorial: Role of induced pluripotent stem cells (iPSCs) in regenerative medicine, disease modeling and drug discovery.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fbioe.2026.1717539",
+      "pmid": "41647357",
+      "title": "Research advances in cryopreserved preparations of mesenchymal stem cells: technical innovations, application challenges, and quality control.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fbioe.2026.1842889",
+      "pmid": "42344847",
+      "title": "Maternal-fetal interface organoids: a new era in pregnancy research.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fcell.2025.1571198",
+      "pmid": "40356599",
+      "title": "Effect of low-frequency assisted ultrasonic on cryopreservation of L-02 hepatocyte cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fcell.2025.1595897",
+      "pmid": "40970094",
+      "title": "CRISPR/Cas-edited iPSCs and mesenchymal stem cells: a concise review of their potential in thalassemia therapy.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fcell.2026.1810206",
+      "pmid": "42148306",
+      "title": "Induced pluripotent stem cells as platforms for engineering NK cell immunotherapies.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fendo.2026.1768391",
+      "pmid": "41847457",
+      "title": "Reflections on prevention and treatment of post-thyroidectomy hypoparathyroidism: current management approaches and future prospects.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fendo.2026.1798693",
+      "pmid": "42267295",
+      "title": "Ethical considerations and management strategies for fertility preservation in women of reproductive age with malignant tumors: Chinese practices and perspectives.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fimmu.2022.1030965",
+      "pmid": "36275725",
+      "title": "Strategies in developing dimethyl sulfoxide (DMSO)-free cryopreservation protocols for biotherapeutics.",
+      "pubYear": "2022",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fimmu.2025.1719056",
+      "pmid": "41607802",
+      "title": "Deciphering reprogramming efficiency in human induced pluripotent stem cells: insights from the generation of 150 cell lines.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fimmu.2026.1745174",
+      "pmid": "41789067",
+      "title": "Stem cell-based therapies for silicosis: mechanisms, sources, clinical translation, and emerging strategies.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fmicb.2026.1800179",
+      "pmid": "42131215",
+      "title": "Antarctic microbial protein-rich extracts with cryoprotective potential for cell and viral preservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/frtra.2025.1614849",
+      "pmid": "40860015",
+      "title": "Long-term storage, cryopreservation, and culture of isolated human islets: a systematic review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fvets.2026.1797831",
+      "pmid": "42078852",
+      "title": "Research progress on novel bionic cryoprotectants in gamete and embryo cryopreservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3389/fvets.2026.1807486",
+      "pmid": "42027816",
+      "title": "Development of a three-dimensional vitrification protocol for domestic cat cumulus-oocyte complexes and comparison with standard vitrification.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ani16091406",
+      "pmid": "42121825",
+      "title": "Research Progress on Mammalian Oocyte Vitrification: From Damage Mechanisms to Optimization Strategies.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ani16142191",
+      "pmid": "42511070",
+      "title": "Current Advances in Cetacean Semen Cryopreservation and Their Application to Yangtze Finless Porpoise Conservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/antiox14091100",
+      "pmid": "41009005",
+      "title": "A Nanoformulation of Ubiquinol and Selenium Promotes Proliferation of Human Induced Pluripotent Stem Cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/antiox14121412",
+      "pmid": "41462612",
+      "title": "Integrated Antioxidants, Nanoparticle, and Antifreeze Protein Strategies Synergistically Enhance Cryotop Vitrification Outcomes of Porcine Parthenogenetic Embryos.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.3390/antiox15010107",
+      "pmid": "41596165",
+      "title": "Cold Shock Protein B as an Alternative to DMSO for Oocyte Vitrification.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.3390/bioengineering13030275",
+      "pmid": "41899806",
+      "title": "Extracellular Vesicles in Ophthalmology: From Natural Nanocarriers to Engineered Therapeutics.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/bioengineering13050557",
+      "pmid": "42194314",
+      "title": "Bridging the Gap in Cryopreservation: A Review of Cryoprotectant Innovation and Global Market Trends.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biology14101381",
+      "pmid": "41154784",
+      "title": "Evaluating the Response to Cryopreservation of Ovine Fibroblast Spheroids.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biology15131092",
+      "pmid": "42450639",
+      "title": "Ethical Challenges and Governance Strategies for Microphysiological Systems Technology.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biomedicines13092313",
+      "pmid": "41007873",
+      "title": "Human Stem Cells in Disease Modelling and Treatment: Bridging the Gap Between Bench and Bedside.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biomedicines14051102",
+      "pmid": "42193425",
+      "title": "Stem Cell Therapies for Gastrointestinal and Liver Diseases: Translational Barriers, Clinical Heterogeneity, and Future Directions.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biomedicines14061323",
+      "pmid": "42351751",
+      "title": "Induced Pluripotent Stem Cells in Corneal Regeneration: Biological Progress, Translational Barriers and Clinical Outlook.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biomimetics10060368",
+      "pmid": "40558337",
+      "title": "Topology-Dependent Antifreeze Properties of Biomimetic Linear and Star-Shaped Peptoids.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/biomimetics11020134",
+      "pmid": "41744580",
+      "title": "Silk Proteins as Biomaterial Additives for DMSO-Reduced Cryopreservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/cells15121065",
+      "pmid": "42346092",
+      "title": "Evaluation of a Room-Temperature Preservation Method Maintaining Viability and Function in Human Cardiac Organoids.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")",
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/foods15111836",
+      "pmid": "42279623",
+      "title": "Study on the Freezing Protection Effect of Melatonin on &lt;i&gt;Lactobacillus plantarum&lt;/i&gt; FQR.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/foods15142494",
+      "pmid": "42511240",
+      "title": "Towards Cost-Effective and Sustainable Media Formulations for Terrestrial and Aquatic Cellular Agriculture.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/foods15162878",
+      "pmid": "42650572",
+      "title": "Cryoprotective Role of Soybean Oligosaccharides in Frozen Dough: Enhanced Gluten Stability and Bread Quality.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/gels11120947",
+      "pmid": "41441104",
+      "title": "Alginate Hydrogel with Pluronic F-68 Enhances Cryopreservation Efficiency in Peach Germplasm.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/gels12020106",
+      "pmid": "41744978",
+      "title": "Hydrogel Systems in Plant Germplasm Cryopreservation: A Comprehensive Review.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/genes15050624",
+      "pmid": "38790253",
+      "title": "The Effect of Short- and Long-Term Cryopreservation on Chicken Primordial Germ Cells.",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/genes16101242",
+      "pmid": "41153459",
+      "title": "Imprinting Disorders and Epigenetic Alterations in Children Conceived by Assisted Reproductive Technologies: Mechanisms, Clinical Outcomes, and Prenatal Diagnosis.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ijms252011124",
+      "pmid": "39456905",
+      "title": "Current State and Challenges of Tissue and Organ Cryopreservation in Biobanking.",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ijms26146908",
+      "pmid": "40725153",
+      "title": "Advances in Cryopreservation Strategies for 3D Biofabricated Constructs: From Hydrogels to Bioprinted Tissues.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ijms27104183",
+      "pmid": "42196167",
+      "title": "The Autologous Hair Follicle and Its Secretome: A Multipotent Source for Cell-Based and Cell-Free Regenerative Therapies.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ijms27125614",
+      "pmid": "42353327",
+      "title": "Building Disease Models for Endometriosis: iPSCs as Game-Changers.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ijms27135879",
+      "pmid": "42450149",
+      "title": "Revolutionizing Renal Replacement: Current Advancements in Development and Transplantation of Bioengineered Kidneys.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/jcm14196942",
+      "pmid": "41096022",
+      "title": "The Use of Stem Cells in Assisted Reproduction.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ph18121830",
+      "pmid": "41471318",
+      "title": "Bioengineering Stem Cell-Derived Glioblastoma Organoids: A Comprehensive Review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/ph19030464",
+      "pmid": "41901310",
+      "title": "Mesenchymal Stem Cell Therapy for Neurological Complications of Prematurity: A Narrative Review.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/plants14203127",
+      "pmid": "41157686",
+      "title": "A Cryopreservation and Regeneration Protocol for Embryogenic Callus of &lt;i&gt;Larix olgensis&lt;/i&gt;.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/polym17121600",
+      "pmid": "40574127",
+      "title": "Glycopolypeptoids as Novel Biomimetic Antifreeze Agents: Structural Design, Synthesis, and Antifreeze Properties.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3390/vetsci12050397",
+      "pmid": "40431490",
+      "title": "Advancements in Stem Cell Applications for Livestock Research: A Review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.34133/bmr.0302",
+      "pmid": "41503136",
+      "title": "Size Effect of Stem Cell Spheroids in Their Cryopreservation Using Low-Molecular-Weight PEGs as a Cryoprotectant.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.34133/research.0520",
+      "pmid": "39545039",
+      "title": "The Inhibition of Interfacial Ice Formation and Stress Accumulation with Zwitterionic Betaine and Trehalose for High-Efficiency Skin Cryopreservation.",
+      "pubYear": "2024",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3791/68613",
+      "pmid": "40920620",
+      "title": "Defined Xenofree Reprogramming of Cord Blood Progenitors to Induced Pluripotent and Blastomere-Like Stem Cells.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.3791/70522",
+      "pmid": "42044032",
+      "title": "Reprogramming Induced Pluripotent Stem Cell Lines from Frozen Buffy Coat Samples.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.4252/wjsc.v18.i1.114119",
+      "pmid": "41608650",
+      "title": "Aging puzzle: A closer look on the complex dilemma of autologous stem cell therapy.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.5187/jast.2500457",
+      "pmid": "42291116",
+      "title": "Development of an oscillating magnetic field-assisted supercooling system for bovine embryo preservation.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.64898/2026.07.24.740597",
+      "pmid": null,
+      "title": "Cryoaerosolization Enables Scalable Vitrification-Based Cell Cryopreservation",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": true,
+      "screening_status": "pilot"
+    },
+    {
+      "doi": "10.64898/2026.08.21.746139",
+      "pmid": null,
+      "title": "AFP-R: An Open Resource Dedicated to Antifreeze Proteins",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.7555/jbr.39.20250251",
+      "pmid": "40958430",
+      "title": "Role of stem cells in ocular diseases: Progress and challenges.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.7759/cureus.100012",
+      "pmid": "41583239",
+      "title": "Uterus Cryopreservation From Experimental Models to Clinical Application: A Translational Review.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.7759/cureus.111930",
+      "pmid": "42542743",
+      "title": "Cell-Based Therapies for Type 1 Diabetes: A Narrative Review of Stem Cell-Derived Islets, Encapsulation Strategies, and Recent Clinical Trials.",
+      "pubYear": "2026",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.7759/cureus.76770",
+      "pmid": "39897258",
+      "title": "Assessing the Potential Benefits of Stem Cell Therapy in Cardiac Regeneration for Patients With Ischemic Heart Disease.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    },
+    {
+      "doi": "10.7759/cureus.93999",
+      "pmid": "41210051",
+      "title": "Induced Pluripotent Stem Cells (iPSC) and Their Use in Disease Modeling.",
+      "pubYear": "2025",
+      "matched_queries": [
+        "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (cryopreservation OR cryoprotectant) AND (\"induced pluripotent\" OR \"embryonic stem\")"
+      ],
+      "is_pilot": false,
+      "screening_status": "unscreened"
+    }
+  ]
+}

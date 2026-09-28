@@ -1,0 +1,64 @@
+{
+  "doi": "10.1021/acs.cgd.5c00221.s002",
+  "url": "https://ndownloader.figshare.com/files/54935601",
+  "local_path": "data/raw/phase10/acs-2025-si-002.pptx",
+  "bytes": 61841604,
+  "sha256": "413a3f21cb290ce68096bec013d80a7ec03d65a8b5906c8d3477e842fa2c9e2e",
+  "md5": "42de1a45d1958f41c374b8b4ec850537",
+  "inspection": "ZIP inventory and slide XML text; no slide media or embedded object executed. No activity values digitized.",
+  "inventory": {
+    "embeddings": [],
+    "media": [
+      {
+        "name": "ppt/media/image4.png",
+        "bytes": 901569
+      },
+      {
+        "name": "ppt/media/image2.png",
+        "bytes": 641087
+      },
+      {
+        "name": "ppt/media/image3.png",
+        "bytes": 589654
+      },
+      {
+        "name": "ppt/media/image1.png",
+        "bytes": 847128
+      },
+      {
+        "name": "ppt/media/media4.mp4",
+        "bytes": 3246438
+      },
+      {
+        "name": "ppt/media/media3.mp4",
+        "bytes": 30602821
+      },
+      {
+        "name": "ppt/media/media2.mp4",
+        "bytes": 18052199
+      },
+      {
+        "name": "ppt/media/media1.mp4",
+        "bytes": 6917131
+      }
+    ],
+    "slides": [
+      {
+        "part": "ppt/slides/slide1.xml",
+        "text": "Glycerol (1 mM)"
+      },
+      {
+        "part": "ppt/slides/slide2.xml",
+        "text": "AFPIII 10 \u00b5M (with buffer)"
+      },
+      {
+        "part": "ppt/slides/slide3.xml",
+        "text": "AFPIII 10 \u00b5M (without buffer)"
+      },
+      {
+        "part": "ppt/slides/slide4.xml",
+        "text": "Glycerol 1mM AFPIII 10 \u00b5M (w/ buffer) AFPIII 10 \u00b5M (w/o buffer) PVA 0.01 mg/mL PVA (0.01 mg/mL)"
+      }
+    ]
+  }
+}

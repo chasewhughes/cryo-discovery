@@ -1,0 +1,120 @@
+{
+  "ranked_at": "2026-09-06",
+  "ranking_basis": "Root ordinal research-priority judgment considering cell relevance, functional evidence, reproducibility, toxicity and access; not an efficacy score or cross-study pooled ranking",
+  "ranked_candidates": [
+    {
+      "priority_rank": 1,
+      "candidate_id": "2fa",
+      "name": "2-fluorophenyl gluconamide (2FA)",
+      "material_class": "disclosed small molecule",
+      "evidence_scope": "ipsc_direct",
+      "source_dois": [
+        "10.1093/stmcls/sxad059"
+      ],
+      "proposed_role": "Physical arm for initial iPSC qualification, followed by neuronal confirmation",
+      "evidence_quality_and_function": "Direct splat IRI assay; neuronal yield and longitudinal MEA readouts",
+      "toxicity_and_mechanistic_limits": "No direct cell-death-target evidence; doses show nonmonotonic effects",
+      "reproducibility": "Named structure/dose series available; recovery co-treatment and comparator labels need reconciliation",
+      "transfer_limits": "One neuronal donor context/two differentiations; limited generalization",
+      "next_gate": "Literature reconciliation and material identity/lot check before assay"
+    },
+    {
+      "priority_rank": 2,
+      "candidate_id": "cept",
+      "name": "CEPT recovery cocktail",
+      "material_class": "four-component biological cocktail",
+      "evidence_scope": "ipsc_direct",
+      "source_dois": [
+        "10.1038/s41592-021-01126-2"
+      ],
+      "proposed_role": "Biological recovery factor; compare against a defined standard recovery treatment",
+      "evidence_quality_and_function": "Multi-line hPSC viability and differentiated-cell outcomes",
+      "toxicity_and_mechanistic_limits": "No direct ice inhibition established; motor-neuron day-7 MEA p=0.5023 does not show significant superiority",
+      "reproducibility": "Component doses reported, including commercial polyamine stock dilution; hold background treatment explicit",
+      "transfer_limits": "Different lineages/timings; cocktail is not a single dual-action molecule",
+      "next_gate": "Confirm formulation, exposure/washout and lineage tolerability"
+    },
+    {
+      "priority_rank": 3,
+      "candidate_id": "polyampholyte",
+      "name": "THP-1 polyampholyte formulation",
+      "material_class": "macromolecular physical cryoprotectant",
+      "evidence_scope": "mammalian_transfer",
+      "source_dois": [
+        "10.1039/d5lp00131e"
+      ],
+      "proposed_role": "Physical-mechanism reference and candidate for later cell-domain transfer",
+      "evidence_quality_and_function": "Delayed recovery, direct intracellular-ice imaging and macrophage-like differentiation markers",
+      "toxicity_and_mechanistic_limits": "No pathway-target proof; five-cell Raman sample and THP-1 line do not establish donor-level efficacy",
+      "reproducibility": "Synthesis and 40 mg/mL formulation reported; polymer charge/lot and separate pollen-nucleator factor matter",
+      "transfer_limits": "One leukemia line; about 24-hour frozen storage; no iPSC result",
+      "next_gate": "Characterize polymer and reproduce physical/THP-1 benchmark first"
+    },
+    {
+      "priority_rank": 4,
+      "candidate_id": "eg_trehalose",
+      "name": "Ethylene glycol plus trehalose",
+      "material_class": "defined small-molecule mixture",
+      "evidence_scope": "ipsc_direct",
+      "source_dois": [
+        "10.1021/acs.biomac.5c00559"
+      ],
+      "proposed_role": "DMSO-free formulation comparator once complete handling is available",
+      "evidence_quality_and_function": "iPSC microsphere viability/pluripotency in abstract; supplement confirms composition and apoptosis contrasts",
+      "toxicity_and_mechanistic_limits": "Incubation caspase and post-freeze TUNEL are distinct; cluster/age and crosslinking injury confound transfer",
+      "reproducibility": "12% v/v EG plus 4% w/v trehalose verified in supplement; main loading/thermal methods unavailable",
+      "transfer_limits": "Missing main text and iPSC donor details",
+      "next_gate": "Obtain main methods before laboratory protocol finalization"
+    },
+    {
+      "priority_rank": 5,
+      "candidate_id": "camp",
+      "name": "CAMP adhesion-preserving bioink",
+      "material_class": "multicomponent biomaterial",
+      "evidence_scope": "mammalian_transfer",
+      "source_dois": [
+        "10.1002/adma.72714"
+      ],
+      "proposed_role": "Mechanistic material track, separate from single-molecule discovery",
+      "evidence_quality_and_function": "Ice-grain assay and FAK-inhibitor perturbation; preserved adhesion",
+      "toxicity_and_mechanistic_limits": "Material effects, inhibitor toxicity and physical injury need matching; live fractions are not absolute yield",
+      "reproducibility": "Main methods available; microcarrier/matrix manufacture and lot specifications required",
+      "transfer_limits": "MSC/HUVEC/C2C12 transfer; short cryostorage; omics labels need clarification",
+      "next_gate": "Validate matrix/carrier-only controls and material reproducibility"
+    },
+    {
+      "priority_rank": 6,
+      "candidate_id": "cspb",
+      "name": "Polaribacter recombinant CspB",
+      "material_class": "protein",
+      "evidence_scope": "mammalian_transfer",
+      "source_dois": [
+        "10.3390/antiox15010107"
+      ],
+      "proposed_role": "Dual-axis mechanistic reference for oocytes, not immediate iPSC drug lead",
+      "evidence_quality_and_function": "Physical ice assay and mTOR-activator reversal of injury markers",
+      "toxicity_and_mechanistic_limits": "No direct protein-mTOR binding; still requires ethylene glycol",
+      "reproducibility": "Reported 21.9 kDa construct; sequence/tag/purity and kit schedule need confirmation",
+      "transfer_limits": "Animal oocyte/parthenogenetic endpoints; no iPSC/offspring efficacy",
+      "next_gate": "Resolve protein identity and physical-damage-matched controls"
+    }
+  ],
+  "deferred_candidates": [
+    {
+      "name": "L-PTAA enzymatic peptide oligomer",
+      "doi": "10.1016/j.isci.2025.113802",
+      "reason": "Sequence-specific IRI but only 34% hemolysis-derived sheep RBC recovery at the reported optimum; no nucleated-cell function or direct biological mechanism."
+    },
+    {
+      "name": "Amino-acid trehalose diesters",
+      "doi": "10.1039/d6tb01172a",
+      "reason": "Abstract-only; acellular radical scavenging and favorable compatibility coexist with lower recovery than 10 wt% DMSO. Exact dosing/handling and cryo-model allocation unresolved."
+    },
+    {
+      "name": "Berberine/melatonin plus Fe3O4/AFP embryo protocol",
+      "doi": "10.3390/antiox14121412",
+      "reason": "Useful sequential-control example, but not a proven synergy benchmark; arithmetic/column clarification and replicate data needed, with substantial animal-embryo transfer limits."
+    }
+  ],
+  "novelty_status": "Known literature candidates and proposed combinations; no novel compound, patent clearance, therapeutic efficacy or prospective validation established"
+}

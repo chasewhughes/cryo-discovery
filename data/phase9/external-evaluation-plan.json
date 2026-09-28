@@ -1,0 +1,20 @@
+{
+  "status": "Eligibility and evaluation rules fixed before importing new external outcome tables; not a claim that a qualifying external set has been acquired",
+  "purpose": "Evaluate a frozen model on new experimental small-molecule IRI measurements with explicit assay and structural overlap checks",
+  "source_rules": [
+    "Primary experimental publication after 2024-09-15 with original measurements, not reuse of DOLMEN or a preprint/journal duplicate",
+    "Defined individual small molecules with source-supported structures and assay conditions; polymers, proteins and mixtures remain separate tracks",
+    "Numeric activity tables must remain excluded from model fitting, feature selection, imputation fitting and hyperparameter selection",
+    "Publication date is a search filter, not proof of measurement independence; verify source lineage and compound overlap"
+  ],
+  "compatible_tracks": {
+    "amino": "20 mM compound in 10 mM NaCl, splat assay with documented grain-size normalization, anneal temperature/time and endpoint definition comparable to the source benchmark",
+    "glyco2": "22 mM compound in PBS, documented splat assay and compatible grain-size normalization, anneal temperature/time and endpoint definition; literature-protocol uncertainty must be recorded"
+  },
+  "incompatible_conditions": "Do not convert mass concentration, IC50, maximum grain size, area, nucleation, thermal hysteresis or cell survival into percent mean grain size. Different doses/protocols become condition-shift diagnostics, not pooled comparable scores.",
+  "structural_checks": "Canonical isomeric identity, nonstereochemical connectivity and scaffold overlap against both training cohorts; separately audit salts/charges/tautomers. Distinguish new measurements of known compounds from new chemistry.",
+  "frozen_models": "Use existing Phase 8 full-cohort artifacts and recorded hashes without refitting. If compatible archived standard/hydration features are unavailable, evaluate the already-fitted fingerprint component only and label it as such; do not invent molecular-simulation features.",
+  "metrics": "MAE as primary, paired absolute errors against the frozen training-median baseline, RMSE and R2 where defined. Report sample and chemical-group counts; separate exact-overlap, familiar-scaffold and new-scaffold subsets. Small samples remain case-level diagnostics without strong generalization claims.",
+  "interpretation": "A source screened by assistants is not a formally blinded external trial. No revised model may later claim inspected external labels as an untouched final test.",
+  "if_no_qualifying_set": "Publish the access/eligibility gaps and reserved acquisition queue. Do not manufacture a holdout by relabeling previously inspected data. Existing quarantined Amino records can be reconciled only as retrospective diagnostics."
+}

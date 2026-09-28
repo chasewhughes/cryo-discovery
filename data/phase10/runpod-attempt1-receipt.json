@@ -1,0 +1,29 @@
+{
+  "id": "2fox527otky3rw",
+  "name": "cryo-hydration-phase10-e8c839",
+  "created_epoch": 1788685096.0154939,
+  "deadline_epoch": 1788690493.788975,
+  "cost_per_hour": 0.74,
+  "container_disk_gb": 10,
+  "volume_gb": 0,
+  "input_sha256": {
+    "scripts/run_hydration_pilot.py": "4b3f090f69e58ca1094e080b02256dd9f91464cc726eeb0af18d663dad2014ac",
+    "simulation/tip4p-ice.xml": "67caa748b12c4d7e1d9c5cceeb3f9fafeac03ea148075d84d3e103688a3ee2fc"
+  },
+  "worker_sha256": "9f68e5755662ea85b33326721900ee604714cf6054098ffa14a99500d9cc93d7",
+  "watchdog_pid": 67791,
+  "deleted": true,
+  "ended_epoch": 1788685390.623899,
+  "elapsed_hours": 0.08183566808700561,
+  "estimated_gpu_cost_usd": 0.06055839438438415,
+  "cost_note": "Elapsed time times quoted GPU rate; not the final provider invoice. Container disk billing may be additional.",
+  "result_archive_sha256": "43933b4715c377b5731809a9fea169bfa6515d913c2274a7309460db511560bd",
+  "result_archive_bytes": 3318,
+  "worker_status": {
+    "state": "failed",
+    "current": "gly-20260906",
+    "completed": [],
+    "error_type": "CalledProcessError",
+    "results_ready": true
+  }
+}

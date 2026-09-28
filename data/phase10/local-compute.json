@@ -1,0 +1,53 @@
+{
+  "hardware": {
+    "architecture": "Apple arm64",
+    "memory_bytes": 8589934592,
+    "logical_cpus": 8
+  },
+  "environment_path": "cryo-adata/envs/md",
+  "versions": {
+    "python": "3.14.7",
+    "openmm": "8.6",
+    "numpy": "2.5.2",
+    "rdkit": "2026.03.6"
+  },
+  "cpu_smoke": {
+    "status": "Reached 180-second in-script time guard before completion; no valid result or throughput claimed"
+  },
+  "opencl_mixed_precision": {
+    "status": "Context creation failed: no compatible OpenCL platform for requested mixed precision"
+  },
+  "opencl_single_precision": {
+    "status": "Completed 2 ps equilibration plus 2 ps production; numerical/throughput smoke only",
+    "result_path": "data/raw/phase10/local-phe-single-smoke/result.json",
+    "result_sha256": "4ba58e9e7e67c3f830dfe651a3bc4015346d8814262ffa221a5f4f2f56cfec4d",
+    "timing": {
+      "production_wall_seconds": 2.3076810839993414,
+      "total_wall_seconds": 27.00218012498226,
+      "production_ns_per_day": 74.88036418816064
+    },
+    "configuration": {
+      "forcefield": "OpenMM charmm36.xml (2015 distribution)",
+      "water": "TIP4P/Ice local XML",
+      "ensemble": "NVT",
+      "temperature_K": 273,
+      "box_nm": 4,
+      "salt_added": false,
+      "solute_concentration_mM": 25.945922924591354,
+      "density_g_ml": 0.972325677044864,
+      "time_step_ps": 0.002,
+      "equilibration_ps": 2.0,
+      "production_ps": 2.0,
+      "frames": 10,
+      "net_solute_charge_e": 0.0,
+      "particles": 8307,
+      "water_molecules": 2071,
+      "platform": "OpenCL",
+      "platform_properties": {
+        "Precision": "single"
+      }
+    },
+    "mean_temperature_K": 268.9029883527631
+  },
+  "limits": "Short smoke timings include significant sampling/driver overhead and are not an exact forecast of longer runs. No CPU versus GPU accuracy equivalence was established for the full pilot system."
+}

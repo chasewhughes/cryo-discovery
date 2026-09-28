@@ -1,0 +1,23 @@
+{
+  "retrieved_at": "2026-09-05",
+  "source": "Exa search followed by primary-source inspection",
+  "query": "Evergreen Everlast cryopreservation cell death protective compounds",
+  "requested_results": 5,
+  "returned_results": 5,
+  "retained_leads": [
+    {
+      "url": "https://www.evergreenbiosciences.com/technology",
+      "title": "Evergreen Biosciences: Technology Behind Everlast",
+      "evidence_type": "company technology page",
+      "finding": "Company describes targeting intracellular stress pathways. The reviewed page does not disclose a chemical structure or direct ice-inhibition experiment.",
+      "status": "commercial claim; not included among primary experimental studies"
+    },
+    {
+      "url": "https://doi.org/10.3390/cells11020278",
+      "title": "Assessment of the Impact of Post-Thaw Stress Pathway Modulation on Cell Recovery following Cryopreservation in a Hematopoietic Progenitor Cell Model",
+      "evidence_type": "primary research article",
+      "status": "included in pilot; RevitalICE is not Evergreen Everlast"
+    }
+  ],
+  "note": "Selected follow-up leads, not a complete search-result archive or a patent novelty review. No product equivalence or composition is inferred."
+}

@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-09-07T09:02:16.934165+00:00",
+  "dataset_sha256": "a40c4be5c10d0f7d3b63b0c0eb8d9b7fd9a088f18a199536498ee059e4f65b2a",
+  "counts": {
+    "Phase17": 43,
+    "Phase18": 30,
+    "Phase20": 50,
+    "Phase21": 41
+  },
+  "phase21_murcko_group_count": 18,
+  "interpretation": "Murcko groups are scaffold partitions, not independent chemotypes; Phase 21 has 18 Murcko groups, while 24 of 26 calibration rows share one exact Murcko scaffold. All 41 compounds contain a pyrazole ring; that ring alone does not establish a shared complete pharmacophore. Similarity is descriptive and does not establish independence.",
+  "common_pyrazole_ring_count": 41,
+  "nearest_prior": [
+    {
+      "molecule_id": "CHEMBL2331562",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.2833333333333333
+    },
+    {
+      "molecule_id": "CHEMBL2332056",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4469316",
+      "nearest_prior_tanimoto": 0.4057971014492754
+    },
+    {
+      "molecule_id": "CHEMBL2332057",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4469316",
+      "nearest_prior_tanimoto": 0.3787878787878788
+    },
+    {
+      "molecule_id": "CHEMBL2332058",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4459077",
+      "nearest_prior_tanimoto": 0.31343283582089554
+    },
+    {
+      "molecule_id": "CHEMBL2332059",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4459077",
+      "nearest_prior_tanimoto": 0.323943661971831
+    },
+    {
+      "molecule_id": "CHEMBL2332060",
+      "split": "test",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1OC1CCNC1",
+      "nearest_prior_molecule_id": "CHEMBL4556370",
+      "nearest_prior_tanimoto": 0.29896907216494845,
+      "nearest_calibration_molecule_id": "CHEMBL2332098",
+      "nearest_calibration_tanimoto": 0.6216216216216216
+    },
+    {
+      "molecule_id": "CHEMBL2332062",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4436040",
+      "nearest_prior_tanimoto": 0.3373493975903614
+    },
+    {
+      "molecule_id": "CHEMBL2332063",
+      "split": "test",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cn1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.3424657534246575,
+      "nearest_calibration_molecule_id": "CHEMBL2332062",
+      "nearest_calibration_tanimoto": 0.7246376811594203
+    },
+    {
+      "molecule_id": "CHEMBL2332064",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.4090909090909091
+    },
+    {
+      "molecule_id": "CHEMBL2332065",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.38235294117647056
+    },
+    {
+      "molecule_id": "CHEMBL2332066",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.39705882352941174
+    },
+    {
+      "molecule_id": "CHEMBL2332069",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCN1CCCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4583341",
+      "nearest_prior_tanimoto": 0.3950617283950617,
+      "nearest_calibration_molecule_id": "CHEMBL2332074",
+      "nearest_calibration_tanimoto": 0.8923076923076924
+    },
+    {
+      "molecule_id": "CHEMBL2332070",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCCN1CCCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4583341",
+      "nearest_prior_tanimoto": 0.3855421686746988,
+      "nearest_calibration_molecule_id": "CHEMBL2332074",
+      "nearest_calibration_tanimoto": 0.9841269841269841
+    },
+    {
+      "molecule_id": "CHEMBL2332071",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCN1CCOCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4570150",
+      "nearest_prior_tanimoto": 0.39285714285714285,
+      "nearest_calibration_molecule_id": "CHEMBL2332074",
+      "nearest_calibration_tanimoto": 0.7746478873239436
+    },
+    {
+      "molecule_id": "CHEMBL2332072",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCCN1CCOCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4570150",
+      "nearest_prior_tanimoto": 0.38372093023255816,
+      "nearest_calibration_molecule_id": "CHEMBL2332074",
+      "nearest_calibration_tanimoto": 0.855072463768116
+    },
+    {
+      "molecule_id": "CHEMBL2332073",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCN1CCCCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4583341",
+      "nearest_prior_tanimoto": 0.3902439024390244,
+      "nearest_calibration_molecule_id": "CHEMBL2332074",
+      "nearest_calibration_tanimoto": 0.9076923076923077
+    },
+    {
+      "molecule_id": "CHEMBL2332074",
+      "split": "calibration",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCCN1CCCCC1)Cc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL4583341",
+      "nearest_prior_tanimoto": 0.38095238095238093
+    },
+    {
+      "molecule_id": "CHEMBL2332075",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.23880597014925373
+    },
+    {
+      "molecule_id": "CHEMBL2332076",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4469316",
+      "nearest_prior_tanimoto": 0.5555555555555556
+    },
+    {
+      "molecule_id": "CHEMBL2332077",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.28,
+      "nearest_calibration_molecule_id": "CHEMBL2332058",
+      "nearest_calibration_tanimoto": 0.6666666666666666
+    },
+    {
+      "molecule_id": "CHEMBL2332078",
+      "split": "test",
+      "scaffold": "O=C(NCCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.32727272727272727,
+      "nearest_calibration_molecule_id": "CHEMBL2332082",
+      "nearest_calibration_tanimoto": 0.7021276595744681
+    },
+    {
+      "molecule_id": "CHEMBL2332079",
+      "split": "test",
+      "scaffold": "O=C(NCCCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.3157894736842105,
+      "nearest_calibration_molecule_id": "CHEMBL2332082",
+      "nearest_calibration_tanimoto": 0.673469387755102
+    },
+    {
+      "molecule_id": "CHEMBL2332080",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)OCc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.3148148148148148,
+      "nearest_calibration_molecule_id": "CHEMBL2332082",
+      "nearest_calibration_tanimoto": 0.6595744680851063
+    },
+    {
+      "molecule_id": "CHEMBL2332081",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)OCCc1ccccc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.30357142857142855,
+      "nearest_calibration_molecule_id": "CHEMBL2332082",
+      "nearest_calibration_tanimoto": 0.7021276595744681
+    },
+    {
+      "molecule_id": "CHEMBL2332082",
+      "split": "calibration",
+      "scaffold": "O=C(CCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL1977135",
+      "nearest_prior_tanimoto": 0.3148148148148148
+    },
+    {
+      "molecule_id": "CHEMBL2332083",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N1CCc2ccccc2C1",
+      "nearest_prior_molecule_id": "CHEMBL599791",
+      "nearest_prior_tanimoto": 0.26582278481012656,
+      "nearest_calibration_molecule_id": "CHEMBL2332082",
+      "nearest_calibration_tanimoto": 0.48214285714285715
+    },
+    {
+      "molecule_id": "CHEMBL2332084",
+      "split": "test",
+      "scaffold": "O=C(NCC1CCCCC1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL589844",
+      "nearest_prior_tanimoto": 0.30666666666666664,
+      "nearest_calibration_molecule_id": "CHEMBL2332088",
+      "nearest_calibration_tanimoto": 0.5357142857142857
+    },
+    {
+      "molecule_id": "CHEMBL2332085",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4447521",
+      "nearest_prior_tanimoto": 0.5254237288135594
+    },
+    {
+      "molecule_id": "CHEMBL2332086",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.3283582089552239
+    },
+    {
+      "molecule_id": "CHEMBL2332087",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.3283582089552239
+    },
+    {
+      "molecule_id": "CHEMBL2332088",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4447521",
+      "nearest_prior_tanimoto": 0.36507936507936506
+    },
+    {
+      "molecule_id": "CHEMBL2332089",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL605360",
+      "nearest_prior_tanimoto": 0.4375
+    },
+    {
+      "molecule_id": "CHEMBL2332090",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.39344262295081966
+    },
+    {
+      "molecule_id": "CHEMBL2332091",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL605360",
+      "nearest_prior_tanimoto": 0.37681159420289856
+    },
+    {
+      "molecule_id": "CHEMBL2332092",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.5084745762711864
+    },
+    {
+      "molecule_id": "CHEMBL2332093",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.46875
+    },
+    {
+      "molecule_id": "CHEMBL2332094",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.46153846153846156
+    },
+    {
+      "molecule_id": "CHEMBL2332096",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL4436040",
+      "nearest_prior_tanimoto": 0.4583333333333333
+    },
+    {
+      "molecule_id": "CHEMBL2332097",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.40625
+    },
+    {
+      "molecule_id": "CHEMBL2332098",
+      "split": "calibration",
+      "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.3939393939393939
+    },
+    {
+      "molecule_id": "CHEMBL2332099",
+      "split": "test",
+      "scaffold": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(Cc1ccccc1)C1CC1",
+      "nearest_prior_molecule_id": "CHEMBL2006299",
+      "nearest_prior_tanimoto": 0.37681159420289856,
+      "nearest_calibration_molecule_id": "CHEMBL2332097",
+      "nearest_calibration_tanimoto": 0.7457627118644068
+    }
+  ]
+}

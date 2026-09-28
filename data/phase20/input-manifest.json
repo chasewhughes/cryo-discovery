@@ -1,0 +1,257 @@
+{
+  "inputs": [
+    {
+      "molecule_id": "CHEMBL4437283",
+      "path": "data/phase20/boltz-inputs/CHEMBL4437283.yaml",
+      "sha256": "7983f67484202e1702167d1f3eaac0308d73ef88e7b63b405d5e5656dcbcde0a"
+    },
+    {
+      "molecule_id": "CHEMBL4438748",
+      "path": "data/phase20/boltz-inputs/CHEMBL4438748.yaml",
+      "sha256": "884c688648c92b9c1f48d5c84a2bee5c7526d9588309d5015a4c817dfe32b857"
+    },
+    {
+      "molecule_id": "CHEMBL4440876",
+      "path": "data/phase20/boltz-inputs/CHEMBL4440876.yaml",
+      "sha256": "e849401301d5ad3adf5f3897829fe0b577c11848b6a9a37362a35e87a238f062"
+    },
+    {
+      "molecule_id": "CHEMBL4444449",
+      "path": "data/phase20/boltz-inputs/CHEMBL4444449.yaml",
+      "sha256": "949b6aaf87087601d51fdee3c339e44db3a8cd473f8f304a2fee69f02a327526"
+    },
+    {
+      "molecule_id": "CHEMBL4444893",
+      "path": "data/phase20/boltz-inputs/CHEMBL4444893.yaml",
+      "sha256": "a3b82d556a37f0c5deb40b2c36a9cfa789fea14678ad607dd95d491bcbc3845d"
+    },
+    {
+      "molecule_id": "CHEMBL4445974",
+      "path": "data/phase20/boltz-inputs/CHEMBL4445974.yaml",
+      "sha256": "e482286edabac577440247a28f1f9cb1e2de5f7bc1b3717b45d93ece02707605"
+    },
+    {
+      "molecule_id": "CHEMBL4446390",
+      "path": "data/phase20/boltz-inputs/CHEMBL4446390.yaml",
+      "sha256": "254c9da9c5676d25515c760ae3f9fce4a8eb26f208e5fd42c80bbc4dadefe5cb"
+    },
+    {
+      "molecule_id": "CHEMBL4447770",
+      "path": "data/phase20/boltz-inputs/CHEMBL4447770.yaml",
+      "sha256": "597265c7e753e05d95a06c7d1159d2a9fbe714ba7aa041d457ed7762614aa45a"
+    },
+    {
+      "molecule_id": "CHEMBL4451007",
+      "path": "data/phase20/boltz-inputs/CHEMBL4451007.yaml",
+      "sha256": "6d69b4c2bf841738a81cb82155dd84d5128d47ade72015ea0a12139742c43bb8"
+    },
+    {
+      "molecule_id": "CHEMBL4451407",
+      "path": "data/phase20/boltz-inputs/CHEMBL4451407.yaml",
+      "sha256": "de03315fa1b0d25c8ee1d97af0e77bcb4f5aea382856fb3c1f1e4c81badae918"
+    },
+    {
+      "molecule_id": "CHEMBL4452238",
+      "path": "data/phase20/boltz-inputs/CHEMBL4452238.yaml",
+      "sha256": "e743a75c1b8e7e57ded75d38befedbb28011f869ae7bad7cebc8b706f68e36d8"
+    },
+    {
+      "molecule_id": "CHEMBL4452457",
+      "path": "data/phase20/boltz-inputs/CHEMBL4452457.yaml",
+      "sha256": "e5227522a54341d9c17b83ee95a11552d0a2f52f04cc13fa21a9041e21a7158d"
+    },
+    {
+      "molecule_id": "CHEMBL4453948",
+      "path": "data/phase20/boltz-inputs/CHEMBL4453948.yaml",
+      "sha256": "73b1d52ff17ce1f642a6adb0fb43b4c007156de06d2606446e8b1a1ee7f2a1bb"
+    },
+    {
+      "molecule_id": "CHEMBL4454066",
+      "path": "data/phase20/boltz-inputs/CHEMBL4454066.yaml",
+      "sha256": "89ab75a7f90c10c9b1e47c31463a4665c399caaeff6851d419056c3e70138eff"
+    },
+    {
+      "molecule_id": "CHEMBL4455163",
+      "path": "data/phase20/boltz-inputs/CHEMBL4455163.yaml",
+      "sha256": "a22fab62168137597be0255533cd9477a7640869be57fe0c3132c251fb582c3e"
+    },
+    {
+      "molecule_id": "CHEMBL4457201",
+      "path": "data/phase20/boltz-inputs/CHEMBL4457201.yaml",
+      "sha256": "142932b3f5e30fa27fb29c30c16252dde04d2072d1798c0d3080349860241d24"
+    },
+    {
+      "molecule_id": "CHEMBL4458667",
+      "path": "data/phase20/boltz-inputs/CHEMBL4458667.yaml",
+      "sha256": "f5624c741a26e5b2af11a27d948a40746cde734a3218ba2eed671be2fc20adfc"
+    },
+    {
+      "molecule_id": "CHEMBL4458703",
+      "path": "data/phase20/boltz-inputs/CHEMBL4458703.yaml",
+      "sha256": "fb2c1cee23c8587e976d6afc4fa075bc9029a7a38e9ead198b45deeb6bc481fc"
+    },
+    {
+      "molecule_id": "CHEMBL4459655",
+      "path": "data/phase20/boltz-inputs/CHEMBL4459655.yaml",
+      "sha256": "e53adf76da505f92df99d64bb91632e4272cbaed2fdefdb86f3065a54fd274cf"
+    },
+    {
+      "molecule_id": "CHEMBL4460696",
+      "path": "data/phase20/boltz-inputs/CHEMBL4460696.yaml",
+      "sha256": "656ef39a30e52c60ff87f686a76af72675e69eeec82d79c3cbf483c07cf41217"
+    },
+    {
+      "molecule_id": "CHEMBL4467086",
+      "path": "data/phase20/boltz-inputs/CHEMBL4467086.yaml",
+      "sha256": "f91150fe897d99355e914c6b3000ff2d7e9043e2f21c47090cc9d3add5e92626"
+    },
+    {
+      "molecule_id": "CHEMBL4467403",
+      "path": "data/phase20/boltz-inputs/CHEMBL4467403.yaml",
+      "sha256": "abd3307ea74df6d067718f0c698aa98d6da62ce44c64d976dd82ae8937ea8ad1"
+    },
+    {
+      "molecule_id": "CHEMBL4470778",
+      "path": "data/phase20/boltz-inputs/CHEMBL4470778.yaml",
+      "sha256": "9bea4f551e6859159521b6253bc9119424d4e52573a74369b6a4200a1d8316c8"
+    },
+    {
+      "molecule_id": "CHEMBL4472964",
+      "path": "data/phase20/boltz-inputs/CHEMBL4472964.yaml",
+      "sha256": "f217c9213e5a15b08d32ba717bdaba9e7cf349651a6196a2c23d248172103c1e"
+    },
+    {
+      "molecule_id": "CHEMBL4473009",
+      "path": "data/phase20/boltz-inputs/CHEMBL4473009.yaml",
+      "sha256": "f5ba140ce188a174bb3870948aabd42455bd98e04fd68c1fb28e81b51fcd8515"
+    },
+    {
+      "molecule_id": "CHEMBL4474271",
+      "path": "data/phase20/boltz-inputs/CHEMBL4474271.yaml",
+      "sha256": "4df81fe56eb4da7a11261a0a75f57816a3e529ccf23cb14e212e00c6f36f365a"
+    },
+    {
+      "molecule_id": "CHEMBL4474804",
+      "path": "data/phase20/boltz-inputs/CHEMBL4474804.yaml",
+      "sha256": "0f9055d30f018e7c9a8ebb1a959bbaef6e7b7bf6c1199b659c0ffb6f1f742ebe"
+    },
+    {
+      "molecule_id": "CHEMBL4475590",
+      "path": "data/phase20/boltz-inputs/CHEMBL4475590.yaml",
+      "sha256": "873a6c5ffb680e796967dab1f4cf6f196366c3f8e31e861330170a006c7de6c2"
+    },
+    {
+      "molecule_id": "CHEMBL4475912",
+      "path": "data/phase20/boltz-inputs/CHEMBL4475912.yaml",
+      "sha256": "a7ca829e9dc5afd49a27e98b5c668f12a5d9c53cecd3e45cf96a6e856cdd733a"
+    },
+    {
+      "molecule_id": "CHEMBL4476081",
+      "path": "data/phase20/boltz-inputs/CHEMBL4476081.yaml",
+      "sha256": "82f6bb2c30c6e865a465a09d809202276ae86c30d2b5b0153e40cf64f5ef1612"
+    },
+    {
+      "molecule_id": "CHEMBL4476505",
+      "path": "data/phase20/boltz-inputs/CHEMBL4476505.yaml",
+      "sha256": "93e067766d0e67b6219eb1abe9a471610d05eb237939a170c5cdca33caa662b6"
+    },
+    {
+      "molecule_id": "CHEMBL4514074",
+      "path": "data/phase20/boltz-inputs/CHEMBL4514074.yaml",
+      "sha256": "a2112948a87fd955ccbcc179079e512e1e71ee1d6f4c799fa87f3f31c6a59f83"
+    },
+    {
+      "molecule_id": "CHEMBL4519471",
+      "path": "data/phase20/boltz-inputs/CHEMBL4519471.yaml",
+      "sha256": "ed993d74d98139b738ab447916907faa4a545e7267630d9bd9447165815a42c8"
+    },
+    {
+      "molecule_id": "CHEMBL4526491",
+      "path": "data/phase20/boltz-inputs/CHEMBL4526491.yaml",
+      "sha256": "61325e20875efe8c0277bb1a91eebe9e3da1639862d620a5e8223c99a44d23a3"
+    },
+    {
+      "molecule_id": "CHEMBL4529033",
+      "path": "data/phase20/boltz-inputs/CHEMBL4529033.yaml",
+      "sha256": "20794f912d6db0634ce639626d283d0612ab52edce14614aa835b9a586efbd23"
+    },
+    {
+      "molecule_id": "CHEMBL4533805",
+      "path": "data/phase20/boltz-inputs/CHEMBL4533805.yaml",
+      "sha256": "271323326c8834cc3ae345b2c625e5c756a7e580592127e8ece3944f66e96983"
+    },
+    {
+      "molecule_id": "CHEMBL4539818",
+      "path": "data/phase20/boltz-inputs/CHEMBL4539818.yaml",
+      "sha256": "a1822df2533cf137feacf24f16f62844267474b3e4e00197fdee496730de7804"
+    },
+    {
+      "molecule_id": "CHEMBL4551100",
+      "path": "data/phase20/boltz-inputs/CHEMBL4551100.yaml",
+      "sha256": "50aca1b746b781021319b9c1fd12ea99bf43dfa0608c96a8caf6d2941166aca2"
+    },
+    {
+      "molecule_id": "CHEMBL4555946",
+      "path": "data/phase20/boltz-inputs/CHEMBL4555946.yaml",
+      "sha256": "1308179667760061c45df5e85bebc9dccb48430aa9f9619acf04cb193e9cb0c4"
+    },
+    {
+      "molecule_id": "CHEMBL4556104",
+      "path": "data/phase20/boltz-inputs/CHEMBL4556104.yaml",
+      "sha256": "b294b844d30ff50337dc786cff5a089b84f2708680d1985be35ff114e025bc27"
+    },
+    {
+      "molecule_id": "CHEMBL4558371",
+      "path": "data/phase20/boltz-inputs/CHEMBL4558371.yaml",
+      "sha256": "53f14f42bcea29ec4c88c3b2044276ccfe597bf27968f22078037ede12b3d80a"
+    },
+    {
+      "molecule_id": "CHEMBL4562184",
+      "path": "data/phase20/boltz-inputs/CHEMBL4562184.yaml",
+      "sha256": "c99932e723a4047289de44ce15c831d2666e7112cf5cc07cbb6e167ff31f5f90"
+    },
+    {
+      "molecule_id": "CHEMBL4568022",
+      "path": "data/phase20/boltz-inputs/CHEMBL4568022.yaml",
+      "sha256": "8a1ee34499bdcc25d02551df425820c40c275f7c509371f99fcdc47ad6bb72aa"
+    },
+    {
+      "molecule_id": "CHEMBL4576394",
+      "path": "data/phase20/boltz-inputs/CHEMBL4576394.yaml",
+      "sha256": "7c15f330eb1c8c69f7c03efe14fc642e76e031504265fd7b04bf3fcc2965b7ab"
+    },
+    {
+      "molecule_id": "CHEMBL4577999",
+      "path": "data/phase20/boltz-inputs/CHEMBL4577999.yaml",
+      "sha256": "ada46ac4b9dcbd1f8bc873f330019985ae992ee2ddb37875564f9c5ff91be7b7"
+    },
+    {
+      "molecule_id": "CHEMBL4581933",
+      "path": "data/phase20/boltz-inputs/CHEMBL4581933.yaml",
+      "sha256": "2b12fbc6f2a7dc50e06a8594d4286b27978e8419136e68c1962237d756be1757"
+    },
+    {
+      "molecule_id": "CHEMBL4585524",
+      "path": "data/phase20/boltz-inputs/CHEMBL4585524.yaml",
+      "sha256": "c6fc276c2b98ca7e72d1a66255ff41d6af28633432c750f0a09212a0344f4e4b"
+    },
+    {
+      "molecule_id": "CHEMBL4586795",
+      "path": "data/phase20/boltz-inputs/CHEMBL4586795.yaml",
+      "sha256": "fa31d143c9e78c93e315478b90e66d7aff898538a92cee09e5614c8d4e02764d"
+    },
+    {
+      "molecule_id": "CHEMBL4586827",
+      "path": "data/phase20/boltz-inputs/CHEMBL4586827.yaml",
+      "sha256": "18f2ac193eb8009ef4a92cc283436177b1b5200064e54fbd9fa40ad5e0e3b98d"
+    },
+    {
+      "molecule_id": "CHEMBL4590957",
+      "path": "data/phase20/boltz-inputs/CHEMBL4590957.yaml",
+      "sha256": "8135ec71da89d740975462fdd373b1e59fd76c833601b4fa7d79006bd4dab7f3"
+    }
+  ],
+  "protein_length": 542,
+  "msa_rows": 512,
+  "configuration_policy": "Unchanged Phase17 sequence, MSA and partial template; external assay construct may differ, see assay audit."
+}

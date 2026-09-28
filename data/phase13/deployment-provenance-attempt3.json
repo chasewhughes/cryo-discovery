@@ -1,0 +1,22 @@
+{
+  "frozen_at": "2026-09-06T13:35:43.689458+00:00",
+  "source_sha256": {
+    "scripts/runpod_phase13_retry.py": "aaa6d227a642b63c6e29f7df1e6d755b0fb7fc8e987ea34e241d8e9a74de63c9",
+    "scripts/runpod_phase13_retry_worker.py": "2df71bf5e0b06e6f7a7b741d6245737eec38fb340dd2655fc8e5915663a543d6",
+    "scripts/watch_matched_retry.py": "e7b1f392f883ea526318026fe95d38d5da2a893b824677ddfb1c9f9af54d4b40",
+    "scripts/run_matched_hydration.py": "7c019547a2227015be0ef5742da3d5f851e991abbf33b475409c2d088b73c425",
+    "scripts/run_hydration_extension.py": "f69edc1915f95130ace2f0c8513793629dcf1d0e8323b221729fa240bc510ee9",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b",
+    "data/phase13/sampling-plan.json": "a7a08f11908b814f7ba5ca5360b620a01f2259e332173707582c5d33493d3223"
+  },
+  "attempt": 3,
+  "retry_jobs": [
+    "leu-NPT-20261011",
+    "leu-NPT-20261012",
+    "ile-NPT-20261023"
+  ],
+  "note": "Only failed setup jobs repeated with unchanged saved inputs and production seeds. pip timeout420\u2192900 seconds; simulation requires at least2020 seconds remaining in unchanged1hour lifetime. Three original successful-start jobs continue.",
+  "deployed_source_commit": "d1529e4e2f8b9a45a6b157fe13cfef375d664539",
+  "all_three_launch_manifests_match": true
+}

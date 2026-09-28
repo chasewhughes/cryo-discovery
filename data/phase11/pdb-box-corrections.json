@@ -1,0 +1,283 @@
+{
+  "status": "Corrected companion PDB CRYST1 metadata only; original files preserved",
+  "cause": "Cloud runner wrote original topology box with final coordinates; NPT trajectory and state boxes were already correct.",
+  "script_sha256": "7cc9f4ef5cdfa013f01227ac6e5683b2433ccedf5092e08f46ddb704d6e1a2b6",
+  "runs": [
+    {
+      "run": "gly-NVT-20260916",
+      "original_pdb_sha256": "3bc7a92d494f8bde581ac5f7c5d1a96722402dfbeb5557918740764dc92feda5",
+      "corrected_pdb_sha256": "3bc7a92d494f8bde581ac5f7c5d1a96722402dfbeb5557918740764dc92feda5",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NVT-20260916/topology-final-box.pdb"
+    },
+    {
+      "run": "gly-NPT-20260916",
+      "original_pdb_sha256": "b52d7e75d3f70f4d9ef2fdbc06e52e2abbed3c4519814526117116b5f427281e",
+      "corrected_pdb_sha256": "f4b2cb2804327e3a14d28664daffaf0216b4538d6d017062f843955351a200f9",
+      "final_box_nm": [
+        [
+          4.004089991320022,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.004089991320022,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.004089991320022
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NPT-20260916/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NVT-20260916",
+      "original_pdb_sha256": "118faebf4a5908754ae9cb73280f111e4cc70d7b46d288b87683b94c47e82bcb",
+      "corrected_pdb_sha256": "118faebf4a5908754ae9cb73280f111e4cc70d7b46d288b87683b94c47e82bcb",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NVT-20260916/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NPT-20260916",
+      "original_pdb_sha256": "d1a4ecdddb86da0248efa269a275cb6d97240d34d839e0c948709177478ce555",
+      "corrected_pdb_sha256": "aaa65d268b7fcd94908848631585a03b8b290c0e9fcc82bbdca4f6380cd72fa6",
+      "final_box_nm": [
+        [
+          3.9946884525508826,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.9946884525508826,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.9946884525508826
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NPT-20260916/topology-final-box.pdb"
+    },
+    {
+      "run": "gly-NVT-20260917",
+      "original_pdb_sha256": "0140afec9802bf88548cebc1d6327652630f74f323d1885878d2a1eb7b0418d8",
+      "corrected_pdb_sha256": "0140afec9802bf88548cebc1d6327652630f74f323d1885878d2a1eb7b0418d8",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NVT-20260917/topology-final-box.pdb"
+    },
+    {
+      "run": "gly-NPT-20260917",
+      "original_pdb_sha256": "bcc3a7d9a15c0b9b7a8bc5a6e90dfdfafaeff43d3e03db72df5bef7e4d059b98",
+      "corrected_pdb_sha256": "5f17ccf3c1c5329f2f34fac5e5714e3eb90d73d46b99ea60d77222781eef891a",
+      "final_box_nm": [
+        [
+          3.9813575151223346,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.9813575151223346,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.9813575151223346
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NPT-20260917/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NVT-20260917",
+      "original_pdb_sha256": "141b879347bfd70fcde80d32bb84cb3762b1060d3fd24f8580ee56f1c0bb7d03",
+      "corrected_pdb_sha256": "141b879347bfd70fcde80d32bb84cb3762b1060d3fd24f8580ee56f1c0bb7d03",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NVT-20260917/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NPT-20260917",
+      "original_pdb_sha256": "efa42521a693996224fa785402a86768802add10fa5b835a039230a93ec6acee",
+      "corrected_pdb_sha256": "b91717b01d67f7e5149dc18f26990a6de0ad04bd3651271d0c25e4dda046d032",
+      "final_box_nm": [
+        [
+          3.9761499750203915,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.9761499750203915,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.9761499750203915
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NPT-20260917/topology-final-box.pdb"
+    },
+    {
+      "run": "gly-NVT-20260918",
+      "original_pdb_sha256": "1661f72051c94b2bb3c05b056700a9181ba1eefb0bcd054bf82f66fc74a18528",
+      "corrected_pdb_sha256": "1661f72051c94b2bb3c05b056700a9181ba1eefb0bcd054bf82f66fc74a18528",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NVT-20260918/topology-final-box.pdb"
+    },
+    {
+      "run": "gly-NPT-20260918",
+      "original_pdb_sha256": "ba021db7b88eedbc2eb0c2da12f8799904eb086dca40cffb31161edb1a1db6c3",
+      "corrected_pdb_sha256": "92a86bbddff1792ce0bdfb42739fc64f1f4bb1381bcb819b757389cbda5e0e34",
+      "final_box_nm": [
+        [
+          3.9920275025933214,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.9920275025933214,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.9920275025933214
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/gly-NPT-20260918/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NVT-20260918",
+      "original_pdb_sha256": "ea423c62eaeac2929ac056409f41cfe0164085b27cf72cf8282bb8a706a6e717",
+      "corrected_pdb_sha256": "ea423c62eaeac2929ac056409f41cfe0164085b27cf72cf8282bb8a706a6e717",
+      "final_box_nm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NVT-20260918/topology-final-box.pdb"
+    },
+    {
+      "run": "phe-NPT-20260918",
+      "original_pdb_sha256": "32a8b84dc19f0a7783f2279656974e8bd84cffd6897b560384531786f2038c7b",
+      "corrected_pdb_sha256": "14ea3584bfc5f3a41946b6791db4ffa45e0dea931fde37f459de6655588262a5",
+      "final_box_nm": [
+        [
+          3.9980703747863755,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.9980703747863755,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.9980703747863755
+        ]
+      ],
+      "path": "data/raw/phase11/runpod/runs/phe-NPT-20260918/topology-final-box.pdb"
+    }
+  ]
+}

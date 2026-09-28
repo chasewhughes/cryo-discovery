@@ -1,0 +1,15 @@
+{
+  "attempt": 3,
+  "intent_path": "data/raw/phase16/attempt3/intent.json",
+  "intent_sha256": "4d873de10904c3ab49e4b3c2f2e114dce9704f8047777982926c6bede2448756",
+  "provider_check_path": "data/raw/phase16/attempt3/intent-reconciliation.json",
+  "provider_check_sha256": "aa72b3f964106da434d10559233a1f5bf85eeedf3094ca15f91ac51e20db0311",
+  "provider_check": {
+    "no_matching_pod_at_deadline": true,
+    "checked_epoch": 1788712734.234037
+  },
+  "deadline_epoch": 1788712733.049143,
+  "resolved_as_no_matching_pod": true,
+  "reserved_potential_usd": 0.8999999999999999,
+  "resolution_recorded_at": "2026-09-06T18:56:23.643986+00:00"
+}

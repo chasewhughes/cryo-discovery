@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-06T09:19:02.508466+00:00",
+  "pod_rates_usd_per_hour": [
+    0.74,
+    0.74
+  ],
+  "estimated_gpu_cost_total_usd": 0.2181551203502549,
+  "billing_api_results": [
+    {
+      "pod_id": "2fox527otky3rw",
+      "records": []
+    },
+    {
+      "pod_id": "7qai3yseudqx38",
+      "records": []
+    }
+  ],
+  "billing_status": "Queried by Pod ID; empty records mean billing not yet reported, not zero cost.",
+  "all_pilot_pods_absent": true,
+  "prior_user_pod_count": 3,
+  "current_other_pod_count": 3,
+  "limits": "Elapsed-time estimates exclude any separately billed storage and may differ from the final provider invoice."
+}

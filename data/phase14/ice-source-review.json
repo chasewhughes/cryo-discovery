@@ -1,0 +1,125 @@
+{
+  "status": "bounded feasibility audit; no simulation performed",
+  "primary_source": {
+    "title": "The atomistic details of the ice recrystallisation inhibition activity of PVA",
+    "authors": [
+      "Fabienne Bachtiger",
+      "Thomas R. Congdon",
+      "Christopher Stubbs",
+      "Matthew I. Gibson",
+      "Gabriele C. Sosso"
+    ],
+    "journal": "Nature Communications 12, 1323 (2021)",
+    "doi": "10.1038/s41467-021-21717-z",
+    "published": "2021-02-26",
+    "article_url": "https://www.nature.com/articles/s41467-021-21717-z",
+    "license": "CC BY 4.0 (article and supplementary information, subject to third-party material notices)",
+    "paper_claim": "PVA effective volume and ice contact area correlate with inhibition; this is an indirect molecular-level ice-PVA benchmark, not a direct coalescence/recrystallisation simulation."
+  },
+  "reported_benchmark": {
+    "interface": "hexagonal ice primary prismatic face in contact with supercooled water; seeded ice grows in both +/- z directions",
+    "initial_ice_crystal_nm": [
+      4.7,
+      5.9,
+      3.9
+    ],
+    "ice_surface": "primary prismatic face cleaved into xy plane",
+    "ice_restraint": "oxygen atoms harmonically position restrained, 10000 kJ/mol; unit transcribed as printed; dimensional implementation of the spring constant must be resolved before reconstruction",
+    "water_layers": "two approximately 11 nm layers, one above and one below the slab",
+    "total_atoms": 90818,
+    "vacuum_nm": 22.5,
+    "boundary_conditions": "2D xy periodicity, Yeh-Berkowitz slab electrostatics correction, 9-3 Lennard-Jones walls at top and bottom",
+    "forcefield": "all-atom CHARMM36 with TIP4P/Ice water",
+    "engine": "GROMACS 5.1.3",
+    "cutoffs": "van der Waals 12 A with switching to zero at 12 A; electrostatics 10 A",
+    "constraints": "SETTLE water; P-LINCS polymer hydrogen bonds",
+    "timestep_fs": 2,
+    "temperature_protocol": "ice/water NPT semi-isotropic equilibration at 300 K for 50 ns; add two polymers and equilibrate 20 ns at 300 K; cool to 265 K over 10 ns; production at 265 K",
+    "production_ns": 200,
+    "frame_stride_steps": 2000,
+    "frame_stride_ps": 4,
+    "polymer_system": "two polymers placed in the two water slabs, one above and one below; PVA10, PVA20, 2xPVA10, PVA-b-PVAm variants and restrained PVA20 geometries are studied",
+    "polymer_equilibration": "individual polymer geometry steepest descent, then cubic 7.8 nm water box and 30 ns NPT equilibration at room temperature/ambient pressure using Bussi thermostat and Berendsen barostat",
+    "concentration": "The paper does not state a molar or mass concentration for the simulated slab; polymer count, 90,818 total atoms, slab dimensions and water-layer thickness are reported. Experimental comparison uses 1 mg/mL PVA10/PVA19 and PBS control.",
+    "controls_and_outcomes": {
+      "simulation_control": "20 independent 200 ns ice/water trajectories without polymer",
+      "PVA20": "binds in multiple conformations; random-coil/compact/perpendicular cases show sustained slowing or plateauing of ice growth; parallel linear case is more readily overgrown",
+      "PVA10": "binds in 19 of 20 simulations but is commonly overgrown by approximately 100 ns and has weaker inhibition",
+      "PVAm": "reported not to bind in 20 independent 200 ns simulations",
+      "reported_metrics": "largest ice-cluster molecule count versus time, binding defined as 20% hydroxyl groups hydrogen-bonded to ice, hydrogen-bond geometry <0.3 nm and 160-200 degrees, polymer alpha-shape volume/contact area",
+      "experimental_context": "splat assay: 10 uL PBS solution, dropped 1.40 m onto cover slip on -78 C plate, annealed 30 min at -8 C; PVA20 strongly reduces mean grain size, PVA10 has weaker activity"
+    }
+  },
+  "public_artifacts": {
+    "local_files": [
+      {
+        "path": "data/raw/phase14/ice/article.pdf",
+        "bytes": 5570082,
+        "sha256": "992da0894eefbcb4efda872ef79edbfcf568386139a4feee1f26c0f1347d6148"
+      },
+      {
+        "path": "data/raw/phase14/ice/supplementary.pdf",
+        "bytes": 5412735,
+        "sha256": "ee03bc63194d371c9d3de877ac150694867161968f5f9a6085f7c76c243ead02"
+      },
+      {
+        "path": "data/raw/phase14/ice/wrap-metadata.json",
+        "bytes": 9538,
+        "sha256": "ba3532823e75afc125277e5ef22c92c70d1a7921d77aabda3e9df62bee9e2942"
+      }
+    ],
+    "data_record": "https://wrap.warwick.ac.uk/id/eprint/152467/",
+    "data_record_finding": "WRAP record exposes the open-access article PDF and metadata; no downloadable coordinate/topology archive or trajectories were found in the record.",
+    "software_named_by_paper": [
+      "GROMACS 5.1.3",
+      "PLUMED 2.4.2",
+      "MDAnalysis",
+      "MATLAB R2020b alphaShape"
+    ],
+    "software_license": "GROMACS, PLUMED and MDAnalysis are publicly available open-source packages; MATLAB/alphaShape requires a MathWorks license. The paper does not provide a study-specific repository or executable workflow.",
+    "download_urls": {
+      "article_pdf": "https://www.nature.com/articles/s41467-021-21717-z.pdf",
+      "supplementary_pdf": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21717-z/MediaObjects/41467_2021_21717_MOESM1_ESM.pdf",
+      "wrap_pdf": "https://wrap.warwick.ac.uk/152467/1/WRAP-atomistic-details-ice-recrystallisation-inhibition-activity-PVA-Sosso-2021.pdf"
+    }
+  },
+  "feasibility": {
+    "status": "partial reconstruction feasible; faithful benchmark reproduction not currently turnkey",
+    "supported_by_source": [
+      "ice prism dimensions and orientation",
+      "restraint strength",
+      "water-layer thickness and atom count",
+      "vacuum/slab boundaries",
+      "forcefield and engine versions",
+      "temperature/equilibration/production schedule",
+      "control design and qualitative endpoints"
+    ],
+    "missing_assets": [
+      "seeded-ice coordinates and topology",
+      "PVA/PVAm coordinates and force-field parameters",
+      "GROMACS topology/includes and 9-3 wall implementation",
+      "exact semi-isotropic pressure-coupling settings",
+      "exact polymer placement/orientation and independent random seeds",
+      "PLUMED input files and restraint definitions",
+      "trajectory files and raw per-run observables",
+      "analysis scripts for s6 clustering, hydrogen bonds and alpha shapes",
+      "reported simulated polymer concentration and exact box vectors"
+    ],
+    "validation_required_before_any_claim": [
+      "rebuild the 90,818-atom slab and verify primary-prismatic orientation",
+      "validate TIP4P/Ice geometry, CHARMM36 compatibility, 2D PME/Yeh-Berkowitz and wall terms",
+      "run polymer-free ice-growth controls and reproduce qualitative growth statistics",
+      "check ice-cluster threshold s6 > 0.45 and hydrogen-bond criteria",
+      "compare all reported qualitative PVA10/PVA20/PVAm outcomes across independent runs",
+      "label any OpenMM/TIP4P-Ice port as a method-development analogue unless all missing GROMACS details are recovered"
+    ],
+    "runtime": "The paper reports 200 ns trajectory lengths and HPC facilities (ARCHER and Athena), but no wall-clock, core count, GPU, trajectory size or cost. A reconstructed benchmark needs measured throughput before a budget can be reserved under the existing authorization.",
+    "scope_boundary": "This review supports planning a reconstructable explicit ice-water interface benchmark; it does not establish IRI efficacy, reproduce the assay, or authorize compute spending."
+  },
+  "sources_consulted": [
+    "https://www.nature.com/articles/s41467-021-21717-z",
+    "https://www.nature.com/articles/s41467-021-21717-z.pdf",
+    "https://wrap.warwick.ac.uk/id/eprint/152467/",
+    "https://wrap.warwick.ac.uk/152467/1/WRAP-atomistic-details-ice-recrystallisation-inhibition-activity-PVA-Sosso-2021.pdf"
+  ]
+}

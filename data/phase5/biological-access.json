@@ -1,0 +1,26 @@
+{
+  "retrieved_at": "2026-09-06",
+  "reviewer": "Luna",
+  "attempts": [
+    {
+      "doi": "10.3390/antiox14121412",
+      "pmcid": "PMC12729773",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12729773/",
+      "route": "NCBI PMC HTML",
+      "status": "success",
+      "source_path": "data/raw/phase5/porcine-embryos.html",
+      "bytes": 265672,
+      "sha256": "60050cda93b82630fe1fd645dcfbb6318188c2d66e184bcb067abe7ac81328bf"
+    },
+    {
+      "doi": "10.1039/d5lp00131e",
+      "pmcid": "PMC12147442",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12147442/",
+      "route": "NCBI PMC HTML",
+      "status": "success",
+      "source_path": "data/raw/phase5/monocytes.html",
+      "bytes": 212489,
+      "sha256": "8a348fdfff7c956415567f58123d642ece82e1f369f951498cfb12ed4718a7d3"
+    }
+  ]
+}

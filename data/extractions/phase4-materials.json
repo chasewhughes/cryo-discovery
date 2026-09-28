@@ -1,0 +1,313 @@
+[
+  {
+    "study_id": "doi:10.1002/adma.72714",
+    "doi": "10.1002/adma.72714",
+    "title": "Cryopreservative Bioink Enables Direct Bioprinting of Adherent Cells.",
+    "year": 2026,
+    "pmcid": "PMC13378309",
+    "source_url": "https://doi.org/10.1002/adma.72714",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase4/adma-72714-pmc.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "cell_types": [
+      "passage-5 human umbilical-cord mesenchymal stromal cells",
+      "human umbilical vein endothelial cells",
+      "C2C12 mouse myoblasts"
+    ],
+    "study_design": "Primary biphasic bioink comparison with ice-grain measurements, post-thaw cell outcomes and FAK-inhibitor perturbation",
+    "interventions": [
+      "CAMP: concave HA/collagen microcarriers embedded in oxidized/methacrylated alginate and gelatin matrix",
+      "DMSO addition/removal controls",
+      "PF-573228 FAK inhibitor"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "biological_stress",
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "model": "CAMP microcarrier/matrix system",
+        "formulation": [
+          {
+            "compound": "oxidized/methacrylated alginate in selected matrix",
+            "concentration": 10,
+            "unit": "% as reported"
+          },
+          {
+            "compound": "HA/collagen microcarriers and gelatin",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "storage": "Three days in liquid nitrogen for the reported cell experiments",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Biological donor/assay replicate count not established from the inspected passages",
+        "experiment_id": "p4-camp-ice",
+        "intervention": "CAMP versus aqueous/conventional freezing formulations",
+        "comparator": "DPBS, 10% DMSO/90% FBS, and CAMP + 10% DMSO",
+        "cooling": "Ice assay quench −70 °C",
+        "warming": "Ice assay anneal −6 °C; grain-size assessment through 30 minutes",
+        "outcome_name": "Mean large grain size during recrystallization",
+        "outcome_type": "ice_activity",
+        "timepoint": "30-minute annealing comparison",
+        "result": "Reported MLGS was 91.01 ± 9.3 µm for DPBS, 61.54 ± 3.3 µm for 10% DMSO/90% FBS, 18.73 ± 1.6 µm for CAMP + 10% DMSO, and 21 ± 2.6 µm for CAMP. This is an ice-grain endpoint, not a cell-recovery metric.",
+        "source_locator": "Results 2.3; Figure 3g–h",
+        "evidence_excerpt": "mean large grain size (MLGS)"
+      },
+      {
+        "model": "P5 human umbilical-cord MSCs, with separate HUVEC/C2C12 checks",
+        "formulation": [
+          {
+            "compound": "oxidized/methacrylated alginate in selected matrix",
+            "concentration": 10,
+            "unit": "% as reported"
+          },
+          {
+            "compound": "HA/collagen microcarriers and gelatin",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "storage": "Three days in liquid nitrogen for the reported cell experiments",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Biological donor/assay replicate count not established from the inspected passages",
+        "experiment_id": "p4-camp-cells",
+        "intervention": "DMSO-free CAMP after four-day microcarrier culture and matrix encapsulation",
+        "comparator": "CAMP with 5% or 10% DMSO and unloading controls; unprotected microcarriers/cell-ink contexts",
+        "cooling": "Approximately 300 µL cryovial fill, gel at 4 °C for 20 minutes then transfer to liquid nitrogen; measured cooling rate not reported",
+        "warming": "37 °C thaw; printing at 4–8 °C is a separate subsequent step",
+        "outcome_name": "Post-thaw live/dead viability and retained adhesion",
+        "outcome_type": "viability",
+        "timepoint": "Figure 3d/e: three-day storage followed by four-day culture; other panels use different days",
+        "result": "Adding 10% DMSO did not significantly improve the reported viability fraction (0.69 ± 0.09 versus 0.64 ± 0.07 without DMSO). Omitting DMSO unloading harmed viability. CAMP retained adhesion and showed protection in multiple cell models, without establishing equivalence or absolute viable-cell yield.",
+        "source_locator": "Results 2.3; Figure 3; Methods 4.4–4.5",
+        "evidence_excerpt": "no significant viability benefit"
+      },
+      {
+        "model": "Human umbilical-cord MSCs in CAMP",
+        "formulation": [
+          {
+            "compound": "oxidized/methacrylated alginate in selected matrix",
+            "concentration": 10,
+            "unit": "% as reported"
+          },
+          {
+            "compound": "HA/collagen microcarriers and gelatin",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "PF-573228",
+            "concentration": 3,
+            "unit": "µM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "storage": "Three days in liquid nitrogen for the reported cell experiments",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Biological donor/assay replicate count not established from the inspected passages",
+        "experiment_id": "p4-camp-fak",
+        "intervention": "3 µM PF-573228 FAK inhibitor for 24 h before cryopreservation",
+        "comparator": "CAMP without FAK-inhibitor pretreatment",
+        "cooling": "Same CAMP cryopreservation context; no physical-damage-matched inhibitor control established here",
+        "warming": "37 °C thaw followed by 24-hour culture",
+        "outcome_name": "FAK perturbation and post-thaw viability",
+        "outcome_type": "mechanistic",
+        "timepoint": "24 hours after thaw",
+        "result": "The reported viability fraction decreased from 0.68 ± 0.02 to 0.47 ± 0.10 with FAK inhibition. p-FAK localization and reduced p-JNK support pathway involvement; direct target binding or selective downstream causality is not established.",
+        "source_locator": "Results 2.4, Figure 4 and Figure S14 discussion; Methods 4.5",
+        "evidence_excerpt": "when an inhibitor was used to suppress FAK"
+      }
+    ],
+    "main_finding": "CAMP combines extracellular ice control with adhesion-associated protection in an MSC bioink. FAK inhibitor treatment reduced post-thaw viability, but this does not establish a dual-action small molecule or broad iPSC efficacy.",
+    "limitations": [
+      "A multicomponent biomaterial system in MSCs/HUVECs/C2C12, not direct iPSC evidence or a small-molecule CPA.",
+      "Cryostorage in the inspected cell experiments was three days; three-month bone repair is a later animal endpoint, not three-month storage validation.",
+      "Viability/live-dead fractions do not establish absolute recovered viable-cell yield. Donor identities and biological replicate independence are not established from these passages.",
+      "Main text says three-day post-thaw culture in one passage; Figure 3 labels four/seven-day readouts. Preserve panel-specific timing rather than assuming a single assay day.",
+      "Abstract describes roughly tenfold IRI improvement; the reported mean large grain sizes (91.01 versus 21 µm) are a different explicit endpoint and do not numerically define a tenfold ratio.",
+      "Figure 4 caption calls some data ATAC-seq accessible peaks while results discuss differentially expressed genes; assay/contrast mapping and raw data need clarification before omics reanalysis.",
+      "FAK-inhibitor perturbation supports pathway involvement, but specificity, general toxicity and physical-damage-matched controls remain needed to isolate the biological contribution."
+    ],
+    "mechanism_claim": "Physical ice-grain measurements and FAK-inhibitor perturbation provide distinct evidence axes. Preserved adhesion/p-FAK and lower p-JNK support a candidate signaling route; they do not prove direct gel-target binding or a drug-like mechanism.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna source retrieval; root primary methods/results and mechanism-control review"
+  },
+  {
+    "study_id": "doi:10.1021/acs.biomac.5c00559",
+    "doi": "10.1021/acs.biomac.5c00559",
+    "title": "Ethylene Glycol and Trehalose Cryopreservation of Cell-Laden Hydrogel Microspheres Enabled by Microfluidic Fabrication.",
+    "year": 2025,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1021/acs.biomac.5c00559",
+    "source_access": "abstract_plus_supplement",
+    "raw_source_path": "data/raw/phase3/screening-packets.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "cell_types": [
+      "U251",
+      "iPSCs",
+      "GES",
+      "HepG2",
+      "A549",
+      "3T6"
+    ],
+    "study_design": "Primary microfluidic fabrication and cryopreservation comparison in GelMA and alginate cell-laden microspheres.",
+    "interventions": [
+      "12% ethylene glycol plus 4% trehalose (E/T)",
+      "DMSO/FBS-free formulation"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "osmotic_membrane",
+      "biological_stress"
+    ],
+    "supplementary_locators": [
+      "data/raw/phase4/acs-biomac-5c00559-si.pdf pp. 6-8 (Figures S5-S8): single-agent and EG/trehalose dose series; p. 9 (Figure S9): E/T-D/E/T-G versus D/F-D/D/F-G across GES, U251, A549, HepG2, 3T6, iPSCs; pp. 10-11 (Figures S10-S12): iPSC microsphere viability, caspase-3, and TUNEL."
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p4-materials-2a",
+        "model": "Multiple cell suspensions and iPSC-laden alginate microspheres; distinguish formulation screen from encapsulated-cell tests",
+        "intervention": "E/T cryoprotectant",
+        "comparator": "10% v/v DMSO + 10% v/v FBS, with direct and gradient freezing labels",
+        "formulation": [
+          {
+            "compound": "ethylene glycol",
+            "concentration": 12,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "trehalose",
+            "concentration": 4,
+            "unit": "% w/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Supplement labels direct versus gradient freezing; exact thermal schedules not supplied",
+        "warming": null,
+        "storage": null,
+        "outcome_name": "post-thaw viability",
+        "outcome_type": "viability",
+        "timepoint": "post-thaw; exact timepoint not stated",
+        "result": "E/T maintained >90% post-thaw viability in several cell types and >80% in iPSCs according to the abstract.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Supplement S8: n=3 U251/GES experiments; iPSC donor/replicate count not established",
+        "source_locator": "Main abstract for >90%/>80% outcomes; supplementary Figure S9 (PDF pp. 8–9) for formulation units and labels",
+        "evidence_excerpt": "with iPSCs retaining >80% viability"
+      },
+      {
+        "experiment_id": "p4-materials-2b",
+        "model": "iPSC-laden alginate microspheres",
+        "intervention": "E/T formulation",
+        "comparator": "10% v/v DMSO + 10% v/v FBS, with direct and gradient freezing labels",
+        "formulation": [
+          {
+            "compound": "ethylene glycol",
+            "concentration": 12,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "trehalose",
+            "concentration": 4,
+            "unit": "% w/v"
+          }
+        ],
+        "treatment_stage": [
+          "CPA_incubation",
+          "freezing",
+          "post_thaw_assessment"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "CPA-exposure caspase-3 and post-freeze TUNEL signals",
+        "outcome_type": "mechanistic",
+        "timepoint": "post-thaw; exact timepoint not stated",
+        "result": "Supplement Figure S11 shows higher caspase-3 signal after D/F incubation than E/T or untreated conditions; Figure S12 shows higher TUNEL signal after D/F direct/gradient freezing than E/T or nonfrozen controls. These are distinct exposure and freezing experiments. The main abstract additionally reports preserved pluripotency; no direct apoptosis-target binding is established.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "iPSC donor/replicate counts not specified in inspected S11/S12 captions",
+        "source_locator": "Supplement Figures S10–S12, PDF pp. 10–11; main abstract for pluripotency",
+        "evidence_excerpt": "Elevated caspase-3 activity"
+      },
+      {
+        "experiment_id": "p4-materials-2c",
+        "model": "U251 and iPSC-laden alginate microspheres with varied preculture duration",
+        "intervention": "Different preculture durations and cluster sizes before freezing",
+        "comparator": "Earlier culture/cluster-size conditions",
+        "formulation": [
+          {
+            "compound": "ethylene glycol",
+            "concentration": 12,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "trehalose",
+            "concentration": 4,
+            "unit": "% w/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Supplement labels direct versus gradient freezing; exact thermal schedules not supplied",
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Culture-state-dependent post-thaw viability",
+        "outcome_type": "viability",
+        "timepoint": "Six- and nine-day preculture panels with subsequent post-thaw observation; panel-specific days",
+        "result": "Figure S14 reports lower post-thaw viability with larger cell clusters/longer preculture. No exact effect size is digitized here. This adds a negative culture-state constraint to an otherwise favorable formulation screen.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Replicate/donor counts not established from the inspected caption",
+        "source_locator": "Supplement Figure S14, PDF pp. 12–13",
+        "evidence_excerpt": "Increased cell cluster volume"
+      }
+    ],
+    "main_finding": "The abstract plus Supplementary Figures S5-S14 support a defined 12% (v/v) ethylene glycol + 4% (w/v) trehalose formulation, direct versus gradient freezing controls, multiple cell lines, and iPSC microsphere viability/pluripotency outcomes.",
+    "limitations": [
+      "Main article remains unavailable. Public supplement confirms formulation units and comparison labels but supplies no complete loading, cooling/warming-rate or storage schedule.",
+      "Supplement Figures S5–S8 state n=3 independent experiments for U251/GES assays; this cannot be assigned to every iPSC panel or interpreted as three donors.",
+      "Caspase-3 Figure S11 concerns CPA incubation; TUNEL Figure S12 concerns cryopreservation. Do not merge these treatment stages.",
+      "Post-thaw live/dead fraction, pluripotency markers and colony formation are distinct outcomes, not an absolute recovered-cell yield.",
+      "Figure S14 links increasing preculture/cluster size to poorer cryoprotection, while Figure S2 reports photoinitiator/crosslinking-associated iPSC injury; carrier and culture-state effects matter."
+    ],
+    "mechanism_claim": "Combined CPA/ice and matrix effects are plausible; apoptosis wording is an observed comparison and not proof of direct pathway inhibition.",
+    "review_status": "root_abstract_and_selected_supplement_reviewed",
+    "reviewer": "Luna retrieval; root supplementary captions and visual Figures S11/S12 review",
+    "additional_source_paths": [
+      "data/raw/phase4/acs-biomac-5c00559-si.txt",
+      "data/raw/phase4/acs-biomac-5c00559-si.pdf"
+    ]
+  }
+]

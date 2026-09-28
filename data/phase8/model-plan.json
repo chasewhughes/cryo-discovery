@@ -1,0 +1,22 @@
+{
+  "status": "Development comparison fixed before advanced-model performance was inspected; Phase 7 outcomes were already known",
+  "outer_evaluation": "Reuse exact Phase 7 scaffold and connectivity fold memberships for the same 63 Amino and 209 Glyco2 records. These are reused development benchmarks, not untouched final tests.",
+  "inner_evaluation": "Three-fold GroupKFold inside each outer training set, using the same grouping type. Select parameters by pooled inner out-of-fold MAE; ties select first configuration. All preprocessing fits within each inner training fold.",
+  "families": {
+    "standard_svr": "RBF SVR on 45 published standard descriptors; C=[10,100], gamma=[scale,0.01], epsilon=5",
+    "hydration_svr": "Same SVR grid on 45 standard plus 100 hydration-histogram and 10 hydration-index features",
+    "fingerprint_krr": "Centered-target kernel ridge on chiral Morgan radius-2 2048-bit Tanimoto similarity; alpha=[0.01,0.1,1,10]",
+    "ensemble": "Fixed equal average of the three independently inner-tuned family predictions; no outer-outcome-fitted weights"
+  },
+  "missing_values": "Standard descriptors align by original row only after name validation; hydration files join on normalized names, rejecting conflicting duplicate-name feature vectors. Preserve unmapped/missing values as NaN. Training-only median imputation with missing indicators; no label-assisted repairs.",
+  "comparisons": "Report every family and fixed ensemble against Phase 7 median and forest predictions on identical outer test records. Report MAE, RMSE, R2, equal-group MAE and descriptive group-bootstrap error differences.",
+  "interpretation": "Hydration features are precomputed upstream molecular-simulation summaries; no new MD trajectories or cell simulations. Differences do not by themselves establish causal value of hydration physics.",
+  "candidate_rule": "2FA remains a known, previously inspected positive control. Report withheld predictions without tuning specifically to it. No validated cocktail/viability or novel-compound claim.",
+  "final_fit": "Fit each family to each full cohort after a fresh three-fold grouped parameter selection; retain local model artifacts for reproducibility, marked research-only. Performance claims come exclusively from nested outer predictions, not full-data fits.",
+  "limits": [
+    "272 observations across distinct conditions are too limited to assume a large neural network would generalize better",
+    "Missing descriptor patterns and incompletely verified upstream conformer/trajectory settings can affect results",
+    "Scaffold grouping is coarse and source-study separation remains unavailable",
+    "No calibrated molecular prediction intervals or independent final test are claimed"
+  ]
+}

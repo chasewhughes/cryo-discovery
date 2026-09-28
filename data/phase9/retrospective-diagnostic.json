@@ -1,0 +1,259 @@
+{
+  "status": "Retrospective source-selected diagnostic; labels were previously visible to the research team. Not new independent external validation.",
+  "primary_model": "Frozen Phase 8 fingerprint component; standard SVR is secondary, not the full ensemble",
+  "model_sha256": "0bded3166428c30468c6e6d3bc26e88425e4eec4f10fa9a4e67e9133268fcab9",
+  "source_script_sha256": "b5acda41555906ae8fcec495aa270d62283fdfba412ec91e24ae53b6f29b5def",
+  "scoring_rule": "Only resolved 20 mM prediction records; 10 mM exceptions are not scored against the 20 mM model. No retraining or parameter selection.",
+  "metrics": {
+    "all_20mM": {
+      "frozen_fingerprint_krr": {
+        "n": 14,
+        "mae_mgs_points": 20.239557740945884,
+        "rmse_mgs_points": 23.428571381807373,
+        "r2": 0.21471928666549833,
+        "equal_group_mae_mgs_points": 20.239557740945884
+      },
+      "frozen_standard_svr": {
+        "n": 14,
+        "mae_mgs_points": 20.15515392304777,
+        "rmse_mgs_points": 25.713987101999724,
+        "r2": 0.05404133361930963,
+        "equal_group_mae_mgs_points": 20.15515392304777
+      },
+      "training_median": {
+        "n": 14,
+        "mae_mgs_points": 22.235714285714288,
+        "rmse_mgs_points": 27.986233860851762,
+        "r2": -0.12052676523016048,
+        "equal_group_mae_mgs_points": 22.235714285714288
+      }
+    },
+    "20mM_without_normalized_parent_overlap": {
+      "frozen_fingerprint_krr": {
+        "n": 12,
+        "mae_mgs_points": 20.822270624067784,
+        "rmse_mgs_points": 24.234032904996884,
+        "r2": 0.17566518579582358,
+        "equal_group_mae_mgs_points": 20.822270624067784
+      },
+      "frozen_standard_svr": {
+        "n": 12,
+        "mae_mgs_points": 21.372550967721907,
+        "rmse_mgs_points": 27.174741354397188,
+        "r2": -0.03653290584085389,
+        "equal_group_mae_mgs_points": 21.372550967721903
+      },
+      "training_median": {
+        "n": 12,
+        "mae_mgs_points": 22.424999999999997,
+        "rmse_mgs_points": 28.949366717310642,
+        "r2": -0.1763332986650028,
+        "equal_group_mae_mgs_points": 22.424999999999997
+      }
+    }
+  },
+  "predictions": [
+    {
+      "id": "amino:line65",
+      "observed_mgs": 34.7,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 57.62536374298229,
+        "frozen_standard_svr": 53.2535946904234,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": true,
+        "charge_tautomer_parent_for_overlap_only": true
+      }
+    },
+    {
+      "id": "amino:line66",
+      "observed_mgs": 54.3,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 63.890588042402456,
+        "frozen_standard_svr": 79.43499730523737,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line67",
+      "observed_mgs": 50.8,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 29.953660082187987,
+        "frozen_standard_svr": 2.4550256332199396,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line69",
+      "observed_mgs": 49.0,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 33.31470090056872,
+        "frozen_standard_svr": 39.03567011434578,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line70",
+      "observed_mgs": 55.6,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 20.04638160541653,
+        "frozen_standard_svr": 3.68899345512078,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line71",
+      "observed_mgs": 42.6,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 57.38725975349278,
+        "frozen_standard_svr": 65.26924479976655,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line72",
+      "observed_mgs": 7.5,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 20.704640519629557,
+        "frozen_standard_svr": 1.5780096980619263,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line74",
+      "observed_mgs": 6.6,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 58.950116851146845,
+        "frozen_standard_svr": 49.4446910738298,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line75",
+      "observed_mgs": 7.8,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 23.02501694051832,
+        "frozen_standard_svr": 1.8910181358174754,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line76",
+      "observed_mgs": 42.3,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 67.87275647602006,
+        "frozen_standard_svr": 62.33168631069546,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line77",
+      "observed_mgs": 14.0,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 32.168033119894574,
+        "frozen_standard_svr": 17.458223960305702,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line78",
+      "observed_mgs": 76.9,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 87.46119714144668,
+        "frozen_standard_svr": 69.7520513804175,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": true,
+        "charge_tautomer_parent_for_overlap_only": true
+      }
+    },
+    {
+      "id": "amino:line79",
+      "observed_mgs": 91.8,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 66.30635020440741,
+        "frozen_standard_svr": 87.14285175143266,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line80",
+      "observed_mgs": 76.8,
+      "predicted_mgs": {
+        "frozen_fingerprint_krr": 73.41007142171051,
+        "frozen_standard_svr": 92.4233369508265,
+        "training_median": 52.8
+      },
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    }
+  ],
+  "excluded_condition_shift_ids": [
+    "amino:line68",
+    "amino:line73",
+    "amino:line81"
+  ],
+  "limits": "Small source-selected sample; familiar chemical series; molecular-state uncertainties persist; no biological or mixture inference."
+}

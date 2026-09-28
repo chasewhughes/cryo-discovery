@@ -1,0 +1,36 @@
+{
+  "job_id": "ile-NPT-20261021",
+  "pod_id": "by0swzcu0vjl3g",
+  "name": "cryo-phase13-ile-NPT-20261021-485610",
+  "created_epoch": 1788700883.814508,
+  "deadline_epoch": 1788704483.814508,
+  "cost_per_hour": 0.74,
+  "input_sha256": {
+    "system.xml": "564b82d4c2a1703068eb7b3e3f79e829bad08b3ce48203c8aea5023f68a10db0",
+    "integrator.xml": "fce9c5ca8cd5278a4c4efe3e9f2b4ed4d4f6ebdc99498276ee63a049ce23a0d1",
+    "final-state.xml": "073889ea3d0811268a624d54935923963b11372795b4099ffcf2cd592c55c882",
+    "topology-final-box.pdb": "4cdef1ffa4d0f8466be3c3d5ebe6147d383b3d95c2ac7de8ef0c3363cbe33131",
+    "result.json": "82c192363bc3e634c209da49d3446feb25b47d7c2e9406862d7734675cd48931"
+  },
+  "worker_sha256": "cb2cda9cd252413503937978bfb2e771bb751cf067d7e85d14c8231166438e76",
+  "code_sha256": {
+    "scripts/run_matched_hydration.py": "7c019547a2227015be0ef5742da3d5f851e991abbf33b475409c2d088b73c425",
+    "scripts/run_hydration_extension.py": "f69edc1915f95130ace2f0c8513793629dcf1d0e8323b221729fa240bc510ee9",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b"
+  },
+  "plan_sha256": "a7a08f11908b814f7ba5ca5360b620a01f2259e332173707582c5d33493d3223",
+  "watchdog_pid": 99579,
+  "deleted": true,
+  "ended_epoch": 1788702154.3331058,
+  "elapsed_hours": 0.3529218327336841,
+  "estimated_gpu_cost_usd": 0.2611621562229262,
+  "result_archive_sha256": "de19cf7d6642a17358b99e5b329f8a98fc4d37e57c9eef9a1a28f9f6a4927d27",
+  "result_archive_bytes": 93330690,
+  "worker_status": {
+    "state": "complete",
+    "results_ready": true,
+    "current": "ile-NPT-20261021",
+    "archive_sha256": "de19cf7d6642a17358b99e5b329f8a98fc4d37e57c9eef9a1a28f9f6a4927d27"
+  }
+}

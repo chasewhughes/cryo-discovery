@@ -1,0 +1,73 @@
+{
+  "schema_version": "phase19-candidate-assay-review-v1",
+  "candidate": "BAY-405 / Discovery of BAY-405",
+  "article": {
+    "pmcid": "PMC11472321",
+    "doi": "10.1021/acs.jmedchem.4c01325",
+    "title": "Discovery of\nBAY-405: An Azaindole-Based MAP4K1 Inhibitor\nfor the Enhancement of T-Cell Immunity against Cancer",
+    "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11472321/",
+    "europepmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11472321/fullTextXML",
+    "retrieved_utc": "2026-09-06T23:06:30.007493+00:00"
+  },
+  "source_files": {
+    "PMC11472321.xml": "6d811f6424629067578aae0d4eff1dde90a18c21c247dbcf6f5a55bf6bfc4cb7",
+    "PMC11472321-supp.zip": "b1b9413837946ad94958fa7c1661b713fe247fde6e059af6b16ca6a1c7df4864",
+    "PMC11472321-supplementary/jm4c01325_si_001.pdf": "50677be7700b8fb3d69bdb3dd177f3d63d1b34ee0b9aae9abf199caa8fe82091",
+    "PMC11472321-supplementary/jm4c01325_si_002.csv": "d26af044ca766b12c1edd82fa80916edb7a9b1e1277e0425d19d5b65bb43d28e"
+  },
+  "target_scope": {
+    "requested_target": "ROCK2",
+    "primary_target": "MAP4K1/HPK1",
+    "rock2_values": {
+      "direct_reported_exact_numeric_count": 1,
+      "direct_reported_exact_numeric_examples": [
+        {
+          "compound": "1",
+          "value": 2,
+          "unit": "nM",
+          "locator": "PMC11472321.xml paragraph 6"
+        }
+      ],
+      "selectivity_ratio_records_count": 37,
+      "selectivity_ratio_definition": "ROCK2 IC50 divided by MAP4K1 IC50; ratios are not ROCK2 IC50 values and are not converted into benchmark values.",
+      "bays405_record": {
+        "compound": "38 (BAY-405)",
+        "ratio_rock2_over_map4k1": 130,
+        "locator": "PMC11472321.xml Table 7 / jm4c01325_si_002.csv row 38"
+      },
+      "primary_target_panel_records_count": 30,
+      "primary_target_panel_note": "SI Table S3 reports MAP4K1 (HPK1) and other kinase IC50 values; it does not provide a ROCK2 IC50 series.",
+      "direct_count_scope": "One explicit exact ROCK2 concentration identified in article prose; no comprehensive image-table transcription claimed. Primary disqualifier is verified luminescent readout."
+    },
+    "no_hpK1_values_counted_as_rock2": true,
+    "no_cross_assay_stitching": true
+  },
+  "rock2_assay": {
+    "protocol_source": "Supporting Information Experimental Methods, ROCK2 assay, PDF pp. S26-S27",
+    "species": "human",
+    "construct": "recombinant N-terminal His6-tagged human ROCK-II residues 11-552",
+    "expression": "baculovirus-infected SF21 insect cells; Ni-NTA purification",
+    "substrate": "biotin-Ahx-KEAKEKRQEQIAKRRRLSSLRASTSKSGGSQK peptide",
+    "atp_final_mM": 0.01,
+    "atp_final_unit": "mM",
+    "readout": "ADP-Glo kinase assay with luciferase-based glow luminescence",
+    "non_luciferase": false,
+    "assay_temperature_C": 22,
+    "assay_time_min": 30,
+    "replicates": "duplicate values across an 11-point concentration series; IC50 calculated with Genedata Screener",
+    "locators": [
+      "jm4c01325_si_001.pdf pages S26-S27",
+      "PMC11472321.xml paragraph 6 and Table 7 footnote c"
+    ]
+  },
+  "eligibility": {
+    "eligible_external_benchmark": false,
+    "reason": "Verified ROCK2 ADP-Glo luciferase readout fails non-luciferase eligibility. Supplementary CSV reports selectivity ratios rather than direct ROCK2 IC50 measurements; no values reconstructed."
+  },
+  "limitations": [
+    "Main-text SAR tables are image graphics; the supplementary CSV contains MAP4K1 IC50 and ROCK2/MAP4K1 ratios, not a direct ROCK2 IC50 column.",
+    "A ROCK2 species/construct/readout protocol is documented, but its luminescent readout disqualifies this candidate under the non-luciferase requirement.",
+    "No prediction or model fitting performed."
+  ],
+  "source_base_path": "data/raw/phase19/alternative-methods"
+}

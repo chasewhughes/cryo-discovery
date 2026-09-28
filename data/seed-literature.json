@@ -1,0 +1,74 @@
+[
+  {
+    "doi": "10.1038/srep26403",
+    "title": "QSAR Accelerated Discovery of Potent Ice Recrystallization Inhibitors.",
+    "authors": "Briard JG, Fernandez M, De Luna P, Woo TK, Ben RN.",
+    "journal": "Sci Rep",
+    "year": 2016,
+    "pmid": "27216585",
+    "pmcid": "PMC4877635",
+    "is_open_access": true,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  },
+  {
+    "doi": "10.1038/s41592-021-01126-2",
+    "title": "A versatile polypharmacology platform promotes cytoprotection and viability of human pluripotent and differentiated cells.",
+    "authors": "Chen Y, Tristan CA, Chen L, Jovanovic VM, Malley C, Chu PH, Ryu S, Deng T, Ormanoglu P, Tao D, Fang Y, Slamecka J, Hong H, LeClair CA, Michael S, Austin CP, Simeonov A, Singeç I.",
+    "journal": "Nat Methods",
+    "year": 2021,
+    "pmid": "33941937",
+    "pmcid": "PMC8314867",
+    "is_open_access": true,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  },
+  {
+    "doi": "10.1021/acsomega.6b00178",
+    "title": "Small-Molecule Ice Recrystallization Inhibitors Improve the Post-Thaw Function of Hematopoietic Stem and Progenitor Cells.",
+    "authors": "Briard JG, Jahan S, Chandran P, Allan D, Pineault N, Ben RN.",
+    "journal": "ACS Omega",
+    "year": 2016,
+    "pmid": "30023498",
+    "pmcid": "PMC6044699",
+    "is_open_access": true,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  },
+  {
+    "doi": "10.1016/j.scr.2024.103583",
+    "title": "Ice recrystallization inhibitors enable efficient cryopreservation of induced pluripotent stem cells: A functional and transcriptomic analysis.",
+    "authors": "Mommaerts K, Okawa S, Schmitt M, Kofanova O, Turner TR, Ben RN, Del Sol A, Mathieson W, Schwamborn JC, Acker JP, Betsou F.",
+    "journal": "Stem Cell Res",
+    "year": 2024,
+    "pmid": "39467374",
+    "pmcid": null,
+    "is_open_access": false,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  },
+  {
+    "doi": "10.1038/s41598-025-85509-x",
+    "title": "High throughput method for simultaneous screening of membrane permeability and toxicity for discovery of new cryoprotective agents.",
+    "authors": "Ahmadkhani N, Benson JD, Eroglu A, Higgins AZ.",
+    "journal": "Sci Rep",
+    "year": 2025,
+    "pmid": "39805972",
+    "pmcid": "PMC11731021",
+    "is_open_access": true,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  },
+  {
+    "doi": "10.1038/s41598-022-25104-6",
+    "title": "Machine learning and hypothesis driven optimization of bull semen cryopreservation media.",
+    "authors": "Tu F, Bhat M, Blondin P, Vincent P, Sharafi M, Benson JD.",
+    "journal": "Sci Rep",
+    "year": 2022,
+    "pmid": "36567337",
+    "pmcid": "PMC9790888",
+    "is_open_access": true,
+    "source": "Europe PMC REST search and Crossref works DOI record",
+    "retrieved": "2026-09-05"
+  }
+]

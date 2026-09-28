@@ -1,0 +1,41 @@
+{
+  "scope": "Exact public HIN source inspection at commit ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0; no code execution and no claim that any one mode reproduces DOLMEN CSV production.",
+  "source_commit": "ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0",
+  "primary_urls": {
+    "module_gr": "https://github.com/gcsosso/HIN/blob/ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0/STRUCTURE/SRC/module_gr.f90",
+    "module_hydration": "https://github.com/gcsosso/HIN/blob/ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0/STRUCTURE/SRC/module_hydration.f90",
+    "driver": "https://github.com/gcsosso/HIN/blob/ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0/STRUCTURE/SRC/hin_structure.f90",
+    "example_input": "https://github.com/gcsosso/HIN/blob/ccd632cad12a0a62f08e9a4d174e41ac6b92c1d0/STRUCTURE/EXAMPLES/EXAMPLE_MATT/hin_structure.in"
+  },
+  "verified_local_hashes_sha256": {
+    "module_gr.f90": "291e3095c82fd21ecd02288d0a3445b1ce1465202628a0f221a1c3dcb71daab4",
+    "module_hydration.f90": "683edb06fee8e7b15cb5aff137d687709e3fcce7be7fa3df9b8bee93ae203cc3",
+    "hin_structure.f90": "c1ce3cda9324e7c04ca05fbb6f0766aa4c417dcf36db5fa0f53c21a248d60bcd",
+    "hin_structure.in": "52fdc901c977f2bfa715658149bb611205f2db80cd59b6885236ef3b3ffb8cfb"
+  },
+  "available_code_definitions": {
+    "module_gr_gr_ws_1": "Bins every distance from each non-water solute atom to each solvent OW (all atom-water pairs), accumulating per-atom histograms; example input sets GR_WS=1.",
+    "module_gr_gr_ws_2": "Bins every distance from each non-water solute atom to each OW into a molecule-level histogram, then averages/normalizes over solute atoms.",
+    "module_gr_gr_ws_3": "For each OW, retains the minimum distance over all non-water solute atoms, then bins one nearest-solute distance per water. Its code applies radial pair-correlation normalization using 4π·dr·(nOW/volume)·r² before accumulating.",
+    "module_hydration": "Separately computes nearest-solute distance per OW and cumulative hydration counts: each water contributes at most once at each cutoff. Solute list excludes symbols OW, HW1, HW2, MW; solvent oxygen is found by symbol OW.",
+    "driver": "Calls gr under switch_gr and hydration under switch_nh; these are separate outputs and routines.",
+    "example": "EXAMPLE_MATT input explicitly documents GR_WS 0=OW-OW, 1=Mx-OW, 2=M-OW averaged, 3=M-OW using smallest M-OW distances; it uses GR_WS=1, GR_BINS=300, while NH is configured separately."
+  },
+  "normalization_details": {
+    "gr_ws_1_2_3": "module_gr.f90 computes radial PCF-style normalization; mode 1 uses per-atom output, modes 2/3 molecule-level output. Mode 3 is not equivalent by definition to a simple normalized pair-distance PDF.",
+    "hydration_counts": "module_hydration.f90 counts nearest distances cumulatively and does not produce the GR histogram normalization.",
+    "unresolved": "The inspected HIN code does not establish which mode, bin count, frame stride, or postprocessing normalization was used to produce DOLMEN hydhist CSVs. DOLMEN repository tree exposes descriptor CSVs but no generator script or target trajectories."
+  },
+  "interpretation_limits": [
+    "Both all-pair and nearest-solute definitions are publicly available HIN modes; the presence of nearest-distance code does not prove DOLMEN used GR_WS=3.",
+    "The example file uses GR_WS=1, so it cannot be treated as evidence of production settings for Warren2024.",
+    "Do not infer a causal explanation for observed descriptor differences or claim a DOLMEN normalization match from these source inspections alone.",
+    "Root's posthoc comparisons should report each tested definition/normalization as a diagnostic and preserve unresolved production settings."
+  ],
+  "local_files": [
+    "data/raw/phase10/methods/pinned-module_gr.f90",
+    "data/raw/phase10/methods/pinned-module_hydration.f90",
+    "data/raw/phase10/methods/pinned-hin_structure.f90",
+    "data/raw/phase10/methods/pinned-hin_structure.in"
+  ]
+}

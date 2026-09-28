@@ -1,0 +1,150 @@
+[
+  {
+    "study_id": "doi:10.3390/antiox15010107",
+    "doi": "10.3390/antiox15010107",
+    "title": "Cold Shock Protein B as an Alternative to DMSO for Oocyte Vitrification.",
+    "year": 2026,
+    "pmcid": "PMC12837293",
+    "source_url": "https://doi.org/10.3390/antiox15010107",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase3/cspb.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Mus musculus",
+      "Bos taurus"
+    ],
+    "cell_types": [
+      "mouse metaphase-II oocytes",
+      "bovine metaphase-II oocytes"
+    ],
+    "study_design": "Recombinant cold shock protein B (CspB) was tested for ice control, DMSO replacement in mouse and bovine oocyte vitrification, developmental competence, and mTOR perturbation.",
+    "interventions": [
+      "recombinant CspB from Polaribacter irgensii KOPRI 22228",
+      "15% ethylene glycol + 2 mg/mL CspB",
+      "MHY1485 mTOR activator"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "cspb-2026-1",
+        "model": "CspB protein solutions in physiological saline",
+        "intervention": "Recombinant CspB concentration series in sandwich recrystallization assay",
+        "comparator": "Protein-free saline / concentration comparison",
+        "formulation": [
+          {
+            "compound": "recombinant CspB",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "quenching at −80 °C",
+        "warming": "annealing at −20 °C; cryo-microscopy",
+        "storage": null,
+        "outcome_name": "Ice crystal size and recrystallization",
+        "outcome_type": "ice_activity",
+        "timepoint": "After annealing at −20 °C; duration not transcribed",
+        "result": "The sandwich assay used 6 µL physiological saline samples quenched at −80 °C and annealed at −20 °C; ice crystal size decreased with CspB concentration. The reported recombinant Polaribacter protein was 21.9 kDa. GFP localization at the oocyte periphery/zona pellucida is not itself an ice-binding assay.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Methods 2.1–2.2; Results 3.1–3.2; Figure 2E-F",
+        "evidence_excerpt": "inhibit ice crystallization and recrystallization"
+      },
+      {
+        "experiment_id": "cspb-2026-2",
+        "model": "Mouse and bovine MII oocytes undergoing vitrification",
+        "intervention": "Progressive DMSO/EG reduction with 1 or 2 mg/mL CspB; selected 15% EG + 2 mg/mL CspB",
+        "comparator": "Standard 15% DMSO + 15% EG, 15% EG alone, and removal of both DMSO and EG",
+        "formulation": [
+          {
+            "compound": "CspB",
+            "concentration": 2,
+            "unit": "mg/mL"
+          },
+          {
+            "compound": "ethylene glycol",
+            "concentration": 15,
+            "unit": "%"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Five oocytes per vitrification carrier; rapid plunge into liquid nitrogen using commercial kit; thermal rate not reported",
+        "warming": "Warming per commercial kit followed by 2 h recovery in mouse M16 or bovine maturation medium",
+        "storage": null,
+        "outcome_name": "Post-thaw survival and mouse developmental competence",
+        "outcome_type": "viability",
+        "timepoint": "2 h stabilization for mouse survival; cleavage 24 h and blastocyst 96 h post-activation",
+        "result": "With 15% EG and no DMSO, mouse survival was 61.33 ± 3.69% without CspB (n=309), 72.93 ± 1.96% with 1 mg/mL (n=323), and 89.93 ± 1.20% with 2 mg/mL (n=352). Removing both DMSO and EG gave 3.97%, 7.00%, and 28.43% survival respectively. Bovine 15% EG + 2 mg/mL CspB survival was 87.53 ± 2.02% (n=101), versus 85.73 ± 2.55% for standard vitrification (n=121) and 46.87 ± 1.46% for EG alone (n=113). Mouse parthenogenetic cleavage/blastocyst outcomes were 91.82%/39.37% with CspB versus 93.04%/41.82% standard and 72.51%/24.13% EG alone; these are not live-birth outcomes.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Mouse survival n=309/323/352 in reported 0% DMSO comparison; bovine n=101 CspB and n=121 standard vitrification; developmental subgroup n values reported by Figure 3",
+        "source_locator": "Methods 2.5–2.6; Results 3.3; Figures 2G-I and 3B",
+        "evidence_excerpt": "significantly improved oocyte survival rates"
+      },
+      {
+        "experiment_id": "cspb-2026-3",
+        "model": "Mouse MII oocytes vitrified in 15% EG + 2 mg/mL CspB",
+        "intervention": "MHY1485 mTOR activator added before CspB vitrification; 5 or 10 μg/mL tested, 5 μg/mL selected",
+        "comparator": "CspB formulation without MHY1485",
+        "formulation": [
+          {
+            "compound": "CspB",
+            "concentration": 2,
+            "unit": "mg/mL"
+          },
+          {
+            "compound": "ethylene glycol",
+            "concentration": 15,
+            "unit": "%"
+          },
+          {
+            "compound": "MHY1485",
+            "concentration": 5,
+            "unit": "μg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "pre_freeze_treatment",
+          "freezing",
+          "post_thaw_assessment"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "mTOR expression, ROS/GSH, mitochondrial function, and caspase-3/9 apoptosis markers",
+        "outcome_type": "mechanistic",
+        "timepoint": "post-vitrification quality assessment; 5 and 10 μg/mL activation screen",
+        "result": "MHY1485 at 5 and 10 μg/mL upregulated mTOR; 5 μg/mL was selected. Adding the activator to CspB-treated oocytes increased oxidative stress, mitochondrial damage, and apoptosis markers, reversing the protective phenotype. This is pathway perturbation evidence, not direct CspB-mTOR binding evidence.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Marker assays used groups of 15 oocytes for ROS/GSH/DHE and mitochondrial membrane-potential imaging; other assay n values vary by figure",
+        "source_locator": "Methods 2.7–2.9; Results 3.6; Figure 5 and Supplementary Figure S1",
+        "evidence_excerpt": "activation of mTOR abolished CspB’s beneficial effects"
+      }
+    ],
+    "main_finding": "Recombinant CspB reduced ice crystal injury and supported DMSO-reduced or DMSO-free mouse/bovine oocyte vitrification; mTOR activation reversed associated stress-marker protection.",
+    "limitations": [
+      "This is mammalian reproductive transfer evidence, not human iPSC evidence.",
+      "Developmental outcomes and stress markers were assessed in mouse oocytes; bovine evidence in the extracted result is primarily survival.",
+      "mTOR perturbation supports pathway involvement but does not establish direct target binding or exclude upstream physical-injury effects.",
+      "CspB is a recombinant protein, not a small molecule; the reported 21.9 kDa Polaribacter construct should not be substituted with an unrelated protein sharing the CspB name.",
+      "The selected DMSO-free formulation retains 15% ethylene glycol. Removing both permeating CPAs yielded only 28.43% mouse survival even at 2 mg/mL CspB.",
+      "Survival is morphology/membrane-integrity scoring; oocyte counts are not independent donor or culture-run counts. Developmental endpoints follow parthenogenetic activation, not live birth.",
+      "Kit-based vitrification/warming does not specify a complete transferable thermal schedule. Protein sequence, tag and purity need confirmation before replication.",
+      "RNA methods refer to control and MBP groups; correspondence to the reported CspB groups requires clarification. No transcriptomic reanalysis was performed."
+    ],
+    "mechanism_claim": "A sandwich ice assay measures physical ice control. Oocyte stress markers and mTOR-activator reversal support pathway involvement, but do not prove direct CspB-mTOR binding or selective inhibition. Ice-interface binding is modeled by molecular dynamics; GFP localization at the oocyte periphery/zona pellucida is a separate assay.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root selected methods/results review"
+  }
+]

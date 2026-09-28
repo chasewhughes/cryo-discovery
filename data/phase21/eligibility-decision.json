@@ -1,0 +1,80 @@
+{
+  "eligible": true,
+  "assay_id": "CHEMBL2341182",
+  "decided_at": "2026-09-07T08:58:34.778064+00:00",
+  "policy_path": "data/phase21/selection-policy.json",
+  "basis": "45primary structures independently reconstructed from tables/experimental names; all45uniquely matched by canonical isomeric graph then values.41exactincluded,3censored+12hexact/boundconflictexcluded. Fixed26cal/15test split has15heldoutMurckoscaffolds,zero prior17/18/20identity or testscaffoldoverlap. No newmodeloutputs used. Primary HTRF protocol supported.",
+  "split_audit": {
+    "calibration": {
+      "compounds": 26,
+      "scaffolds": 3,
+      "scaffold_group_sizes": [
+        24,
+        1,
+        1
+      ],
+      "largest_fraction": 0.9230769230769231
+    },
+    "test": {
+      "compounds": 15,
+      "scaffolds": 15,
+      "scaffold_group_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "largest_fraction": 0.06666666666666667
+    }
+  },
+  "review_paths": [
+    "data/phase21/primary-source-audit.json",
+    "data/phase20/urea2013-method-review.json",
+    "data/phase21/source-table-reconciliation.json",
+    "scripts/reconcile_urea2013_sources.py",
+    "data/phase21/grk2017-source-reconciliation.json"
+  ],
+  "source_paths": [
+    "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+    "data/raw/phase20/urea2013/article.pdf",
+    "data/raw/phase20/urea2013/jm400062r_si_001.pdf"
+  ],
+  "deferred_candidate": {
+    "status": "deferred_primary_protocol_inaccessible_metadata_insufficient",
+    "primary": {
+      "doi": "10.1021/acs.jmedchem.7b00443",
+      "url": "https://doi.org/10.1021/acs.jmedchem.7b00443",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28699740/"
+    },
+    "reconciled_sources": {
+      "author_csv_path": "data/raw/phase21/grk2017/jm7b00443_si_001.csv",
+      "author_csv_sha256": "d2ca71e4f1f089992488076741c0eba6046b2accd44b5c9dca79a04ea0123a17",
+      "chembl_activity_path": "data/raw/phase20/inventory/CHEMBL4040374-activities.json",
+      "chembl_activity_sha256": "de431199924ea73e5a17228ae6061a669acda9e1d061b10218f1f6dd26731c33",
+      "reconciliation_path": "data/phase21/grk2017-source-reconciliation.json",
+      "reconciliation_summary": "All92ChEMBL records uniquely matched to author structures and values; six canonical-tautomer equivalences recorded explicitly. Author CSV has93rows: source-only30r>10000nM absent fromChEMBL. Primary historical methods remain unverified."
+    },
+    "what_is_supported": "ChEMBL assay metadata describes recombinant human N-terminal GST-tagged ROCK2 catalytic domain residues 1-553, baculovirus expression, STK 2-biotin substrate, and HTRF/TR-FRET measurement after 60 minutes.",
+    "what_is_not_supported": "The accessible primary article/protocol text did not establish the actual historical ATP concentration, reagent concentrations, enzyme lot, or complete assay procedure. ACS article access was blocked by a Cloudflare challenge; the LookChem copy is only an accepted-manuscript preview and omits the assay methods.",
+    "eligibility_decision": "defer; metadata alone is insufficient for the strict primary-method eligibility rule despite strong structure/value reconciliation",
+    "no_bypass": "No access-control bypass, outreach, or inference from another ROCK2/STK2 protocol was used."
+  },
+  "limitations": [
+    "Accepted/proof article version; historical assaylot sequence notcertified.",
+    "Assay human1\u2013543 differsfromfixedmodel11\u2013552; biochemicalHTRF notexplicitATPsimulation.",
+    "15Murckogroupsincludecloselyrelatedpendant-ring variants; not15independentcorechemotypes.",
+    "Prior17/18/20 exactidentity excluded; modelpretrainingoverlapunknown.",
+    "Knowninhibitorretrospectivebenchmark; no novelcandidate, cellviability orcryoprotectionclaim."
+  ]
+}

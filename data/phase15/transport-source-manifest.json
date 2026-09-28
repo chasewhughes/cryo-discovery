@@ -1,0 +1,20 @@
+{
+  "source": "PMC11731021",
+  "items": [
+    {
+      "path": "data/raw/phase15/transport/PMC11731021.xml",
+      "kind": "primary_fulltext_xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11731021/fullTextXML",
+      "sha256": "da6cd4afcbd21cf7a2c976eacdffa0eb87e3947d38c82bda742ac582613b2b0a",
+      "bytes": 169598
+    },
+    {
+      "path": "data/raw/phase15/transport/41598_2025_85509_MOESM1_ESM.pdf",
+      "kind": "supplementary_archive",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11731021/supplementaryFiles",
+      "sha256": "02e11ec12f24fd2780bbf2699efb7f39b0ccf8f03b167928c2f2c23df7207deb",
+      "bytes": 1818682
+    }
+  ],
+  "supplement_note": "The supplementaryFiles response is a ZIP archive despite its .pdf download name; it contains the article supplementary PDF and figures."
+}

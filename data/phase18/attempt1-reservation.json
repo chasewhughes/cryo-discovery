@@ -1,0 +1,16 @@
+{
+  "attempt": 1,
+  "name": "cryo-phase18-external-1-da105791",
+  "created_epoch": 1788730731.93365,
+  "deadline_epoch": 1788741531.93365,
+  "reserved_usd": 2.6999999999999997,
+  "prior_reserve_usd": 5.0516671223570215,
+  "other_pending_reserve_usd": 0.0,
+  "plan_sha256": "aa474a605f1612fd913b2a271ef27e7f0b6da63f46982aad03598fbe97167193",
+  "watchdog_pid": 51458,
+  "pod_id": "zphm3xolawgfsz",
+  "cost_per_hour": 0.74,
+  "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "worker_sha256": "af61bc202460bbf744d51d68a776e3d27aea1a0f32bae5c2bdcfaf16db7ae858"
+}

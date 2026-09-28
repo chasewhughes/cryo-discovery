@@ -1,0 +1,1657 @@
+{
+  "schema_version": "phase20-rock-inventory-identity-audit-v1",
+  "scope": "Identity, duplicate, overlap and frozen scaffold-split audit only. ChEMBL assay descriptions are not treated as primary-source eligibility; source status is reported separately.",
+  "inventory_path": "data/phase20/orthogonal-source-inventory.json",
+  "inventory_sha256": "aea1bf2f2e85e44c2a685bdb2db13fab61b0044536af3f9fcd97a123b4bf0d7b",
+  "prior_identity_sources": [
+    {
+      "path": "data/phase15/rock-benchmark.json",
+      "sha256": "dbd0408cd4e3b4a01b3e7ce616885342eb8e997a3aea0d47b3d29f17546cdf0f"
+    },
+    {
+      "path": "data/phase18/external-dataset.json",
+      "sha256": "ce89a55794249a87c188db08bd8d73eba2e586db5eb581e53f991f9585621371"
+    }
+  ],
+  "identity_policy": "Reuse Phase 19 identity rule: molecule ID, canonical isomeric SMILES, and achiral SMILES overlap exclusions; collapse identical isomeric structures only when exact values agree; enforce 1-128 heavy atoms and one fragment. Conflicting duplicate groups are excluded in full.",
+  "split_policy": "Reuse Phase 19 split seed cryo-phase19-split-1900 with whole achiral Murcko scaffold groups; no potency-based selection.",
+  "candidate_count_with_provisional_exact_records_ge20": 15,
+  "candidate_count_with_provisional_unique_molecules_ge20": 15,
+  "candidates": [
+    {
+      "assay_id": "CHEMBL1686688",
+      "document_id": "CHEMBL1681768",
+      "description": "Inhibition of ROCK2 by HTRF assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL1686688-activities.json",
+      "raw_sha256": "2778aa2905f4ce5adbf03e3819d4f653653386f2e9daecc83fb9b0d9236a4b43",
+      "inventory_provisional_exact_n": 27,
+      "raw_exact_qualified_record_n": 27,
+      "raw_exact_unique_molecule_n": 27,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 27,
+      "scaffold_count": 11,
+      "partition": {
+        "pass": true,
+        "calibration_n": 15,
+        "test_n": 12,
+        "calibration_scaffolds": 4,
+        "test_scaffolds": 7,
+        "scaffold_count": 11,
+        "calibration_ids": [
+          "CHEMBL1684196",
+          "CHEMBL1684198",
+          "CHEMBL1684199",
+          "CHEMBL1684200",
+          "CHEMBL1684202",
+          "CHEMBL1684203",
+          "CHEMBL1684204",
+          "CHEMBL1684213",
+          "CHEMBL1684221",
+          "CHEMBL1684222",
+          "CHEMBL1684223",
+          "CHEMBL1684224",
+          "CHEMBL1684225",
+          "CHEMBL1684226",
+          "CHEMBL1684227"
+        ],
+        "test_ids": [
+          "CHEMBL1684205",
+          "CHEMBL1684208",
+          "CHEMBL1684211",
+          "CHEMBL1684212",
+          "CHEMBL1684214",
+          "CHEMBL1684215",
+          "CHEMBL1684216",
+          "CHEMBL1684218",
+          "CHEMBL1684219",
+          "CHEMBL1684220",
+          "CHEMBL1684228",
+          "CHEMBL1684229"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL2330882",
+      "document_id": "CHEMBL2321772",
+      "description": "Inhibition of recombinant ROCK2 (unknown origin) using 5-FAM-labeled peptide as substrate after 1 hr by caliper off-chip incubation mobility shift assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL2330882-activities.json",
+      "raw_sha256": "a26d122acd7ceb05917f7bfbec89c2f4ad2c4283b7b2c7dfac138493ec9647d6",
+      "inventory_provisional_exact_n": 34,
+      "raw_exact_qualified_record_n": 34,
+      "raw_exact_unique_molecule_n": 34,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 34,
+      "scaffold_count": 12,
+      "partition": {
+        "pass": false,
+        "calibration_n": 27,
+        "test_n": 7,
+        "calibration_scaffolds": 5,
+        "test_scaffolds": 7,
+        "scaffold_count": 12,
+        "calibration_ids": [
+          "CHEMBL2325727",
+          "CHEMBL2325730",
+          "CHEMBL2325731",
+          "CHEMBL2325732",
+          "CHEMBL2325733",
+          "CHEMBL2325734",
+          "CHEMBL2325735",
+          "CHEMBL2325736",
+          "CHEMBL2325737",
+          "CHEMBL2325738",
+          "CHEMBL2325739",
+          "CHEMBL2325740",
+          "CHEMBL2325741",
+          "CHEMBL2325742",
+          "CHEMBL2325743",
+          "CHEMBL2325982",
+          "CHEMBL2325984",
+          "CHEMBL2325986",
+          "CHEMBL2325987",
+          "CHEMBL2325988",
+          "CHEMBL2325990",
+          "CHEMBL2325991",
+          "CHEMBL2325992",
+          "CHEMBL2325993",
+          "CHEMBL2325995",
+          "CHEMBL2325997",
+          "CHEMBL598194"
+        ],
+        "test_ids": [
+          "CHEMBL2325728",
+          "CHEMBL2325729",
+          "CHEMBL2325983",
+          "CHEMBL2325985",
+          "CHEMBL2325989",
+          "CHEMBL2325994",
+          "CHEMBL2325996"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL2341182",
+      "document_id": "CHEMBL2331531",
+      "description": "Inhibition of ROCK2 (unknown origin) after 4 hrs by HTRF assay",
+      "source_status": "partial_primary_audit",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+      "raw_sha256": "7a548e0fbcb8208310310a1e68b529756733c5df4b41a41359b273e3cefa95a0",
+      "inventory_provisional_exact_n": 42,
+      "raw_exact_qualified_record_n": 42,
+      "raw_exact_unique_molecule_n": 42,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 42,
+      "scaffold_count": 18,
+      "partition": {
+        "pass": true,
+        "calibration_n": 27,
+        "test_n": 15,
+        "calibration_scaffolds": 3,
+        "test_scaffolds": 15,
+        "scaffold_count": 18,
+        "calibration_ids": [
+          "CHEMBL2331562",
+          "CHEMBL2332056",
+          "CHEMBL2332057",
+          "CHEMBL2332058",
+          "CHEMBL2332059",
+          "CHEMBL2332062",
+          "CHEMBL2332064",
+          "CHEMBL2332065",
+          "CHEMBL2332066",
+          "CHEMBL2332068",
+          "CHEMBL2332074",
+          "CHEMBL2332075",
+          "CHEMBL2332076",
+          "CHEMBL2332082",
+          "CHEMBL2332085",
+          "CHEMBL2332086",
+          "CHEMBL2332087",
+          "CHEMBL2332088",
+          "CHEMBL2332089",
+          "CHEMBL2332090",
+          "CHEMBL2332091",
+          "CHEMBL2332092",
+          "CHEMBL2332093",
+          "CHEMBL2332094",
+          "CHEMBL2332096",
+          "CHEMBL2332097",
+          "CHEMBL2332098"
+        ],
+        "test_ids": [
+          "CHEMBL2332060",
+          "CHEMBL2332063",
+          "CHEMBL2332069",
+          "CHEMBL2332070",
+          "CHEMBL2332071",
+          "CHEMBL2332072",
+          "CHEMBL2332073",
+          "CHEMBL2332077",
+          "CHEMBL2332078",
+          "CHEMBL2332079",
+          "CHEMBL2332080",
+          "CHEMBL2332081",
+          "CHEMBL2332083",
+          "CHEMBL2332084",
+          "CHEMBL2332099"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL2444040",
+      "document_id": "CHEMBL2440036",
+      "description": "Inhibition of ROCK2 (unknown origin) using long S6 kinase peptide as substrate by radiometric assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL2444040-activities.json",
+      "raw_sha256": "e172274d8728a49961f7892f1e43f15bb15d413a4621e84deaa4f3d1affd2841",
+      "inventory_provisional_exact_n": 27,
+      "raw_exact_qualified_record_n": 27,
+      "raw_exact_unique_molecule_n": 27,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 27,
+      "scaffold_count": 12,
+      "partition": {
+        "pass": true,
+        "calibration_n": 9,
+        "test_n": 18,
+        "calibration_scaffolds": 8,
+        "test_scaffolds": 4,
+        "scaffold_count": 12,
+        "calibration_ids": [
+          "CHEMBL2440730",
+          "CHEMBL2440731",
+          "CHEMBL2440736",
+          "CHEMBL2440737",
+          "CHEMBL2440738",
+          "CHEMBL2440751",
+          "CHEMBL2440753",
+          "CHEMBL2440754",
+          "CHEMBL2440755"
+        ],
+        "test_ids": [
+          "CHEMBL2440732",
+          "CHEMBL2440733",
+          "CHEMBL2440734",
+          "CHEMBL2440735",
+          "CHEMBL2440739",
+          "CHEMBL2440740",
+          "CHEMBL2440741",
+          "CHEMBL2440742",
+          "CHEMBL2440743",
+          "CHEMBL2440745",
+          "CHEMBL2440746",
+          "CHEMBL2440747",
+          "CHEMBL2440748",
+          "CHEMBL2440749",
+          "CHEMBL2440750",
+          "CHEMBL2440752",
+          "CHEMBL2440756",
+          "CHEMBL559147"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL3404496",
+      "document_id": "CHEMBL3400131",
+      "description": "Inhibition of ROCK2 (unknown origin) using STK2 substrate after 4 hrs by HTRF mode",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL3404496-activities.json",
+      "raw_sha256": "e68b160852df7522b88e8fc4134e5b18f2a1c845a4daf14b175cdc5c1d84ef86",
+      "inventory_provisional_exact_n": 109,
+      "raw_exact_qualified_record_n": 109,
+      "raw_exact_unique_molecule_n": 56,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 33,
+      "conflicting_structural_duplicates": [
+        {
+          "isomeric_smiles": "COc1ccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402442",
+            "CHEMBL3402442"
+          ],
+          "values_nM": [
+            2747.89,
+            2750.0
+          ]
+        },
+        {
+          "isomeric_smiles": "Cc1cccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL3402443",
+            "CHEMBL3402443"
+          ],
+          "values_nM": [
+            33.0,
+            33.04
+          ]
+        },
+        {
+          "isomeric_smiles": "Nc1cccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL3402444",
+            "CHEMBL3402444"
+          ],
+          "values_nM": [
+            2.999,
+            3.0
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCc1cccc(Cl)c1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402445",
+            "CHEMBL3402445"
+          ],
+          "values_nM": [
+            16.98,
+            17.0
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCc1cccc(F)c1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402446",
+            "CHEMBL3402446"
+          ],
+          "values_nM": [
+            2.999,
+            3.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CNC(=O)Nc2ccc(-c3ccnc(N)c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL3402450",
+            "CHEMBL3402450"
+          ],
+          "values_nM": [
+            43.95,
+            44.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CNC(=O)Nc2ccc(C3=NC=NC4NC=CC34)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL3402451",
+            "CHEMBL3402451"
+          ],
+          "values_nM": [
+            187.93,
+            188.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CN(C)C(=O)Nc2ccc(-c3cn[nH]c3)cc2N(C)CCN(C)C)c1",
+          "molecule_ids": [
+            "CHEMBL3402461",
+            "CHEMBL3402461"
+          ],
+          "values_nM": [
+            7.998,
+            8.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1OCCN(C)C",
+          "molecule_ids": [
+            "CHEMBL3402462",
+            "CHEMBL3402462"
+          ],
+          "values_nM": [
+            2.999,
+            3.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1N(C)CCN(C)C",
+          "molecule_ids": [
+            "CHEMBL3402464",
+            "CHEMBL3402464"
+          ],
+          "values_nM": [
+            5.998,
+            6.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CNC(=O)N(CCN(C)C)c1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402469",
+            "CHEMBL3402469"
+          ],
+          "values_nM": [
+            2984.0,
+            2985.38
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1ccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)cc1F",
+          "molecule_ids": [
+            "CHEMBL2332091",
+            "CHEMBL2332091"
+          ],
+          "values_nM": [
+            357.0,
+            357.27
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(OC)c1CNC(=O)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL2332088",
+            "CHEMBL2332088"
+          ],
+          "values_nM": [
+            924.0,
+            924.7
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1OC",
+          "molecule_ids": [
+            "CHEMBL2332085",
+            "CHEMBL2332085"
+          ],
+          "values_nM": [
+            252.93,
+            253.0
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCCCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL2332079",
+            "CHEMBL2332079"
+          ],
+          "values_nM": [
+            1016.25,
+            1017.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CN(C)CCOc1cc(-c2cn[nH]c2)ccc1NC(=O)N(CCN(C)C)Cc1ccccc1",
+          "molecule_ids": [
+            "CHEMBL3402472",
+            "CHEMBL3402472"
+          ],
+          "values_nM": [
+            169.82,
+            170.0
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCO)Cc1ccccc1",
+          "molecule_ids": [
+            "CHEMBL2331562",
+            "CHEMBL2331562"
+          ],
+          "values_nM": [
+            11.99,
+            12.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CN(CCCN2CCOCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL2332072",
+            "CHEMBL2332072"
+          ],
+          "values_nM": [
+            3.999,
+            4.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CN(CCN2CCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL2332069",
+            "CHEMBL2332069"
+          ],
+          "values_nM": [
+            2.999,
+            3.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COCCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL2332066",
+            "CHEMBL2332066"
+          ],
+          "values_nM": [
+            16.98,
+            17.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CNC(=O)N(CCCN(C)C)c1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402470",
+            "CHEMBL3402470"
+          ],
+          "values_nM": [
+            3324.0,
+            3326.6
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1ccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c(OC)c1",
+          "molecule_ids": [
+            "CHEMBL2332086",
+            "CHEMBL2332086"
+          ],
+          "values_nM": [
+            331.0,
+            331.13
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCC1CCCCC1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL2332084",
+            "CHEMBL2332084"
+          ],
+          "values_nM": [
+            751.0,
+            751.62
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402465",
+            "CHEMBL3402465"
+          ],
+          "values_nM": [
+            17.99,
+            18.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CN(C(=O)Nc2ccc(-c3cn[nH]c3)cc2)C(C)C)c1",
+          "molecule_ids": [
+            "CHEMBL2332064",
+            "CHEMBL2332064"
+          ],
+          "values_nM": [
+            2.999,
+            3.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CNC(=O)N(CCO)c1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402468",
+            "CHEMBL3402468"
+          ],
+          "values_nM": [
+            611.0,
+            751.62
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)cc(OC)c1",
+          "molecule_ids": [
+            "CHEMBL2332090",
+            "CHEMBL2332090"
+          ],
+          "values_nM": [
+            281.0,
+            281.19
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1ccc(OC)c(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL2332087",
+            "CHEMBL2332087"
+          ],
+          "values_nM": [
+            570.0,
+            570.16
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(NCCc1ccccc1)Nc1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL2332078",
+            "CHEMBL2332078"
+          ],
+          "values_nM": [
+            88.0,
+            88.1
+          ]
+        },
+        {
+          "isomeric_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N1CCc2ccccc2C1",
+          "molecule_ids": [
+            "CHEMBL2332083",
+            "CHEMBL2332083"
+          ],
+          "values_nM": [
+            279.9,
+            280.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CNC(=O)N(C)c1ccc(-c2cn[nH]c2)cc1",
+          "molecule_ids": [
+            "CHEMBL3402467",
+            "CHEMBL3402467"
+          ],
+          "values_nM": [
+            87.0,
+            87.1
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1ccc(CNC(=O)Nc2ccc(-c3cn[nH]c3)cc2)cc1OC",
+          "molecule_ids": [
+            "CHEMBL2332089",
+            "CHEMBL2332089"
+          ],
+          "values_nM": [
+            424.62,
+            425.0
+          ]
+        },
+        {
+          "isomeric_smiles": "COc1cccc(CN(CCCN2CCCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+          "molecule_ids": [
+            "CHEMBL2332074",
+            "CHEMBL2332074"
+          ],
+          "values_nM": [
+            3.999,
+            4.0
+          ]
+        }
+      ],
+      "eligible_exact_unique_n": 23,
+      "scaffold_count": 8,
+      "partition": {
+        "pass": false,
+        "calibration_n": 16,
+        "test_n": 7,
+        "calibration_scaffolds": 1,
+        "test_scaffolds": 7,
+        "scaffold_count": 8,
+        "calibration_ids": [
+          "CHEMBL2332056",
+          "CHEMBL2332057",
+          "CHEMBL2332058",
+          "CHEMBL2332059",
+          "CHEMBL2332065",
+          "CHEMBL2332068",
+          "CHEMBL2332075",
+          "CHEMBL2332076",
+          "CHEMBL2332097",
+          "CHEMBL2332098",
+          "CHEMBL3402441",
+          "CHEMBL3402447",
+          "CHEMBL3402466",
+          "CHEMBL3402473",
+          "CHEMBL3402474",
+          "CHEMBL3402475"
+        ],
+        "test_ids": [
+          "CHEMBL2332060",
+          "CHEMBL2332070",
+          "CHEMBL2332071",
+          "CHEMBL2332073",
+          "CHEMBL2332099",
+          "CHEMBL3402448",
+          "CHEMBL3402449"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL3429819",
+      "document_id": "CHEMBL3425434",
+      "description": "Inhibition of human N-terminal GST-tagged ROCK2 expressed in baculovirus-infected insect cells using long S6 kinase peptide as substrate by radiometric assay in presence of [32P]ATP",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL3429819-activities.json",
+      "raw_sha256": "839cfe158a1bc857db5d20dd268e8dcf6855e0eedc9ce0d6ff784badf64207cf",
+      "inventory_provisional_exact_n": 23,
+      "raw_exact_qualified_record_n": 23,
+      "raw_exact_unique_molecule_n": 23,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 23,
+      "scaffold_count": 7,
+      "partition": {
+        "pass": false,
+        "calibration_n": 21,
+        "test_n": 2,
+        "calibration_scaffolds": 5,
+        "test_scaffolds": 2,
+        "scaffold_count": 7,
+        "calibration_ids": [
+          "CHEMBL2440737",
+          "CHEMBL3426621",
+          "CHEMBL3426622",
+          "CHEMBL3426623",
+          "CHEMBL3426626",
+          "CHEMBL3426627",
+          "CHEMBL3426628",
+          "CHEMBL3426629",
+          "CHEMBL3426630",
+          "CHEMBL3426631",
+          "CHEMBL3426632",
+          "CHEMBL3426633",
+          "CHEMBL3426634",
+          "CHEMBL3426635",
+          "CHEMBL3426636",
+          "CHEMBL3426638",
+          "CHEMBL3426641",
+          "CHEMBL3426643",
+          "CHEMBL3426646",
+          "CHEMBL3426726",
+          "CHEMBL3426732"
+        ],
+        "test_ids": [
+          "CHEMBL3426642",
+          "CHEMBL559147"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL3615478",
+      "document_id": "CHEMBL3611979",
+      "description": "Inhibition of ROCK2 (unknown origin) by radiometric assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL3615478-activities.json",
+      "raw_sha256": "ef55c5c707644c51940c939646c52750d1cec5dde705b18e2e99dffeaa737927",
+      "inventory_provisional_exact_n": 21,
+      "raw_exact_qualified_record_n": 21,
+      "raw_exact_unique_molecule_n": 21,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 21,
+      "scaffold_count": 4,
+      "partition": {
+        "pass": false,
+        "calibration_n": 17,
+        "test_n": 4,
+        "calibration_scaffolds": 1,
+        "test_scaffolds": 3,
+        "scaffold_count": 4,
+        "calibration_ids": [
+          "CHEMBL3356433",
+          "CHEMBL3613599",
+          "CHEMBL3613600",
+          "CHEMBL3613601",
+          "CHEMBL3613602",
+          "CHEMBL3613603",
+          "CHEMBL3613604",
+          "CHEMBL3613605",
+          "CHEMBL3613606",
+          "CHEMBL3613607",
+          "CHEMBL3613608",
+          "CHEMBL3613609",
+          "CHEMBL3613610",
+          "CHEMBL3613614",
+          "CHEMBL3613620",
+          "CHEMBL3613621",
+          "CHEMBL3613622"
+        ],
+        "test_ids": [
+          "CHEMBL3613611",
+          "CHEMBL3613612",
+          "CHEMBL3613616",
+          "CHEMBL3613617"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL4040374",
+      "document_id": "CHEMBL4038320",
+      "description": "Inhibition of recombinant human N-terminal GST-tagged ROCK2 catalytic domain (1 to 553 residues) expressed in baculovirus expression system using STK 2-biotin as substrate measured after 60 mins by HTRF/TR-FRET assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4040374-activities.json",
+      "raw_sha256": "de431199924ea73e5a17228ae6061a669acda9e1d061b10218f1f6dd26731c33",
+      "inventory_provisional_exact_n": 83,
+      "raw_exact_qualified_record_n": 83,
+      "raw_exact_unique_molecule_n": 83,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 83,
+      "scaffold_count": 39,
+      "partition": {
+        "pass": true,
+        "calibration_n": 40,
+        "test_n": 43,
+        "calibration_scaffolds": 8,
+        "test_scaffolds": 31,
+        "scaffold_count": 39,
+        "calibration_ids": [
+          "CHEMBL1738877",
+          "CHEMBL4060836",
+          "CHEMBL4060973",
+          "CHEMBL4061438",
+          "CHEMBL4062560",
+          "CHEMBL4062649",
+          "CHEMBL4062967",
+          "CHEMBL4063713",
+          "CHEMBL4063774",
+          "CHEMBL4064232",
+          "CHEMBL4066027",
+          "CHEMBL4070100",
+          "CHEMBL4071398",
+          "CHEMBL4072308",
+          "CHEMBL4072362",
+          "CHEMBL4072686",
+          "CHEMBL4072828",
+          "CHEMBL4073882",
+          "CHEMBL4075183",
+          "CHEMBL4075992",
+          "CHEMBL4077117",
+          "CHEMBL4077447",
+          "CHEMBL4078768",
+          "CHEMBL4082714",
+          "CHEMBL4082775",
+          "CHEMBL4082853",
+          "CHEMBL4083276",
+          "CHEMBL4085317",
+          "CHEMBL4086619",
+          "CHEMBL4089087",
+          "CHEMBL4090462",
+          "CHEMBL4090612",
+          "CHEMBL4091067",
+          "CHEMBL4091451",
+          "CHEMBL4091573",
+          "CHEMBL4093686",
+          "CHEMBL4095595",
+          "CHEMBL4095659",
+          "CHEMBL4098177",
+          "CHEMBL4100891"
+        ],
+        "test_ids": [
+          "CHEMBL1563842",
+          "CHEMBL1738878",
+          "CHEMBL3727506",
+          "CHEMBL3728445",
+          "CHEMBL3728772",
+          "CHEMBL3730059",
+          "CHEMBL3731521",
+          "CHEMBL4063621",
+          "CHEMBL4063622",
+          "CHEMBL4064596",
+          "CHEMBL4065514",
+          "CHEMBL4065690",
+          "CHEMBL4067877",
+          "CHEMBL4071201",
+          "CHEMBL4075063",
+          "CHEMBL4076320",
+          "CHEMBL4081217",
+          "CHEMBL4082173",
+          "CHEMBL4082559",
+          "CHEMBL4082713",
+          "CHEMBL4082805",
+          "CHEMBL4083675",
+          "CHEMBL4085247",
+          "CHEMBL4086046",
+          "CHEMBL4087117",
+          "CHEMBL4091566",
+          "CHEMBL4091972",
+          "CHEMBL4093075",
+          "CHEMBL4093174",
+          "CHEMBL4094447",
+          "CHEMBL4096791",
+          "CHEMBL4098243",
+          "CHEMBL4099309",
+          "CHEMBL4100175",
+          "CHEMBL4100576",
+          "CHEMBL4100707",
+          "CHEMBL4100779",
+          "CHEMBL4101520",
+          "CHEMBL4101739",
+          "CHEMBL4103971",
+          "CHEMBL4103972",
+          "CHEMBL4104512",
+          "CHEMBL4105466"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL4328667",
+      "document_id": "CHEMBL4325872",
+      "description": "Inhibition of GST-fused human recombinant ROCK2 (11 to 552 residues) expressed in Spodoptera frugiperda insect cells using STK S2 peptide substrate and 33P-ATP after 60 mins by HTRF assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4328667-activities.json",
+      "raw_sha256": "fd2a13c54519d6bc1635e9ad45ba5381ac7d2ac3abfa96a9e42f0a2628b60475",
+      "inventory_provisional_exact_n": 43,
+      "raw_exact_qualified_record_n": 43,
+      "raw_exact_unique_molecule_n": 43,
+      "overlap_n": 43,
+      "overlaps": [
+        {
+          "molecule_id": "CHEMBL1977135",
+          "activity_id": 18939224,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL2006299",
+          "activity_id": 18939225,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4454552",
+          "activity_id": 18939226,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4476761",
+          "activity_id": 18939227,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4536833",
+          "activity_id": 18939228,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4475535",
+          "activity_id": 18939229,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4447521",
+          "activity_id": 18939230,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4522042",
+          "activity_id": 18939231,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4463301",
+          "activity_id": 18939232,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4436040",
+          "activity_id": 18939233,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4570150",
+          "activity_id": 18939234,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4448806",
+          "activity_id": 18939235,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4575880",
+          "activity_id": 18939236,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4474946",
+          "activity_id": 18939237,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4459800",
+          "activity_id": 18939238,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4451899",
+          "activity_id": 18939239,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4438453",
+          "activity_id": 18939240,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4472858",
+          "activity_id": 18939242,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4460511",
+          "activity_id": 18939243,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4584824",
+          "activity_id": 18939244,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4445356",
+          "activity_id": 18939245,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4556370",
+          "activity_id": 18939246,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4568447",
+          "activity_id": 18939247,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4446212",
+          "activity_id": 18939248,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4588929",
+          "activity_id": 18939249,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4459077",
+          "activity_id": 18939250,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4583341",
+          "activity_id": 18939251,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4469316",
+          "activity_id": 18939252,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4436197",
+          "activity_id": 18939253,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4471862",
+          "activity_id": 18939254,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4521871",
+          "activity_id": 18939255,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4590232",
+          "activity_id": 18939256,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4577208",
+          "activity_id": 18939257,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4469434",
+          "activity_id": 18939258,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4434688",
+          "activity_id": 18939259,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4572198",
+          "activity_id": 18939260,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4553926",
+          "activity_id": 18939261,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4555093",
+          "activity_id": 18939262,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4585481",
+          "activity_id": 18939263,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4550282",
+          "activity_id": 18939264,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4547725",
+          "activity_id": 18939265,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4557041",
+          "activity_id": 18939266,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        },
+        {
+          "molecule_id": "CHEMBL4465725",
+          "activity_id": 18939267,
+          "overlap_id": true,
+          "overlap_isomeric": true,
+          "overlap_achiral": true
+        }
+      ],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 0,
+      "scaffold_count": 0,
+      "partition": {
+        "pass": false,
+        "reason": "fewer than 20 eligible exact non-overlapping compounds"
+      }
+    },
+    {
+      "assay_id": "CHEMBL4379076",
+      "document_id": "CHEMBL4376834",
+      "description": "Inhibition of recombinant human ROCK2 (11 to 552 residues) using KEAKEKRQEQIAKR as substrate incubated for 40 mins in presence of [gamma-33P]ATP and 10 uM ATP by radiometric scintillation counting analysis",
+      "source_status": "verified_primary",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4379076-activities.json",
+      "raw_sha256": "384c39bbd1880def039e6fbad4b020d0314e4ab7c1f2d08fa6c1d8904b23a8f1",
+      "inventory_provisional_exact_n": 50,
+      "raw_exact_qualified_record_n": 50,
+      "raw_exact_unique_molecule_n": 50,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 50,
+      "scaffold_count": 14,
+      "partition": {
+        "pass": true,
+        "calibration_n": 20,
+        "test_n": 30,
+        "calibration_scaffolds": 11,
+        "test_scaffolds": 3,
+        "scaffold_count": 14,
+        "calibration_ids": [
+          "CHEMBL4444449",
+          "CHEMBL4444893",
+          "CHEMBL4445974",
+          "CHEMBL4447770",
+          "CHEMBL4452457",
+          "CHEMBL4455163",
+          "CHEMBL4460696",
+          "CHEMBL4467086",
+          "CHEMBL4473009",
+          "CHEMBL4474271",
+          "CHEMBL4474804",
+          "CHEMBL4475590",
+          "CHEMBL4476081",
+          "CHEMBL4514074",
+          "CHEMBL4526491",
+          "CHEMBL4539818",
+          "CHEMBL4558371",
+          "CHEMBL4577999",
+          "CHEMBL4585524",
+          "CHEMBL4590957"
+        ],
+        "test_ids": [
+          "CHEMBL4437283",
+          "CHEMBL4438748",
+          "CHEMBL4440876",
+          "CHEMBL4446390",
+          "CHEMBL4451007",
+          "CHEMBL4451407",
+          "CHEMBL4452238",
+          "CHEMBL4453948",
+          "CHEMBL4454066",
+          "CHEMBL4457201",
+          "CHEMBL4458667",
+          "CHEMBL4458703",
+          "CHEMBL4459655",
+          "CHEMBL4467403",
+          "CHEMBL4470778",
+          "CHEMBL4472964",
+          "CHEMBL4475912",
+          "CHEMBL4476505",
+          "CHEMBL4519471",
+          "CHEMBL4529033",
+          "CHEMBL4533805",
+          "CHEMBL4551100",
+          "CHEMBL4555946",
+          "CHEMBL4556104",
+          "CHEMBL4562184",
+          "CHEMBL4568022",
+          "CHEMBL4576394",
+          "CHEMBL4581933",
+          "CHEMBL4586795",
+          "CHEMBL4586827"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL4617455",
+      "document_id": "CHEMBL4616614",
+      "description": "Inhibition of recombinant human ROCK2 (11 to 552 residues) using KEAKEKRQEQIAKRRRLSSLRASTSKSGGSQK as substrate incubated for 40 mins in presence of [gamma-33P]ATP by radiometric scintillation assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4617455-activities.json",
+      "raw_sha256": "759e2bc105106413f73c036b5637ee2243e9be8ea72619b8b41fd6c00954fe79",
+      "inventory_provisional_exact_n": 24,
+      "raw_exact_qualified_record_n": 24,
+      "raw_exact_unique_molecule_n": 24,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 24,
+      "scaffold_count": 9,
+      "partition": {
+        "pass": true,
+        "calibration_n": 14,
+        "test_n": 10,
+        "calibration_scaffolds": 4,
+        "test_scaffolds": 5,
+        "scaffold_count": 9,
+        "calibration_ids": [
+          "CHEMBL4637847",
+          "CHEMBL4639551",
+          "CHEMBL4639553",
+          "CHEMBL4639886",
+          "CHEMBL4643315",
+          "CHEMBL4643565",
+          "CHEMBL4644231",
+          "CHEMBL4644637",
+          "CHEMBL4645772",
+          "CHEMBL4646435",
+          "CHEMBL4649403",
+          "CHEMBL4649693",
+          "CHEMBL4649864",
+          "CHEMBL4649876"
+        ],
+        "test_ids": [
+          "CHEMBL4633510",
+          "CHEMBL4634539",
+          "CHEMBL4636499",
+          "CHEMBL4638636",
+          "CHEMBL4638815",
+          "CHEMBL4641760",
+          "CHEMBL4643620",
+          "CHEMBL4645138",
+          "CHEMBL4648698",
+          "CHEMBL4648713"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL4669819",
+      "document_id": "CHEMBL4665755",
+      "description": "Inhibition of ROCK2 (unknown origin) using FITC-AHA-AKRRRLSSLRA-OH peptide substrate by caliper assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4669819-activities.json",
+      "raw_sha256": "af437915e865b1d0bc114f58773a3bb922fea59c885adca53fd7325e37a9a016",
+      "inventory_provisional_exact_n": 26,
+      "raw_exact_qualified_record_n": 26,
+      "raw_exact_unique_molecule_n": 26,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 26,
+      "scaffold_count": 5,
+      "partition": {
+        "pass": false,
+        "calibration_n": 23,
+        "test_n": 3,
+        "calibration_scaffolds": 3,
+        "test_scaffolds": 2,
+        "scaffold_count": 5,
+        "calibration_ids": [
+          "CHEMBL3907133",
+          "CHEMBL3913336",
+          "CHEMBL3951271",
+          "CHEMBL3951573",
+          "CHEMBL3955445",
+          "CHEMBL3960736",
+          "CHEMBL4109840",
+          "CHEMBL4111347",
+          "CHEMBL4111518",
+          "CHEMBL4111655",
+          "CHEMBL4114533",
+          "CHEMBL4114628",
+          "CHEMBL4740106",
+          "CHEMBL4746508",
+          "CHEMBL4753754",
+          "CHEMBL4756156",
+          "CHEMBL4757844",
+          "CHEMBL4764401",
+          "CHEMBL4780269",
+          "CHEMBL4783577",
+          "CHEMBL4784425",
+          "CHEMBL4791701",
+          "CHEMBL4799704"
+        ],
+        "test_ids": [
+          "CHEMBL4741358",
+          "CHEMBL4749675",
+          "CHEMBL4799221"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL4669834",
+      "document_id": "CHEMBL4665758",
+      "description": "Inhibition of ROCK2 (unknown origin) using FITC-AHA-AKRRRLSSLRA-OH as substrate by caliper assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL4669834-activities.json",
+      "raw_sha256": "9f23a253a76cbd5d2f9633795ec5e5965e947f513bcbf361a8b48f4f81aba928",
+      "inventory_provisional_exact_n": 26,
+      "raw_exact_qualified_record_n": 26,
+      "raw_exact_unique_molecule_n": 24,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 1,
+      "conflicting_structural_duplicates": [
+        {
+          "isomeric_smiles": "CCC1Oc2cnccc2-c2ccc(C(=O)N[C@H](C)c3cccc(OC)c3)cc21",
+          "molecule_ids": [
+            "CHEMBL3578252",
+            "CHEMBL3578252",
+            "CHEMBL3578252"
+          ],
+          "values_nM": [
+            0.18,
+            0.52,
+            0.56
+          ]
+        }
+      ],
+      "eligible_exact_unique_n": 23,
+      "scaffold_count": 12,
+      "partition": {
+        "pass": true,
+        "calibration_n": 11,
+        "test_n": 12,
+        "calibration_scaffolds": 7,
+        "test_scaffolds": 5,
+        "scaffold_count": 12,
+        "calibration_ids": [
+          "CHEMBL3578250",
+          "CHEMBL4746531",
+          "CHEMBL4747999",
+          "CHEMBL4748957",
+          "CHEMBL4749267",
+          "CHEMBL4749353",
+          "CHEMBL4756660",
+          "CHEMBL4778671",
+          "CHEMBL4782709",
+          "CHEMBL4783882",
+          "CHEMBL4797055"
+        ],
+        "test_ids": [
+          "CHEMBL4743809",
+          "CHEMBL4746567",
+          "CHEMBL4748727",
+          "CHEMBL4749682",
+          "CHEMBL4758151",
+          "CHEMBL4759713",
+          "CHEMBL4762662",
+          "CHEMBL4763198",
+          "CHEMBL4778588",
+          "CHEMBL4785041",
+          "CHEMBL4790421",
+          "CHEMBL4797403"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL5387668",
+      "document_id": "CHEMBL5385876",
+      "description": "Inhibition of N-terminal His10-StrepII tagged human ROCK2 catalytic domain (1 to 553 residues) expressed in Sf9 insect cells by HTRF assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL5387668-activities.json",
+      "raw_sha256": "f0072e402c9aaf796425e2aea267c700848d271a3491341f2d877003a23e9e9b",
+      "inventory_provisional_exact_n": 51,
+      "raw_exact_qualified_record_n": 51,
+      "raw_exact_unique_molecule_n": 49,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 2,
+      "conflicting_structural_duplicates": [
+        {
+          "isomeric_smiles": "CN[C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4",
+          "molecule_ids": [
+            "CHEMBL388978",
+            "CHEMBL388978"
+          ],
+          "values_nM": [
+            4.0,
+            12.0
+          ]
+        },
+        {
+          "isomeric_smiles": "CN[C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4=O",
+          "molecule_ids": [
+            "CHEMBL4763675",
+            "CHEMBL4763675"
+          ],
+          "values_nM": [
+            20.0,
+            310.0
+          ]
+        }
+      ],
+      "eligible_exact_unique_n": 47,
+      "scaffold_count": 14,
+      "partition": {
+        "pass": true,
+        "calibration_n": 16,
+        "test_n": 31,
+        "calibration_scaffolds": 7,
+        "test_scaffolds": 7,
+        "scaffold_count": 14,
+        "calibration_ids": [
+          "CHEMBL4207068",
+          "CHEMBL4216395",
+          "CHEMBL4744480",
+          "CHEMBL4745670",
+          "CHEMBL4745823",
+          "CHEMBL4758636",
+          "CHEMBL4759449",
+          "CHEMBL4780192",
+          "CHEMBL4796257",
+          "CHEMBL5396761",
+          "CHEMBL5396883",
+          "CHEMBL5405477",
+          "CHEMBL5423360",
+          "CHEMBL5427567",
+          "CHEMBL5434756",
+          "CHEMBL64742"
+        ],
+        "test_ids": [
+          "CHEMBL190546",
+          "CHEMBL4203245",
+          "CHEMBL4277459",
+          "CHEMBL4280872",
+          "CHEMBL4284275",
+          "CHEMBL4291517",
+          "CHEMBL4294912",
+          "CHEMBL4744662",
+          "CHEMBL4745928",
+          "CHEMBL4753473",
+          "CHEMBL4754496",
+          "CHEMBL4758448",
+          "CHEMBL4759925",
+          "CHEMBL4761909",
+          "CHEMBL4762704",
+          "CHEMBL4762923",
+          "CHEMBL4763012",
+          "CHEMBL4763267",
+          "CHEMBL4764299",
+          "CHEMBL4777775",
+          "CHEMBL4783165",
+          "CHEMBL4794799",
+          "CHEMBL5398049",
+          "CHEMBL5399426",
+          "CHEMBL5402422",
+          "CHEMBL5403816",
+          "CHEMBL5407662",
+          "CHEMBL5411955",
+          "CHEMBL5422545",
+          "CHEMBL5430350",
+          "CHEMBL59004"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    },
+    {
+      "assay_id": "CHEMBL5392646",
+      "document_id": "CHEMBL5390280",
+      "description": "Inhibition of ROCK2 (unknown origin) by HTRF assay",
+      "source_status": "metadata_only_unverified",
+      "raw_path": "data/raw/phase20/inventory/CHEMBL5392646-activities.json",
+      "raw_sha256": "394f2b9a106fbcd9fbf603299ab2f96ffda392ba9239b74706f2cbc82754c6c3",
+      "inventory_provisional_exact_n": 37,
+      "raw_exact_qualified_record_n": 37,
+      "raw_exact_unique_molecule_n": 37,
+      "overlap_n": 0,
+      "overlaps": [],
+      "conflicting_structural_duplicates_n": 0,
+      "conflicting_structural_duplicates": [],
+      "eligible_exact_unique_n": 37,
+      "scaffold_count": 9,
+      "partition": {
+        "pass": true,
+        "calibration_n": 26,
+        "test_n": 11,
+        "calibration_scaffolds": 1,
+        "test_scaffolds": 8,
+        "scaffold_count": 9,
+        "calibration_ids": [
+          "CHEMBL5398844",
+          "CHEMBL5399221",
+          "CHEMBL5400899",
+          "CHEMBL5403088",
+          "CHEMBL5403605",
+          "CHEMBL5405298",
+          "CHEMBL5407146",
+          "CHEMBL5408387",
+          "CHEMBL5408850",
+          "CHEMBL5409229",
+          "CHEMBL5412281",
+          "CHEMBL5414693",
+          "CHEMBL5417698",
+          "CHEMBL5418416",
+          "CHEMBL5419207",
+          "CHEMBL5420109",
+          "CHEMBL5426208",
+          "CHEMBL5428479",
+          "CHEMBL5430368",
+          "CHEMBL5435627",
+          "CHEMBL5437526",
+          "CHEMBL5438833",
+          "CHEMBL5439375",
+          "CHEMBL5439783",
+          "CHEMBL5439971",
+          "CHEMBL5440816"
+        ],
+        "test_ids": [
+          "CHEMBL2005186",
+          "CHEMBL4573176",
+          "CHEMBL5397611",
+          "CHEMBL5403316",
+          "CHEMBL5403685",
+          "CHEMBL5409106",
+          "CHEMBL5414146",
+          "CHEMBL5416265",
+          "CHEMBL5420736",
+          "CHEMBL5421321",
+          "CHEMBL5427927"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test."
+      }
+    }
+  ],
+  "notes": [
+    "Only CHEMBL4379076 has a complete primary audit in Phase 20; CHEMBL2341182 has a partial primary audit. Other rows remain metadata-only and are not source-eligible.",
+    "No model outputs, predictions, or GPU operations performed."
+  ]
+}

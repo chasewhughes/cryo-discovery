@@ -1,0 +1,270 @@
+{
+  "inputs": [
+    {
+      "molecule_id": "CHEMBL1977135",
+      "path": "data/phase17/boltz-inputs/CHEMBL1977135.yaml",
+      "sha256": "715161ccc2f08c4e873fd671a95e028efc785c3a15edff7084d1f4c2e72510c2",
+      "heavy_atoms": 22
+    },
+    {
+      "molecule_id": "CHEMBL2006299",
+      "path": "data/phase17/boltz-inputs/CHEMBL2006299.yaml",
+      "sha256": "6a6ec2924a2e009aa1808ab77d33a5748b6fb236504a3296ca4240cf3497709e",
+      "heavy_atoms": 24
+    },
+    {
+      "molecule_id": "CHEMBL4434688",
+      "path": "data/phase17/boltz-inputs/CHEMBL4434688.yaml",
+      "sha256": "c1e455114ee8073dda4dd5ae78ad98fd7de081e6f524a3f2a0181aac0570d8c8",
+      "heavy_atoms": 33
+    },
+    {
+      "molecule_id": "CHEMBL4436040",
+      "path": "data/phase17/boltz-inputs/CHEMBL4436040.yaml",
+      "sha256": "871bd69b4e660bcd68677a21fa5657bafbb042353ef89aab50ae424f8d5f853f",
+      "heavy_atoms": 29
+    },
+    {
+      "molecule_id": "CHEMBL4436197",
+      "path": "data/phase17/boltz-inputs/CHEMBL4436197.yaml",
+      "sha256": "cdb825532bec49b382c24a7fff6e4d95c174383f35056615140a856dd713d244",
+      "heavy_atoms": 33
+    },
+    {
+      "molecule_id": "CHEMBL4438453",
+      "path": "data/phase17/boltz-inputs/CHEMBL4438453.yaml",
+      "sha256": "bf27dac6f93d4ade6543de7992f4feded12203c9f67126a65f3522b3cd426fca",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4445356",
+      "path": "data/phase17/boltz-inputs/CHEMBL4445356.yaml",
+      "sha256": "e029c0dca765f070ec75c117af09cab8862b9e275308a76b6c59e4163d8a8910",
+      "heavy_atoms": 28
+    },
+    {
+      "molecule_id": "CHEMBL4446212",
+      "path": "data/phase17/boltz-inputs/CHEMBL4446212.yaml",
+      "sha256": "acf40c231b6b2e4b1255323fd1bf4bb9735f0a8ad0bcf370e3064531a4b82934",
+      "heavy_atoms": 29
+    },
+    {
+      "molecule_id": "CHEMBL4447521",
+      "path": "data/phase17/boltz-inputs/CHEMBL4447521.yaml",
+      "sha256": "94c44f259c9cbc4db3ae4eeaebd16d52bb340b4816de295c0eaae0dc967ddd93",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4448806",
+      "path": "data/phase17/boltz-inputs/CHEMBL4448806.yaml",
+      "sha256": "6507a97c80091dda43082f33a56609ce8106bab5878fe24836e7e5a26aed4859",
+      "heavy_atoms": 25
+    },
+    {
+      "molecule_id": "CHEMBL4451899",
+      "path": "data/phase17/boltz-inputs/CHEMBL4451899.yaml",
+      "sha256": "297e91cf3857828e4f5ced2425f572f9ed5a512112ac16004ecb56125556a229",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4454552",
+      "path": "data/phase17/boltz-inputs/CHEMBL4454552.yaml",
+      "sha256": "547b24e867e67b809fc2063fec662360a1a4263a55cc7d095c42f1b307a0ad04",
+      "heavy_atoms": 25
+    },
+    {
+      "molecule_id": "CHEMBL4459077",
+      "path": "data/phase17/boltz-inputs/CHEMBL4459077.yaml",
+      "sha256": "bc05e954a3b3539584c2e879201b750ad9f508648f1436b7e5c96dc1510e4f4b",
+      "heavy_atoms": 29
+    },
+    {
+      "molecule_id": "CHEMBL4459800",
+      "path": "data/phase17/boltz-inputs/CHEMBL4459800.yaml",
+      "sha256": "f6223f6cdd9709b96c96f7444f4e9552f907cdce3ef1e24c3b2f7badf246891c",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4460511",
+      "path": "data/phase17/boltz-inputs/CHEMBL4460511.yaml",
+      "sha256": "e76c59db8f30c7e7c517d1b500603e465920cbce2e24cf35ed842d90e7ac20bf",
+      "heavy_atoms": 25
+    },
+    {
+      "molecule_id": "CHEMBL4463301",
+      "path": "data/phase17/boltz-inputs/CHEMBL4463301.yaml",
+      "sha256": "d819b6aab46ecaefac4f1d5192074e2c05d9fa43f8fe2c7e4a3af38cd7fdb922",
+      "heavy_atoms": 27
+    },
+    {
+      "molecule_id": "CHEMBL4465725",
+      "path": "data/phase17/boltz-inputs/CHEMBL4465725.yaml",
+      "sha256": "61a0dc9b5947a50d8cf800544498dd98a0e6922f05b421608249682ba42a5aaa",
+      "heavy_atoms": 33
+    },
+    {
+      "molecule_id": "CHEMBL4469316",
+      "path": "data/phase17/boltz-inputs/CHEMBL4469316.yaml",
+      "sha256": "15a18230f6ce1a2262c4fa984a586a032928911dbee13299abd617076a8e7587",
+      "heavy_atoms": 27
+    },
+    {
+      "molecule_id": "CHEMBL4469434",
+      "path": "data/phase17/boltz-inputs/CHEMBL4469434.yaml",
+      "sha256": "be5bf1085003e8083054f68a8add85068b26c84e83fe036b96c0f87de958c983",
+      "heavy_atoms": 27
+    },
+    {
+      "molecule_id": "CHEMBL4471862",
+      "path": "data/phase17/boltz-inputs/CHEMBL4471862.yaml",
+      "sha256": "bf6404f4b9ddb31120b92f6669fe505ab46ee01b61ecefa808063554f839e9bc",
+      "heavy_atoms": 35
+    },
+    {
+      "molecule_id": "CHEMBL4472858",
+      "path": "data/phase17/boltz-inputs/CHEMBL4472858.yaml",
+      "sha256": "19cab840f7b1fa9fa2e201050c77af69ce58b40fab5ea57be29407156e27ed61",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4474946",
+      "path": "data/phase17/boltz-inputs/CHEMBL4474946.yaml",
+      "sha256": "fc8284f420fd3e34ee7b75dca10bf0ef8de17dd8fbf5e3b022737d8e11748a25",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4475535",
+      "path": "data/phase17/boltz-inputs/CHEMBL4475535.yaml",
+      "sha256": "e6090fc70f05d689c97a694c6fb376d242f8b9e6b4b25caf51220bb690eec45c",
+      "heavy_atoms": 27
+    },
+    {
+      "molecule_id": "CHEMBL4476761",
+      "path": "data/phase17/boltz-inputs/CHEMBL4476761.yaml",
+      "sha256": "face131670220b6baea0dd106eab03e9d82f81b5d10d6e04b669b1acc6e15344",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4521871",
+      "path": "data/phase17/boltz-inputs/CHEMBL4521871.yaml",
+      "sha256": "89afb4e541f5fddbc47106e3998f54dfef013849f1dd48969ad911c7eaeb5c1e",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4522042",
+      "path": "data/phase17/boltz-inputs/CHEMBL4522042.yaml",
+      "sha256": "80e56ce2c97afd38c16c4da232ae4490e8677eacd2a657ff50102a4cdd0c1682",
+      "heavy_atoms": 26
+    },
+    {
+      "molecule_id": "CHEMBL4536833",
+      "path": "data/phase17/boltz-inputs/CHEMBL4536833.yaml",
+      "sha256": "1595c298ca9d5bbb3dc194f413d2b944bdc7b1bcdf569af4be3abf28b5c0eb62",
+      "heavy_atoms": 23
+    },
+    {
+      "molecule_id": "CHEMBL4547725",
+      "path": "data/phase17/boltz-inputs/CHEMBL4547725.yaml",
+      "sha256": "000dd4489f126d5bbd13a43b4ed6115180995e0c10bf9ae397ed800c1de98616",
+      "heavy_atoms": 32
+    },
+    {
+      "molecule_id": "CHEMBL4550282",
+      "path": "data/phase17/boltz-inputs/CHEMBL4550282.yaml",
+      "sha256": "06571bf9f42504baac3907441bf571dc4b8b1c13815a33df7db9a0b1e1067dca",
+      "heavy_atoms": 32
+    },
+    {
+      "molecule_id": "CHEMBL4553926",
+      "path": "data/phase17/boltz-inputs/CHEMBL4553926.yaml",
+      "sha256": "1a6253e38272f5aa2ebc61b3c14cc6aedae66cb98827c21dded8205606cb1864",
+      "heavy_atoms": 30
+    },
+    {
+      "molecule_id": "CHEMBL4555093",
+      "path": "data/phase17/boltz-inputs/CHEMBL4555093.yaml",
+      "sha256": "af6b4b35917ecef976e6bec6cb15a5d828f4bd877f5fcdba0dd5da87caeba9b2",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4556370",
+      "path": "data/phase17/boltz-inputs/CHEMBL4556370.yaml",
+      "sha256": "ce7a43de2fd22c4e4ded7fc37fa6dbc0831a4a684f3dfd071561f2611a46a5b3",
+      "heavy_atoms": 30
+    },
+    {
+      "molecule_id": "CHEMBL4557041",
+      "path": "data/phase17/boltz-inputs/CHEMBL4557041.yaml",
+      "sha256": "2791f02cda8bc5803ffe5fcf1be35e4dc671cae5847bac6f22ac4b2e5e50b1e1",
+      "heavy_atoms": 33
+    },
+    {
+      "molecule_id": "CHEMBL4568447",
+      "path": "data/phase17/boltz-inputs/CHEMBL4568447.yaml",
+      "sha256": "aee6e3591989c7e0bcac04ebe762cc58ba6a6800b5c00b888aacf8717b364ebd",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4570150",
+      "path": "data/phase17/boltz-inputs/CHEMBL4570150.yaml",
+      "sha256": "dffb863b4d0fd55e50b960e508d9387634d7bc31ea96943054d9280641cd69d6",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4572198",
+      "path": "data/phase17/boltz-inputs/CHEMBL4572198.yaml",
+      "sha256": "4740ba016720100f02c3254831ab2deada07ab95173b845476f6f439c3594421",
+      "heavy_atoms": 29
+    },
+    {
+      "molecule_id": "CHEMBL4575880",
+      "path": "data/phase17/boltz-inputs/CHEMBL4575880.yaml",
+      "sha256": "495e2d69eaa81628de6b366ac71d32e14bb971aa765501cabe4ca73efb324217",
+      "heavy_atoms": 25
+    },
+    {
+      "molecule_id": "CHEMBL4577208",
+      "path": "data/phase17/boltz-inputs/CHEMBL4577208.yaml",
+      "sha256": "1844bf40252214872d51f434730936c52fb7204c4cbca1722b291d2628c37918",
+      "heavy_atoms": 30
+    },
+    {
+      "molecule_id": "CHEMBL4583341",
+      "path": "data/phase17/boltz-inputs/CHEMBL4583341.yaml",
+      "sha256": "bf027725fe0d8a857b7d3506a819f7b3967dc9186b4bc26931c4106488f53086",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4584824",
+      "path": "data/phase17/boltz-inputs/CHEMBL4584824.yaml",
+      "sha256": "8fbf4a8989f4d6bdc653d06e89f724c3f6038935a93ec312045abd884da04983",
+      "heavy_atoms": 25
+    },
+    {
+      "molecule_id": "CHEMBL4585481",
+      "path": "data/phase17/boltz-inputs/CHEMBL4585481.yaml",
+      "sha256": "0d5eccb3ac224dc0ea0ff191348b1c9d1c0cf8746f45b306bea40845deea220c",
+      "heavy_atoms": 31
+    },
+    {
+      "molecule_id": "CHEMBL4588929",
+      "path": "data/phase17/boltz-inputs/CHEMBL4588929.yaml",
+      "sha256": "2906b05b924f0092026eef6c5b9f81a82fceff7ca3c9d421ac5b7ae4b202d5fc",
+      "heavy_atoms": 30
+    },
+    {
+      "molecule_id": "CHEMBL4590232",
+      "path": "data/phase17/boltz-inputs/CHEMBL4590232.yaml",
+      "sha256": "14328b220aefd878245a9b3a2c1adc58b28d132de9aed0f17ffa4ea3ac968ac5",
+      "heavy_atoms": 30
+    }
+  ],
+  "protein_length": 542,
+  "msa_rows": 512,
+  "target_sha256": "9fab325ee07029a0ba7ab80234597febc010aad9e6bf54ce9fa7e13df61033c5",
+  "msa_sha256": "fd5ad3de93489638ab0e3660ea0480a5c553f2d6f794a2df2499d67ddfd0c806",
+  "template_sha256": "e229155d03e51a24687da2fc422ee648373af0ac46811ca3091b2d98686000ec",
+  "ligand_policy": "Source canonical isomeric SMILES unchanged; no potency-based tautomer/protonation search.",
+  "construct_policy": "Model human ROCK2 residues 11-552 without assay GST fusion. Use 6ED6 as an unforced partial protein template; no ligand pose constraints.",
+  "pilot_reuse_policy": "New assay-range protein and homologous MSA configuration, two new fixed seeds. Prior 415-residue single-sequence pilot outputs remain separate."
+}

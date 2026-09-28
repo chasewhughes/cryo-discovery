@@ -1,0 +1,70 @@
+{
+  "id": "boltz-two-controls-attempt4",
+  "frozen_at": "2026-09-06T15:42:55.437067+00:00",
+  "cloud": {
+    "gpu": "NVIDIA RTX A6000",
+    "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+    "max_rate_usd_hour": 0.6,
+    "max_lifetime_seconds": 3600,
+    "margin_usd": 0.3
+  },
+  "source_sha256": {
+    "scripts/boltz_pilot_inference.py": "7c89817feef5841456cd701e61bc33ab4fe4f2878570b48f085e1c7973aa2aee",
+    "requirements-boltz.txt": "e139e364f4d205fb4d6d11433d1ff4348059b03a8542f899d62fe245d4ac8c8a",
+    "data/phase15/boltz-inputs/CHEMBL4522042.yaml": "78d2ed24ec4ab453dbf4d64bdaed48d922a0098a6dbc86b4b41068d122eea7b9",
+    "data/phase15/boltz-inputs/CHEMBL4540054.yaml": "b15263b9af031f38fdab51c4c8e6b28e887f5ee8ecb0f47c6899daee225d43f8",
+    "data/raw/phase15/rock/6ED6.cif": "e229155d03e51a24687da2fc422ee648373af0ac46811ca3091b2d98686000ec",
+    "scripts/runpod_boltz.py": "39fa6c7df04d957db0f5ee986779e26d5426512a3e8d668637150eb22a5370d2",
+    "scripts/runpod_boltz_worker.py": "d9546e2169fe2fae9aebd21018b27822ee59c975044f81cb64f0b21cc6c7c2fe"
+  },
+  "input_manifest_sha256": "17e22975b2904bab4de5e0044f2a81191b13cfb60d7592e41936552f7fe4f13d",
+  "package": "boltz==2.2.1",
+  "torch": "2.8.0",
+  "wheel_sha256": "b8c62bbdede1922931d9203118f62c858f11aa699bf91fd4c05a5ed6a6d8b4fc",
+  "controls": [
+    {
+      "id": "CHEMBL4522042",
+      "role": "known bound J0P ligand",
+      "measured_IC50_nM": 37,
+      "relation": "="
+    },
+    {
+      "id": "CHEMBL4540054",
+      "role": "measured weak control",
+      "measured_IC50_nM": 10000,
+      "relation": ">"
+    }
+  ],
+  "configuration": {
+    "msa": "single sequence (empty)",
+    "template": "6ED6 protein chainA",
+    "protein_length": 415,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "structure_diffusion_samples": 1,
+    "affinity_sampling_steps": 200,
+    "affinity_diffusion_samples": 5,
+    "no_kernels": true,
+    "seed_policy": "No documented CLIseed used; one stochastic run percontrol, not independentreplicates"
+  },
+  "endpoints": [
+    "inference success for eachcontrol",
+    "wallseconds and sampled GPUmemory peak",
+    "structure/confidence artifacts",
+    "affinity_pred_value and affinity_probability_binary"
+  ],
+  "execution_acceptance": "Both cases must exit0 and produce finite affinity fields and at leastone structural CIF/mmCIF; archivehashverified and Pod deletionconfirmed.",
+  "directional_check": "Knownboundcontrol should have lower affinity_pred_value than measuredweakcontrol; failuremustbe reported and doesnotchange frozenconfiguration.",
+  "comparison_units": "Official pinnedpackage documentation: affinity_pred_value=log10(IC50 in micromolar); pIC50equivalent=6-value. Weakcontrol observedpIC50<5, not exactly5.",
+  "limits": [
+    "Smoke test only: no MAE/correlation/accuracy claim from two selected controls.",
+    "Single-sequence mode and pre-existing bound structure may bias results.",
+    "Crystallographic415residueconstruct differs from biochemicalassay11-552; assayATP/HTRF details unreconciled.",
+    "2018reference data may overlap pretrainedmodel training.",
+    "No cryoprotection, ICE inhibition, CEPT function, novelty or survival conclusion."
+  ],
+  "provider_identity_documentation": "https://docs.runpod.io/pods/templates/environment-variables",
+  "new_attempt_reserve_usd": 0.8999999999999999,
+  "retry_of_plan_sha256": "f86e3673644d5ffa5e8521e4157ef15dec9f93c71619ee898afa9d335839c544",
+  "retry_reason": "Attempt3 provisioning returned noPod and repeatedlistchecks foundnoallocation. Preserveindependentintentguardandfull.90USDreservation. Attempt4 isseparateuniqueallocation withHTTPerrorprovenance andcumulativependingreservationguard; correctedGPUpreflight andscientificsettings unchanged."
+}

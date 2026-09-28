@@ -1,0 +1,22 @@
+{
+  "phase": 17,
+  "attempts": {
+    "1": {
+      "state": "rejected_no_capacity",
+      "reserved_epoch": 1788721684.114759,
+      "definitive_no_allocation": true
+    },
+    "2": {
+      "state": "rejected_no_capacity",
+      "reserved_epoch": 1788721738.309152,
+      "definitive_no_allocation": true
+    },
+    "3": {
+      "state": "finished",
+      "reserved_epoch": 1788721881.949038,
+      "finished_epoch": 1788725805.903646,
+      "deleted": true
+    }
+  },
+  "active_attempt": null
+}

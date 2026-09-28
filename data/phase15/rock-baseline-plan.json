@@ -1,0 +1,45 @@
+{
+  "claim_level": "internal_reference_benchmark",
+  "code_sha256": "07e95845f077bf0565d2b0e389c3926c4e8f067788aa81c3ed600f6dd5559e45",
+  "controls": [
+    "Training-fold mean prediction",
+    "Preserved right-censored weak compound, excluded from exact-value regression"
+  ],
+  "criteria": {
+    "minimum_mae_improvement_fraction": 0.2,
+    "minimum_spearman": 0.5
+  },
+  "data_sha256": "dbd0408cd4e3b4a01b3e7ce616885342eb8e997a3aea0d47b3d29f17546cdf0f",
+  "eligibility": {
+    "downloaded": 46,
+    "exact_unique": 43,
+    "excluded": 2,
+    "retained": 44,
+    "scaffolds": 13,
+    "statuses": {
+      "exact": 43,
+      "right_censored": 1
+    }
+  },
+  "endpoint": "pIC50 = 9-log10(IC50 in nM); exact values only",
+  "fingerprint": {
+    "bits": 2048,
+    "chirality": true,
+    "radius": 2
+  },
+  "frozen_at": "2026-09-06T15:12:16.446835+00:00",
+  "hypothesis": "A nearest-fingerprint-neighbor baseline improves MAE at least20% over training-mean prediction and achieves Spearman>=0.5 under leave-one-Murcko-scaffold-out evaluation.",
+  "id": "rock-baseline-001",
+  "limitations": [
+    "Single selected medicinal chemistry paper and assay; not an external prospective test.",
+    "IC50 is an assay-specific inhibition endpoint, not binding Kd or cell viability.",
+    "The deposited 415-residue construct including tags differs from the assay description (residues11-552); preserve this before structural inference.",
+    "ChEMBL assay description mentions both33P-ATP and HTRF; original assay protocol and ATP concentration require reconciliation before quantitative structural calibration.",
+    "Known2018 ligands/structures may overlap pretrained model training data; performance cannot establish out-of-training generalization."
+  ],
+  "minimum_rows": 20,
+  "minimum_scaffolds": 5,
+  "novelty_status": "known_reference",
+  "prediction": "Most Tanimoto-similar training compound; ties resolved by molecule ID. No tuned hyperparameters.",
+  "split": "Leave every complete achiral Murcko scaffold out; stereochemical variants stay grouped; every eligible exact compound predicted once."
+}

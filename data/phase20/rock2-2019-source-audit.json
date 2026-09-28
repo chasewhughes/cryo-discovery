@@ -1,0 +1,420 @@
+{
+  "schema_version": "phase20-rock2-source-audit-v1",
+  "candidate": {
+    "name": "4H-chromen-4-one ROCK inhibitors",
+    "article_title": "Discovery of 4H-Chromen-4-one Derivatives as a New Class of Selective Rho Kinase (ROCK) Inhibitors, which Showed Potent Activity in ex Vivo Diabetic Retinopathy Models",
+    "doi": "10.1021/acs.jmedchem.9b01143",
+    "primary_source": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.9b01143",
+    "published_online": "2019-11-20"
+  },
+  "retrieved_utc": "2026-09-06T23:16:52.262349+00:00",
+  "source_files": {
+    "supporting_information_pdf": {
+      "path": "data/raw/phase20/jm9b01143_si_001.pdf",
+      "sha256": "349651324cbfb3a609ff9680b70b0bdaa78fb698455c74bb97051b3298fa517a",
+      "figshare_article_id": 10564016,
+      "download_url": "https://ndownloader.figshare.com/files/19066013"
+    },
+    "supporting_data_csv": {
+      "path": "data/raw/phase20/jm9b01143_si_002.csv",
+      "sha256": "47fc4288cbac6f053316e6c4503c9ae38fa9532c631529b991a531f1b3a34d05",
+      "figshare_article_id": 10564019,
+      "download_url": "https://ndownloader.figshare.com/files/19066016"
+    },
+    "figshare_metadata_s001": "d3b49c01de4277411337088e0d616cf6375d50993c8645068b598093e5e0cab3",
+    "figshare_metadata_s002": "1b5d0c617cbe474a8508c8f844fff7e573250a22f897321390ab07b3b3fa50d6",
+    "eurofins_rock2_10um_protocol": {
+      "path": "data/raw/phase20/eurofins-rock2-10um-protocol.html",
+      "sha256": "6ad7d9ad1c2d5b0fdef670cac64dda076865c3c8e5f46d29ee60efbe7a3773ef",
+      "url": "https://www.eurofinsdiscovery.com/catalog/rock2-human-agc-kinase-enzymatic-radiometric-10-um-atp-leadhunter-fr/14-451KP10"
+    }
+  },
+  "assay": {
+    "target": "ROCK2 / ROCK II",
+    "species": "human (h)",
+    "construct": "Human 11\u2013552 according to current official provider protocol; historical 2019 lot sequence is not independently certified.",
+    "provider": "Eurofins Pharma Discovery Services UK Ltd., KinaseProfiler",
+    "format": "radiometric kinase profiling (service named in SI; primary SI reports KinaseProfiler and assay settings)",
+    "readout_class": "non-luciferase radiometric",
+    "atp_final_uM": 10,
+    "temperature_C": null,
+    "replicates": "duplicate curves at 10 concentrations",
+    "locators": [
+      "Supporting Information PDF p. S12, Figure S1 caption and ROCK-II(h) curve labels",
+      "Official Eurofins 14-451KP10 protocol, construct and detection fields"
+    ],
+    "provider_protocol_evidence": "The official Eurofins ROCK2 Human AGC Kinase Enzymatic Radiometric [10 uM ATP] KinaseProfiler LeadHunter page specifies human ROCK2, construct 11-552 recombinant, 33P tracer, radiometric detection with scintillation, 10 \u00b5M ATP (Km 22 \u00b5M), and the ROCK-II peptide substrate.",
+    "provider_protocol_locator": "Official Eurofins protocol page, downloaded HTML text: Organism/Construct Details/Detection Method/Measured Response/Procedure Summary/ATP Concentration fields.",
+    "historical_protocol_limit": "Article SI identifies human ROCK-II, KinaseProfiler, 10 \u00b5M ATP and duplicate 10-concentration curves. Current official provider protocol corroborates radiometric format and 11\u2013552 construct; it is not a dated 2019 batch record."
+  },
+  "extraction": {
+    "table": "Supporting data CSV jm9b01143_si_002.csv; columns Compound_ID, SMILES, ROCK I IC50, ROCK II IC50, PKA IC50",
+    "total_rows": 57,
+    "unique_compounds": 57,
+    "rock2_exact_numeric_count": 50,
+    "rock2_censored_count": 7,
+    "rock2_missing_count": 0,
+    "units": "\u00b5M",
+    "exact_numeric_values": [
+      {
+        "compound_id": "1",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)CCC(N3)=O)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 3.141,
+        "reported_value": "3.141",
+        "relation": "="
+      },
+      {
+        "compound_id": "12a",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(NC(CC3)=O)C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 9.974,
+        "reported_value": "9.974",
+        "relation": "="
+      },
+      {
+        "compound_id": "12b",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC)=CC=C2)=O)=C1)C3=CC=C(N(C)C)C=C3",
+        "rock2_ic50_uM": 5.738,
+        "reported_value": "5.738",
+        "relation": "="
+      },
+      {
+        "compound_id": "12c",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC)=C(C=O)C=C2)=O)=C1)C3=CC=C(N(C)C)C=C3",
+        "rock2_ic50_uM": 0.306,
+        "reported_value": "0.306",
+        "relation": "="
+      },
+      {
+        "compound_id": "12e",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(F)=C(OC)C=C2)=O)=C1)C3=CC=C(N(C)C)C=C3",
+        "rock2_ic50_uM": 0.652,
+        "reported_value": "0.652",
+        "relation": "="
+      },
+      {
+        "compound_id": "12f",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(F)=C(C(C)=O)C=C2)=O)=C1)C3=CC=C(N(C)C)C=C3",
+        "rock2_ic50_uM": 0.098,
+        "reported_value": "0.098",
+        "relation": "="
+      },
+      {
+        "compound_id": "12i",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OCCC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.085,
+        "reported_value": "0.085",
+        "relation": "="
+      },
+      {
+        "compound_id": "12j",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.003,
+        "reported_value": "0.003",
+        "relation": "="
+      },
+      {
+        "compound_id": "12l",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=C(C)C3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 2.149,
+        "reported_value": "2.149",
+        "relation": "="
+      },
+      {
+        "compound_id": "12m",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=C(C)C(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 4.163,
+        "reported_value": "4.163",
+        "relation": "="
+      },
+      {
+        "compound_id": "13",
+        "smiles": "O=C(NC1=CC=CC(NC(C)=O)=C1)COC2=CC3=C(C=C2)C(C=CO3)=O",
+        "rock2_ic50_uM": 0.136,
+        "reported_value": "0.136",
+        "relation": "="
+      },
+      {
+        "compound_id": "14",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)CCC",
+        "rock2_ic50_uM": 0.176,
+        "reported_value": "0.176",
+        "relation": "="
+      },
+      {
+        "compound_id": "15",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=CC=C4",
+        "rock2_ic50_uM": 0.016,
+        "reported_value": "0.016",
+        "relation": "="
+      },
+      {
+        "compound_id": "16",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(C)C=C4",
+        "rock2_ic50_uM": 0.022,
+        "reported_value": "0.022",
+        "relation": "="
+      },
+      {
+        "compound_id": "17",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(CC)C=C4",
+        "rock2_ic50_uM": 0.024,
+        "reported_value": "0.024",
+        "relation": "="
+      },
+      {
+        "compound_id": "18",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(CCC)C=C4",
+        "rock2_ic50_uM": 0.014,
+        "reported_value": "0.014",
+        "relation": "="
+      },
+      {
+        "compound_id": "19",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(C(C)(C)C)C=C4",
+        "rock2_ic50_uM": 0.034,
+        "reported_value": "0.034",
+        "relation": "="
+      },
+      {
+        "compound_id": "20",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(F)C=C4",
+        "rock2_ic50_uM": 0.054,
+        "reported_value": "0.054",
+        "relation": "="
+      },
+      {
+        "compound_id": "21",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(Br)C=C4",
+        "rock2_ic50_uM": 0.049,
+        "reported_value": "0.049",
+        "relation": "="
+      },
+      {
+        "compound_id": "22",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(C#N)C=C4",
+        "rock2_ic50_uM": 0.015,
+        "reported_value": "0.015",
+        "relation": "="
+      },
+      {
+        "compound_id": "23",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(OC)C=C4",
+        "rock2_ic50_uM": 0.007,
+        "reported_value": "0.007",
+        "relation": "="
+      },
+      {
+        "compound_id": "24",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(OCC)C=C4",
+        "rock2_ic50_uM": 0.009,
+        "reported_value": "0.009",
+        "relation": "="
+      },
+      {
+        "compound_id": "25",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(OC(F)(F)F)C=C4",
+        "rock2_ic50_uM": 0.077,
+        "reported_value": "0.077",
+        "relation": "="
+      },
+      {
+        "compound_id": "26",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C([N+]([O-])=O)C=C4",
+        "rock2_ic50_uM": 0.015,
+        "reported_value": "0.015",
+        "relation": "="
+      },
+      {
+        "compound_id": "27",
+        "smiles": "O=C(OC)C1=CC=C(C(NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2)=O)C=C1",
+        "rock2_ic50_uM": 0.029,
+        "reported_value": "0.029",
+        "relation": "="
+      },
+      {
+        "compound_id": "28",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)C(C=CO3)=O)=O)=C1)C4=CC=CC([N+]([O-])=O)=C4",
+        "rock2_ic50_uM": 0.041,
+        "reported_value": "0.041",
+        "relation": "="
+      },
+      {
+        "compound_id": "29",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)C(C=CO3)=O)=O)=C1)C4=CC=C(C(F)(F)F)C(C)=C4",
+        "rock2_ic50_uM": 0.043,
+        "reported_value": "0.043",
+        "relation": "="
+      },
+      {
+        "compound_id": "30",
+        "smiles": "O=C(C1=NOC(C(C)(C)C)=C1)NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2",
+        "rock2_ic50_uM": 0.005,
+        "reported_value": "0.005",
+        "relation": "="
+      },
+      {
+        "compound_id": "31",
+        "smiles": "O=C(C1=CSC(C)=N1)NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2",
+        "rock2_ic50_uM": 0.033,
+        "reported_value": "0.033",
+        "relation": "="
+      },
+      {
+        "compound_id": "32",
+        "smiles": "O=C(C1=CN=C(C(F)(F)F)S1)NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2",
+        "rock2_ic50_uM": 0.01,
+        "reported_value": "0.01",
+        "relation": "="
+      },
+      {
+        "compound_id": "33",
+        "smiles": "O=C(C1=NOC(C)=C1)NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2",
+        "rock2_ic50_uM": 0.005,
+        "reported_value": "0.005",
+        "relation": "="
+      },
+      {
+        "compound_id": "40",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)C(C=CO3)=O)=O)=C1)C4=CC=C(CN)C=C4",
+        "rock2_ic50_uM": 0.066,
+        "reported_value": "0.066",
+        "relation": "="
+      },
+      {
+        "compound_id": "41",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)C(C=CO3)=O)=O)=C1)C4=CC=C(N)C=C4",
+        "rock2_ic50_uM": 0.083,
+        "reported_value": "0.083",
+        "relation": "="
+      },
+      {
+        "compound_id": "42",
+        "smiles": "O=C(NC1=CC=CC(NC(COC2=CC3=C(C=C2)C(C=CO3)=O)=O)=C1)C4=CC=CC(N)=C4",
+        "rock2_ic50_uM": 0.058,
+        "reported_value": "0.058",
+        "relation": "="
+      },
+      {
+        "compound_id": "43",
+        "smiles": "O=C(O)C1=CC=C(C(NC2=CC=CC(NC(COC3=CC4=C(C=C3)C(C=CO4)=O)=O)=C2)=O)C=C1",
+        "rock2_ic50_uM": 2.027,
+        "reported_value": "2.027",
+        "relation": "="
+      },
+      {
+        "compound_id": "34",
+        "smiles": "O=S(C1=NN(C)C=C1)(NC2=CC=CC(NC(COC3=CC(OC=CC4=O)=C4C=C3)=O)=C2)=O",
+        "rock2_ic50_uM": 1.345,
+        "reported_value": "1.345",
+        "relation": "="
+      },
+      {
+        "compound_id": "35",
+        "smiles": "O=S(C1=CC=C(N(C)C)C=C1)(NC2=CC=CC(NC(COC3=CC(OC=CC4=O)=C4C=C3)=O)=C2)=O",
+        "rock2_ic50_uM": 0.263,
+        "reported_value": "0.263",
+        "relation": "="
+      },
+      {
+        "compound_id": "36",
+        "smiles": "O=S(C1=CC=C(C(C)(C)C)C=C1)(NC2=CC=CC(NC(COC3=CC(OC=CC4=O)=C4C=C3)=O)=C2)=O",
+        "rock2_ic50_uM": 0.899,
+        "reported_value": "0.899",
+        "relation": "="
+      },
+      {
+        "compound_id": "37",
+        "smiles": "O=S(C1=CC=C(C(F)(F)F)C=C1)(NC2=CC=CC(NC(COC3=CC(OC=CC4=O)=C4C=C3)=O)=C2)=O",
+        "rock2_ic50_uM": 6.894,
+        "reported_value": "6.894",
+        "relation": "="
+      },
+      {
+        "compound_id": "38",
+        "smiles": "O=S(C1=CC=C(OC(F)(F)F)C=C1)(NC2=CC=CC(NC(COC3=CC(OC=CC4=O)=C4C=C3)=O)=C2)=O",
+        "rock2_ic50_uM": 1.283,
+        "reported_value": "1.283",
+        "relation": "="
+      },
+      {
+        "compound_id": "47a",
+        "smiles": "O=C(NC1=C(C)C=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.169,
+        "reported_value": "0.169",
+        "relation": "="
+      },
+      {
+        "compound_id": "47b",
+        "smiles": "O=C(NC1=CC=C(C)C(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 3.526,
+        "reported_value": "3.526",
+        "relation": "="
+      },
+      {
+        "compound_id": "47e",
+        "smiles": "O=C(NC1=CC(F)=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.022,
+        "reported_value": "0.022",
+        "relation": "="
+      },
+      {
+        "compound_id": "47f",
+        "smiles": "O=C(NC1=CC(Br)=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 4.557,
+        "reported_value": "4.557",
+        "relation": "="
+      },
+      {
+        "compound_id": "47h",
+        "smiles": "O=C(NC1=C(C)C(C)=CC(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.374,
+        "reported_value": "0.374",
+        "relation": "="
+      },
+      {
+        "compound_id": "47i",
+        "smiles": "O=C(NC1=CC=C(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)C=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.302,
+        "reported_value": "0.302",
+        "relation": "="
+      },
+      {
+        "compound_id": "47j",
+        "smiles": "O=C(NC1=CC=C(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)C=C1C)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 4.206,
+        "reported_value": "4.206",
+        "relation": "="
+      },
+      {
+        "compound_id": "47k",
+        "smiles": "O=C(NC1=CC=C(NC(COC2=CC(OC=CC3=O)=C3C=C2)=O)C=C1C(F)(F)F)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 7.102,
+        "reported_value": "7.102",
+        "relation": "="
+      },
+      {
+        "compound_id": "47l",
+        "smiles": "O=C(NC1=CC=C(CNC(COC2=CC(OC=CC3=O)=C3C=C2)=O)C=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.999,
+        "reported_value": "0.999",
+        "relation": "="
+      },
+      {
+        "compound_id": "50",
+        "smiles": "O=C(NC1=CC=CC(NS(COC2=CC(OC=CC3=O)=C3C=C2)(=O)=O)=C1)C4=CC=C(N(C)C)C=C4",
+        "rock2_ic50_uM": 0.027,
+        "reported_value": "0.027",
+        "relation": "="
+      }
+    ]
+  },
+  "eligibility": {
+    "eligible_external_benchmark": true,
+    "reason": "The frozen extraction contains 50 unique compounds with explicit numeric ROCK II IC50 values, plus 7 censored >10 \u00b5M values. The article SI identifies ROCK-II(h), 10 \u00b5M ATP, and duplicate 10-dose KinaseProfiler curves. The exact official Eurofins ROCK2 10 \u00b5M KinaseProfiler protocol confirms recombinant human ROCK2 residues 11-552, gamma-33P radiometric detection by scintillation, and the matching ATP condition. ROCK I and PKA columns were not counted."
+  },
+  "limitations": [
+    "The primary SI identifies ROCK-II(h) and the assay provider but does not state the residue range; the official Eurofins assay page for the matching 10 \u00b5M KinaseProfiler assay specifies 11-552 recombinant.",
+    "The panel mixes SAR series and includes censored results; censored values are preserved and excluded from the 50 exact-value count.",
+    "No prediction, model fitting, or potency transformation was performed."
+  ]
+}

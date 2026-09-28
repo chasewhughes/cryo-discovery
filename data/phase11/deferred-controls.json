@@ -1,0 +1,90 @@
+{
+  "status": "Deferred design; no new solvated MD or activity fitting",
+  "selection_rule": "Same-formula standard amino acids with different branching, already known labels; matched molecular size reduces one confound without isolating a causal mechanism.",
+  "controls": [
+    {
+      "id": "amino:line4",
+      "name": "l-leucine",
+      "source_smiles": "CC(C)C[C@H](N)C(=O)O",
+      "proposed_zwitterion_smiles": "CC(C)C[C@H]([NH3+])C(=O)[O-]",
+      "formula": "C6H13NO2",
+      "molecular_weight": 131.17499999999998,
+      "experimental_mgs": 45.6,
+      "reported_sd_mgs": 14.0,
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "template": "LEU",
+      "vacuum_template_build_passed": true,
+      "net_partial_charge_e": -5.551115123125783e-17,
+      "state_note": "Explicit modeling assumption, not source-verified assay microstate."
+    },
+    {
+      "id": "amino:line5",
+      "name": "l-isoleucine",
+      "source_smiles": "CC[C@H](C)[C@H](N)C(=O)O",
+      "proposed_zwitterion_smiles": "CC[C@H](C)[C@H]([NH3+])C(=O)[O-]",
+      "formula": "C6H13NO2",
+      "molecular_weight": 131.17499999999998,
+      "experimental_mgs": 18.8,
+      "reported_sd_mgs": 4.1,
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "template": "ILE",
+      "vacuum_template_build_passed": true,
+      "net_partial_charge_e": -5.551115123125783e-17,
+      "state_note": "Explicit modeling assumption, not source-verified assay microstate."
+    }
+  ],
+  "gates": [
+    "Review Phase11 stability and density sensitivity before expanding",
+    "Prespecify new trajectories and treatment of forcefield/microstate assumptions",
+    "Keep all selected known-label controls in method-development, never an independent test set"
+  ],
+  "limits": [
+    "Leucine and isoleucine are activity-contrast controls, not an established active/inactive pair.",
+    "Same formula does not match shape, stereochemistry or hydration surface area.",
+    "Existing experimental labels and small sample count cannot validate prospective model improvement."
+  ],
+  "alternative_pairs_deferred": [
+    {
+      "names": [
+        "L-alpha-alanine",
+        "beta-alanine"
+      ],
+      "reason": "Same formula but beta-alanine is nonstandard; topology/parameter support not verified."
+    },
+    {
+      "names": [
+        "L-phenylalanine",
+        "L-alpha-phenylglycine"
+      ],
+      "reason": "Similar known IRI activity but different mass; phenylglycine parameterization not verified."
+    }
+  ],
+  "source_file": "data/phase9/assay-reconciliation.json",
+  "source_sha256": "6a0c0778b2e8aeee5f86e920b9295486ca5f0efe4ed5b925a789fca64fb359bc"
+}

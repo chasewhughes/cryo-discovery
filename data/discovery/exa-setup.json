@@ -1,0 +1,25 @@
+{
+  "provider": "Exa",
+  "query": "cryopreservation iPSC cytoprotection",
+  "retrieved_at": "2026-09-05",
+  "search_count": 1,
+  "max_results": 5,
+  "results": [
+    {
+      "title": "Ice recrystallization inhibitors enable efficient cryopreservation of induced pluripotent stem cells: A functional and transcriptomic analysis",
+      "url": "https://exa.ai/library/publication/v830xmf72x1",
+      "classification": "research discovery lead"
+    },
+    {
+      "title": "Improved Cryopreservation of Human Induced Pluripotent Stem Cell (iPSC) and iPSC-derived Neurons Using Ice-Recrystallization Inhibitors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631806/",
+      "classification": "research discovery lead"
+    },
+    {
+      "title": "Improved Cryopreservation of Induced Pluripotent Stem Cells Using N-aryl Glycosidic Small Molecule Ice Recrystallization Inhibitors",
+      "url": "https://exa.ai/library/publication/gbkrt1pj97w",
+      "classification": "research discovery lead"
+    }
+  ],
+  "notes": "Titles and URLs are sanitized discovery metadata only; Exa ranking/content is not evidence extraction. No company claim was used as scientific evidence."
+}

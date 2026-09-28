@@ -1,0 +1,175 @@
+{
+  "checked_at": "2026-09-06T11:59:54.866916+00:00",
+  "cumulative_estimated_gpu_usd": 2.010110793032911,
+  "phase12_estimated_gpu_usd": 0.9565476225495338,
+  "conservative_cumulative_reserve_usd": 2.0113193684325785,
+  "all_research_pods_absent": true,
+  "research_pod_ids": [
+    "zqrq70s1ylvrg1",
+    "1pt46gl43cc0ja",
+    "wa4ll8bkobrytl",
+    "en2obti26nkhjx",
+    "j65ttntynm14h7",
+    "8p6ey528nfee2z",
+    "ldww25xab89819",
+    "50yvh2649r5xr4",
+    "d4ipt6c2xslrpd",
+    "7qai3yseudqx38",
+    "2fox527otky3rw"
+  ],
+  "unrelated_pods_untouched": 3,
+  "user_cumulative_gpu_limit_usd": 10,
+  "billing_queries": [
+    {
+      "pod_id": "zqrq70s1ylvrg1",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 1007829.3681144714,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.2071649256679747,
+      "conservative_reserve_usd": 0.2071649256679747
+    },
+    {
+      "pod_id": "1pt46gl43cc0ja",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 101453.45187187195,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.020854320662551457,
+      "conservative_reserve_usd": 0.020854320662551457
+    },
+    {
+      "pod_id": "wa4ll8bkobrytl",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 104560.23597717285,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.021492937395307752,
+      "conservative_reserve_usd": 0.021492937395307752
+    },
+    {
+      "pod_id": "en2obti26nkhjx",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 1147459.64717865,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.23586670525338915,
+      "conservative_reserve_usd": 0.23586670525338915
+    },
+    {
+      "pod_id": "j65ttntynm14h7",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 946447.8459358215,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.19454761277569665,
+      "conservative_reserve_usd": 0.19454761277569665
+    },
+    {
+      "pod_id": "8p6ey528nfee2z",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 95179.22115325928,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.019564617681503298,
+      "conservative_reserve_usd": 0.019564617681503298
+    },
+    {
+      "pod_id": "ldww25xab89819",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 97892.99607276917,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.020122449192735883,
+      "conservative_reserve_usd": 0.020122449192735883
+    },
+    {
+      "pod_id": "50yvh2649r5xr4",
+      "records": [],
+      "posted_amount_usd": 0,
+      "posted_billed_time_ms": 0,
+      "recorded_elapsed_ms": 1152652.1542072296,
+      "posted_time_fraction_of_recorded_elapsed": 0.0,
+      "estimated_gpu_usd": 0.23693405392037498,
+      "conservative_reserve_usd": 0.23693405392037498
+    },
+    {
+      "pod_id": "d4ipt6c2xslrpd",
+      "records": [
+        {
+          "amount": 0.11463054946216289,
+          "timeBilledMs": 556536,
+          "diskSpaceBilledGB": 20,
+          "podId": "d4ipt6c2xslrpd",
+          "time": "2026-09-06 09:00:00"
+        },
+        {
+          "amount": 0.7217595502370386,
+          "timeBilledMs": 3505069,
+          "diskSpaceBilledGB": 120,
+          "podId": "d4ipt6c2xslrpd",
+          "time": "2026-09-06 10:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.8363900996992015,
+      "posted_billed_time_ms": 4061605.0,
+      "recorded_elapsed_ms": 4064147.2709178925,
+      "posted_time_fraction_of_recorded_elapsed": 0.9993744638792781,
+      "estimated_gpu_usd": 0.8354080501331224,
+      "conservative_reserve_usd": 0.8363900996992015
+    },
+    {
+      "pod_id": "7qai3yseudqx38",
+      "records": [
+        {
+          "amount": 0.15776001240010373,
+          "timeBilledMs": 766355,
+          "diskSpaceBilledGB": 30,
+          "podId": "7qai3yseudqx38",
+          "time": "2026-09-06 09:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.15776001240010373,
+      "posted_billed_time_ms": 766355.0,
+      "recorded_elapsed_ms": 766686.774969101,
+      "posted_time_fraction_of_recorded_elapsed": 0.9995672613902669,
+      "estimated_gpu_usd": 0.15759672596587074,
+      "conservative_reserve_usd": 0.15776001240010373
+    },
+    {
+      "pod_id": "2fox527otky3rw",
+      "records": [
+        {
+          "amount": 0.014896418557327706,
+          "timeBilledMs": 71906,
+          "diskSpaceBilledGB": 10,
+          "podId": "2fox527otky3rw",
+          "time": "2026-09-06 08:00:00"
+        },
+        {
+          "amount": 0.04572521522641182,
+          "timeBilledMs": 222447,
+          "diskSpaceBilledGB": 10,
+          "podId": "2fox527otky3rw",
+          "time": "2026-09-06 09:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.060621633783739526,
+      "posted_billed_time_ms": 294353.0,
+      "recorded_elapsed_ms": 294608.4051132202,
+      "posted_time_fraction_of_recorded_elapsed": 0.9991330691562514,
+      "estimated_gpu_usd": 0.06055839438438415,
+      "conservative_reserve_usd": 0.060621633783739526
+    }
+  ],
+  "billing_note": "Reserve the larger of posted provider amount (may include storage) and elapsed-time GPU estimate for each Pod. Posted records may be incomplete; not a final invoice.",
+  "local_phase12_watchdogs_active": false,
+  "local_watchdogs_checked_at": "2026-09-06T12:02:12.430720+00:00"
+}

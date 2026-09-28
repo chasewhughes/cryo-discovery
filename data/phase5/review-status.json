@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-09-06",
+  "selection_basis": "Four medium-priority chemistry/mechanism candidates selected from phase 4; three existing high-priority access gaps rechecked",
+  "new_studies": [
+    {
+      "doi": "10.1016/j.isci.2025.113802",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed"
+    },
+    {
+      "doi": "10.1039/d6tb01172a",
+      "source_access": "abstract_only",
+      "review_status": "root_abstract_reviewed"
+    },
+    {
+      "doi": "10.3390/antiox14121412",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed"
+    },
+    {
+      "doi": "10.1039/d5lp00131e",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed"
+    }
+  ],
+  "new_study_count": 4,
+  "new_experiment_count": 8,
+  "source_files": [
+    {
+      "path": "data/raw/phase5/isci-2025-113802.html",
+      "bytes": 198094,
+      "sha256": "e73790738d729b4b363a16bf86c07fb10d4beabf2b9fdabea9d97315ca220c8f"
+    },
+    {
+      "path": "data/raw/phase5/monocytes.html",
+      "bytes": 212489,
+      "sha256": "8a348fdfff7c956415567f58123d642ece82e1f369f951498cfb12ed4718a7d3"
+    },
+    {
+      "path": "data/raw/phase5/monocytes.html.txt",
+      "bytes": 64773,
+      "sha256": "c503bfcd876a56c6ce97e61e3296a9708ffe3fe69d20e791b01a15f75ecc4c48"
+    },
+    {
+      "path": "data/raw/phase5/porcine-embryos.html",
+      "bytes": 265672,
+      "sha256": "60050cda93b82630fe1fd645dcfbb6318188c2d66e184bcb067abe7ac81328bf"
+    },
+    {
+      "path": "data/raw/phase5/porcine-embryos.html.txt",
+      "bytes": 81968,
+      "sha256": "1ebddde4f1a3f24e143df539e6b0b03bcd44f8f731eb54373de7f2bcf48ec95c"
+    }
+  ],
+  "limits": "Purposive focused review, not exhaustive literature coverage. No new search-date coverage beyond existing backlog."
+}

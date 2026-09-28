@@ -1,0 +1,64 @@
+{
+  "record_type": "independent_prelaunch_review",
+  "review_date": "2026-09-07",
+  "review_timing": "Recorded after Phase21 plan freeze and reservation, before interpreting any model outputs; no frozen file was modified.",
+  "frozen_plan": {
+    "path": "data/phase21/scaffold-plan.json",
+    "sha256": "e37096a96a76ee3836be8392c63c5ee841744d0adb8bfe593f038e40e509ac2b",
+    "id": "rock2-scaffold-001"
+  },
+  "source_reconciliation_check": {
+    "script": "scripts/reconcile_urea2013_sources.py",
+    "source_reconciliation": "data/phase21/source-table-reconciliation.json",
+    "article_path": "data/raw/phase20/urea2013/article.pdf",
+    "article_sha256": "72d10c7c5f19a5dea218ad762cdc928aa2a4592a6ca4e97671db1f4d11ea08de",
+    "raw_activity_path": "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+    "raw_activity_sha256": "7a548e0fbcb8208310310a1e68b529756733c5df4b41a41359b273e3cefa95a0",
+    "recomputed_script_output": {
+      "source_rows": 45,
+      "eligible_exact": 41,
+      "excluded_records": 4,
+      "excluded_labels": ["8d", "12g", "12h", "19b"]
+    },
+    "finding": "The frozen reconciliation script deterministically rematches every raw activity to one manually assembled primary-table structure, then checks units, relation, and numeric value. A temporary rerun reproduced 45 source rows, 41 exact rows, and the same four exclusions. No potency-only join is used."
+  },
+  "primary_table_and_method_limits": {
+    "tables_covered": ["Tables 1", "Table 2", "Table 3", "Table 4", "Table 5", "Figure 2"],
+    "identity_checks": "The script's canonical graph joins and exact ChEMBL value checks passed; this verifies consistency between the transcription and raw export, but does not replace independent visual review of every drawn R-group in the article tables.",
+    "known_source_exclusions": {
+      "8d": ">20,000 nM censored",
+      "12g": "<1 nM censored",
+      "12h": "Table 4 reports 1 nM while narrative text reports <1 nM; excluded as conflicting exact/censored evidence",
+      "19b": "<1 nM censored"
+    },
+    "historical_method": "The urea article/SI reports the Cisbio STK2 HTRF ROCK-I/II assay and ROCK-II 1-543 cloned/purified as described in the cited Schröter protocol. Calculated final ROCK-II conditions are approximately 10 uM ATP, 0.25 nM enzyme, and 0.5 uM substrate. These calculations are not direct final concentrations, and the 2013 ROCK-II lot/catalog identity is not supplied.",
+    "construct_transfer_limit": "The frozen model uses human ROCK2 residues 11-552; the cited urea method identifies ROCK-II 1-543. This is a material assay-construct mismatch that must remain in conclusions.",
+    "article_version_limit": "The archived article is an accepted/proof copy; source claims should retain that version qualification."
+  },
+  "leakage_and_split_checks": {
+    "dataset_path": "data/phase21/scaffold-dataset.json",
+    "dataset_exact_n": 41,
+    "plan_primary_ids_n": 41,
+    "dataset_plan_id_difference": 0,
+    "calibration_n": 26,
+    "test_n": 15,
+    "calibration_scaffolds": 3,
+    "test_scaffolds": 15,
+    "cross_partition_scaffolds": 0,
+    "prior_panel_scaffold_overlap_in_test": 0,
+    "prior_panel_structure_or_id_overlap": 0,
+    "largest_test_scaffold_fraction": 0.06666666666666667,
+    "finding": "The frozen dataset and plan contain the same 41 IDs. The whole-group split is scaffold-disjoint, has 15 singleton test scaffolds, and satisfies the six-scaffold and 40% maximum-single-test-scaffold rules. No exact or achiral structure/ID overlap with Phase17, Phase18, or Phase20 was found in an independent recomputation."
+  },
+  "scientific_cautions": [
+    "The 26 calibration rows occupy only 3 scaffolds, so any scalar assay offset may be dominated by the principal urea series.",
+    "The 15 test scaffolds are all singletons; scaffold-level uncertainty is consequently weak, and Murcko groups are bookkeeping units rather than independent mechanisms.",
+    "Pendant-ring and side-chain changes can inflate Murcko scaffold counts while retaining a common binding pharmacophore; report chemical relatedness separately.",
+    "The assay is retrospective biochemical inhibition. It cannot establish prospective novelty, independence from model pretraining, cellular efficacy, CPA ice activity, or post-thaw survival."
+  ],
+  "launch_assessment": {
+    "provenance_blocker_found": false,
+    "scientific_scope": "Launch may proceed under the frozen plan, with the above method and diversity limitations carried into the output report.",
+    "interpretation_rule": "Any incomplete or invalid output is inconclusive under the frozen partial-output policy; do not select a successful subset or alter the split after seeing predictions."
+  }
+}

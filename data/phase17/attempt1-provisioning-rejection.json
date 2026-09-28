@@ -1,0 +1,24 @@
+{
+  "attempt": 1,
+  "intent": {
+    "attempt": 1,
+    "name": "cryo-phase17-panel-1-5041433a",
+    "created_epoch": 1788721684.18961,
+    "deadline_epoch": 1788732484.18961,
+    "reserved_usd": 2.1,
+    "prior_reserve_usd": 4.239681721153166,
+    "other_pending_reserve_usd": 0.0,
+    "plan_sha256": "d23cbbc46658d304db182ac4149f0ccf52fbecd6a317eb85413573f98e30164d",
+    "watchdog_pid": 41228
+  },
+  "resolution": {
+    "definitive_rejection": true,
+    "reason": "Provider explicitly reported no instances currently available; launcher reconciliation and follow-up listing found no matching Pod.",
+    "http_status": 500,
+    "error_sha256": "f02f85dc87bcffff9a358bf53a5e6cf2036967785c4038377a0fd6684bca69fe",
+    "no_matching_pods_now": true,
+    "checked_epoch": 1788721736.32409
+  },
+  "estimated_allocated_gpu_cost_usd": 0,
+  "no_pod_id_issued": true
+}

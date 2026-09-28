@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-09-06T23:27:42.659981+00:00",
+  "plan_sha256": "9d2ccdde7e18c6afca971a8455210c16985a663a7b2223195bc1116d20771da6",
+  "all_frozen_hashes_match": true,
+  "hash_check_count": 74,
+  "prior_achiral_overlap_count": 0,
+  "calibration_scaffolds": 11,
+  "heldout_scaffolds": 3,
+  "scaffold_overlap_count": 0,
+  "exact_n": 50,
+  "calibration_n": 20,
+  "heldout_n": 30,
+  "tests_passed": 24,
+  "note": "Independent root verification; model outputs not inspected. Limited heldout scaffold count must be reported."
+}

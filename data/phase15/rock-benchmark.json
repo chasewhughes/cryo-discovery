@@ -1,0 +1,1145 @@
+{
+  "assay": {
+    "aidx": "1058362",
+    "assay_category": null,
+    "assay_cell_type": null,
+    "assay_chembl_id": "CHEMBL4328667",
+    "assay_classifications": [],
+    "assay_group": null,
+    "assay_organism": "Homo sapiens",
+    "assay_parameters": [],
+    "assay_strain": null,
+    "assay_subcellular_fraction": null,
+    "assay_tax_id": 9606,
+    "assay_test_type": null,
+    "assay_tissue": null,
+    "assay_type": "B",
+    "assay_type_description": "Binding",
+    "bao_format": "BAO_0000219",
+    "bao_label": "cell-based format",
+    "cell_chembl_id": null,
+    "confidence_description": "Direct single protein target assigned",
+    "confidence_score": 9,
+    "description": "Inhibition of GST-fused human recombinant ROCK2 (11 to 552 residues) expressed in Spodoptera frugiperda insect cells using STK S2 peptide substrate and 33P-ATP after 60 mins by HTRF assay",
+    "document_chembl_id": "CHEMBL4325872",
+    "relationship_description": "Direct protein target assigned",
+    "relationship_type": "D",
+    "src_assay_id": null,
+    "src_id": 1,
+    "target_chembl_id": "CHEMBL2973",
+    "tissue_chembl_id": null,
+    "variant_sequence": null
+  },
+  "counts": {
+    "downloaded": 46,
+    "exact_unique": 43,
+    "excluded": 2,
+    "retained": 44,
+    "scaffolds": 13,
+    "statuses": {
+      "exact": 43,
+      "right_censored": 1
+    }
+  },
+  "exact_compounds": [
+    {
+      "activity_ids": [
+        18939227
+      ],
+      "canonical_smiles": "CCCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4476761",
+      "pIC50": 6.928117992693874,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939258
+      ],
+      "canonical_smiles": "CCCOc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4469434",
+      "pIC50": 7.823908740944319,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939254
+      ],
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCN2CCCCC2)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "molecule_id": "CHEMBL4471862",
+      "pIC50": 6.7447274948966935,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NC(CCN1CCCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939256
+      ],
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "molecule_id": "CHEMBL4590232",
+      "pIC50": 6.455931955649724,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939257
+      ],
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccncc3F)cc2)c1",
+      "molecule_id": "CHEMBL4577208",
+      "pIC50": 6.853871964321762,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939245
+      ],
+      "canonical_smiles": "CCNc1cc(-c2ccc(C(=O)N[C@H](C)c3cccc(OC)c3)cc2)ccn1",
+      "molecule_id": "CHEMBL4445356",
+      "pIC50": 7.075720713938118,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939226
+      ],
+      "canonical_smiles": "CCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4454552",
+      "pIC50": 6.958607314841775,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939233
+      ],
+      "canonical_smiles": "CN(C)CCCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4436040",
+      "pIC50": 7.060480747381382,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939225
+      ],
+      "canonical_smiles": "COc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL2006299",
+      "pIC50": 7.6777807052660805,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939230
+      ],
+      "canonical_smiles": "COc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1OC",
+      "molecule_id": "CHEMBL4447521",
+      "pIC50": 5.42021640338319,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939240
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(C)c3)cc2)c1",
+      "molecule_id": "CHEMBL4438453",
+      "pIC50": 7.017728766960431,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939239
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(Cl)c3)cc2)c1",
+      "molecule_id": "CHEMBL4451899",
+      "pIC50": 6.853871964321762,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939238
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "molecule_id": "CHEMBL4459800",
+      "pIC50": 7.853871964321762,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939237
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(N)c3)cc2)c1",
+      "molecule_id": "CHEMBL4474946",
+      "pIC50": 7.920818753952375,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939247
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCC(C)(C)O)c3)cc2)c1",
+      "molecule_id": "CHEMBL4568447",
+      "pIC50": 6.4089353929735005,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939246
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCC4CC4)c3)cc2)c1",
+      "molecule_id": "CHEMBL4556370",
+      "pIC50": 7.167491087293763,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccnc(NCC3CC3)c2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939249
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCCCO)c3)cc2)c1",
+      "molecule_id": "CHEMBL4588929",
+      "pIC50": 7.1249387366083,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939248
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCCO)c3)cc2)c1",
+      "molecule_id": "CHEMBL4446212",
+      "pIC50": 6.657577319177793,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939235
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4448806",
+      "pIC50": 8.698970004336019,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939259
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2N2CCC(CN)CC2)c1",
+      "molecule_id": "CHEMBL4434688",
+      "pIC50": 9.0,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1N1CCCCC1"
+    },
+    {
+      "activity_ids": [
+        18939262
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCCCN)c1",
+      "molecule_id": "CHEMBL4555093",
+      "pIC50": 7.6777807052660805,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939261
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCCN)c1",
+      "molecule_id": "CHEMBL4553926",
+      "pIC50": 7.920818753952375,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939260
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCN)c1",
+      "molecule_id": "CHEMBL4572198",
+      "pIC50": 7.6777807052660805,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939242
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3F)cc2)c1",
+      "molecule_id": "CHEMBL4472858",
+      "pIC50": 9.0,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939243
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2)c1",
+      "molecule_id": "CHEMBL4460511",
+      "pIC50": 7.568636235841012,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939267
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CCC[C@@H](CN)C2)c1",
+      "molecule_id": "CHEMBL4465725",
+      "pIC50": 7.853871964321762,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCCC1"
+    },
+    {
+      "activity_ids": [
+        18939266
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CCC[C@H](CN)C2)c1",
+      "molecule_id": "CHEMBL4557041",
+      "pIC50": 7.721246399047171,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCCC1"
+    },
+    {
+      "activity_ids": [
+        18939264
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CC[C@@H](CN)C2)c1",
+      "molecule_id": "CHEMBL4550282",
+      "pIC50": 6.494850021680094,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCC1"
+    },
+    {
+      "activity_ids": [
+        18939265
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CC[C@H](CN)C2)c1",
+      "molecule_id": "CHEMBL4547725",
+      "pIC50": 6.568636235841012,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCC1"
+    },
+    {
+      "activity_ids": [
+        18939263
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2NCCCCN)c1",
+      "molecule_id": "CHEMBL4585481",
+      "pIC50": 7.142667503568731,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939244
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnnc3)cc2)c1",
+      "molecule_id": "CHEMBL4584824",
+      "pIC50": 6.154901959985743,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccnnc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939251
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](CCN2CCCC2)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4583341",
+      "pIC50": 8.522878745280337,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939253
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](CCN2CCOCC2)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "molecule_id": "CHEMBL4436197",
+      "pIC50": 7.494850021680094,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NC(CCN1CCOCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939252
+      ],
+      "canonical_smiles": "COc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4469316",
+      "pIC50": 8.221848749616356,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939236
+      ],
+      "canonical_smiles": "COc1cccc([C@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "molecule_id": "CHEMBL4575880",
+      "pIC50": 5.619788758288394,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939228
+      ],
+      "canonical_smiles": "O=C(NCc1cccc(O)c1)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4536833",
+      "pIC50": 8.522878745280337,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939229
+      ],
+      "canonical_smiles": "O=C(NCc1cccc(OC(F)(F)F)c1)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4475535",
+      "pIC50": 5.886056647693163,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939234
+      ],
+      "canonical_smiles": "O=C(NCc1cccc(OCCN2CCOCC2)c1)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4570150",
+      "pIC50": 6.6020599913279625,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1cccc(OCCN2CCOCC2)c1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939232
+      ],
+      "canonical_smiles": "O=C(NCc1cccc2c1OCCCO2)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4463301",
+      "pIC50": 7.468521082957745,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1cccc2c1OCCCO2)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939231
+      ],
+      "canonical_smiles": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4522042",
+      "pIC50": 7.431798275933005,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939224
+      ],
+      "canonical_smiles": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL1977135",
+      "pIC50": 6.920818753952375,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939255
+      ],
+      "canonical_smiles": "O=C(N[C@H](CCN1CCCC1)c1cccc(F)c1)c1ccc(-c2ccnc(F)c2)cc1",
+      "molecule_id": "CHEMBL4521871",
+      "pIC50": 7.086186147616283,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1"
+    },
+    {
+      "activity_ids": [
+        18939250
+      ],
+      "canonical_smiles": "O=C(N[C@H](CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "molecule_id": "CHEMBL4459077",
+      "pIC50": 8.096910013008056,
+      "replicate_policy": "Median log potency only for identical stereochemical SMILES in this same assay",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1"
+    }
+  ],
+  "excluded_records": [
+    {
+      "activity_id": 18939223,
+      "assay_id": "CHEMBL4328667",
+      "endpoint": "Inhibition",
+      "molecule_id": "CHEMBL4467869",
+      "relation": null,
+      "status": "different_endpoint_or_units",
+      "unit": "%",
+      "value": null
+    },
+    {
+      "activity_id": 18939460,
+      "assay_id": "CHEMBL4328710",
+      "endpoint": "IC50",
+      "molecule_id": "CHEMBL4448806",
+      "relation": "=",
+      "status": "different_target_or_assay",
+      "unit": "nM",
+      "value": "1.0"
+    }
+  ],
+  "license": "ChEMBL-derived table: CC BY-SA 3.0; original measurements DOI10.1021/acs.jmedchem.8b01098; PDB data CC0",
+  "limits": [
+    "Single selected medicinal chemistry paper and assay; not an external prospective test.",
+    "IC50 is an assay-specific inhibition endpoint, not binding Kd or cell viability.",
+    "The deposited 415-residue construct including tags differs from the assay description (residues11-552); preserve this before structural inference.",
+    "ChEMBL assay description mentions both33P-ATP and HTRF; original assay protocol and ATP concentration require reconciliation before quantitative structural calibration.",
+    "Known2018 ligands/structures may overlap pretrained model training data; performance cannot establish out-of-training generalization."
+  ],
+  "retained_records": [
+    {
+      "activity_id": 18939224,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 120.0,
+      "molecule_id": "CHEMBL1977135",
+      "pIC50": 6.920818753952375,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "120.0"
+    },
+    {
+      "activity_id": 18939225,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 21.0,
+      "molecule_id": "CHEMBL2006299",
+      "pIC50": 7.6777807052660805,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "21.0"
+    },
+    {
+      "activity_id": 18939226,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 110.0,
+      "molecule_id": "CHEMBL4454552",
+      "pIC50": 6.958607314841775,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "110.0"
+    },
+    {
+      "activity_id": 18939227,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 118.0,
+      "molecule_id": "CHEMBL4476761",
+      "pIC50": 6.928117992693874,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "118.0"
+    },
+    {
+      "activity_id": 18939228,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc(O)c1)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 3.0,
+      "molecule_id": "CHEMBL4536833",
+      "pIC50": 8.522878745280337,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "3.0"
+    },
+    {
+      "activity_id": 18939229,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc(OC(F)(F)F)c1)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 1300.0,
+      "molecule_id": "CHEMBL4475535",
+      "pIC50": 5.886056647693163,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "1300.0"
+    },
+    {
+      "activity_id": 18939230,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1OC",
+      "endpoint": "IC50",
+      "ic50_nM": 3800.0,
+      "molecule_id": "CHEMBL4447521",
+      "pIC50": 5.42021640338319,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "3800.0"
+    },
+    {
+      "activity_id": 18939231,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 37.0,
+      "molecule_id": "CHEMBL4522042",
+      "pIC50": 7.431798275933005,
+      "relation": "=",
+      "scaffold": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "37.0"
+    },
+    {
+      "activity_id": 18939232,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc2c1OCCCO2)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 34.0,
+      "molecule_id": "CHEMBL4463301",
+      "pIC50": 7.468521082957745,
+      "relation": "=",
+      "scaffold": "O=C(NCc1cccc2c1OCCCO2)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "34.0"
+    },
+    {
+      "activity_id": 18939233,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CN(C)CCCOc1cccc(CNC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 87.0,
+      "molecule_id": "CHEMBL4436040",
+      "pIC50": 7.060480747381382,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "87.0"
+    },
+    {
+      "activity_id": 18939234,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc(OCCN2CCOCC2)c1)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 250.0,
+      "molecule_id": "CHEMBL4570150",
+      "pIC50": 6.6020599913279625,
+      "relation": "=",
+      "scaffold": "O=C(NCc1cccc(OCCN2CCOCC2)c1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "250.0"
+    },
+    {
+      "activity_id": 18939235,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 2.0,
+      "molecule_id": "CHEMBL4448806",
+      "pIC50": 8.698970004336019,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "2.0"
+    },
+    {
+      "activity_id": 18939236,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 2400.0,
+      "molecule_id": "CHEMBL4575880",
+      "pIC50": 5.619788758288394,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "2400.0"
+    },
+    {
+      "activity_id": 18939237,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(N)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 12.0,
+      "molecule_id": "CHEMBL4474946",
+      "pIC50": 7.920818753952375,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "12.0"
+    },
+    {
+      "activity_id": 18939238,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 14.0,
+      "molecule_id": "CHEMBL4459800",
+      "pIC50": 7.853871964321762,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "14.0"
+    },
+    {
+      "activity_id": 18939239,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(Cl)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 140.0,
+      "molecule_id": "CHEMBL4451899",
+      "pIC50": 6.853871964321762,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "140.0"
+    },
+    {
+      "activity_id": 18939240,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(C)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 96.0,
+      "molecule_id": "CHEMBL4438453",
+      "pIC50": 7.017728766960431,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "96.0"
+    },
+    {
+      "activity_id": 18939241,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3cc(C)nc(C)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 10000.0,
+      "molecule_id": "CHEMBL4540054",
+      "pIC50": null,
+      "relation": ">",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "right_censored",
+      "unit": "nM",
+      "value": "10000.0"
+    },
+    {
+      "activity_id": 18939242,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3F)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 1.0,
+      "molecule_id": "CHEMBL4472858",
+      "pIC50": 9.0,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "1.0"
+    },
+    {
+      "activity_id": 18939243,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 27.0,
+      "molecule_id": "CHEMBL4460511",
+      "pIC50": 7.568636235841012,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "27.0"
+    },
+    {
+      "activity_id": 18939244,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnnc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 700.0,
+      "molecule_id": "CHEMBL4584824",
+      "pIC50": 6.154901959985743,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccnnc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "700.0"
+    },
+    {
+      "activity_id": 18939245,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCNc1cc(-c2ccc(C(=O)N[C@H](C)c3cccc(OC)c3)cc2)ccn1",
+      "endpoint": "IC50",
+      "ic50_nM": 84.0,
+      "molecule_id": "CHEMBL4445356",
+      "pIC50": 7.075720713938118,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "84.0"
+    },
+    {
+      "activity_id": 18939246,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCC4CC4)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 68.0,
+      "molecule_id": "CHEMBL4556370",
+      "pIC50": 7.167491087293763,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccnc(NCC3CC3)c2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "68.0"
+    },
+    {
+      "activity_id": 18939247,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCC(C)(C)O)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 390.0,
+      "molecule_id": "CHEMBL4568447",
+      "pIC50": 6.4089353929735005,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "390.0"
+    },
+    {
+      "activity_id": 18939248,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCCO)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 220.0,
+      "molecule_id": "CHEMBL4446212",
+      "pIC50": 6.657577319177793,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "220.0"
+    },
+    {
+      "activity_id": 18939249,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccnc(NCCCO)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 75.0,
+      "molecule_id": "CHEMBL4588929",
+      "pIC50": 7.1249387366083,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "75.0"
+    },
+    {
+      "activity_id": 18939250,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(N[C@H](CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 8.0,
+      "molecule_id": "CHEMBL4459077",
+      "pIC50": 8.096910013008056,
+      "relation": "=",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "8.0"
+    },
+    {
+      "activity_id": 18939251,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](CCN2CCCC2)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 3.0,
+      "molecule_id": "CHEMBL4583341",
+      "pIC50": 8.522878745280337,
+      "relation": "=",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "3.0"
+    },
+    {
+      "activity_id": 18939252,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 6.0,
+      "molecule_id": "CHEMBL4469316",
+      "pIC50": 8.221848749616356,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "6.0"
+    },
+    {
+      "activity_id": 18939253,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](CCN2CCOCC2)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 32.0,
+      "molecule_id": "CHEMBL4436197",
+      "pIC50": 7.494850021680094,
+      "relation": "=",
+      "scaffold": "O=C(NC(CCN1CCOCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "32.0"
+    },
+    {
+      "activity_id": 18939254,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCN2CCCCC2)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 180.0,
+      "molecule_id": "CHEMBL4471862",
+      "pIC50": 6.7447274948966935,
+      "relation": "=",
+      "scaffold": "O=C(NC(CCN1CCCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "180.0"
+    },
+    {
+      "activity_id": 18939255,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(N[C@H](CCN1CCCC1)c1cccc(F)c1)c1ccc(-c2ccnc(F)c2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 82.0,
+      "molecule_id": "CHEMBL4521871",
+      "pIC50": 7.086186147616283,
+      "relation": "=",
+      "scaffold": "O=C(NC(CCN1CCCC1)c1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "82.0"
+    },
+    {
+      "activity_id": 18939256,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccnc(F)c3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 350.0,
+      "molecule_id": "CHEMBL4590232",
+      "pIC50": 6.455931955649724,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "350.0"
+    },
+    {
+      "activity_id": 18939257,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCCOc1cccc([C@@H](CCO)NC(=O)c2ccc(-c3ccncc3F)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 140.0,
+      "molecule_id": "CHEMBL4577208",
+      "pIC50": 6.853871964321762,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "140.0"
+    },
+    {
+      "activity_id": 18939258,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "CCCOc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 15.0,
+      "molecule_id": "CHEMBL4469434",
+      "pIC50": 7.823908740944319,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "15.0"
+    },
+    {
+      "activity_id": 18939259,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2N2CCC(CN)CC2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 1.0,
+      "molecule_id": "CHEMBL4434688",
+      "pIC50": 9.0,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1N1CCCCC1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "1.0"
+    },
+    {
+      "activity_id": 18939260,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCN)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 21.0,
+      "molecule_id": "CHEMBL4572198",
+      "pIC50": 7.6777807052660805,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "21.0"
+    },
+    {
+      "activity_id": 18939261,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCCN)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 12.0,
+      "molecule_id": "CHEMBL4553926",
+      "pIC50": 7.920818753952375,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "12.0"
+    },
+    {
+      "activity_id": 18939262,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncc3)cc2NCCCCN)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 21.0,
+      "molecule_id": "CHEMBL4555093",
+      "pIC50": 7.6777807052660805,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "21.0"
+    },
+    {
+      "activity_id": 18939263,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2NCCCCN)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 72.0,
+      "molecule_id": "CHEMBL4585481",
+      "pIC50": 7.142667503568731,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "72.0"
+    },
+    {
+      "activity_id": 18939264,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CC[C@@H](CN)C2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 320.0,
+      "molecule_id": "CHEMBL4550282",
+      "pIC50": 6.494850021680094,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCC1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "320.0"
+    },
+    {
+      "activity_id": 18939265,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CC[C@H](CN)C2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 270.0,
+      "molecule_id": "CHEMBL4547725",
+      "pIC50": 6.568636235841012,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCC1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "270.0"
+    },
+    {
+      "activity_id": 18939266,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CCC[C@H](CN)C2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 19.0,
+      "molecule_id": "CHEMBL4557041",
+      "pIC50": 7.721246399047171,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCCC1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "19.0"
+    },
+    {
+      "activity_id": 18939267,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3ccncn3)cc2N2CCC[C@@H](CN)C2)c1",
+      "endpoint": "IC50",
+      "ic50_nM": 14.0,
+      "molecule_id": "CHEMBL4465725",
+      "pIC50": 7.853871964321762,
+      "relation": "=",
+      "scaffold": "O=C(NCc1ccccc1)c1ccc(-c2ccncn2)cc1N1CCCCC1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "14.0"
+    }
+  ],
+  "source_manifest": "data/phase15/rock-source-manifest.json",
+  "structure_anchor": {
+    "ligand_ccd": "J0P",
+    "match_rule": "Exact RDKit canonical isomeric SMILES equality",
+    "pdb_id": "6ED6",
+    "record": {
+      "activity_id": 18939231,
+      "assay_id": "CHEMBL4328667",
+      "canonical_smiles": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1",
+      "endpoint": "IC50",
+      "ic50_nM": 37.0,
+      "molecule_id": "CHEMBL4522042",
+      "pIC50": 7.431798275933005,
+      "relation": "=",
+      "scaffold": "O=C(NCc1cccc2c1OCCO2)c1ccc(-c2ccncc2)cc1",
+      "status": "exact",
+      "unit": "nM",
+      "value": "37.0"
+    }
+  },
+  "target": "Human ROCK2, CHEMBL2973, UniProt O75116"
+}

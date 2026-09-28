@@ -1,0 +1,15 @@
+{
+  "checked_epoch": 1788701775.7160478,
+  "completed_gpu_reserve_usd": 2.3110462639225364,
+  "outstanding_pod_ids": [
+    "8xkckunx350qc8",
+    "by0swzcu0vjl3g",
+    "m0elzyrjchwtmf"
+  ],
+  "outstanding_full_lifetime_reserve_usd": 2.4000000000000004,
+  "retry_full_lifetime_reserve_usd": 2.4000000000000004,
+  "margin_usd": 0.6,
+  "conservative_total_bound_usd": 7.711046263922537,
+  "limit_usd": 10,
+  "note": "Full six-Pod reservation covers at most three outstanding original runs and three replacement runs; completed failures are additionally charged."
+}

@@ -1,0 +1,333 @@
+{
+  "calibration_status": "Published equations and reference parameters; no independent measured volume-time curve fitted or validated.",
+  "claim_level": "model_prediction",
+  "claims": [
+    "The frozen staged-loading hypothesis is supported in reference model."
+  ],
+  "completed_at": "2026-09-06T14:55:11.118441+00:00",
+  "decision": "supported_in_reference_model",
+  "environment": {
+    "numpy": "2.5.2",
+    "python": "3.13.12",
+    "scipy": "1.18.1"
+  },
+  "hypothesis_id": "transport-staged-eg-reference",
+  "limitations": [
+    "Human oocyte ethylene glycol at 22 C, not iPSC or other CPA calibration.",
+    "Isothermal fixed bath steps; no cooling, ice growth, toxicity or survival response.",
+    "Exposure integral is reported in Osm min/kg, without the paper toxicity exponent or a fitted damage rate.",
+    "Schedules and sensitivity factors are analyst-designed virtual comparisons, not published protocols or laboratory instructions.",
+    "Generic staged loading is established prior art."
+  ],
+  "metrics": {
+    "single": {
+      "duration_min": 10.0,
+      "final_intracellular_eg_osm_per_kg": 1.407137849383835,
+      "final_relative_volume": 0.7726237527565523,
+      "intracellular_exposure_osm_min_per_kg": 12.306377337075324,
+      "max_relative_volume": 1.0,
+      "min_relative_volume": 0.41585624920752506
+    },
+    "staged": {
+      "duration_min": 10.0,
+      "final_intracellular_eg_osm_per_kg": 1.3737537726155034,
+      "final_relative_volume": 0.6998765439598688,
+      "intracellular_exposure_osm_min_per_kg": 8.863751556986328,
+      "max_relative_volume": 1.0,
+      "min_relative_volume": 0.5497068737608519
+    }
+  },
+  "novelty_status": "known_reference",
+  "numerical_checks": {
+    "appendix_reference_max_abs_state_error": {
+      "single": 5.318634421769275e-12,
+      "staged": 1.9133139517180098e-11
+    },
+    "passed": true,
+    "tighter_solver_and_sampling_max_abs_metric_error": {
+      "single": 9.515555010608523e-12,
+      "staged": 1.2809420191217669e-10
+    }
+  },
+  "plan_hash": "9a615f4317192e53fb84afd910a028492706ec0bad44c7e8cee9155eb2bf4f6d",
+  "plan_id": "transport-002",
+  "primary_comparison": {
+    "criteria_met": true,
+    "final_loading_ratio": 0.9762751909608928,
+    "min_volume_improvement": 0.13385062455332686
+  },
+  "result_type": "virtual",
+  "sensitivity_interpretation": "Deterministic assumed parameter scenarios, not biological replicates or confidence intervals.",
+  "sensitivity_scenarios": [
+    {
+      "b_factor": 0.5,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9659227850550743,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.3557467796935603,
+          "final_relative_volume": 0.6954464474582563,
+          "intracellular_exposure_osm_min_per_kg": 11.486615343958114,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.3197337578071825
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.309546705271052,
+          "final_relative_volume": 0.6231934637356816,
+          "intracellular_exposure_osm_min_per_kg": 8.201593443701393,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.46372526417927257
+        }
+      },
+      "min_volume_improvement": 0.14399150637209007,
+      "parameters": {
+        "b": 0.81,
+        "gamma": 0.0168,
+        "minutes_per_tau": 3.2475
+      },
+      "time_factor": 0.75
+    },
+    {
+      "b_factor": 0.5,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9613676718728295,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.3158817797394526,
+          "final_relative_volume": 0.6322189508075019,
+          "intracellular_exposure_osm_min_per_kg": 10.858014221729821,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.31973375783465907
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.265046203047993,
+          "final_relative_volume": 0.5662579417861018,
+          "intracellular_exposure_osm_min_per_kg": 7.673996491200309,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.4311048192278693
+        }
+      },
+      "min_volume_improvement": 0.11137106139321024,
+      "parameters": {
+        "b": 0.81,
+        "gamma": 0.0168,
+        "minutes_per_tau": 4.33
+      },
+      "time_factor": 1.0
+    },
+    {
+      "b_factor": 0.5,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9574579527906745,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.280995576081012,
+          "final_relative_volume": 0.5854570382049294,
+          "intracellular_exposure_osm_min_per_kg": 10.324071808494963,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.3197337579774534
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.2264994018084365,
+          "final_relative_volume": 0.5245648484460137,
+          "intracellular_exposure_osm_min_per_kg": 7.227184430800957,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.40763802764694557
+        }
+      },
+      "min_volume_improvement": 0.08790426966949216,
+      "parameters": {
+        "b": 0.81,
+        "gamma": 0.0168,
+        "minutes_per_tau": 5.4125
+      },
+      "time_factor": 1.25
+    },
+    {
+      "b_factor": 1.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9789376056947018,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.4314096905038807,
+          "final_relative_volume": 0.8355817248517956,
+          "intracellular_exposure_osm_min_per_kg": 12.780274017649026,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.41585624921613457
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.401260775190063,
+          "final_relative_volume": 0.758759290352832,
+          "intracellular_exposure_osm_min_per_kg": 9.2737184313297,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.5835542772818896
+        }
+      },
+      "min_volume_improvement": 0.167698028065755,
+      "parameters": {
+        "b": 1.62,
+        "gamma": 0.0168,
+        "minutes_per_tau": 3.2475
+      },
+      "time_factor": 0.75
+    },
+    {
+      "b_factor": 1.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9762751909608928,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.407137849383835,
+          "final_relative_volume": 0.7726237527565523,
+          "intracellular_exposure_osm_min_per_kg": 12.306377337075324,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.41585624920752506
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.3737537726155034,
+          "final_relative_volume": 0.6998765439598688,
+          "intracellular_exposure_osm_min_per_kg": 8.863751556986328,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.5497068737608519
+        }
+      },
+      "min_volume_improvement": 0.13385062455332686,
+      "parameters": {
+        "b": 1.62,
+        "gamma": 0.0168,
+        "minutes_per_tau": 4.33
+      },
+      "time_factor": 1.0
+    },
+    {
+      "b_factor": 1.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9741260882772276,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.3854735723021137,
+          "final_relative_volume": 0.7238288261968515,
+          "intracellular_exposure_osm_min_per_kg": 11.89068397147963,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.41585624920072345
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.3496259513981346,
+          "final_relative_volume": 0.6551634363238281,
+          "intracellular_exposure_osm_min_per_kg": 8.50334803973221,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.5244480476747436
+        }
+      },
+      "min_volume_improvement": 0.10859179847402017,
+      "parameters": {
+        "b": 1.62,
+        "gamma": 0.0168,
+        "minutes_per_tau": 5.4125
+      },
+      "time_factor": 1.25
+    },
+    {
+      "b_factor": 2.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9886290206327255,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.4733119763252405,
+          "final_relative_volume": 0.949473905501569,
+          "intracellular_exposure_osm_min_per_kg": 13.704755364178792,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.54294126172504
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.4565589762408877,
+          "final_relative_volume": 0.8807097957746103,
+          "intracellular_exposure_osm_min_per_kg": 10.061192596984416,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.7025623746376715
+        }
+      },
+      "min_volume_improvement": 0.15962111291263148,
+      "parameters": {
+        "b": 3.24,
+        "gamma": 0.0168,
+        "minutes_per_tau": 3.2475
+      },
+      "time_factor": 0.75
+    },
+    {
+      "b_factor": 2.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9871364370909029,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.460778462947357,
+          "final_relative_volume": 0.8970839971859487,
+          "intracellular_exposure_osm_min_per_kg": 13.381130156933956,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.5429412617795888
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.4419876472929796,
+          "final_relative_volume": 0.8284409789483816,
+          "intracellular_exposure_osm_min_per_kg": 9.772796835087417,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.6791325662840172
+        }
+      },
+      "min_volume_improvement": 0.1361913045044284,
+      "parameters": {
+        "b": 3.24,
+        "gamma": 0.0168,
+        "minutes_per_tau": 4.33
+      },
+      "time_factor": 1.0
+    },
+    {
+      "b_factor": 2.0,
+      "criteria_met": true,
+      "final_loading_ratio": 0.9860744318998635,
+      "metrics": {
+        "single": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.44928739026635,
+          "final_relative_volume": 0.8538359146108744,
+          "intracellular_exposure_osm_min_per_kg": 13.08798267183218,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.5429412616534359
+        },
+        "staged": {
+          "duration_min": 10.0,
+          "final_intracellular_eg_osm_per_kg": 1.4291052400165267,
+          "final_relative_volume": 0.7870928493849165,
+          "intracellular_exposure_osm_min_per_kg": 9.510168051609284,
+          "max_relative_volume": 1.0,
+          "min_relative_volume": 0.6564600960296664
+        }
+      },
+      "min_volume_improvement": 0.11351883437623045,
+      "parameters": {
+        "b": 3.24,
+        "gamma": 0.0168,
+        "minutes_per_tau": 5.4125
+      },
+      "time_factor": 1.25
+    }
+  ]
+}

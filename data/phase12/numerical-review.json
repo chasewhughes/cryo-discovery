@@ -1,0 +1,35 @@
+{
+  "scope": "Separate Luna assistant recomputation directly from four NPZ trajectories; not independent scientific validation",
+  "primary_values_match_exactly": true,
+  "runs": [
+    {
+      "name": "gly-NVT-20260917",
+      "pdf_tv": 0.02925906809453149,
+      "count_delta": 0.049999999999998934,
+      "density_delta_g_ml": 0.0,
+      "mean_temperature_K": 273.1314015470804
+    },
+    {
+      "name": "gly-NPT-20260917",
+      "pdf_tv": 0.031689365591850836,
+      "count_delta": 0.08999999999999986,
+      "density_delta_g_ml": 0.00045171622939732536,
+      "mean_temperature_K": 273.43978573541216
+    },
+    {
+      "name": "phe-NVT-20260916",
+      "pdf_tv": 0.025479981827611232,
+      "count_delta": -0.10400000000000098,
+      "density_delta_g_ml": 0.0,
+      "mean_temperature_K": 273.2126358710262
+    },
+    {
+      "name": "phe-NPT-20260916",
+      "pdf_tv": 0.02790232782958111,
+      "count_delta": 0.19399999999999906,
+      "density_delta_g_ml": 0.00034354492711874407,
+      "mean_temperature_K": 273.4312235572921
+    }
+  ],
+  "source_results_sha256": "345eb5f623be6f96d1f75f912c7f3bd84cf927a329754656ae9ff9b315f38407"
+}

@@ -1,0 +1,77 @@
+{
+  "retrieved_at": "2026-09-05",
+  "records": [
+    {
+      "pmcid": "PMC5175444",
+      "doi": "10.1089/ten.TEC.2016.0345",
+      "retrieved_at": "2026-09-05",
+      "access_status": "partial_indexed_capture",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5175444/",
+      "local_path": "data/raw/phase2/PMC5175444-web.txt",
+      "license": "Copyright 2016, Mary Ann Liebert, Inc.; PMC copy",
+      "supplement_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/5175444/bin/Supp_Data.pdf"
+      ],
+      "errors": [],
+      "limitations": [
+        "Captured title/abstract excerpt from indexed public result; not a complete article archive."
+      ]
+    },
+    {
+      "pmcid": "PMC10646010",
+      "doi": "10.1007/s13770-023-00568-3",
+      "retrieved_at": "2026-09-05",
+      "access_status": "partial_indexed_capture",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10646010/",
+      "local_path": "data/raw/phase2/PMC10646010-web.txt",
+      "license": "© Korean Tissue Engineering and Regenerative Medicine Society 2023; Springer Nature/licensor rights noted",
+      "supplement_links": [],
+      "errors": [],
+      "limitations": [
+        "Captured title/abstract excerpt from indexed public result; not a complete article archive."
+      ]
+    },
+    {
+      "pmcid": "PMC10378238",
+      "doi": "10.3390/cells12141914",
+      "retrieved_at": "2026-09-05",
+      "access_status": "public_metadata_abstract_verified",
+      "url": "https://hpscreg.eu/browse/publication/3895",
+      "local_path": null,
+      "license": null,
+      "supplement_links": [],
+      "errors": [
+        "Only public institutional metadata/abstract page located in bounded routes."
+      ],
+      "limitations": [
+        "Full article capture remains pending; no paywall bypass attempted."
+      ]
+    },
+    {
+      "pmcid": "PMC2729265",
+      "doi": "10.1016/j.cryobiol.2009.04.012",
+      "retrieved_at": "2026-09-05",
+      "access_status": "partial_indexed_capture",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2729265/",
+      "local_path": "data/raw/phase2/PMC2729265-web.txt",
+      "license": "© 2009 Elsevier Inc.; PMC copy",
+      "supplement_links": [],
+      "errors": [],
+      "limitations": [
+        "Captured title/abstract excerpt from indexed public result; not a complete article archive."
+      ]
+    },
+    {
+      "pmcid": "PMC3041861",
+      "doi": "10.1016/j.cryobiol.2010.10.159",
+      "retrieved_at": "2026-09-05",
+      "access_status": "full_text_html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3041861/",
+      "local_path": "data/raw/phase2/PMC3041861.html",
+      "license": "PMC copy; publisher rights apply",
+      "supplement_links": [],
+      "errors": [],
+      "limitations": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "record_type": "independent_methods_and_scaffold_diversity_review",
+  "review_date": "2026-09-07",
+  "candidate": {
+    "assay_id": "CHEMBL2341182",
+    "document_id": "CHEMBL2331531",
+    "primary_article_doi": "10.1021/jm400062r",
+    "primary_article_url": "https://doi.org/10.1021/jm400062r",
+    "raw_inventory_path": "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+    "raw_inventory_sha256": "7a548e0fbcb8208310310a1e68b529756733c5df4b41a41359b273e3cefa95a0"
+  },
+  "independence_and_eligibility": {
+    "raw_exact_qualified_records": 42,
+    "raw_exact_unique_molecules": 42,
+    "prior_evaluated_sets": [
+      "Phase17",
+      "Phase18",
+      "Phase20"
+    ],
+    "molecule_id_overlap": 0,
+    "canonical_or_achiral_structure_overlap": 0,
+    "achiral_murcko_scaffolds_in_prior_sets": 41,
+    "candidate_achiral_murcko_scaffolds": 18,
+    "candidate_scaffolds_overlapping_prior_scaffolds": 0,
+    "finding": "All 42 exact candidate molecules are molecule- and structure-independent of the evaluated Phase17/18/20 panels under the available ID, canonical/isomeric, achiral, and achiral Murcko checks. This establishes dataset independence under those checks, not independence from Boltz pretraining."
+  },
+  "fixed_split_check": {
+    "seed_rule": "SHA256(cryo-phase19-split-1900: + achiral Murcko scaffold), whole scaffold groups assigned to calibration until ceil(42/3)=14 is reached",
+    "calibration_n": 27,
+    "test_n": 15,
+    "calibration_scaffolds": 3,
+    "test_scaffolds": 15,
+    "scaffold_cross_partition_count": 0,
+    "largest_test_scaffold_n": 1,
+    "largest_test_scaffold_fraction": 0.06666666666666667,
+    "minimum_test_scaffold_requirement": 6,
+    "maximum_test_single_scaffold_fraction_requirement": 0.4,
+    "requirements_pass": true,
+    "test_scaffolds_unseen_in_all_prior_sets": 15,
+    "test_scaffold_overlap_with_prior_sets": 0,
+    "finding": "The fixed seed yields the stated provisional 27/15 split and 3/15 scaffold allocation. Every test scaffold is unseen among prior evaluated scaffolds, and no test scaffold exceeds 40% of test rows."
+  },
+  "diversity_cautions": {
+    "calibration_concentration": "The 27 calibration rows occupy only 3 Murcko scaffolds; one scaffold contains 25/27 rows (92.6%). This is a highly concentrated calibration set and makes a calibration offset vulnerable to the dominant chemical series.",
+    "test_distribution": "The 15 test rows are 15 singleton Murcko scaffolds. This meets the scaffold-count rule, but each test scaffold has one observation, so scaffold-level uncertainty cannot be estimated within a scaffold.",
+    "murcko_artifact_check": {
+      "generic_murcko_scaffolds_all": 11,
+      "generic_murcko_scaffolds_calibration": 2,
+      "generic_murcko_scaffolds_test": 11,
+      "interpretation": "Generic Murcko reduction still gives 11 test core classes, but it is not a validated measure of pharmacophore independence. Several singleton Murcko groups can differ mainly by pendant-ring or side-chain topology, while chemically meaningful substitutions may be collapsed into one core. Report both the fixed Murcko result and this limitation; do not describe 15 singleton scaffolds as 15 independent mechanisms."
+    },
+    "method": "Counts were recomputed from the ChEMBL raw JSON with RDKit achiral Bemis-Murcko scaffolds and the frozen Phase19 split hash rule. No alternate seed or potency-based split was searched."
+  },
+  "primary_method_validity": {
+    "existing_review": "data/phase20/urea2013-method-review.json",
+    "article_method": "The 2013 primary article reports a Cisbio STK2 HTRF ROCK-I/II assay: 5 uL substrate/ATP mixture plus 5 uL enzyme, 4 h at room temperature, stop with antibody/Sa-XL, 1 h detection, ViewLux HTRF.",
+    "rock_ii_calculated_final_conditions": {
+      "ATP_uM": 10,
+      "enzyme_nM": 0.25,
+      "STK2_substrate_uM": 0.5
+    },
+    "construct_evidence": "The article/SI identifies ROCK-II 1-543 as cloned and purified as described earlier; the cited Schr\u00f6ter primary protocol supports recombinant human 6-His ROCK-II residues 1-543. This is method-transfer evidence, not an independent 2013 lot or sequence certificate.",
+    "assay_identity_limit": "The ChEMBL assay description itself says ROCK2 origin is unknown. Linking all 42 ChEMBL rows to the article's human ROCK-II 1-543 preparation therefore remains source-document linkage rather than direct ChEMBL construct metadata. A run should retain this historical certainty limit and must not pool the urea panel with other ROCK2 assay formats."
+  },
+  "decision": {
+    "structural_diversity_eligibility": "passes_minimum_fixed_split_rules_but_calibration_concentration_requires_explicit_caution",
+    "independent_scaffold_test": "conditionally_viable: 15 unseen singleton test scaffolds, with limited within-scaffold uncertainty",
+    "recommended_reporting": "Report molecule independence, unseen test Murcko scaffolds, 27/15 imbalance, dominant 25-row calibration scaffold, and pendant-ring/core ambiguity together. Do not retune the seed or claim broad chemical-domain validation from this panel alone.",
+    "no_prediction_or_model_change": true
+  },
+  "status": "superseded_preliminary_working_notes_not_used_for_eligibility",
+  "authoritative_replacement": "data/phase21/source-table-reconciliation.json and eligibility-decision.json"
+}

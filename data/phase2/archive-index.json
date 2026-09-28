@@ -1,0 +1,154 @@
+{
+  "dataset_doi": "10.5281/zenodo.14038512",
+  "source_url": "https://zenodo.org/api/records/14038512/files/Data%20manuscript.rar/content",
+  "archive_size_bytes": 3511664912,
+  "status": "complete_header_inventory_selective_data_download",
+  "archive_full_md5_verified": false,
+  "verification": "QuickOpen cache CRCs; continuous indexed block offsets; actual headers and decompressed CRCs for selected files",
+  "file_count": 4141,
+  "gap_ranges_retrieved": 62,
+  "gap_bytes_retrieved": 114017,
+  "inventory_path": "data/raw/phase2/zenodo-complete-inventory.json",
+  "inventory_sha256": "fd55490e1b06204dab08d658c509b1b8754690ae375315c762e2e451bbb91764",
+  "selected_files": [
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Recovery.xlsx",
+      "local_path": "data/raw/phase2/figure2a-recovery.xlsx",
+      "bytes": 29255,
+      "sha256": "03794b43162b9d3dcdfd01a70f057b74ffb546b2694cfb11d32d21f25a794674",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Viability.xlsx",
+      "local_path": "data/raw/phase2/figure2a-viability.xlsx",
+      "bytes": 17625,
+      "sha256": "7a2b4a9e012c8ecc2228557b731db3f4c1b8d2e6092ed9249c66c5e6f38c3716",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Table view.xlsx",
+      "local_path": "data/raw/phase2/figure2a-table.xlsx",
+      "bytes": 10432,
+      "sha256": "c187095858225847d729bb01729b484b92fbc61e7e79bc3221724e2ac12c9903",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 2/Partials/B/Figure 2B.xlsx",
+      "local_path": "data/raw/phase2/figure2b.xlsx",
+      "bytes": 8441,
+      "sha256": "fc7101fb4a59389dba54edba4e6274a0aff19f97788676035330d5e38c3c03e8",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 2/Figure 2.png",
+      "local_path": "data/raw/phase2/figure2.png",
+      "bytes": 72383,
+      "sha256": "f4eb3f91bfcf0447b8a40af2fff5b51920199b2250ea0ffb5a4a7f0c2c8b7cfd",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_CS10_over_Control.csv",
+      "local_path": "data/raw/phase2/deg-cs10.csv",
+      "bytes": 292980,
+      "sha256": "fa8be75c2eef46be8d3f6532fc8788200f5b2400b0113a9477b21c20b9c2f779",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_IRI_A_over_Control.csv",
+      "local_path": "data/raw/phase2/deg-iri-a.csv",
+      "bytes": 298803,
+      "sha256": "8ce59b6af14e5003b672073b2b90d2721f82a82064237daf42fcefe66ee4e698",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_IRI_B_over_Control.csv",
+      "local_path": "data/raw/phase2/deg-iri-b.csv",
+      "bytes": 348544,
+      "sha256": "f700902ccc07bcf9882f057a2a1b6caa0cdd5db1df7f036f465c4052f6cd44d4",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Figure 3.png",
+      "local_path": "data/raw/phase2/figure3.png",
+      "bytes": 265847,
+      "sha256": "d2f06125b3c6487d2f902cc8c7fb6598f0b81798815e3ff2912ae2009ba606eb",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_CS10.csv",
+      "local_path": "data/raw/phase2/common-up-cs10.tsv",
+      "bytes": 439,
+      "sha256": "e21c3490c8534181486c7ace096fbd546622360138d526eb2af3795ec176c68f",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_IRI_A.csv",
+      "local_path": "data/raw/phase2/common-up-iri-a.tsv",
+      "bytes": 420,
+      "sha256": "0eb5627cc4423a49337828c4fba706e35284a3a55e97ca9acf417cf4627f9b8c",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_IRI_B.csv",
+      "local_path": "data/raw/phase2/common-up-iri-b.tsv",
+      "bytes": 565,
+      "sha256": "23b69cf34a999d5df4f31fc3a43c0ea0b32326e09d8b58a3e16854070566b1d6",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_CS10.csv",
+      "local_path": "data/raw/phase2/common-down-cs10.tsv",
+      "bytes": 1503,
+      "sha256": "df652aaa9e2fe386c1e7ae30db056851593236797c29d55a6290e4a051b44acb",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_IRI_A.csv",
+      "local_path": "data/raw/phase2/common-down-iri-a.tsv",
+      "bytes": 1714,
+      "sha256": "b1a7c04063792e483b5621769802a7026711974f6813892ecf079b30115613e9",
+      "header_and_content_crc_verified": true
+    },
+    {
+      "archive_path": "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_IRI_B.csv",
+      "local_path": "data/raw/phase2/common-down-iri-b.tsv",
+      "bytes": 2298,
+      "sha256": "731925fae55365c121a5cb93aae37a3bcc5b60314684bff62d6457d8356e27bc",
+      "header_and_content_crc_verified": true
+    }
+  ],
+  "table_like_paths": [
+    "Data manuscript_v3_final/Figure 1/Originals/A/Code convention.txt",
+    "Data manuscript_v3_final/Figure 1/Partials/B/Figure 1B-Report.xlsx",
+    "Data manuscript_v3_final/Figure 1/Partials/C/Figure 1C-Report.xlsx",
+    "Data manuscript_v3_final/Figure 1/Partials/D/Figure 1 - D.xlsx",
+    "Data manuscript_v3_final/Figure 1/Partials/D/Figure 1D - Recovery AOPI.xlsx",
+    "Data manuscript_v3_final/Figure 1/Partials/D/Figure 1D - Viability AOPI.xlsx",
+    "Data manuscript_v3_final/Figure 1/Partials/D/Figure 1D - Viability Flow.xlsx",
+    "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Recovery.xlsx",
+    "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Table view.xlsx",
+    "Data manuscript_v3_final/Figure 2/Partials/A/Figure 2A - Viability.xlsx",
+    "Data manuscript_v3_final/Figure 2/Partials/B/Figure 2B.xlsx",
+    "Data manuscript_v3_final/Figure 2/Partials/B/~$Figure 4B.xlsx",
+    "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_CS10_over_Control.csv",
+    "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_IRI_A_over_Control.csv",
+    "Data manuscript_v3_final/Figure 3/Originals/CSV/sig_IRI_B_over_Control.csv",
+    "Data manuscript_v3_final/Figure 3/Originals/XLXS/sig_CS10_over_Control.xlsx",
+    "Data manuscript_v3_final/Figure 3/Originals/XLXS/sig_IRI_A_over_Control.xlsx",
+    "Data manuscript_v3_final/Figure 3/Originals/XLXS/sig_IRI_B_over_Control.xlsx",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_CS10.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_IRI_A.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_down_sigGenes_3fold_IRI_B.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_CS10.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_IRI_A.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/B/common_up_sigGenes_3fold_IRI_B.csv",
+    "Data manuscript_v3_final/Figure 3/Partials/C/Fig. 3C.xlsx",
+    "Data manuscript_v3_final/Figure 3/Partials/D&E/Fig. 3D&E.xlsx",
+    "Data manuscript_v3_final/SUPPL Figure S1/Partials/Figure S1.xlsx",
+    "Data manuscript_v3_final/SUPPL Figure S2/Originals/A/Naming convention.txt",
+    "Data manuscript_v3_final/SUPPL Figure S2/Partials/B/Figure S2B-Report.xlsx",
+    "Data manuscript_v3_final/SUPPL Figure S2/Partials/C/Figure S2C-Report.xlsx",
+    "Data manuscript_v3_final/SUPPL Figure S3/Partials/B/Figure S3B-Report.xlsx",
+    "Data manuscript_v3_final/SUPPL Figure S4/Partials/A&B/Fig. S4A&B.xlsx"
+  ]
+}

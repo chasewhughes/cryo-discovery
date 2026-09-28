@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-06T13:34:54.285709+00:00",
+  "response": {
+    "data": {
+      "gpuTypes": [
+        {
+          "id": "NVIDIA GeForce RTX 4090",
+          "securePrice": 0.74,
+          "communityPrice": 0.34
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,798 @@
+[
+  {
+    "study_id": "doi:10.1038/s41592-021-01126-2",
+    "doi": "10.1038/s41592-021-01126-2",
+    "title": "A versatile polypharmacology platform promotes cytoprotection and viability of human pluripotent and differentiated cells.",
+    "year": 2021,
+    "pmcid": "PMC8314867",
+    "source_url": "https://doi.org/10.1038/s41592-021-01126-2",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/biology-PMC8314867.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human embryonic stem cells",
+      "human iPSCs",
+      "differentiated human cells"
+    ],
+    "study_design": "Small-molecule screening and comparative cytoprotection experiments in pluripotent and differentiated human cells.",
+    "interventions": [
+      "CEPT (chroman 1, emricasan, polyamines, trans-ISRIB)"
+    ],
+    "mechanism_axes": [
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-0-1",
+        "model": "Two hESC lines and three iPSC lines during cryopreservation/thawing",
+        "intervention": "CEPT during thawing",
+        "comparator": "DMSO vehicle in recovery culture, Y-27632, RevitaCell, CloneR, or SMC4; all groups had been cryopreserved",
+        "formulation": [
+          {
+            "compound": "Chroman 1",
+            "concentration": 50,
+            "unit": "nM"
+          },
+          {
+            "compound": "emricasan",
+            "concentration": 5,
+            "unit": "µM"
+          },
+          {
+            "compound": "polyamine supplement Sigma P8483",
+            "concentration": 0.001,
+            "unit": "stock dilution fraction (1:1000)"
+          },
+          {
+            "compound": "trans-ISRIB",
+            "concentration": 0.7,
+            "unit": "µM"
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Live-cell fraction by calcein/PI imaging, confirmed by ATP assay",
+        "outcome_type": "viability",
+        "timepoint": "24 h post-plating",
+        "result": "CEPT was reported as consistently superior during thawing across the tested cell lines and compared reagents.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "triplicate wells; 50,000 cells/well",
+        "source_locator": "Methods, cryopreservation/thawing experiments; Fig. 5e-g",
+        "evidence_excerpt": "all five hPSC lines tested showed significantly improved viability"
+      },
+      {
+        "experiment_id": "biology-0-2",
+        "model": "Cryopreserved iPSC-derived cardiomyocytes, hepatocytes, astrocytes, and motor neurons",
+        "intervention": "CEPT for 24 h after thawing",
+        "comparator": "DMSO or Y-27632",
+        "formulation": [
+          {
+            "compound": "Chroman 1",
+            "concentration": 50,
+            "unit": "nM"
+          },
+          {
+            "compound": "emricasan",
+            "concentration": 5,
+            "unit": "µM"
+          },
+          {
+            "compound": "polyamine supplement Sigma P8483",
+            "concentration": 0.001,
+            "unit": "stock dilution fraction (1:1000)"
+          },
+          {
+            "compound": "trans-ISRIB",
+            "concentration": 0.7,
+            "unit": "µM"
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Survival and cardiomyocyte electrophysiology",
+        "outcome_type": "function",
+        "timepoint": "24 h for survival; 5 days for electrophysiology",
+        "result": "CEPT improved survival of differentiated cells after thawing and was evaluated for electrophysiological function in iPSC-derived cardiomyocytes. The separate motor-neuron MEA comparison in Extended Data Fig. 9 (day 7, n=3 wells, p=0.5023) does not establish significant functional superiority.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Fig. 5h-i and Methods",
+        "evidence_excerpt": "Electrophysiological characterization of iPSC-derived cardiomyocytes 5 days post-thawing using multi-electrode arrays."
+      }
+    ],
+    "main_finding": "CEPT improved post-thaw hPSC recovery and also supported differentiated-cell cytoprotection in the reported comparisons.",
+    "limitations": [
+      "The excerpt does not establish that CEPT directly inhibits a single death pathway; several stress mechanisms were targeted together.",
+      "DMSO as the post-thaw vehicle comparator must not be confused with DMSO as the permeating cryoprotectant.",
+      "Formulation doses are captured; thermal handling and freezing-background allocation must still be resolved at the experiment level.",
+      "Extended Data Fig. 9 motor-neuron MEA at day 7 reports n=3 wells and p=0.5023; this does not establish significant neuronal functional superiority or equivalence.",
+      "Forebrain-neuron use with 2FA is a proposed transfer/combination test, not an already validated combination."
+    ],
+    "mechanism_claim": "The study measured viability/recovery; multi-pathway stress protection is the authors' intervention rationale, while direct pathway causality is not established by recovery alone.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.1016/j.scr.2024.103583",
+    "doi": "10.1016/j.scr.2024.103583",
+    "title": "Ice recrystallization inhibitors enable efficient cryopreservation of induced pluripotent stem cells: A functional and transcriptomic analysis.",
+    "year": 2024,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1016/j.scr.2024.103583",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase2/ipsc-iri-2024-author-results.txt",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human iPSCs"
+    ],
+    "study_design": "Three donor-derived iPSC lines in a 3-arm freezing study with 3 technical vials per line/arm for recovery; a fourth vial per line/arm used for pluripotency assessment. Separate toxicity screen used three other lines.",
+    "interventions": [
+      "small-molecule carbohydrate-based ice recrystallization inhibitors"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-1-1",
+        "model": "Three human iPSC lines",
+        "intervention": "15 mM proprietary IRI-I in CS5 (IRI-I5), or CS10 (IRI-I10)",
+        "comparator": "CS10 (10% DMSO)",
+        "formulation": [
+          {
+            "compound": "proprietary IRI-I",
+            "concentration": 15,
+            "unit": "mM"
+          },
+          {
+            "compound": "DMSO in IRI-I5 arm",
+            "concentration": 5,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "DMSO in IRI-I10 and CS10 arms",
+            "concentration": 10,
+            "unit": "% v/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "1 °C/min from 4 to −80 °C; no induced nucleation; approximately 1 million viable cells in a 1 mL aliquot per 1.8 mL vial",
+        "warming": "ThawStar CFT2; dropwise culture-medium dilution and centrifugation wash",
+        "storage": "Liquid-nitrogen vapor, 4 months",
+        "outcome_name": "Viable-cell recovery relative to prefreeze viable yield",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate post-thaw",
+        "result": "Original 27-vial data reproduce mean recovery of 64.094% for IRI-I5, 51.237% for CS10 and 49.160% for IRI-I10. IRI-I5 minus CS10 differs by +15.871, +2.752 and +19.949 percentage points in iPSC-4, -5 and -6, respectively. The paper reports p=0.035 for IRI-I5 versus CS10; no new significance test was performed.",
+        "effect_numeric": 12.857254453841918,
+        "effect_unit": "percentage points; mean IRI-I5 minus mean CS10 across three donor lines",
+        "sample_size": "3 donor lines × 3 arms × 3 technical vials = 27 measurements",
+        "source_locator": "Results: Post-thaw characteristics, Recovery; Figure 2A; original recovery workbook Sheet1 G4:M30",
+        "evidence_excerpt": "The mean cell recovery"
+      },
+      {
+        "experiment_id": "biology-1-2",
+        "model": "Three human iPSC donor lines after cryopreservation",
+        "intervention": "IRI-I5 and IRI-I10",
+        "comparator": "CS10",
+        "formulation": [],
+        "treatment_stage": [
+          "post_thaw"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Immediate AOPI live-cell fraction and delayed growth/pluripotency",
+        "outcome_type": "function",
+        "timepoint": "Immediate viability; 24-hour confluence; surviving cultures after 2 passages",
+        "result": "Original mean immediate viability was 85.267% in IRI-I5, 84.344% in CS10 and 80.711% in IRI-I10. At 24 hours, IRI-I5 minus CS10 confluence was −12.61, −3.59 and +3.05 percentage points across iPSC-4/5/6. The separate pluripotency workflow lost iPSC-5 in IRI-I10 during thaw/recovery and in CS10/IRI-I5 by first passage. After two passages, iPSC-4 CS10, iPSC-6 CS10 and iPSC-6 IRI-I5 were classified pluripotent; other surviving line/arm combinations were borderline.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 technical vials per line/arm for immediate measurements; 1 separate vial per line/arm for pluripotency workflow",
+        "source_locator": "Results: Viability, Confluence and Pluripotency assessment; Figure 2; Table 2",
+        "evidence_excerpt": "did not survive the thawing process"
+      }
+    ],
+    "main_finding": "IRI-I5 improved immediate live-cell recovery versus CS10, but later growth and pluripotency outcomes varied by line; one line failed in all arms during recovery or first passage. Exact IRI structures are proprietary.",
+    "limitations": [
+      "IRI-I and IRI-II structures are proprietary; N-aryl-glyconamide class and patent reference do not uniquely identify either material.",
+      "No CS5-alone freezing arm; IRI-I5 versus CS10 changes DMSO concentration as well as IRI.",
+      "IRI arms equilibrated for 15 minutes at room temperature, whereas CS10 proceeded directly to freezing.",
+      "All recovery arms received 10 µM Y27632 for the first 23 hours; pluripotency cultures received it for the first 24 hours after thaw/passaging.",
+      "Three donor lines with technical vial repeats; immediate live fraction is not viable recovery or durable function.",
+      "RNA collected at 24 hours after recovery versus freshly isolated unfrozen baseline; handling, time in culture and ROCK inhibitor exposure complicate cryoinjury attribution.",
+      "Full-text review used an author-uploaded pre-proof and selected captured sections; no complete local published PDF was obtained."
+    ],
+    "mechanism_claim": "IRI formulation efficacy is compared, but no direct biological target inhibition or single-molecule dual action is established.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "root; primary methods/results, deposited Figure 2 and original measurements reviewed",
+    "source_version": "Author-uploaded journal pre-proof; selected methods/results captured, with published Figure 2 and original Zenodo tables independently checked",
+    "additional_source_paths": [
+      "data/raw/phase2/ipsc-iri-2024-author-methods.txt",
+      "data/raw/phase2/figure2a-recovery.xlsx",
+      "data/raw/phase2/figure2a-viability.xlsx",
+      "data/raw/phase2/figure2b.xlsx"
+    ],
+    "source_license": "Institutional PDF states CC-BY-NC-ND 4.0; Zenodo data CC-BY 4.0; raw sources excluded from Git"
+  },
+  {
+    "study_id": "doi:10.1089/ten.tec.2016.0345",
+    "doi": "10.1089/ten.tec.2016.0345",
+    "title": "Cryopreservation of Brain Endothelial Cells Derived from Human Induced Pluripotent Stem Cells Is Enhanced by Rho-Associated Coiled Coil-Containing Kinase Inhibition.",
+    "year": 2016,
+    "pmcid": "PMC5175444",
+    "source_url": "https://doi.org/10.1089/ten.tec.2016.0345",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/pilot-metadata.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "iPSC-derived brain microvascular endothelial-like cells"
+    ],
+    "study_design": "Cryopreservation and recovery comparison for iPSC-derived BBB endothelial cells with ROCK inhibition.",
+    "interventions": [
+      "ROCK inhibitor"
+    ],
+    "mechanism_axes": [
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-2-1",
+        "model": "iPSC-derived brain microvascular endothelial cells",
+        "intervention": "ROCK inhibition during cryopreservation/recovery",
+        "comparator": "Nonfrozen controls for TEER; exact inhibitor-control formulation not available in abstract",
+        "formulation": [
+          {
+            "compound": "Y-27632",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Survival/attachment and endothelial barrier resistance",
+        "outcome_type": "function",
+        "timepoint": "7 days post-thaw",
+        "result": "Y-27632 increased survival and attachment and stabilized TEER above 800 Ω·cm² through 7 days post-thaw; TEER reached approximately 3000 Ω·cm², equivalent to nonfrozen controls.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Europe PMC abstract",
+        "evidence_excerpt": "stabilized TEER above 800"
+      }
+    ],
+    "main_finding": "ROCK inhibition improved the ability to cryopreserve a differentiated human iPSC endothelial model.",
+    "limitations": [
+      "Full-text XML retrieval was unavailable during this run; concentration, timing, comparator, and numeric outcomes remain unreported here."
+    ],
+    "mechanism_claim": "Recovery enhancement is measured; a direct ROCK-specific mechanism is not separable from reduced upstream cryoinjury in this summary.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.1038/srep34476",
+    "doi": "10.1038/srep34476",
+    "title": "Efficient long-term cryopreservation of pluripotent stem cells at −80 °C.",
+    "year": 2016,
+    "pmcid": "PMC5046093",
+    "source_url": "https://doi.org/10.1038/srep34476",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/biology-PMC5046093.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "pluripotent_related",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human pluripotent stem cells"
+    ],
+    "study_design": "Comparison of Ficoll 70-containing cryoprotectant solutions for long-term storage at −80 °C and liquid nitrogen.",
+    "interventions": [
+      "Ficoll 70 added to DMSO cryoprotectant"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-3-1",
+        "model": "Human H1 hESC and human iPSC stored at −80 °C",
+        "intervention": "10% w/v Ficoll 70 plus 10% v/v DMSO",
+        "comparator": "10% v/v DMSO without Ficoll at −80 °C or in liquid nitrogen",
+        "formulation": [
+          {
+            "compound": "Ficoll 70",
+            "concentration": 10,
+            "unit": "% w/v"
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "% v/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "storage"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": "−80 °C or liquid nitrogen, with follow-up storage intervals up to one year",
+        "outcome_name": "Post-thaw colony recovery and plating efficiency",
+        "outcome_type": "recovery",
+        "timepoint": "Post-thaw colony assay; precise scoring interval not transcribed",
+        "result": "For human H1 hESC and iPSC, Ficoll-containing medium was tested at −80 °C against DMSO controls and liquid nitrogen; the paper reports preserved pluripotent recovery, with cell-type-specific differences in colony performance.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "n=3 for plotted recovery means",
+        "source_locator": "Fig. 3 legend and Results",
+        "evidence_excerpt": "Cells were cryopreserved under the following conditions: 10% v/v DMSO in the sample and stored in LN 2 (blue);"
+      },
+      {
+        "experiment_id": "biology-3-2",
+        "model": "Cell-free DMSO/Ficoll formulation model",
+        "intervention": "25% Ficoll 70/25% DMSO (w/w)",
+        "comparator": "50% DMSO model solution",
+        "formulation": [
+          {
+            "compound": "Ficoll 70",
+            "concentration": 25,
+            "unit": "% w/w"
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 25,
+            "unit": "% w/w"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Differential scanning calorimetry devitrification temperature",
+        "outcome_type": "ice_activity",
+        "timepoint": null,
+        "result": "The 25% Ficoll 70/25% DMSO model had devitrification-related transition temperature −67 °C versus −118.2 °C for 50% DMSO.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Table 1 and Fig. 1",
+        "evidence_excerpt": "to −67 °C, which is well above"
+      }
+    ],
+    "main_finding": "Ficoll 70 enabled a DMSO formulation for reliable pluripotent-cell storage at −80 °C, addressing ice-recrystallization-associated instability.",
+    "limitations": [
+      "The study includes porcine pluripotent cells as well as human cells; this record retains only the human context.",
+      "Thermal model is cell-free and uses concentrated solutions, distinct from the cellular freezing medium. Source prose mixes w/v and w/w terminology for model solutions; confirm preparation basis before replication."
+    ],
+    "mechanism_claim": "Thermal stability and recovery are measured physical/protocol endpoints; no direct intracellular biological pathway inhibition is shown.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.1016/j.stemcr.2017.04.033",
+    "doi": "10.1016/j.stemcr.2017.04.033",
+    "title": "Cryopreservation Maintains Functionality of Human iPSC Dopamine Neurons and Rescues Parkinsonian Phenotypes In Vivo.",
+    "year": 2017,
+    "pmcid": "PMC5511045",
+    "source_url": "https://doi.org/10.1016/j.stemcr.2017.04.033",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/biology-PMC5511045.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human iPSC-derived midbrain dopamine neurons"
+    ],
+    "study_design": "Large-lot cryopreservation of post-mitotic iPSC-derived dopamine neurons followed by molecular, electrophysiological, and transplantation tests.",
+    "interventions": [
+      "cryopreservation of differentiated iPSC-mDA neurons"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-4-1",
+        "model": "Post-mitotic human iPSC-derived midbrain dopamine neurons harvested on process day 33 or 38",
+        "intervention": "CryoStor Freeze Media; 1.25 × 10^7 cells/mL; controlled-rate cooling ~1 °C/min",
+        "comparator": "Fresh/standard differentiated-cell functional references",
+        "formulation": [
+          {
+            "compound": "CryoStor Freeze Media",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "controlled-rate freezer, approximately 1 °C/min",
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Pre-injection post-thaw trypan-blue viability and cell phenotype",
+        "outcome_type": "viability",
+        "timepoint": "post-thaw",
+        "result": "Post-thaw iPSC-derived dopamine neurons retained lineage markers and neurite outgrowth. In the preparation for the initial rat graft experiment, trypan-blue viability just before injection averaged 76.5% ±0.32%. This is distinct from subsequent graft survival.",
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results, freshly thawed neuron transplantation",
+        "evidence_excerpt": "average post-thaw viability of 76.5%",
+        "effect_numeric": null
+      },
+      {
+        "experiment_id": "biology-4-2",
+        "model": "Cryopreserved human iPSC-mDA neurons transplanted into 6-OHDA-lesioned rats and MPTP-lesioned non-human primates",
+        "intervention": "Thawed cells injected without additional subculturing",
+        "comparator": "Parkinsonian lesion baseline",
+        "formulation": [
+          {
+            "compound": "CryoStor Freeze Media",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Dopaminergic phenotype, grafting, and behavioral recovery",
+        "outcome_type": "function",
+        "timepoint": null,
+        "result": "Grafted cryopreserved neurons retained midbrain lineage and supported functional recovery in the rat model; monkey grafts retained mature dopaminergic phenotype and innervated host striatum.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Abstract and Results, Fig. 4",
+        "evidence_excerpt": "prepared the iPSC-mDA neurons for injection without additional subculturing"
+      }
+    ],
+    "main_finding": "Cryopreservation preserved both identity and functional utility of differentiated human iPSC dopamine neurons for transplantation studies.",
+    "limitations": [
+      "Transplantation efficacy was tested in animal disease models; that endpoint is transfer evidence for human-cell product function, not a human clinical outcome.",
+      "Transplant experiments have different lesion, host and follow-up schedules; the selected summary does not assign one timepoint to all graft endpoints."
+    ],
+    "mechanism_claim": "The study directly measured retained cell identity/function and behavioral rescue; it does not identify a specific cryoinjury mechanism.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.1038/s41598-020-70707-6",
+    "doi": "10.1038/s41598-020-70707-6",
+    "title": "Magnetic heating of nanoparticles as a scalable cryopreservation technology for human induced pluripotent stem cells.",
+    "year": 2020,
+    "pmcid": "PMC7423927",
+    "source_url": "https://doi.org/10.1038/s41598-020-70707-6",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/biology-PMC7423927.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human iPSCs",
+      "human iPSC aggregates"
+    ],
+    "study_design": "Vitrification and rewarming comparison using inductive magnetic nanoparticle heating in 20 mL systems and bioreactor-produced aggregates.",
+    "interventions": [
+      "nano-warming with magnetic nanoparticles and alternating magnetic field"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-5-1",
+        "model": "Human iPSCs, line 253G1, in 20 mL vitrified samples",
+        "intervention": "Inductive magnetic nanoparticle nano-warming; magnetite 5 mg/mL; 208 kHz alternating field",
+        "comparator": "37 °C water-bath warming",
+        "formulation": [
+          {
+            "compound": "StemCell Keep, commercial formulation",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "magnetite nanoparticles",
+            "concentration": 5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": "liquid nitrogen vitrification",
+        "warming": "alternating magnetic field, 208 kHz",
+        "storage": null,
+        "outcome_name": "Post-warming viability",
+        "outcome_type": "viability",
+        "timepoint": "post-thaw",
+        "result": "Nano-warming improved viability in large-volume samples; for 20 mL, one reported comparison was 67.7 ± 7.8% nano-warming versus 34.5 ± 3.6% convective warming for hiPSC line 253G1.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results, Fig. 3 and Supplementary Fig. S3",
+        "evidence_excerpt": "For 20-mL samples, the cell viability after convective warming was 34.5 ± 3.6%, whereas the cell viability after nano-warming was 67.7 ± 7.8%"
+      },
+      {
+        "experiment_id": "biology-5-2",
+        "model": "Bioreactor-produced human iPSC aggregates",
+        "intervention": "Vitrification with magnetite-loaded StemCell Keep and nano-warming",
+        "comparator": "Convective warming of vitrified aggregates",
+        "formulation": [
+          {
+            "compound": "StemCell Keep, commercial formulation",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "magnetite nanoparticles",
+            "concentration": 5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "liquid nitrogen vitrification",
+        "warming": "nano-warming",
+        "storage": null,
+        "outcome_name": "Aggregate viability and Oct3/4 expression",
+        "outcome_type": "function",
+        "timepoint": "post-thaw",
+        "result": "iPSC aggregates were successfully cryopreserved by nano-warming and expressed the pluripotency marker Oct3/4 after recovery.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Aggregate experiment Results and Methods",
+        "evidence_excerpt": "For cryopreservation of iPSC aggregates, StemCell Keep containing magnetite nanoparticles (5 mg/mL) was added to the cell aggregates at 1 × 10 6 cells/mL"
+      }
+    ],
+    "main_finding": "Rapid uniform nano-warming mitigated the large-volume rewarming problem and improved post-thaw hiPSC viability.",
+    "limitations": [
+      "This is a physical rewarming intervention; it does not test a biological cytoprotective compound."
+    ],
+    "mechanism_claim": "The directly measured axis is rewarming/viability; devitrification is the proposed physical explanation, not a separately proven biological mechanism.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.1007/s13770-023-00568-3",
+    "doi": "10.1007/s13770-023-00568-3",
+    "title": "Enhancing Viability of Human Embryonic Stem Cells during Cryopreservation via RGD-REP-Mediated Activation of FAK/AKT/FoxO3a Signaling Pathway.",
+    "year": 2023,
+    "pmcid": "PMC10646010",
+    "source_url": "https://doi.org/10.1007/s13770-023-00568-3",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/pilot-metadata.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "pluripotent_related",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human embryonic stem cells"
+    ],
+    "study_design": "RGD-containing recombinant elastin-like peptide treatment during suspension and cryopreservation with survival and signaling analyses.",
+    "interventions": [
+      "RGD-REP"
+    ],
+    "mechanism_axes": [
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-6-1",
+        "model": "Human embryonic stem cells in suspension and cryopreservation",
+        "intervention": "RGD-REP treatment",
+        "comparator": null,
+        "formulation": [
+          {
+            "compound": "RGD-REP",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Post-cryopreservation survival and FAK/AKT/FoxO3a signaling",
+        "outcome_type": "mechanistic",
+        "timepoint": null,
+        "result": "The abstract reports improved survival and pluripotency-marker expression with RGD-REP, associated with FAK-AKT activation, FoxO3a inhibition and reduced expression of apoptosis-related genes. Full-text effect sizes and causal perturbation details remain to be curated.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Europe PMC abstract (Methods/Results)",
+        "evidence_excerpt": "improved cell survival and pluripotency marker expression"
+      }
+    ],
+    "main_finding": "RGD-REP is direct hESC evidence for a matrix/adhesion-linked cytoprotective intervention during cryopreservation.",
+    "limitations": [
+      "Full-text XML was unavailable during this run; dose, comparator, and quantitative survival results remain null."
+    ],
+    "mechanism_claim": "Signaling activation was assayed, but survival improvement alone does not prove that FAK/AKT/FoxO3a activation is the sole causal route.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.3390/cells12141914",
+    "doi": "10.3390/cells12141914",
+    "title": "Application-Oriented Bulk Cryopreservation of Human iPSCs in Cryo Bags Followed by Direct Inoculation in Scalable Suspension Bioreactors for Expansion and Neural Differentiation.",
+    "year": 2023,
+    "pmcid": "PMC10378238",
+    "source_url": "https://doi.org/10.3390/cells12141914",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/pilot-metadata.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human iPSC lines UKKi011-A and BIONi010-C-41",
+      "iPSC-derived neural cells"
+    ],
+    "study_design": "One-billion-cell bulk cryopreservation in 50 mL cryobags followed by direct bioreactor inoculation, expansion, stemness assessment, and neural differentiation.",
+    "interventions": [
+      "bulk cryopreservation in cryobags"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-7-1",
+        "model": "Two human iPSC lines frozen in 50 mL cryobags",
+        "intervention": "Bulk cryopreservation followed by direct seeding into suspension bioreactors",
+        "comparator": "Conventional cryovial workflow",
+        "formulation": [
+          {
+            "compound": "cryopreservation medium",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Post-thaw expansion, stemness, and neural differentiation",
+        "outcome_type": "function",
+        "timepoint": "3 days for biomass recovery; days 4 and 9 for neural markers",
+        "result": "The abstract reports comparable viability and aggregation for cryobags and cryovials; biomass deficits relative to nonfrozen controls were compensated within 3 days. Neural-marker expression delayed on day 4 was compensated at day 9. These outcomes support process feasibility, not identical immediate performance to fresh cells.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Two iPSC lines; one billion cells per 50 mL bag is product scale, not replicate count",
+        "source_locator": "Europe PMC abstract",
+        "evidence_excerpt": "a delay of the neural marker expression on day 4 was compensated at day 9"
+      }
+    ],
+    "main_finding": "Bulk cryobag handling was tested as a scalable iPSC manufacturing workflow with downstream expansion and neural differentiation endpoints.",
+    "limitations": [
+      "Full-text XML was unavailable during this run; formulation and quantitative post-thaw outcomes remain null."
+    ],
+    "mechanism_claim": "This is process-scale evidence for recovery and retained function; it does not isolate a molecular cytoprotection mechanism.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  },
+  {
+    "study_id": "doi:10.3390/cells11020278",
+    "doi": "10.3390/cells11020278",
+    "title": "Assessment of the Impact of Post-Thaw Stress Pathway Modulation on Cell Recovery following Cryopreservation in a Hematopoietic Progenitor Cell Model",
+    "year": 2022,
+    "pmcid": "PMC8773610",
+    "source_url": "https://doi.org/10.3390/cells11020278",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/biology-PMC8773610.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "pluripotent_related",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human hematopoietic progenitor cells"
+    ],
+    "study_design": "Post-thaw pathway-modulation experiments in cryopreserved human hematopoietic progenitor cells using extracellular- and intracellular-type freeze media.",
+    "interventions": [
+      "post-thaw oxidative-stress modulation",
+      "RevitalICE recovery-medium context"
+    ],
+    "mechanism_axes": [
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "biology-8-1",
+        "model": "Cultured mobilized peripheral-blood human CD34+ stem/progenitor cells",
+        "intervention": "Post-thaw oxidative-stress modulator reported as n-acetyl cystine/cysteine in recovery medium",
+        "comparator": "Matched recovery medium without modulator after freezing in culture medium or Unisol plus 5% or 10% DMSO",
+        "formulation": [
+          {
+            "compound": "n-acetyl cystine/cysteine; source identity terminology inconsistent",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO freezing concentration series (5% or 10%)",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "Unisol alternative freeze-medium arm, supplemented with glutathione",
+            "concentration": 3,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "post_thaw_recovery"
+        ],
+        "cooling": "Approximately 1 °C/min to −80 °C in 1 mL vials at 1 million cells/mL",
+        "warming": "SmartThaw until ice dissipated and sample remained cold (~0 °C), followed by one-step 1:12 dilution",
+        "storage": "Liquid nitrogen at −196 °C; duration not transcribed",
+        "outcome_name": "AlamarBlue metabolic activity relative to normothermic controls",
+        "outcome_type": "viability",
+        "timepoint": "24 h post-thaw",
+        "result": "In the source discussion of Figure 4, oxidative-stress modulation raised the approximately 20% and 43% control values to 45% and 63% after culture-medium freezing with 5% and 10% DMSO, respectively. In Unisol arms, values approached 78%. These metabolic-activity percentages are not lineage-specific functional potency.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "At least three experiments with seven within-experiment replicates; donor independence not established",
+        "source_locator": "Methods 2.2–2.5, Figure 4 and Discussion",
+        "evidence_excerpt": "(45% vs. 20%, respectively)"
+      }
+    ],
+    "main_finding": "A post-thaw oxidative-stress intervention increased delayed metabolic recovery across several freezing-media conditions in a human hematopoietic progenitor model.",
+    "limitations": [
+      "Metabolic readout requires independent cell counts and functional confirmation; engraftment was not validated.",
+      "Source alternates n-acetyl cystine and n-acetyl cysteine; the dose statement is ambiguous and vehicle concentration units also appear inconsistent. Resolve identity, dose and vehicle against supplier records before replication.",
+      "Technical wells were combined with experimental repeats in statistical analysis; donor-level replication is unclear.",
+      "RevitalICE in this paper is not Evergreen Everlast; no product equivalence is inferred."
+    ],
+    "mechanism_claim": "Post-thaw intervention timing supports a biological-stress strategy; neither direct ice inhibition nor a single exclusive molecular mechanism was established.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected results checked against source XML/HTML or Europe PMC abstract"
+  }
+]

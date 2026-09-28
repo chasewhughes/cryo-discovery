@@ -1,0 +1,98 @@
+{
+  "study_count": 40,
+  "experiment_count": 75,
+  "batch_files": [
+    "data/extractions/biological.json",
+    "data/extractions/cspb-2026.json",
+    "data/extractions/dmso-free-cm-2025.json",
+    "data/extractions/geometry-2025.json",
+    "data/extractions/methods.json",
+    "data/extractions/neurons-2023.json",
+    "data/extractions/phase4-cardiac.json",
+    "data/extractions/phase4-materials.json",
+    "data/extractions/phase4-neural.json",
+    "data/extractions/phase4-process.json",
+    "data/extractions/phase5-biological.json",
+    "data/extractions/phase5-chemistry.json",
+    "data/extractions/physical.json"
+  ],
+  "validation_errors": [],
+  "coverage": {
+    "evidence_scope": {
+      "ipsc_direct": 15,
+      "pluripotent_related": 3,
+      "mammalian_transfer": 16,
+      "methods_transfer": 5,
+      "physical_assay": 1
+    },
+    "source_access": {
+      "full_text": 31,
+      "abstract_only": 8,
+      "abstract_plus_supplement": 1
+    },
+    "review_status": {
+      "root_source_reviewed": 18,
+      "root_selected_fulltext_reviewed": 13,
+      "root_abstract_reviewed": 8,
+      "root_abstract_and_selected_supplement_reviewed": 1
+    },
+    "mechanism_axes": {
+      "biological_stress": 13,
+      "physical_ice": 26,
+      "protocol_optimization": 22,
+      "osmotic_membrane": 10
+    },
+    "outcome_type": {
+      "viability": 17,
+      "function": 16,
+      "recovery": 22,
+      "ice_activity": 9,
+      "mechanistic": 6,
+      "toxicity": 3,
+      "model_performance": 2
+    }
+  },
+  "missing_required_fields": {
+    "study_id": 0,
+    "doi": 0,
+    "title": 0,
+    "year": 0,
+    "pmcid": 7,
+    "source_url": 0,
+    "source_access": 0,
+    "raw_source_path": 0,
+    "retrieved_at": 0,
+    "evidence_scope": 0,
+    "species": 1,
+    "cell_types": 1,
+    "study_design": 0,
+    "interventions": 0,
+    "mechanism_axes": 0,
+    "experiments": 0,
+    "main_finding": 0,
+    "limitations": 0,
+    "mechanism_claim": 0,
+    "review_status": 0,
+    "reviewer": 0
+  },
+  "experiment_missing_fields": {
+    "experiment_id": 0,
+    "model": 0,
+    "intervention": 0,
+    "comparator": 2,
+    "formulation": 4,
+    "treatment_stage": 0,
+    "cooling": 31,
+    "warming": 36,
+    "storage": 42,
+    "outcome_name": 0,
+    "outcome_type": 0,
+    "timepoint": 9,
+    "result": 0,
+    "effect_numeric": 72,
+    "effect_unit": 72,
+    "sample_size": 23,
+    "source_locator": 0,
+    "evidence_excerpt": 0
+  }
+}

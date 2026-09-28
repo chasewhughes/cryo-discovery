@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-09-07T00:48:28.180402+00:00",
+  "frozen_hash_count": 74,
+  "all_frozen_hashes_match": true,
+  "complete_predictions": 100,
+  "analysis_validation_errors": [],
+  "all_research_pods_absent": true,
+  "local_watchdog_absent": true,
+  "report_local_links_valid": true,
+  "plots_visually_reviewed": 3,
+  "unique_relevant_tests_passed": 59,
+  "registry_tests_rechecked_after_status_update": 12,
+  "artifact_sha256": {
+    "data/phase20/validation-results.json": "a6c6d55534d877bd5210271f357078e20a48afb6a1433907f1656d0e4ea4b1ca",
+    "data/phase20/compute-costs.json": "78e8b8596ae501e846e8e78eeca7577a9f8c9a2b074272ac030871ba5879767f",
+    "reports/rock2-radiometric-validation.md": "ec18a9febd01f040f5a09ff531998a45a77509758cc8c8816a980d382639225f"
+  },
+  "scientific_decision": "novel_screening_not_qualified",
+  "note": "Raw transfer passed; assay calibration narrowly failed only absolute bias. No threshold change or post-hoc source-offset substitution."
+}

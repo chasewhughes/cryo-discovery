@@ -1,0 +1,196 @@
+[
+  {
+    "study_id": "doi:10.1016/j.isci.2025.113802",
+    "doi": "10.1016/j.isci.2025.113802",
+    "title": "Protease-catalyzed enzymatic synthesis of antifreeze peptide oligomers and their cryopreservation performance.",
+    "year": 2025,
+    "pmcid": "PMC12651731",
+    "source_url": "https://doi.org/10.1016/j.isci.2025.113802",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase5/isci-2025-113802.html",
+    "retrieved_at": "2026-09-06",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Ovis aries"
+    ],
+    "cell_types": [
+      "sheep red blood cells"
+    ],
+    "study_design": "Protease-catalyzed synthesis of sequence isomers followed by IRI/thermal hysteresis assays and sheep RBC freeze-thaw tests.",
+    "interventions": [
+      "L-PTAA",
+      "L-PAAT",
+      "L-PATA"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p5-chem-1",
+        "model": "Cell-free ice recrystallization assay",
+        "intervention": "L-PTAA oligomer at 5.0 mg/mL and higher tested concentrations",
+        "comparator": "PBS blank; L-PAAT/L-PATA sequence isomers",
+        "formulation": [
+          {
+            "compound": "L-PTAA",
+            "concentration": 5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "physical_assay"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "mean largest ice grain size (MLGS)",
+        "outcome_type": "ice_activity",
+        "timepoint": "after IRI assay",
+        "result": "Only L-PTAA showed significant IRI; at 5.0 mg/mL MLGS was 7% of PBS blank and higher concentration did not add significant benefit.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results, IRI activity; Figure 5G",
+        "evidence_excerpt": "measurable antifreeze behavior"
+      },
+      {
+        "experiment_id": "p5-chem-2",
+        "model": "Sheep RBC suspensions",
+        "intervention": "L-PTAA AFPO at 5, 10, 15, or 20 mg/mL",
+        "comparator": "PBS and L-PAAT/L-PATA at 10 mg/mL",
+        "formulation": [
+          {
+            "compound": "L-PTAA",
+            "concentration": 10,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "−78 °C dry-ice/isopropanol slush 60 s, then dry ice 20 min",
+        "warming": "23 °C room temperature 30 min",
+        "storage": null,
+        "outcome_name": "RBC recovery calculated as 100% minus hemolysis",
+        "outcome_type": "recovery",
+        "timepoint": "after thaw",
+        "result": "Recovery peaked at 34% with 10 mg/mL L-PTAA; lower and higher tested doses dropped significantly. Five replicates were prepared.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Five replicate suspensions; independent animal/donor count not specified",
+        "source_locator": "Results, Cryopreservation of sheep RBCs; Figure 7; Methods",
+        "evidence_excerpt": "RBC recovery peaked at 34%"
+      }
+    ],
+    "main_finding": "Sequence-specific L-PTAA, but not L-PAAT/L-PATA, combined IRI activity with modest sheep-RBC recovery under a defined rapid freeze-thaw assay.",
+    "limitations": [
+      "Sheep RBC transfer model; recovery is a hemolysis-derived denominator, not absolute cell yield.",
+      "The authors state precise structural origins of IRI/thermal hysteresis remain speculative; no direct biological pathway perturbation was tested.",
+      "A 1:1 mixture of 500 µL RBC suspension and 500 µL polymer solution was used; dose labels should be reconciled to final-mixture versus stock concentration before replication.",
+      "A six-day nonfreezing hemolysis test at 4 °C does not establish long-term cryostorage performance, nucleated-cell toxicity or post-thaw physiological function.",
+      "Sequence isomer controls distinguish backbone order from amino-acid composition, but polymer chain-length/lot distributions require characterization."
+    ],
+    "mechanism_claim": "IRI and ice growth were directly measured; the paper attributes cryoprotection chiefly to ice modulation, while biological pathway inhibition was not tested.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root selected methods/results and interpretation review"
+  },
+  {
+    "study_id": "doi:10.1039/d6tb01172a",
+    "doi": "10.1039/d6tb01172a",
+    "title": "Amino acid-functionalised trehalose for multifunctional cryopreservation.",
+    "year": 2026,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1039/d6tb01172a",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/phase3/screening-packets.json",
+    "retrieved_at": "2026-09-06",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "HaCaT human keratinocyte cytocompatibility model; cryopreservation-model allocation needs full text"
+    ],
+    "study_design": "Compound synthesis plus DSC, IRI, freeze-float, radical-scavenging, cytocompatibility, and mammalian-cell cryopreservation screening; abstract only.",
+    "interventions": [
+      "6,6'-trehalose diesters of glycine (1a), L-alanine (1b), L-proline (1c)"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "biological_stress",
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p5-chem-3",
+        "model": "Cell-free DSC/IRI/freeze-float assays",
+        "intervention": "Trehalose diesters 1a-c",
+        "comparator": "Native trehalose and DMSO references",
+        "formulation": [
+          {
+            "compound": "L-proline trehalose diester 1c",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "other"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "glass transition, IRI, nucleation, radical scavenging",
+        "outcome_type": "ice_activity",
+        "timepoint": null,
+        "result": "1c had Tg up to −25 °C; diesters showed trehalose-comparable IRI, controlled elevated-subzero nucleation, and radical-scavenging activity.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Abstract",
+        "evidence_excerpt": "comparable ice recrystallisation inhibition (IRI) activity to trehalose"
+      },
+      {
+        "experiment_id": "p5-chem-4",
+        "model": "Mammalian cryopreservation trials; HaCaT explicitly identified for cytocompatibility, exact cryo-model allocation unverified",
+        "intervention": "Trehalose diesters 1a-c in cryopreservation trials",
+        "comparator": "10 wt% DMSO",
+        "formulation": [
+          {
+            "compound": "trehalose diester 1a-c",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "cytocompatibility and post-thaw cryoprotection",
+        "outcome_type": "recovery",
+        "timepoint": "multiple time points; abstract does not specify",
+        "result": "Diesters showed lower cytotoxicity than DMSO/trehalose at multiple time points and measurable cryoprotection, but lower overall recovery than 10 wt% DMSO.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Abstract",
+        "evidence_excerpt": "despite lower overall recovery relative to 10 wt% DMSO"
+      }
+    ],
+    "main_finding": "The abstract supports a dual physical/chemical screening rationale and HaCaT-cell cryoprotection signal, but exact protocols and doses require full text.",
+    "limitations": [
+      "Publisher page was inaccessible in the bounded pass; no concentration, loading, cooling, warming, storage, denominator, or replicate details inferred.",
+      "HaCaT cytocompatibility and radical-scavenging results do not establish a specific biological pathway mechanism.",
+      "Glass transition and acellular radical scavenging do not establish cell vitrification or direct inhibition of a cell-death pathway.",
+      "The lower-recovery result is retained; favorable toxicity alone is insufficient to rank above a demonstrated functional recovery lead."
+    ],
+    "mechanism_claim": "Physical IRI/thermal and radical-scavenging assays are reported; direct biological pathway perturbation is not established.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "Luna extraction; root selected methods/results and interpretation review"
+  }
+]

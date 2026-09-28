@@ -1,0 +1,78 @@
+{
+  "record_type": "primary_assay_methods_review",
+  "review_date": "2026-09-06",
+  "study": {
+    "title": "Synthesis and Biological Evaluation of Urea Derivatives as Highly Potent and Selective Rho Kinase Inhibitors",
+    "doi": "10.1021/jm400062r",
+    "year": 2013,
+    "primary_article_url": "https://doi.org/10.1021/jm400062r",
+    "article_local_path": "data/raw/phase20/urea2013/article.pdf",
+    "article_sha256": "72d10c7c5f19a5dea218ad762cdc928aa2a4592a6ca4e97671db1f4d11ea08de",
+    "supporting_information_url": "https://acs.figshare.com/articles/journal_contribution/Synthesis_and_Biological_Evaluation_of_Urea_Derivatives_as_Highly_Potent_and_Selective_Rho_Kinase_Inhibitors/2416153",
+    "supporting_information_file_url": "https://ndownloader.figshare.com/files/4057375",
+    "supporting_information_local_path": "data/raw/phase20/urea2013/jm400062r_si_001.pdf",
+    "supporting_information_sha256": "bcb048fd2e6290026514dd11062c6f7c55da99c41e05436a605f1cca6b43629d",
+    "article_method_location": "article PDF page 12 (ROCK-I/II Assays paragraph; extracted text section headed ROCK-I/II Assays)",
+    "si_method_location": "supporting information PDF page 4, section 2.1 Screening"
+  },
+  "assay": {
+    "target": "ROCK-II (Rho-associated protein kinase II)",
+    "target_identity": "The urea article reports a ROCK-I/II biochemical assay and separately tabulates ROCK-II inhibitor IC50 values.",
+    "species_and_construct": {
+      "value": "human recombinant 6-His ROCK-II residues 1-543",
+      "evidence_level": "supported_by_cited_primary_protocol_and_SI_wording",
+      "basis": "The urea SI states that all active enzymes except ROCK-II 1-543 were purchased from Upstate and that ROCK-II 1-543 was cloned and purified as described earlier. The cited earlier protocol is Schröter et al. and explicitly describes cloning amino acids 1-543 of human ROCK-II from human brain RNA as an N-terminal 6-His/TEV construct expressed in Sf9 cells.",
+      "caveat": "The 2013 article's ROCK-I/II paragraph does not independently repeat the species or cloning details, and it does not provide a ROCK-II catalog number. Treat human 1-543 as the referenced construct identity, while retaining uncertainty about whether the commercial/assay lot was sequence-identical to the cited preparation."
+    },
+    "vendor_and_system": "Cisbio STK2 kinase system; ROCK-I listed as Upstate #14-601; ROCK-II vendor/catalog not stated in the article paragraph.",
+    "plate_and_dispensing": "384-well plate; 5 uL substrate/ATP mixture dispensed with BioRAPTR FRD Workstation; 20 nL test compound dispensed with a 384-head offline Pintool system.",
+    "substrate": {
+      "reported_input": "1 uM STK2 substrate in the initial 5 uL mixture",
+      "calculated_reaction_final": "0.5 uM, assuming the stated 5 uL mixture is combined with 5 uL enzyme solution without other volume changes"
+    },
+    "atp": {
+      "rock_ii_reported_input": "20 uM ATP in the initial 5 uL mixture",
+      "rock_ii_calculated_reaction_final": "10 uM ATP in the 10 uL reaction",
+      "rock_i_reported_input": "4 uM ATP in the initial 5 uL mixture",
+      "rock_i_calculated_reaction_final": "2 uM ATP in the 10 uL reaction",
+      "calculation_basis": "The article says 5 uL mixture followed by 5 uL enzyme solution; these are dilution calculations, not separately reported final concentrations."
+    },
+    "enzyme": {
+      "rock_ii_reported_stock_and_volume": "0.5 nM ROCK-II in 5 uL",
+      "rock_ii_calculated_reaction_final": "0.25 nM",
+      "rock_i_reported_stock_and_volume": "2.5 nM ROCK-I (Upstate #14-601) in 5 uL",
+      "rock_i_calculated_reaction_final": "1.25 nM",
+      "buffer": "STK-buffer"
+    },
+    "incubation_and_readout": {
+      "reaction": "4 h at room temperature",
+      "stop_and_detection": "Add 10 uL of 1X antibody and 62.5 nM Sa-XL in Detection Buffer; incubate a further 1 h at room temperature",
+      "instrument_and_mode": "ViewLux plate reader in HTRF mode",
+      "endpoint": "Dose-response IC50 values for ROCK-I/ROCK-II inhibition",
+      "concentration_caveat": "The article gives antibody/Sa-XL concentrations for the added detection solution and does not clarify whether those values are intended as premix or final-well concentrations after the 10 uL addition."
+    }
+  },
+  "cited_protocol": {
+    "citation": "Schröter T et al., Comparison of Miniaturized Time-Resolved Fluorescence Resonance Energy Transfer and Enzyme-Coupled Luciferase High-Throughput Screening Assays to Discover Inhibitors of Rho-Kinase II (ROCK-II), Journal of Biomolecular Screening 13 (2008) 17-28",
+    "doi": "10.1177/1087057107310806",
+    "official_article_url": "https://journals.sagepub.com/doi/10.1177/1087057107310806",
+    "official_pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/1087057107310806",
+    "retrieval": "Official Sage HTML/PDF pages were queried; the PDF endpoint returned HTTP 403 through the storage wrapper, so no local copy or hash is asserted. Official indexed page text directly supports the human 6-His ROCK-II 1-543 construct.",
+    "method_relevance": "The cited protocol contains both TR-FRET and luciferase formats. The urea article specifically reports the Cisbio STK2 HTRF implementation; its ROCK assay should not be conflated with the cited paper's luciferase assay."
+  },
+  "supporting_information_findings": {
+    "result": "The SI adds the explicit statement that ROCK-II 1-543 was cloned and purified as described earlier and that other active enzymes were purchased from Upstate. It does not provide a different ROCK-II ATP, incubation, or HTRF readout condition.",
+    "source": "SI page 4, section 2.1 Screening"
+  },
+  "validation_implications": [
+    "Treat this as a biochemical HTRF IC50 assay with final ROCK-II ATP approximately 10 uM and final enzyme approximately 0.25 nM under the stated volume arithmetic.",
+    "Do not pool its values with ROCK2 assays using different ATP, construct, substrate, readout, or assay vendor without an assay-stratified analysis.",
+    "For a retrospective benchmark, preserve the article's assay provenance and censoring/replicate metadata; the article paragraph alone does not establish lot identity or full plate-level controls."
+  ],
+  "uncertainties": [
+    "The article cites, rather than reproduces, the construct-generation protocol; exact assay-lot sequence identity is unresolved.",
+    "The article does not specify the ROCK-II vendor/catalog number in the ROCK-I/II paragraph.",
+    "The article does not state whether antibody/Sa-XL concentrations are before or after the stop-solution dilution.",
+    "This methods review does not independently audit compound structures or count eligible ROCK-II molecules."
+  ]
+}

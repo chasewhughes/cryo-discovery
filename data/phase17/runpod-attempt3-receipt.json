@@ -1,0 +1,22 @@
+{
+  "attempt": 3,
+  "name": "cryo-phase17-panel-3-7066adca",
+  "created_epoch": 1788721882.002534,
+  "deadline_epoch": 1788732682.002534,
+  "reserved_usd": 2.6999999999999997,
+  "prior_reserve_usd": 4.239681721153166,
+  "other_pending_reserve_usd": 0.0,
+  "plan_sha256": "73732c860387923980248f542ec17804be0634ff233b43a4ead4e01424b95ade",
+  "watchdog_pid": 56876,
+  "pod_id": "lwx5met03xakuq",
+  "cost_per_hour": 0.74,
+  "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "worker_sha256": "f4b7a98b283093656ba306ebde8bbdec5930115cef30e48bf5a4258843af1222",
+  "worker_state": "complete",
+  "result_archive_sha256": "109c2fd9bc9c98dedbad6394e5c14b0071a95b190c6caeb9e41422a5b7f0d075",
+  "result_archive_bytes": 236116013,
+  "deleted": true,
+  "ended_epoch": 1788725805.903646,
+  "estimated_gpu_cost_usd": 0.8065796730385886
+}

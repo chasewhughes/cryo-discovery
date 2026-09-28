@@ -1,0 +1,75 @@
+{
+  "status": "completed_read_only_reanalysis",
+  "descriptor_version": "cryo-nearest-water-v1",
+  "analysis_script_sha256": "4a10957af078d236f85afa2677850b7751882175c38dae67ddbd7bcde1f8745a",
+  "descriptor_script_sha256": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+  "checks": {
+    "l-glycine": {
+      "saved_count_max_absolute_difference": 0,
+      "mean_count_030_nm": 10.966666666666667,
+      "all_frame_integral_min": 0.999999999999999,
+      "all_frame_integral_max": 1.0000000000000018,
+      "stored_posthoc_max_abs_density_difference": 4.529709940470639e-14,
+      "stored_posthoc_total_variation": 6.568790650307577e-16,
+      "per_seed": [
+        {
+          "run": "gly-20260906",
+          "count_030_nm": 10.79,
+          "pdf_integral_mean": 1.0,
+          "source_tv": 0.06013300578974365,
+          "trajectory_sha256": "55ed1e8044ccf948d90dfe9ed9fc8fb5c36acc6adf1bca939f934de8d2fc7f95"
+        },
+        {
+          "run": "gly-20260907",
+          "count_030_nm": 10.95,
+          "pdf_integral_mean": 1.0,
+          "source_tv": 0.07441295342487877,
+          "trajectory_sha256": "3420b6585a07e0cff012976f58f28dd799e086a700062e7eaad50510a05df7e8"
+        },
+        {
+          "run": "gly-20260908",
+          "count_030_nm": 11.16,
+          "pdf_integral_mean": 1.0,
+          "source_tv": 0.07419950752244957,
+          "trajectory_sha256": "bac9ab70b1e5a9f81587992796f5109df5b02d1f17bace801078a019dc998688"
+        }
+      ],
+      "original_float32_recalculation_tv_to_stored": 2.067790383364354e-16,
+      "original_float32_to_new_float64_tv": 6.321766027328479e-16
+    },
+    "l-phenylalanine": {
+      "saved_count_max_absolute_difference": 0,
+      "mean_count_030_nm": 15.19,
+      "all_frame_integral_min": 0.999999999999999,
+      "all_frame_integral_max": 1.0000000000000013,
+      "stored_posthoc_max_abs_density_difference": 0.013071895424885405,
+      "stored_posthoc_total_variation": 6.535947712500499e-05,
+      "per_seed": [
+        {
+          "run": "phe-20260906",
+          "count_030_nm": 15.4,
+          "pdf_integral_mean": 1.0000000000000002,
+          "source_tv": 0.04764330346256215,
+          "trajectory_sha256": "9a41606554a383886bac3e7ce8726add3c107cdf1b796b9d9e140b22a0877cc3"
+        },
+        {
+          "run": "phe-20260907",
+          "count_030_nm": 15.11,
+          "pdf_integral_mean": 1.0,
+          "source_tv": 0.05782544350102009,
+          "trajectory_sha256": "d5362705a07153d73ec158f46ea0a589f5102ee2899c4c21b31d1adb882b3dd9"
+        },
+        {
+          "run": "phe-20260908",
+          "count_030_nm": 15.06,
+          "pdf_integral_mean": 1.0,
+          "source_tv": 0.0547162798904019,
+          "trajectory_sha256": "d422e62344c3fefc04f464fd6ebc4ff04a1f31362732b848fa050e5ff43dd224"
+        }
+      ],
+      "original_float32_recalculation_tv_to_stored": 2.663320952667192e-16,
+      "original_float32_to_new_float64_tv": 6.535947712480915e-05
+    }
+  },
+  "interpretation": "New water-occupancy representation only; original DOLMEN settings unresolved. Exact cutoff/bin boundaries follow NumPy floating-point behavior."
+}

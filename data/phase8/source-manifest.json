@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/gcsosso/DOLMEN",
+  "commit": "10ed726bed8158544222b5f16298a54013b6ad62",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/hydhist_amino.csv",
+      "local_path": "data/raw/phase8/dolmen/data/descriptors/hydhist_amino.csv",
+      "bytes": 41362,
+      "sha256": "63a9fef5bd7575019e81718007df1da7ed91d1746f6d64d131fbea63164ad1e3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/hydidx_amino.csv",
+      "local_path": "data/raw/phase8/dolmen/data/descriptors/hydidx_amino.csv",
+      "bytes": 13987,
+      "sha256": "027e98dd12f2fc09556f1934c06064a1580a473dc09cead10b90bdb466a5811d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/hydhist_glyco2.csv",
+      "local_path": "data/raw/phase8/dolmen/data/descriptors/hydhist_glyco2.csv",
+      "bytes": 138115,
+      "sha256": "13b1a4b9fb80638fcae96424ff6e429b6ff05ca14c18c739ff0662ba45cd227d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/hydidx_glyco2.csv",
+      "local_path": "data/raw/phase8/dolmen/data/descriptors/hydidx_glyco2.csv",
+      "bytes": 49599,
+      "sha256": "be2e16d57d2ff1a2c38205954092ea7d0fb0dbf1a424d2db17d9ae8390beedf1"
+    }
+  ]
+}

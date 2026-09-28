@@ -1,0 +1,22 @@
+{
+  "attempt": 1,
+  "name": "cryo-phase20-validation-1-cec01810",
+  "created_epoch": 1788737156.3821561,
+  "deadline_epoch": 1788747956.3821561,
+  "reserved_usd": 2.6999999999999997,
+  "prior_reserve_usd": 5.782577468230589,
+  "other_pending_reserve_usd": 0.0,
+  "plan_sha256": "9d2ccdde7e18c6afca971a8455210c16985a663a7b2223195bc1116d20771da6",
+  "watchdog_pid": 72506,
+  "pod_id": "0yxtfvfbx9ll7u",
+  "cost_per_hour": 0.74,
+  "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "worker_sha256": "7d36e9b08b47474213cc0f48874ccec4412068dba2a9e5b609d2c8073dcb7f54",
+  "worker_state": "complete",
+  "result_archive_sha256": "88c082cf455111c9ec071f1d8119b948ae156f3a0cc014b719e51659fdc63ee2",
+  "result_archive_bytes": 278997122,
+  "deleted": true,
+  "ended_epoch": 1788741905.8765361,
+  "estimated_gpu_cost_usd": 0.9762849558883243
+}

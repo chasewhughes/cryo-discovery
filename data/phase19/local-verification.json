@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-09-06T23:10:53.461862+00:00",
+  "tests_passed": 35,
+  "test_modules": [
+    "tests.test_rock_imap_diagnostic",
+    "tests.test_prepare_rock_orthogonal",
+    "tests.test_boltz_orthogonal_inference",
+    "tests.test_analyze_rock_orthogonal",
+    "tests.test_runpod_boltz_orthogonal",
+    "tests.test_reconcile_phase19",
+    "tests.test_discovery_pipeline",
+    "tests.test_hypothesis_registry"
+  ],
+  "source_and_frozen_hash_checks": 68,
+  "source_checks": "All acquired candidate source hashes and original Phase18 executed-plan source/provenance hashes matched. All Phase19 JSON parsed; report local links resolved.",
+  "visual_checks": [
+    "Original Morwick SI Table1 ppS2-S3 and protocol visually checked",
+    "Open2026 Table1 image visually checked; compound3 counted as exact",
+    "Final diagnostic plot visually reviewed; no clipping"
+  ],
+  "cloud_execution": "None; Phase19 cloud code locally tested only.",
+  "artifact_sha256": {
+    "reports/rock2-orthogonal-assay-review.md": "55f9dd4a4e7123ba70e833d9fc29e4dc3b0abfb005f698b8b3bf957916d6b219",
+    "data/phase19/imap-diagnostic-results.json": "05bb962c477a4cd6128f3210018ed276d84996e41af11f65efa5aa7894ba73b6",
+    "data/phase19/selection-policy.json": "f70c5e371316e3d6a801b8947e3297dbe2d59e2f9b4f853d4a018fc07c779ac0",
+    "data/phase19/eligibility-decision.json": "923b50e3b11f36cc31e98fc4759fe5c517adf695a11f0231c36a01f01799338f"
+  }
+}

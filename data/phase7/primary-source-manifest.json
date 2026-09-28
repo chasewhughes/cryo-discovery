@@ -1,0 +1,17 @@
+{
+  "doi": "10.1038/s41467-024-52266-w",
+  "files": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11402961/fullTextXML",
+      "local_path": "data/raw/phase7/paper-PMC11402961.xml",
+      "bytes": 134732,
+      "sha256": "43edbbec5add26e7257c0fa5b6b5f55a8d6600de971e3567be80bca562859c85"
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-52266-w/MediaObjects/41467_2024_52266_Fig4_HTML.png",
+      "local_path": "data/raw/phase7/figure4.png",
+      "bytes": 148491,
+      "sha256": "1c3d2082183bd0546ad5f86739cec074f1d8616d181161d2fc88f4ac35c298dc"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "First attempt failed before production; all four Pods deleted",
+  "failed_attempt_estimated_gpu_usd": 0.08203432493209839,
+  "pod_ids": [
+    "1pt46gl43cc0ja",
+    "wa4ll8bkobrytl",
+    "8p6ey528nfee2z",
+    "ldww25xab89819"
+  ],
+  "cause": "Strict 1e-9 absolute restoration tolerance rejected expected GPU float32 rounding; local OpenCL reproduced position and velocity differences around 2.5e-7. No activity/results thresholds changed.",
+  "fix": "Bound each component by 4 * float32 epsilon * max(1, abs(source)). Record actual position/velocity restoration errors. Displacements of 0.001 nm or nm/ps remain rejected.",
+  "opencl_smoke_restoration_check": {
+    "bound": "4 * float32 epsilon * max(1, absolute source coordinate or velocity); not bitwise equality",
+    "max_position_error_nm": 6.121180611273758e-07,
+    "max_velocity_error_nm_ps": 2.3784762070988563e-07,
+    "relative_rounding_bound": 4.76837158203125e-07
+  },
+  "opencl_smoke_result_sha256": "7a3d0f8a9475e95d5ee8e96991fe899f0ec0959291edb9ae7a949f6119eb5491",
+  "new_production_ns_in_failed_attempt": 0,
+  "scientific_plan_unchanged": true
+}

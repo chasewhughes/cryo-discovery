@@ -1,0 +1,102 @@
+{
+  "status": "Research hypotheses and proposed controls; no combinations validated",
+  "curated_at": "2026-09-05",
+  "items": [
+    {
+      "id": "physical_plus_biological",
+      "priority": 1,
+      "hypothesis": "Separately timed physical ice control and biological protection increase delayed functional-cell yield under matched handling.",
+      "evidence_dois": [
+        "10.1093/stmcls/sxad059",
+        "10.1038/s41592-021-01126-2"
+      ],
+      "current_support": "Separate interventions supported; combination not established by the curated studies.",
+      "required_controls": [
+        "vehicle/background",
+        "physical only",
+        "biological only",
+        "combined",
+        "nonfreezing toxicity"
+      ],
+      "primary_readout": "Delayed functional-cell yield relative to viable prefreeze input",
+      "falsifier": "No reproducible combined benefit after accounting for donor/batch and toxicity",
+      "missing_inputs": [
+        "laboratory partner",
+        "chosen lineage/potency assay",
+        "matched dose/loading schedule",
+        "prospective sample-size justification"
+      ]
+    },
+    {
+      "id": "adhesion_beyond_ice",
+      "priority": 2,
+      "hypothesis": "Maintained adhesion signaling contributes to protection beyond reduced extracellular ice injury.",
+      "evidence_dois": [
+        "10.1002/adma.72714",
+        "10.3390/antiox15010107"
+      ],
+      "current_support": "CAMP FAK inhibition and CspB mTOR activation provide distinct pathway perturbations in different models; not interchangeable mechanisms.",
+      "required_controls": [
+        "matrix only",
+        "carrier only",
+        "combined material",
+        "pathway perturbation",
+        "nonfreezing toxicity",
+        "ice-damage-matched comparator"
+      ],
+      "primary_readout": "Cell recovery and delayed function together with independent physical ice assay",
+      "falsifier": "Biological effect disappears when physical injury and inhibitor toxicity are matched",
+      "missing_inputs": [
+        "material reproducibility/lot specifications",
+        "donor identities",
+        "physical assay comparability",
+        "target specificity controls"
+      ]
+    },
+    {
+      "id": "format_and_culture_age",
+      "priority": 3,
+      "hypothesis": "CPA benefit depends on cell format, cluster size and preculture duration.",
+      "evidence_dois": [
+        "10.1021/acs.biomac.5c00559",
+        "10.1038/s41598-025-32439-3"
+      ],
+      "current_support": "Supplement reports adverse cluster/age effects; aggregate study reports counting variability and no extra ROCK-pretreatment recovery benefit.",
+      "required_controls": [
+        "matched single-cell and aggregate preparations",
+        "culture age/cluster-size strata",
+        "matched medium and thermal protocol"
+      ],
+      "primary_readout": "Absolute recovered functional cells with an auditable prefreeze denominator",
+      "falsifier": "Apparent advantage is fully explained by counting or preculture differences",
+      "missing_inputs": [
+        "ACS main methods",
+        "HSA composition interpretation",
+        "paired counts and sample identities"
+      ]
+    },
+    {
+      "id": "delayed_function",
+      "priority": 4,
+      "hypothesis": "Early viability or identity markers alone systematically miss delayed cryopreservation effects.",
+      "evidence_dois": [
+        "10.1038/s41598-026-59927-4",
+        "10.1186/s13287-025-04384-5",
+        "10.1038/s41531-026-01399-4"
+      ],
+      "current_support": "Cardiomyocyte functional alterations and neuronal post-storage utility are separate domain-specific findings.",
+      "required_controls": [
+        "matched fresh cultures",
+        "multiple post-thaw times",
+        "donor/batch replication"
+      ],
+      "primary_readout": "Lineage-specific functional potency and recovered-cell yield reported separately",
+      "falsifier": "Early metrics prospectively predict delayed functional yield in held-out donors and batches",
+      "missing_inputs": [
+        "predefined assay acceptance criterion",
+        "author raw data for retrospective checks",
+        "independent prospective dataset"
+      ]
+    }
+  ]
+}

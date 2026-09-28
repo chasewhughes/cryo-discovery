@@ -1,0 +1,204 @@
+[
+  {
+    "study_id": "doi:10.1093/stmcls/sxad059",
+    "doi": "10.1093/stmcls/sxad059",
+    "title": "Improved Cryopreservation of Human Induced Pluripotent Stem Cell (iPSC) and iPSC-derived Neurons Using Ice-Recrystallization Inhibitors",
+    "year": 2023,
+    "pmcid": "PMC10631806",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631806/",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "HAF-iPSC",
+      "HBMEC-iPSC-derived forebrain neurons"
+    ],
+    "study_design": "Primary IRI formulation study spanning a physical splat-cooling assay, HAF-iPSC viability/recovery, and post-mitotic iPSC-neuron viability, recovery, marker, and electrophysiology endpoints.",
+    "interventions": [
+      "2-fluorophenyl gluconamide (2FA)",
+      "4-chlorophenyl gluconamide (4ClA)",
+      "4-methoxyphenyl gluconamide (PMA)",
+      "N-(2,6-difluorobenzyl)-D-gluconamide (2,6 DFB)"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "neurons-2023-1",
+        "model": "IRI solutions assessed by modified splat-cooling assay",
+        "intervention": "N-aryl-D-aldonamide IRIs; IC50 curves",
+        "comparator": "IRI concentration series",
+        "formulation": [
+          {
+            "compound": "2FA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "4ClA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "PMA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "2,6 DFB",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "10 µL droplet frozen at −78 °C from 2 m onto polished aluminum block",
+        "warming": "Annealed at −6.4 °C for 5 minutes on precooled Peltier stage",
+        "storage": null,
+        "outcome_name": "Ice recrystallization inhibition IC50",
+        "outcome_type": "ice_activity",
+        "timepoint": "5-minute anneal",
+        "result": "The assay generated IC50 curves; reported IC50 values were 4 mM (2FA), 12 mM (4ClA), 3 mM (PMA), and 11 mM (2,6 DFB).",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "minimum of five concentrations per compound; image-based assay replicate details not specified here",
+        "source_locator": "Methods, IRI Assay and Formulations",
+        "evidence_excerpt": "a minimum of five concentrations were investigated"
+      },
+      {
+        "experiment_id": "neurons-2023-2",
+        "model": "HAF-iPSCs frozen in mFreSR with IRI dose series",
+        "intervention": "mFreSR + 10 mM 2FA (lead), 0.5 mM 4ClA, or 15 mM PMA",
+        "comparator": "mFreSR alone",
+        "formulation": [
+          {
+            "compound": "2FA",
+            "concentration": 10,
+            "unit": "mM"
+          },
+          {
+            "compound": "4ClA",
+            "concentration": 0.5,
+            "unit": "mM"
+          },
+          {
+            "compound": "PMA",
+            "concentration": 15,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "−1 °C/min; 1 mL cryovials",
+        "warming": null,
+        "storage": "1 week for initial viability screen",
+        "outcome_name": "Trypan-blue viability and post-thaw proliferation",
+        "outcome_type": "recovery",
+        "timepoint": "immediate post-thaw and 48 h post-plating",
+        "result": "Control viability was 46%; the highest reported values were 71% for 4ClA, 71.5% for 2FA, and 74.5% for PMA. At 48 h, 2FA reached 65.0% confluence versus 47.6% mFreSR control. Comparisons reported n=3.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "n=3 for plotted comparisons; confluence averaged 9 images per well across triplicate conditions",
+        "source_locator": "Results, Post-thaw Viability of iPSCs and 2FA Improves Post-thaw Recovery; Fig. 1a-c",
+        "evidence_excerpt": "the highest percent viability was observed"
+      },
+      {
+        "experiment_id": "neurons-2023-3",
+        "model": "Terminally differentiated HBMEC-iPSC-derived forebrain neurons",
+        "intervention": "CS10 + 2FA at 2.5, 5, or 10 mM",
+        "comparator": "CS10 alone and other 2FA doses",
+        "formulation": [
+          {
+            "compound": "2FA",
+            "concentration": 2.5,
+            "unit": "mM"
+          },
+          {
+            "compound": "2FA",
+            "concentration": 5,
+            "unit": "mM"
+          },
+          {
+            "compound": "2FA",
+            "concentration": 10,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "−1 °C/min; −80 °C for 24–48 h then liquid nitrogen",
+        "warming": null,
+        "storage": "approximately 1 month before thawing in the reported neuron experiment",
+        "outcome_name": "Post-thaw neuronal viability and recovery",
+        "outcome_type": "recovery",
+        "timepoint": "immediate post-thaw",
+        "result": "Viability was 67.2% (5 mM 2FA), 65.3% (2.5 mM), 54% (CS10), and 45% (10 mM), without significant improvement. Recovery was 50.3% (5 mM) and 45.0% (10 mM) versus 32.2% CS10 and 35.0% 2.5 mM; the 5 and 10 mM groups were statistically significant versus the latter comparators.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Figure 4 comparisons report n=3; independent donor count not established",
+        "source_locator": "Results, 2FA Improves Recovery of Electrophysiologic Function of iPSC-Ns; Fig. 4b-c",
+        "evidence_excerpt": "1.5-fold increase compared to"
+      },
+      {
+        "experiment_id": "neurons-2023-4",
+        "model": "Cryopreserved iPSC-Ns plated on 60-electrode MEAs",
+        "intervention": "2FA cryopreservation at 2.5, 5, or 10 mM in CS10",
+        "comparator": "CS10 cryopreservation control",
+        "formulation": [
+          {
+            "compound": "2FA",
+            "concentration": 2.5,
+            "unit": "mM"
+          },
+          {
+            "compound": "2FA",
+            "concentration": 5,
+            "unit": "mM"
+          },
+          {
+            "compound": "2FA",
+            "concentration": 10,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "post_thaw"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Spontaneous/synchronous MEA network activity and drug responses",
+        "outcome_type": "function",
+        "timepoint": "recording began after 19 days in vitro; activity tracked through 236 days; pharmacology at 47 days",
+        "result": "At 27 days after plating, 2.5 and 5 mM 2FA cultures showed robust synchronous activity, with robust bursting by day 48. CS10 and 10 mM 2FA cultures developed robust synchronous activity after day 130. Day-47 pharmacology assessed 5 mM 2FA cultures. Electrode observations are readout replicates; Figure 5 reports 3–4 MEAs and data representative of two independent differentiations.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Figure 5: n=3–4 MEAs for longitudinal activity, n=3 for active-electrode summary; data representative of 2 independent differentiations",
+        "source_locator": "Results, Functional Recovery of iPSC-Ns Post-Thaw; Fig. 5 and Methods MEA Recordings",
+        "evidence_excerpt": "robust bursting behavior developing by 48 days"
+      }
+    ],
+    "main_finding": "2FA improved HAF-iPSC survival/recovery and accelerated recovery of neuronal network function, while iPSC-neuron immediate viability itself was not significantly improved.",
+    "limitations": [
+      "Y27632 is a recovery co-treatment; methods say with or without and condition-level allocation needs clarification before attributing downstream effects to 2FA alone.",
+      "Figure 4/5 legends name mFreSR in some control descriptions despite neuronal methods using CS10; retain this source inconsistency.",
+      "Electrodes and images are technical readouts; 3–4 MEAs and two differentiations do not establish broad independent donor replication.",
+      "The formulation arrays list alternative arms/doses, not a combined multi-IRI mixture.",
+      "2024 proprietary IRI-I cannot be assumed to be this disclosed 2FA molecule."
+    ],
+    "mechanism_claim": "The physical IRI assay directly measures ice recrystallization inhibition; survival and neuronal function are downstream endpoints and do not by themselves prove a direct biological pathway mechanism.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "root; Luna extraction corrected against full methods/results and figure legends"
+  }
+]

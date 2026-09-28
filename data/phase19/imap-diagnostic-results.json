@@ -1,0 +1,279 @@
+{
+  "scope": "Exploratory same-compound assay comparison, reusing completed Phase18 predictions. Not independent validation; no new calibration or qualification gate.",
+  "screening_decision": "novel_screening_not_qualified",
+  "independent_validation": false,
+  "new_GPU_cost_usd": 0,
+  "new_calibration_fitted": false,
+  "source_sha256": {
+    "data/phase19/morwick-imap-source.json": "4d56e354d199b35e251e95b1c2b8f6fa3abd5c7fc64bc8233c3642c3e9bd76cc",
+    "data/phase18/source-table-reconciliation.json": "3ed5a6ea1327aaf1cc8b7ecb2ab537e93652cfc73645659371b74684f47284cb",
+    "data/phase18/external-results.json": "c4bee9feabafc0efbfe0aa8bb3add0bc9843eb572a8e002223baa25205d6a78f",
+    "data/phase18/external-dataset.json": "ce89a55794249a87c188db08bd8d73eba2e586db5eb581e53f991f9585621371"
+  },
+  "source_only_offset_pIC50": 0.2913392098372469,
+  "paired_exact_n": 13,
+  "excluded_n": 5,
+  "experimental_readout_spearman": 0.9546088810730656,
+  "median_IMAP_to_luciferase_IC50_ratio": 2.5,
+  "median_IMAP_minus_luciferase_pIC50": -0.3979400086720375,
+  "raw_luciferase": {
+    "n": 13,
+    "MAE_pIC50": 0.7444023889891495,
+    "bias_pIC50": -0.7444023889891495,
+    "RMSE_pIC50": 0.8646653479556501,
+    "spearman": 0.4230769230769231
+  },
+  "raw_IMAP": {
+    "n": 13,
+    "MAE_pIC50": 0.44501370994112727,
+    "bias_pIC50": -0.3410518739044194,
+    "RMSE_pIC50": 0.5114342234961835,
+    "spearman": 0.4566716837410054
+  },
+  "source_offset_luciferase": {
+    "n": 13,
+    "MAE_pIC50": 0.5144076366984162,
+    "bias_pIC50": -0.4530631791519025,
+    "RMSE_pIC50": 0.6314883146391084,
+    "spearman": 0.4230769230769231
+  },
+  "source_offset_IMAP": {
+    "n": 13,
+    "MAE_pIC50": 0.34308336554629043,
+    "bias_pIC50": -0.04971266406717248,
+    "RMSE_pIC50": 0.3843435094262471,
+    "spearman": 0.4566716837410054
+  },
+  "rows": [
+    {
+      "source_compound_number": 16,
+      "luciferase_nM": 100,
+      "luciferase_relation": "=",
+      "IMAP_nM": 320,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL597126",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CCNC3)c1)c1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.3299892991781235,
+      "luciferase_pIC50": 7.0,
+      "IMAP_pIC50": 6.494850021680094,
+      "IMAP_to_luciferase_IC50_ratio": 3.2
+    },
+    {
+      "source_compound_number": 17,
+      "luciferase_nM": 53,
+      "luciferase_relation": "=",
+      "IMAP_nM": 140,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL597127",
+      "scaffold": "O=C(NCCC1CCCNC1)c1cccc(CNC(=O)c2ccccc2)c1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.066158153116703,
+      "luciferase_pIC50": 7.275724130399211,
+      "IMAP_pIC50": 6.853871964321762,
+      "IMAP_to_luciferase_IC50_ratio": 2.641509433962264
+    },
+    {
+      "source_compound_number": 21,
+      "luciferase_nM": 69,
+      "luciferase_relation": "=",
+      "IMAP_nM": 230,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL599792",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.131505087018013,
+      "luciferase_pIC50": 7.161150909262744,
+      "IMAP_pIC50": 6.638272163982407,
+      "IMAP_to_luciferase_IC50_ratio": 3.3333333333333335
+    },
+    {
+      "source_compound_number": 34,
+      "luciferase_nM": 92,
+      "luciferase_relation": "=",
+      "IMAP_nM": 230,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL592709",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.225910358130932,
+      "luciferase_pIC50": 7.036212172654444,
+      "IMAP_pIC50": 6.638272163982407,
+      "IMAP_to_luciferase_IC50_ratio": 2.5
+    },
+    {
+      "source_compound_number": 35,
+      "luciferase_nM": 160,
+      "luciferase_relation": "=",
+      "IMAP_nM": 350,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL589102",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.3952542543411255,
+      "luciferase_pIC50": 6.795880017344075,
+      "IMAP_pIC50": 6.455931955649724,
+      "IMAP_to_luciferase_IC50_ratio": 2.1875
+    },
+    {
+      "source_compound_number": 36,
+      "luciferase_nM": 670,
+      "luciferase_relation": "=",
+      "IMAP_nM": 1300,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL602437",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.089007304050028,
+      "luciferase_pIC50": 6.173925197299173,
+      "IMAP_pIC50": 5.886056647693163,
+      "IMAP_to_luciferase_IC50_ratio": 1.9402985074626866
+    },
+    {
+      "source_compound_number": 43,
+      "luciferase_nM": 14,
+      "luciferase_relation": "=",
+      "IMAP_nM": 48,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL590810",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CNCC3)c1)Nc1ccccc1",
+      "prior_split": "test",
+      "predicted_pIC50": 6.656070873141289,
+      "luciferase_pIC50": 7.853871964321762,
+      "IMAP_pIC50": 7.318758762624412,
+      "IMAP_to_luciferase_IC50_ratio": 3.4285714285714284
+    },
+    {
+      "source_compound_number": 44,
+      "luciferase_nM": 65,
+      "luciferase_relation": "=",
+      "IMAP_nM": 160,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL590811",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 6.169437989592552,
+      "luciferase_pIC50": 7.187086643357144,
+      "IMAP_pIC50": 6.795880017344075,
+      "IMAP_to_luciferase_IC50_ratio": 2.4615384615384617
+    },
+    {
+      "source_compound_number": 45,
+      "luciferase_nM": 70,
+      "luciferase_relation": "=",
+      "IMAP_nM": 210,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL590826",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 6.951908558607101,
+      "luciferase_pIC50": 7.154901959985743,
+      "IMAP_pIC50": 6.6777807052660805,
+      "IMAP_to_luciferase_IC50_ratio": 3.0
+    },
+    {
+      "source_compound_number": 46,
+      "luciferase_nM": 10,
+      "luciferase_relation": "=",
+      "IMAP_nM": 45,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL591058",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 6.410085380077362,
+      "luciferase_pIC50": 8.0,
+      "IMAP_pIC50": 7.346787486224656,
+      "IMAP_to_luciferase_IC50_ratio": 4.5
+    },
+    {
+      "source_compound_number": 47,
+      "luciferase_nM": 8,
+      "luciferase_relation": "=",
+      "IMAP_nM": 14,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL591116",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 7.3286144733428955,
+      "luciferase_pIC50": 8.096910013008056,
+      "IMAP_pIC50": 7.853871964321762,
+      "IMAP_to_luciferase_IC50_ratio": 1.75
+    },
+    {
+      "source_compound_number": 48,
+      "luciferase_nM": 74,
+      "luciferase_relation": "=",
+      "IMAP_nM": 180,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL591355",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 6.9434009194374084,
+      "luciferase_pIC50": 7.130768280269024,
+      "IMAP_pIC50": 6.7447274948966935,
+      "IMAP_to_luciferase_IC50_ratio": 2.4324324324324325
+    },
+    {
+      "source_compound_number": 49,
+      "luciferase_nM": 240,
+      "luciferase_relation": "=",
+      "IMAP_nM": 290,
+      "IMAP_relation": "=",
+      "molecule_id": "CHEMBL603162",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "prior_split": "calibration",
+      "predicted_pIC50": 6.111646339297295,
+      "luciferase_pIC50": 6.619788758288394,
+      "IMAP_pIC50": 6.537602002101044,
+      "IMAP_to_luciferase_IC50_ratio": 1.2083333333333333
+    }
+  ],
+  "excluded_rows": [
+    {
+      "source_compound_number": 30,
+      "luciferase_nM": 7000,
+      "luciferase_relation": ">",
+      "IMAP_nM": 7000,
+      "IMAP_relation": ">",
+      "reason": "No source-verified Phase18 identity/prediction"
+    },
+    {
+      "source_compound_number": 31,
+      "luciferase_nM": 1300,
+      "luciferase_relation": "=",
+      "IMAP_nM": 6500,
+      "IMAP_relation": ">",
+      "reason": "Censored endpoint; not an exact paired observation"
+    },
+    {
+      "source_compound_number": 32,
+      "luciferase_nM": 6000,
+      "luciferase_relation": ">",
+      "IMAP_nM": 6400,
+      "IMAP_relation": ">",
+      "reason": "No source-verified Phase18 identity/prediction"
+    },
+    {
+      "source_compound_number": 33,
+      "luciferase_nM": 266,
+      "luciferase_relation": "=",
+      "IMAP_nM": 660,
+      "IMAP_relation": "=",
+      "reason": "No source-verified Phase18 identity/prediction"
+    },
+    {
+      "source_compound_number": 37,
+      "luciferase_nM": 1700,
+      "luciferase_relation": "=",
+      "IMAP_nM": 6500,
+      "IMAP_relation": ">",
+      "reason": "Censored endpoint; not an exact paired observation"
+    }
+  ],
+  "limits": [
+    "Source authors selected this subset to investigate detection interference; it is not a random panel.",
+    "Readout, ATP and other conditions change together, so their causal effects cannot be isolated.",
+    "Existing predictions and prior outcomes are known; exploratory retrospective diagnostic only.",
+    "Do not convert right-censored bounds into exact values."
+  ]
+}

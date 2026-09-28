@@ -1,0 +1,132 @@
+{
+  "review": "Boltz-2 affinity pretraining overlap audit",
+  "review_date": "2026-09-06",
+  "scope": {
+    "records": [
+      "ChEMBL1071707 (Morwick et al. 2010 ROCK2 luciferase assay; local Phase 18 curation)",
+      "CHEMBL2973 / ROCK2, UniProt O75116",
+      "PDB 6ED6 (ROCK2 inhibitor complex; structural overlap question)"
+    ],
+    "question": "Can the published Boltz-2 sources establish row-level inclusion or exclusion of this assay, target, or structure in affinity pretraining?"
+  },
+  "sources": [
+    {
+      "kind": "primary_paper",
+      "url": "https://jeremywohlwend.com/assets/boltz2.pdf",
+      "retrieved": "2026-09-06",
+      "local_path": "data/raw/phase18/training-review/boltz2-paper.pdf",
+      "sha256": "abe2b7fc0c3976bc1c8e39369c9d3ab7c7d49595d7b2523d56bf16470617194e",
+      "locations": [
+        "pp. 2-3, Data",
+        "Table 1 p. 4",
+        "Appendix A.1 pp. 18-19",
+        "Appendix A.2 pp. 19-22",
+        "\u00a75.4 pp. 12-13"
+      ],
+      "use": "Training source families, affinity curation, structural date cutoff, benchmark leakage statement."
+    },
+    {
+      "kind": "official_repository_readme",
+      "url": "https://raw.githubusercontent.com/jwohlwend/boltz/main/README.md",
+      "retrieved": "2026-09-06",
+      "local_path": "data/raw/phase18/training-review/README.md",
+      "sha256": "79149435313841e6f9cc0c8b581259f3952a2469cbe6f9a733f7143b557025c2",
+      "locations": [
+        "Affinity section",
+        "training-code notice"
+      ],
+      "use": "Documents separate affinity outputs and states that updated Boltz-2 training code is forthcoming in the archived official README."
+    },
+    {
+      "kind": "official_repository_docs",
+      "url": "https://raw.githubusercontent.com/jwohlwend/boltz/main/docs/prediction.md",
+      "retrieved": "2026-09-06",
+      "local_path": "data/raw/phase18/training-review/prediction.md",
+      "sha256": "b9cb2ff437389864bde02e7e9fd9fbcc7de189ca2e240a5f3fb6261ca595a795",
+      "locations": [
+        "Properties (affinity)",
+        "Affinity output interpretation"
+      ],
+      "use": "Inference limits: affinity value is log10(IC50) in \u00b5M and is intended for comparison of active molecules; binary probability is a different supervision context."
+    },
+    {
+      "kind": "local_primary_assay_metadata",
+      "url": "https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1071707",
+      "retrieved": "2026-09-06",
+      "local_path": "data/raw/phase18/methods/assay.json",
+      "sha256": "8d067cf73bacd33cbd789ee00adbc4794b1ab564d7cdf14172b0b5f587ab7e73",
+      "use": "ChEMBL assay identity and metadata used for the reviewed Phase 18 curation: human ROCK2, homogeneous luciferase, biochemical assay type, confidence score 9, target CHEMBL2973. This is evidence that the assay exists in ChEMBL, not evidence that Boltz-2 retained it."
+    },
+    {
+      "kind": "official_structure_record",
+      "url": "https://www.rcsb.org/structure/6ED6",
+      "retrieved": "2026-09-06",
+      "use": "Structure identity and release metadata; no row-level Boltz-2 membership manifest is published."
+    }
+  ],
+  "documented_training_facts": [
+    {
+      "fact": "Boltz-2 affinity regression draws primarily from PubChem, ChEMBL, and BindingDB; the paper reports aggregate counts, not a released per-row manifest.",
+      "evidence": "Primary paper Data pp. 2-4 and Appendix A.2 pp. 19-22; ChEMBL v34 is named explicitly.",
+      "confidence": "direct"
+    },
+    {
+      "fact": "ChEMBL extraction requires confidence score 9, SINGLE PROTEIN target type, biochemical or functional assay, supported affinity standard types, and exclusion of unreliable sources. Further assay-level ipTM, PAINS, heavy-atom, and distribution/size filters are applied.",
+      "evidence": "Primary paper Appendix A.2, especially pp. 20-22.",
+      "confidence": "direct"
+    },
+    {
+      "fact": "The continuous head mixes Ki, Kd, IC50, AC50, EC50, and XC50 after conversion to log10 with \u00b5M as reference. The public docs describe affinity_pred_value as log10(IC50) \u00b5M and recommend comparing active molecules.",
+      "evidence": "Primary paper pp. 3-4; official docs README and prediction.md.",
+      "confidence": "direct"
+    },
+    {
+      "fact": "PDB structural training uses structures released before 2023-06-01; the paper describes protein sequence clustering and held-out structural sets, but this is a structure-data rule and does not provide affinity-row membership.",
+      "evidence": "Primary paper Data p. 2 and Appendix A.1 pp. 18-19.",
+      "confidence": "direct"
+    },
+    {
+      "fact": "The paper says TYK2 was selected because it was in the affinity-model test set and avoided data leakage, showing that target-level split information matters for that benchmark. It does not publish an equivalent ROCK2 membership list.",
+      "evidence": "Primary paper \u00a75.4 pp. 12-13.",
+      "confidence": "direct"
+    }
+  ],
+  "overlap_assessment": {
+    "CHEMBL1071707_Morwick2010": {
+      "exact_inclusion": "unknown",
+      "exact_exclusion": "unknown",
+      "direct_evidence": [
+        "The assay is present in ChEMBL and local metadata identify confidence score 9, a human ROCK2 homogeneous luciferase biochemical assay (CHEMBL2973).",
+        "The published Boltz-2 recipe names ChEMBL v34 and filters that are superficially compatible with this metadata."
+      ],
+      "why_eligibility_is_not_membership": [
+        "The published recipe does not report retained assay IDs or ligand rows.",
+        "Retention depends on additional assay-level structure-confidence and chemical/distribution filters; exact values and standardized structures are unavailable in the paper.",
+        "The Morwick assay has a known luciferase-interference caveat in the source audit, but the paper does not say whether this particular assay or its compounds was manually removed.",
+        "ChEMBL presence and source-version naming cannot establish inclusion in a released checkpoint or identify whether a given row was used for a particular head/split."
+      ],
+      "inference": "It is plausible that some records could have been eligible for extraction, but no defensible probability or membership claim can be made from the available primary sources.",
+      "confidence": "exact membership not established"
+    },
+    "ROCK2_O75116": {
+      "exact_target_membership": "unknown",
+      "direct_evidence": "The paper reports aggregate target-cluster counts and source families only; it does not list UniProt IDs, ChEMBL target IDs, assay IDs, or target-cluster assignments for training/test affinity data.",
+      "inference": "Neither presence nor absence of human ROCK2/O75116 in affinity training can be established. A target being represented in ChEMBL v34 is not proof that any of its assays survived curation.",
+      "confidence": "exact membership not established"
+    },
+    "PDB_6ED6": {
+      "structural_candidate_status": "likely eligible by release date, membership unknown",
+      "direct_evidence": "6ED6 is a public ROCK2 complex released before the paper's 2023-06-01 structural cutoff (official RCSB record).",
+      "inference": "Release before the cutoff makes it a candidate for structural data processing, but resolution, ligand similarity, clustering, random subsampling, and any final training-set selection cannot be checked against a published manifest.",
+      "confidence": "candidate status only"
+    }
+  },
+  "limits_and_required_validation": [
+    "The paper and official repository materials do not expose a row-level affinity training manifest, exact ChEMBL extraction date beyond v34, checkpoint-to-row map, or target/ligand membership query.",
+    "Do not label the Phase 18 ROCK2 evaluation as an unseen-model holdout. It is a cross-publication retrospective evaluation with training overlap unknown.",
+    "A strict independence claim requires a provider-supplied training manifest/attestation or an auditable checkpoint data release mapping assay IDs, standardized ligand identities, target sequences, and split assignments. Source publication date alone is insufficient.",
+    "If overlap cannot be resolved, report the evaluation as transfer/generalization evidence conditional on unknown pretraining overlap; retain the frozen assay curation and report luciferase-interference and assay-context limitations.",
+    "Do not infer experimental efficacy, novelty, or prospective discovery from affinity predictions, regardless of whether a ROCK2 record was or was not in training."
+  ],
+  "conclusion": "Available primary sources establish the data families, broad filters, and structural cutoff, but cannot establish inclusion or exclusion of CHEMBL1071707, ROCK2/O75116, or PDB 6ED6 in the Boltz-2 affinity training set. Exact overlap remains unknown and must be treated as a material provenance limitation."
+}

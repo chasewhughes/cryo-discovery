@@ -1,0 +1,151 @@
+{
+  "status": "Proposed experimental handoff; no lab work performed or procurement authorized",
+  "planning_assumption": "Undifferentiated human iPSCs for initial clonogenic/identity qualification; shortlisted conditions then tested in iPSC-derived forebrain neurons. Laboratory must confirm lineage/resources before final protocol.",
+  "physical_factor": {
+    "agent": "2FA",
+    "dose_status": "Select one lineage-compatible dose after tolerability screening; not automatically transferred between iPSCs and neurons",
+    "literature_anchors": [
+      {
+        "model": "undifferentiated HAF-iPSCs",
+        "dose_mM": 10
+      },
+      {
+        "model": "iPSC-derived forebrain neurons",
+        "dose_mM": [
+          2.5,
+          5
+        ]
+      }
+    ]
+  },
+  "biological_factor": {
+    "agent": "CEPT during recovery",
+    "dose_status": "Literature reference, subject to lineage/formulation reconciliation; not a universal optimal dose",
+    "components": [
+      {
+        "name": "Chroman 1",
+        "value": 50,
+        "unit": "nM"
+      },
+      {
+        "name": "emricasan",
+        "value": 5,
+        "unit": "µM"
+      },
+      {
+        "name": "Sigma P8483 polyamine stock",
+        "value": "1:1000",
+        "unit": "dilution"
+      },
+      {
+        "name": "trans-ISRIB",
+        "value": 0.7,
+        "unit": "µM"
+      }
+    ],
+    "reference_exposure_hours": 24,
+    "background_rule": "CEPT replaces the specified standard recovery cocktail in its factor arm; do not silently add it on top of another ROCK inhibitor."
+  },
+  "core_frozen_arms": [
+    {
+      "arm_id": "A00",
+      "physical_2fa": false,
+      "recovery": "defined_standard",
+      "purpose": "Freezing/recovery reference"
+    },
+    {
+      "arm_id": "A10",
+      "physical_2fa": true,
+      "recovery": "defined_standard",
+      "purpose": "Incremental physical-intervention effect"
+    },
+    {
+      "arm_id": "A01",
+      "physical_2fa": false,
+      "recovery": "CEPT",
+      "purpose": "Incremental recovery-cocktail effect"
+    },
+    {
+      "arm_id": "A11",
+      "physical_2fa": true,
+      "recovery": "CEPT",
+      "purpose": "Combined effect and interaction"
+    }
+  ],
+  "controls": [
+    {
+      "name": "Fresh matched handling controls",
+      "design": "Mirror all four exposure/recovery conditions without freezing to quantify exposure toxicity and treatment-driven growth."
+    },
+    {
+      "name": "Matched vehicle and base freezing medium",
+      "design": "Keep DMSO, base medium, cooling, nucleation, loading, warming, wash, density and storage matched except the declared factors; verify any additives in commercial products."
+    },
+    {
+      "name": "Physical ice assay",
+      "design": "Test physical factor and matched vehicles independently; do not infer ice activity from viable-cell fraction."
+    }
+  ],
+  "pilot_design": {
+    "independent_donor_lines": 3,
+    "independent_batches_per_donor": 2,
+    "technical_cryovials_per_arm_per_batch": 2,
+    "core_frozen_vials": 48,
+    "design_status": "Feasibility design, not a power calculation",
+    "randomization": "Split each donor/batch among all arms; randomize freezer position and assay allocation; blind image/count analysis",
+    "analysis_unit": "Donor/batch block; vials/wells/images/electrodes are nested technical observations",
+    "confirmation_sample_size": "Set from pilot variance, chosen effect margin and independent donor/batch variation; do not claim significance from 48 independent donors."
+  },
+  "outcomes": [
+    {
+      "name": "immediate_viable_yield",
+      "definition": "Live cells recovered after standardized wash / live cells loaded before freezing",
+      "time": "post-thaw after wash",
+      "role": "Distinguish lost cells from live fraction"
+    },
+    {
+      "name": "delayed_live_cell_yield",
+      "definition": "Live cells at 24 h / live prefreeze input",
+      "time": "24 h",
+      "role": "Pilot primary yield endpoint; analyze with donor/batch structure"
+    },
+    {
+      "name": "clonogenic_identity_qualified_yield",
+      "definition": "Colony-forming output per known prefreeze input, with defined identity criteria and matched fresh controls",
+      "time": "predeclared colony assay day",
+      "role": "Separate identity/function advancement gate; not a substitute for viable-cell yield"
+    },
+    {
+      "name": "neuronal_function",
+      "definition": "Predeclared MEA network endpoint at a fixed culture age plus viable neuronal yield; analyze separately rather than multiplying arbitrary metrics",
+      "time": "Longitudinal fixed schedule chosen before unblinding; source observations around days 27/48 are anchors, not universal thresholds",
+      "role": "Confirmation of delayed function"
+    }
+  ],
+  "proposed_pilot_advancement_rules": {
+    "status": "Planning thresholds, not literature-proven or clinical acceptance standards",
+    "gain": "A11 should improve 24-hour viable-cell yield by at least 10 percentage points over the better single-factor arm at the donor/batch-averaged level.",
+    "consistency": "Direction positive in at least two of three donor lines; no donor shows a greater-than-5-percentage-point loss versus the best single-factor arm.",
+    "toxicity_and_identity": "No more than 10% relative decrement in matched nonfrozen viability or identity-qualified clonogenic output versus its handling reference; assay precision must support this margin.",
+    "function": "Neuronal confirmation must meet a predeclared lineage/MEA-specific noninferiority margin versus the reference and preserve neuronal yield; the lab must set the margin before enrollment/analysis.",
+    "interpretation": "Passing the pilot nominates a candidate; it does not validate synergy. Failure of precision or missing assay margins means revise/extend, not an automatic efficacy conclusion."
+  },
+  "interaction_analysis": {
+    "scale": "Additive percentage-point scale for a named yield endpoint",
+    "formula": "I = R11 - R10 - R01 + R00",
+    "meaning": "Combined improvement over components and supra-additive interaction are different claims. Confirmed interaction requires replicate-aware uncertainty and a predeclared model; report the response scale and ceiling limitations.",
+    "multiple_testing": "Designate one primary outcome/contrast; remaining assays exploratory or adjusted in the confirmatory plan.",
+    "planned_component_contrasts": [
+      "R11-R10",
+      "R11-R01"
+    ],
+    "contrast_note": "Evaluate both prespecified component comparisons; do not select a winner post hoc and treat its contrast as preplanned."
+  },
+  "required_before_execution": [
+    "Laboratory partner, chosen well-characterized donor lines and material access",
+    "Confirmed material identity, formulation, loading/washout and standard recovery background",
+    "Assay acceptance margins, counting procedure and batch metadata template",
+    "Laboratory cost quotation and approved experimental budget; no invented dollar estimate",
+    "Preregistered analysis and confirmatory sample-size plan after feasibility data"
+  ]
+}

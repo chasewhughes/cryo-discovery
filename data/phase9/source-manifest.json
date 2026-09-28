@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11402961/supplementaryFiles",
+      "member": "41467_2024_52266_MOESM1_ESM.pdf",
+      "local_path": "data/raw/phase9/warren-2024-supplement.pdf",
+      "bytes": 8090397,
+      "sha256": "a9e2f98ea1aa9fdd8563a825a3f47f0d8756efbecb1006f393ebcc2a13415a87",
+      "archive_sha256": "f7a67c883fc27c84928d908ac66be4b9fe5f535778940866e9af5de012d879b1"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/54935598",
+      "local_path": "data/raw/phase9/acs-2025-si.pdf",
+      "bytes": 5260937,
+      "sha256": "65b36e1f5bbf3bf05228c8c07af8a8fe7867ec0db32d26a1d01cbc394b2caf4c",
+      "md5": "0adbefadfeada8a496b3a825b4b0edcf"
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/29185191",
+      "local_path": "data/raw/phase9/acs-2025-si-metadata.json",
+      "bytes": 7740,
+      "sha256": "286b47272c7161065e199ec36c9db9d2278d36ae4fc88ac95205b93793566275"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-09-06T13:29:11.891653+00:00",
+  "local_restart_smoke_checks": [
+    {
+      "compound": "leu",
+      "restoration_check": {
+        "bound": "Position: 4 * float32 epsilon * max(1, box scale, absolute source coordinate); velocity: 4 * epsilon * max(1, absolute source velocity). Not bitwise equality.",
+        "max_position_error_nm": 5.044370885443072e-07,
+        "max_velocity_error_nm_ps": 0.0,
+        "position_box_scale_nm": 4.0623,
+        "relative_rounding_bound": 4.76837158203125e-07
+      },
+      "phase": 13,
+      "equilibration_ps": 0.02,
+      "production_ps": 0.012
+    },
+    {
+      "compound": "ile",
+      "restoration_check": {
+        "bound": "Position: 4 * float32 epsilon * max(1, box scale, absolute source coordinate); velocity: 4 * epsilon * max(1, absolute source velocity). Not bitwise equality.",
+        "max_position_error_nm": 6.332054738322768e-07,
+        "max_velocity_error_nm_ps": 0.0,
+        "position_box_scale_nm": 4.0642,
+        "relative_rounding_bound": 4.76837158203125e-07
+      },
+      "phase": 13,
+      "equilibration_ps": 0.02,
+      "production_ps": 0.012
+    }
+  ],
+  "local_initial_check_issue": "Coordinate-only float32 bound rejected box-scale rounding near periodic boundaries; no cloud production had begun. Box-scale bound passed both compounds and regression tests still reject 0.001 nm displacement.",
+  "provider_failure": {
+    "http_status": 500,
+    "stage": "Second Pod creation; response text unavailable for first attempt",
+    "created_pod_id": "qzp966o4e0nmx0",
+    "deleted": true,
+    "estimated_gpu_cost_usd": 0.003954897712336646
+  },
+  "scientific_design_changed_on_retry": false,
+  "interpretation": "Smoke runs are numerical checks and excluded from all production analysis.",
+  "attempt2_setup_failures": {
+    "jobs": [
+      "leu-NPT-20261011",
+      "leu-NPT-20261012",
+      "ile-NPT-20261023"
+    ],
+    "stage": "pip installation, 420second deadline",
+    "deleted": true,
+    "replacement": "attempt3 uses same inputs/seeds,900second installation deadline; other3continue",
+    "logs": "data/raw/phase13/runpod-attempt2/<job>/runs/setup.log"
+  }
+}

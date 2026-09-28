@@ -1,0 +1,464 @@
+{
+  "schema_version": "phase21-urea-source-reconciliation-v1",
+  "created_utc": "2026-09-07T08:43:24.994500+00:00",
+  "primary_source": {
+    "doi": "10.1021/jm400062r",
+    "title": "Synthesis and Biological Evaluation of Urea Derivatives as Highly Potent and Selective Rho Kinase Inhibitors",
+    "authors": [
+      "Yan Yin",
+      "Li Lin",
+      "Claudia Ruiz",
+      "Susan Khan",
+      "Michael D. Cameron",
+      "Wayne Grant",
+      "Jennifer Pocas",
+      "Nibal Eid",
+      "HaJeung Park",
+      "Philip V. LoGrasso",
+      "Yangbo Feng"
+    ],
+    "article_sha256": "72d10c7c5f19a5dea218ad762cdc928aa2a4592a6ca4e97671db1f4d11ea08de",
+    "si_sha256": "bcb048fd2e6290026514dd11062c6f7c55da99c41e05436a605f1cca6b43629d",
+    "source_locators": [
+      "article.pdf pp. 3-5, Tables 1-5",
+      "article.pdf p. 6, Figures 2-3",
+      "article.pdf p. 4, ROCK-II assay description"
+    ]
+  },
+  "chembl_source": {
+    "document_chembl_id": "CHEMBL2331531",
+    "document_file": "data/raw/phase20/inventory/CHEMBL2331531-document.json",
+    "document_sha256": "b0663dc86b42238886e43d86e9ed9ac4978bcad0bb523431bfa128ccfef93bb5",
+    "assay_target_chembl_id": "CHEMBL2341182",
+    "activity_file": "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+    "activity_sha256": "7a548e0fbcb8208310310a1e68b529756733c5df4b41a41359b273e3cefa95a0"
+  },
+  "primary_identity_check": {
+    "basis": "article author/title/DOI metadata agrees with the ChEMBL document; structures are checked by canonical connectivity against the drawn labels/scaffold. Numeric potency is never used as an identity key.",
+    "metadata_activity_total": 45,
+    "exact_equal_nM_total": 42,
+    "censored_or_nonexact_total": 3,
+    "primary_tables": "Tables 1-5; duplicate 5j appears in Table 5 as a comparator."
+  },
+  "structure_mapping_high_confidence": [
+    {
+      "source_label": "5a",
+      "chembl_id": "CHEMBL2332077",
+      "relation": "=",
+      "value_nM": "304.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5c",
+      "chembl_id": "CHEMBL2332078",
+      "relation": "=",
+      "value_nM": "88.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5d",
+      "chembl_id": "CHEMBL2332079",
+      "relation": "=",
+      "value_nM": "1017.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5e",
+      "chembl_id": "CHEMBL2332080",
+      "relation": "=",
+      "value_nM": "7.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5f",
+      "chembl_id": "CHEMBL2332081",
+      "relation": "=",
+      "value_nM": "55.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5g",
+      "chembl_id": "CHEMBL2332082",
+      "relation": "=",
+      "value_nM": "24.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5h",
+      "chembl_id": "CHEMBL2332083",
+      "relation": "=",
+      "value_nM": "280.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5i",
+      "chembl_id": "CHEMBL2332084",
+      "relation": "=",
+      "value_nM": "751.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5k",
+      "chembl_id": "CHEMBL2332085",
+      "relation": "=",
+      "value_nM": "253.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5l",
+      "chembl_id": "CHEMBL2332086",
+      "relation": "=",
+      "value_nM": "331.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5m",
+      "chembl_id": "CHEMBL2332087",
+      "relation": "=",
+      "value_nM": "570.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5n",
+      "chembl_id": "CHEMBL2332088",
+      "relation": "=",
+      "value_nM": "924.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5o",
+      "chembl_id": "CHEMBL2332089",
+      "relation": "=",
+      "value_nM": "425.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5p",
+      "chembl_id": "CHEMBL2332090",
+      "relation": "=",
+      "value_nM": "281.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "5q",
+      "chembl_id": "CHEMBL2332091",
+      "relation": "=",
+      "value_nM": "357.0",
+      "identity_basis": "canonical structure matches the substitution pattern drawn for this label in the primary article; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "8a",
+      "chembl_id": "CHEMBL2332092",
+      "relation": "=",
+      "value_nM": "87.0",
+      "identity_basis": "canonical connectivity matches the urea-N substitution pattern drawn for this label in primary Table 3; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "8b",
+      "chembl_id": "CHEMBL2332093",
+      "relation": "=",
+      "value_nM": "611.0",
+      "identity_basis": "canonical connectivity matches the urea-N substitution pattern drawn for this label in primary Table 3; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "8c",
+      "chembl_id": "CHEMBL2332094",
+      "relation": "=",
+      "value_nM": "2984.0",
+      "identity_basis": "canonical connectivity matches the urea-N substitution pattern drawn for this label in primary Table 3; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "8e",
+      "chembl_id": "CHEMBL2332096",
+      "relation": "=",
+      "value_nM": "3324.0",
+      "identity_basis": "canonical connectivity matches the urea-N substitution pattern drawn for this label in primary Table 3; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12a",
+      "chembl_id": "CHEMBL2332097",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "COc1cccc(CN(C)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12b",
+      "chembl_id": "CHEMBL2332098",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "CCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12c",
+      "chembl_id": "CHEMBL2332099",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "COc1cccc(CN(C(=O)Nc2ccc(-c3cn[nH]c3)cc2)C2CC2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12d",
+      "chembl_id": "CHEMBL2332064",
+      "relation": "=",
+      "value_nM": "3.0",
+      "canonical_smiles": "COc1cccc(CN(C(=O)Nc2ccc(-c3cn[nH]c3)cc2)C(C)C)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12e",
+      "chembl_id": "CHEMBL2332065",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "COc1cccc(CN(CCO)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12f",
+      "chembl_id": "CHEMBL2332066",
+      "relation": "=",
+      "value_nM": "17.0",
+      "canonical_smiles": "COCCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12g",
+      "chembl_id": "CHEMBL2332067",
+      "relation": "<",
+      "value_nM": "1.0",
+      "canonical_smiles": "COc1cccc(CN(CCN)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12h",
+      "chembl_id": "CHEMBL2332068",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "COc1cccc(CN(CCN(C)C)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12i",
+      "chembl_id": "CHEMBL2332069",
+      "relation": "=",
+      "value_nM": "3.0",
+      "canonical_smiles": "COc1cccc(CN(CCN2CCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12j",
+      "chembl_id": "CHEMBL2332070",
+      "relation": "=",
+      "value_nM": "5.0",
+      "canonical_smiles": "COc1cccc(CN(CCCN2CCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12k",
+      "chembl_id": "CHEMBL2332071",
+      "relation": "=",
+      "value_nM": "13.0",
+      "canonical_smiles": "COc1cccc(CN(CCN2CCOCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12l",
+      "chembl_id": "CHEMBL2332072",
+      "relation": "=",
+      "value_nM": "4.0",
+      "canonical_smiles": "COc1cccc(CN(CCCN2CCOCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12m",
+      "chembl_id": "CHEMBL2332073",
+      "relation": "=",
+      "value_nM": "5.0",
+      "canonical_smiles": "COc1cccc(CN(CCN2CCCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12n",
+      "chembl_id": "CHEMBL2332074",
+      "relation": "=",
+      "value_nM": "4.0",
+      "canonical_smiles": "COc1cccc(CN(CCCN2CCCCC2)C(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12o",
+      "chembl_id": "CHEMBL2331562",
+      "relation": "=",
+      "value_nM": "12.0",
+      "canonical_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)N(CCO)Cc1ccccc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "12p",
+      "chembl_id": "CHEMBL2332075",
+      "relation": "=",
+      "value_nM": "14.0",
+      "canonical_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1F)N(CCO)Cc1ccccc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "14a",
+      "chembl_id": "CHEMBL2332076",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "COc1cccc(C(CCO)NC(=O)Nc2ccc(-c3cn[nH]c3)cc2)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "14b",
+      "chembl_id": "CHEMBL2332056",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)NC(CCO)c1cccc(F)c1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "14c",
+      "chembl_id": "CHEMBL2332057",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)NC(CCO)c1ccccc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "14d",
+      "chembl_id": "CHEMBL2332058",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "O=C(Nc1ccc(-c2cn[nH]c2)cc1)NC(CO)c1ccccc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "14e",
+      "chembl_id": "CHEMBL2332059",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "CN(C)CCC(NC(=O)Nc1ccc(-c2cn[nH]c2)cc1)c1ccccc1",
+      "identity_basis": "canonical connectivity matches the R3/R4 substitution drawn for this label in primary Table 4/5; potency was not used to assign identity",
+      "confidence": "high"
+    },
+    {
+      "source_label": "19a",
+      "chembl_id": "CHEMBL2332060",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "CCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1O[C@H]1CCN(C)C1",
+      "identity_basis": "primary experimental heading gives the named structure; canonical connectivity independently matches; 19a is the explicitly named (S) compound and RDKit CIP is S",
+      "confidence": "high"
+    },
+    {
+      "source_label": "19c",
+      "chembl_id": "CHEMBL2332062",
+      "relation": "=",
+      "value_nM": "170.0",
+      "canonical_smiles": "COc1cccc(CN(CCN(C)C)C(=O)Nc2ccc(-c3cn[nH]c3)cc2OCCN(C)C)c1",
+      "identity_basis": "primary experimental heading gives the named structure; canonical connectivity independently matches; 19a is the explicitly named (S) compound and RDKit CIP is S",
+      "confidence": "high"
+    },
+    {
+      "source_label": "20",
+      "chembl_id": "CHEMBL2332063",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "COc1cccc(CN(CCN(C)C)C(=O)Nc2ccc(-c3cn[nH]c3)cn2)c1",
+      "identity_basis": "primary experimental heading gives the named structure; canonical connectivity independently matches; 19a is the explicitly named (S) compound and RDKit CIP is S",
+      "confidence": "high"
+    }
+  ],
+  "unresolved_exact_records": [
+    {
+      "chembl_id": "CHEMBL2332062",
+      "relation": "=",
+      "value_nM": "170.0",
+      "canonical_smiles": "COc1cccc(CN(CCN(C)C)C(=O)Nc2ccc(-c3cn[nH]c3)cc2OCCN(C)C)c1",
+      "identity_basis": "same primary document and common pyrazole-urea ROCK-II scaffold; exact article label not forced without a structure match",
+      "confidence": "unresolved"
+    },
+    {
+      "chembl_id": "CHEMBL2332063",
+      "relation": "=",
+      "value_nM": "2.0",
+      "canonical_smiles": "COc1cccc(CN(CCN(C)C)C(=O)Nc2ccc(-c3cn[nH]c3)cn2)c1",
+      "identity_basis": "same primary document and common pyrazole-urea ROCK-II scaffold; exact article label not forced without a structure match",
+      "confidence": "unresolved"
+    },
+    {
+      "chembl_id": "CHEMBL2332060",
+      "relation": "=",
+      "value_nM": "1.0",
+      "canonical_smiles": "CCN(Cc1cccc(OC)c1)C(=O)Nc1ccc(-c2cn[nH]c2)cc1O[C@H]1CCN(C)C1",
+      "identity_basis": "same primary document and common pyrazole-urea ROCK-II scaffold; exact article label not forced without a structure match",
+      "confidence": "unresolved"
+    }
+  ],
+  "exclusions": [
+    {
+      "chembl_id": "CHEMBL2332068",
+      "source_label": "12h",
+      "reason": "primary text states ROCK-II IC50 <1 nM, while Table 4 prints 1 nM; retain conflict as excluded rather than silently selecting a value."
+    }
+  ],
+  "primary_ambiguities": [
+    "The article tables draw structures as images; 5b and 5j are cited published comparators and are not represented by an unambiguous exact canonical row in this ChEMBL activity export.",
+    "The remaining unresolved ChEMBL exact rows are retained for audit but excluded from label-level primary mapping rather than assigned by potency.",
+    "ChEMBL contains 45 activity rows while the primary tables include a repeated 5j comparator and published comparator values; row count is not treated as a count of unique primary compounds.",
+    "Figures 2-3 contain additional compounds (19a-c and 20) that are not asserted to be represented by the 45 ChEMBL rows."
+  ],
+  "usable_counts": {
+    "chembl_rows_total": 45,
+    "chembl_exact_rows": 42,
+    "chembl_censored_or_nonexact_rows": 3,
+    "high_confidence_label_mappings": 40,
+    "exact_rows_excluded_for_12h_conflict": 1,
+    "exact_rows_eligible_after_12h_exclusion": 41,
+    "unresolved_exact_rows": 3
+  },
+  "limitations": "This is a reconciliation artifact, not a potency harmonization or calibration dataset. The primary assay is biochemical ROCK-II HTRF; table values are means of >=2 experiments with errors within 30% of mean. No claim is made that ChEMBL row provenance is independent of the article.",
+  "status": "superseded_preliminary_working_notes_not_used_for_eligibility",
+  "authoritative_replacement": "data/phase21/source-table-reconciliation.json and eligibility-decision.json"
+}

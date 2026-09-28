@@ -1,0 +1,77 @@
+{
+  "repository": "https://github.com/gcsosso/DOLMEN",
+  "commit": "10ed726bed8158544222b5f16298a54013b6ad62",
+  "retrieved_at": "2026-09-06T07:53:00.935002+00:00",
+  "files": [
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "data/raw/phase7/dolmen/LICENSE",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "upstream_path": "README.md",
+      "local_path": "data/raw/phase7/dolmen/README.md",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/README.md",
+      "bytes": 681,
+      "sha256": "a51652fecb45617fd7e959aaf0f7ff4ad992d6b8eb612111271c3bd119a27d94"
+    },
+    {
+      "upstream_path": "data/datasets/README.md",
+      "local_path": "data/raw/phase7/dolmen/data/datasets/README.md",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/datasets/README.md",
+      "bytes": 3960,
+      "sha256": "0f83dbcc97306e6786661e2e9c58890625e95613dd6c402d763e94b5a9e7ceee"
+    },
+    {
+      "upstream_path": "data/descriptors/README.md",
+      "local_path": "data/raw/phase7/dolmen/data/descriptors/README.md",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/README.md",
+      "bytes": 6995,
+      "sha256": "0c4c6fe0c9fd2f878f093f68f073b8dd4769b8999bc483e37219a60c321cbfc1"
+    },
+    {
+      "upstream_path": "data/datasets/amino.csv",
+      "local_path": "data/raw/phase7/dolmen/data/datasets/amino.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/datasets/amino.csv",
+      "bytes": 5995,
+      "sha256": "52f14fa6980d272542ab29ffff2e0c47d20747aa5d4d451fc0d5bfa19bae0f66"
+    },
+    {
+      "upstream_path": "data/descriptors/std_amino.csv",
+      "local_path": "data/raw/phase7/dolmen/data/descriptors/std_amino.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/std_amino.csv",
+      "bytes": 22419,
+      "sha256": "035995ec8f79786aa93494c2a20c262c05004bdabc85ef24d0c0a56c19197186"
+    },
+    {
+      "upstream_path": "data/datasets/glyco.csv",
+      "local_path": "data/raw/phase7/dolmen/data/datasets/glyco.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/datasets/glyco.csv",
+      "bytes": 13013,
+      "sha256": "2a227b8b81219ef770e6a00f2336c6fad2e20b7e6f80ce3b01f3a21b4b4f4cb2"
+    },
+    {
+      "upstream_path": "data/descriptors/std_glyco.csv",
+      "local_path": "data/raw/phase7/dolmen/data/descriptors/std_glyco.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/std_glyco.csv",
+      "bytes": 36474,
+      "sha256": "ebdfe0cd6c7b80f4de1b41576d87ebd12e27bed4bbda81be395ad9f710370abd"
+    },
+    {
+      "upstream_path": "data/datasets/glyco2.csv",
+      "local_path": "data/raw/phase7/dolmen/data/datasets/glyco2.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/datasets/glyco2.csv",
+      "bytes": 23415,
+      "sha256": "9e7a1348218a6619975bdd8de22ea559c4816a75a4736d897ae00c7fed00514d"
+    },
+    {
+      "upstream_path": "data/descriptors/std_glyco2.csv",
+      "local_path": "data/raw/phase7/dolmen/data/descriptors/std_glyco2.csv",
+      "url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/10ed726bed8158544222b5f16298a54013b6ad62/data/descriptors/std_glyco2.csv",
+      "bytes": 65699,
+      "sha256": "0f079aa24bf84c3f51318f0e5db36dc64625d7f16187fe91981d15941c61733e"
+    }
+  ]
+}

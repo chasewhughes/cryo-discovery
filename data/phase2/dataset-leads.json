@@ -1,0 +1,42 @@
+{
+  "retrieved_at": "2026-09-05",
+  "scope": "Selected dataset leads; automatically detected accessions require separate ownership review",
+  "records": [
+    {
+      "studyDOI": "10.1016/j.scr.2024.103583",
+      "accession/url": "https://doi.org/10.5281/zenodo.14038512",
+      "evidence_excerpt": null,
+      "sourcepath/locator": "data/phase2/archive-index.json",
+      "relationship": "own_data",
+      "verified_availability_status": "selected_original_files_downloaded_and_verified",
+      "dataset_type": "study archive"
+    },
+    {
+      "studyDOI": "10.1016/j.scr.2024.103583",
+      "accession/url": "https://gitlab.com/uniluxembourg/lcsb/developmental-and-cellular-biology/mommaerts_2022",
+      "evidence_excerpt": null,
+      "sourcepath/locator": "data/raw/phase2/mommaerts-2022-process_RNAseq.R",
+      "relationship": "own_data",
+      "verified_availability_status": "public_code_downloaded_not_executed",
+      "dataset_type": "RNA-seq processing code"
+    },
+    {
+      "studyDOI": "10.1038/s41592-021-01126-2",
+      "accession/url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA552890",
+      "sourcepath/locator": "data/raw/biology-PMC8314867.xml:Data availability",
+      "relationship": "uncertain",
+      "verified_availability_status": "accession_link_recorded_in_prior_source_scan; ownership_review_pending",
+      "dataset_type": "RNA sequencing",
+      "evidence_excerpt": null
+    },
+    {
+      "studyDOI": "10.1093/stmcls/sxad059",
+      "accession/url": null,
+      "sourcepath/locator": "data/raw/phase2/ipsc-neurons-2023.html:Data Availability",
+      "relationship": "own_data",
+      "verified_availability_status": "author_request_only; no outreach performed",
+      "dataset_type": "study data",
+      "evidence_excerpt": null
+    }
+  ]
+}

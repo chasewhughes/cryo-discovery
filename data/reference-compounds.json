@@ -1,0 +1,116 @@
+{
+  "retrieved_at": "2026-09-05",
+  "endpoint": "PubChem PUG REST",
+  "property_query": "IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight",
+  "compounds": [
+    {
+      "query": "DMSO",
+      "status": "ok",
+      "cid": 679,
+      "properties": {
+        "IUPACName": "methylsulfinylmethane",
+        "ConnectivitySMILES": "CS(=O)C",
+        "MolecularFormula": "C2H6OS",
+        "MolecularWeight": "78.14"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/DMSO/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "glycerol",
+      "status": "ok",
+      "cid": 753,
+      "properties": {
+        "IUPACName": "propane-1,2,3-triol",
+        "ConnectivitySMILES": "C(C(CO)O)O",
+        "MolecularFormula": "C3H8O3",
+        "MolecularWeight": "92.09"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "ethylene glycol",
+      "status": "ok",
+      "cid": 174,
+      "properties": {
+        "IUPACName": "ethane-1,2-diol",
+        "ConnectivitySMILES": "C(CO)O",
+        "MolecularFormula": "C2H6O2",
+        "MolecularWeight": "62.07"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylene%20glycol/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "trehalose",
+      "status": "ok",
+      "cid": 7427,
+      "properties": {
+        "IUPACName": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol",
+        "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",
+        "MolecularFormula": "C12H22O11",
+        "MolecularWeight": "342.30"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trehalose/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "L-proline",
+      "status": "ok",
+      "cid": 145742,
+      "properties": {
+        "IUPACName": "(2S)-pyrrolidine-2-carboxylic acid",
+        "ConnectivitySMILES": "C1CC(NC1)C(=O)O",
+        "MolecularFormula": "C5H9NO2",
+        "MolecularWeight": "115.13"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-proline/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "Y-27632",
+      "status": "ok",
+      "cid": 448042,
+      "properties": {
+        "IUPACName": "4-[(1R)-1-aminoethyl]-N-pyridin-4-ylcyclohexane-1-carboxamide",
+        "ConnectivitySMILES": "CC(C1CCC(CC1)C(=O)NC2=CC=NC=C2)N",
+        "MolecularFormula": "C14H21N3O",
+        "MolecularWeight": "247.34"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Y-27632/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "emricasan",
+      "status": "ok",
+      "cid": 12000240,
+      "properties": {
+        "IUPACName": "(3S)-3-[[(2S)-2-[[2-(2-tert-butylanilino)-2-oxoacetyl]amino]propanoyl]amino]-4-oxo-5-(2,3,5,6-tetrafluorophenoxy)pentanoic acid",
+        "ConnectivitySMILES": "CC(C(=O)NC(CC(=O)O)C(=O)COC1=C(C(=CC(=C1F)F)F)F)NC(=O)C(=O)NC2=CC=CC=C2C(C)(C)C",
+        "MolecularFormula": "C26H27F4N3O7",
+        "MolecularWeight": "569.5"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/emricasan/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "trans-ISRIB",
+      "status": "ok",
+      "cid": 1011240,
+      "properties": {
+        "IUPACName": "2-(4-chlorophenoxy)-N-[4-[[2-(4-chlorophenoxy)acetyl]amino]cyclohexyl]acetamide",
+        "ConnectivitySMILES": "C1CC(CCC1NC(=O)COC2=CC=C(C=C2)Cl)NC(=O)COC3=CC=C(C=C3)Cl",
+        "MolecularFormula": "C22H24Cl2N2O4",
+        "MolecularWeight": "451.3"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trans-ISRIB/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    },
+    {
+      "query": "Chroman 1",
+      "status": "ok",
+      "cid": 66577033,
+      "properties": {
+        "IUPACName": "(3S)-N-[2-[2-(dimethylamino)ethoxy]-4-(1H-pyrazol-4-yl)phenyl]-6-methoxy-3,4-dihydro-2H-chromene-3-carboxamide",
+        "ConnectivitySMILES": "CN(C)CCOC1=C(C=CC(=C1)C2=CNN=C2)NC(=O)C3CC4=C(C=CC(=C4)OC)OC3",
+        "MolecularFormula": "C24H28N4O4",
+        "MolecularWeight": "436.5"
+      },
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Chroman%201/property/IUPACName,ConnectivitySMILES,IsomericSMILES,MolecularFormula,MolecularWeight/JSON"
+    }
+  ],
+  "note": "Reference identifiers/properties only; no research efficacy is inferred."
+}

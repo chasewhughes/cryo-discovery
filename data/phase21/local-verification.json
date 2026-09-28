@@ -1,0 +1,7 @@
+{
+  "verified_at": "2026-09-07T09:03:30.587904+00:00",
+  "tests_passed": 83,
+  "new_phase21_tests": 24,
+  "scope": "Source graph/value reconciliation, immutable plan/runtime/archive checking, calibration/test isolation, prior scaffold exclusion, GPU budget and historical pipeline regressions. No scientific result asserted.",
+  "frozen_plan_sha256": "e37096a96a76ee3836be8392c63c5ee841744d0adb8bfe593f038e40e509ac2b"
+}

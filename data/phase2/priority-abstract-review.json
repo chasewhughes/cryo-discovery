@@ -1,0 +1,90 @@
+{
+  "retrieved_at": "2026-09-05",
+  "records": [
+    {
+      "studyDOI": "10.1002/btpr.70019",
+      "title": "Enhancing cryopreservation of human induced pluripotent stem cells: Bottom-up versus conventional freezing geometry.",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-0.json",
+      "study_type": "primary comparative iPSC cryopreservation",
+      "outcome": "Bottom-up freezing improved membrane integrity by up to 9% and metabolic state by up to 21% versus conventional geometry; benefit remained after scale-up to 30 mL bags.",
+      "dose_or_protocol": "30 mL scale-up stated; other dose details not stated in abstract.",
+      "evidence_excerpt": "bottom-up freezing under optimized conditions significantly increases iPSC viability, up to 9% for cell membrane integrity and up to 21% for cell metabolic state",
+      "duplicate_group": "bottom_up_geometry_2024",
+      "version_status": "journal version; paired preprint below should not be double-counted"
+    },
+    {
+      "studyDOI": "10.1101/2024.10.30.621091",
+      "title": "Enhancing cryopreservation of human iPSCs: Bottom-up vs Conventional freezing geometry",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-1.json",
+      "study_type": "primary preprint comparative iPSC cryopreservation",
+      "outcome": "Abstract reports up to 9% membrane-integrity and 21% metabolic-state improvement with bottom-up geometry, maintained at 30 mL scale.",
+      "dose_or_protocol": "30 mL scale-up stated; other details not stated.",
+      "evidence_excerpt": "The improvement achieved for bottom-up versus conventional freezing was maintained after scale-up from cryogenic vials to 30 mL bags",
+      "duplicate_group": "bottom_up_geometry_2024",
+      "version_status": "preprint; same authors and near-identical abstract to journal DOI 10.1002/btpr.70019"
+    },
+    {
+      "studyDOI": "10.1186/s13287-025-04384-5",
+      "title": "DMSO-free cryopreservation of hiPSC-derived cardiomyocytes: low temperature characterization and protocol development.",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-2.json",
+      "study_type": "primary optimization and mechanistic hiPSC-CM cryopreservation",
+      "outcome": "Optimized naturally occurring osmolyte cocktail enabled >90% post-thaw recovery versus 69.4 ± 6.4% DMSO; 5 °C/min cooling and −8 °C nucleation were optimal; cardiac function preserved.",
+      "dose_or_protocol": "5 °C/min; nucleation −8 °C; cocktail component concentrations not stated in abstract.",
+      "evidence_excerpt": "The best-performing DMSO-free solutions enabled post-thaw recoveries over 90%, which was significantly greater than DMSO (69.4 ± 6.4%).",
+      "duplicate_group": "dmso_free_hipsc_cm",
+      "version_status": "journal version; paired preprint below should not be double-counted"
+    },
+    {
+      "studyDOI": "10.21203/rs.3.rs-5183739/v1",
+      "title": "DMSO-free cryopreservation of hiPSC-derived cardiomyocytes: Low temperature characterization and protocol development",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-3.json",
+      "study_type": "primary preprint optimization hiPSC-CM cryopreservation",
+      "outcome": "Same reported >90% DMSO-free recovery, 69.4 ± 6.4% DMSO comparator, and 5 °C/min/−8 °C optimum.",
+      "dose_or_protocol": "As stated in paired journal abstract.",
+      "evidence_excerpt": "A rapid cooling rate of 5 °C/min and a low nucleation temperature of -8 °C was found to be optimal",
+      "duplicate_group": "dmso_free_hipsc_cm",
+      "version_status": "preprint; same authors and near-identical abstract to journal DOI 10.1186/s13287-025-04384-5"
+    },
+    {
+      "studyDOI": "10.1038/s41598-025-32439-3",
+      "title": "Improved cryopreservation of cardiomyocyte aggregates differentiated from GMP iPSC in a 3D culture format.",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-4.json",
+      "study_type": "primary 3D GMP-iPSC cardiomyocyte aggregate optimization",
+      "outcome": "10% human serum albumin medium was best tested; at day 5 post-thaw, >90% cardiac marker expression, spontaneous contraction, and >80% vital-cell recovery were reported.",
+      "dose_or_protocol": "10% HSA; day 5 post-thaw.",
+      "evidence_excerpt": "Analysis at 5-days post thawing revealed maintenance of high cardiac marker expression (>90%), spontaneous contraction activity, and overall recovery of >80% vital cell counts",
+      "duplicate_group": null,
+      "version_status": "journal"
+    },
+    {
+      "studyDOI": "10.1038/s41598-026-59927-4",
+      "title": "Cryopreservation alters contractile function of human induced pluripotent stem cell-derived cardiomyocytes.",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-5.json",
+      "study_type": "primary fresh-versus-cryopreserved hiPSC-CM functional comparison",
+      "outcome": "CS10 recovery 39% and KSR recovery 46%; cryopreservation altered morphology and contractile parameters despite slight sarcomeric expression changes.",
+      "dose_or_protocol": "CryoStor CS10 and KnockOut Serum Replacement; concentrations not stated.",
+      "evidence_excerpt": "both cryopreservation media (CryoStor® CS10 and KnockOut Serum Replacement) had a comparable recovery rate (CS10: 39%, KSR: 46%)",
+      "duplicate_group": null,
+      "version_status": "journal"
+    },
+    {
+      "studyDOI": "10.1039/d6tb01172a",
+      "title": "Amino acid-functionalised trehalose for multifunctional cryopreservation.",
+      "source_access": "abstract_only",
+      "raw_source_path": "data/raw/phase2/priority-6.json",
+      "study_type": "primary compound synthesis, physical assay, cytocompatibility, and mammalian-cell cryopreservation",
+      "outcome": "Trehalose diesters of glycine, alanine, and proline showed IRI, controlled nucleation, radical scavenging, lower cytotoxicity than DMSO/trehalose in HaCaT cells, and measurable cryoprotection but lower recovery than 10 wt% DMSO.",
+      "dose_or_protocol": "10 wt% DMSO comparator; Tg up to −25 °C for proline diester; other concentrations not stated.",
+      "evidence_excerpt": "Cryopreservation trials revealed diesters 1a-c conferred measurable cryoprotection, despite lower overall recovery relative to 10 wt% DMSO.",
+      "duplicate_group": null,
+      "version_status": "journal metadata/abstract"
+    }
+  ],
+  "screening_note": "Journal/preprint pairs are retained as separate metadata records but share duplicate_group and count once. Abstract-only outcomes are provisional; no unreported doses or protocol details were inferred."
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.key
+.DS_Store
+__pycache__/
+data/raw
+data/downloads
+data/tmp
+.cryo-storage.json
+cryo-adata/
+.venv/

@@ -1,0 +1,24 @@
+{
+  "attempt": 2,
+  "intent": {
+    "attempt": 2,
+    "name": "cryo-phase17-panel-2-6207900e",
+    "created_epoch": 1788721738.3822951,
+    "deadline_epoch": 1788732538.3822951,
+    "reserved_usd": 2.1,
+    "prior_reserve_usd": 4.239681721153166,
+    "other_pending_reserve_usd": 0.0,
+    "plan_sha256": "d23cbbc46658d304db182ac4149f0ccf52fbecd6a317eb85413573f98e30164d",
+    "watchdog_pid": 46073
+  },
+  "resolution": {
+    "definitive_rejection": true,
+    "reason": "Provider explicitly reported no instances currently available; repeat listings found no matching Pod.",
+    "http_status": 500,
+    "error_sha256": "2a8462b14c75641d259d2956fddc4ec787057b93ade0211669cfa24932ca2bd1",
+    "no_matching_pods_now": true,
+    "checked_epoch": 1788721826.603028
+  },
+  "estimated_allocated_gpu_cost_usd": 0,
+  "no_pod_id_issued": true
+}

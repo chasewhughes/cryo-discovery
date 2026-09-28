@@ -1,0 +1,90 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Primary-source audit of CHEMBL4328667 / DOI 10.1021/acs.jmedchem.8b01098 for a ROCK2 retrospective benchmark; no affinity values inferred across assays and no cloud or GPU work.",
+  "sources": [
+    {
+      "kind": "primary_article_accepted_manuscript",
+      "title": "Identification of Selective Dual ROCK1 and ROCK2 Inhibitors Using Structure-Based Drug Design",
+      "url": "https://doi.org/10.1021/acs.jmedchem.8b01098",
+      "accessible_copy": "https://www.osti.gov/servlets/purl/1499728",
+      "local_path": "data/raw/phase17/methods/acs-jmedchem-8b01098.pdf",
+      "sha256": "c1d5dc25a84eec2fb2ef5459fa58c86c593777168761d29dc7c9bf738a011450"
+    },
+    {
+      "kind": "primary_supporting_information",
+      "title": "ACS Supporting Information for Hobson et al.",
+      "url": "https://acs.figshare.com/articles/journal_contribution/Identification_of_Selective_Dual_ROCK1_and_ROCK2_Inhibitors_Using_Structure-Based_Drug_Design/7458515",
+      "file_url": "https://ndownloader.figshare.com/files/13811189",
+      "local_path": "data/raw/phase17/methods/jm8b01098_si_001.pdf",
+      "sha256": "571e69ff86d03b00ea95c163df94566821652de08bbceb781ecab96d0da3ef78"
+    },
+    {
+      "kind": "primary_assay_record",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL4328667.json",
+      "local_path": "data/raw/phase15/rock/assay.json",
+      "sha256": "2754f4be3d76158e9d9d1f11885f0ee000bf2d5bd3dc8f456afaba15772a4f44"
+    },
+    {
+      "kind": "primary_activity_records",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?document_chembl_id=CHEMBL4325872&target_chembl_id=CHEMBL2973&limit=1000",
+      "local_path": "data/raw/phase15/rock/activities.json",
+      "sha256": "63c57c276ecc232826ab3038042c06ce3175338311d547bc6eb31a47ea6abdee"
+    },
+    {
+      "kind": "primary_structure_entry",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/6ED6",
+      "local_path": "data/raw/phase15/rock/6ED6-entry.json",
+      "sha256": "1eb461619acbcac4e11c561c433950e11bb705923bf1cc8dfb942d99f281dde1"
+    },
+    {
+      "kind": "primary_structure_polymer",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/6ED6/1",
+      "local_path": "data/raw/phase15/rock/6ED6-polymer.json",
+      "sha256": "37c1758374bd217f4bb0160b84a8e22dd9042b2f60739617ffad5eec8e526b95"
+    },
+    {
+      "kind": "primary_ligand_record",
+      "url": "https://data.rcsb.org/rest/v1/core/chemcomp/J0P",
+      "local_path": "data/raw/phase15/rock/J0P.json",
+      "sha256": "60469ffc588e02bc955dc47cf6e73725a0d4745ee92cf7363fd7858e636dc9ea"
+    }
+  ],
+  "confirmed": {
+    "article_assay": {
+      "target": "ROCK2 enzyme, human recombinant",
+      "construct": "amino acids 11-552 (542 residues), as stated in accepted manuscript p.5; ChEMBL CHEMBL4328667 independently describes GST-fused human recombinant ROCK2 residues 11-552 expressed in Spodoptera frugiperda insect cells",
+      "substrate_and_detection": "peptide substrate; phosphorylation monitored using 33P-labeled ATP in the HTS description (article p.5)",
+      "assay_record_details": "The article p.5 describes the approximately 700,000-compound HTS with 33P-labeled ATP. The SI routine HTRF protocol (pp.S2-S3) separately specifies fluorescent streptavidin/antibody detection after the 60-minute kinase reaction; ChEMBL's compressed description combines the 33P and HTRF terms. Preserve the contexts separately rather than treating them as one unresolved readout.",
+      "endpoint": "enzyme inhibition IC50; article Table 1 reports IC50 / \u00b5M at 100 \u00b5M ATP (pp.6-7), and the SI HTRF protocol gives the routine assay conditions (pp.S2-S3)",
+      "units_and_censoring": "Table values are \u00b5M; cells such as >10 \u00b5M are right-censored bounds. ChEMBL activity records may be represented in nM and must retain original relation and units before conversion."
+    },
+    "structure_6ED6": {
+      "target": "ROCK2 kinase domain, human source",
+      "ligand": "PDB ligand J0P, compound 12: N-[(2,3-dihydro-1,4-benzodioxin-5-yl)methyl]-4-(pyridin-4-yl)benzamide",
+      "construct": "The SI (p.S16) specifies human ROCK2 residues 27-417 with an N-terminal six-histidine/TEV purification tag for compound-12 crystallization. RCSB polymer entity 1 reports a 415-residue deposited construct sequence including the tag; this should not be described as 415 modeled protein residues or as assay residues 11-552.",
+      "structure_quality": "X-ray, 2.86 \u00c5, released PDB entry; solved pose is structural evidence only, not an affinity measurement",
+      "paper_mapping": "Accepted manuscript Figure 2 caption (p.18) identifies compound 12 in ROCK2 as PDB 6ED6. Table 1 (p.7) gives compound 12 ROCK2 IC50 0.037 \u00b5M at 100 \u00b5M ATP (37 nM; no censoring)."
+    },
+    "benchmark_rows": {
+      "assay_id": "CHEMBL4328667",
+      "document": "CHEMBL4325872 / DOI 10.1021/acs.jmedchem.8b01098",
+      "target": "CHEMBL2973 ROCK2",
+      "local_curated_counts": "46 downloaded activity rows, 43 exact unique compounds, 1 right-censored retained row according to data/phase15/rock-benchmark.json; 2 excluded rows",
+      "meaning": "This is a single-publication, single-assay enzyme IC50 retrospective panel with assay-derived weak observations, not a random decoy benchmark."
+    }
+  },
+  "unresolved_or_caveats": [
+    "The original article's accessible manuscript confirms the 11-552 HTS construct but does not establish that every later ROCK1/ROCK2 Table 1 measurement used exactly the same construct preparation. CHEMBL's assay description is the strongest local assay-specific record and should be cited for CHEMBL4328667 rows.",
+    "6ED6 has a 415-residue deposited construct sequence including the N-terminal tag; the SI identifies the processed ROCK2 portion as residues 27-417, while CHEMBL4328667 uses residues 11-552. These are not the same documented construct. Do not call a 6ED6-template run same-construct validation; quantify it as construct/domain transfer.",
+    "The paper's medicinal-chemistry series and PDB-linked compound are likely represented in model training data. Random splits risk analogue and publication leakage; structure-linked compounds should be excluded from training for a prospective structure-transfer test.",
+    "The article's p.5 33P statement refers to the discovery HTS, while the SI pp.S2-S3 documents the routine Table 1 HTRF assay; exact transfer of every ChEMBL row to a particular stage should still rely on CHEMBL4328667 metadata and the publication mapping."
+  ],
+  "defensibility": "A larger retrospective benchmark restricted to CHEMBL4328667 is defensible for assay-specific ROCK2 IC50 prediction and split-method testing, because target, publication, assay identifier, endpoint and censoring can be kept fixed. It is not a strict same-construct benchmark when using the 6ED6 construct (ROCK2 27-417 plus tag) against the CHEMBL4328667 assay construct (11-552). The actual kinase domain is now documented, so a 415-residue structure/template condition is scientifically interpretable as a domain/construct transfer; use the documented 11-552 sequence when available, report the 6ED6 condition separately, and keep exact compounds, salts/stereoisomers and close series grouped across folds.",
+  "required_reporting": [
+    "Retain target isoform, CHEMBL assay/document IDs, construct, substrate, ATP condition, readout metadata, endpoint, original unit and censoring relation for every row.",
+    "Report ROCK2 only for this panel; do not pool ROCK1, PKA, cellular pMYPT1, Kd/Ki, or CEPT/Y-27632 outcomes into this IC50 label.",
+    "Use scaffold/series or publication-held-out splits, with a structure-linked holdout policy stated before inference; random molecule splits are descriptive only.",
+    "Treat >10 \u00b5M as right-censored (or use a prespecified censored-loss/evaluation rule), never as 10 \u00b5M exact."
+  ],
+  "decision": "Proceeding with the larger panel is defensible as a retrospective, assay-specific ROCK2 benchmark with explicit construct/domain transfer and leakage limits. It should not be presented as matched-construct experimental validation or prospective generalization until sequence/construct reconciliation and a held-out external assay are supplied."
+}

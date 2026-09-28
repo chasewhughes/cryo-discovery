@@ -1,0 +1,163 @@
+{
+  "status": "Post hoc diagnostic after observing all 12 fine-histogram flags; no new MD or revised primary gate",
+  "source_results_sha256": "8c3e3f1f348dbfde0ceefa655e634130e4441c449613da44eb42750fd0df94dd",
+  "script_sha256": "f5af7ffb10a079c64a80a64c700d58f27ded7c7ef3bc79217887bf460e29c375",
+  "numpy_version": "2.5.2",
+  "random_seed": 20260929,
+  "permutations_per_run": 1000,
+  "block_length_ps": 100,
+  "procedure": "Group 300 frames into 30 consecutive 100 ps blocks. Randomly permute blocks; compare equal-weight PDFs from disjoint sets of 10 blocks each, omitting the middle 10. Preserve within-block dependence, break longer dependence.",
+  "within_mixed_05_95_count": 10,
+  "runs": [
+    {
+      "run": "gly-NVT-20260916",
+      "chronological_1ns_blocks_tv": 0.07035391593552358,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.060407409961800634,
+        0.07233157741636095,
+        0.08514641126785559
+      ],
+      "fraction_mixed_tv_ge_observed": 0.612,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.024027523412239626
+    },
+    {
+      "run": "gly-NPT-20260916",
+      "chronological_1ns_blocks_tv": 0.06996306429837638,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.062374094132683154,
+        0.07443672607241258,
+        0.08639560449061402
+      ],
+      "fraction_mixed_tv_ge_observed": 0.729,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.03780996251398607
+    },
+    {
+      "run": "phe-NVT-20260916",
+      "chronological_1ns_blocks_tv": 0.07518322096642341,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.05232181069419307,
+        0.062168498899791924,
+        0.07133388979685822
+      ],
+      "fraction_mixed_tv_ge_observed": 0.014,
+      "chronological_tv_within_mixed_05_95": false,
+      "posthoc_20bin_tv": 0.029340907452074894
+    },
+    {
+      "run": "phe-NPT-20260916",
+      "chronological_1ns_blocks_tv": 0.05595870865968504,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.05280802550260142,
+        0.061501334261021515,
+        0.07056509303031193
+      ],
+      "fraction_mixed_tv_ge_observed": 0.851,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.026178507632450828
+    },
+    {
+      "run": "gly-NVT-20260917",
+      "chronological_1ns_blocks_tv": 0.08400674175831478,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.060950367166734944,
+        0.07123666488330861,
+        0.08154814590795281
+      ],
+      "fraction_mixed_tv_ge_observed": 0.021,
+      "chronological_tv_within_mixed_05_95": false,
+      "posthoc_20bin_tv": 0.02296290236432416
+    },
+    {
+      "run": "gly-NPT-20260917",
+      "chronological_1ns_blocks_tv": 0.08314939920892958,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.06215741549626446,
+        0.0727532592184833,
+        0.0836604307124983
+      ],
+      "fraction_mixed_tv_ge_observed": 0.065,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.038616158386983485
+    },
+    {
+      "run": "phe-NVT-20260917",
+      "chronological_1ns_blocks_tv": 0.06501244909827276,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.0506151382056216,
+        0.06003082067699045,
+        0.06994442136378531
+      ],
+      "fraction_mixed_tv_ge_observed": 0.193,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.031145568289223394
+    },
+    {
+      "run": "phe-NPT-20260917",
+      "chronological_1ns_blocks_tv": 0.059294546134557535,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.0524319221972944,
+        0.06201575990750896,
+        0.07184769486962025
+      ],
+      "fraction_mixed_tv_ge_observed": 0.653,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.01823108908285023
+    },
+    {
+      "run": "gly-NVT-20260918",
+      "chronological_1ns_blocks_tv": 0.08318936523072674,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.06263646010524747,
+        0.07312141001758767,
+        0.0846301911485818
+      ],
+      "fraction_mixed_tv_ge_observed": 0.091,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.03571998046209416
+    },
+    {
+      "run": "gly-NPT-20260918",
+      "chronological_1ns_blocks_tv": 0.08457505801213101,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.0625979260705613,
+        0.07362748037525768,
+        0.08567467618001263
+      ],
+      "fraction_mixed_tv_ge_observed": 0.07,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.03505563432156527
+    },
+    {
+      "run": "phe-NVT-20260918",
+      "chronological_1ns_blocks_tv": 0.05270142551482176,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.05105158134857078,
+        0.06143091347424411,
+        0.07209571705176668
+      ],
+      "fraction_mixed_tv_ge_observed": 0.916,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.014834067186063874
+    },
+    {
+      "run": "phe-NPT-20260918",
+      "chronological_1ns_blocks_tv": 0.07141635663101462,
+      "random_100ps_block_mixing_tv_quantiles_05_50_95": [
+        0.053478987000468034,
+        0.062232797789625885,
+        0.0727158739726665
+      ],
+      "fraction_mixed_tv_ge_observed": 0.068,
+      "chronological_tv_within_mixed_05_95": true,
+      "posthoc_20bin_tv": 0.026194016624702665
+    }
+  ],
+  "limits": [
+    "Block exchangeability and a 100 ps dependence scale are assumptions, not established by this diagnostic.",
+    "Tail fractions are descriptive, not calibrated p-values; no multiple-testing or formal stationarity claim.",
+    "Coarsening bins cannot increase TV, so smaller 20-bin values are not evidence of convergence or better activity prediction.",
+    "The 0.05 fine-histogram gate and all 12 original flags remain unchanged. More effective samples or prespecified resolution calibration is needed before screening."
+  ]
+}

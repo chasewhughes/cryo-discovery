@@ -1,0 +1,160 @@
+[
+  {
+    "study_id": "doi:10.1186/s13287-025-04384-5",
+    "doi": "10.1186/s13287-025-04384-5",
+    "title": "DMSO-free cryopreservation of hiPSC-derived cardiomyocytes: low temperature characterization and protocol development.",
+    "year": 2025,
+    "pmcid": "PMC12150479",
+    "source_url": "https://doi.org/10.1186/s13287-025-04384-5",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase3/dmso-free-cm-pmc.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "hiPSC-derived cardiomyocytes"
+    ],
+    "study_design": "DMSO-free CPA optimization using trehalose, glycerol, and isoleucine, followed by controlled-rate freezing, nucleation-temperature optimization, osmotic characterization, and post-thaw cardiac-function testing.",
+    "interventions": [
+      "DMSO-free trehalose/glycerol/isoleucine CPA in Normosol R",
+      "cooling-rate and nucleation-temperature optimization"
+    ],
+    "mechanism_axes": [
+      "osmotic_membrane",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "cm-2025-1",
+        "model": "Cardiomyocytes from one engineered human CCND2 hiPSC line",
+        "intervention": "DMSO-free CPA composed of trehalose, glycerol, and isoleucine in Normosol R",
+        "comparator": "10% DMSO in Normosol R",
+        "formulation": [
+          {
+            "compound": "trehalose",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "glycerol",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "isoleucine",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "pre_freeze_loading",
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Optimizer evaluated at 1 °C/min and nucleation at −4 °C; later thermal optimization is a separate stage",
+        "warming": "37 °C water bath, swirling, approximately 2.5 minutes",
+        "storage": "Liquid-nitrogen vapor storage; duration not reported in the inspected methods",
+        "outcome_name": "Post-thaw recovery",
+        "outcome_type": "recovery",
+        "timepoint": "post-thaw",
+        "result": "Differential evolution used nine population entries per generation, with eight archived populations (0–7) and convergence after generation 6. Three selected formulations exceeded 90% recovery; optimizer-stage DMSO controls averaged 69.4 ± 6.4%. Figure 2 composition levels are arbitrary units, not absolute concentrations.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "72 population entries across eight generations; retained solutions can recur and entries are not independent donors",
+        "source_locator": "Results, DE algorithm-driven DMSO-free CPA optimization; Fig. 2",
+        "evidence_excerpt": "Naturally-occurring osmolytes such as trehalose"
+      },
+      {
+        "experiment_id": "cm-2025-2",
+        "model": "Cardiomyocytes from one engineered human CCND2 hiPSC line",
+        "intervention": "5 °C/min cooling with manual nucleation at −8 °C",
+        "comparator": "1 or 3 °C/min; nucleation at −4 or −6 °C",
+        "formulation": [
+          {
+            "compound": "Solution A DMSO-free CPA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "%"
+          }
+        ],
+        "treatment_stage": [
+          "pre_freeze_loading",
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "5 °C/min; manual nucleation at −8 °C",
+        "warming": "37 °C water bath, swirling, approximately 2.5 minutes",
+        "storage": "Liquid-nitrogen vapor storage; duration not reported in the inspected methods",
+        "outcome_name": "Live-cell recovery after thaw",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate post-thaw count before wash; live post-thaw / live pre-freeze",
+        "result": "Selected thermal settings were 5 °C/min cooling and −8 °C nucleation. Original tables contain 24 cooling-rate and 24 nucleation-temperature observations, four per arm/setting. These compare Solution A with 10% DMSO; batch identity is absent from the workbook.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "n=4 per condition and CPA in Fig. 3; three batches for nucleation optimization",
+        "source_locator": "Results, Cooling rate optimization and Nucleation Temperature Optimization; Fig. 3",
+        "evidence_excerpt": "rapid cooling rate of 5 °C/min"
+      },
+      {
+        "experiment_id": "cm-2025-3",
+        "model": "Cardiomyocytes from one engineered human CCND2 hiPSC line",
+        "intervention": "Best-performing DMSO-free Solutions A/B",
+        "comparator": "10% DMSO and freshly replated unfrozen cells",
+        "formulation": [
+          {
+            "compound": "Solution A DMSO-free CPA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "Solution B DMSO-free CPA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "%"
+          }
+        ],
+        "treatment_stage": [
+          "pre_freeze_loading",
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "5 °C/min; nucleation at −8 °C",
+        "warming": "37 °C water bath, swirling, approximately 2.5 minutes",
+        "storage": "Liquid-nitrogen vapor storage; duration not reported in the inspected methods",
+        "outcome_name": "Post-thaw recovery, cardiac markers, and calcium transients",
+        "outcome_type": "function",
+        "timepoint": "post-thaw culture for 1 week; calcium transient assay after replating/monolayer formation",
+        "result": "Original final-validation rows reproduce Solution A 92.0625%, Solution B 89.875%, and DMSO 80.1875% recovery (four observations each); A minus DMSO is 11.875 percentage points. The paper's ±2.50 and ±4.22 values match population SD; sample SEMs are 1.4447 and 2.4375 percentage points. Solution B had reduced calcium signal despite high recovery. The reported lack of a significant signal difference for A/DMSO versus fresh cells is not an equivalence result, and the amplitude normalization is unresolved.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Recovery n=4 observations per arm; calcium n=7 fresh, n=5 A, n=3 B and DMSO; one donor line",
+        "source_locator": "Results, Post-thaw functional assessment; Figures 6–7; original supplement Post-thaw assessment (recovery) rows 2–13 and (calcium) rows 2–19",
+        "evidence_excerpt": "calcium signal amplitude of the DMSO-free Solution A"
+      }
+    ],
+    "main_finding": "In one engineered CCND2 hiPSC-cardiomyocyte line, optimized DMSO-free Solution A yielded 92.06% live-cell recovery versus 80.19% for the optimized DMSO comparator; Solution B illustrates that high recovery can coexist with impaired calcium signaling.",
+    "limitations": [
+      "Figure 2 uses dimensionless composition levels; no mapping to absolute trehalose/glycerol/isoleucine concentrations was found in the inspected article or original supplement. A reproducible formulation cannot be inferred.",
+      "Recovery is explicitly live cells after thaw divided by live cells before freezing (Equation 1), not post-thaw live fraction. Supplementary tables do not provide underlying cell counts.",
+      "One engineered CCND2 donor line; four recovery observations per final arm are not four donors. Batch/trace identifiers and cross-panel independence are unresolved.",
+      "DMSO-free loading was 60 minutes versus 30 minutes for DMSO; loading and composition effects are confounded.",
+      "Final recovery prose ± values reproduce population SD, although the general figure legend describes SEM. Do not report those ± values as SEM.",
+      "All 18 stored calcium amplitudes equal peak minus minimum, whereas the paper labels the endpoint F/F0. Upstream normalization is not documented in the inspected tables.",
+      "Calcium was measured after monolayer formation; its exact day is not reported. Nonsignificant differences from fresh cells do not establish equivalence.",
+      "Optimizer-stage DMSO recovery of 69.4% is a different comparator stage from final-validation recovery of 80.19%."
+    ],
+    "mechanism_claim": "The study directly measured CPA recovery, low-temperature behavior, osmotic response, markers, and calcium transients. Osmolyte-mediated protection and osmotic management are interpretations supported by these measurements, not proof of a single molecular mechanism.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root methods/results, Figure 2/6 visual review and original-supplement recomputation"
+  }
+]

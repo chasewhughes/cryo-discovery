@@ -1,0 +1,708 @@
+[
+  {
+    "study_id": "doi:10.1038/s41598-025-85509-x",
+    "doi": "10.1038/s41598-025-85509-x",
+    "title": "High throughput method for simultaneous screening of membrane permeability and toxicity for discovery of new cryoprotective agents.",
+    "year": 2025,
+    "pmcid": "PMC11731021",
+    "source_url": "https://europepmc.org/articles/PMC11731021",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/methods-PMC11731021.xml",
+    "retrieved_at": "2026-09-05",
+    "source_license": "CC BY-NC-ND as indexed by Europe PMC; raw source retained locally only",
+    "evidence_scope": "methods_transfer",
+    "species": [
+      "Bos taurus"
+    ],
+    "cell_types": [
+      "bovine pulmonary artery endothelial cells"
+    ],
+    "study_design": "Plate-reader fluorescence quenching screen of 27 candidate CPAs at two temperatures, with sucrose as nonpermeating control; no freeze-thaw efficacy screen.",
+    "interventions": [
+      "27-compound CPA panel",
+      "exposure temperature"
+    ],
+    "mechanism_axes": [
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-0-1",
+        "model": "Bovine pulmonary artery endothelial cells in 96-well plates",
+        "intervention": "27 CPA candidates at approximately 1 molar and 4 degrees C",
+        "comparator": "Untreated/reference fluorescence and glycerol permeability benchmark",
+        "formulation": [
+          {
+            "compound": "CPA panel (27 separate chemicals)",
+            "concentration": 1,
+            "unit": "M, approximate; separate treatments"
+          }
+        ],
+        "treatment_stage": [
+          "CPA exposure without freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Calcein-based short-exposure viability and solute permeability",
+        "outcome_type": "toxicity",
+        "timepoint": "approximately 25 minutes exposure at 4 degrees C",
+        "result": "23 chemicals met the authors' 80% viability threshold and had permeability at least as high as glycerol. This is a short-exposure property screen, not a demonstration of preserved cell function after freezing.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Minimum 13 permeability replicates and 4 viability replicates per Figure 6A; not independent donors",
+        "source_locator": "Results paragraphs Par14 and Par18; Figure 6A caption",
+        "evidence_excerpt": "23 chemicals were nontoxic during short term"
+      },
+      {
+        "experiment_id": "methods-0-2",
+        "model": "Same bovine endothelial cell screening platform",
+        "intervention": "27 CPA candidates at approximately 2 molar and 25 degrees C",
+        "comparator": "80% viability decision threshold; 4-degree screen used different concentration and exposure time",
+        "formulation": [
+          {
+            "compound": "CPA panel (27 separate chemicals)",
+            "concentration": 2,
+            "unit": "M, approximate; separate treatments"
+          }
+        ],
+        "treatment_stage": [
+          "CPA exposure without freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Calcein-based viability",
+        "outcome_type": "toxicity",
+        "timepoint": "approximately 20 minutes exposure at 25 degrees C",
+        "result": "Six chemicals were classified as toxic at 25 degrees C. The 4- versus 25-degree comparison also changes concentration and exposure duration and should not be treated as an isolated causal temperature effect.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Minimum 16 permeability replicates and 4 viability replicates per Figure 6B",
+        "source_locator": "Results Par15; Figure 6B caption",
+        "evidence_excerpt": "six chemicals were found to be toxic"
+      }
+    ],
+    "main_finding": "A practical high-throughput filter can identify permeable, low-toxicity candidates before cryopreservation experiments.",
+    "limitations": [
+      "Single bovine endothelial model; short exposure does not establish safety at vitrification concentrations.",
+      "Approximately 1 M at 4 degrees C and 2 M at 25 degrees C are not matched exposure conditions.",
+      "No post-thaw efficacy, long-term function, or direct ice-inhibition outcome in this screening study."
+    ],
+    "mechanism_claim": "Direct permeability and exposure-toxicity measurements; physical ice protection and cell-death pathway inhibition remain untested.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1016/j.cryobiol.2025.105315",
+    "doi": "10.1016/j.cryobiol.2025.105315",
+    "title": "Screening for cryoprotective agent toxicity and toxicity reduction in mixtures at subambient temperatures.",
+    "year": 2025,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1016/j.cryobiol.2025.105315",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/methods-metadata.json",
+    "retrieved_at": "2026-09-05",
+    "source_license": "Abstract metadata; publisher full-text access not acquired",
+    "evidence_scope": "methods_transfer",
+    "species": [
+      "Bos taurus"
+    ],
+    "cell_types": [
+      "bovine pulmonary artery endothelial cells"
+    ],
+    "study_design": "High-throughput exposure-toxicity screen of 22 individual CPAs and binary mixtures at subambient temperature; abstract-level extraction.",
+    "interventions": [
+      "binary CPA mixtures",
+      "formamide plus glycerol",
+      "subambient exposure"
+    ],
+    "mechanism_axes": [
+      "osmotic_membrane",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-1-1",
+        "model": "Bovine pulmonary artery endothelial cells",
+        "intervention": "6 mol/kg formamide plus 6 mol/kg glycerol at 4 degrees C",
+        "comparator": "6 mol/kg formamide alone",
+        "formulation": [
+          {
+            "compound": "formamide",
+            "concentration": 6,
+            "unit": "mol/kg, denominator not specified in abstract"
+          },
+          {
+            "compound": "glycerol",
+            "concentration": 6,
+            "unit": "mol/kg, denominator not specified in abstract"
+          }
+        ],
+        "treatment_stage": [
+          "CPA exposure without freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Exposure viability",
+        "outcome_type": "toxicity",
+        "timepoint": null,
+        "result": "Abstract reports 20% viability with formamide alone versus 97% after adding glycerol, increasing total CPA concentration from 6 to 12 mol/kg. This illustrates toxicity neutralization, not a matched-total-concentration post-thaw comparison.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Abstract, final experimental example",
+        "evidence_excerpt": "resulting in a viability of 97 %"
+      }
+    ],
+    "main_finding": "Certain mixtures reduced exposure toxicity despite increased total CPA concentration, motivating formulation-level screens.",
+    "limitations": [
+      "Abstract-only evidence: exposure time, assay definition, replication, mixture denominator, and full protocol require full text.",
+      "Improved exposure viability does not demonstrate vitrification or post-thaw functional recovery.",
+      "The formamide example changes total concentration and cannot isolate an interaction without additional controls."
+    ],
+    "mechanism_claim": "Observed mixture-dependent toxicity reduction; biochemical mechanism and physical cryoprotection are not established by the abstract.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1038/s41598-022-25104-6",
+    "doi": "10.1038/s41598-022-25104-6",
+    "title": "Machine learning and hypothesis driven optimization of bull semen cryopreservation media.",
+    "year": 2022,
+    "pmcid": "PMC9790888",
+    "source_url": "https://europepmc.org/articles/PMC9790888",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/methods-PMC9790888.xml",
+    "retrieved_at": "2026-09-05",
+    "source_license": "CC BY",
+    "evidence_scope": "methods_transfer",
+    "species": [
+      "Bos taurus"
+    ],
+    "cell_types": [
+      "bull spermatozoa"
+    ],
+    "study_design": "Iterative extender optimization using differential evolution and supervised models, followed by comparison with a commercial/reference extender.",
+    "interventions": [
+      "Gaussian process regression plus differential evolution",
+      "multicomponent extender recipes"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-2-1",
+        "model": "Bull semen in 0.25 mL straws",
+        "intervention": "Generation 21 media optimized using relative total motility",
+        "comparator": "Commercial control medium in the same generation",
+        "formulation": [],
+        "treatment_stage": [
+          "pre-freeze equilibration",
+          "freezing"
+        ],
+        "cooling": "4 hours equilibration at 4 degrees C; 4 to -12 at 4 degrees C/min, -12 to -40 at 40 degrees C/min, -40 to -140 at 50 degrees C/min; plunge into liquid nitrogen",
+        "warming": "37-degree C water bath for 45 seconds",
+        "storage": "Liquid nitrogen for at least 24 hours",
+        "outcome_name": "Computer-assisted post-thaw sperm motility",
+        "outcome_type": "function",
+        "timepoint": "Post-thaw following 45-second water-bath warming",
+        "result": "Generation 21 median motility was 68.3% versus 65.3% for commercial medium; the pooled generation comparison was not statistically different (reported p=0.14). The result supports competitive formulation optimization, not proven superiority to the commercial reference.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Four bulls per generation, eight generated media plus control, triplicate straws; statistical comparison reports m=32 and n=4",
+        "source_locator": "Results Par13; Methods Par27; Figure 4",
+        "evidence_excerpt": "median post-thaw motility for the control medium was 65.3%"
+      },
+      {
+        "experiment_id": "methods-2-2",
+        "model": "Bull sperm extender-response modeling",
+        "intervention": "ANN and Gaussian process models trained on initial measured extender responses",
+        "comparator": "Measured responses in generation 6",
+        "formulation": [],
+        "treatment_stage": [
+          "model fitting"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Predicted versus measured post-thaw motility",
+        "outcome_type": "model_performance",
+        "timepoint": "Generation 6 held-out assessment",
+        "result": "Models used 200 extender-response pairs from generations 1-5 to predict 32 pairs in generation 6. The paper selected GPR based on its representation of experimental variability despite lower ANN prediction error; prospective follow-up gains were less dramatic than the main optimization trials.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "200 training pairs and 32 test pairs; correlated biological data, not 232 independent donors",
+        "source_locator": "Methods Par30; Discussion Par16-Par21",
+        "evidence_excerpt": "Unfortunately, the gains seen in previous trials"
+      }
+    ],
+    "main_finding": "A measured-data optimization loop produced competitive extenders with far fewer candidates than exhaustive factorial enumeration; superiority did not uniformly persist in follow-up.",
+    "limitations": [
+      "Bull sperm is methods-transfer evidence and does not establish iPSC efficacy.",
+      "Multiple observations share bulls and generations; split design matters.",
+      "Motility is not an in vivo fertility outcome.",
+      "Full Results distinguish generation 17 and 21 metrics; abstract wording should not be substituted for those comparisons."
+    ],
+    "mechanism_claim": "Formulation optimization with biological endpoints; no single molecular mechanism or dual-action CPA established.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1098/rsif.2022.0682",
+    "doi": "10.1098/rsif.2022.0682",
+    "title": "A highly active mineral-based ice nucleating agent supports in situ cell cryopreservation in a high throughput format.",
+    "year": 2023,
+    "pmcid": "PMC9905984",
+    "source_url": "https://europepmc.org/articles/PMC9905984",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/methods-PMC9905984.xml",
+    "retrieved_at": "2026-09-05",
+    "source_license": "CC BY",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "HepG2 hepatocellular carcinoma monolayers"
+    ],
+    "study_design": "Controlled versus uncontrolled extracellular ice nucleation in 96-well plates, with infrared thermography and immediate or delayed neutral-red cell recovery assays.",
+    "interventions": [
+      "LDH1 potassium feldspar in IceStart arrays",
+      "controlled extracellular ice nucleation"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-3-1",
+        "model": "HepG2 monolayers in 100 microliter freezing medium per well",
+        "intervention": "LDH1-loaded IceStart arrays",
+        "comparator": "Uncontrolled nucleation; manual nucleation as an additional positive control",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "trehalose",
+            "concentration": 0.015,
+            "unit": "M"
+          },
+          {
+            "compound": "LDH1 potassium feldspar",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "1 degree C/min from +4 to -80 degrees C",
+        "warming": "20 minutes at -20 degrees C, then 37-degree blocks with warm medium; melting typically within 2 minutes",
+        "storage": "7 days at -80 degrees C",
+        "outcome_name": "Neutral-red viable cell recovery normalized to nonfrozen reference",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate post-thaw assessment; dye uptake assay includes 2-hour equilibration",
+        "result": "Overall recovery was 46.2% with IceStart, 45.3% with manual nucleation, and 16.6% with uncontrolled nucleation. Controlled methods improved recovery; IceStart was not significantly different from manual nucleation.",
+        "effect_numeric": 29.6,
+        "effect_unit": "percentage-point difference, calculated: 46.2 minus 16.6",
+        "sample_size": "Eight replicate plates in the immediate assessment",
+        "source_locator": "Results, high-throughput cell cryopreservation; Figure 7; cell freezing and viability methods",
+        "evidence_excerpt": "were 46.2%, 45.3% and 16.6%"
+      },
+      {
+        "experiment_id": "methods-3-2",
+        "model": "HepG2 monolayers after extended recovery culture",
+        "intervention": "LDH1-loaded IceStart arrays",
+        "comparator": "Uncontrolled nucleation",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "trehalose",
+            "concentration": 0.015,
+            "unit": "M"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "1 degree C/min from +4 to -80 degrees C",
+        "warming": "-20-degree prewarming hold then warm blocks and medium",
+        "storage": "7 days at -80 degrees C",
+        "outcome_name": "Neutral-red viable cell number normalized to matched nonfrozen culture",
+        "outcome_type": "recovery",
+        "timepoint": "5 days post-thaw",
+        "result": "Overall normalized recovery averaged 80.5% with IceStart versus 53.1% with uncontrolled nucleation. This delayed measure incorporates attachment, survival, and proliferation; it is not an initial-cell survival fraction.",
+        "effect_numeric": 27.4,
+        "effect_unit": "percentage-point difference, calculated: 80.5 minus 53.1",
+        "sample_size": "Eight replicate plates in the 5-day assessment",
+        "source_locator": "Results, Figure 7 and Figure 8; neutral-red assay methods",
+        "evidence_excerpt": "80.5% versus 53.1%"
+      }
+    ],
+    "main_finding": "Controlling extracellular ice nucleation improved recoverable HepG2 monolayers; suppressing every form of ice is not the right target for all protocols.",
+    "limitations": [
+      "Single transformed hepatic cell line; no iPSC generalization.",
+      "Neutral-red recovery is not a cell-specific potency assay.",
+      "Delayed normalized counts include growth.",
+      "Nucleator delivery, temperature gradients, and plate geometry are integral to the result."
+    ],
+    "mechanism_claim": "Nucleation temperature and recovery were measured; downstream intracellular-ice and mechanical explanations are partly mechanistic interpretation.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1039/d1md00078k",
+    "doi": "10.1039/d1md00078k",
+    "title": "Proline pre-conditioning of cell monolayers increases post-thaw recovery and viability by distinct mechanisms to other osmolytes.",
+    "year": 2021,
+    "pmcid": "PMC8221256",
+    "source_url": "https://europepmc.org/articles/PMC8221256",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/methods-PMC8221256.xml",
+    "retrieved_at": "2026-09-05",
+    "source_license": "CC BY",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "cell_types": [
+      "A549 human adenocarcinoma monolayers",
+      "Neuro-2a",
+      "MC-3T3"
+    ],
+    "study_design": "Osmolyte preconditioning, factorial PVA supplementation, physical ice assays, recovery/growth measurements, and proteomic follow-up.",
+    "interventions": [
+      "L-proline preconditioning",
+      "betaine",
+      "alanine",
+      "polyvinyl alcohol",
+      "DMSO"
+    ],
+    "mechanism_axes": [
+      "biological_stress",
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-4-1",
+        "model": "A549 monolayers in 24-well plates",
+        "intervention": "24-hour proline preincubation followed by DMSO freezing, with or without PVA",
+        "comparator": "10% DMSO alone; PVA without preconditioning",
+        "formulation": [
+          {
+            "compound": "L-proline",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "PVA (9-10 kDa, 80% hydrolyzed)",
+            "concentration": 5,
+            "unit": "mg/mL; representative value within reported 2-5 mg/mL beneficial range"
+          }
+        ],
+        "treatment_stage": [
+          "24-hour preconditioning",
+          "10-minute CPA exposure before freezing"
+        ],
+        "cooling": "Freezing solution removed; CoolCell plate at 1 degree C/min to -80 degrees C",
+        "warming": "500 microliters complete medium warmed to 37 degrees C added rapidly",
+        "storage": "24 hours at -80 degrees C",
+        "outcome_name": "Trypan-blue viable attached-cell recovery relative to prefreeze count",
+        "outcome_type": "recovery",
+        "timepoint": "24 hours post-thaw",
+        "result": "DMSO alone yielded below 25% recovery; proline preconditioning increased recovery to approximately 50%, and adding 2-5 mg/mL PVA increased it to approximately 60%. PVA without preconditioning had no significant positive effect. Nonattached cells were excluded and the 24-hour measure can include growth.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 independent experiments with 2 nested replicates (Figure 2)",
+        "source_locator": "Results and discussion, paragraphs around Figure 2; cryopreservation methods",
+        "evidence_excerpt": "further increased recovery to 60%"
+      },
+      {
+        "experiment_id": "methods-4-2",
+        "model": "Cell-free osmolyte solutions and A549 preconditioning model",
+        "intervention": "Proline, betaine, and alanine compared with PVA and DMSO controls",
+        "comparator": "PBS and 5 mg/mL PVA physical assay controls; standard culture biological controls",
+        "formulation": [
+          {
+            "compound": "PVA physical assay control",
+            "concentration": 5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "cell-free ice assay",
+          "prefreeze culture"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Splat IRI assay and DSC; contextual proteomic interpretation",
+        "outcome_type": "ice_activity",
+        "timepoint": "Splat assay annealing for 30 minutes at -8 degrees C",
+        "result": "The osmolytes were not considered IRI-active under the tested conditions; DSC and ice-growth results supported a biochemical preconditioning explanation. Proteomics did not identify a single causal molecular target. The combination is multi-component protection, not proof of a dual-action proline molecule.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results and discussion, Figure 1 and Table 1; Conclusions",
+        "evidence_excerpt": "the osmolytes alone would not be considered IRI active"
+      }
+    ],
+    "main_finding": "Biological preconditioning and a physical ice inhibitor had complementary effects in A549 monolayers; cell-type differences and recovery denominator matter.",
+    "limitations": [
+      "Proline dose is shown graphically but not transcribed here; this summary cannot serve as a complete executable protocol.",
+      "A549 is a transformed cell line; smaller responses occurred in other tested lines.",
+      "Recovery excludes detached cells and includes 24 hours for potential growth.",
+      "No single molecular target or direct death-pathway inhibition established."
+    ],
+    "mechanism_claim": "Physical assays argue against proline IRI as the explanation; biological preconditioning is supported but not assigned to a single causal pathway.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1016/j.bpj.2015.09.029",
+    "doi": "10.1016/j.bpj.2015.09.029",
+    "title": "Direct Measurement of Water States in Cryopreserved Cells Reveals Tolerance toward Ice Crystallization.",
+    "year": 2016,
+    "pmcid": "PMC4775837",
+    "source_url": "https://europepmc.org/articles/PMC4775837",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/methods-PMC4775837.xml",
+    "retrieved_at": "2026-09-05",
+    "source_license": "CC BY-NC-ND as indexed by Europe PMC; raw source retained locally only",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "HeLa"
+    ],
+    "study_design": "Cryo-electron imaging, diffraction and controlled thermal excursions correlated with survival under different CPA mixtures.",
+    "interventions": [
+      "DE (DMSO plus ethylene glycol)",
+      "DES (DE plus sucrose)",
+      "EAFS mixture",
+      "warming excursions"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "osmotic_membrane",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-5-1",
+        "model": "HeLa cells on electron microscopy grids",
+        "intervention": "DE cryoprotection followed by controlled warming excursions",
+        "comparator": "EAFS cryoprotective medium",
+        "formulation": [
+          {
+            "compound": "DMSO in DE",
+            "concentration": 15,
+            "unit": "%, basis not stated in extracted methods"
+          },
+          {
+            "compound": "ethylene glycol in DE",
+            "concentration": 15,
+            "unit": "%, basis not stated in extracted methods"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "warming"
+        ],
+        "cooling": "Grid plunge freezing in liquid ethane at -170 degrees C",
+        "warming": "Controlled subzero excursions then survival assessment; thermal histories varied",
+        "storage": null,
+        "outcome_name": "Cryo-EM intracellular ice size correlated with cell survival",
+        "outcome_type": "mechanistic",
+        "timepoint": "After specified thermal excursions and final warming; survival assay timing not extracted",
+        "result": "Cells in DE survived intracellular crystals averaging 1-3 micrometers, whereas 0.4-0.8 micrometer crystals were lethal in EAFS. Crystal size tolerance was formulation-dependent; these observations do not establish universal tolerance of intracellular ice.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results, final paragraph before Discussion; Figure S3",
+        "evidence_excerpt": "The tolerable crystal sizes depend specifically on the chosen cryoprotective medium."
+      }
+    ],
+    "main_finding": "The relationship between ice, warming and viability depends on formulation; absence of detectable ice is not an adequate universal efficacy surrogate.",
+    "limitations": [
+      "Specialized HeLa cryo-imaging preparation and thermal histories do not directly transfer to iPSC banking.",
+      "This extraction does not capture a complete survival assay protocol or biological replicate count.",
+      "Observed survival does not demonstrate retained differentiation, genomic integrity, or long-term function."
+    ],
+    "mechanism_claim": "Direct physical measurements are linked to survival, suggesting formulation-dependent ice tolerance rather than only ice elimination.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1016/j.cryobiol.2009.04.012",
+    "doi": "10.1016/j.cryobiol.2009.04.012",
+    "title": "The dominance of warming rate over cooling rate in the survival of mouse oocytes subjected to a vitrification procedure.",
+    "year": 2009,
+    "pmcid": "PMC2729265",
+    "source_url": "https://doi.org/10.1016/j.cryobiol.2009.04.012",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/methods-metadata.json",
+    "retrieved_at": "2026-09-05",
+    "source_license": "Abstract metadata; full-text API retrieval unsuccessful",
+    "evidence_scope": "methods_transfer",
+    "species": [
+      "Mus musculus"
+    ],
+    "cell_types": [
+      "mouse oocytes"
+    ],
+    "study_design": "Factorial cooling and warming rate comparison in an ethylene glycol-acetamide-Ficoll-sucrose vitrification solution; abstract-level extraction.",
+    "interventions": [
+      "warming rate",
+      "cooling rate",
+      "EAFS vitrification solution"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-6-1",
+        "model": "Mouse oocytes in EAFS solution",
+        "intervention": "Highest warming rate of 2950 degrees C/min",
+        "comparator": "Lowest warming rate of 139 degrees C/min across cooling rates",
+        "formulation": [
+          {
+            "compound": "ethylene glycol-acetamide-Ficoll-sucrose mixture",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "warming"
+        ],
+        "cooling": "37-1827 degrees C/min measured between +20 and -120 degrees C, cooled to -196 degrees C",
+        "warming": "139-2950 degrees C/min measured between -70 and -35 degrees C",
+        "storage": null,
+        "outcome_name": "Oocyte survival",
+        "outcome_type": "viability",
+        "timepoint": null,
+        "result": "At the fastest warming rate, survival exceeded 80% across cooling rates of 187-1827 degrees C/min. At the slowest warming rate, survival was near zero regardless of cooling rate. The authors interpret slow-warming injury in terms of recrystallization.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Abstract",
+        "evidence_excerpt": "survivals were near 0% regardless of the cooling rate"
+      }
+    ],
+    "main_finding": "Warming rate can dominate survival in a defined vitrification context and must be recorded in comparative CPA studies.",
+    "limitations": [
+      "Abstract-only; concentration, sample size and assay timing unresolved.",
+      "Mouse oocytes differ from iPSCs in geometry, permeability and function.",
+      "The proposed ice mechanism should not be treated as directly proven by viability alone."
+    ],
+    "mechanism_claim": "Thermal-rate effect directly tested; intracellular recrystallization explanation is an author interpretation in the abstract.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "root"
+  },
+  {
+    "study_id": "doi:10.1016/j.cryobiol.2010.10.159",
+    "doi": "10.1016/j.cryobiol.2010.10.159",
+    "title": "Survival of mouse oocytes after being cooled in a vitrification solution to -196°C at 95° to 70,000°C/min and warmed at 610° to 118,000°C/min: A new paradigm for cryopreservation by vitrification.",
+    "year": 2011,
+    "pmcid": "PMC3041861",
+    "source_url": "https://doi.org/10.1016/j.cryobiol.2010.10.159",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase2/PMC3041861.html",
+    "retrieved_at": "2026-09-05",
+    "source_license": "PMC archived author manuscript; check article license before redistribution",
+    "evidence_scope": "methods_transfer",
+    "species": [
+      "Mus musculus"
+    ],
+    "cell_types": [
+      "mouse oocytes"
+    ],
+    "study_design": "Four cooling rates crossed with five warming rates; extension of the same research group's thermal-rate work, not independent cross-laboratory replication.",
+    "interventions": [
+      "ultrarapid warming",
+      "cooling rate"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "methods-7-1",
+        "model": "Mouse oocytes in a vitrification solution",
+        "intervention": "Warming at 118000 degrees C/min after four cooling rates",
+        "comparator": "Warming at 610 degrees C/min after the same cooling-rate range",
+        "formulation": [
+          {
+            "compound": "ethylene glycol",
+            "concentration": 10,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "acetamide",
+            "concentration": 10.7,
+            "unit": "% w/v"
+          },
+          {
+            "compound": "sucrose",
+            "concentration": 0.4,
+            "unit": "M"
+          },
+          {
+            "compound": "Ficoll 70",
+            "concentration": 24,
+            "unit": "% w/v"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "warming"
+        ],
+        "cooling": "95-69250 degrees C/min to -196 degrees C",
+        "warming": "610-118000 degrees C/min; five rates",
+        "storage": "Cooled to −196 °C in liquid nitrogen; duration not extracted",
+        "outcome_name": "Oocyte survival",
+        "outcome_type": "viability",
+        "timepoint": "Morphology and osmotic responsiveness including 2 hours in M16 medium",
+        "result": "At 118000 degrees C/min warming, survival was 70-85% regardless of prior cooling rate. At 610 degrees C/min, survival fell from 25% to 0% as cooling rate increased from approximately 95 to 69000 degrees C/min. Faster cooling alone did not ensure survival.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "20 thermal combinations; usually 4–6 replicate runs with about 6 oocytes per Cryotop",
+        "source_locator": "Materials and Methods; Assessment of viability; Results; Table 3",
+        "evidence_excerpt": "The ability to manifest these characteristics after two hours in M16 is considered a rather stringent test of viability."
+      }
+    ],
+    "main_finding": "A wider thermal-rate study reinforces the need to optimize warming jointly with formulation and cooling.",
+    "limitations": [
+      "Mouse oocytes and a vitrification solution; transfer to iPSC systems is not established.",
+      "Survival is a morphology/osmotic-response endpoint after 2 h culture, not long-term developmental function.",
+      "The mechanistic explanation includes an alternative possibility and is not direct intracellular ice imaging.",
+      "Related to the 2009 study by the same group; not independent laboratory replication."
+    ],
+    "mechanism_claim": "Thermal-rate effects are directly compared; recrystallization and devitrification remain alternative mechanistic interpretations.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "root; Luna methods extraction checked against primary full HTML"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "audit": "Chen et al. 2010/2011 chroman ROCK-II source audit",
+  "review_date": "2026-09-06",
+  "primary_source": {
+    "doi": "10.1039/C0MD00194E",
+    "title": "Asymmetric synthesis of potent chroman-based Rho kinase (ROCK-II) inhibitors",
+    "citation": "Chen YT et al., MedChemComm 2 (2011), 73-75",
+    "article_url": "https://pubs.rsc.org/en/content/articlelanding/2011/md/c0md00194e",
+    "official_si_url": "https://www.rsc.org/suppdata/md/c0/c0md00194e/c0md00194e.pdf"
+  },
+  "archived_sources": [
+    {
+      "url": "https://api.crossref.org/works/10.1039/C0MD00194E",
+      "path": "data/raw/phase20/chroman/crossref.json",
+      "sha256": "e5b54d7ea71d68d9a842629851cb921a4068407b35f20452c877e5ac6be04d97"
+    },
+    {
+      "url": "https://www.guidetomalariapharmacology.org/GRAC/LigandActivityRangeVisForward?ligandId=8197",
+      "path": "data/raw/phase20/chroman/gtopdb-8197.html",
+      "sha256": "7ae0b9b85f8737c419b00282de2ac4106165dca2f48e7ef9ce6284e32b9be0fc"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL3226111.json",
+      "path": "data/raw/phase20/chroman/chembl-assay.json",
+      "sha256": "7daa3cf4ab90df2627961f028e1f3759ceed84a33f355974a4dd87e5328894e0"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id=CHEMBL3226111&limit=1000",
+      "path": "data/raw/phase20/inventory/CHEMBL3226111-activities.json",
+      "sha256": "3f17f47a994e2f7142cb397150c9cac28a9c97b89e0fe15ef4a8bbad39068ef8"
+    }
+  ],
+  "access_status": {
+    "article": "not archived; RSC article PDF endpoint returned HTTP 403",
+    "official_si": "not archived; supplied RSC SI URL returned HTTP 404 in this retrieval",
+    "accessible_primary_content": "RSC indexed landing-page metadata/abstract only; no full source table or experimental section obtained"
+  },
+  "source_supported_findings": [
+    "The RSC abstract describes asymmetric synthesis of chroman-based ROCK-II inhibitors and says inhibitory properties against ROCK-II and selected homologous kinases were studied.",
+    "The public RSC landing-page metadata dates first publication to 2010-12-06 and the issue citation to MedChemComm 2011, volume 2, pages 73-75.",
+    "ChEMBL assay CHEMBL3226111 is annotated 'Inhibition of ROCK2 (unknown origin) after 4 hrs by HTRF assay', target CHEMBL2973, human target organism, confidence score 9, and document CHEMBL3217726.",
+    "The archived ChEMBL activity snapshot contains 10 records for this assay, all standard type IC50 and nM units; database relations must be preserved, including censored values.",
+    "The IUPHAR/BPS page links compound 11d (CHEMBL3221815) to this publication and displays a ROCK2 HTRF record with a <1 nM IC50, but this is a secondary database presentation, not a replacement for the primary table."
+  ],
+  "method_fields": {
+    "species": "ChEMBL target organism is Homo sapiens, but the assay description says unknown origin; species of the experimental protein is not independently confirmed in the primary article.",
+    "construct": "unresolved from the primary article/SI; a related 2008 HTRF/ROCK-II assay publication describes human ROCK-II 1-543, but that cannot be assumed to be the exact construct used in this 2011 study.",
+    "ATP": "unresolved from the primary article/SI; supplier protocol pages are secondary and were not used as primary evidence.",
+    "readout": "HTRF supported by ChEMBL/IUPHAR annotations; exact primary assay protocol unavailable.",
+    "controls": "no exact primary weak/inactive control table verified."
+  },
+  "count_and_eligibility": {
+    "chembl_records": 10,
+    "primary_table_exact_rock2_compounds": "unknown",
+    "meets_at_least_20_exact_compounds": false,
+    "strict_benchmark_eligible": false,
+    "reason": "Only 10 ChEMBL records are linked to the mapped assay, and the primary source table/SI could not be accessed to verify complete compound count, structures, construct, ATP, or exact values."
+  },
+  "recommendation": "Do not use as a >=20-compound independent benchmark. It can remain a one-series sensitivity source only after primary access or an authoritative protocol resolves construct/readout details and compound identities; retain censored relations and do not infer exact values from supplier summaries."
+}

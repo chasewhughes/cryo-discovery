@@ -1,0 +1,12 @@
+{
+  "phase": 20,
+  "attempts": {
+    "1": {
+      "state": "finished",
+      "reserved_epoch": 1788737156.2959151,
+      "finished_epoch": 1788741905.8765361,
+      "deleted": true
+    }
+  },
+  "active_attempt": null
+}

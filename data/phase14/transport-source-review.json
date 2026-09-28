@@ -1,0 +1,52 @@
+{
+  "status": "Primary source archived; benchmark specification only",
+  "source": {
+    "title": "An Improved Model for Nucleation-Limited Ice Formation in Living Cells during Freezing",
+    "pmcid": "PMC4031135",
+    "doi": "10.1371/journal.pone.0098132",
+    "publisher": "PLOS ONE 9(5), e98132 (2014)",
+    "files": [
+      {"path": "data/raw/phase14/transport/PMC4031135.pdf", "sha256": "5ff6870d5c4e626fba83cd794853efe4ab75f3df422a0c95fa7dce794b2c5396"},
+      {"path": "data/raw/phase14/transport/PMC4031135.fulltext.xml", "sha256": "6583cd97691b18054c57f81e1287467a100cd4cf0a347dfacc7686c89ee6a0a6"}
+    ]
+  },
+  "locators": {
+    "cell_and_reagents": "PDF p.2; XML Materials and Methods/Cells and Reagents",
+    "water_transport_equations": "PDF p.3, Eqs. 1-2; XML section Modeling of Water Transport during Freezing (equations retained as graphic assets)",
+    "water_transport_results": "PDF p.4, Fig. 3 caption and Results; XML paragraph beginning The average radius of HeLa cells",
+    "cooling_protocol": "PDF p.2; XML Cryomicroscopy Studies of Transmembrane Water Transport and IIF",
+    "pif_equations_and_parameters": "PDF pp.3-5, Eqs. 3-10 and Table 1"
+  },
+  "equations": {
+    "water_transport": "dV_C/dT = -(L_p A R T)/(B nu_w) [ (DeltaH_f/R)(1/T_R - 1/T) - ln((V_C-V_b-V_s)/(V_C-V_b-V_s + nu_s n_s/nu_w)) ]",
+    "permeability_arrhenius": "L_p = L_pg exp[-(E_Lp/R)(1/T - 1/T_R)]",
+    "notation": "V_C cell volume; A surface area; B cooling rate; R gas constant; DeltaH_f molar heat of fusion; V_b osmotic inactive volume; V_s solute volume; nu_w and nu_s partial molar volumes; n_s intracellular salt amount; T_R=273.15 K; L_pg permeability at T_R; E_Lp activation energy.",
+    "qualification": "Equation 1 is transcribed from the publisher PDF equation graphic; the archived XML preserves the same equation as an image reference. Confirm transcription against the page image before production calibration."
+  },
+  "published_parameters": {
+    "cell": "HeLa",
+    "initial_radius_um": {"mean": 7.51, "sd": 1.21, "n": 166, "temperature_C": -0.5},
+    "L_pg": {"value": 0.1166, "unit": "um min^-1 atm^-1"},
+    "E_Lp": {"value": 11.9236, "unit": "kcal mol^-1"},
+    "water_transport_fit_R2": 0.9702,
+    "cooling_rates_C_per_min": [5, 10, 15, 30, 60],
+    "water_transport_range_C": [-0.5, -45],
+    "iif_cooling_rates_C_per_min": [45, 60, 75, 100],
+    "iif_range_C": [-0.5, -50]
+  },
+  "minimally_reproducible_benchmark": {
+    "cell_preparation": "HeLa cells cultured in 90% DMEM + 10% FBS, 100 U/L penicillin G and 100 U/L streptomycin; washed twice with 1x PBS, trypsinized 5 min in 2 mL trypsin, centrifuged 100 x g for 5 min, resuspended in 1x PBS.",
+    "protocol": "Place a 10 uL cell suspension drop between coverslips; cool from room temperature to -1 C at 10 C/min to seed extracellular ice with copper wire; warm to -0.5 C at 10 C/min; equilibrate 3 min; cool to target at each specified rate.",
+    "observable": "Equivalent spherical cell radius from segmented projected area, converted to cell volume; normalize volume to the post-seeding -0.5 C equilibrium value.",
+    "fit": "Fit the water-transport model jointly (pooled) to volume-versus-temperature observations across five cooling rates; report L_pg, E_Lp, V_b and fit R2.",
+    "reference_curve_data": "No machine-readable volume-versus-temperature table was found in the archived article. Figure 3 provides plotted mean curves and fitted curves; digitization would be a separate, explicitly labeled derived dataset."
+  },
+  "missing_data_and_limits": [
+    "The article does not provide a machine-readable numerical reference curve in the archived full text; do not invent digitized points.",
+    "The benchmark is HeLa in PBS and measures freezing dehydration, not CPA loading/unloading or biological recovery.",
+    "The water-only membrane assumption excludes CPA and salt transport; the paper's PIF extension adds additional assumptions and fitted parameters.",
+    "Initial post-ice-seeding dehydration and incomplete extracellular-ice melting are acknowledged by the authors; the 3-minute equilibration is not guaranteed complete.",
+    "The reported fit is pooled across cooling rates and selected spherical cells (n>=28 per rate), so it is not an independent validation set.",
+    "Cell radius, intracellular salt amount, osmotic inactive volume, solution nonideality and temperature-dependent material properties require explicit calibration before reuse for another cell type or CPA."
+  ]
+}

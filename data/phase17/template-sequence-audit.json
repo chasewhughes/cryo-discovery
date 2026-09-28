@@ -1,0 +1,25 @@
+{
+  "method": "Exact string suffix equality, without gaps or substitutions",
+  "match": true,
+  "template_deposited_length": 415,
+  "canonical_core_range": [
+    27,
+    417
+  ],
+  "canonical_core_length": 391,
+  "tag_prefix": "MSYYHHHHHHDYDIPTTENLYFQG",
+  "model_range": [
+    11,
+    552
+  ],
+  "template_core_in_model_range": [
+    17,
+    407
+  ],
+  "sources": {
+    "data/raw/phase15/rock/6ED6-polymer.json": "37c1758374bd217f4bb0160b84a8e22dd9042b2f60739617ffad5eec8e526b95",
+    "data/raw/phase17/methods/O75116.json": "6adc1fed47d1fb30f58be60238481b2ca62d402e4f07b5e37357f5880aea82a5",
+    "data/phase17/target-sequence.json": "9fab325ee07029a0ba7ab80234597febc010aad9e6bf54ce9fa7e13df61033c5"
+  },
+  "limit": "Sequence agreement does not imply resolved coordinates for every residue or replicate the assay GST fusion."
+}

@@ -1,0 +1,65 @@
+{
+  "phase": 10,
+  "scope": "Public primary-source acquisition for raw per-run IRI grain-size data; no labels imported into training or assay-compatibility claims",
+  "checked_at": "2026-09-06",
+  "results": [
+    {
+      "doi": "10.1021/acs.cgd.5c00221",
+      "title": "Do Inhibition Studies of Ice Crystallization Indicate Cryoprotectant Efficacy?",
+      "primary_urls": [
+        "https://doi.org/10.1021/acs.cgd.5c00221",
+        "https://acs.figshare.com/articles/journal_contribution/Do_Inhibition_Studies_of_Ice_Crystallization_Indicate_Cryoprotectant_Efficacy_/29185191",
+        "https://api.figshare.com/v2/articles/29185191"
+      ],
+      "access": {
+        "figshare_api": "HTTP 200; public record inspected",
+        "registered_files": [
+          {
+            "name": "cg5c00221_si_001.pdf",
+            "url": "https://ndownloader.figshare.com/files/54935598",
+            "size_bytes": 5260937,
+            "md5": "0adbefadfeada8a496b3a825b4b0edcf",
+            "local_path": "data/raw/phase9/acs-2025-si.pdf",
+            "sha256": "65b36e1f5bbf3bf05228c8c07af8a8fe7867ec0db32d26a1d01cbc394b2caf4c"
+          }
+        ],
+        "excel_search": "The s001 Figshare record registers only its PDF. The SI refers to generated Excel grain data, but that spreadsheet was not located. Root separately acquired the s002 presentation from Figshare record 29185194: it contains four slides, four MP4 videos, four preview PNGs and no embedded workbook. This is additional visual source material, not a compatible numeric measurement table.",
+        "second_supplement": {"doi": "10.1021/acs.cgd.5c00221.s002", "figshare_record": 29185194, "file_id": 54935601, "inventory": "data/phase10/acs-presentation-inventory.json", "downloaded_bytes": 61841604, "conditions_in_slide_text": ["Glycerol 1 mM", "AFPIII 10 micromolar with/without buffer", "PVA 0.01 mg/mL"], "review": "Slide XML and archive inventory inspected; root viewed one preview image. Videos were not analyzed or digitized."}
+      },
+      "eligibility": "Ineligible for the frozen amino/glyco2 numeric external evaluation: no machine-readable per-run observations were publicly acquired; the SI reports 1 mM low-molecular-mass conditions and assay outputs across multiple times, which are condition-shift context rather than the benchmark 20/22 mM protocols."
+    },
+    {
+      "doi": "10.1016/j.jcis.2026.140021",
+      "title": "Self-assembled nanostructures of 3ph-imi[FeCl4] as a strong ice recrystallization inhibitor",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.jcis.2026.140021",
+        "https://linkinghub.elsevier.com/retrieve/pii/S0021979726001980",
+        "https://ars.els-cdn.com/content/image/1-s2.0-S0021979726001980-mmc1.docx"
+      ],
+      "access": {
+        "crossref": "HTTP 200; publication metadata and Elsevier PII link verified",
+        "supplementary_docx": {
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979726001980-mmc1.docx",
+          "http_result": "HTTP 200",
+          "size_bytes": 2943921,
+          "local_path": "data/raw/phase10/jcis-2026-mmc1.docx",
+          "sha256": "c36174d15d33f59947239c215a579910b74d962f5dfb732ab734510ccad64ecb"
+        },
+        "candidate_raw_excel": [
+          {
+            "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979726001980-mmc1.xlsx",
+            "http_result": "HTTP 404; no file acquired"
+          },
+          {
+            "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979726001980-mmc2.xlsx",
+            "http_result": "HTTP 404; no file acquired"
+          }
+        ],
+        "content_review": "Root inspected DOCX XML text and object relationships. Tables S1-S3 cover surface tension, representative literature IRI activity, and DSC. No per-run grain-area table was found in the document text. Fifteen embedded OLE objects remain in the original file: seven Origin graphs associated with spectroscopy/energy spectra/nucleation figures, and eight ChemDraw objects in the literature-comparison table. Their internal numeric data were not decoded; they are not established as absent. No eligible IRI observations were acquired from those objects.",
+        "embedded_objects": {"count": 15, "Origin95.Graph": 7, "ChemDraw.Document.6.0": 8, "inspection": "Program IDs and adjacent figure captions from Word XML; no object executed"}
+      },
+      "eligibility": "Ineligible for frozen-model scoring: the source is an ionic-liquid/self-assembled nanostructure series with unresolved comparability to the benchmark. No qualifying per-run grain observations were acquired. Table S2 repeats literature values and must not be counted as new independent measurements. Retain as a methods/condition-shift lead only."
+    }
+  ],
+  "queue": "No qualifying external numeric rows acquired. A future eligible acquisition requires source-supported identities plus final concentration, buffer/pH, anneal conditions, endpoint normalization, replicate grouping and per-run grain measurements."
+}

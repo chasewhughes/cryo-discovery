@@ -1,0 +1,29 @@
+{
+  "job_id": "leu-NPT-20261011",
+  "pod_id": "qzp966o4e0nmx0",
+  "name": "cryo-phase13-leu-NPT-20261011-19f93b",
+  "created_epoch": 1788700712.6471722,
+  "deadline_epoch": 1788704312.6471722,
+  "cost_per_hour": 0.74,
+  "input_sha256": {
+    "system.xml": "ead2dbd1ed7921caef9f07e0e6893cf748ea97707fa64c796b420522eba287d4",
+    "integrator.xml": "ed58c9f53ffc1058ce9c1a0403d796864fe74b69f7b7c14ec88e537dc115034b",
+    "final-state.xml": "e4d222cafde5339c6b687884a87f7a8c4e0bad7655abbb6e4ae264b31342a8eb",
+    "topology-final-box.pdb": "6e4a700ee1f255c383936294312083c236191941289947e991e943608d79bc44",
+    "result.json": "f6ec6184267347c068e446856175317573c846fde10343dcd75017cfc25fd11e"
+  },
+  "worker_sha256": "cb2cda9cd252413503937978bfb2e771bb751cf067d7e85d14c8231166438e76",
+  "code_sha256": {
+    "scripts/run_matched_hydration.py": "7c019547a2227015be0ef5742da3d5f851e991abbf33b475409c2d088b73c425",
+    "scripts/run_hydration_extension.py": "f69edc1915f95130ace2f0c8513793629dcf1d0e8323b221729fa240bc510ee9",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b"
+  },
+  "plan_sha256": "a7a08f11908b814f7ba5ca5360b620a01f2259e332173707582c5d33493d3223",
+  "watchdog_pid": 92816,
+  "deleted": true,
+  "ended_epoch": 1788700731.8872151,
+  "elapsed_hours": 0.0053444563680224945,
+  "estimated_gpu_cost_usd": 0.003954897712336646,
+  "failure": "launch"
+}

@@ -1,0 +1,110 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Independent audit of CHEMBL1071707 / Morwick et al. DOI 10.1021/jm9014263 as a possible external ROCK2 evaluation set.",
+  "primary_sources": [
+    {
+      "kind": "primary_article",
+      "doi": "https://doi.org/10.1021/jm9014263",
+      "acs_page": "https://pubs.acs.org/doi/10.1021/jm9014263",
+      "title": "Hit to Lead Account of the Discovery of Bisbenzamide and Related Ureidobenzamide Inhibitors of Rho Kinase",
+      "year": 2010,
+      "citation_pages": "J. Med. Chem. 2010, 53, 759-777; assay description p.761 and ROCK dose-response protocol p.777 in accessible article copy",
+      "local_copy": "data/raw/phase18/methods/article-copy.pdf",
+      "local_copy_sha256": "3c1ddad98c46912d3e84b037139667b5de8af3ba77572b3b9cede97fc73abc39",
+      "copy_status": "Secondary publisher-like PDF mirror used for text inspection; DOI/ACS page remains the primary citation.",
+      "retrieval_url": "https://file1.lookchem.com/doi/2022/3/20/48b47add-b15b-4758-b623-256068c7c56d.pdf",
+      "retrieval_note": "Downloaded through the storage wrapper for text inspection; secondary mirror, not the authority for citation."
+    },
+    {
+      "kind": "primary_supporting_information",
+      "figshare_article": "https://acs.figshare.com/articles/journal_contribution/Hit_to_Lead_Account_of_the_Discovery_of_Bisbenzamide_and_Related_Ureidobenzamide_Inhibitors_of_Rho_Kinase/2796493",
+      "file_url": "https://ndownloader.figshare.com/files/4490860",
+      "local_path": "data/raw/phase18/methods/jm9014263_si_001.pdf",
+      "sha256": "709b7143c06e83f9a6cc17e8da7c907799a2b9d4976b459c613362eaff218228",
+      "citation_pages": "SI pp.S2-S3",
+      "status": "Primary ACS-hosted supporting information"
+    },
+    {
+      "kind": "primary_ChEMBL_assay_and_activities",
+      "assay_url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1071707.json",
+      "activity_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id=CHEMBL1071707&limit=1000",
+      "document_url": "https://www.ebi.ac.uk/chembl/api/data/document/CHEMBL1157712.json",
+      "local_files": [
+        {
+          "path": "data/raw/phase18/methods/assay.json",
+          "sha256": "8d067cf73bacd33cbd789ee00adbc4794b1ab564d7cdf14172b0b5f587ab7e73"
+        },
+        {
+          "path": "data/raw/phase18/methods/activities.json",
+          "sha256": "6bcd6eea03e7f9d6a101f4a98fe81955c8f147c454eebb6a89176ff678282056"
+        },
+        {
+          "path": "data/raw/phase18/methods/document.json",
+          "sha256": "99cb39b4c026676b1f23a48a3948046b2858d57379399f6d49705b38599da451"
+        },
+        {
+          "path": "data/raw/phase18/methods/CHEMBL604249.json",
+          "sha256": "3cef108b869efc21b3f21943030b21ac534bfe743107235493071eb6d6d8b0d6"
+        }
+      ]
+    }
+  ],
+  "confirmed_primary_method": {
+    "target": "Human ROCK2 kinase domain",
+    "construct": "ROCK2 residues 1-543, with no GST fusion stated in the routine dose-response protocol (article p.777; SI p.S3)",
+    "substrate": "AKRRRLSSLRA peptide, final 500 nM",
+    "ATP": "750 nM final in the routine luciferase assay; SI IMAP comparison uses 100 uM ATP and is a separate format",
+    "readout": "Homogeneous Cambrex PKLight luciferin-luciferase detection of residual ATP; 90 min reaction at 28 C, then luminescence (article p.777). SI describes IMAP FP as a separate assay and reports approximately 2-4-fold higher IC50 values at 100 uM ATP.",
+    "endpoint": "Enzyme inhibition IC50, reported in nM; not Kd/Ki and not cellular functional potency",
+    "luciferase_interference": "The article reports that some dimethylaminomethylphenyl compounds inhibit the luciferase detection enzyme and that IMAP comparison was used to assess impact. Treat this as a readout-interference risk and preserve luciferase versus IMAP as distinct endpoints; do not interpret the 100 uM IMAP measurements as interchangeable calibration labels."
+  },
+  "record_audit": {
+    "downloaded_records": 51,
+    "assay_records": 51,
+    "exact_numeric_ic50_records": 40,
+    "exact_unique_molecules": 39,
+    "right_censored_ic50_records": 10,
+    "other_exact_endpoint_records": 1,
+    "exact_rows_flagged_by_chembl": 11,
+    "censored_rows_flagged_by_chembl": 10,
+    "flagged_issue": "ChEMBL data_validity_comment='Outside typical range' occurs on 21 rows: 10 right-censored rows (activity IDs 3131686-3131695) and 11 exact rows (3131696-3131706), including values 102000-3200000 nM. Flags do not by themselves establish unit errors; preserve them and reconcile against the primary tables before freezing inclusion.",
+    "out_of_assay_or_duplicate_check": "The downloaded query is assay-specific. CHEMBL604249 appears twice within this assay under the same record_id 881722: activity 3131702 is 266000 nM and flagged Outside typical range, while activity 3131724 is 92 nM and unflagged. The molecule has identical canonical SMILES in both records. This is a material internal inconsistency, not a safe replicate to average.",
+    "censoring_policy": "The ten >6,000,000 or >7,000,000 nM rows are right-censored observations and cannot be converted to exact values; they account for the ten flagged censored rows.",
+    "reconciliation_status": "Superseded by data/phase18/source-table-reconciliation.json: 30 Table 4-7 analogue rows mapped, 17 documented 1000-fold \u00b5M-to-nM corrections, and both CHEMBL604249 records excluded."
+  },
+  "source_mapping_checks": [
+    {
+      "article_entries": "Table 6 entries 33 and 34",
+      "article_values": "ROCK2 266 nM (33) and 92 nM (34)",
+      "chembl_evidence": "The raw records contain 266000 nM (activity 3131702, flagged) and 92 nM (activity 3131724, unflagged) for the same CHEMBL604249 structure.",
+      "finding": "Cannot establish which source row was intended for CHEMBL604249 from ChEMBL alone; the 266000 nM value conflicts with the article's 266 nM Table 6 value by three orders of magnitude, while 92 nM matches article entry 34. Exclude this molecule pending primary structure/compound-number reconciliation; do not silently choose 92 nM."
+    },
+    {
+      "article_entries": "SI Table 1, compounds 16-49",
+      "finding": "The SI confirms luciferase versus IMAP values and assay-format dependence, but ChEMBL activity JSON does not retain article compound numbers. Full compound-number mapping was not claimed."
+    }
+  ],
+  "eligibility_decision": {
+    "status": "eligible_with_frozen_curation",
+    "reason": "The primary study is a scientifically relevant independent biochemical ROCK2 source with a documented 1-543 construct, 750 nM ATP luciferase assay, and 500 nM peptide. The frozen source-table reconciliation maps 30 analogue rows, documents 17 source-supported 1000-fold \u00b5M-to-nM corrections, preserves censoring, and excludes both ambiguous CHEMBL604249 records. Remaining limits are assay interference, source-series overlap, and unknown pretrained-model overlap.",
+    "recommended_action": "Use the frozen 30-row reconciled analogue panel for separately reported external evaluation/calibration. Do not reselect rows after seeing predictions; keep censored and excluded records in provenance.",
+    "training_overlap": "Unknown. The series predates the current model but may occur in pretraining or related kinase datasets; no independence from pretrained model data is established."
+  },
+  "reporting_requirements": [
+    "Keep CHEMBL1071707 separate from Phase 17 CHEMBL4328667; do not pool their IC50 values.",
+    "Preserve original nM values, relations, activity IDs, ChEMBL validity flags, and assay metadata.",
+    "Use the 1-543 protein sequence and 750 nM ATP context as the primary assay description; do not substitute the SI's 100 uM IMAP condition.",
+    "Freeze treatment of the 11 flagged exact rows, 10 censored rows, and the 266000/92 nM conflict before any model evaluation.",
+    "Do not use a calibration result from this source as evidence for CEPT biology, ice inhibition, or prospective efficacy."
+  ],
+  "reconciliation_summary": {
+    "source_file": "data/phase18/source-table-reconciliation.json",
+    "mapped_rows": 30,
+    "documented_1000fold_corrections": 17,
+    "excluded_ambiguous_activity_ids": [
+      3131702,
+      3131724
+    ],
+    "qualified_panel_policy": "Frozen reconciled rows only; right-censored rows remain separate and are not exact regression labels."
+  }
+}

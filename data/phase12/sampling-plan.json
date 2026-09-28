@@ -1,0 +1,137 @@
+{
+  "status": "Frozen before Phase 12 production; selected stochastic branches for engineering measurement stability only",
+  "frozen_at": "2026-09-06T11:27:07.338699+00:00",
+  "parent_phase": 11,
+  "offline_calibration_sha256": "261767622587f21cdd4e58196b95f9de52cd955c99965d2c1675abe04e3c770c",
+  "descriptor_version": "cryo-nearest-water-v1",
+  "descriptor": "Unchanged Phase 11 100-bin [0,0.5] nm conditional nearest-water PDF, all solute atoms including H, solvent oxygen once, per-frame normalization and equal-frame averaging",
+  "branching": {
+    "saved_positions_and_velocities_retained": true,
+    "new_thermostat_rng_seeds": true,
+    "NPT_barostat_seed": "new seed + 100000",
+    "exact_rng_continuation": false,
+    "new_independent_starting_conformations": false,
+    "reset_analysis_clock": true,
+    "equilibration_excluded": true,
+    "pool_with_parent_production": false,
+    "selection": "Two NVT parents above Phase 11 post hoc 100-ps mixing envelope and their matched NPT parents. Selection is outcome-informed, not independent replication."
+  },
+  "primary": {
+    "endpoint": "First 500 production frames (5 ns) versus last 500 (5 ns), each new branch separately",
+    "max_pdf_total_variation": 0.05,
+    "max_absolute_density_change_g_ml": 0.005,
+    "max_absolute_count_0_30nm_change": 0.5,
+    "max_absolute_whole_production_mean_temperature_error_K": 3,
+    "interpretation": "Exploratory engineering flags, no formal convergence or independent error-rate guarantee"
+  },
+  "secondary": {
+    "consecutive_window_ps": 2000,
+    "windows_per_run": 5,
+    "report_all_windows": true,
+    "maximum_window_gate": false,
+    "bins": [
+      20,
+      50,
+      100
+    ],
+    "block_ps": [
+      100,
+      250,
+      500
+    ],
+    "endpoint_window_ps": [
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "block_mixing_permutations": 1000,
+    "random_seed": 20261006,
+    "interpretation": "Equal-frame disjoint block mixing descriptive references; exchangeability/dependence scale unestablished. No p-values. Coarsening cannot increase TV."
+  },
+  "cloud": {
+    "max_rate_usd_per_hour": 0.8,
+    "max_lifetime_seconds": 3600,
+    "per_run_timeout_seconds": 1900,
+    "runner_max_wall_seconds": 1800,
+    "batch_reserve_usd": 3.7,
+    "shutdown_storage_margin_usd": 0.5,
+    "cumulative_gpu_limit_usd": 10,
+    "parallel_pods": 4
+  },
+  "jobs": [
+    {
+      "id": "gly-NVT-20260917",
+      "parent_id": "gly-NVT-20260917",
+      "compound": "gly",
+      "ensemble": "NVT",
+      "parent_seed": 20260917,
+      "seed": 20261001,
+      "equilibration_ps": 100,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "ddb1e388eea966881a828a1b3a985312d9e1f32c1780ecec3bda41fd06df98fd",
+        "integrator.xml": "380526835e1ee423ab59dc200f5894ad5cce589f97ccebaaa7cec22b5db2cbd2",
+        "final-state.xml": "f275b9e573061e4a4634636e0a95e84a2b2d134adb2fc48c7b76ace96f31e7e3",
+        "topology-final-box.pdb": "0140afec9802bf88548cebc1d6327652630f74f323d1885878d2a1eb7b0418d8",
+        "result.json": "b4abbf398a8b7cae8c42f8660e8631621fc764836e25a58abf171898485edce7"
+      }
+    },
+    {
+      "id": "gly-NPT-20260917",
+      "parent_id": "gly-NPT-20260917",
+      "compound": "gly",
+      "ensemble": "NPT",
+      "parent_seed": 20260917,
+      "seed": 20261002,
+      "equilibration_ps": 100,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "a760bc39eb319f0858f6077fbdda3c1d61ddca50db82a2f7f213d6ae1e0f7abf",
+        "integrator.xml": "380526835e1ee423ab59dc200f5894ad5cce589f97ccebaaa7cec22b5db2cbd2",
+        "final-state.xml": "fbbe9b8134147e5d4da6def854888f17f42e28c2935a34a8a7cf02712192d394",
+        "topology-final-box.pdb": "5f17ccf3c1c5329f2f34fac5e5714e3eb90d73d46b99ea60d77222781eef891a",
+        "result.json": "670a5eaccaa82d0788005d55ad164f71415ae82c448174cfbb75368c6b617226"
+      }
+    },
+    {
+      "id": "phe-NVT-20260916",
+      "parent_id": "phe-NVT-20260916",
+      "compound": "phe",
+      "ensemble": "NVT",
+      "parent_seed": 20260916,
+      "seed": 20261003,
+      "equilibration_ps": 100,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "7e71fa0514484386c7167e0cf9939a2adc6716b248901400f5cec5126efe4b44",
+        "integrator.xml": "a3f274793692de1a9d29baf88e98c99d9681e7f8feb28c752c3d07b2db08a56c",
+        "final-state.xml": "bbe878afd64db3d29334cc0bd3e9a710bccc2750a351be396ef72c76843ab1e4",
+        "topology-final-box.pdb": "118faebf4a5908754ae9cb73280f111e4cc70d7b46d288b87683b94c47e82bcb",
+        "result.json": "b1bbfcc5db158b4627e8a024e0832e15d3b100696a64c007c212dfc5e81c8434"
+      }
+    },
+    {
+      "id": "phe-NPT-20260916",
+      "parent_id": "phe-NPT-20260916",
+      "compound": "phe",
+      "ensemble": "NPT",
+      "parent_seed": 20260916,
+      "seed": 20261004,
+      "equilibration_ps": 100,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "c87bcb3572fd95bb09418b5e03d17ab9fa3363c04af62e25202ecd1e9f8469df",
+        "integrator.xml": "a3f274793692de1a9d29baf88e98c99d9681e7f8feb28c752c3d07b2db08a56c",
+        "final-state.xml": "fa872a15618969368ae13933747ee3e2c8258b499a8d8f1073c0d0082dc38bf7",
+        "topology-final-box.pdb": "aaa65d268b7fcd94908848631585a03b8b290c0e9fcc82bbdca4f6380cd72fa6",
+        "result.json": "1c2ee9fdab3c37e6d1f9242801d66e50da4a47183ddc71a7273dc96b6d958e35"
+      }
+    }
+  ],
+  "outcome": "40 ns new liquid-water production plus 0.4 ns re-equilibration. No ice, membrane, toxicity, apoptosis, post-thaw viability, efficacy labels or fitted model. Any pass supports only measurement stability under this setup."
+}

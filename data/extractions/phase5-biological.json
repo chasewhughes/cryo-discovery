@@ -1,0 +1,252 @@
+[
+  {
+    "study_id": "doi:10.3390/antiox14121412",
+    "doi": "10.3390/antiox14121412",
+    "title": "Integrated Antioxidants, Nanoparticle, and Antifreeze Protein Strategies Synergistically Enhance Cryotop Vitrification Outcomes of Porcine Parthenogenetic Embryos.",
+    "year": 2025,
+    "pmcid": "PMC12729773",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12729773/",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase5/porcine-embryos.html",
+    "retrieved_at": "2026-09-06",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Sus scrofa"
+    ],
+    "cell_types": [
+      "in-vitro-matured porcine parthenogenetic embryos"
+    ],
+    "study_design": "Sequential Cryotop vitrification optimization with culture-stage antioxidants, vitrification-stage ice/particle additives, and post-warming recovery refinements; experiments repeated at least three times.",
+    "interventions": [
+      "berberine 2.5 μM and melatonin 10−9 M during culture",
+      "Fe3O4 nanoparticles 1.0% and AFP I 500 ng/mL during equilibration/vitrification",
+      "post-warm glutathione 5 mM and trypsin zona treatment 45 s"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "biological_stress",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p5-bio-porcine-1",
+        "model": "Frozen–thawed porcine parthenotes on Cryotop",
+        "intervention": "Berberine, melatonin, Fe3O4 and AFP I were compared individually and in paired combinations across culture and vitrification stages.",
+        "comparator": "Cryotop-only frozen control and fresh control",
+        "formulation": [
+          {
+            "compound": "berberine",
+            "concentration": 2.5,
+            "unit": "μM"
+          },
+          {
+            "compound": "melatonin",
+            "concentration": 1e-09,
+            "unit": "M"
+          },
+          {
+            "compound": "Fe3O4 nanoparticles",
+            "concentration": 1.0,
+            "unit": "%"
+          },
+          {
+            "compound": "AFP I",
+            "concentration": 500,
+            "unit": "ng/mL"
+          }
+        ],
+        "treatment_stage": [
+          "culture",
+          "freezing"
+        ],
+        "cooling": "TL-PVA with 7.5% DMSO/7.5% EG for 3 min at reported 41 °C, then 16% DMSO/16% EG/0.4 M sucrose for 30 s; Cryotop plunge; measured rate not reported",
+        "warming": "Reported 39 °C thawing solution; morphology survival at 24 h culture, hatching at blastocyst stage",
+        "storage": null,
+        "outcome_name": "Post-thaw survival, hatching, cytoskeletal integrity, ROS and ATP",
+        "outcome_type": "viability",
+        "timepoint": "Morphological survival 24 h post-warm; hatching at blastocyst stage",
+        "result": "Fe3O4+AFP I and berberine+melatonin each improved survival and quality endpoints versus Cryotop-only controls; the paired arms exceeded either component alone where directly compared. Each additive improved measured endpoints versus Cryotop-only; paired Fe3O4+AFP I had survival 84.44% (228/270) versus 72.97% (197/270) Cryotop-only, while berberine+melatonin had survival 87.80% (252/287) versus 70.00% (245/350).",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Table 4–5 report embryo numerators/denominators; experiments repeated at least three times.",
+        "evidence_excerpt": "combined Fe 3 O 4 + AFP I group",
+        "source_locator": "PMC12729773, Results sections 3.3–3.4, Tables 4–5"
+      },
+      {
+        "experiment_id": "p5-bio-porcine-2",
+        "model": "Frozen–thawed porcine parthenotes after integrated protocol and post-warm refinements",
+        "intervention": "Sequential experiments: integrated culture/freezing additives (Table 6), then 5 mM GSH and 45-second zona treatment (Table 9); do not merge as one factorial experiment",
+        "comparator": "Cryotop frozen control and fresh no-freeze control",
+        "formulation": [
+          {
+            "compound": "glutathione",
+            "concentration": 5,
+            "unit": "mM"
+          },
+          {
+            "compound": "trypsin/protease zona treatment",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "recovery"
+        ],
+        "cooling": "TL-PVA with 7.5% DMSO/7.5% EG for 3 min at reported 41 °C, then 16% DMSO/16% EG/0.4 M sucrose for 30 s; Cryotop plunge; measured rate not reported",
+        "warming": "Reported 39 °C thawing solution; morphology survival at 24 h culture, hatching at blastocyst stage",
+        "storage": null,
+        "outcome_name": "Hatching and integrated viability/development markers",
+        "outcome_type": "function",
+        "timepoint": "post-warming culture through hatching; ATP/ROS and gene expression endpoints as tabulated",
+        "result": "Table 6 reports integrated-group survival 93.75% and hatching 90.48%; Table 9 separately reports 90.70% hatching with GSH plus 45-second zona treatment. These are distinct experiments with endpoint-specific denominators. Nonsignificant differences versus fresh controls are not equivalence evidence.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Table 6 and Table 9 provide endpoint-specific embryo denominators; molecular assays n=30.",
+        "evidence_excerpt": "The GSH group hatched at 82.54%",
+        "source_locator": "PMC12729773, Results sections 3.5–3.7, Tables 6 and 9"
+      }
+    ],
+    "main_finding": "Combining culture-stage antioxidants with vitrification additives and post-warm recovery treatment improved porcine parthenote survival, hatching and injury-associated quality markers.",
+    "limitations": [
+      "Parthenogenetic porcine embryos are an animal model; endpoint denominators differ across assays and the study does not establish transfer or offspring outcomes.",
+      "Survival is a morphological embryo fraction at 24 h, not absolute live-cell yield; hatching is affected directly by zona digestion and does not establish implantation/live birth.",
+      "No direct ice-growth/ice-content assay or external magnetic heating intervention is established here; physical mechanisms for AFP/nanoparticles are interpretations, not demonstrated nanowarming.",
+      "Methods use one-way ANOVA/Tukey comparisons, not a factorial interaction or equivalence test. Highest combination mean does not establish supra-additive synergy.",
+      "Reported group mean percentages and parenthetical aggregate counts do not always reconcile; replicate-level data are needed to distinguish aggregation from reporting errors.",
+      "Table 6 fresh-control cytoskeleton/ROS cells appear misaligned; values are preserved without repair and excluded from mechanistic comparisons.",
+      "Source describes Fe3O4 as 1.0% without a clear concentration basis in the extracted methods; particle size/coating/lot and independent maternal/replicate identities require confirmation."
+    ],
+    "mechanism_claim": "Reduced ROS, altered transcripts, ATP and morphology support injury-associated benefit; direct ice mechanisms and target engagement are not established. Combination gains are reported group comparisons, not a validated synergy model.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "source_license": "CC BY 4.0",
+    "reviewer": "Luna extraction; root selected methods/results and interpretation review"
+  },
+  {
+    "study_id": "doi:10.1039/d5lp00131e",
+    "doi": "10.1039/d5lp00131e",
+    "title": "Cryopreservation and post-thaw differentiation of monocytes enabled by macromolecular cryoprotectants which restrict intracellular ice formation.",
+    "year": 2025,
+    "pmcid": "PMC12147442",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12147442/",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase5/monocytes.html",
+    "retrieved_at": "2026-09-06",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "THP-1 human monocytic leukemia cell line",
+      "PMA-differentiated macrophage-like THP-1 cells"
+    ],
+    "study_design": "Cryovial and 96-well plate cryopreservation were compared with DMSO and commercial CS5, followed by post-thaw growth, apoptosis, Cryo-Raman intracellular ice imaging, and macrophage differentiation.",
+    "interventions": [
+      "5% DMSO + 20% FBS",
+      "5% DMSO + 20% FBS + 40 mg/mL polyampholyte",
+      "96-well formulation additionally containing 50% pollen-derived ice nucleator solution"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "biological_stress",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p5-bio-monocytes-1",
+        "model": "THP-1 cells in 1-mL cryovials",
+        "intervention": "Polyampholyte added to 5% DMSO/20% FBS cryomedium.",
+        "comparator": "5% DMSO/20% FBS and CryoStor CS5",
+        "formulation": [
+          {
+            "compound": "polyampholyte",
+            "concentration": 40,
+            "unit": "mg/mL"
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 5,
+            "unit": "%"
+          },
+          {
+            "compound": "FBS",
+            "concentration": 20,
+            "unit": "%"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "−1 °C/min; stored at −80 °C for 24 h.",
+        "warming": "Thawed into fresh pre-warmed medium; recovery measured immediately and at 24 h.",
+        "storage": "−80 °C for 24 h before thawing",
+        "outcome_name": "24-h post-thaw recovery and growth",
+        "outcome_type": "recovery",
+        "timepoint": "immediately post-thaw and 24 h post-thaw; growth monitored to 96 h",
+        "result": "Polyampholyte supplementation preserved 24-h recovery and growth relative to DMSO-only and CS5 cryovial controls. At 24 h, intact-membrane recovery was 77% with DMSO+polyampholyte versus 34% with DMSO and 17% with CS5; polyampholyte growth approximated fresh cells over 96 h.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 biological repeats and 2 technical replicates; starting density 1×10^6 viable cells/mL.",
+        "evidence_excerpt": "higher cell recovery (84%)",
+        "source_locator": "PMC12147442, Results ‘Polyampholyte supplementation…cryovials’, Fig. 1B–F"
+      },
+      {
+        "experiment_id": "p5-bio-monocytes-2",
+        "model": "THP-1 cells cryopreserved in u-bottom 96-well plates",
+        "intervention": "5% DMSO + 40 mg/mL polyampholyte + 50% pollen ice-nucleator solution.",
+        "comparator": "5% DMSO alone and CS5",
+        "formulation": [
+          {
+            "compound": "polyampholyte",
+            "concentration": 40,
+            "unit": "mg/mL"
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 5,
+            "unit": "%"
+          },
+          {
+            "compound": "ice nucleator solution",
+            "concentration": 50,
+            "unit": "%"
+          },
+          {
+            "compound": "FBS",
+            "concentration": 20,
+            "unit": "% as reported"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "−80 °C for at least 24 h in CoolSink XT module.",
+        "warming": "Plate thaw: add warm medium, incubate at 37 °C for 12 min, remove CPA and culture; Raman is a separate controlled-cooling assay",
+        "storage": "−80 °C for at least 24 h",
+        "outcome_name": "Well-level recovery, apoptosis and intracellular ice",
+        "outcome_type": "ice_activity",
+        "timepoint": "24 h post-thaw recovery; intracellular ice measured during controlled cooling",
+        "result": "Polyampholyte plus pollen ice nucleator increased plate recovery and reduced intracellular ice relative to DMSO-only and CS5 controls. Median 24-h recovery was 76% with polyampholyte+ice nucleator versus 37% DMSO and 30% CS5; Cryo-Raman showed markedly less intracellular ice with polyampholyte. Subsequent PMA-induced macrophage-like morphology and marker expression were assessed; these do not by themselves establish immune effector potency. Raman percentages are image-based relative ice estimates in five cells per condition, not a population incidence of ice-positive cells.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 biological and 2 technical replicates for plate assays; Raman showed 5 individual cells per condition.",
+        "evidence_excerpt": "estimation of relative ice formation per cell",
+        "source_locator": "PMC12147442, Results ‘chemical ice nucleator’ and Fig. 2–3"
+      }
+    ],
+    "main_finding": "Macromolecular polyampholyte and pollen-derived ice nucleator additives improved delayed THP-1 recovery and limited intracellular ice in cryovial and plate formats.",
+    "limitations": [
+      "THP-1 is an immortalized monocytic leukemia line rather than primary monocytes; recovery, apoptosis and Raman assays have distinct denominators.",
+      "Polyampholyte chemistry is a modified poly(methyl vinyl ether-alt-maleic anhydride) starting from approximately 80 kDa material; exact composition/charge balance/lot specification matters, not any polymer labeled polyampholyte.",
+      "This is THP-1 monocytic leukemia-line evidence; three biological repeats are not three human donors.",
+      "Cryovials compare polyampholyte addition; plate experiments also add pollen-derived ice nucleator, so the plate gain cannot be attributed solely to polymer chemistry.",
+      "Cryo-Raman uses five individual cells per condition; text wording about percentages of cells should not be read as a population incidence estimate.",
+      "Post-thaw differentiation markers are supportive phenotype endpoints; no matched primary-monocyte/iPSC efficacy or comprehensive macrophage potency validation is established.",
+      "Storage demonstrated here is about 24 h at −80 °C; longer banking durability remains unverified in these experiments."
+    ],
+    "mechanism_claim": "Cryo-Raman directly measured intracellular ice signatures; reduced apoptosis and improved recovery are biological outcomes associated with the formulation, not proof of a unique pathway.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "source_license": "CC BY 4.0",
+    "reviewer": "Luna extraction; root selected methods/results and interpretation review"
+  }
+]

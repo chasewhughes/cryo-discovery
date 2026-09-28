@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-09-06T23:02:37.178453+00:00",
+  "scope": "Exploratory same-compound assay comparison, reusing completed Phase18 predictions. Not independent validation; no new calibration or qualification gate.",
+  "source_doi": "https://doi.org/10.1021/jm9014263",
+  "source_url": "https://ndownloader.figshare.com/files/4490860",
+  "source_path": "data/raw/phase18/methods/jm9014263_si_001.pdf",
+  "source_sha256": "709b7143c06e83f9a6cc17e8da7c907799a2b9d4976b459c613362eaff218228",
+  "verification": "Root visually inspected rendered original SI Table1 ppS2-S3 and protocol pS3, 2026-09-06. All18 table rows transcribed; censored relations preserved.",
+  "assays": {
+    "luciferase": {
+      "ATP_nM": 750,
+      "readout": "residual ATP luciferin-luciferase"
+    },
+    "IMAP": {
+      "ATP_nM": 100000,
+      "readout": "fluorescence polarization",
+      "target": "human ROCK2 residues1-543",
+      "enzyme_nM": 1,
+      "FAM_S6_peptide_nM": 200,
+      "reaction_minutes": 60,
+      "temperature": "room temperature"
+    }
+  },
+  "policy": "Join only previously source-verified Phase18 compound-number identities; require matching luciferase value; analyze exact paired endpoints with available verified predictions. Preserve all exclusions. Report fixed Phase17 source offset only; do not refit offsets to this selected subset.",
+  "limits": [
+    "Source authors selected this subset to investigate detection interference; it is not a random panel.",
+    "Readout, ATP and other conditions change together, so their causal effects cannot be isolated.",
+    "Existing predictions and prior outcomes are known; exploratory retrospective diagnostic only.",
+    "Do not convert right-censored bounds into exact values."
+  ],
+  "rows": [
+    {
+      "source_compound_number": 16,
+      "luciferase_nM": 100,
+      "luciferase_relation": "=",
+      "IMAP_nM": 320,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 17,
+      "luciferase_nM": 53,
+      "luciferase_relation": "=",
+      "IMAP_nM": 140,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 21,
+      "luciferase_nM": 69,
+      "luciferase_relation": "=",
+      "IMAP_nM": 230,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 30,
+      "luciferase_nM": 7000,
+      "luciferase_relation": ">",
+      "IMAP_nM": 7000,
+      "IMAP_relation": ">"
+    },
+    {
+      "source_compound_number": 31,
+      "luciferase_nM": 1300,
+      "luciferase_relation": "=",
+      "IMAP_nM": 6500,
+      "IMAP_relation": ">"
+    },
+    {
+      "source_compound_number": 32,
+      "luciferase_nM": 6000,
+      "luciferase_relation": ">",
+      "IMAP_nM": 6400,
+      "IMAP_relation": ">"
+    },
+    {
+      "source_compound_number": 33,
+      "luciferase_nM": 266,
+      "luciferase_relation": "=",
+      "IMAP_nM": 660,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 34,
+      "luciferase_nM": 92,
+      "luciferase_relation": "=",
+      "IMAP_nM": 230,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 35,
+      "luciferase_nM": 160,
+      "luciferase_relation": "=",
+      "IMAP_nM": 350,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 36,
+      "luciferase_nM": 670,
+      "luciferase_relation": "=",
+      "IMAP_nM": 1300,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 37,
+      "luciferase_nM": 1700,
+      "luciferase_relation": "=",
+      "IMAP_nM": 6500,
+      "IMAP_relation": ">"
+    },
+    {
+      "source_compound_number": 43,
+      "luciferase_nM": 14,
+      "luciferase_relation": "=",
+      "IMAP_nM": 48,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 44,
+      "luciferase_nM": 65,
+      "luciferase_relation": "=",
+      "IMAP_nM": 160,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 45,
+      "luciferase_nM": 70,
+      "luciferase_relation": "=",
+      "IMAP_nM": 210,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 46,
+      "luciferase_nM": 10,
+      "luciferase_relation": "=",
+      "IMAP_nM": 45,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 47,
+      "luciferase_nM": 8,
+      "luciferase_relation": "=",
+      "IMAP_nM": 14,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 48,
+      "luciferase_nM": 74,
+      "luciferase_relation": "=",
+      "IMAP_nM": 180,
+      "IMAP_relation": "="
+    },
+    {
+      "source_compound_number": 49,
+      "luciferase_nM": 240,
+      "luciferase_relation": "=",
+      "IMAP_nM": 290,
+      "IMAP_relation": "="
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+reportlab==5.0.1
+pypdf==6.17.0
+pillow==12.3.0
+charset-normalizer==3.5.1

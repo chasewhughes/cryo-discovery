@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-07T08:45:28.479434+00:00",
+  "objective": "Evaluate unchanged median-residual assay calibration on a fresh biochemical ROCK2 dataset with substantially broader held-out scaffold coverage.",
+  "candidate_order": [
+    "CHEMBL4040374",
+    "CHEMBL2341182"
+  ],
+  "selection_rule": "Prefer accessible author structure/potency data and broader verified scaffold coverage. First candidate meeting primary methods/identity eligibility and fixed diversity checks is selected. No new model outputs used.",
+  "inclusion": [
+    "Primary non-luciferase human biochemical ROCK2 IC50, exact positive <=10000nM; retain censored/missing/excluded rows separately.",
+    "Source structure identity must be independently reconciled. Tautomer equivalence may be documented explicitly with unique structural match; never map by potency alone.",
+    "Exclude exact IDs, isomeric and achiral structure identity shared with Phases17/18/20.",
+    "No exact held-out Murcko scaffold may match a scaffold from any previously evaluated17/18/20 compound. Report residual analogue similarity and dependence between chemically related scaffolds."
+  ],
+  "split": "Unchanged SHA256(cryo-phase19-split-1900: + achiral Murcko scaffold) whole-group split. Calibration fills >=ceil(n/3); no label stratification or seed search.",
+  "diversity_gates": {
+    "minimum_unique_exact_compounds": 20,
+    "minimum_calibration_compounds": 6,
+    "minimum_heldout_compounds": 10,
+    "minimum_heldout_scaffolds": 6,
+    "maximum_heldout_single_scaffold_fraction": 0.4,
+    "maximum_heldout_prior_exact_scaffold_overlap": 0
+  },
+  "model": "UnchangedPhase17 protein/MSA/template and Boltz2.2.1 settings; two fixed seeds2101/2102. No experimental labels in inference bundle.",
+  "calibration": "Median(observed minus predicted) fitted only on new calibration subset; no slopes, test fitting, best offset, model, seed or threshold selection. Phase17 source offset retained as separately reported diagnostic; Phase20 outcome cannot be overwritten by this experiment.",
+  "performance_gates": "RetainPhase20 raw transfer>=20%MAE gain vsPhase17mean andrho>=.5; held-out calibratedMAE<=.5,biasmagnitude<=.25,gain>=20%vscalibrationmean,rho>=.5,no worseMAEthanraw. Bothmustpass for provisionalqualification.",
+  "uncertainty": "2000 paired scaffold-cluster bootstrap draws,2103/2104,conditional on calibrationfit. Report groupcounts,largestgroups,undefinedrankdraws,potencydistribution shift andpretrainingoverlapunknown.",
+  "spending": "No GPU until primaryaudit, fixedeligible dataset, frozenplan, tests, freshallphasebilling. $10cumulativecap unchanged; max2.70fulljobreservation.",
+  "limits": [
+    "Murcko groups are bookkeeping units, not proof of independent chemotypes.",
+    "Retrospective known inhibitors; training overlap unknown.",
+    "No cryoprotection, post-thaw function, toxicity or novel-discovery claim."
+  ]
+}

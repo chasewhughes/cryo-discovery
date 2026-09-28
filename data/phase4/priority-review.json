@@ -1,0 +1,90 @@
+{
+  "reviewed_at": "2026-09-05",
+  "selected_records": 7,
+  "access_counts": {
+    "full_text": 4,
+    "abstract_plus_supplement": 1,
+    "abstract_only": 2
+  },
+  "records": [
+    {
+      "doi": "10.1002/adma.72714",
+      "title": "Cryopreservative Bioink Enables Direct Bioprinting of Adherent Cells.",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed",
+      "main_fulltext_review_complete": true,
+      "experiment_summaries": 3,
+      "source_paths": [
+        "data/raw/phase4/adma-72714-pmc.html"
+      ]
+    },
+    {
+      "doi": "10.1016/j.lssr.2025.08.002",
+      "title": "3D culture and cryopreservation/thawing strategy of human induced pluripotent stem cells for spaceflight experiments.",
+      "source_access": "abstract_only",
+      "review_status": "root_abstract_reviewed",
+      "main_fulltext_review_complete": false,
+      "experiment_summaries": 1,
+      "source_paths": [
+        "data/raw/phase3/screening-packets.json"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00559",
+      "title": "Ethylene Glycol and Trehalose Cryopreservation of Cell-Laden Hydrogel Microspheres Enabled by Microfluidic Fabrication.",
+      "source_access": "abstract_plus_supplement",
+      "review_status": "root_abstract_and_selected_supplement_reviewed",
+      "main_fulltext_review_complete": false,
+      "experiment_summaries": 3,
+      "source_paths": [
+        "data/raw/phase3/screening-packets.json",
+        "data/raw/phase4/acs-biomac-5c00559-si.txt",
+        "data/raw/phase4/acs-biomac-5c00559-si.pdf"
+      ]
+    },
+    {
+      "doi": "10.1038/s41531-026-01399-4",
+      "title": "Cryopreservable dopaminergic progenitors derived from human iPSCs with accelerated loss of pluripotency and early functional restoration in Parkinsonian rats.",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed",
+      "main_fulltext_review_complete": true,
+      "experiment_summaries": 2,
+      "source_paths": [
+        "data/raw/phase4/dopaminergic.html"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-025-32439-3",
+      "title": "Improved cryopreservation of cardiomyocyte aggregates differentiated from GMP iPSC in a 3D culture format.",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed",
+      "main_fulltext_review_complete": true,
+      "experiment_summaries": 3,
+      "source_paths": [
+        "data/raw/phase4/cardiac-aggregates.html"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-026-59927-4",
+      "title": "Cryopreservation alters contractile function of human induced pluripotent stem cell-derived cardiomyocytes.",
+      "source_access": "full_text",
+      "review_status": "root_selected_fulltext_reviewed",
+      "main_fulltext_review_complete": true,
+      "experiment_summaries": 3,
+      "source_paths": [
+        "data/raw/phase4/cardiac-contractile.html"
+      ]
+    },
+    {
+      "doi": "10.64898/2026.07.24.740597",
+      "title": "Cryoaerosolization Enables Scalable Vitrification-Based Cell Cryopreservation",
+      "source_access": "abstract_only",
+      "review_status": "root_abstract_reviewed",
+      "main_fulltext_review_complete": false,
+      "experiment_summaries": 2,
+      "source_paths": [
+        "data/raw/phase3/screening-packets.json"
+      ]
+    }
+  ]
+}

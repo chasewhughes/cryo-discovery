@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-09-06T13:21:14.498541+00:00",
+  "source_sha256": {
+    "scripts/prepare_matched_hydration.py": "e708f35f8e9a30bcb0d9225bbf3d465f7b9e051acf4c4f9d65d0c788bf82afc6",
+    "scripts/run_matched_hydration.py": "7c019547a2227015be0ef5742da3d5f851e991abbf33b475409c2d088b73c425",
+    "scripts/run_hydration_extension.py": "f69edc1915f95130ace2f0c8513793629dcf1d0e8323b221729fa240bc510ee9",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "scripts/runpod_phase13.py": "ba55f54112d792b21dc489534b041e10bc74d24f1df3d64455aef1df35c05753",
+    "scripts/runpod_phase13_worker.py": "cb2cda9cd252413503937978bfb2e771bb751cf067d7e85d14c8231166438e76",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b",
+    "simulation/tip4p-ice.xml": "67caa748b12c4d7e1d9c5cceeb3f9fafeac03ea148075d84d3e103688a3ee2fc",
+    "data/phase13/sampling-plan.json": "a7a08f11908b814f7ba5ca5360b620a01f2259e332173707582c5d33493d3223"
+  },
+  "note": "Retry after provider HTTP500 during Pod creation. OriginalcreatedPoddeleted,scientificplanunchanged,failedreceiptpreserved.",
+  "attempt": 2,
+  "deployed_source_commit": "71ae10f1b5e20a95752cda2d519eb08b4ee542ca",
+  "all_six_launch_manifests_match": true
+}

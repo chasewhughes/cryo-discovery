@@ -1,0 +1,16 @@
+{
+  "attempt": 4,
+  "name": "cryo-phase16-boltz-4-9a6c9524",
+  "created_epoch": 1788709377.13505,
+  "deadline_epoch": 1788712977.13505,
+  "reserved_usd": 0.8999999999999999,
+  "prior_reserve_usd": 4.142880452260348,
+  "other_pending_reserve_usd": 0.8999999999999999,
+  "plan_sha256": "1dc8cbdff378632c8c52372c06cca14870ac9ab35eda24730ceea18ea7e509ee",
+  "watchdog_pid": 54286,
+  "pod_id": "i5ey6hvemnqy87",
+  "cost_per_hour": 0.53,
+  "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+  "gpu": "NVIDIA RTX A6000",
+  "worker_sha256": "d9546e2169fe2fae9aebd21018b27822ee59c975044f81cb64f0b21cc6c7c2fe"
+}

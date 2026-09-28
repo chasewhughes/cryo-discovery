@@ -1,0 +1,167 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Audit of recoverable compound-number mappings between the accepted primary article Table 1 and exact CHEMBL4328667 ROCK2 records. Unmapped rows are explicitly not claimed inconsistent.",
+  "sources": [
+    {
+      "citation": "Hobson et al., J Med Chem 2018, DOI 10.1021/acs.jmedchem.8b01098, accepted manuscript pp.5-7",
+      "url": "https://doi.org/10.1021/acs.jmedchem.8b01098",
+      "local_path": "data/raw/phase17/methods/acs-jmedchem-8b01098.pdf",
+      "sha256": "c1d5dc25a84eec2fb2ef5459fa58c86c593777168761d29dc7c9bf738a011450"
+    },
+    {
+      "citation": "ACS Supporting Information, HTRF assay and ROCK2 crystallization protocol, pp.S2-S3 and S16",
+      "url": "https://acs.figshare.com/articles/journal_contribution/Identification_of_Selective_Dual_ROCK1_and_ROCK2_Inhibitors_Using_Structure-Based_Drug_Design/7458515",
+      "file_url": "https://ndownloader.figshare.com/files/13811189",
+      "local_path": "data/raw/phase17/methods/jm8b01098_si_001.pdf",
+      "sha256": "571e69ff86d03b00ea95c163df94566821652de08bbceb781ecab96d0da3ef78"
+    },
+    {
+      "citation": "ChEMBL assay CHEMBL4328667",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL4328667.json",
+      "local_path": "data/raw/phase15/rock/assay.json",
+      "sha256": "2754f4be3d76158e9d9d1f11885f0ee000bf2d5bd3dc8f456afaba15772a4f44"
+    },
+    {
+      "citation": "ChEMBL activity records for CHEMBL4325872/CHEMBL2973",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?document_chembl_id=CHEMBL4325872&target_chembl_id=CHEMBL2973&limit=1000",
+      "local_path": "data/raw/phase15/rock/activities.json",
+      "sha256": "63c57c276ecc232826ab3038042c06ce3175338311d547bc6eb31a47ea6abdee"
+    }
+  ],
+  "assay_confirmation": {
+    "table_endpoint": "Table 1 labels columns IC50 / \u00b5M at 100 \u00b5M ATP for ROCK1, ROCK2 and PKA (article pp.6-7).",
+    "SI_protocol": "SI HTRF protocol sets final ATP 100 \u00b5M, STK S2 peptide 0.2 \u00b5M, ROCK2 enzyme 0.5 nM, 60 min reaction at room temperature, then 1 h-to-overnight detection and EnVision readout (SI pp.S2-S3). This resolves the apparent ChEMBL wording: the assay is HTRF fluorescence readout after a 33P-ATP statement in the article HTS description; the SI protocol itself specifies HTRF reagents/readout and 100 \u00b5M ATP.",
+    "structure_construct": "SI p.S16 specifies human ROCK2 residues 27-417 with N-terminal 6His/TEV tag for compound-12 crystallization. This is distinct from the CHEMBL4328667 assay description (residues 11-552), and also explains why the 6ED6 polymer sequence is 415 residues after tag/processing context."
+  },
+  "mapping_count": {
+    "benchmark_exact_unique_compounds": 43,
+    "table_compounds_mapped_with_high_confidence": 11,
+    "mapped_table_range": "Table 1 compounds 5-15",
+    "remaining_exact_unique_unmapped_to_compound_number": 32,
+    "interpretation": "The 32 unmapped records may correspond to later article tables or compounds whose numbers are not retained in the ChEMBL JSON; they are not called mismatches.",
+    "downloaded_activity_records_total": 46,
+    "records_in_CHEMBL4328667": 45,
+    "IC50_records_in_CHEMBL4328667": 44,
+    "text_only_non_IC50_records_in_CHEMBL4328667": 1
+  },
+  "table1_mappings": [
+    {
+      "compound": 5,
+      "chembl_id": "CHEMBL1977135",
+      "activity_id": 18939224,
+      "article_rock2_uM": 0.12,
+      "chembl_value_uM": 0.12,
+      "chembl_value_nM": 120,
+      "relation": "=",
+      "match_basis": "unsubstituted aryl structure and Table 1 value"
+    },
+    {
+      "compound": 6,
+      "chembl_id": "CHEMBL2006299",
+      "activity_id": 18939225,
+      "article_rock2_uM": 0.021,
+      "chembl_value_uM": 0.021,
+      "chembl_value_nM": 21,
+      "relation": "=",
+      "match_basis": "3-methoxy structure and Table 1 value"
+    },
+    {
+      "compound": 7,
+      "chembl_id": "CHEMBL4454552",
+      "activity_id": 18939226,
+      "article_rock2_uM": 0.11,
+      "chembl_value_uM": 0.11,
+      "chembl_value_nM": 110,
+      "relation": "=",
+      "match_basis": "Table 1 structure/value"
+    },
+    {
+      "compound": 8,
+      "chembl_id": "CHEMBL4476761",
+      "activity_id": 18939227,
+      "article_rock2_uM": 0.118,
+      "chembl_value_uM": 0.118,
+      "chembl_value_nM": 118,
+      "relation": "=",
+      "match_basis": "Table 1 structure/value"
+    },
+    {
+      "compound": 9,
+      "chembl_id": "CHEMBL4536833",
+      "activity_id": 18939228,
+      "article_rock2_uM": 0.003,
+      "chembl_value_uM": 0.003,
+      "chembl_value_nM": 3,
+      "relation": "=",
+      "match_basis": "3-hydroxy structure and Table 1 value"
+    },
+    {
+      "compound": 10,
+      "chembl_id": "CHEMBL4475535",
+      "activity_id": 18939229,
+      "article_rock2_uM": 1.3,
+      "chembl_value_uM": 1.3,
+      "chembl_value_nM": 1300,
+      "relation": "=",
+      "match_basis": "3-OCF3 structure and Table 1 value"
+    },
+    {
+      "compound": 11,
+      "chembl_id": "CHEMBL4447521",
+      "activity_id": 18939230,
+      "article_rock2_uM": 3.8,
+      "chembl_value_uM": 3.8,
+      "chembl_value_nM": 3800,
+      "relation": "=",
+      "match_basis": "2,3-dimethoxy structure and Table 1 value"
+    },
+    {
+      "compound": 12,
+      "chembl_id": "CHEMBL4522042",
+      "activity_id": 18939231,
+      "article_rock2_uM": 0.037,
+      "chembl_value_uM": 0.037,
+      "chembl_value_nM": 37,
+      "relation": "=",
+      "match_basis": "benzodioxolane structure; exact PDB 6ED6/J0P ligand identity; Table 1 anchor"
+    },
+    {
+      "compound": 13,
+      "chembl_id": "CHEMBL4463301",
+      "activity_id": 18939232,
+      "article_rock2_uM": 0.034,
+      "chembl_value_uM": 0.034,
+      "chembl_value_nM": 34,
+      "relation": "=",
+      "match_basis": "benzodioxepine structure and Table 1 value"
+    },
+    {
+      "compound": 14,
+      "chembl_id": "CHEMBL4436040",
+      "activity_id": 18939233,
+      "article_rock2_uM": 0.087,
+      "chembl_value_uM": 0.087,
+      "chembl_value_nM": 87,
+      "relation": "=",
+      "match_basis": "dimethylamino substituent structure and Table 1 value"
+    },
+    {
+      "compound": 15,
+      "chembl_id": "CHEMBL4570150",
+      "activity_id": 18939234,
+      "article_rock2_uM": 0.25,
+      "chembl_value_uM": 0.25,
+      "chembl_value_nM": 250,
+      "relation": "=",
+      "match_basis": "morpholine substituent structure and Table 1 value"
+    }
+  ],
+  "inconsistencies_or_data_hygiene": {
+    "value_consistency": "All 11 high-confidence Table 1 mappings agree numerically after \u00b5M-to-nM conversion; no clear compound-number/value inconsistency was found in this subset.",
+    "duplicate": "No duplicate molecule record was found within CHEMBL4328667 among the 45 assay records. Molecule CHEMBL4448806 appears in two different assays: activity 18939235 is CHEMBL4328667, IC50 2 nM; activity 18939460 is CHEMBL4328710, IC50 1 nM. These must not be merged as replicate measurements.",
+    "non_ic50": "The 46 downloaded records include 45 records for CHEMBL4328667 (44 IC50 plus one text-only Inhibition=Active, activity 18939223) and one IC50 record from a different assay CHEMBL4328710 (activity 18939460). The latter is excluded from this assay panel.",
+    "censoring": "CHEMBL4540054 is a right-censored >10,000 nM record; retaining it as an inequality is correct and treating it as exactly 10,000 nM would be inconsistent with the article."
+  },
+  "benchmark_implication": "The 43-compound exact-unique panel is suitable for a retrospective same-assay ROCK2 analysis, with 11 independently audited Table 1 mappings and 32 records left without compound-number claims. Use source activity IDs and canonical structures for identity, preserve nM/\u00b5M provenance and inequalities, and avoid describing the whole panel as independently verified against every numbered article table.",
+  "decision": "No clear inconsistency was found among the 11 recoverable Table 1 mappings. Compound 12/ CHEMBL4522042 / PDB 6ED6 is a secure measured anchor, while the assay (11-552) and structure crystallization (27-417) constructs remain distinct and must be reported as such."
+}

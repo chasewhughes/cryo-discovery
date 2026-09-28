@@ -1,0 +1,32 @@
+{
+  "properties": [
+    {
+      "affinity": {
+        "binder": "L"
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "msa": "empty",
+        "sequence": "MSYYHHHHHHDYDIPTTENLYFQGQRKLEALIRDPRSPINVESLLDGLNSLVLDLDFPALRKNKNIDNFLNRYEKIVKKIRGLQMKAEDYDVVKVIGRGAFGEVQLVRHKASQKVYAMKLLSKFEMIKRSDSAFFWEERDIMAFANSPWVVQLFYAFQDDRYLYMVMEYMPGGDLVNLMSNYDVPEKWAKFYTAEVVLALDAIHSMGLIHRDVKPDNMLLDKHGHLKLADFGTCMKMDETGMVHCDTAVGTPDYISPEVLKSQGGDGFYGRECDWWSVGVFLYEMLVGDTPFYADSLVGTYSKIMDHKNSLCFPEDAEISKHAKNLICAFLTDREVRLGRNGVEEIRQHPFFKNDQWHWDNIRETAAPVVPELSSDIDSSNFDDIEDDKGDVETFPIPKAFVGNQLPFIGFTYYR"
+      }
+    },
+    {
+      "ligand": {
+        "id": "L",
+        "smiles": "COc1cccc([C@@H](C)NC(=O)c2ccc(-c3cc(C)nc(C)c3)cc2)c1"
+      }
+    }
+  ],
+  "templates": [
+    {
+      "chain_id": "A",
+      "cif": "data/raw/phase15/rock/6ED6.cif",
+      "template_id": "A"
+    }
+  ],
+  "version": 1
+}

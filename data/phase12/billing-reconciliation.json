@@ -1,0 +1,97 @@
+{
+  "verified_at": "2026-09-06T11:39:00.279662+00:00",
+  "all_prior_research_pods_absent": true,
+  "prior_gpu_reserve_usd": 1.135824021249064,
+  "estimated_prior_gpu_usd": 1.1355974954154757,
+  "billing_queries": [
+    {
+      "pod_id": "1pt46gl43cc0ja",
+      "records": [],
+      "posted_amount_usd": 0,
+      "estimated_gpu_usd": 0.020854320662551457,
+      "conservative_reserve_usd": 0.020854320662551457
+    },
+    {
+      "pod_id": "wa4ll8bkobrytl",
+      "records": [],
+      "posted_amount_usd": 0,
+      "estimated_gpu_usd": 0.021492937395307752,
+      "conservative_reserve_usd": 0.021492937395307752
+    },
+    {
+      "pod_id": "8p6ey528nfee2z",
+      "records": [],
+      "posted_amount_usd": 0,
+      "estimated_gpu_usd": 0.019564617681503298,
+      "conservative_reserve_usd": 0.019564617681503298
+    },
+    {
+      "pod_id": "ldww25xab89819",
+      "records": [],
+      "posted_amount_usd": 0,
+      "estimated_gpu_usd": 0.020122449192735883,
+      "conservative_reserve_usd": 0.020122449192735883
+    },
+    {
+      "pod_id": "d4ipt6c2xslrpd",
+      "records": [
+        {
+          "amount": 0.11463054946216289,
+          "timeBilledMs": 556536,
+          "diskSpaceBilledGB": 20,
+          "podId": "d4ipt6c2xslrpd",
+          "time": "2026-09-06 09:00:00"
+        },
+        {
+          "amount": 0.49441260198364034,
+          "timeBilledMs": 2400746,
+          "diskSpaceBilledGB": 80,
+          "podId": "d4ipt6c2xslrpd",
+          "time": "2026-09-06 10:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.6090431514458032,
+      "estimated_gpu_usd": 0.8354080501331224,
+      "conservative_reserve_usd": 0.8354080501331224
+    },
+    {
+      "pod_id": "7qai3yseudqx38",
+      "records": [
+        {
+          "amount": 0.15776001240010373,
+          "timeBilledMs": 766355,
+          "diskSpaceBilledGB": 30,
+          "podId": "7qai3yseudqx38",
+          "time": "2026-09-06 09:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.15776001240010373,
+      "estimated_gpu_usd": 0.15759672596587074,
+      "conservative_reserve_usd": 0.15776001240010373
+    },
+    {
+      "pod_id": "2fox527otky3rw",
+      "records": [
+        {
+          "amount": 0.014896418557327706,
+          "timeBilledMs": 71906,
+          "diskSpaceBilledGB": 10,
+          "podId": "2fox527otky3rw",
+          "time": "2026-09-06 08:00:00"
+        },
+        {
+          "amount": 0.04572521522641182,
+          "timeBilledMs": 222447,
+          "diskSpaceBilledGB": 10,
+          "podId": "2fox527otky3rw",
+          "time": "2026-09-06 09:00:00"
+        }
+      ],
+      "posted_amount_usd": 0.060621633783739526,
+      "estimated_gpu_usd": 0.06055839438438415,
+      "conservative_reserve_usd": 0.060621633783739526
+    }
+  ],
+  "unrelated_pods_untouched": 3,
+  "note": "Reserve the larger of posted provider amount (may include storage) and elapsed-time GPU estimate for each Pod. Posted records may be incomplete; not a final invoice."
+}

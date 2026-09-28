@@ -1,0 +1,2 @@
+# PDF artifacts are binary; their internal spacing is not source formatting.
+*.pdf binary

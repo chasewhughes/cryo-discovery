@@ -1,0 +1,24 @@
+{
+  "assay_id": "CHEMBL1071707",
+  "eligible": true,
+  "decision_date": "2026-09-06",
+  "scope": "Retrospective transfer and scaffold-disjoint calibration assessment using30 source-reconciled exact analogue compounds from Morwick2010 Tables4-7. Not an unseen-pretraining claim.",
+  "review_paths": [
+    "data/phase18/assay-review.json",
+    "data/phase18/source-table-reconciliation.json"
+  ],
+  "source_paths": [
+    "data/raw/phase18/methods/article-copy.pdf",
+    "data/raw/phase18/methods/jm9014263_si_001.pdf",
+    "data/raw/phase18/methods/activities.json",
+    "data/raw/phase17/external-review/CHEMBL1071707-activities.json"
+  ],
+  "adjudication": "Supersedes initial conditional hold after root visual inspection of original Tables4-7 and structure/substituent comparison with each canonicalSMILES. Separate assistant reviewed proposed mappings.17 of30 labels required documented1000foldunitcorrections. BothCHEMBL604249records excluded for identity/labelconflict; no predictions available at adjudication.",
+  "exact_n": 30,
+  "calibration_n": 12,
+  "heldout_n": 18,
+  "protein_policy": "Retain Phase17 humanROCK2res11-552 (542residues),512MSA and6ED6partialtemplate to evaluate frozen-model transfer. Experimentalconstructres1-543 differs; do not claim matchedconstructsimulation.",
+  "endpoint_policy": "Primary750nMATP luciferaseIC50 in nM only; no mixing with100uMATPIMAP, Ki, controlsorcellreadouts.",
+  "known_assay_caveat": "Luciferase interference forsomeRHSdimethylaminomethylphenyl compounds is reported inarticle; SIIMAPcomparison supportsrelative trends, doesnotguaranteeabsoluteaccuracy.",
+  "qualification": "Sufficient for a conditional retrospective separate-publication evaluation. Further assays/newmeasurements needed forrobustgeneralization andcell/cryoprotectionclaims."
+}

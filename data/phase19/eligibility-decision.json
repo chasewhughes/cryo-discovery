@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-09-06T23:09:57.429525+00:00",
+  "eligible": false,
+  "assay_id": null,
+  "status": "independent_validation_awaiting_eligible_source",
+  "candidate_order": [
+    "CHEMBL1686688",
+    "CHEMBL1219161"
+  ],
+  "broader_search_after_initial_failures": [
+    "10.1021/acsbiomedchemau.5c00246",
+    "10.1021/acs.jmedchem.4c01325"
+  ],
+  "decision": "No reviewed candidate meets all primary-method, exact-measurement and scaffold-split eligibility rules. No Phase19 GPU plan or predictions generated.",
+  "diagnostic_completed": "data/phase19/imap-diagnostic-results.json",
+  "diagnostic_scope": "Same-compound exploratory reuse, not independent validation; no new calibration fit.",
+  "novel_screening_qualified": false,
+  "required_next_evidence": "Primary Fang2011 article/SI and compound-table reconciliation including actual species/construct; or another source-qualified nonluciferase ROCK2 panel of >=20 exact unique compounds with a viable frozen scaffold split.",
+  "review_paths": [
+    "data/phase19/fang2011-acquisition-audit.json",
+    "data/phase19/alternative-assay-review.json",
+    "data/phase19/nacyl-audit.json",
+    "data/phase19/bay405-assay-review.json",
+    "data/phase19/candidate-identity-audit.json"
+  ],
+  "source_paths": []
+}

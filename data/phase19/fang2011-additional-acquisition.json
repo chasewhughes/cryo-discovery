@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://api.elsevier.com/content/article/pii/S0960894X11000527?httpAccept=text/xml",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960894X11000527-mmc1.doc",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960894X11000527-mmc1.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0960894X11000527",
+    "method": "Chrome MCP in separate research tab",
+    "result": "Publisher CAPTCHA challenge; no full article acquired; stopped without solving challenge",
+    "checked_at": "2026-09-06T23:04:48Z"
+  }
+]

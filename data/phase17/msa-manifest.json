@@ -1,0 +1,33 @@
+{
+  "service": "https://api.colabfold.com",
+  "mode": "env",
+  "ticket_id": "64ea8589759f34daa632109f05ce0fd83b99d6aff9740c66efc545aefc7a3f20",
+  "protein_source": "data/phase17/target-sequence.json",
+  "sequence_length": 542,
+  "returned_entries": 18440,
+  "selected_rows": 512,
+  "policy": "Query first, deduplicate identical aligned strings, retain first 512 in service database order; no ligand labels used.",
+  "database_versions": "Not explicitly supplied in service response; archive retained.",
+  "sources": [
+    {
+      "path": "data/raw/phase17/msa-assay/query.fasta",
+      "sha256": "42453c7a769bae7080bcd718fb8509ad698daa7f20849ceb87749d1e9d779774"
+    },
+    {
+      "path": "data/raw/phase17/msa-assay/ticket.json",
+      "sha256": "95f35933963970506afc4a14e6b9da61b95a3bfa9664157eba02d8667c376910"
+    },
+    {
+      "path": "data/raw/phase17/msa-assay/result.tar.gz",
+      "sha256": "ce4261b662b1ce495b69ca8dd1388a0c751b0fbab16705aff450fa020f160c08"
+    },
+    {
+      "path": "data/raw/phase17/msa-assay/rock2-512.a3m",
+      "sha256": "fd5ad3de93489638ab0e3660ea0480a5c553f2d6f794a2df2499d67ddfd0c806"
+    },
+    {
+      "path": "data/raw/phase17/source/mmseqs2.py",
+      "sha256": "7537c23ca2d6863639187b8815011d592ee433bb145e6fdc86082ca836d3a6e7"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "retrieved_at": "2026-09-05",
+  "attempts": [
+    {
+      "doi": "10.1002/adma.72714",
+      "pmcid": "PMC13378309",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13378309/",
+      "status": "standard PMC HTML HTTP 200; article body retrieved; Europe PMC XML route 404; DOI redirect 403",
+      "access": "full_text",
+      "license_or_gap": "PMC article body publicly accessible; no paywall bypass."
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00559",
+      "url": "https://api.figshare.com/v2/articles/30363000",
+      "status": "public Figshare supplement metadata HTTP 200; PDF downloaded and verified",
+      "access": "abstract_plus_supplement",
+      "license_or_gap": "Publisher DOI returned 403 and cached metadata says subscription required. Supplement PDF is 1,972,053 bytes, 15 pages, valid PDF 1.7, SHA-256 aabdabfc07d6f7bed3f9032691e8cd74697610d44c0461158bc22f26fe64098d.",
+      "supplement": {
+        "doi": "10.1021/acs.biomac.5c00559.s001",
+        "metadata_url": "https://api.figshare.com/v2/articles/30363000",
+        "path": "data/raw/phase4/acs-biomac-5c00559-si.pdf",
+        "text_path": "data/raw/phase4/acs-biomac-5c00559-si.txt",
+        "bytes": 1972053,
+        "sha256": "aabdabfc07d6f7bed3f9032691e8cd74697610d44c0461158bc22f26fe64098d",
+        "root_visual_review": [
+          "Figure S11 on PDF page 10",
+          "Figure S12 on PDF page 11"
+        ]
+      }
+    }
+  ]
+}

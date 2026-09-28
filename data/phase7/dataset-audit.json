@@ -1,0 +1,111 @@
+{
+  "source_commit": "10ed726bed8158544222b5f16298a54013b6ad62",
+  "raw_rows": {
+    "amino": 80,
+    "glyco": 124,
+    "glyco2": 223
+  },
+  "cohort_rows": {
+    "amino": 63,
+    "glyco2": 209
+  },
+  "glyco_overlap_with_glyco2_by_canonical_structure": 124,
+  "glyco2_excluded_conditions": [
+    {
+      "id": "glyco2:line99",
+      "concentration_mM_raw": "0.5"
+    },
+    {
+      "id": "glyco2:line109",
+      "concentration_mM_raw": "0.5"
+    },
+    {
+      "id": "glyco2:line126",
+      "concentration_mM_raw": "11"
+    },
+    {
+      "id": "glyco2:line135",
+      "concentration_mM_raw": "11"
+    },
+    {
+      "id": "glyco2:line139",
+      "concentration_mM_raw": "11"
+    },
+    {
+      "id": "glyco2:line158",
+      "concentration_mM_raw": "Unreported"
+    },
+    {
+      "id": "glyco2:line159",
+      "concentration_mM_raw": "Unreported"
+    },
+    {
+      "id": "glyco2:line160",
+      "concentration_mM_raw": "Unreported"
+    },
+    {
+      "id": "glyco2:line189",
+      "concentration_mM_raw": "1"
+    },
+    {
+      "id": "glyco2:line219",
+      "concentration_mM_raw": "5.5"
+    },
+    {
+      "id": "glyco2:line220",
+      "concentration_mM_raw": "5.5"
+    },
+    {
+      "id": "glyco2:line221",
+      "concentration_mM_raw": "0.55"
+    },
+    {
+      "id": "glyco2:line222",
+      "concentration_mM_raw": "0.055"
+    },
+    {
+      "id": "glyco2:line223",
+      "concentration_mM_raw": "0.055"
+    }
+  ],
+  "feature_names": [
+    "MolWt",
+    "MolLogP",
+    "TPSA",
+    "NumHDonors",
+    "NumHAcceptors",
+    "NumRotatableBonds",
+    "RingCount",
+    "NumAromaticRings",
+    "FractionCSP3",
+    "HeavyAtomCount",
+    "NHOHCount",
+    "NOCount",
+    "NumHeteroatoms",
+    "BertzCT",
+    "HallKierAlpha",
+    "BalabanJ"
+  ],
+  "features_note": "Recomputed 2D descriptors; archived 45-column upstream descriptors were acquired for inspection but not used",
+  "structure_policy": "Canonicalize supplied SMILES; preserve salts, charges and tautomers as supplied. Connectivity grouping ignores stereochemistry, but no general salt/tautomer normalization or exhaustive analog clustering is claimed.",
+  "amino_predict_records": [
+    "amino:line65",
+    "amino:line66",
+    "amino:line67",
+    "amino:line68",
+    "amino:line69",
+    "amino:line70",
+    "amino:line71",
+    "amino:line72",
+    "amino:line73",
+    "amino:line74",
+    "amino:line75",
+    "amino:line76",
+    "amino:line77",
+    "amino:line78",
+    "amino:line79",
+    "amino:line80",
+    "amino:line81"
+  ],
+  "amino_predict_status": "Excluded from cross-validation; separate condition-audited diagnostic required because paper and CSV disagree on selected test concentrations"
+}

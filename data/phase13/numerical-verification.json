@@ -1,0 +1,133 @@
+{
+  "status": "Passed artifact and physical-configuration checks; no efficacy validation",
+  "frames_checked": 6000,
+  "runs": [
+    {
+      "job_id": "leu-NPT-20261011",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 9.386022425533769e-07,
+      "max_OM_error_nm": 9.447029716176669e-07,
+      "PDB_box_rounding_error_nm": 1.588168748822838e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.0077867123707145245,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt3",
+      "source_commit": "d1529e4e2f8b9a45a6b157fe13cfef375d664539",
+      "completed_and_deleted_receipt_verified": true
+    },
+    {
+      "job_id": "leu-NPT-20261012",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 8.978531902820164e-07,
+      "max_OM_error_nm": 9.275204143933957e-07,
+      "PDB_box_rounding_error_nm": 3.323038610947293e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.007814293549134939,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt3",
+      "source_commit": "d1529e4e2f8b9a45a6b157fe13cfef375d664539",
+      "completed_and_deleted_receipt_verified": true
+    },
+    {
+      "job_id": "leu-NPT-20261013",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 9.672214194567097e-07,
+      "max_OM_error_nm": 9.438353122219467e-07,
+      "PDB_box_rounding_error_nm": 4.2123168797481014e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.0076619708520467185,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt2",
+      "source_commit": "71ae10f1b5e20a95752cda2d519eb08b4ee542ca",
+      "completed_and_deleted_receipt_verified": true
+    },
+    {
+      "job_id": "ile-NPT-20261021",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 9.82366145541036e-07,
+      "max_OM_error_nm": 9.554942806376532e-07,
+      "PDB_box_rounding_error_nm": 3.687595504464625e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 2,
+          "minimum_absolute_volume_nm3": 0.008047213797381382,
+          "all_frames_preserve_starting_handedness": true
+        },
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.007616708145264678,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt2",
+      "source_commit": "71ae10f1b5e20a95752cda2d519eb08b4ee542ca",
+      "completed_and_deleted_receipt_verified": true
+    },
+    {
+      "job_id": "ile-NPT-20261022",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 9.751355915937898e-07,
+      "max_OM_error_nm": 9.326582425424335e-07,
+      "PDB_box_rounding_error_nm": 8.106469913116143e-06,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 2,
+          "minimum_absolute_volume_nm3": 0.008164897344679076,
+          "all_frames_preserve_starting_handedness": true
+        },
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.007550625962958239,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt2",
+      "source_commit": "71ae10f1b5e20a95752cda2d519eb08b4ee542ca",
+      "completed_and_deleted_receipt_verified": true
+    },
+    {
+      "job_id": "ile-NPT-20261023",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 9.117357348681354e-07,
+      "max_OM_error_nm": 9.58461078354872e-07,
+      "PDB_box_rounding_error_nm": 2.658679083911153e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true,
+      "stereocenter_checks": [
+        {
+          "center_index": 2,
+          "minimum_absolute_volume_nm3": 0.00803830554461841,
+          "all_frames_preserve_starting_handedness": true
+        },
+        {
+          "center_index": 4,
+          "minimum_absolute_volume_nm3": 0.007694752372895877,
+          "all_frames_preserve_starting_handedness": true
+        }
+      ],
+      "attempt": "runpod-attempt3",
+      "source_commit": "d1529e4e2f8b9a45a6b157fe13cfef375d664539",
+      "completed_and_deleted_receipt_verified": true
+    }
+  ],
+  "reserved_models_unchanged": true,
+  "deployed_commit_verified": "71ae10f1b5e20a95752cda2d519eb08b4ee542ca",
+  "retry_commit_verified": "d1529e4e2f8b9a45a6b157fe13cfef375d664539",
+  "script_sha256": "e5b18aba5987afcd754116a1eab7031b04bad0fa3ccdabd6bfe4082a3e2c01df"
+}

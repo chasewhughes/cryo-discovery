@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-09-06T20:25:09.137618+00:00",
+  "test_command": ".venv/bin/python -m unittest tests.test_analyze_rock_panel tests.test_boltz_panel_inference tests.test_runpod_boltz_panel tests.test_reconcile_phase17 tests.test_discovery_pipeline tests.test_hypothesis_registry",
+  "tests_passed": 28,
+  "executed_plan_sha256": "73732c860387923980248f542ec17804be0634ff233b43a4ead4e01424b95ade",
+  "panel_results_sha256": "5a206cdda625c08e9d6fb37f23a855189b9290f972e6208922512168d6c25a17",
+  "validation_errors": [],
+  "checks": [
+    "Executed frozen source and provenance hashes match",
+    "All top-level Phase 17 JSON parses",
+    "External candidate inventory source hashes match retained raw files",
+    "Report local links resolve",
+    "Archived result confirms complete 43-compound, two-seed outputs and verified archive",
+    "git diff --check passed"
+  ],
+  "note": "Local verification only; scientific validity remains limited to the reported internal benchmark."
+}

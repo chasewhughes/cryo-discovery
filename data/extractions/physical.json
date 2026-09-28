@@ -1,0 +1,653 @@
+[
+  {
+    "study_id": "doi:10.1038/srep26403",
+    "title": "QSAR Accelerated Discovery of Potent Ice Recrystallization Inhibitors",
+    "doi": "10.1038/srep26403",
+    "pmcid": "PMC4877635",
+    "year": 2016,
+    "source_url": "https://doi.org/10.1038/srep26403",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-0.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "physical_assay",
+    "species": [],
+    "cell_types": [],
+    "study_design": "QSAR classification and prospective synthesis with cell-free ice recrystallization assays.",
+    "interventions": [
+      "aryl-alditol candidate ice recrystallization inhibitors"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-0-1",
+        "model": "aryl-alditol chemical series; cell-free splat assay",
+        "intervention": "QSAR-selected newly synthesized candidates",
+        "comparator": "PBS grain-size reference; model classification threshold of 70% mean grain size",
+        "formulation": [
+          {
+            "compound": "paper-local aryl-alditol candidates",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "cell_free_ice_assay"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Prospective precision among predicted-active synthesized compounds",
+        "outcome_type": "model_performance",
+        "timepoint": null,
+        "result": "Nine of 11 synthesized predicted-active compounds met the assay activity cutoff (82% precision). The calibration dataset contained 124 compounds with an 84/40 train/test division. This measures chemical ice activity, not post-thaw cell survival.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "11 predicted-active synthesized compounds; these are compounds, not biological replicates",
+        "source_locator": "Results, Figure 5",
+        "evidence_excerpt": "9 out of 11 (82%)"
+      }
+    ],
+    "main_finding": "A structure model enriched for prospective IRI hits within related chemical series.",
+    "limitations": [
+      "No cell preservation endpoint in this study.",
+      "A chemical-series split and threshold selection can give optimistic estimates of performance on unrelated scaffolds.",
+      "Paper-local compound numbers require separate structure curation."
+    ],
+    "mechanism_claim": "IRI was measured directly; cytoprotection and cell-death pathway inhibition were not established.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1021/acsomega.6b00178",
+    "title": "Small-Molecule Ice Recrystallization Inhibitors Improve the Post-Thaw Function of Hematopoietic Stem and Progenitor Cells",
+    "doi": "10.1021/acsomega.6b00178",
+    "pmcid": "PMC6044699",
+    "year": 2016,
+    "source_url": "https://doi.org/10.1021/acsomega.6b00178",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-1.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "umbilical cord blood hematopoietic stem and progenitor cells"
+    ],
+    "study_design": "Controlled cryopreservation of cord-blood leukocyte concentrates with small-molecule IRIs, viability and progenitor assays.",
+    "interventions": [
+      "N-aryl-D-aldonamide IRIs"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-1-1",
+        "model": "human cord-blood leukocyte concentrates",
+        "intervention": "IRI 2 or 6 added to conventional DMSO formulation",
+        "comparator": "10% DMSO without IRI",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "%, basis not transcribed"
+          },
+          {
+            "compound": "compound 2 (paper-local)",
+            "concentration": 25,
+            "unit": "mM"
+          },
+          {
+            "compound": "compound 6 (alternative arm, paper-local)",
+            "concentration": 27.5,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "1 °C/min to −80 °C before liquid nitrogen",
+        "warming": "37 °C water bath",
+        "storage": "liquid nitrogen for 48 h",
+        "outcome_name": "Long-term culture-initiating cell yield",
+        "outcome_type": "function",
+        "timepoint": "5-week stromal coculture followed by 2-week colony assay",
+        "result": "IRI-supplemented samples produced up to a 2.25-fold LTC-IC yield relative to DMSO control. LTC-IC frequency increased up to twofold; compound 2 frequency comparison p<0.05, compound 6 p>0.05. Formulation entries for compounds 2 and 6 describe alternative arms, not a combined formulation.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "2 cord-blood units; limiting-dilution doses had 4–9 replicate wells",
+        "source_locator": "Results Figure 6; progenitor assay Methods",
+        "evidence_excerpt": "resulting in a 2.25-fold increase in LTC-IC yields versus control"
+      },
+      {
+        "experiment_id": "physical-1-2",
+        "model": "human cord-blood CD34+ cells",
+        "intervention": "IRI additives across 0%, 2%, 5%, and 10% DMSO",
+        "comparator": "matched DMSO concentration without IRI",
+        "formulation": [
+          {
+            "compound": "DMSO dose series",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "IRI compounds 2, 4, 6, 9; separate arms",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Post-thaw 7-AAD cell viability",
+        "outcome_type": "viability",
+        "timepoint": null,
+        "result": "IRI supplementation did not rescue viability at 0% or 2% DMSO; there was no improvement at 5% or 10% DMSO and some conditions reduced viability. Functional progenitor benefits at 10% DMSO therefore do not establish replacement of DMSO.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3–7 independent experiments in Figure 3",
+        "source_locator": "Results Figure 3",
+        "evidence_excerpt": "there is no increase in the CD34+ cell viability"
+      }
+    ],
+    "main_finding": "Some IRIs improved progenitor function at conventional DMSO concentration, while viability and reduced-DMSO results were less favorable.",
+    "limitations": [
+      "LTC-IC experiment involved only two cord-blood units.",
+      "Human hematopoietic cells are transfer evidence for iPSCs.",
+      "IRI dose entries in the functional summary represent separate treatment arms."
+    ],
+    "mechanism_claim": "Measured IRI and progenitor outcomes support physical-protection utility; they do not prove direct inhibition of a cellular death pathway.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1038/srep23619",
+    "title": "Small molecule ice recrystallization inhibitors mitigate red blood cell lysis during freezing, transient warming and thawing",
+    "doi": "10.1038/srep23619",
+    "pmcid": "PMC4810524",
+    "year": 2016,
+    "source_url": "https://doi.org/10.1038/srep23619",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-2.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "red blood cells"
+    ],
+    "study_design": "Hemolysis experiments under controlled freezing and repeated transient warming.",
+    "interventions": [
+      "small molecule IRI compound 4"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-2-1",
+        "model": "human red blood cells",
+        "intervention": "30 mM compound 4 with 15% glycerol during repeated thermal excursions",
+        "comparator": "15% glycerol alone; 40% glycerol reference",
+        "formulation": [
+          {
+            "compound": "glycerol",
+            "concentration": 15,
+            "unit": "%, basis not transcribed"
+          },
+          {
+            "compound": "compound 4 (paper-local)",
+            "concentration": 30,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "Rapid dump-freeze to −80 °C, followed by repeated warming to −20 °C and refreezing to −80 °C",
+        "warming": "Final thaw after 1, 3, or 5 excursion cycles; final thaw conditions not transcribed",
+        "storage": "−80 °C between excursions; long-term duration not established by this summary",
+        "outcome_name": "Intact RBC percentage after repeated transient warming",
+        "outcome_type": "recovery",
+        "timepoint": "After final thaw following specified number of thermal cycles",
+        "result": "After three cycles, compound 4 gave 92% intact RBCs versus 55% with 15% glycerol alone; after five cycles it retained approximately 90% versus 36% with glycerol alone. These are integrity endpoints, not oxygen-delivery or transfusion performance.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results, Figure 10",
+        "evidence_excerpt": "stays constant (92% intact RBCs)"
+      }
+    ],
+    "main_finding": "A small-molecule IRI reduced RBC lysis during repeated warming in a reduced-glycerol formulation.",
+    "limitations": [
+      "Nonnucleated RBC findings cannot establish iPSC recovery or cell-death pathway inhibition.",
+      "Compound identity remains paper-local pending structure verification.",
+      "Thermal-excursion resistance is distinct from validated long-term shelf life."
+    ],
+    "mechanism_claim": "Cell-free IRI and transient-warming results support an ice-recrystallization mechanism; no direct biological target is established.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1038/srep09692",
+    "title": "Small Molecule Ice Recrystallization Inhibitors Enable Freezing of Human Red Blood Cells with Reduced Glycerol Concentrations",
+    "doi": "10.1038/srep09692",
+    "pmcid": "PMC4389209",
+    "year": 2015,
+    "source_url": "https://doi.org/10.1038/srep09692",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-3.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "red blood cells"
+    ],
+    "study_design": "Graded slow cooling followed by dry-ice or liquid-nitrogen transfer; hemolysis assessment.",
+    "interventions": [
+      "β-PMP-Glc"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-3-1",
+        "model": "human red blood cells",
+        "intervention": "110 mM β-PMP-Glc with 15% glycerol",
+        "comparator": "15% glycerol alone under the same cooling sequence",
+        "formulation": [
+          {
+            "compound": "glycerol",
+            "concentration": 15,
+            "unit": "%, basis not transcribed"
+          },
+          {
+            "compound": "β-PMP-Glc (compound 6)",
+            "concentration": 110,
+            "unit": "mM"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "1 °C/min to −5 °C or −40 °C, then immersion in dry ice at −80 °C",
+        "warming": null,
+        "storage": "−80 °C; duration not transcribed",
+        "outcome_name": "Post-thaw RBC integrity",
+        "outcome_type": "recovery",
+        "timepoint": "Post-thaw; precise measurement interval not transcribed",
+        "result": "For transfer from −5 °C to dry ice, integrity was 84% with β-PMP-Glc versus 67% with glycerol alone. For transfer from −40 °C, integrity was 49% versus 25%. Thus efficacy depends on the cooling sequence.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results Figure 2b",
+        "evidence_excerpt": "49% with β-PMP-Glc versus 25% for 15% glycerol alone"
+      }
+    ],
+    "main_finding": "An IRI supported reduced-glycerol RBC preservation under particular cooling conditions.",
+    "limitations": [
+      "High millimolar additive concentration and RBC integrity endpoint limit transfer to nucleated cells.",
+      "The paper also reports unfavorable doses/protocols; benefit is not universal.",
+      "Long-term functional performance was not established by this selected experiment."
+    ],
+    "mechanism_claim": "Direct ice-recrystallization activity accompanies improved RBC integrity; direct inhibition of death pathways was not tested.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1016/j.isci.2022.104423",
+    "title": "Small-molecule fulvic acid with strong hydration ability for non-vitreous cellular cryopreservation",
+    "doi": "10.1016/j.isci.2022.104423",
+    "pmcid": "PMC9157229",
+    "year": 2022,
+    "source_url": "https://doi.org/10.1016/j.isci.2022.104423",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-4.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Ovis aries"
+    ],
+    "cell_types": [
+      "sheep red blood cells"
+    ],
+    "study_design": "Fulvic-acid fractions characterized in physical assays and sheep RBC cryopreservation.",
+    "interventions": [
+      "fulvic acid",
+      "fractionated fulvic acid"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-4-1",
+        "model": "sheep red blood cells",
+        "intervention": "240 mg/mL crude fulvic acid in PBS",
+        "comparator": "PBS blank and commercial hydroxyethyl starch concentration series",
+        "formulation": [
+          {
+            "compound": "crude fulvic acid",
+            "concentration": 240,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "Plunged into liquid nitrogen",
+        "warming": "4 °C refrigerator for 150 min or 45 °C water bath for 1 min",
+        "storage": "liquid nitrogen for 2.5 h",
+        "outcome_name": "RBC recovery after slow or fast thaw",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate post-thaw; separate follow-up assessed stability to 24 h",
+        "result": "At 240 mg/mL, recovery was approximately 45% after 4 °C thaw and 80% after 45 °C thaw. Best HES recovery for 4 °C thaw was approximately 13% at 215 mg/mL. Fractions differed in performance; this is not evidence for a single chemically defined molecule.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "Each test condition repeated in three different batches with test and control groups included",
+        "source_locator": "Results Figure 3A; STAR Methods, cryopreservation",
+        "evidence_excerpt": "around 45% at 4°C thawing condition and 80% at 45°C thawing condition"
+      }
+    ],
+    "main_finding": "A heterogeneous fulvic-acid material protected sheep RBCs without added permeating CPA in a short-storage experiment.",
+    "limitations": [
+      "Fulvic acid is a mixture with origin-dependent composition, not an identified drug-like molecule.",
+      "High mass concentration; no direct human iPSC evidence.",
+      "Immediate membrane integrity and 24 h RBC follow-up do not establish long-term cell function."
+    ],
+    "mechanism_claim": "Ice growth/recrystallization and hydration were studied; the results do not establish specific cell-death pathway inhibition.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1021/acs.biomac.1c01477",
+    "title": "Ice Recrystallization Inhibition Is Insufficient to Explain Cryopreservation Abilities of Antifreeze Proteins",
+    "doi": "10.1021/acs.biomac.1c01477",
+    "pmcid": "PMC8924859",
+    "year": 2022,
+    "source_url": "https://doi.org/10.1021/acs.biomac.1c01477",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-5.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "red blood cells",
+      "erythrocyte model membranes"
+    ],
+    "study_design": "Natural and modified antifreeze proteins compared by RBC recovery, ice activity, and model-membrane interactions.",
+    "interventions": [
+      "AFGP1–5",
+      "AFGP1–5 isopropylidene variant"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "osmotic_membrane"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-5-1",
+        "model": "human red blood cells",
+        "intervention": "AFGP1–5-ipp variant in HES cryostorage medium",
+        "comparator": "Native AFGP1–5 in HES; other AF(G)Ps",
+        "formulation": [
+          {
+            "compound": "hydroxyethyl starch",
+            "concentration": 130,
+            "unit": "mg/mL"
+          },
+          {
+            "compound": "AFGP1–5-ipp; concentration not transcribed",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "RBC recovery and relationship to IRI",
+        "outcome_type": "recovery",
+        "timepoint": null,
+        "result": "The modified variant promoted approximately 55% RBC recovery compared with 24% for native AFGP, despite reduced IRI and thermal-hysteresis activity. Other protein classes with different IRI activities had similar recovery. Model-membrane experiments showed stronger interactions for the modified variant.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results Figures 2–4 and Discussion",
+        "evidence_excerpt": "55% compared to the 24% of AFGP"
+      }
+    ],
+    "main_finding": "Ice-recrystallization potency alone did not predict RBC recovery; membrane interactions were an additional candidate determinant.",
+    "limitations": [
+      "Protein/mixture results do not establish a small molecule with dual physical and anti-apoptotic action.",
+      "Mechanistic membrane models are simpler than living cells.",
+      "Doses, full thermal protocol and replicate hierarchy need further arm-level curation."
+    ],
+    "mechanism_claim": "IRI and membrane interactions were measured; enhanced membrane stabilization is a proposed contributor, not proof of a specific death-pathway target.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1111/trf.15395",
+    "title": "The ice recrystallization inhibitor polyvinyl alcohol does not improve platelet cryopreservation",
+    "doi": "10.1111/trf.15395",
+    "pmcid": "PMC6907407",
+    "year": 2019,
+    "source_url": "https://doi.org/10.1111/trf.15395",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-6.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "platelets"
+    ],
+    "study_design": "Paired platelet concentrates cryopreserved with DMSO alone or with PVA; recovery and functional assays.",
+    "interventions": [
+      "polyvinyl alcohol, 9 kDa"
+    ],
+    "mechanism_axes": [
+      "physical_ice"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-6-1",
+        "model": "human platelet concentrates",
+        "intervention": "PVA added to 6% DMSO",
+        "comparator": "6% DMSO alone, paired concentrates",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 6,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "polyvinyl alcohol 9 kDa",
+            "concentration": 0.5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": "37 °C for 8 min, then resuspension in prewarmed ABO-matched plasma",
+        "storage": "−80 °C for at least 24 h",
+        "outcome_name": "Platelet recovery",
+        "outcome_type": "recovery",
+        "timepoint": "Post-thaw; assay delay not specified",
+        "result": "Recovery was 73.9% ±7.9 with PVA and 70.4% ±10.5 without PVA (p=0.61), providing no demonstrated recovery benefit in this small paired comparison.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 paired platelet concentrate preparations",
+        "source_locator": "Letter main text and Figure 1",
+        "evidence_excerpt": "not significantly different from the control"
+      },
+      {
+        "experiment_id": "physical-6-2",
+        "model": "human platelet concentrates",
+        "intervention": "0.5 mg/mL PVA added to 6% DMSO",
+        "comparator": "6% DMSO alone; unfrozen platelet reference",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 6,
+            "unit": "% v/v"
+          },
+          {
+            "compound": "polyvinyl alcohol 9 kDa",
+            "concentration": 0.5,
+            "unit": "mg/mL"
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": "37 °C for 8 min",
+        "storage": "−80 °C for at least 24 h",
+        "outcome_name": "TRAP6-induced PAC-1 binding and ristocetin agglutination",
+        "outcome_type": "function",
+        "timepoint": "Post-thaw",
+        "result": "PAC-1 binding fell from 89% ±5% before freezing to 32% ±1% without PVA and 29% ±4% with PVA. Agglutination was also impaired without a significant PVA benefit.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 paired preparations",
+        "source_locator": "Letter main text and Figure 2E–F",
+        "evidence_excerpt": "29% (±4) with PVA after cryopreservation"
+      }
+    ],
+    "main_finding": "PVA did not improve platelet recovery or function at the reported dose.",
+    "limitations": [
+      "Small paired sample; null result is not evidence of equivalence or absence of benefit in other cells.",
+      "Higher doses described as unsuccessful had no displayed data and were not extracted."
+    ],
+    "mechanism_claim": "PVA's IRI property motivates the test; this experiment shows no functional benefit and does not identify the dominant injury mechanism.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  },
+  {
+    "study_id": "doi:10.1021/jacsau.3c00056",
+    "title": "Chemically Induced Extracellular Ice Nucleation Reduces Intracellular Ice Formation Enabling 2D and 3D Cellular Cryopreservation",
+    "doi": "10.1021/jacsau.3c00056",
+    "pmcid": "PMC10207112",
+    "year": 2023,
+    "source_url": "https://doi.org/10.1021/jacsau.3c00056",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/physical-7.xml",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "mammalian_transfer",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "A549",
+      "SW480",
+      "HepG2",
+      "A549 and HepG2 spheroids"
+    ],
+    "study_design": "Soluble pollen-washing-water nucleator compared with DMSO alone in suspension, monolayers, spheroids and cryomicroscopy.",
+    "interventions": [
+      "pollen washing water (PWW), polysaccharide-based ice nucleator"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "physical-7-1",
+        "model": "A549 adherent cells under cryomicroscopy",
+        "intervention": "Extracellular ice nucleation with PWW",
+        "comparator": "No controlled ice nucleation",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "%, basis not transcribed"
+          },
+          {
+            "compound": "pollen washing water; active polysaccharide not fully characterized",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Fraction of cells undergoing intracellular ice formation",
+        "outcome_type": "ice_activity",
+        "timepoint": "During cooling",
+        "result": "Typically 40–50% of cells formed intracellular ice without controlled nucleation, reduced to below 10% with the extracellular nucleator.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Results Figure 2B",
+        "evidence_excerpt": "reduced this to below 10% of cells"
+      },
+      {
+        "experiment_id": "physical-7-2",
+        "model": "A549 and HepG2 spheroids",
+        "intervention": "PWW added to DMSO freezing formulation",
+        "comparator": "10% DMSO alone",
+        "formulation": [
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "%, basis not transcribed"
+          },
+          {
+            "compound": "pollen washing water",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing"
+        ],
+        "cooling": "In 96-well plates to −80 °C; exact ramp not transcribed",
+        "warming": null,
+        "storage": null,
+        "outcome_name": "ATP content relative to nonfrozen spheroids",
+        "outcome_type": "viability",
+        "timepoint": "24 h post-thaw",
+        "result": "Controlled extracellular nucleation improved spheroid ATP-based viability. The assay includes post-thaw growth and can exceed 100%; it is not an absolute count of surviving cells. Monolayer effects were larger and more consistent than suspension effects.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "4000 or 8000 cells per spheroid; these are starting sizes, not replicate counts",
+        "source_locator": "Results Figure 3 and preceding spheroid assay description",
+        "evidence_excerpt": "this method can report >100% viability"
+      }
+    ],
+    "main_finding": "Controlling extracellular nucleation reduced intracellular ice and improved preservation of models with extensive cell contacts.",
+    "limitations": [
+      "PWW's active material is not fully chemically characterized.",
+      "Cancer cell lines and spheroids are transfer models for iPSC applications.",
+      "ATP/resazurin endpoints include metabolism and growth; they do not establish lineage-specific function."
+    ],
+    "mechanism_claim": "Intracellular ice reduction was measured directly; lower oxidative stress may follow reduced injury and does not establish a direct stress-pathway inhibitor.",
+    "review_status": "root_source_reviewed",
+    "reviewer": "root; selected source results and protocol details checked against archived XML"
+  }
+]

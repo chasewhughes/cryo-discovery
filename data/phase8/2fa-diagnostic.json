@@ -1,0 +1,26 @@
+{
+  "status": "Previously inspected known compound, not an independent confirmation",
+  "source_record": "glyco2:line85",
+  "withheld_predictions": {
+    "scaffold": {
+      "id": "glyco2:line85",
+      "observed_mgs": 3.0,
+      "predicted_mgs": {
+        "standard_svr": 70.73170824836288,
+        "hydration_svr": 67.68683937176141,
+        "fingerprint_krr": 76.47426925086043,
+        "ensemble": 71.63093895699491
+      }
+    },
+    "connectivity": {
+      "id": "glyco2:line85",
+      "observed_mgs": 3.0,
+      "predicted_mgs": {
+        "standard_svr": 53.31592699507451,
+        "hydration_svr": 44.37164195966332,
+        "fingerprint_krr": 69.55160986835904,
+        "ensemble": 55.74639294103229
+      }
+    }
+  }
+}

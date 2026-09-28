@@ -1,0 +1,17 @@
+{
+  "retrieved_at": "2026-09-05",
+  "failures": [
+    {
+      "query": "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND cryopreservation AND (apoptosis OR ferroptosis OR \"oxidative stress\")",
+      "status": "HTTP 503 Service Unavailable",
+      "attempts": 3,
+      "result_count": null
+    },
+    {
+      "query": "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND cryopreservation AND (\"machine learning\" OR optimization OR permeability OR toxicity)",
+      "status": "HTTP 503 Service Unavailable",
+      "attempts": 3,
+      "result_count": null
+    }
+  ]
+}

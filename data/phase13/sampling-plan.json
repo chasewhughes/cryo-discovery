@@ -1,0 +1,214 @@
+{
+  "status": "Frozen before Phase 13 production; six independently prepared same-formula controls",
+  "design_specified_at": "2026-09-06T13:06:04.502871+00:00",
+  "question": "Do same-formula leucine/isoleucine controls show a reproducible hydration difference relative to within-compound variation?",
+  "selection": "Previously deferred known-label method-development controls; no held-out validation or candidate selection based on simulation results",
+  "source_controls_sha256": "afed51a7b6b72f0ca94d788dfdacc80757eac9c6a653bd428675a07022bd474c",
+  "descriptor_version": "cryo-nearest-water-v1",
+  "descriptor": "Unchanged Phase 11 100-bin [0,0.5] nm conditional nearest-water PDF, all solute atoms including H, solvent oxygen once, per-frame normalization and equal-frame averaging",
+  "design": {
+    "compounds": [
+      "leu",
+      "ile"
+    ],
+    "formula": "C6H13NO2",
+    "solute_count": 1,
+    "solute_total_atoms": 22,
+    "water_molecules": 2070,
+    "initial_box": "cube sized by fixed solvent count via numAdded; report resulting volume",
+    "ensemble": "NPT",
+    "temperature_K": 273,
+    "pressure_bar": 1,
+    "barostat_interval_steps": 25,
+    "water": "TIP4P/Ice local conversion",
+    "forcefield": "OpenMM8.6 CHARMM36 distribution",
+    "salt_added": false,
+    "microstate": "Explicit zwitterions; assay protonation is not independently established",
+    "independent_preparations_per_compound": 3,
+    "preparation": "Independent RDKit conformer and velocity seeds, local minimization; no prior production segments",
+    "production_ps": 10000,
+    "equilibration_ps": 1000,
+    "frames": 1000,
+    "total_production_ns": 60,
+    "total_equilibration_ns": 6,
+    "concentration": "Same solute/solvent count and total mass across groups; NPT volumes determine realized concentration, approximately 26 mM. Not matched to the source 20mM/10mM NaCl frozen assay."
+  },
+  "primary": {
+    "endpoint": "First 500 production frames (5 ns) versus last 500 (5 ns), each new branch separately",
+    "max_pdf_total_variation": 0.05,
+    "max_absolute_density_change_g_ml": 0.005,
+    "max_absolute_count_0_30nm_change": 0.5,
+    "max_absolute_whole_production_mean_temperature_error_K": 3,
+    "interpretation": "Exploratory engineering flags, no formal convergence or independent error-rate guarantee"
+  },
+  "secondary": {
+    "consecutive_window_ps": 2000,
+    "windows_per_run": 5,
+    "report_all_windows": true,
+    "maximum_window_gate": false,
+    "bins": [
+      20,
+      50,
+      100
+    ],
+    "block_ps": [
+      100,
+      250,
+      500
+    ],
+    "endpoint_window_ps": [
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "block_mixing_permutations": 1000,
+    "random_seed": 20261006,
+    "interpretation": "Equal-frame disjoint block mixing descriptive references; exchangeability/dependence scale unestablished. No p-values. Coarsening cannot increase TV."
+  },
+  "comparison": {
+    "primary_scalar": "Mean unique-water count at 0.30 nm per trajectory, compound means +/- sample SD, Leu minus Ile mean difference",
+    "primary_distribution": "100-bin TV between equally weighted compound mean PDFs",
+    "noise_reference": "Every within-compound replicate-pair PDF TV (3 per compound) and all 9 cross-compound pair TVs; descriptive comparisons only",
+    "replicate_unit": "Independently prepared trajectory; never individual frames",
+    "paired_inference": false,
+    "statistics": "Report all six trajectories and all pair contrasts; no significance claims or fitted efficacy relationship with two selected compounds and n=3 per compound",
+    "secondary_counts_nm": [
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5
+    ],
+    "expansion_gate": "Retain any engineering flags; do not choose a different binning, duration or label relationship to force a preferred contrast"
+  },
+  "cloud": {
+    "max_rate_usd_per_hour": 0.8,
+    "max_lifetime_seconds": 3600,
+    "per_run_timeout_seconds": 1900,
+    "runner_max_wall_seconds": 1800,
+    "batch_reserve_usd": 5.4,
+    "shutdown_storage_margin_usd": 0.6,
+    "cumulative_gpu_limit_usd": 10,
+    "parallel_pods": 6
+  },
+  "jobs": [
+    {
+      "id": "leu-NPT-20261011",
+      "parent_id": "leu-NPT-20261011",
+      "compound": "leu",
+      "ensemble": "NPT",
+      "parent_seed": 20261011,
+      "seed": 20262011,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "ead2dbd1ed7921caef9f07e0e6893cf748ea97707fa64c796b420522eba287d4",
+        "integrator.xml": "ed58c9f53ffc1058ce9c1a0403d796864fe74b69f7b7c14ec88e537dc115034b",
+        "final-state.xml": "e4d222cafde5339c6b687884a87f7a8c4e0bad7655abbb6e4ae264b31342a8eb",
+        "topology-final-box.pdb": "6e4a700ee1f255c383936294312083c236191941289947e991e943608d79bc44",
+        "result.json": "f6ec6184267347c068e446856175317573c846fde10343dcd75017cfc25fd11e"
+      }
+    },
+    {
+      "id": "leu-NPT-20261012",
+      "parent_id": "leu-NPT-20261012",
+      "compound": "leu",
+      "ensemble": "NPT",
+      "parent_seed": 20261012,
+      "seed": 20262012,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "05ad276b8e52aa716046ba1e5eefd5784743325ce8a31be5f40d0ded7d1240a0",
+        "integrator.xml": "25eb9773dec4c4d6b395e379568695549e0cb025ee261dca5ee1149f17790989",
+        "final-state.xml": "e8e839c1f9b9c855bbe92fc7da557d426e61fce67d4065dafb8d8b0a12efc561",
+        "topology-final-box.pdb": "b1e0bb289ec061d7bf9ef61cd9f20fdafcad15d27e99d85b40bbf122fe1bbd17",
+        "result.json": "ef60a7d73cd4a6bc393117ca2425cd90e82d7b2dcc43464b542b9f38456a2bf1"
+      }
+    },
+    {
+      "id": "leu-NPT-20261013",
+      "parent_id": "leu-NPT-20261013",
+      "compound": "leu",
+      "ensemble": "NPT",
+      "parent_seed": 20261013,
+      "seed": 20262013,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "fd1308cbd71d6ca71d7695ff7103cdd8ed6b219406aac27fbdbe37d28203e69d",
+        "integrator.xml": "45584f1c207c7d11f551a2063bb2e1a8a31a2f768921c124d2146e4eff654785",
+        "final-state.xml": "a4fd9f6bb119ed17b4892122126e7d2689ea37edd1a1de2cf16830a650c87d6c",
+        "topology-final-box.pdb": "c095c40acf54767919993cca59b524090e4babed6427ec249a335cd2d267782f",
+        "result.json": "593190d45ceb81edd485990383dacd69f6e17c2736b5cfb97107b4ad3a67f672"
+      }
+    },
+    {
+      "id": "ile-NPT-20261021",
+      "parent_id": "ile-NPT-20261021",
+      "compound": "ile",
+      "ensemble": "NPT",
+      "parent_seed": 20261021,
+      "seed": 20262021,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "564b82d4c2a1703068eb7b3e3f79e829bad08b3ce48203c8aea5023f68a10db0",
+        "integrator.xml": "fce9c5ca8cd5278a4c4efe3e9f2b4ed4d4f6ebdc99498276ee63a049ce23a0d1",
+        "final-state.xml": "073889ea3d0811268a624d54935923963b11372795b4099ffcf2cd592c55c882",
+        "topology-final-box.pdb": "4cdef1ffa4d0f8466be3c3d5ebe6147d383b3d95c2ac7de8ef0c3363cbe33131",
+        "result.json": "82c192363bc3e634c209da49d3446feb25b47d7c2e9406862d7734675cd48931"
+      }
+    },
+    {
+      "id": "ile-NPT-20261022",
+      "parent_id": "ile-NPT-20261022",
+      "compound": "ile",
+      "ensemble": "NPT",
+      "parent_seed": 20261022,
+      "seed": 20262022,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "62d14b92d85706d095b8460f5402355f50a25a8d020a3f5ff1015ee6b0295b68",
+        "integrator.xml": "61c1692bc6c704594db41cfa3d64ee5cd9e3c619ccfc92f3f866732e9e125ecc",
+        "final-state.xml": "c7072d87915588aba59e8411216498339135081c80f9b1003b96690b41db5d89",
+        "topology-final-box.pdb": "0444872ba6761ca9a8183614c3592feb3fb924cad2d0e393a7542b5e0529c6d2",
+        "result.json": "74240180127dadc09a51e079ea95ab82738caf171fac42a642ed3a1eb1febb22"
+      }
+    },
+    {
+      "id": "ile-NPT-20261023",
+      "parent_id": "ile-NPT-20261023",
+      "compound": "ile",
+      "ensemble": "NPT",
+      "parent_seed": 20261023,
+      "seed": 20262023,
+      "equilibration_ps": 1000,
+      "production_ps": 10000,
+      "frames": 1000,
+      "parent_sha256": {
+        "system.xml": "527e87c893c0dca6b420fe1408ab630e090f5649d5db903879467d601a278295",
+        "integrator.xml": "3d763d3e12e44405147c5ce181d0b65210322d09a2e8f59a1ae57ca46a6c8b30",
+        "final-state.xml": "40a366d076de72c2ce3bd4bedb57ef7992f272e2bb1ca00e24da5043833a6689",
+        "topology-final-box.pdb": "0dab2f190dfe70d738c36c03bb506529e14b3432bd3105ee2b6e6836fec7d286",
+        "result.json": "f80fd8638ee1364eb026034b4745acf99a47043d3e42d158669313dedbc8a756"
+      }
+    }
+  ],
+  "limits": [
+    "Same formula/mass/solvent count reduce size and concentration confounds, but shape, stereochemistry and exposed surface differ.",
+    "Liquid-water hydration is not ice-binding, IRI, apoptosis, toxicity or cell-viability prediction.",
+    "Known experimental labels remain contextual and are not used to fit or select models.",
+    "Neither physical convergence nor a cryoprotective mechanism is established by passing these engineering flags."
+  ],
+  "frozen_at": "2026-09-06T13:16:17.134405+00:00"
+}

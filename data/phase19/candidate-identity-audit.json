@@ -1,0 +1,64 @@
+{
+  "scope": "Provisional database identity/split audit only; primary source eligibility remains separate.",
+  "selection_policy_sha256": "f70c5e371316e3d6a801b8947e3297dbe2d59e2f9b4f853d4a018fc07c779ac0",
+  "candidates": [
+    {
+      "assay_id": "CHEMBL1686688",
+      "source_path": "data/raw/phase17/external-review/CHEMBL1686688-activities.json",
+      "source_sha256": "2778aa2905f4ce5adbf03e3819d4f653653386f2e9daecc83fb9b0d9236a4b43",
+      "provisional_exact_n": 27,
+      "overlap_ids": [],
+      "scaffold_n": 11,
+      "source_labels_reconciled": false,
+      "split_viable": true,
+      "calibration_n": 15,
+      "test_n": 12,
+      "split": {
+        "calibration_ids": [
+          "CHEMBL1684196",
+          "CHEMBL1684198",
+          "CHEMBL1684199",
+          "CHEMBL1684200",
+          "CHEMBL1684202",
+          "CHEMBL1684203",
+          "CHEMBL1684204",
+          "CHEMBL1684213",
+          "CHEMBL1684221",
+          "CHEMBL1684222",
+          "CHEMBL1684223",
+          "CHEMBL1684224",
+          "CHEMBL1684225",
+          "CHEMBL1684226",
+          "CHEMBL1684227"
+        ],
+        "test_ids": [
+          "CHEMBL1684205",
+          "CHEMBL1684208",
+          "CHEMBL1684211",
+          "CHEMBL1684212",
+          "CHEMBL1684214",
+          "CHEMBL1684215",
+          "CHEMBL1684216",
+          "CHEMBL1684218",
+          "CHEMBL1684219",
+          "CHEMBL1684220",
+          "CHEMBL1684228",
+          "CHEMBL1684229"
+        ],
+        "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), assign whole groups to calibration until at least ceil(n/3) compounds; remaining groups held out. No potency or prediction stratification.",
+        "scaffold_count": 11
+      }
+    },
+    {
+      "assay_id": "CHEMBL1219161",
+      "source_path": "data/raw/phase17/external-review/CHEMBL1219161-activities.json",
+      "source_sha256": "dc24df2eff425cad6926e5f8226af88eb7c6c2e069842200024159b10f10888c",
+      "provisional_exact_n": 33,
+      "overlap_ids": [],
+      "scaffold_n": 7,
+      "source_labels_reconciled": false,
+      "split_viable": false,
+      "reason": "Frozen label-independent partition too small; report ineligible, do not tune against outcomes"
+    }
+  ]
+}

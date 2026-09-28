@@ -1,0 +1,886 @@
+{
+  "source_doi": "10.1186/s13287-025-04384-5",
+  "source_workbook": {
+    "path": "data/raw/phase3/dmso-free-cm-supplement.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13287-025-04384-5/MediaObjects/13287_2025_4384_MOESM1_ESM.xlsx",
+    "status": "downloaded_valid_xlsx",
+    "bytes": 399747,
+    "sha256": "5c2d3406252b7f649d4da904e0e4a30ce498c10754a9dc5426b4ed6293c4ce2e"
+  },
+  "analysis_type": "Descriptive recomputation; no new hypothesis tests or donor-independence assumptions",
+  "recovery_observations": [
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 2,
+      "arm": "Solution A",
+      "recovery_percent": 87.33333333333334,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 3,
+      "arm": "Solution A",
+      "recovery_percent": 92.33333333333333,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 4,
+      "arm": "DMSO",
+      "recovery_percent": 89.33333333333334,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 5,
+      "arm": "DMSO",
+      "recovery_percent": 68.0,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 6,
+      "arm": "Solution A",
+      "recovery_percent": 63.0,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 7,
+      "arm": "Solution A",
+      "recovery_percent": 65.66666666666666,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 8,
+      "arm": "DMSO",
+      "recovery_percent": 66.33333333333333,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 9,
+      "arm": "DMSO",
+      "recovery_percent": 66.0,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 10,
+      "arm": "Solution A",
+      "recovery_percent": 92.66666666666666,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 11,
+      "arm": "Solution A",
+      "recovery_percent": 90.0,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 12,
+      "arm": "DMSO",
+      "recovery_percent": 86.33333333333333,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 13,
+      "arm": "DMSO",
+      "recovery_percent": 67.0,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 14,
+      "arm": "Solution A",
+      "recovery_percent": 93.0,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 15,
+      "arm": "Solution A",
+      "recovery_percent": 79.33333333333333,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 16,
+      "arm": "DMSO",
+      "recovery_percent": 75.0,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 17,
+      "arm": "DMSO",
+      "recovery_percent": 71.33333333333334,
+      "cooling_rate_c_per_min": 5.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 18,
+      "arm": "Solution A",
+      "recovery_percent": 61.33333333333334,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 19,
+      "arm": "Solution A",
+      "recovery_percent": 60.66666666666667,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 20,
+      "arm": "DMSO",
+      "recovery_percent": 73.0,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 21,
+      "arm": "DMSO",
+      "recovery_percent": 84.33333333333333,
+      "cooling_rate_c_per_min": 1.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 22,
+      "arm": "Solution A",
+      "recovery_percent": 57.99999999999999,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 23,
+      "arm": "Solution A",
+      "recovery_percent": 51.33333333333333,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 24,
+      "arm": "DMSO",
+      "recovery_percent": 62.33333333333334,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "source_row": 25,
+      "arm": "DMSO",
+      "recovery_percent": 60.0,
+      "cooling_rate_c_per_min": 3.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 2,
+      "arm": "Solution A",
+      "recovery_percent": 54.0,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 3,
+      "arm": "Solution A",
+      "recovery_percent": 58.666666666666664,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 4,
+      "arm": "DMSO",
+      "recovery_percent": 52.33333333333333,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 5,
+      "arm": "DMSO",
+      "recovery_percent": 47.666666666666664,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 6,
+      "arm": "Solution A",
+      "recovery_percent": 59.66666666666667,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 7,
+      "arm": "Solution A",
+      "recovery_percent": 51.66666666666667,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 8,
+      "arm": "DMSO",
+      "recovery_percent": 57.666666666666664,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 9,
+      "arm": "DMSO",
+      "recovery_percent": 61.0,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 10,
+      "arm": "Solution A",
+      "recovery_percent": 81.66666666666667,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 11,
+      "arm": "Solution A",
+      "recovery_percent": 81.66666666666667,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 12,
+      "arm": "DMSO",
+      "recovery_percent": 83.66666666666666,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 13,
+      "arm": "DMSO",
+      "recovery_percent": 60.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 14,
+      "arm": "Solution A",
+      "recovery_percent": 97.33333333333333,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 15,
+      "arm": "Solution A",
+      "recovery_percent": 88.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 16,
+      "arm": "DMSO",
+      "recovery_percent": 89.66666666666666,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 17,
+      "arm": "DMSO",
+      "recovery_percent": 81.66666666666667,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 18,
+      "arm": "Solution A",
+      "recovery_percent": 76.66666666666666,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 19,
+      "arm": "Solution A",
+      "recovery_percent": 74.66666666666667,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 20,
+      "arm": "DMSO",
+      "recovery_percent": 73.66666666666667,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 21,
+      "arm": "DMSO",
+      "recovery_percent": 70.66666666666667,
+      "nucleation_c": -4.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 22,
+      "arm": "Solution A",
+      "recovery_percent": 76.33333333333333,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 23,
+      "arm": "Solution A",
+      "recovery_percent": 71.66666666666667,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 24,
+      "arm": "DMSO",
+      "recovery_percent": 61.33333333333334,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "source_row": 25,
+      "arm": "DMSO",
+      "recovery_percent": 65.0,
+      "nucleation_c": -6.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 2,
+      "arm": "DMSO",
+      "recovery_percent": 85.75,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 3,
+      "arm": "DMSO",
+      "recovery_percent": 75.5,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 4,
+      "arm": "Solution A",
+      "recovery_percent": 94.0,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 5,
+      "arm": "Solution A",
+      "recovery_percent": 92.0,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 6,
+      "arm": "Solution B",
+      "recovery_percent": 94.75,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 7,
+      "arm": "Solution B",
+      "recovery_percent": 86.25,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 8,
+      "arm": "DMSO",
+      "recovery_percent": 82.75,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 9,
+      "arm": "DMSO",
+      "recovery_percent": 76.75,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 10,
+      "arm": "Solution A",
+      "recovery_percent": 94.25,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 11,
+      "arm": "Solution A",
+      "recovery_percent": 88.0,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 12,
+      "arm": "Solution B",
+      "recovery_percent": 93.25,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    },
+    {
+      "source_sheet": "Post-thaw assessment (recovery)",
+      "source_row": 13,
+      "arm": "Solution B",
+      "recovery_percent": 85.25,
+      "cooling_rate_c_per_min": 5.0,
+      "nucleation_c": -8.0
+    }
+  ],
+  "final_recovery_percent": {
+    "Solution A": {
+      "n_observations": 4,
+      "mean": 92.0625,
+      "sample_sd": 2.889456407930968,
+      "population_sd": 2.50234265239595,
+      "sample_sem": 1.444728203965484
+    },
+    "Solution B": {
+      "n_observations": 4,
+      "mean": 89.875,
+      "sample_sd": 4.819664580307085,
+      "population_sd": 4.173951964266,
+      "sample_sem": 2.4098322901535423
+    },
+    "DMSO": {
+      "n_observations": 4,
+      "mean": 80.1875,
+      "sample_sd": 4.875,
+      "population_sd": 4.2218738434491385,
+      "sample_sem": 2.4375
+    }
+  },
+  "thermal_recovery_percent": [
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "DMSO",
+      "cooling_rate_c_per_min": 1.0,
+      "n_observations": 4,
+      "mean": 78.66666666666667,
+      "sample_sd": 9.862010913564196,
+      "population_sd": 8.540751983545974,
+      "sample_sem": 4.931005456782098
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "DMSO",
+      "cooling_rate_c_per_min": 3.0,
+      "n_observations": 4,
+      "mean": 63.66666666666667,
+      "sample_sd": 3.04290309725092,
+      "population_sd": 2.635231383473647,
+      "sample_sem": 1.52145154862546
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "DMSO",
+      "cooling_rate_c_per_min": 5.0,
+      "n_observations": 4,
+      "mean": 74.91666666666667,
+      "sample_sd": 8.283741326862538,
+      "population_sd": 7.17393042744197,
+      "sample_sem": 4.141870663431269
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "Solution A",
+      "cooling_rate_c_per_min": 1.0,
+      "n_observations": 4,
+      "mean": 75.41666666666667,
+      "sample_sd": 16.773822197433446,
+      "population_sd": 14.52655614154068,
+      "sample_sem": 8.386911098716723
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "Solution A",
+      "cooling_rate_c_per_min": 3.0,
+      "n_observations": 4,
+      "mean": 59.49999999999999,
+      "sample_sd": 6.30402575666857,
+      "population_sd": 5.459446451386399,
+      "sample_sem": 3.152012878334285
+    },
+    {
+      "source_sheet": "Cooling rate optimization",
+      "arm": "Solution A",
+      "cooling_rate_c_per_min": 5.0,
+      "n_observations": 4,
+      "mean": 88.75,
+      "sample_sd": 6.419732312407034,
+      "population_sd": 5.55965126804031,
+      "sample_sem": 3.209866156203517
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "DMSO",
+      "nucleation_c": -8.0,
+      "n_observations": 4,
+      "mean": 78.75,
+      "sample_sd": 12.953978367882025,
+      "population_sd": 11.218474346659915,
+      "sample_sem": 6.476989183941012
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "DMSO",
+      "nucleation_c": -6.0,
+      "n_observations": 4,
+      "mean": 61.25,
+      "sample_sd": 2.998456393003031,
+      "population_sd": 2.5967394084804813,
+      "sample_sem": 1.4992281965015155
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "DMSO",
+      "nucleation_c": -4.0,
+      "n_observations": 4,
+      "mean": 61.083333333333336,
+      "sample_sd": 12.99679447658794,
+      "population_sd": 11.255554184490432,
+      "sample_sem": 6.49839723829397
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "Solution A",
+      "nucleation_c": -8.0,
+      "n_observations": 4,
+      "mean": 87.16666666666667,
+      "sample_sd": 7.406203605886877,
+      "population_sd": 6.413960468297948,
+      "sample_sem": 3.7031018029434386
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "Solution A",
+      "nucleation_c": -6.0,
+      "n_observations": 4,
+      "mean": 64.83333333333334,
+      "sample_sd": 11.23981020005824,
+      "population_sd": 9.733961166965889,
+      "sample_sem": 5.61990510002912
+    },
+    {
+      "source_sheet": "Nucleation temp optimization",
+      "arm": "Solution A",
+      "nucleation_c": -4.0,
+      "n_observations": 4,
+      "mean": 66.0,
+      "sample_sd": 11.352924243950932,
+      "population_sd": 9.831920802501749,
+      "sample_sem": 5.676462121975466
+    }
+  ],
+  "final_A_minus_DMSO_recovery_pp": 11.875,
+  "calcium_observations": [
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 2,
+      "arm": "Solution A",
+      "reported_signal_amplitude": 0.08779999999999999,
+      "peak_average": 0.5769,
+      "minimum_average": 0.4891,
+      "difference_divided_by_minimum_for_definition_check": 0.17951339194438765,
+      "reported_up_down_velocity_ratio": 2.3810344827586207
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 3,
+      "arm": "Solution A",
+      "reported_signal_amplitude": 0.0373,
+      "peak_average": 0.6846,
+      "minimum_average": 0.6473,
+      "difference_divided_by_minimum_for_definition_check": 0.05762397651784335,
+      "reported_up_down_velocity_ratio": 1.1486058301647655
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 4,
+      "arm": "Solution A",
+      "reported_signal_amplitude": 0.033399999999999985,
+      "peak_average": 0.5457,
+      "minimum_average": 0.5123,
+      "difference_divided_by_minimum_for_definition_check": 0.06519617411672846,
+      "reported_up_down_velocity_ratio": 0.8279543197616683
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 5,
+      "arm": "Solution A",
+      "reported_signal_amplitude": 0.04469999999999996,
+      "peak_average": 0.7087,
+      "minimum_average": 0.664,
+      "difference_divided_by_minimum_for_definition_check": 0.06731927710843368,
+      "reported_up_down_velocity_ratio": 1.5601075936271467
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 6,
+      "arm": "Solution A",
+      "reported_signal_amplitude": 0.07809999999999995,
+      "peak_average": 0.6594,
+      "minimum_average": 0.5813,
+      "difference_divided_by_minimum_for_definition_check": 0.134354034061586,
+      "reported_up_down_velocity_ratio": 2.5382983237852748
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 7,
+      "arm": "Solution B",
+      "reported_signal_amplitude": 0.019299999999999984,
+      "peak_average": 0.5739,
+      "minimum_average": 0.5546,
+      "difference_divided_by_minimum_for_definition_check": 0.034799855751893226,
+      "reported_up_down_velocity_ratio": 1.2065481002425222
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 8,
+      "arm": "Solution B",
+      "reported_signal_amplitude": 0.0121,
+      "peak_average": 0.4834,
+      "minimum_average": 0.4713,
+      "difference_divided_by_minimum_for_definition_check": 0.02567366857627838,
+      "reported_up_down_velocity_ratio": 1.0313793103448277
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 9,
+      "arm": "Solution B",
+      "reported_signal_amplitude": 0.021299999999999875,
+      "peak_average": 1.462,
+      "minimum_average": 1.4407,
+      "difference_divided_by_minimum_for_definition_check": 0.01478447976677995,
+      "reported_up_down_velocity_ratio": 0.640035312293092
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 10,
+      "arm": "DMSO",
+      "reported_signal_amplitude": 0.0675,
+      "peak_average": 0.693,
+      "minimum_average": 0.6255,
+      "difference_divided_by_minimum_for_definition_check": 0.10791366906474822,
+      "reported_up_down_velocity_ratio": 2.225806451612903
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 11,
+      "arm": "DMSO",
+      "reported_signal_amplitude": 0.08089999999999997,
+      "peak_average": 0.7944,
+      "minimum_average": 0.7135,
+      "difference_divided_by_minimum_for_definition_check": 0.11338472319551503,
+      "reported_up_down_velocity_ratio": 1.916666666666667
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 12,
+      "arm": "DMSO",
+      "reported_signal_amplitude": 0.07540000000000013,
+      "peak_average": 1.9835,
+      "minimum_average": 1.9081,
+      "difference_divided_by_minimum_for_definition_check": 0.03951574865049009,
+      "reported_up_down_velocity_ratio": 1.1957511380880121
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 13,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.05500000000000016,
+      "peak_average": 1.2535,
+      "minimum_average": 1.1985,
+      "difference_divided_by_minimum_for_definition_check": 0.04589069670421374,
+      "reported_up_down_velocity_ratio": 1.7499854167881936
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 14,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.11280000000000001,
+      "peak_average": 0.8646,
+      "minimum_average": 0.7518,
+      "difference_divided_by_minimum_for_definition_check": 0.15003990422984836,
+      "reported_up_down_velocity_ratio": 2.05670545593285
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 15,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.07099999999999995,
+      "peak_average": 1.3161,
+      "minimum_average": 1.2451,
+      "difference_divided_by_minimum_for_definition_check": 0.05702353224640587,
+      "reported_up_down_velocity_ratio": 2.052035606754811
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 16,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.08050000000000002,
+      "peak_average": 1.319,
+      "minimum_average": 1.2385,
+      "difference_divided_by_minimum_for_definition_check": 0.06499798142914819,
+      "reported_up_down_velocity_ratio": 1.9177527521194484
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 17,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.1251000000000001,
+      "peak_average": 0.8735,
+      "minimum_average": 0.7484,
+      "difference_divided_by_minimum_for_definition_check": 0.1671566007482631,
+      "reported_up_down_velocity_ratio": 1.8148456613398574
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 18,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.06879999999999997,
+      "peak_average": 1.137,
+      "minimum_average": 1.0682,
+      "difference_divided_by_minimum_for_definition_check": 0.06440741434188352,
+      "reported_up_down_velocity_ratio": 2.099676724137931
+    },
+    {
+      "source_sheet": "Post-thaw assessment (calcium)",
+      "source_row": 19,
+      "arm": "Passaged",
+      "reported_signal_amplitude": 0.08220000000000005,
+      "peak_average": 1.2082,
+      "minimum_average": 1.126,
+      "difference_divided_by_minimum_for_definition_check": 0.07300177619893433,
+      "reported_up_down_velocity_ratio": 1.5025853154084796
+    }
+  ],
+  "calcium_reported_signal_summaries": {
+    "Solution A": {
+      "n_observations": 5,
+      "mean": 0.05625999999999998,
+      "sample_sd": 0.024937181075654874,
+      "population_sd": 0.02230449282095425,
+      "sample_sem": 0.011152246410477124
+    },
+    "Solution B": {
+      "n_observations": 3,
+      "mean": 0.01756666666666662,
+      "sample_sd": 0.004838732616433031,
+      "population_sd": 0.003950808637341039,
+      "sample_sem": 0.0027936435786342327
+    },
+    "DMSO": {
+      "n_observations": 3,
+      "mean": 0.07460000000000004,
+      "sample_sd": 0.006735725647619557,
+      "population_sd": 0.005499696961348562,
+      "sample_sem": 0.0038888730158406176
+    },
+    "Passaged": {
+      "n_observations": 7,
+      "mean": 0.0850571428571429,
+      "sample_sd": 0.02505779034836985,
+      "population_sd": 0.023199005960407453,
+      "sample_sem": 0.00947095452379731
+    }
+  },
+  "optimizer_generation_summaries": [
+    {
+      "generation": 0,
+      "n_observations": 9,
+      "mean": 30.907738095238095,
+      "sample_sd": 20.1982535766002,
+      "population_sd": 19.04309609618592,
+      "sample_sem": 6.732751192200067
+    },
+    {
+      "generation": 1,
+      "n_observations": 9,
+      "mean": 40.03596122945198,
+      "sample_sd": 12.359734192508576,
+      "population_sd": 11.652869148248069,
+      "sample_sem": 4.119911397502858
+    },
+    {
+      "generation": 2,
+      "n_observations": 9,
+      "mean": 48.93306774481721,
+      "sample_sd": 6.706896341452804,
+      "population_sd": 6.323322511675366,
+      "sample_sem": 2.2356321138176014
+    },
+    {
+      "generation": 3,
+      "n_observations": 9,
+      "mean": 51.66804009859548,
+      "sample_sd": 4.3860429242802725,
+      "population_sd": 4.1352009257784745,
+      "sample_sem": 1.4620143080934243
+    },
+    {
+      "generation": 4,
+      "n_observations": 9,
+      "mean": 62.56274012695455,
+      "sample_sd": 9.328546530971833,
+      "population_sd": 8.795038014219235,
+      "sample_sem": 3.1095155103239445
+    },
+    {
+      "generation": 5,
+      "n_observations": 9,
+      "mean": 73.74284171097075,
+      "sample_sd": 8.242036242161062,
+      "population_sd": 7.770666290156502,
+      "sample_sem": 2.747345414053687
+    },
+    {
+      "generation": 6,
+      "n_observations": 9,
+      "mean": 83.86602492460632,
+      "sample_sd": 5.599085902702621,
+      "population_sd": 5.2788688136627,
+      "sample_sem": 1.8663619675675402
+    },
+    {
+      "generation": 7,
+      "n_observations": 9,
+      "mean": 83.86602492460632,
+      "sample_sd": 5.599085902702621,
+      "population_sd": 5.2788688136627,
+      "sample_sem": 1.8663619675675402
+    }
+  ],
+  "checks": [
+    "Original supplementary file SHA-256 matches retrieval record",
+    "60 recovery rows: 24 cooling, 24 nucleation, 12 final-assessment; n=4 per arm/setting",
+    "Final means reproduce paper values; accompanying \u00b1 values reproduce population SD, not SEM",
+    "All 18 calcium amplitude entries equal peak-minus-minimum; all timing ratios agree",
+    "Eight optimizer populations have nine entries each; survivors may recur between generations"
+  ],
+  "limitations": [
+    "One engineered CCND2 donor line; rows are observations, not independent donor samples.",
+    "No raw cell-count denominators, batch IDs or calcium image/trace identifiers in these tables; cross-panel observation independence is unresolved.",
+    "No absolute osmolyte concentrations or solution-composition map found in the workbook. Figure 2 reports dimensionless component levels.",
+    "The paper states figure error bars are standard error; its recovery prose \u00b1 values instead match population SD. Keep both definitions explicit.",
+    "Calcium amplitude entries equal peak-minus-minimum; paper labels amplitude F/F0. Upstream normalization is not documented here, so interpretation requires clarification.",
+    "Absence of a significant difference from fresh cells is not an equivalence test.",
+    "Optimized recovery uses DMSO comparator 80.19%, distinct from optimization-stage 69.4%; they must not be interchanged.",
+    "DMSO-free loading is 60 minutes versus 30 minutes for DMSO; formula and loading effects are confounded."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "audit": "Fang et al. 2011 ROCK2 HTRF source acquisition and assay audit",
+  "review_date": "2026-09-06",
+  "primary_source": {
+    "doi": "10.1016/j.bmcl.2011.01.039",
+    "title": "Synthesis and biological evaluation of 4-quinazolinones as Rho kinase inhibitors",
+    "citation": "Fang X et al., Bioorganic & Medicinal Chemistry Letters 21(6), 1844-1848 (2011)",
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0960894X11000527",
+    "pmid": "21349713",
+    "scope_from_public_metadata": "The article reports 4-quinazolinone/quinazoline ROCK-II inhibitors and SAR/selectivity over PKA."
+  },
+  "acquisition_search": {
+    "attempted_public_locations": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0960894X11000527",
+        "result": "publisher landing page accessible only as metadata/abstract; article download endpoint returned HTTP 403",
+        "primary_text_obtained": false
+      },
+      {
+        "url": "https://scholarship.miami.edu/esploro/outputs/journalArticle/Synthesis-and-biological-evaluation-of-4-quinazolinones/991031757950302976",
+        "result": "institutional repository record with citation and abstract metadata; no downloadable article or SI exposed",
+        "primary_text_obtained": false
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21349713&format=json",
+        "result": "Europe PMC record reports not open access, not in PMC, and no PDF/full text",
+        "primary_text_obtained": false
+      },
+      {
+        "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.bmcl.2011.01.039",
+        "result": "OpenAlex metadata has no PDF URL; the repository location is a BindingDB dataset record rather than the article",
+        "primary_text_obtained": false
+      }
+    ],
+    "search_boundary": "Searched publisher, Europe PMC, OpenAlex, and an institutional author-affiliation repository record. No credentials, outreach, or bulk/fulltext scraping used."
+  },
+  "archived_artifacts": [
+    {
+      "path": "data/raw/phase19/europepmc-21349713.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21349713&format=json",
+      "sha256": "ed04ea772d2820814c2d93ce573bfe979747d7ed56f57ba3add84fc375a4a10f"
+    },
+    {
+      "path": "data/raw/phase19/openalex-work.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.bmcl.2011.01.039",
+      "sha256": "e51582f3a636dd5e763a194cd2335ed86d25b1b4b78bb4e737a7ef7aa0b34be9"
+    },
+    {
+      "path": "data/raw/phase19/datacite-bindingdb.json",
+      "url": "https://api.datacite.org/dois/10.7270/q20g3kff",
+      "sha256": "986a018755fa5dc4f1a675f6a07f7601748d4e59387a155f545a5e66aa7be7d3"
+    },
+    {
+      "path": "data/raw/phase19/bindingdb-entry-50033045.html",
+      "url": "https://www.bindingdb.org/entry/50033045",
+      "sha256": "d8713bd1d0cca56efe7ad05f8d958fda3e35800cdfcc58f018f277d367d9af2e"
+    }
+  ],
+  "chembl1686688_record_audit": {
+    "source_url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1686688.json",
+    "assay_id": "CHEMBL1686688",
+    "document_id": "CHEMBL1681768",
+    "target_id": "CHEMBL2973",
+    "target_name": "Rho-associated protein kinase 2",
+    "target_organism": "Homo sapiens",
+    "description": "Inhibition of ROCK2 by HTRF assay",
+    "assay_type": "B (Binding)",
+    "target_assignment": "homologous single protein target assigned; confidence score 8 in archived ChEMBL record",
+    "records": {
+      "total": 35,
+      "unique_molecules": 35,
+      "exact": 27,
+      "less_than_censored": 6,
+      "greater_than_censored": 2,
+      "standard_type": "IC50",
+      "standard_units": "nM"
+    },
+    "identity_mapping": "ChEMBL supplies molecule IDs and canonical SMILES for all 35 records. A primary Table/compound-number mapping cannot be claimed because the article/SI was not obtained.",
+    "record_quality": "Preserve all censoring relations; do not treat <1 nM or >5000 nM as exact values."
+  },
+  "primary_method_fields": {
+    "species": {
+      "value": null,
+      "status": "unresolved_from_primary_source"
+    },
+    "construct_or_residues": {
+      "value": null,
+      "status": "unresolved_from_primary_source"
+    },
+    "ATP_concentration": {
+      "value": null,
+      "status": "unresolved_from_primary_source"
+    },
+    "readout": {
+      "value": "HTRF is stated in the ChEMBL assay description",
+      "status": "secondary_database_annotation; primary protocol unverified"
+    },
+    "buffer_cofactors_incubation": {
+      "value": null,
+      "status": "unresolved_from_primary_source"
+    },
+    "exact_table_values_and_compound_numbers": {
+      "value": null,
+      "status": "unresolved_from_primary_source"
+    }
+  },
+  "eligibility_decision": {
+    "eligible_now": false,
+    "reason": "ChEMBL annotates ROCK2 HTRF IC50 and assigns the human target homologue (confidence8); actual assay species, construct, ATP and primary compound/table mapping remain unverified without primary text.",
+    "safe_use": "May be retained as a secondary-source candidate or sensitivity analysis with explicit unresolved method fields and censored labels.",
+    "strict_independent_test": "Requires primary full text/SI or an authoritative protocol and a compound-by-compound reconciliation before use as a strict independent assay benchmark."
+  },
+  "limitations": [
+    "BindingDB DataCite metadata identifies the related article and describes protein Rho-associated kinase with UniProt O75116, but it is a data repository record and does not substitute for the primary assay protocol.",
+    "The publisher abstract supports ROCK-II inhibitor study scope but reports no construct, ATP concentration, or table values in the accessible metadata.",
+    "No inference from numerical agreement or ChEMBL canonical SMILES was used to assign article compound numbers."
+  ]
+}

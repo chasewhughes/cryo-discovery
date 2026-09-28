@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "data/raw/phase4/acs-biomac-5c00559-figshare.json",
+      "bytes": 8570,
+      "sha256": "c106fb944a3d0f6167d03efdb99fe349a9617649d4dc071c580792643b067797"
+    },
+    {
+      "path": "data/raw/phase4/acs-biomac-5c00559-si.pdf",
+      "bytes": 1972053,
+      "sha256": "aabdabfc07d6f7bed3f9032691e8cd74697610d44c0461158bc22f26fe64098d"
+    },
+    {
+      "path": "data/raw/phase4/acs-biomac-5c00559-si.txt",
+      "bytes": 8014,
+      "sha256": "edba98724f9cca24d8a193d655416abea8ea5e393bb516f701c4c085b2d0d581"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714-pmc.html",
+      "bytes": 243186,
+      "sha256": "adc7cae683eeea7469ef495d0a881f2302cb7d9163f1c03835d51d9dfa055fb4"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714.html",
+      "bytes": 29120,
+      "sha256": "be77fbe7b295ba973c14185964057437720eafb68cbc8d8088174fd0327e84ea"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714.xml",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/phase4/cardiac-aggregates.html",
+      "bytes": 220891,
+      "sha256": "5f009889a4b04e8e14708492381da04efb3f3f443bad7124a7680a5ca48d8058"
+    },
+    {
+      "path": "data/raw/phase4/cardiac-contractile.html",
+      "bytes": 208887,
+      "sha256": "df44b8cad426e68fe3ec30080432047b1bff89321d641276bf5025f47e236996"
+    },
+    {
+      "path": "data/raw/phase4/dopaminergic.html",
+      "bytes": 291992,
+      "sha256": "e59c23263bac89e7b670b7d8eba97214af7d8f0f114b2695de2a47a99fbb617f"
+    }
+  ],
+  "note": "Includes successful sources and failed-route captures; only extraction-declared paths support evidence. Raw files are local and excluded from Git."
+}

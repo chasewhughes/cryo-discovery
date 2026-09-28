@@ -1,0 +1,89 @@
+{
+  "2fa": {
+    "status": "Already present in the published dataset; not a novel hit",
+    "source_record": "glyco2:line85",
+    "name": "n-2-fluorophenyl-d-gluconamide",
+    "canonical_smiles": "O=C(Nc1ccccc1F)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+    "assay": "22 mM in PBS, reported % MGS; not the cellular dosing condition",
+    "observed_mgs": 3.0,
+    "withheld_predictions": {
+      "scaffold": {
+        "id": "glyco2:line85",
+        "fold": 2,
+        "group": "c1ccccc1",
+        "observed_mgs": 3.0,
+        "predicted_mgs": {
+          "median": 64.7,
+          "ridge": 58.42743902299288,
+          "forest": 72.9578533429534
+        }
+      },
+      "connectivity": {
+        "id": "glyco2:line85",
+        "fold": 4,
+        "group": "O=C(Nc1ccccc1F)C(O)C(O)C(O)C(O)CO",
+        "observed_mgs": 3.0,
+        "predicted_mgs": {
+          "median": 66.19999999999999,
+          "ridge": 53.40746479969202,
+          "forest": 56.36217970270467
+        }
+      }
+    },
+    "nearest_other_connectivities": [
+      {
+        "id": "glyco2:line95",
+        "name": "2-(2-fluoro)phenylhydrazide-d-gluconic acid",
+        "tanimoto": 0.75,
+        "same_scaffold": true
+      },
+      {
+        "id": "glyco2:line130",
+        "name": "n-2-hydroxyphenyl-d-gluconamide",
+        "tanimoto": 0.717948717948718,
+        "same_scaffold": true
+      },
+      {
+        "id": "glyco2:line137",
+        "name": "n-2-chlorophenyl-d-gluconamide",
+        "tanimoto": 0.7,
+        "same_scaffold": true
+      },
+      {
+        "id": "glyco2:line140",
+        "name": "n-2-methylphenyl-d-gluconamide",
+        "tanimoto": 0.7,
+        "same_scaffold": true
+      },
+      {
+        "id": "glyco2:line96",
+        "name": "n-1-naphthyl-d-gluconamide",
+        "tanimoto": 0.6829268292682927,
+        "same_scaffold": false
+      }
+    ],
+    "scope_note": "Aryl gluconamides are represented. Similarity is descriptive, not a calibrated applicability threshold; this assay cannot establish 2FA-plus-CEPT behavior."
+  },
+  "other_ranked_candidates": [
+    {
+      "candidate": "CEPT",
+      "status": "No cocktail prediction: four-component recovery treatment; no mixture or biological-pathway labels in this benchmark"
+    },
+    {
+      "candidate": "Polyampholyte",
+      "status": "Macromolecular formulation outside this small-molecule representation"
+    },
+    {
+      "candidate": "EG + trehalose",
+      "status": "Mixture prediction unsupported; individual constituent IRI is not mixture CPA efficacy"
+    },
+    {
+      "candidate": "CAMP",
+      "status": "Multicomponent biomaterial outside representation"
+    },
+    {
+      "candidate": "CspB",
+      "status": "Protein outside representation"
+    }
+  ]
+}

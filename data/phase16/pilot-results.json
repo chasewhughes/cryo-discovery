@@ -1,0 +1,506 @@
+{
+  "attempt": 4,
+  "plan_id": "boltz-two-controls-attempt4",
+  "claim_level": "smoke_execution_and_directional_comparison",
+  "valid": true,
+  "validation_errors": [],
+  "archive_sha256": "6c7650518231f78408ff2105d923a79a272dfe9fed4c63c1edd9e4ecba55d26b",
+  "archive_hash_verified": true,
+  "checkpoint_hashes": [
+    {
+      "path": "/workspace/cryo/cache/boltz/boltz2_aff.ckpt",
+      "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e"
+    },
+    {
+      "path": "/workspace/cryo/cache/boltz/boltz2_conf.ckpt",
+      "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1"
+    }
+  ],
+  "checkpoint_names_valid": true,
+  "runtime_versions_valid": true,
+  "summary_parameters_valid": true,
+  "cases": [
+    {
+      "input": "CHEMBL4522042.yaml",
+      "expected_role": "known_bound_ligand",
+      "status": "completed",
+      "role": "known_bound_ligand",
+      "wall_seconds": 364.074889421463,
+      "gpu_samples": [
+        {
+          "time_epoch": 1788709546.7965186,
+          "raw": "1, 49140, 61.12"
+        },
+        {
+          "time_epoch": 1788709552.7527955,
+          "raw": "1, 49140, 30.45"
+        },
+        {
+          "time_epoch": 1788709557.797554,
+          "raw": "1, 49140, 30.45"
+        },
+        {
+          "time_epoch": 1788709562.829091,
+          "raw": "1, 49140, 30.32"
+        },
+        {
+          "time_epoch": 1788709567.8605776,
+          "raw": "1, 49140, 30.50"
+        },
+        {
+          "time_epoch": 1788709572.8922663,
+          "raw": "1, 49140, 30.29"
+        },
+        {
+          "time_epoch": 1788709577.9251568,
+          "raw": "1, 49140, 30.36"
+        },
+        {
+          "time_epoch": 1788709582.9882245,
+          "raw": "1, 49140, 30.23"
+        },
+        {
+          "time_epoch": 1788709588.049255,
+          "raw": "1, 49140, 30.20"
+        },
+        {
+          "time_epoch": 1788709593.097546,
+          "raw": "1, 49140, 30.46"
+        },
+        {
+          "time_epoch": 1788709598.156209,
+          "raw": "1, 49140, 30.25"
+        },
+        {
+          "time_epoch": 1788709603.1879344,
+          "raw": "1, 49140, 29.93"
+        },
+        {
+          "time_epoch": 1788709608.2189245,
+          "raw": "1, 49140, 30.09"
+        },
+        {
+          "time_epoch": 1788709613.252102,
+          "raw": "1, 49140, 30.18"
+        },
+        {
+          "time_epoch": 1788709618.2833962,
+          "raw": "1, 49140, 30.25"
+        },
+        {
+          "time_epoch": 1788709623.3191733,
+          "raw": "1, 49140, 30.08"
+        },
+        {
+          "time_epoch": 1788709628.3694925,
+          "raw": "1, 49140, 30.03"
+        },
+        {
+          "time_epoch": 1788709633.4276552,
+          "raw": "1, 49140, 30.09"
+        },
+        {
+          "time_epoch": 1788709638.4593804,
+          "raw": "1, 49140, 30.25"
+        },
+        {
+          "time_epoch": 1788709643.4911816,
+          "raw": "1, 49140, 29.86"
+        },
+        {
+          "time_epoch": 1788709648.5225477,
+          "raw": "1, 49140, 30.19"
+        },
+        {
+          "time_epoch": 1788709653.5547318,
+          "raw": "1, 49140, 30.08"
+        },
+        {
+          "time_epoch": 1788709658.6064553,
+          "raw": "1, 49140, 30.09"
+        },
+        {
+          "time_epoch": 1788709663.6384196,
+          "raw": "1, 49140, 29.90"
+        },
+        {
+          "time_epoch": 1788709668.6693494,
+          "raw": "1, 49140, 30.18"
+        },
+        {
+          "time_epoch": 1788709673.6999972,
+          "raw": "1, 49140, 30.22"
+        },
+        {
+          "time_epoch": 1788709678.7337725,
+          "raw": "1, 49140, 30.29"
+        },
+        {
+          "time_epoch": 1788709683.7657137,
+          "raw": "1, 49140, 30.15"
+        },
+        {
+          "time_epoch": 1788709688.8009782,
+          "raw": "1, 49140, 29.88"
+        },
+        {
+          "time_epoch": 1788709693.8454795,
+          "raw": "1, 49140, 29.74"
+        },
+        {
+          "time_epoch": 1788709698.8774793,
+          "raw": "1, 49140, 29.88"
+        },
+        {
+          "time_epoch": 1788709703.9099429,
+          "raw": "1, 49140, 29.80"
+        },
+        {
+          "time_epoch": 1788709708.9406714,
+          "raw": "1, 49140, 30.05"
+        },
+        {
+          "time_epoch": 1788709713.9724357,
+          "raw": "1, 49140, 29.85"
+        },
+        {
+          "time_epoch": 1788709719.003594,
+          "raw": "1, 49140, 29.90"
+        },
+        {
+          "time_epoch": 1788709724.0506778,
+          "raw": "1, 49140, 29.86"
+        },
+        {
+          "time_epoch": 1788709729.1136847,
+          "raw": "1, 49140, 29.86"
+        },
+        {
+          "time_epoch": 1788709734.1459637,
+          "raw": "1, 49140, 29.81"
+        },
+        {
+          "time_epoch": 1788709739.2011912,
+          "raw": "1, 49140, 29.81"
+        },
+        {
+          "time_epoch": 1788709744.2337897,
+          "raw": "1, 49140, 29.71"
+        },
+        {
+          "time_epoch": 1788709749.2666905,
+          "raw": "1, 49140, 29.75"
+        },
+        {
+          "time_epoch": 1788709754.2984273,
+          "raw": "1, 49140, 29.89"
+        },
+        {
+          "time_epoch": 1788709759.3319933,
+          "raw": "1, 49140, 29.84"
+        },
+        {
+          "time_epoch": 1788709764.3629217,
+          "raw": "1, 49140, 29.92"
+        },
+        {
+          "time_epoch": 1788709769.3945386,
+          "raw": "1, 49140, 29.89"
+        },
+        {
+          "time_epoch": 1788709774.4265304,
+          "raw": "1, 49140, 29.86"
+        },
+        {
+          "time_epoch": 1788709779.4597332,
+          "raw": "1, 49140, 29.86"
+        },
+        {
+          "time_epoch": 1788709784.5208757,
+          "raw": "1, 49140, 29.71"
+        },
+        {
+          "time_epoch": 1788709789.5619707,
+          "raw": "1, 49140, 29.61"
+        },
+        {
+          "time_epoch": 1788709794.5929005,
+          "raw": "1, 49140, 29.79"
+        },
+        {
+          "time_epoch": 1788709799.6259446,
+          "raw": "1, 49140, 29.76"
+        },
+        {
+          "time_epoch": 1788709804.6806674,
+          "raw": "1, 49140, 29.56"
+        },
+        {
+          "time_epoch": 1788709809.7132964,
+          "raw": "1, 49140, 29.81"
+        },
+        {
+          "time_epoch": 1788709814.7467,
+          "raw": "1, 49140, 29.72"
+        },
+        {
+          "time_epoch": 1788709819.7867851,
+          "raw": "1, 49140, 29.62"
+        },
+        {
+          "time_epoch": 1788709824.8452578,
+          "raw": "1, 49140, 29.55"
+        },
+        {
+          "time_epoch": 1788709829.8763885,
+          "raw": "1, 49140, 29.92"
+        },
+        {
+          "time_epoch": 1788709834.938862,
+          "raw": "4320, 49140, 176.71"
+        },
+        {
+          "time_epoch": 1788709839.969711,
+          "raw": "4320, 49140, 294.37"
+        },
+        {
+          "time_epoch": 1788709845.0027544,
+          "raw": "4320, 49140, 294.35"
+        },
+        {
+          "time_epoch": 1788709850.0357237,
+          "raw": "4320, 49140, 293.98"
+        },
+        {
+          "time_epoch": 1788709855.0999105,
+          "raw": "4642, 49140, 288.25"
+        },
+        {
+          "time_epoch": 1788709860.1584923,
+          "raw": "4642, 49140, 289.97"
+        },
+        {
+          "time_epoch": 1788709865.1877198,
+          "raw": "372, 49140, 132.36"
+        },
+        {
+          "time_epoch": 1788709870.2144117,
+          "raw": "372, 49140, 112.12"
+        },
+        {
+          "time_epoch": 1788709875.2420928,
+          "raw": "372, 49140, 111.50"
+        },
+        {
+          "time_epoch": 1788709880.2684672,
+          "raw": "372, 49140, 111.15"
+        },
+        {
+          "time_epoch": 1788709885.3014224,
+          "raw": "3194, 49140, 247.13"
+        },
+        {
+          "time_epoch": 1788709890.3311322,
+          "raw": "3196, 49140, 294.62"
+        },
+        {
+          "time_epoch": 1788709895.3602595,
+          "raw": "3196, 49140, 296.43"
+        },
+        {
+          "time_epoch": 1788709900.3905752,
+          "raw": "3196, 49140, 295.19"
+        },
+        {
+          "time_epoch": 1788709905.4185188,
+          "raw": "3528, 49140, 162.68"
+        },
+        {
+          "time_epoch": 1788709910.4475942,
+          "raw": "336, 49140, 116.35"
+        }
+      ],
+      "affinity_fields": {
+        "affinity_pred_value": -0.49055105447769165,
+        "affinity_probability_binary": 0.8930421471595764
+      },
+      "confidence_fields": {
+        "confidence_score": 0.921578049659729
+      },
+      "input_sha256": "78d2ed24ec4ab453dbf4d64bdaed48d922a0098a6dbc86b4b41068d122eea7b9",
+      "input_hash_matches": true,
+      "structural_files": [
+        "<local-storage>/cryo-adata/raw/phase16/attempt4/runs/cases/CHEMBL4522042/boltz_results_CHEMBL4522042/predictions/CHEMBL4522042/CHEMBL4522042_model_0.cif"
+      ],
+      "structural_paths_valid": true,
+      "structural_files_exist": true,
+      "affinity_finite": true,
+      "probability_in_range": true,
+      "artifact_checks": [
+        {
+          "recorded_path": "/workspace/cryo/runs/cases/CHEMBL4522042/boltz_results_CHEMBL4522042/predictions/CHEMBL4522042/confidence_CHEMBL4522042_model_0.json",
+          "valid_path": true,
+          "exists": true,
+          "file_sha256": "9918478a3a7a58c89fa4fc4c8acbaa7efb084e2faffa3756b763e9807a903b49",
+          "parsed_affinity": {},
+          "matches_summary": false
+        },
+        {
+          "recorded_path": "/workspace/cryo/runs/cases/CHEMBL4522042/boltz_results_CHEMBL4522042/predictions/CHEMBL4522042/affinity_CHEMBL4522042.json",
+          "valid_path": true,
+          "exists": true,
+          "file_sha256": "2738b48251b8fc0d0c660904de0a39beb4a38872d70508e01fd58f67cd54d4b5",
+          "parsed_affinity": {
+            "affinity_pred_value": -0.49055105447769165,
+            "affinity_probability_binary": 0.8930421471595764
+          },
+          "matches_summary": true
+        }
+      ],
+      "artifact_data_verified": true,
+      "configuration_matches": true,
+      "command_shape_valid": true,
+      "pIC50_equivalent": 6.490551054477692
+    },
+    {
+      "input": "CHEMBL4540054.yaml",
+      "expected_role": "measured_right_censored_weak_control",
+      "status": "completed",
+      "role": "measured_right_censored_weak_control",
+      "wall_seconds": 104.96433115005493,
+      "gpu_samples": [
+        {
+          "time_epoch": 1788709910.8809423,
+          "raw": "1, 49140, 116.30"
+        },
+        {
+          "time_epoch": 1788709915.9140732,
+          "raw": "1, 49140, 34.44"
+        },
+        {
+          "time_epoch": 1788709920.9527755,
+          "raw": "1, 49140, 33.66"
+        },
+        {
+          "time_epoch": 1788709925.984612,
+          "raw": "1, 49140, 33.07"
+        },
+        {
+          "time_epoch": 1788709931.0525818,
+          "raw": "1, 49140, 32.55"
+        },
+        {
+          "time_epoch": 1788709936.0852714,
+          "raw": "1, 49140, 32.22"
+        },
+        {
+          "time_epoch": 1788709941.1163912,
+          "raw": "4332, 49140, 107.92"
+        },
+        {
+          "time_epoch": 1788709946.148524,
+          "raw": "4332, 49140, 294.40"
+        },
+        {
+          "time_epoch": 1788709951.1805584,
+          "raw": "4332, 49140, 294.75"
+        },
+        {
+          "time_epoch": 1788709956.2112648,
+          "raw": "4332, 49140, 295.69"
+        },
+        {
+          "time_epoch": 1788709961.247434,
+          "raw": "4656, 49140, 289.84"
+        },
+        {
+          "time_epoch": 1788709966.3009157,
+          "raw": "4656, 49140, 290.31"
+        },
+        {
+          "time_epoch": 1788709971.3292756,
+          "raw": "372, 49140, 137.45"
+        },
+        {
+          "time_epoch": 1788709976.3568747,
+          "raw": "372, 49140, 116.56"
+        },
+        {
+          "time_epoch": 1788709981.3844888,
+          "raw": "372, 49140, 115.91"
+        },
+        {
+          "time_epoch": 1788709986.4136205,
+          "raw": "372, 49140, 115.10"
+        },
+        {
+          "time_epoch": 1788709991.4510047,
+          "raw": "2512, 49140, 113.82"
+        },
+        {
+          "time_epoch": 1788709996.4795253,
+          "raw": "3034, 49140, 298.31"
+        },
+        {
+          "time_epoch": 1788710001.5091739,
+          "raw": "3034, 49140, 295.71"
+        },
+        {
+          "time_epoch": 1788710006.6632712,
+          "raw": "3034, 49140, 294.36"
+        },
+        {
+          "time_epoch": 1788710011.781649,
+          "raw": "3126, 49140, 281.72"
+        }
+      ],
+      "affinity_fields": {
+        "affinity_pred_value": 0.5329035520553589,
+        "affinity_probability_binary": 0.29279667139053345
+      },
+      "confidence_fields": {
+        "confidence_score": 0.9131170511245728
+      },
+      "input_sha256": "b15263b9af031f38fdab51c4c8e6b28e887f5ee8ecb0f47c6899daee225d43f8",
+      "input_hash_matches": true,
+      "structural_files": [
+        "<local-storage>/cryo-adata/raw/phase16/attempt4/runs/cases/CHEMBL4540054/boltz_results_CHEMBL4540054/predictions/CHEMBL4540054/CHEMBL4540054_model_0.cif"
+      ],
+      "structural_paths_valid": true,
+      "structural_files_exist": true,
+      "affinity_finite": true,
+      "probability_in_range": true,
+      "artifact_checks": [
+        {
+          "recorded_path": "/workspace/cryo/runs/cases/CHEMBL4540054/boltz_results_CHEMBL4540054/predictions/CHEMBL4540054/confidence_CHEMBL4540054_model_0.json",
+          "valid_path": true,
+          "exists": true,
+          "file_sha256": "9a6812cd0ad8a2cc8398855e0e90fae54189e42627408d0ccb8ad64cdba3b0e3",
+          "parsed_affinity": {},
+          "matches_summary": false
+        },
+        {
+          "recorded_path": "/workspace/cryo/runs/cases/CHEMBL4540054/boltz_results_CHEMBL4540054/predictions/CHEMBL4540054/affinity_CHEMBL4540054.json",
+          "valid_path": true,
+          "exists": true,
+          "file_sha256": "b59b388353af8acfbedb352ded0498503afbbf327d4259fb3829b7618c9c2d03",
+          "parsed_affinity": {
+            "affinity_pred_value": 0.5329035520553589,
+            "affinity_probability_binary": 0.29279667139053345
+          },
+          "matches_summary": true
+        }
+      ],
+      "artifact_data_verified": true,
+      "configuration_matches": true,
+      "command_shape_valid": true,
+      "pIC50_equivalent": 5.467096447944641
+    }
+  ],
+  "directional_ordering_known_pIC50_higher_than_weak_control": true,
+  "observed_weak_control_pIC50_bound": "<5 (from >10,000 nM), not equality",
+  "limits": [
+    "Two controls do not support MAE, correlation, accuracy, calibration, efficacy, or novelty claims.",
+    "pIC50 is only the documented 6-affinity_pred_value conversion; binder probability remains separate."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-09-06T15:14:57.568487+00:00",
+  "checks": [
+    "Frozen data/code/plan hashes matched",
+    "All43exact compounds predicted exactly once",
+    "No same-scaffold neighbors",
+    "MAE independently recalculated within1e-12",
+    "Eight ROCK source hashes matched",
+    "Report links resolved"
+  ],
+  "tests_passed": 21,
+  "new_GPU_cost_USD": 0,
+  "AF3_or_Boltz_inference_executed": false,
+  "files": {
+    "rock-baseline-plan.json": "019f2aa4a1198d39c0f1bd1596d48c5f5eb4bd1d1e60008b3a292c3eb070fe78",
+    "rock-baseline-result.json": "7eea4238e6ccc955e2312854d384d5aef816e214773272dcf27c8bee3cc3f449",
+    "rock-baseline-started.json": "bc4439e65acb5af8546e4f49d8b3fbc44d67100717a6c11e4e64a28fd019016c",
+    "rock-benchmark.json": "dbd0408cd4e3b4a01b3e7ce616885342eb8e997a3aea0d47b3d29f17546cdf0f",
+    "transport-screen.json": "c1f34e6491198bfd9894f2b953b8b25848e9203d280a7c2f45d3f4303630e5fb",
+    "boltz-input-manifest.json": "17e22975b2904bab4de5e0044f2a81191b13cfb60d7592e41936552f7fe4f13d",
+    "model-readiness.json": "8084efe92202d4019460d7890d549cd310973501e581926c84d6f3994eea2d98"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "audit": "Fresh public-source search for Fang 2011 ROCK-II inhibitor article",
+  "review_date": "2026-09-06",
+  "primary": {
+    "doi": "10.1016/j.bmcl.2011.01.039",
+    "pii": "S0960894X11000527",
+    "pmid": "21349713",
+    "title": "Synthesis and biological evaluation of 4-quinazolinones as Rho kinase inhibitors",
+    "citation": "Fang X et al., Bioorg Med Chem Lett 21(6):1844-1848 (2011)"
+  },
+  "new_public_sources_checked": [
+    {
+      "url": "https://independent.academia.edu/FangXingang",
+      "type": "author profile/repository index",
+      "result": "The author profile lists the Fang 2011 article and a public Download link, but the linked attachment is protected by a Cloudflare challenge and was not retrieved.",
+      "linked_attachment": "https://www.academia.edu/attachments/73059390/download_file?s=profile",
+      "accessed_without_authentication": true,
+      "fulltext_obtained": false
+    },
+    {
+      "url": "https://www.researchgate.net/publication/50195768_Synthesis_and_biological_evaluation_of_4-quinazolinones_as_Rho_kinase_inhibitors",
+      "type": "author/research-sharing index",
+      "result": "Record provides citation and abstract but explicitly shows no full-text PDF available; it offers a request-to-author flow, which was not used.",
+      "fulltext_obtained": false
+    },
+    {
+      "url": "https://bdb8.ucsd.edu/rwd/bind/ByPubMed.jsp?anchor=21",
+      "type": "public BindingDB index",
+      "result": "Index links PMID 21349713 to 35 BindingDB entries and 2D/3D/TSV views. This is a curated secondary data source, not the primary article/SI, and does not establish assay construct or ATP conditions.",
+      "fulltext_obtained": false
+    }
+  ],
+  "access_gap": {
+    "article_fulltext": "not obtained",
+    "supplementary_information": "not obtained",
+    "reason": "Publisher download remains restricted; author-profile attachment is Cloudflare-protected; ResearchGate has no full text; no unauthenticated author/repository copy exposing the primary tables was found.",
+    "no_bypass_or_outreach": true
+  },
+  "primary_method_and_mapping": {
+    "species": null,
+    "construct_or_residues": null,
+    "ATP": null,
+    "readout": "ChEMBL/BindingDB secondary annotations say HTRF, but this was not verified against the primary method section.",
+    "exact_primary_table_values": null,
+    "structure_linked_compound_mapping": null,
+    "status": "unresolved; no new primary evidence obtained"
+  },
+  "eligibility": {
+    "strict_benchmark_eligible": false,
+    "reason": "The required primary assay protocol and structure-linked table cannot be verified from the newly checked public sources.",
+    "safe_conclusion": "Retain the prior Phase 19 access gap. Do not promote the 35 secondary records to a primary independent benchmark or infer construct/ATP conditions from database labels."
+  },
+  "sources_not_retrieved": [
+    "No article PDF or SI was downloaded in Phase 20, so no source hash is claimed."
+  ]
+}

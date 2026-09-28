@@ -1,0 +1,198 @@
+{
+  "runs": [
+    {
+      "job_id": "leu-NPT-20261011",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 4,
+          "neighbors": [
+            3,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.008579786885511947
+        }
+      ],
+      "state_sha256": "e4d222cafde5339c6b687884a87f7a8c4e0bad7655abbb6e4ae264b31342a8eb"
+    },
+    {
+      "job_id": "leu-NPT-20261012",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 4,
+          "neighbors": [
+            3,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.008688013994564642
+        }
+      ],
+      "state_sha256": "e8e839c1f9b9c855bbe92fc7da557d426e61fce67d4065dafb8d8b0a12efc561"
+    },
+    {
+      "job_id": "leu-NPT-20261013",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 4,
+          "neighbors": [
+            3,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.008607591285022316
+        }
+      ],
+      "state_sha256": "a4fd9f6bb119ed17b4892122126e7d2689ea37edd1a1de2cf16830a650c87d6c"
+    },
+    {
+      "job_id": "ile-NPT-20261021",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          2,
+          "S"
+        ],
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 2,
+          "neighbors": [
+            1,
+            3,
+            4,
+            14
+          ],
+          "signed_volume_nm3": 0.008932662337485832
+        },
+        {
+          "center_index": 4,
+          "neighbors": [
+            2,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.008489077282056237
+        }
+      ],
+      "state_sha256": "073889ea3d0811268a624d54935923963b11372795b4099ffcf2cd592c55c882"
+    },
+    {
+      "job_id": "ile-NPT-20261022",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          2,
+          "S"
+        ],
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 2,
+          "neighbors": [
+            1,
+            3,
+            4,
+            14
+          ],
+          "signed_volume_nm3": 0.008906563670156612
+        },
+        {
+          "center_index": 4,
+          "neighbors": [
+            2,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.00855111645977076
+        }
+      ],
+      "state_sha256": "c7072d87915588aba59e8411216498339135081c80f9b1003b96690b41db5d89"
+    },
+    {
+      "job_id": "ile-NPT-20261023",
+      "formula": "C6H13NO2",
+      "solute_atoms": 22,
+      "stereochemistry_from_minimized_coordinates": [
+        [
+          2,
+          "S"
+        ],
+        [
+          4,
+          "S"
+        ]
+      ],
+      "serialized_solute_charge_e": -5.551115123125783e-17,
+      "stereocenter_volumes": [
+        {
+          "center_index": 2,
+          "neighbors": [
+            1,
+            3,
+            4,
+            14
+          ],
+          "signed_volume_nm3": 0.008867212909097812
+        },
+        {
+          "center_index": 4,
+          "neighbors": [
+            2,
+            5,
+            6,
+            18
+          ],
+          "signed_volume_nm3": 0.008508255481537726
+        }
+      ],
+      "state_sha256": "40a366d076de72c2ce3bd4bedb57ef7992f272e2bb1ca00e24da5043833a6689"
+    }
+  ],
+  "all_six_passed": true,
+  "script_sha256": "4746bbe5a1a9d954a4593bb8694445d45c141b418186049473569a42362ffcb6"
+}

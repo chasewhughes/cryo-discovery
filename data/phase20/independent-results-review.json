@@ -1,0 +1,87 @@
+{
+  "record_type": "independent_results_review",
+  "review_date": "2026-09-06",
+  "source_results": {
+    "path": "data/phase20/validation-results.json",
+    "plan_id": "rock2-validation-001",
+    "plan_sha256": "9d2ccdde7e18c6afca971a8455210c16985a663a7b2223195bc1116d20771da6",
+    "validation_errors": [],
+    "archive_hash_verified": true,
+    "rows_recomputed": 50
+  },
+  "recomputation": {
+    "implementation": "NumPy absolute error/RMSE/bias and SciPy Spearman correlation from panel_predictions; additive assay offset is median(observed_pIC50 - panel_mean_pIC50) on the 20 calibration rows only.",
+    "full_50_raw": {
+      "mae_pIC50": 0.44241347535583714,
+      "spearman": 0.8644080028189342,
+      "bias_predicted_minus_observed_pIC50": -0.22046052395252136,
+      "baseline_mean_pIC50": 7.287426847457368,
+      "baseline_mae_pIC50": 0.8639329741406238,
+      "improvement_fraction": 0.4879076402936037,
+      "matches_record": true
+    },
+    "heldout_30_raw": {
+      "mae_pIC50": 0.5064581599163857,
+      "spearman": 0.6812062246685007,
+      "bias_predicted_minus_observed_pIC50": -0.31899451384830424,
+      "matches_record": true
+    },
+    "calibration_fit": {
+      "n": 20,
+      "offset_pIC50": 0.0562543270489515,
+      "calibration_mean_observed_pIC50": 6.2155157382169115,
+      "recomputed_assay_calibrated_heldout_mae_pIC50": 0.48395642909680514,
+      "recomputed_assay_calibrated_heldout_bias_pIC50": -0.26274018679935274,
+      "recomputed_assay_calibrated_heldout_spearman": 0.6812062246685007,
+      "recomputed_assay_calibrated_heldout_gain_vs_calibration_mean": 0.6111938056651888,
+      "matches_record": true
+    },
+    "frozen_phase17_source_offset_diagnostic": {
+      "heldout_mae_pIC50": 0.4118358116438691,
+      "heldout_bias_pIC50": -0.027655304011057306,
+      "heldout_spearman": 0.6812062246685007,
+      "status": "descriptive_only; cannot replace the prespecified Phase20 calibration fit or declare the gate passed"
+    }
+  },
+  "decision_check": {
+    "primary_transfer": "passes the point criteria recorded in validation-results.json",
+    "assay_calibration_gate": "fails",
+    "failed_condition": "absolute heldout calibrated bias magnitude is 0.2627401868, exceeding the 0.25 limit",
+    "other_calibration_checks": {
+      "mae_limit": true,
+      "improvement_limit": true,
+      "rank_correlation_limit": true,
+      "no_worse_than_raw": true
+    },
+    "scientific_interpretation": "Retrospective ranking is strong on this source panel, but the prespecified transfer/calibration qualification is not met. This result does not qualify unchanged Boltz predictions for novel screening."
+  },
+  "split_and_shift_checks": {
+    "calibration": {
+      "n": 20,
+      "scaffolds": 11,
+      "observed_mean_pIC50": 6.2155157382169115
+    },
+    "heldout": {
+      "n": 30,
+      "scaffolds": 3,
+      "scaffold_group_sizes": [27, 2, 1],
+      "observed_mean_pIC50": 7.224104035843292
+    },
+    "label_mean_shift_test_minus_calibration_pIC50": 1.0085882976263806,
+    "caution": "The test set is concentrated in one scaffold group of 27/30 compounds and has a substantially higher observed mean than calibration. Heldout metrics and the three-cluster bootstrap therefore have limited precision and may reflect source-series composition as well as transfer behavior."
+  },
+  "bootstrap_limits": {
+    "heldout_assay_calibrated": {
+      "clusters": 3,
+      "resamples": 2000,
+      "mae_interval_pIC50": [0.2528086521731163, 0.7654023327767123],
+      "spearman_interval": [0.0, 0.736183240425768]
+    },
+    "interpretation": "These are descriptive scaffold-cluster resampling intervals conditional on the fitted offset. They exclude calibration-fitting uncertainty and pretrained-data uncertainty; the three heldout clusters make the interval especially unstable. The interval does not establish the absolute-bias gate and cannot convert a failed point gate into a pass."
+  },
+  "limits": [
+    "The source-offset diagnostic improves MAE and bias but was fixed from Phase17 and is not the prespecified Phase20 assay-calibration result.",
+    "All rows are retrospective known compounds; no prospective novelty or unseen-pretraining independence is established.",
+    "Biochemical ROCK2 ranking does not establish cellular efficacy, cryoprotective-agent activity, ice control, or post-thaw survival."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "retrieved_at": "2026-09-06",
+  "scope": "One new legitimate public route per phase-5 high-priority gap; no corpus changes.",
+  "records": [
+    {
+      "doi": "10.1016/j.lssr.2025.08.002",
+      "title": "3D culture and cryopreservation/thawing strategy of human induced pluripotent stem cells for spaceflight experiments.",
+      "new_route": "https://www.sciencedirect.com/science/article/pii/S2214552425000951",
+      "route_type": "official_publisher_full_article",
+      "outcome": "HTTP 403 from full-article endpoint; no primary full text captured.",
+      "access_status": "unresolved_abstract_only",
+      "local_path": null,
+      "limitations": ["Prior abstract and indexed sections remain available; methods, results, and replication details are not locally verifiable."],
+      "what_would_resolve": "An openly accessible publisher article or author-deposited accepted manuscript/PDF with the complete methods and results."
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00559",
+      "title": "Ethylene Glycol and Trehalose Cryopreservation of Cell-Laden Hydrogel Microspheres Enabled by Microfluidic Fabrication.",
+      "new_route": "https://pubs.acs.org/doi/10.1021/acs.biomac.5c00559",
+      "route_type": "official_publisher_article",
+      "outcome": "HTTP 403 from direct ACS article endpoint; no main article captured. Public Figshare supplement was already downloaded and reviewed in phase 4.",
+      "access_status": "unresolved_abstract_plus_supplement",
+      "local_path": null,
+      "limitations": ["The supplement does not replace the main article for complete protocol, denominator, and control verification."],
+      "what_would_resolve": "An openly accessible ACS article or author/institution repository copy of the complete main article."
+    },
+    {
+      "doi": "10.64898/2026.07.24.740597",
+      "title": "Cryoaerosolization Enables Scalable Vitrification-Based Cell Cryopreservation",
+      "new_route": "https://www.researchgate.net/publication/410876971_Cryoaerosolization_Enables_Scalable_Vitrification-Based_Cell_Cryopreservation",
+      "route_type": "public_author_upload_repository",
+      "outcome": "Public page reported a preprint PDF, but its linked PDF endpoint returned HTTP 404; no complete local source captured. Indexed bioRxiv routes were previously attempted and not repeated.",
+      "access_status": "unresolved_abstract_only",
+      "local_path": null,
+      "limitations": ["ResearchGate page exposes metadata and snippets only for this audit; preprint remains non-peer-reviewed and cannot support full-text extraction here."],
+      "what_would_resolve": "A functioning public preprint PDF/full-text endpoint or an openly accessible journal version."
+    }
+  ]
+}

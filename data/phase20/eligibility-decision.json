@@ -1,0 +1,24 @@
+{
+  "eligible": true,
+  "assay_id": "CHEMBL4379076",
+  "decided_at": "2026-09-06T23:24:44.575958+00:00",
+  "basis": "Primary author CSV identities and ROCK-II potencies match all57 ChEMBL records exactly after \u00b5M-to-nM conversion. 50 exact,7 censored excluded; no prior Phase17/18 isomeric/achiral overlap; 14scaffolds support20 calibration/30 test. Human nonluciferase KinaseProfiler supported by SI and current official provider protocol. No model predictions used.",
+  "review_paths": [
+    "data/phase20/rock2-2019-source-audit.json",
+    "data/phase20/source-table-reconciliation.json",
+    "data/phase20/orthogonal-source-inventory.json",
+    "scripts/reconcile_chromen_sources.py"
+  ],
+  "source_paths": [
+    "data/raw/phase20/inventory/CHEMBL4379076-activities.json",
+    "data/raw/phase20/jm9b01143_si_002.csv",
+    "data/raw/phase20/jm9b01143_si_001.pdf",
+    "data/raw/phase20/eurofins-rock2-10um-protocol.html"
+  ],
+  "limitations": [
+    "Current provider protocol corroborates human11\u2013552 and radiometric method; exact historical2019 lot sequence is not certified.",
+    "Retrospective publication-independent and structurally nonoverlapping benchmark, not proof of exclusion from model pretraining.",
+    "Compound labels visible during source audit; fixed deterministic split before predictions, not blinded.",
+    "Other failed assay results remain; a pass here cannot erase Phase18 failure or qualify universal ROCK2 or cryoprotection prediction."
+  ]
+}

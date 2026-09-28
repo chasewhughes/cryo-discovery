@@ -1,0 +1,166 @@
+[
+  {
+    "study_id": "doi:10.1016/j.lssr.2025.08.002",
+    "doi": "10.1016/j.lssr.2025.08.002",
+    "title": "3D culture and cryopreservation/thawing strategy of human induced pluripotent stem cells for spaceflight experiments.",
+    "year": 2026,
+    "pmcid": null,
+    "source_url": "https://doi.org/10.1016/j.lssr.2025.08.002",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/phase3/screening-packets.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "human iPSC spheroids"
+    ],
+    "study_design": "Spaceflight-oriented 3D culture and cryopreservation/thawing method study.",
+    "interventions": [
+      "PDMS porous 3D chamber",
+      "VitroGel hydrogel matrix",
+      "−80°C freezing and thawing workflow"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p4-process-lssr-1",
+        "model": "Human iPSC 3D spheroids in a porous PDMS/VitroGel culture system",
+        "intervention": "Integrated automated culture, cryoprotectant perfusion, −80°C freezing, storage, and thawing workflow",
+        "comparator": null,
+        "formulation": [],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": "−80°C freezer; duration not reported in abstract",
+        "outcome_name": "Post-thaw cell survival",
+        "outcome_type": "viability",
+        "timepoint": "After thaw",
+        "result": "The abstract reports cell survival exceeding 85% after thawing.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "Europe PMC abstract, Methods/Results",
+        "evidence_excerpt": "achieving a cell survival rate exceeding 85% after thawing"
+      }
+    ],
+    "main_finding": "The abstract describes a 3D hiPSC culture and integrated cryopreservation workflow for spaceflight experiments with reported post-thaw survival above 85%.",
+    "limitations": [
+      "Abstract-only; no unreported formulation, cooling rate, warming rate, storage duration, or replication details inferred.",
+      "Spaceflight module stability does not establish broader cryopreservation efficacy."
+    ],
+    "mechanism_claim": "Protocol feasibility and survival are reported; no direct physical-ice or biological-pathway mechanism is established in the abstract.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "Luna extraction; root archived abstract review"
+  },
+  {
+    "study_id": "doi:10.64898/2026.07.24.740597",
+    "doi": "10.64898/2026.07.24.740597",
+    "title": "Cryoaerosolization Enables Scalable Vitrification-Based Cell Cryopreservation",
+    "year": 2026,
+    "pmcid": null,
+    "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740597v1",
+    "source_access": "abstract_only",
+    "raw_source_path": "data/raw/phase3/screening-packets.json",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens",
+      "Sus scrofa"
+    ],
+    "cell_types": [
+      "human iPSC",
+      "human dermal fibroblasts",
+      "porcine red blood cells"
+    ],
+    "study_design": "bioRxiv preprint testing continuous cryoaerosolization vitrification across cell types.",
+    "interventions": [
+      "vibrating-orifice aerosol generator",
+      "impinging conical liquid-nitrogen nozzle",
+      "just-in-time CPA loading"
+    ],
+    "mechanism_axes": [
+      "physical_ice",
+      "protocol_optimization"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p4-process-cryoaerosol-1",
+        "model": "Human iPSCs and human dermal fibroblasts",
+        "intervention": "Cryoaerosolization and rewarming of CPA-loaded micrometer-scale droplets",
+        "comparator": "Conventional droplet vitrification context",
+        "formulation": [
+          {
+            "compound": "Permeating cryoprotective agent",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Post-thaw viability and hiPSC colony-forming capacity",
+        "outcome_type": "viability",
+        "timepoint": "Post-thaw",
+        "result": "The abstract reports greater than 90% post-thaw viability for hiPSCs and dermal fibroblasts, with retained colony-forming capacity additionally demonstrated in hiPSCs.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "bioRxiv abstract",
+        "evidence_excerpt": ">90% post-thaw viability"
+      },
+      {
+        "experiment_id": "p4-process-cryoaerosol-2",
+        "model": "Human iPSCs, porcine red blood cells, and human dermal fibroblasts",
+        "intervention": "Scalable cryoaerosolization vitrification using micrometer-scale droplets and liquid nitrogen",
+        "comparator": "Conventional droplet vitrification described in the preprint",
+        "formulation": [
+          {
+            "compound": "Permeating cryoprotective agent",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Abstract reports approximately 200,000 K/min",
+        "warming": "Abstract reports approximately 1,000,000 K/min",
+        "storage": null,
+        "outcome_name": "Throughput and post-thaw recovery",
+        "outcome_type": "recovery",
+        "timepoint": "Post-thaw",
+        "result": "The abstract reports 94% recovery for red blood cells and processing throughput at least 100 mL/h.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": null,
+        "source_locator": "bioRxiv abstract and significance statement",
+        "evidence_excerpt": "94% recovery for RBCs"
+      }
+    ],
+    "main_finding": "This preprint reports a high-throughput cryoaerosolization vitrification platform applied to hiPSCs, fibroblasts, and RBCs with high reported post-thaw outcomes.",
+    "limitations": [
+      "Preprint and not peer-reviewed.",
+      "Abstract-only extraction; no replication, storage duration, or detailed CPA composition inferred.",
+      "Cross-cell-type outcomes are not pooled.",
+      "Cached abstract renders the CPA range as 190–25 wt%, while its significance statement says as little as 19 wt%; composition remains null pending primary-version verification.",
+      "Public indexed snippets contain body text, but complete primary text could not be archived; root direct request returned HTTP 429 and web opens 403, so no repeated retries were made.",
+      "Reported throughput and high viability do not establish closed-system sterility, multi-donor consistency, functional potency or long-duration cryostorage."
+    ],
+    "mechanism_claim": "The abstract links performance to rapid droplet cooling/warming and vitrification; this is not independent proof of a specific biological protection pathway.",
+    "review_status": "root_abstract_reviewed",
+    "reviewer": "Luna extraction; root archived abstract review",
+    "publication_status": "preprint_v1_not_peer_reviewed"
+  }
+]

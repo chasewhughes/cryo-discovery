@@ -1,0 +1,18 @@
+{
+  "attempt": 3,
+  "name": "cryo-phase16-boltz-3-05fc9243",
+  "created_epoch": 1788709133.049143,
+  "deadline_epoch": 1788712733.049143,
+  "reserved_usd": 0.8999999999999999,
+  "prior_reserve_usd": 4.142880452260348,
+  "plan_sha256": "f86e3673644d5ffa5e8521e4157ef15dec9f93c71619ee898afa9d335839c544",
+  "watchdog_pid": 48872,
+  "checked_at": "2026-09-06T15:41:04.739515+00:00",
+  "no_matching_pods_now": true,
+  "definitive_rejection": false,
+  "reserve_until_deadline_usd": 0.8999999999999999,
+  "note": "The original POST did not return a Pod. Repeated list queries found none. The independent intent watchdog remains active; reserve the full $0.90 until its deadline reconciliation.",
+  "latest_checked_at": "2026-09-06T15:54:23.173783+00:00",
+  "latest_no_research_pods_observed": true,
+  "watchdog_active_at_check": true
+}

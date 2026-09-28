@@ -1,0 +1,41 @@
+{
+  "status": "Passed artifact and physical-configuration checks; no efficacy validation",
+  "frames_checked": 4000,
+  "runs": [
+    {
+      "job_id": "gly-NVT-20260917",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 1.034496315610589e-06,
+      "max_OM_error_nm": 9.87544226661169e-07,
+      "PDB_box_rounding_error_nm": 0.0,
+      "physical_system_and_integrator_unchanged_except_rng": true
+    },
+    {
+      "job_id": "gly-NPT-20260917",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 1.0029227067998026e-06,
+      "max_OM_error_nm": 1.0331021011583674e-06,
+      "PDB_box_rounding_error_nm": 1.796712660873112e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true
+    },
+    {
+      "job_id": "phe-NVT-20260916",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 1.0365366184122982e-06,
+      "max_OM_error_nm": 9.265654412546342e-07,
+      "PDB_box_rounding_error_nm": 0.0,
+      "physical_system_and_integrator_unchanged_except_rng": true
+    },
+    {
+      "job_id": "phe-NPT-20260916",
+      "frames_checked": 1000,
+      "max_OH_error_nm": 1.0387861746341542e-06,
+      "max_OM_error_nm": 9.357426472914043e-07,
+      "PDB_box_rounding_error_nm": 3.317180853201762e-05,
+      "physical_system_and_integrator_unchanged_except_rng": true
+    }
+  ],
+  "reserved_models_unchanged": true,
+  "deployed_commit_verified": "b1e126c5d1b3b9ef02360fdb3f3f15769c33cb67",
+  "script_sha256": "35c371a89d05203cc211f4c8333f9d624fad01af0fcd9face4f43a72d25e1048"
+}

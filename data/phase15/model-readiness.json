@@ -1,0 +1,80 @@
+{
+  "status": "readiness audit only; no weights downloaded, GPU run, provider call, or validation",
+  "question": "Can official AlphaFold 3 or Boltz-2 provide a practical smoke-test path for protein-ligand structure and affinity inference?",
+  "alphafold3": {
+    "official_sources": [
+      "https://github.com/google-deepmind/alphafold3",
+      "https://github.com/google-deepmind/alphafold3/blob/main/docs/installation.md",
+      "https://github.com/google-deepmind/alphafold3/blob/main/docs/input.md",
+      "https://github.com/google-deepmind/alphafold3/blob/main/docs/performance.md",
+      "https://doi.org/10.1038/s41586-024-07487-w"
+    ],
+    "license": "Source code Apache-2.0. Model parameters are governed by AlphaFold 3 Model Parameters Terms of Use and prohibited-use policy; parameters must be obtained directly from Google and are not treated as unrestricted MIT/Apache assets.",
+    "weights": {
+      "download_url": "https://storage.googleapis.com/alphafold3/af3.bin.zst",
+      "compressed_bytes_reported_by_HEAD": 1020545840,
+      "size_note": "About 1.02 GB from current HTTP metadata; do not infer installed/uncompressed footprint from this value."
+    },
+    "installation_requirements": {
+      "os": "Linux officially supported; repository documents Docker and Singularity paths",
+      "gpu": "NVIDIA GPU compute capability 8.0 or greater; verified numerical accuracy on NVIDIA A100/H100",
+      "reference_machine": "Ubuntu 22.04, 12 CPUs, 170 GB RAM, 1 TB boot disk, NVIDIA A100 80 GB",
+      "memory": "At least 64 GB RAM recommended for genetic searches; deep MSAs may require substantially more",
+      "gpu_memory": "A single A100 80 GB or H100 80 GB verified for inputs up to 5,120 tokens",
+      "databases": "Full genetic databases approximately 252 GB download and 630 GB uncompressed; SSD recommended; database fetch documented at about 45 minutes without local SSD",
+      "container_cuda": "Docker instructions require host CUDA 12.6"
+    },
+    "inputs": {
+      "format": "One custom AlphaFold 3 JSON per input; dialect alphafold3; modelSeeds required; supports protein/RNA/DNA, ligands by CCD/SMILES/user CCD, covalent bonds, custom MSA and protein templates",
+      "msa": "Data pipeline searches databases by default; inference-only mode requires precomputed MSAs/templates or explicit empty values",
+      "coordinates": "The documented input is sequence/entity based. Experimental protein coordinates may be supplied as an mmCIF structural template; AF3 is a structure prediction pipeline, not a fixed-complex affinity scorer.",
+      "affinity": "Official AF3 local inference documentation exposes structure/confidence outputs; no official local AF3 affinity prediction field or affinity validation workflow was identified in the reviewed sources."
+    },
+    "runtime": "Official documentation gives hardware and database-search timing guidance but no per-complex GPU wall-clock benchmark suitable for a 4090 budget estimate; CPU-only mode is unofficial and roughly 100x slower than GPU.",
+    "smoke_test": "Possible only after obtaining Google-authorized parameters and enough environment; use the repository example JSON, run_data_pipeline=false only with prepared/empty MSA choices, and verify data test plus one inference output.",
+    "validation_limit": "AF3 confidence metrics are prediction confidence, not experimental binding affinity, efficacy, or clinical evidence."
+  },
+  "boltz2": {
+    "official_sources": [
+      "https://github.com/jwohlwend/boltz",
+      "https://github.com/jwohlwend/boltz/blob/main/docs/prediction.md",
+      "https://doi.org/10.1101/2025.06.14.659707"
+    ],
+    "license": "Official repository states code and model weights are MIT, usable for academic and commercial purposes; third-party dependencies and automatic MSA service terms remain separate.",
+    "weights": {
+      "download": "Downloaded automatically/cached by the prediction command unless an explicit checkpoint is supplied",
+      "size": "Official README and prediction documentation reviewed here do not state a checkpoint byte size; do not budget disk or transfer from the AF3 size."
+    },
+    "installation_requirements": {
+      "install": "pip install boltz[cuda] -U or editable GitHub install",
+      "accelerator": "GPU is default; CPU is supported but officially described as significantly slower",
+      "cache": "BOLTZ_CACHE or --cache controls model/data cache",
+      "msa": "--use_msa_server can generate MSA through the default api.colabfold.com service; otherwise precomputed MSA is required for proteins"
+    },
+    "inputs": {
+      "format": "YAML preferred; one YAML or directory of YAML/legacy FASTA inputs",
+      "entities": "Protein/DNA/RNA require sequences; ligands use exactly one of SMILES or CCD; protein MSA may be .a3m or multi-chain CSV, or omitted with --use_msa_server",
+      "coordinates": "Boltz YAML supports optional PDB/mmCIF templates for protein chains, with chain mapping and optional forced backbone potentials. This does not document fixed ligand-pose scoring or direct use of template ligand coordinates as an affinity calculation.",
+      "affinity_input": "Add properties: - affinity: binder: LIGAND_CHAIN. Exactly one small-molecule ligand is supported; it must be a ligand chain, at most 128 atoms after RDKit RemoveHs, and the docs recommend substantially below 56 atoms. Affinity is documented only for small molecules against protein targets; RNA/DNA/cofactor targets are explicitly unreliable.",
+      "affinity_semantics": "affinity_probability_binary is a 0-1 binder probability intended for binder-vs-decoy hit discovery. affinity_pred_value is log10(IC50) in micromolar-derived units intended for comparing active ligands and optimization, especially small modifications; lower values indicate stronger predicted binding. It is not a universal experimental Kd or free-energy measurement."
+    },
+    "runtime": "Official README claims Boltz-2 runs 1000x faster than physics-based FEP in its broad screening motivation, but provides no reproducible per-input wall-clock, GPU-memory, or RTX 4090 benchmark in the reviewed documentation. Treat runtime and memory as unknown until a local smoke test.",
+    "evaluation": "Official repository says updated Boltz-2 evaluation code and benchmark predictions are coming soon; this limits immediate independent reproduction of published affinity metrics.",
+    "smoke_test": "A bounded smoke test can use one small protein plus one ligand YAML, an explicit local cache/output directory, one diffusion sample, and either a precomputed MSA or the external MSA server. It must record package commit, checkpoint identity, input YAML, MSA provenance, output confidence, and affinity JSON.",
+    "validation_limit": "A smoke-test completion demonstrates installation and schema compatibility only. It does not validate affinity calibration, ranking on ROCK2, or transfer to cryoprotectant/IRI outcomes."
+  },
+  "decision": {
+    "practical_choice": "Boltz-2 is the more accessible local affinity smoke-test candidate because official code and weights are MIT and its YAML schema has an explicit affinity property. AlphaFold 3 has stronger documented environment requirements and gated parameter terms, and the reviewed official local documentation does not expose an equivalent affinity output.",
+    "supplied_complex_coordinates": "Protein chains from a supplied complex may serve as templates. Neither reviewed tool is documented as a validated fixed-pose scorer for an already supplied protein-ligand complex.",
+    "required_before_validation": [
+      "freeze ROCK2 protein and ligand identity/tautomer/protonation and chain mapping",
+      "choose and record MSA policy and external-service terms",
+      "obtain and hash model checkpoint without committing weights",
+      "run installation/data smoke test on an authorized local machine",
+      "benchmark wall-clock, peak GPU memory, cache and output size on the actual input",
+      "use a held-out or public affinity benchmark and report calibration/ranking uncertainty",
+      "keep affinity outputs separate from experimental efficacy claims"
+    ],
+    "budget": "No compute or provider budget was consumed. Existing cumulative GPU authorization remains external to this readiness record; any future run needs a fresh quote/reconciliation and explicit bounded reservation."
+  }
+}

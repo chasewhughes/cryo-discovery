@@ -1,0 +1,520 @@
+{
+  "doi": "10.3390/antiox14121412",
+  "source_path": "data/raw/phase5/porcine-embryos.html",
+  "source_sha256": "60050cda93b82630fe1fd645dcfbb6318188c2d66e184bcb067abe7ac81328bf",
+  "analysis_type": "Descriptive published-mean arithmetic, not raw replicate reanalysis",
+  "interaction_scale": "percentage-point additive survival scale; p11-p10-p01+p00",
+  "comparisons": [
+    {
+      "table": 4,
+      "comparison": "berberine × melatonin",
+      "reported_survival_means_percent": {
+        "p00": 70.0,
+        "p10": 78.05,
+        "p01": 81.09,
+        "p11": 87.8
+      },
+      "combination_minus_best_component_pp": 6.709999999999994,
+      "additive_interaction_pp": -1.3400000000000034,
+      "inferential_test": null
+    },
+    {
+      "table": 5,
+      "comparison": "Fe3O4 × AFP I",
+      "reported_survival_means_percent": {
+        "p00": 72.97,
+        "p10": 78.05,
+        "p01": 79.07,
+        "p11": 84.44
+      },
+      "combination_minus_best_component_pp": 5.3700000000000045,
+      "additive_interaction_pp": 0.29000000000000625,
+      "inferential_test": null
+    },
+    {
+      "table": 6,
+      "comparison": "antioxidant pair × nanoparticle/AFP pair",
+      "reported_survival_means_percent": {
+        "p00": 71.11,
+        "p10": 83.33,
+        "p01": 85.11,
+        "p11": 93.75
+      },
+      "combination_minus_best_component_pp": 8.64,
+      "additive_interaction_pp": -3.5799999999999983,
+      "inferential_test": null
+    }
+  ],
+  "percentage_checks": [
+    {
+      "table": 4,
+      "data_row": 1,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 70.0,
+      "numerator": 245,
+      "denominator": 350,
+      "aggregate_ratio_percent": 70.0,
+      "reported_minus_aggregate_pp": 0.0,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 1,
+      "column": "Microtubule Normal (%)",
+      "reported_mean_percent": 66.67,
+      "numerator": 22,
+      "denominator": 33,
+      "aggregate_ratio_percent": 66.66666666666667,
+      "reported_minus_aggregate_pp": 0.0033333333333303017,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 1,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 70.73,
+      "numerator": 29,
+      "denominator": 41,
+      "aggregate_ratio_percent": 70.73170731707317,
+      "reported_minus_aggregate_pp": -0.001707317073169179,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 2,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 78.05,
+      "numerator": 224,
+      "denominator": 287,
+      "aggregate_ratio_percent": 78.04878048780488,
+      "reported_minus_aggregate_pp": 0.001219512195120842,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 2,
+      "column": "Microtubule Normal (%)",
+      "reported_mean_percent": 72.73,
+      "numerator": 24,
+      "denominator": 33,
+      "aggregate_ratio_percent": 72.72727272727273,
+      "reported_minus_aggregate_pp": 0.002727272727270247,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 2,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 76.19,
+      "numerator": 32,
+      "denominator": 42,
+      "aggregate_ratio_percent": 76.19047619047619,
+      "reported_minus_aggregate_pp": -0.0004761904761920732,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 3,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 81.09,
+      "numerator": 210,
+      "denominator": 259,
+      "aggregate_ratio_percent": 81.08108108108108,
+      "reported_minus_aggregate_pp": 0.008918918918922714,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 3,
+      "column": "Microtubule Normal (%)",
+      "reported_mean_percent": 77.14,
+      "numerator": 27,
+      "denominator": 35,
+      "aggregate_ratio_percent": 77.14285714285714,
+      "reported_minus_aggregate_pp": -0.0028571428571382285,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 3,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 77.55,
+      "numerator": 38,
+      "denominator": 49,
+      "aggregate_ratio_percent": 77.55102040816327,
+      "reported_minus_aggregate_pp": -0.0010204081632707585,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 4,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 87.8,
+      "numerator": 252,
+      "denominator": 287,
+      "aggregate_ratio_percent": 87.8048780487805,
+      "reported_minus_aggregate_pp": -0.004878048780497579,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 4,
+      "column": "Microtubule Normal (%)",
+      "reported_mean_percent": 82.69,
+      "numerator": 43,
+      "denominator": 52,
+      "aggregate_ratio_percent": 82.6923076923077,
+      "reported_minus_aggregate_pp": -0.0023076923076956746,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 4,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 83.9,
+      "numerator": 73,
+      "denominator": 85,
+      "aggregate_ratio_percent": 85.88235294117646,
+      "reported_minus_aggregate_pp": -1.9823529411764582,
+      "needs_aggregation_clarification": true
+    },
+    {
+      "table": 4,
+      "data_row": 5,
+      "column": "Microtubule Normal (%)",
+      "reported_mean_percent": 91.89,
+      "numerator": 34,
+      "denominator": 37,
+      "aggregate_ratio_percent": 91.89189189189189,
+      "reported_minus_aggregate_pp": -0.0018918918918870986,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 4,
+      "data_row": 5,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 92.59,
+      "numerator": 50,
+      "denominator": 54,
+      "aggregate_ratio_percent": 92.5925925925926,
+      "reported_minus_aggregate_pp": -0.0025925925925918136,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 1,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 72.97,
+      "numerator": 197,
+      "denominator": 270,
+      "aggregate_ratio_percent": 72.96296296296296,
+      "reported_minus_aggregate_pp": 0.007037037037036953,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 1,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 71.15,
+      "numerator": 35,
+      "denominator": 52,
+      "aggregate_ratio_percent": 67.3076923076923,
+      "reported_minus_aggregate_pp": 3.842307692307699,
+      "needs_aggregation_clarification": true
+    },
+    {
+      "table": 5,
+      "data_row": 1,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 66.03,
+      "numerator": 35,
+      "denominator": 53,
+      "aggregate_ratio_percent": 66.0377358490566,
+      "reported_minus_aggregate_pp": -0.007735849056601296,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 2,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 78.05,
+      "numerator": 192,
+      "denominator": 246,
+      "aggregate_ratio_percent": 78.04878048780488,
+      "reported_minus_aggregate_pp": 0.001219512195120842,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 2,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 76.92,
+      "numerator": 40,
+      "denominator": 52,
+      "aggregate_ratio_percent": 76.92307692307692,
+      "reported_minus_aggregate_pp": -0.003076923076918092,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 2,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 73.68,
+      "numerator": 28,
+      "denominator": 38,
+      "aggregate_ratio_percent": 73.6842105263158,
+      "reported_minus_aggregate_pp": -0.004210526315787888,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 3,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 79.07,
+      "numerator": 204,
+      "denominator": 258,
+      "aggregate_ratio_percent": 79.06976744186046,
+      "reported_minus_aggregate_pp": 0.00023255813952971494,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 3,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 75.0,
+      "numerator": 42,
+      "denominator": 56,
+      "aggregate_ratio_percent": 75.0,
+      "reported_minus_aggregate_pp": 0.0,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 3,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 73.52,
+      "numerator": 25,
+      "denominator": 34,
+      "aggregate_ratio_percent": 73.52941176470588,
+      "reported_minus_aggregate_pp": -0.009411764705888004,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 4,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 84.44,
+      "numerator": 228,
+      "denominator": 270,
+      "aggregate_ratio_percent": 84.44444444444444,
+      "reported_minus_aggregate_pp": -0.004444444444445139,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 4,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 82.36,
+      "numerator": 42,
+      "denominator": 51,
+      "aggregate_ratio_percent": 82.3529411764706,
+      "reported_minus_aggregate_pp": 0.007058823529405345,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 4,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 78.94,
+      "numerator": 30,
+      "denominator": 38,
+      "aggregate_ratio_percent": 78.94736842105263,
+      "reported_minus_aggregate_pp": -0.007368421052632357,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 5,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 88.89,
+      "numerator": 32,
+      "denominator": 36,
+      "aggregate_ratio_percent": 88.88888888888889,
+      "reported_minus_aggregate_pp": 0.0011111111111148375,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 5,
+      "data_row": 5,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 92.3,
+      "numerator": 36,
+      "denominator": 39,
+      "aggregate_ratio_percent": 92.3076923076923,
+      "reported_minus_aggregate_pp": -0.007692307692309441,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 1,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 71.11,
+      "numerator": 160,
+      "denominator": 225,
+      "aggregate_ratio_percent": 71.11111111111111,
+      "reported_minus_aggregate_pp": -0.0011111111111148375,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 1,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 68.42,
+      "numerator": 26,
+      "denominator": 38,
+      "aggregate_ratio_percent": 68.42105263157895,
+      "reported_minus_aggregate_pp": -0.0010526315789434193,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 1,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 69.23,
+      "numerator": 27,
+      "denominator": 39,
+      "aggregate_ratio_percent": 69.23076923076923,
+      "reported_minus_aggregate_pp": -0.0007692307692224176,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 2,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 83.33,
+      "numerator": 140,
+      "denominator": 168,
+      "aggregate_ratio_percent": 83.33333333333333,
+      "reported_minus_aggregate_pp": -0.0033333333333303017,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 2,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 74.36,
+      "numerator": 29,
+      "denominator": 39,
+      "aggregate_ratio_percent": 74.35897435897436,
+      "reported_minus_aggregate_pp": 0.0010256410256346271,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 2,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 73.68,
+      "numerator": 28,
+      "denominator": 38,
+      "aggregate_ratio_percent": 73.6842105263158,
+      "reported_minus_aggregate_pp": -0.004210526315787888,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 3,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 85.11,
+      "numerator": 160,
+      "denominator": 188,
+      "aggregate_ratio_percent": 85.1063829787234,
+      "reported_minus_aggregate_pp": 0.003617021276596688,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 3,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 75.56,
+      "numerator": 34,
+      "denominator": 45,
+      "aggregate_ratio_percent": 75.55555555555556,
+      "reported_minus_aggregate_pp": 0.004444444444445139,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 3,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 76.32,
+      "numerator": 29,
+      "denominator": 38,
+      "aggregate_ratio_percent": 76.3157894736842,
+      "reported_minus_aggregate_pp": 0.004210526315787888,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 4,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 93.75,
+      "numerator": 180,
+      "denominator": 192,
+      "aggregate_ratio_percent": 93.75,
+      "reported_minus_aggregate_pp": 0.0,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 4,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 90.48,
+      "numerator": 38,
+      "denominator": 42,
+      "aggregate_ratio_percent": 90.47619047619048,
+      "reported_minus_aggregate_pp": 0.003809523809522375,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 4,
+      "column": "Cytoskeleton Integrity (%)",
+      "reported_mean_percent": 90.7,
+      "numerator": 39,
+      "denominator": 43,
+      "aggregate_ratio_percent": 90.69767441860465,
+      "reported_minus_aggregate_pp": 0.0023255813953539928,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 5,
+      "column": "Survival Rate (%)",
+      "reported_mean_percent": 91.3,
+      "numerator": 42,
+      "denominator": 46,
+      "aggregate_ratio_percent": 91.30434782608695,
+      "reported_minus_aggregate_pp": -0.004347826086956275,
+      "needs_aggregation_clarification": false
+    },
+    {
+      "table": 6,
+      "data_row": 5,
+      "column": "Hatching Rate (%)",
+      "reported_mean_percent": 92.68,
+      "numerator": 38,
+      "denominator": 41,
+      "aggregate_ratio_percent": 92.6829268292683,
+      "reported_minus_aggregate_pp": -0.002926829268290021,
+      "needs_aggregation_clarification": false
+    }
+  ],
+  "aggregation_clarification_count": 2,
+  "unresolved_table_note": "Table 6 fresh-control cytoskeleton cell contains 29.32 ± 3.42 (n=30), while ROS is blank. Do not shift or repair columns.",
+  "limitations": [
+    "Reported means may average replicate percentages, while parenthetical counts may be pooled or representative; discrepancies are clarification flags, not proof of errors.",
+    "At least three repeats are described, but replicate-level outcomes and covariance are unavailable; no interaction confidence interval or p-value is calculated.",
+    "The source reports one-way ANOVA/Tukey comparisons; higher combination means and nonsignificance versus fresh do not establish synergy or equivalence.",
+    "Interaction depends on the chosen response scale and may be affected by ceiling effects; these arithmetic checks do not rule out other mechanisms or models."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-09-06T22:42:37.598181+00:00",
+  "tests_passed": 28,
+  "test_command": ".venv/bin/python -m unittest tests.test_analyze_rock_external tests.test_boltz_external_inference tests.test_runpod_boltz_external tests.test_reconcile_phase18 tests.test_discovery_pipeline tests.test_hypothesis_registry",
+  "executed_plan_sha256": "aa474a605f1612fd913b2a271ef27e7f0b6da63f46982aad03598fbe97167193",
+  "result_sha256": "c4bee9feabafc0efbfe0aa8bb3add0bc9843eb572a8e002223baa25205d6a78f",
+  "report_sha256": "3608702dd59edba90849aef01afa3ea16fefc3d899a55dc7a85ffc8aedea2c7e",
+  "archive_hash_verified": true,
+  "validation_errors": [],
+  "checks": [
+    "Frozen source/provenance hashes match",
+    "All Phase 18 JSON parses",
+    "Report local links resolve",
+    "All 60 paired structure/affinity outputs verified against collected archive",
+    "Figures visually reviewed, common plot limits retain all points, baseline included",
+    "Calibration test-label-invariance and missing-artifact/scaffold-leakage guards passed"
+  ],
+  "local_analysis_versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "rdkit": "2026.03.6"
+  },
+  "scientific_verdict": "novel_screening_not_qualified",
+  "note": "Technical validation passed; scientific transfer and calibration criteria failed. No novel candidates screened."
+}

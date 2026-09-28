@@ -1,0 +1,73 @@
+{
+  "candidate": {
+    "doi": "10.1021/jm100579r",
+    "title": "Tetrahydroisoquinoline Derivatives As Highly Selective and Potent Rho Kinase Inhibitors",
+    "publisher_supplement_figshare_article_id": 2743252,
+    "supplement_file": "jm100579r_si_001.pdf",
+    "publication_year": 2010
+  },
+  "artifacts": {
+    "data/raw/phase19/alternative-methods/figshare-api.json": "a3da7ec860d58554d8b33d814c530b090522fa226ab615dce91bb8b7b6b60f5f",
+    "data/raw/phase19/alternative-methods/pubchem-aid644.json": "cc1251e4df1cbe82bd80294fc01fb980290a73a3991549b32c3eeba44425f961",
+    "data/raw/phase19/alternative-methods/jm100579r_si_001.pdf": "deb05aaf5031a2c6c247267d1a676bfc61cd092fb589e42c112adeee439b6ad5",
+    "data/raw/phase19/alternative-methods/acs.html": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/raw/phase19/alternative-methods/figshare-article.json": "c10d18164a9d5e732cefe1c9cecc0068eff2a02e21ef1c5ea1c0c69106b735e9",
+    "data/raw/phase17/external-review/CHEMBL1219161-activities.json": "dc24df2eff425cad6926e5f8226af88eb7c6c2e069842200024159b10f10888c",
+    "data/raw/phase17/external-review/CHEMBL1219161.json": "aa70bf97d8a6bd39efd085260d22270533305923a0f31e4a71ecd5dca991b2cf"
+  },
+  "primary_evidence": {
+    "article_access": "publisher article endpoint blocked, but official ACS Figshare SI was acquired",
+    "supplement_content": "compound 35 kinase counter-screening report and analytical/chirality data; no ROCK2 assay protocol or compound IC50 table found in SI text",
+    "pubchem_aid": 644,
+    "pubchem_assay_description_excerpt": "Separate Scripps ROCK2 dose-response assay, external ID Rock2_INH_LUMI_1536_IC50. Full description retained in ignored original JSON.",
+    "readout": "CHEMBL1219161 does not specify assay readout. PubChem AID644 is a separate luminescence record; no assay identity or readout conflict is established.",
+    "ATP": "20 micromolar ATP in assay buffer (PubChem AID 644 protocol)",
+    "substrate": "20 micromolar S6 peptide",
+    "buffer": "50 mM HEPES pH 7.3, 10 mM MgCl2, 0.1% BSA, 2 mM DTT",
+    "enzyme_target": "ROCK2/Rho kinase 2; species/construct boundaries not established in retrieved record",
+    "pubchem_aid_relationship": "AID 644 is a separate related ROCK2 luminescence record and is not merged with CHEMBL1219161.",
+    "chembl_description_exact": "Inhibition of ROCK2",
+    "publisher_access_attempts": [
+      {
+        "url": "https://pubs.acs.org/doi/10.1021/jm100579r",
+        "status": "403"
+      },
+      {
+        "url": "https://acs.figshare.com/articles/journal_contribution/Tetrahydroisoquinoline_Derivatives_As_Highly_Selective_and_Potent_Rho_Kinase_Inhibitors/2743252",
+        "status": "accessible SI only"
+      }
+    ],
+    "article_methods_status": "No accessible full-article copy was located in this bounded search; SI and downstream records do not expose the requested ROCK2 construct/ATP details.",
+    "chembl_assay_qualifiers": {
+      "assay_type": "Binding",
+      "bao_format": "single protein format",
+      "confidence": "Homologous single protein target assigned",
+      "organism": null,
+      "construct": null,
+      "readout": null
+    }
+  },
+  "chembl_reconciliation": {
+    "source": "existing local ChEMBL export CHEMBL1219161 not overwritten",
+    "record_count": 34,
+    "exact_relation_count": 33,
+    "censored_or_nonexact_count": 1,
+    "units": "nM as recorded",
+    "warning": "ChEMBL assay target metadata must not be treated as primary protocol evidence.",
+    "assay_organism": null,
+    "confidence_score": 8,
+    "root_verification": "Root directly read CHEMBL1219161.json and corrected confusion with CHEMBL1686688. No HTRF label in this candidate record."
+  },
+  "eligibility": {
+    "non_luciferase": null,
+    "eligible_external_benchmark": false,
+    "reason": "Primary article methods and potency/structure tables unavailable; SI does not establish assay readout/species/construct. Fixed scaffold split also fails minimum test size.",
+    "supported_use": "Secondary assay candidate with unknown readout; keep separate PubChem context distinct.",
+    "next_gate": "Use a genuinely orthogonal non-luciferase ROCK2 assay with documented construct, ATP/substrate conditions, and primary structure-linked values."
+  },
+  "limits": [
+    "No article potency values were reconstructed from figures or patents.",
+    "Compound 35 kinase-panel percentages are not ROCK2 IC50 values.",
+    "No inference, deduplication, or model benchmark was performed."
+  ]
+}

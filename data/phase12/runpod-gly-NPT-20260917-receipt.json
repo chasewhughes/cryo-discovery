@@ -1,0 +1,36 @@
+{
+  "job_id": "gly-NPT-20260917",
+  "pod_id": "ldww25xab89819",
+  "name": "cryo-phase12-gly-NPT-20260917-c99c91",
+  "created_epoch": 1788694578.46671,
+  "deadline_epoch": 1788698178.46671,
+  "cost_per_hour": 0.74,
+  "input_sha256": {
+    "system.xml": "a760bc39eb319f0858f6077fbdda3c1d61ddca50db82a2f7f213d6ae1e0f7abf",
+    "integrator.xml": "380526835e1ee423ab59dc200f5894ad5cce589f97ccebaaa7cec22b5db2cbd2",
+    "final-state.xml": "fbbe9b8134147e5d4da6def854888f17f42e28c2935a34a8a7cf02712192d394",
+    "topology-final-box.pdb": "5f17ccf3c1c5329f2f34fac5e5714e3eb90d73d46b99ea60d77222781eef891a",
+    "result.json": "670a5eaccaa82d0788005d55ad164f71415ae82c448174cfbb75368c6b617226"
+  },
+  "worker_sha256": "51e7c58f595c4b348efa305cad0713ee2462b848f964d850a29311875c943ff1",
+  "code_sha256": {
+    "scripts/run_hydration_extension.py": "9c2061bcbba821f447a8deb9531c39180eea3b6699a639b7b7d4bade3f75814b",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b"
+  },
+  "plan_sha256": "b59c2c20809b41f168eb76a4afe2af7f2a94597202aef07f8a2238d2f523a068",
+  "watchdog_pid": 64859,
+  "deleted": true,
+  "ended_epoch": 1788694676.3597062,
+  "elapsed_hours": 0.027192498909102546,
+  "estimated_gpu_cost_usd": 0.020122449192735883,
+  "result_archive_sha256": "a4081906da6fb960b6d06626dbc092dc6a05ac7b2c0fba0a5b81cd03beeaf665",
+  "result_archive_bytes": 3226,
+  "worker_status": {
+    "state": "failed",
+    "results_ready": true,
+    "current": "gly-NPT-20260917",
+    "error_type": "CalledProcessError",
+    "archive_sha256": "a4081906da6fb960b6d06626dbc092dc6a05ac7b2c0fba0a5b81cd03beeaf665"
+  }
+}

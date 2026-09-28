@@ -1,0 +1,12 @@
+# NVIDIA CUDA 12.4 runtime/compiler pins avoid generating newer PTX on older drivers.
+# Use separately from the existing model-fitting environment.
+openmm[cuda12]==8.6.0
+numpy==2.5.2
+rdkit==2026.3.6
+pillow==12.3.0
+nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-nvcc-cu12==12.4.131
+nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cuda-cupti-cu12==12.4.127
+nvidia-cufft-cu12==11.2.1.3
+nvidia-nvjitlink-cu12==12.4.127

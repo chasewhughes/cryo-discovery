@@ -1,0 +1,2819 @@
+{
+  "source_doi": "10.1038/s41467-024-52266-w",
+  "summary": {
+    "raw_rows": 80,
+    "training_rows": 63,
+    "prediction_rows": 17,
+    "prediction_20mM": 14,
+    "prediction_10mM": 3,
+    "mass_disagreements_all": 19,
+    "mass_disagreements_training": 15
+  },
+  "records": [
+    {
+      "id": "amino:line2",
+      "name": "l-alpha-alanine",
+      "canonical_smiles": "C[C@H](N)C(=O)O",
+      "connectivity": "CC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 54.4,
+      "reported_sd_mgs": 17.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 89.04768,
+        "smiles_exact_mass": 89.047678464,
+        "delta_smiles_minus_descriptor_Da": -1.5359999991915174e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line3",
+      "name": "l-valine",
+      "canonical_smiles": "CC(C)[C@H](N)C(=O)O",
+      "connectivity": "CC(C)C(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(C)C(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 44.5,
+      "reported_sd_mgs": 7.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 117.07898,
+        "smiles_exact_mass": 117.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line4",
+      "name": "l-leucine",
+      "canonical_smiles": "CC(C)C[C@H](N)C(=O)O",
+      "connectivity": "CC(C)CC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(C)CC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 45.6,
+      "reported_sd_mgs": 14.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.09463,
+        "smiles_exact_mass": 131.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line5",
+      "name": "l-isoleucine",
+      "canonical_smiles": "CC[C@H](C)[C@H](N)C(=O)O",
+      "connectivity": "CCC(C)C(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CCC(C)C(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 18.8,
+      "reported_sd_mgs": 4.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.09463,
+        "smiles_exact_mass": 131.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line6",
+      "name": "l-proline",
+      "canonical_smiles": "O=C(O)[C@@H]1CCCN1",
+      "connectivity": "O=C(O)C1CCCN1",
+      "charge_tautomer_parent_for_overlap_only": "O=C(O)C1CCCN1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 102.8,
+      "reported_sd_mgs": 15.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 115.06333,
+        "smiles_exact_mass": 115.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4719999938961337e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line7",
+      "name": "l-methionine",
+      "canonical_smiles": "CSCC[C@H](N)C(=O)O",
+      "connectivity": "CSCCC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CSCCC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 31.1,
+      "reported_sd_mgs": 13.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 149.05105,
+        "smiles_exact_mass": 149.051049592,
+        "delta_smiles_minus_descriptor_Da": -4.0800000533636194e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line8",
+      "name": "l-phenylalanine",
+      "canonical_smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+      "connectivity": "NC(Cc1ccccc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1ccccc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 11.8,
+      "reported_sd_mgs": 2.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 165.07898,
+        "smiles_exact_mass": 165.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line9",
+      "name": "l-tryptophan",
+      "canonical_smiles": "N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O",
+      "connectivity": "NC(Cc1c[nH]c2ccccc12)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1c[nH]c2ccccc12)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 21.0,
+      "reported_sd_mgs": 6.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 204.08988,
+        "smiles_exact_mass": 204.089877624,
+        "delta_smiles_minus_descriptor_Da": -2.3759999976391555e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line10",
+      "name": "l-threonine",
+      "canonical_smiles": "C[C@@H](O)[C@H](N)C(=O)O",
+      "connectivity": "CC(O)C(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(O)C(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 102.2,
+      "reported_sd_mgs": 11.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 119.05824,
+        "smiles_exact_mass": 119.058243148,
+        "delta_smiles_minus_descriptor_Da": 3.148000004671303e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line11",
+      "name": "l-serine",
+      "canonical_smiles": "N[C@@H](CO)C(=O)O",
+      "connectivity": "NC(CO)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(CO)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 82.0,
+      "reported_sd_mgs": 35.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 105.04259,
+        "smiles_exact_mass": 105.042593084,
+        "delta_smiles_minus_descriptor_Da": 3.0839999993759193e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line12",
+      "name": "l-cysteine",
+      "canonical_smiles": "N[C@@H](CS)C(=O)O",
+      "connectivity": "NC(CS)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(CS)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 112.8,
+      "reported_sd_mgs": 14.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 121.01975,
+        "smiles_exact_mass": 121.019749464,
+        "delta_smiles_minus_descriptor_Da": -5.360000017162747e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line13",
+      "name": "l-glutamine",
+      "canonical_smiles": "NC(=O)CC[C@H](N)C(=O)O",
+      "connectivity": "NC(=O)CCC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(=O)CCC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 27.9,
+      "reported_sd_mgs": 8.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 146.06914,
+        "smiles_exact_mass": 146.06914218,
+        "delta_smiles_minus_descriptor_Da": 2.1799999956328975e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line14",
+      "name": "l-glycine",
+      "canonical_smiles": "NCC(=O)O",
+      "connectivity": "NCC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 97.7,
+      "reported_sd_mgs": 23.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 75.03203,
+        "smiles_exact_mass": 75.0320284,
+        "delta_smiles_minus_descriptor_Da": -1.6000000044869012e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line15",
+      "name": "l-asparagine",
+      "canonical_smiles": "NC(=O)C[C@H](N)C(=O)O",
+      "connectivity": "NC(=O)CC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(=O)CC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 75.2,
+      "reported_sd_mgs": 23.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 132.05349,
+        "smiles_exact_mass": 132.053492116,
+        "delta_smiles_minus_descriptor_Da": 2.1159999903375137e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line16",
+      "name": "l-histidine",
+      "canonical_smiles": "N[C@@H](Cc1cnc[nH]1)C(=O)O",
+      "connectivity": "NC(Cc1cnc[nH]1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1c[nH]cn1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 80.5,
+      "reported_sd_mgs": 18.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 155.06948,
+        "smiles_exact_mass": 155.069476528,
+        "delta_smiles_minus_descriptor_Da": -3.472000003057474e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line17",
+      "name": "l-lysine",
+      "canonical_smiles": "NCCCC[C@H](N)C(=O)O",
+      "connectivity": "NCCCCC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCCCCC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 63.1,
+      "reported_sd_mgs": 3.2,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 147.1128,
+        "smiles_exact_mass": 146.105527688,
+        "delta_smiles_minus_descriptor_Da": -1.0072723119999978,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line18",
+      "name": "l-arginine",
+      "canonical_smiles": "NC(N)=NCCC[C@H](N)C(=O)O",
+      "connectivity": "NC(N)=NCCCC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "N=C(N)NCCCC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 70.3,
+      "reported_sd_mgs": 19.2,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 175.11895,
+        "smiles_exact_mass": 174.111675688,
+        "delta_smiles_minus_descriptor_Da": -1.0072743120000212,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line19",
+      "name": "l-glutamate",
+      "canonical_smiles": "N[C@@H](CCC(=O)O)C(=O)O",
+      "connectivity": "NC(CCC(=O)O)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(CCC(=O)O)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 39.3,
+      "reported_sd_mgs": 8.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 146.04588,
+        "smiles_exact_mass": 147.053157768,
+        "delta_smiles_minus_descriptor_Da": 1.0072777679999945,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line20",
+      "name": "l-aspartate",
+      "canonical_smiles": "N[C@@H](CC(=O)O)C(=O)O",
+      "connectivity": "NC(CC(=O)O)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(CC(=O)O)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 64.8,
+      "reported_sd_mgs": 36.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 132.03023,
+        "smiles_exact_mass": 133.037507704,
+        "delta_smiles_minus_descriptor_Da": 1.0072777040000176,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line21",
+      "name": "beta-alanine",
+      "canonical_smiles": "NCCC(=O)O",
+      "connectivity": "NCCC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCCC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 81.5,
+      "reported_sd_mgs": 11.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 89.04768,
+        "smiles_exact_mass": 89.047678464,
+        "delta_smiles_minus_descriptor_Da": -1.5359999991915174e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line22",
+      "name": "betaine",
+      "canonical_smiles": "C[N+](C)(C)CC(=O)[O-]",
+      "connectivity": "C[N+](C)(C)CC(=O)[O-]",
+      "charge_tautomer_parent_for_overlap_only": "C[N+](C)(C)CC(=O)[O-]",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 99.7,
+      "reported_sd_mgs": 16.4,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 117.07898,
+        "smiles_exact_mass": 117.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line23",
+      "name": "4-fluoro-dl-phenylalanine",
+      "canonical_smiles": "N[C@@H](Cc1ccc(F)cc1)C(=O)O",
+      "connectivity": "NC(Cc1ccc(F)cc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1ccc(F)cc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 12.2,
+      "reported_sd_mgs": 3.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 183.06956,
+        "smiles_exact_mass": 183.06955678,
+        "delta_smiles_minus_descriptor_Da": -3.219999996417755e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line24",
+      "name": "4-chloro-l-phenylalanine",
+      "canonical_smiles": "N[C@@H](Cc1ccc(Cl)cc1)C(=O)O",
+      "connectivity": "NC(Cc1ccc(Cl)cc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1ccc(Cl)cc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 9.7,
+      "reported_sd_mgs": 4.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 199.04001,
+        "smiles_exact_mass": 199.04000624,
+        "delta_smiles_minus_descriptor_Da": -3.7599999984649912e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line25",
+      "name": "4-amino-l-phenylalanine",
+      "canonical_smiles": "Nc1ccc(C[C@H](N)C(=O)O)cc1",
+      "connectivity": "Nc1ccc(CC(N)C(=O)O)cc1",
+      "charge_tautomer_parent_for_overlap_only": "Nc1ccc(CC(N)C(=O)O)cc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 59.3,
+      "reported_sd_mgs": 17.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 180.08988,
+        "smiles_exact_mass": 180.089877624,
+        "delta_smiles_minus_descriptor_Da": -2.3759999976391555e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line26",
+      "name": "4-cyano-l-phenylalanine",
+      "canonical_smiles": "N#Cc1ccc(C[C@H](N)C(=O)O)cc1",
+      "connectivity": "N#Cc1ccc(CC(N)C(=O)O)cc1",
+      "charge_tautomer_parent_for_overlap_only": "N#Cc1ccc(CC(N)C(=O)O)cc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 56.2,
+      "reported_sd_mgs": 13.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 190.07423,
+        "smiles_exact_mass": 190.07422756,
+        "delta_smiles_minus_descriptor_Da": -2.4400000029345392e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line27",
+      "name": "l-tert-leucine",
+      "canonical_smiles": "CC(C)(C)[C@H](N)C(=O)O",
+      "connectivity": "CC(C)(C)C(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(C)(C)C(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 75.9,
+      "reported_sd_mgs": 8.9,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.09463,
+        "smiles_exact_mass": 131.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line28",
+      "name": "n-methyl-l-alanine",
+      "canonical_smiles": "CN[C@@H](C)C(=O)O",
+      "connectivity": "CNC(C)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CNC(C)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 91.4,
+      "reported_sd_mgs": 31.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 103.06333,
+        "smiles_exact_mass": 103.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4719999938961337e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line29",
+      "name": "n-acetyl-l-phenylalanine",
+      "canonical_smiles": "CC(=O)N[C@@H](Cc1ccccc1)C(=O)O",
+      "connectivity": "CC(=O)NC(Cc1ccccc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(=O)NC(Cc1ccccc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 41.8,
+      "reported_sd_mgs": 7.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 207.08954,
+        "smiles_exact_mass": 207.089543276,
+        "delta_smiles_minus_descriptor_Da": 3.276000001051216e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line30",
+      "name": "1-aminocyclohexane carboxylic acid",
+      "canonical_smiles": "NC1(C(=O)O)CCCCC1",
+      "connectivity": "NC1(C(=O)O)CCCCC1",
+      "charge_tautomer_parent_for_overlap_only": "NC1(C(=O)O)CCCCC1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 45.4,
+      "reported_sd_mgs": 8.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 143.09463,
+        "smiles_exact_mass": 143.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line31",
+      "name": "6-aminohexanoic acid",
+      "canonical_smiles": "NCCCCCC(=O)O",
+      "connectivity": "NCCCCCC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCCCCCC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 77.6,
+      "reported_sd_mgs": 5.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.09463,
+        "smiles_exact_mass": 131.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line32",
+      "name": "2-aminothiazole-4-carboxylic acid",
+      "canonical_smiles": "Nc1nc(C(=O)O)cs1",
+      "connectivity": "Nc1nc(C(=O)O)cs1",
+      "charge_tautomer_parent_for_overlap_only": "Nc1nc(C(=O)O)cs1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 3.5,
+      "reported_sd_mgs": 1.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 143.99935,
+        "smiles_exact_mass": 143.999348368,
+        "delta_smiles_minus_descriptor_Da": -1.6319999929237383e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line33",
+      "name": "l-phenylalaninol",
+      "canonical_smiles": "N[C@H](CO)Cc1ccccc1",
+      "connectivity": "NC(CO)Cc1ccccc1",
+      "charge_tautomer_parent_for_overlap_only": "NC(CO)Cc1ccccc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 52.8,
+      "reported_sd_mgs": 17.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 152.10699,
+        "smiles_exact_mass": 151.099714036,
+        "delta_smiles_minus_descriptor_Da": -1.0072759640000015,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line34",
+      "name": "l-alpha-phenylglycine",
+      "canonical_smiles": "N[C@H](C(=O)O)c1ccccc1",
+      "connectivity": "NC(C(=O)O)c1ccccc1",
+      "charge_tautomer_parent_for_overlap_only": "NC(C(=O)O)c1ccccc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 13.1,
+      "reported_sd_mgs": 1.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 151.06333,
+        "smiles_exact_mass": 151.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4720000081069884e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line35",
+      "name": "n-acetyl-l-alanine",
+      "canonical_smiles": "CC(=O)N[C@@H](C)C(=O)O",
+      "connectivity": "CC(=O)NC(C)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(=O)NC(C)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 121.8,
+      "reported_sd_mgs": 40.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.05824,
+        "smiles_exact_mass": 131.058243148,
+        "delta_smiles_minus_descriptor_Da": 3.1479999904604483e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line36",
+      "name": "l-alanine-l-phenylalanine dipeptide",
+      "canonical_smiles": "C[C@H](N)C(=O)N[C@@H](Cc1ccccc1)C(=O)O",
+      "connectivity": "CC(N)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(N)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 6.3,
+      "reported_sd_mgs": 0.9,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 237.12337,
+        "smiles_exact_mass": 236.116092372,
+        "delta_smiles_minus_descriptor_Da": -1.007277627999997,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line37",
+      "name": "l-alanine-l-alanine dipeptide",
+      "canonical_smiles": "C[C@H](N)C(=O)N[C@@H](C)C(=O)O",
+      "connectivity": "CC(N)C(=O)NC(C)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(N)C(=O)NC(C)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 59.2,
+      "reported_sd_mgs": 13.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 161.09207,
+        "smiles_exact_mass": 160.084792244,
+        "delta_smiles_minus_descriptor_Da": -1.0072777560000077,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line38",
+      "name": "(l)-2-aminobutyric acid",
+      "canonical_smiles": "CC[C@H](N)C(=O)O",
+      "connectivity": "CCC(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CCC(N)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 107.6,
+      "reported_sd_mgs": 15.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 103.06333,
+        "smiles_exact_mass": 103.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4719999938961337e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line39",
+      "name": "(s)-3-aminobutyric acid",
+      "canonical_smiles": "C[C@H](N)CC(=O)O",
+      "connectivity": "CC(N)CC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(N)CC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 94.1,
+      "reported_sd_mgs": 20.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 103.06333,
+        "smiles_exact_mass": 103.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4719999938961337e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line40",
+      "name": "4-aminobutyric acid",
+      "canonical_smiles": "NCCCC(=O)O",
+      "connectivity": "NCCCC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCCCC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 54.1,
+      "reported_sd_mgs": 2.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 103.06333,
+        "smiles_exact_mass": 103.063328528,
+        "delta_smiles_minus_descriptor_Da": -1.4719999938961337e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line41",
+      "name": "4-amino-3-hydroxybutyric acid",
+      "canonical_smiles": "NCC(O)CC(=O)O",
+      "connectivity": "NCC(O)CC(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCC(O)CC(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 57.9,
+      "reported_sd_mgs": 6.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 119.05824,
+        "smiles_exact_mass": 119.058243148,
+        "delta_smiles_minus_descriptor_Da": 3.148000004671303e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line42",
+      "name": "4-amino-2-hydroxybutyric acid",
+      "canonical_smiles": "NCCC(O)C(=O)O",
+      "connectivity": "NCCC(O)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NCCC(O)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 56.4,
+      "reported_sd_mgs": 4.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 119.05824,
+        "smiles_exact_mass": 119.058243148,
+        "delta_smiles_minus_descriptor_Da": 3.148000004671303e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line43",
+      "name": "2-methyl-1,3-thiazole-4-carboxylic acid",
+      "canonical_smiles": "Cc1nc(C(=O)O)cs1",
+      "connectivity": "Cc1nc(C(=O)O)cs1",
+      "charge_tautomer_parent_for_overlap_only": "Cc1nc(C(=O)O)cs1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 65.1,
+      "reported_sd_mgs": 9.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 141.99682,
+        "smiles_exact_mass": 143.0040994,
+        "delta_smiles_minus_descriptor_Da": 1.0072793999999874,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line44",
+      "name": "l-aspartic acid 4-cyclohexyl ester",
+      "canonical_smiles": "NC(CC(=O)O)C(=O)OC1CCCCC1",
+      "connectivity": "NC(CC(=O)O)C(=O)OC1CCCCC1",
+      "charge_tautomer_parent_for_overlap_only": "NC(CC(=O)O)C(=O)OC1CCCCC1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 4.3,
+      "reported_sd_mgs": 1.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 215.11576,
+        "smiles_exact_mass": 215.115758024,
+        "delta_smiles_minus_descriptor_Da": -1.9759999929647165e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line45",
+      "name": "dl-homoserine",
+      "canonical_smiles": "N[C@@H](CCO)C(=O)O",
+      "connectivity": "NC(CCO)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(CCO)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 87.7,
+      "reported_sd_mgs": 19.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 119.05824,
+        "smiles_exact_mass": 119.058243148,
+        "delta_smiles_minus_descriptor_Da": 3.148000004671303e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line46",
+      "name": "trans-3-aminocyclohexanecarboxylic acid hydrochloride",
+      "canonical_smiles": "N[C@@H]1CCC[C@@H](C(=O)O)C1",
+      "connectivity": "NC1CCCC(C(=O)O)C1",
+      "charge_tautomer_parent_for_overlap_only": "NC1CCCC(C(=O)O)C1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 59.6,
+      "reported_sd_mgs": 15.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 143.09463,
+        "smiles_exact_mass": 143.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": true
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line47",
+      "name": "(r)-3-amino-3-phenylpropionic acid",
+      "canonical_smiles": "N[C@@H](CC(=O)O)c1ccccc1",
+      "connectivity": "NC(CC(=O)O)c1ccccc1",
+      "charge_tautomer_parent_for_overlap_only": "NC(CC(=O)O)c1ccccc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 54.5,
+      "reported_sd_mgs": 5.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 165.07898,
+        "smiles_exact_mass": 165.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line48",
+      "name": "phenyl carbamate",
+      "canonical_smiles": "NC(=O)Oc1ccccc1",
+      "connectivity": "NC(=O)Oc1ccccc1",
+      "charge_tautomer_parent_for_overlap_only": "NC(=O)Oc1ccccc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 21.6,
+      "reported_sd_mgs": 11.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 137.04768,
+        "smiles_exact_mass": 137.047678464,
+        "delta_smiles_minus_descriptor_Da": -1.5360000134023721e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line49",
+      "name": "3,4-dihydroxy-l-phenylalanine",
+      "canonical_smiles": "N[C@@H](Cc1ccc(O)c(O)c1)C(=O)O",
+      "connectivity": "NC(Cc1ccc(O)c(O)c1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1ccc(O)c(O)c1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 44.8,
+      "reported_sd_mgs": 10.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 197.06881,
+        "smiles_exact_mass": 197.068807832,
+        "delta_smiles_minus_descriptor_Da": -2.1680000088508677e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line50",
+      "name": "1,3-thiazole-2-carboxylic acid",
+      "canonical_smiles": "O=C(O)c1nccs1",
+      "connectivity": "O=C(O)c1nccs1",
+      "charge_tautomer_parent_for_overlap_only": "O=C(O)c1nccs1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 47.6,
+      "reported_sd_mgs": 2.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 127.98117,
+        "smiles_exact_mass": 128.988449336,
+        "delta_smiles_minus_descriptor_Da": 1.0072793359999963,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line51",
+      "name": "2-methyl-4-phenyl-1,3-thiazole-5-carboxylic acid",
+      "canonical_smiles": "Cc1nc(-c2ccccc2)c(C(=O)O)s1",
+      "connectivity": "Cc1nc(-c2ccccc2)c(C(=O)O)s1",
+      "charge_tautomer_parent_for_overlap_only": "Cc1nc(-c2ccccc2)c(C(=O)O)s1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 77.6,
+      "reported_sd_mgs": 18.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 218.02812,
+        "smiles_exact_mass": 219.035399528,
+        "delta_smiles_minus_descriptor_Da": 1.007279527999998,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line52",
+      "name": "imidazo[2,1-b][1,3]thiazole-6-carboxylic acid",
+      "canonical_smiles": "O=C(O)c1cn2ccsc2n1",
+      "connectivity": "O=C(O)c1cn2ccsc2n1",
+      "charge_tautomer_parent_for_overlap_only": "O=C(O)c1cn2ccsc2n1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 32.0,
+      "reported_sd_mgs": 16.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 166.99207,
+        "smiles_exact_mass": 167.999348368,
+        "delta_smiles_minus_descriptor_Da": 1.0072783679999873,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line53",
+      "name": "3-chloro-l-phenylalanine",
+      "canonical_smiles": "N[C@@H](Cc1cccc(Cl)c1)C(=O)O",
+      "connectivity": "NC(Cc1cccc(Cl)c1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1cccc(Cl)c1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 3.9,
+      "reported_sd_mgs": 0.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 199.04001,
+        "smiles_exact_mass": 199.04000624,
+        "delta_smiles_minus_descriptor_Da": -3.7599999984649912e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line54",
+      "name": "2-n-butylpropane-1,3-diol",
+      "canonical_smiles": "CCCCC(CO)CO",
+      "connectivity": "CCCCC(CO)CO",
+      "charge_tautomer_parent_for_overlap_only": "CCCCC(CO)CO",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 35.5,
+      "reported_sd_mgs": 5.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 132.11503,
+        "smiles_exact_mass": 132.115029752,
+        "delta_smiles_minus_descriptor_Da": -2.479999920979026e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line55",
+      "name": "2-tert-butylpropane-1,3-diol",
+      "canonical_smiles": "CC(C)(C)C(CO)CO",
+      "connectivity": "CC(C)(C)C(CO)CO",
+      "charge_tautomer_parent_for_overlap_only": "CC(C)(C)C(CO)CO",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 15.2,
+      "reported_sd_mgs": 3.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 132.11503,
+        "smiles_exact_mass": 132.115029752,
+        "delta_smiles_minus_descriptor_Da": -2.479999920979026e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line56",
+      "name": "3-aminoisonicotinic acid",
+      "canonical_smiles": "Nc1cnccc1C(=O)O",
+      "connectivity": "Nc1cnccc1C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "Nc1cnccc1C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 8.7,
+      "reported_sd_mgs": 2.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 137.03565,
+        "smiles_exact_mass": 138.042927432,
+        "delta_smiles_minus_descriptor_Da": 1.007277431999995,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line57",
+      "name": "1-cyclohexyl-1-butanol",
+      "canonical_smiles": "CCCC(O)C1CCCCC1",
+      "connectivity": "CCCC(O)C1CCCCC1",
+      "charge_tautomer_parent_for_overlap_only": "CCCC(O)C1CCCCC1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 64.8,
+      "reported_sd_mgs": 3.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 156.15142,
+        "smiles_exact_mass": 156.15141526,
+        "delta_smiles_minus_descriptor_Da": -4.740000008496281e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line58",
+      "name": "2-n-pentylpropane-1,3-diol",
+      "canonical_smiles": "CCCCCC(CO)CO",
+      "connectivity": "CCCCCC(CO)CO",
+      "charge_tautomer_parent_for_overlap_only": "CCCCCC(CO)CO",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 29.1,
+      "reported_sd_mgs": 5.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 146.13068,
+        "smiles_exact_mass": 146.130679816,
+        "delta_smiles_minus_descriptor_Da": -1.8400001522422826e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line59",
+      "name": "ethyl 2-aminooxazole-4-carboxylate",
+      "canonical_smiles": "CCOC(=O)c1coc(N)n1",
+      "connectivity": "CCOC(=O)c1coc(N)n1",
+      "charge_tautomer_parent_for_overlap_only": "CCOC(=O)c1coc(N)n1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 6.8,
+      "reported_sd_mgs": 0.5,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 156.05349,
+        "smiles_exact_mass": 156.053492116,
+        "delta_smiles_minus_descriptor_Da": 2.1159999903375137e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line60",
+      "name": "5-aminopyridine-2-carboxylic acid",
+      "canonical_smiles": "Nc1ccc(C(=O)O)nc1",
+      "connectivity": "Nc1ccc(C(=O)O)nc1",
+      "charge_tautomer_parent_for_overlap_only": "Nc1ccc(C(=O)O)nc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 3.2,
+      "reported_sd_mgs": 2.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 137.03565,
+        "smiles_exact_mass": 138.042927432,
+        "delta_smiles_minus_descriptor_Da": 1.007277431999995,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line61",
+      "name": "4-aminopyridine-2-carboxylic acid",
+      "canonical_smiles": "Nc1ccnc(C(=O)O)c1",
+      "connectivity": "Nc1ccnc(C(=O)O)c1",
+      "charge_tautomer_parent_for_overlap_only": "Nc1ccnc(C(=O)O)c1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 5.7,
+      "reported_sd_mgs": 1.9,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 138.04293,
+        "smiles_exact_mass": 138.042927432,
+        "delta_smiles_minus_descriptor_Da": -2.5680000135253067e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line62",
+      "name": "3-(3-pyridyl)-l-alanine",
+      "canonical_smiles": "N[C@@H](Cc1cccnc1)C(=O)O",
+      "connectivity": "NC(Cc1cccnc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1cccnc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 41.4,
+      "reported_sd_mgs": 15.2,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 166.07423,
+        "smiles_exact_mass": 166.07422756,
+        "delta_smiles_minus_descriptor_Da": -2.4400000029345392e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line63",
+      "name": "4-amino-n-boc-l-phenylalanine",
+      "canonical_smiles": "CC(C)(C)OC(=O)N[C@@H](Cc1ccc(N)cc1)C(=O)O",
+      "connectivity": "CC(C)(C)OC(=O)NC(Cc1ccc(N)cc1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(C)(C)OC(=O)NC(Cc1ccc(N)cc1)C(=O)O",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 19.6,
+      "reported_sd_mgs": 4.4,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 279.13503,
+        "smiles_exact_mass": 280.14230712,
+        "delta_smiles_minus_descriptor_Da": 1.0072771200000261,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line64",
+      "name": "4-aminobenzoic acid",
+      "canonical_smiles": "Nc1ccc(C(=O)O)cc1",
+      "connectivity": "Nc1ccc(C(=O)O)cc1",
+      "charge_tautomer_parent_for_overlap_only": "Nc1ccc(C(=O)O)cc1",
+      "set": "train/test",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 29.9,
+      "reported_sd_mgs": 16.0,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 136.0404,
+        "smiles_exact_mass": 137.047678464,
+        "delta_smiles_minus_descriptor_Da": 1.0072784639999952,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved."
+    },
+    {
+      "id": "amino:line65",
+      "name": "(2s,3r)-2-amino-3-methylpentanoic acid",
+      "canonical_smiles": "CC[C@@H](C)[C@H](N)C(=O)O",
+      "connectivity": "CCC(C)C(N)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CCC(C)C(N)C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 34.7,
+      "reported_sd_mgs": 8.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 131.09463,
+        "smiles_exact_mass": 131.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": true,
+        "charge_tautomer_parent_for_overlap_only": true
+      }
+    },
+    {
+      "id": "amino:line66",
+      "name": "1-propylpyrrolidine-2-carboxylic acid",
+      "canonical_smiles": "CCCN1CCCC1C(=O)O",
+      "connectivity": "CCCN1CCCC1C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CCCN1CCCC1C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 54.3,
+      "reported_sd_mgs": 4.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 157.11028,
+        "smiles_exact_mass": 157.11027872,
+        "delta_smiles_minus_descriptor_Da": -1.2799999922208372e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line67",
+      "name": "methyl 4,5-diaminopyridine-2-carboxylate",
+      "canonical_smiles": "COC(=O)c1cc(N)c(N)cn1",
+      "connectivity": "COC(=O)c1cc(N)c(N)cn1",
+      "charge_tautomer_parent_for_overlap_only": "COC(=O)c1cc(N)c(N)cn1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 50.8,
+      "reported_sd_mgs": 2.2,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 167.06948,
+        "smiles_exact_mass": 167.069476528,
+        "delta_smiles_minus_descriptor_Da": -3.472000003057474e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line68",
+      "name": "5-nitropyridine-2-carboxylic acid",
+      "canonical_smiles": "O=C(O)c1ccc([N+](=O)[O-])cn1",
+      "connectivity": "O=C(O)c1ccc([N+](=O)[O-])cn1",
+      "charge_tautomer_parent_for_overlap_only": "O=C(O)c1ccc([N+](=O)[O-])cn1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 10.0,
+        "figure4_compound_number": 9,
+        "status": "specific_main_text_exception_over_generic_csv_and_supplement_caption",
+        "source_conflict": true,
+        "evidence": "Main Figure 4 caption and results explicitly specify 10 mM for 7-9; Supplement Figure S10, PDF page 16, establishes structure-number mapping but its generic 20 mM caption conflicts."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 19.1,
+      "reported_sd_mgs": 1.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 167.00983,
+        "smiles_exact_mass": 168.017106608,
+        "delta_smiles_minus_descriptor_Da": 1.0072766080000122,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line69",
+      "name": "4-(dimethylamino)pyridine-2-carboxylic acid",
+      "canonical_smiles": "CN(C)c1ccnc(C(=O)O)c1",
+      "connectivity": "CN(C)c1ccnc(C(=O)O)c1",
+      "charge_tautomer_parent_for_overlap_only": "CN(C)c1ccnc(C(=O)O)c1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 49.0,
+      "reported_sd_mgs": 4.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 165.06695,
+        "smiles_exact_mass": 166.07422756,
+        "delta_smiles_minus_descriptor_Da": 1.0072775600000057,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line70",
+      "name": "methyl 4-aminopyridine-2-carboxylate",
+      "canonical_smiles": "COC(=O)c1cc(N)ccn1",
+      "connectivity": "COC(=O)c1cc(N)ccn1",
+      "charge_tautomer_parent_for_overlap_only": "COC(=O)c1cc(N)ccn1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 55.6,
+      "reported_sd_mgs": 3.9,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 152.05858,
+        "smiles_exact_mass": 152.058577496,
+        "delta_smiles_minus_descriptor_Da": -2.504000008229923e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line71",
+      "name": "(1r,3s)-1-amino-3-methylcyclobutane-1-carboxylic acid",
+      "canonical_smiles": "C[C@H]1C[C@](N)(C(=O)O)C1",
+      "connectivity": "CC1CC(N)(C(=O)O)C1",
+      "charge_tautomer_parent_for_overlap_only": "CC1CC(N)(C(=O)O)C1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 42.6,
+      "reported_sd_mgs": 6.2,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 129.07898,
+        "smiles_exact_mass": 129.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line72",
+      "name": "methyl 5-aminopyridine-2-carboxylate",
+      "canonical_smiles": "COC(=O)c1ccc(N)cn1",
+      "connectivity": "COC(=O)c1ccc(N)cn1",
+      "charge_tautomer_parent_for_overlap_only": "COC(=O)c1ccc(N)cn1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 7.5,
+      "reported_sd_mgs": 0.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 152.05858,
+        "smiles_exact_mass": 152.058577496,
+        "delta_smiles_minus_descriptor_Da": -2.504000008229923e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line73",
+      "name": "(2s)-2-amino-3-(3,5-dichloro-4-hydroxyphenyl)propanoic acid",
+      "canonical_smiles": "N[C@@H](Cc1cc(Cl)c(O)c(Cl)c1)C(=O)O",
+      "connectivity": "NC(Cc1cc(Cl)c(O)c(Cl)c1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1cc(Cl)c(O)c(Cl)c1)C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 10.0,
+        "figure4_compound_number": 8,
+        "status": "specific_main_text_exception_over_generic_csv_and_supplement_caption",
+        "source_conflict": true,
+        "evidence": "Main Figure 4 caption and results explicitly specify 10 mM for 7-9; Supplement Figure S10, PDF page 16, establishes structure-number mapping but its generic 20 mM caption conflicts."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 14.0,
+      "reported_sd_mgs": 1.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 248.99595,
+        "smiles_exact_mass": 248.995948508,
+        "delta_smiles_minus_descriptor_Da": -1.491999995550941e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line74",
+      "name": "(2s,3s)-3-methyl-2-(methylamino)pentanoic acid hydrochloride",
+      "canonical_smiles": "CC[C@H](C)[C@H](NC)C(=O)O",
+      "connectivity": "CCC(C)C(NC)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CCC(C)C(NC)C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 6.6,
+      "reported_sd_mgs": 1.7,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 145.11028,
+        "smiles_exact_mass": 145.11027872,
+        "delta_smiles_minus_descriptor_Da": -1.2799999922208372e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": true
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line75",
+      "name": "methyl 2-amino-1,3-oxazole-4-carboxylate",
+      "canonical_smiles": "COC(=O)c1coc(N)n1",
+      "connectivity": "COC(=O)c1coc(N)n1",
+      "charge_tautomer_parent_for_overlap_only": "COC(=O)c1coc(N)n1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 7.8,
+      "reported_sd_mgs": 1.1,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 142.03784,
+        "smiles_exact_mass": 142.037842052,
+        "delta_smiles_minus_descriptor_Da": 2.0520000134638394e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line76",
+      "name": "(2r)-2-amino-2-cyclobutylacetic acid",
+      "canonical_smiles": "N[C@@H](C(=O)O)C1CCC1",
+      "connectivity": "NC(C(=O)O)C1CCC1",
+      "charge_tautomer_parent_for_overlap_only": "NC(C(=O)O)C1CCC1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 42.3,
+      "reported_sd_mgs": 19.9,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 129.07898,
+        "smiles_exact_mass": 129.078978592,
+        "delta_smiles_minus_descriptor_Da": -1.4080000028116046e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line77",
+      "name": "(2s)-2-amino-3-(3-chloro-4-hydroxyphenyl)propanoic acid",
+      "canonical_smiles": "N[C@@H](Cc1ccc(O)c(Cl)c1)C(=O)O",
+      "connectivity": "NC(Cc1ccc(O)c(Cl)c1)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "NC(Cc1ccc(O)c(Cl)c1)C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 14.0,
+      "reported_sd_mgs": 2.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 215.03492,
+        "smiles_exact_mass": 215.03492086,
+        "delta_smiles_minus_descriptor_Da": 8.600000001024455e-07,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line78",
+      "name": "(2r)-2-acetamidopropanoic acid",
+      "canonical_smiles": "CC(=O)N[C@H](C)C(=O)O",
+      "connectivity": "CC(=O)NC(C)C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "CC(=O)NC(C)C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 76.9,
+      "reported_sd_mgs": 11.8,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 130.05097,
+        "smiles_exact_mass": 131.058243148,
+        "delta_smiles_minus_descriptor_Da": 1.007273147999996,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": true,
+        "charge_tautomer_parent_for_overlap_only": true
+      }
+    },
+    {
+      "id": "amino:line79",
+      "name": "(2s)-2-carboxy-1,1-dimethylpyrrolidin-1-ium chloride",
+      "canonical_smiles": "C[N+]1(C)CCC[C@H]1C(=O)O",
+      "connectivity": "C[N+]1(C)CCCC1C(=O)O",
+      "charge_tautomer_parent_for_overlap_only": "C[N+]1(C)CCCC1C(=O)O",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 91.8,
+      "reported_sd_mgs": 13.3,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 1,
+        "supplied_descriptor_exact_mass": 143.09463,
+        "smiles_exact_mass": 144.10190510809,
+        "delta_smiles_minus_descriptor_Da": 1.007275108089999,
+        "mass_disagreement": true,
+        "chloride_named_but_no_chloride_fragment": true
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line80",
+      "name": "(2r)-4,4-dimethylpyrrolidine-2-carboxylic acid",
+      "canonical_smiles": "CC1(C)CN[C@@H](C(=O)O)C1",
+      "connectivity": "CC1(C)CNC(C(=O)O)C1",
+      "charge_tautomer_parent_for_overlap_only": "CC1(C)CNC(C(=O)O)C1",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 20.0,
+        "figure4_compound_number": null,
+        "status": "source_nominal_condition",
+        "source_conflict": false,
+        "evidence": "DOLMEN amino.csv and main assay methods; no compound-specific exception identified."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 76.8,
+      "reported_sd_mgs": 11.6,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 143.09463,
+        "smiles_exact_mass": 143.094628656,
+        "delta_smiles_minus_descriptor_Da": -1.343999997516221e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    },
+    {
+      "id": "amino:line81",
+      "name": "ethyl 2-amino-5-methyl-1,3-oxazole-4-carboxylate",
+      "canonical_smiles": "CCOC(=O)c1nc(N)oc1C",
+      "connectivity": "CCOC(=O)c1nc(N)oc1C",
+      "charge_tautomer_parent_for_overlap_only": "CCOC(=O)c1nc(N)oc1C",
+      "set": "predict",
+      "raw_compound_mM": "20",
+      "condition": {
+        "resolved_compound_mM": 10.0,
+        "figure4_compound_number": 7,
+        "status": "specific_main_text_exception_over_generic_csv_and_supplement_caption",
+        "source_conflict": true,
+        "evidence": "Main Figure 4 caption and results explicitly specify 10 mM for 7-9; Supplement Figure S10, PDF page 16, establishes structure-number mapping but its generic 20 mM caption conflicts."
+      },
+      "assay": {
+        "endpoint": "% MGS",
+        "buffer": "10 mM NaCl",
+        "anneal_C": -8,
+        "anneal_minutes": 30,
+        "condition_source": "Main methods and Supplement section 1.1; lower MGS indicates stronger cell-free IRI"
+      },
+      "observed_mgs": 7.1,
+      "reported_sd_mgs": 3.4,
+      "molecular_state": {
+        "formal_charge_from_supplied_smiles": 0,
+        "supplied_descriptor_exact_mass": 170.06914,
+        "smiles_exact_mass": 170.06914218,
+        "delta_smiles_minus_descriptor_Da": 2.1799999956328975e-06,
+        "mass_disagreement": false,
+        "chloride_named_but_no_chloride_fragment": false
+      },
+      "normalization_note": "Charge/tautomer parent is only an overlap key, not an asserted assay protonation state. Source structures, descriptors and labels are preserved.",
+      "overlap_with_training": {
+        "canonical_smiles": false,
+        "connectivity": false,
+        "charge_tautomer_parent_for_overlap_only": false
+      }
+    }
+  ]
+}

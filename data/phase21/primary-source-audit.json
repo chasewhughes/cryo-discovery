@@ -1,0 +1,81 @@
+{
+  "schema_version": "phase21-primary-source-audit-v1",
+  "review_date": "2026-09-07",
+  "purpose": "Backup primary-source audit for the 2013 urea ROCK2 assay and a deferred record for the 2017 GRK2 off-target ROCK2 assay.",
+  "policy_source": {
+    "path": "data/phase21/selection-policy.json",
+    "criteria_applied": [
+      "primary experimental non-luciferase ROCK2 IC50",
+      "species and construct supported",
+      "no identity or structural overlap with evaluated panels",
+      "exact labels separated from censored bounds",
+      "no pooling across assay formats"
+    ]
+  },
+  "urea_2013": {
+    "status": "primary_methods_supported_and_final_reconciliation_verified",
+    "primary": {
+      "doi": "10.1021/jm400062r",
+      "url": "https://doi.org/10.1021/jm400062r",
+      "article_path": "data/raw/phase20/urea2013/article.pdf",
+      "article_sha256": "72d10c7c5f19a5dea218ad762cdc928aa2a4592a6ca4e97671db1f4d11ea08de",
+      "version_note": "The archived ACS article copy is an accepted/proof version; preserve this version label and do not describe it as the final version of record without independent confirmation."
+    },
+    "supporting_information": {
+      "path": "data/raw/phase20/urea2013/jm400062r_si_001.pdf",
+      "sha256": "bcb048fd2e6290026514dd11062c6f7c55da99c41e05436a605f1cca6b43629d",
+      "url": "https://acs.figshare.com/articles/journal_contribution/Synthesis_and_Biological_Evaluation_of_Urea_Derivatives_as_Highly_Potent_and_Selective_Rho_Kinase_Inhibitors/2416153"
+    },
+    "chembl_sources": {
+      "activity_path": "data/raw/phase20/inventory/CHEMBL2341182-activities.json",
+      "activity_sha256": "7a548e0fbcb8208310310a1e68b529756733c5df4b41a41359b273e3cefa95a0",
+      "document_path": "data/raw/phase20/inventory/CHEMBL2331531-document.json",
+      "document_sha256": "b0663dc86b42238886e43d86e9ed9ac4978bcad0bb523431bfa128ccfef93bb5",
+      "assay_id": "CHEMBL2341182"
+    },
+    "method_findings": {
+      "article_and_si": "The article reports a Cisbio STK2 HTRF ROCK-I/II biochemical assay. The SI states that ROCK-II 1-543 was cloned and purified as described earlier; other active enzymes were purchased from Upstate.",
+      "target_construct": "Human ROCK-II residues 1-543 are supported by the cited Schr\u00f6ter primary protocol, which describes an N-terminal 6-His/TEV recombinant construct from human brain RNA. This is cited-protocol evidence rather than a 2013 lot-specific sequence certificate.",
+      "rock_ii_conditions": "The article reports a 5 uL mixture containing 1 uM STK2 substrate and 20 uM ATP, followed by 5 uL of 0.5 nM ROCK-II, 4 h at room temperature, HTRF stop/detection reagents, 1 h detection incubation, and ViewLux HTRF reading. Volume arithmetic gives approximately 0.5 uM substrate, 10 uM ATP, and 0.25 nM enzyme in the 10 uL reaction; these are calculated values, not direct final concentrations reported by the article.",
+      "endpoint": "ROCK-II IC50 values; HTRF/TR-FRET biochemical inhibition endpoint, distinct from luciferase or cellular endpoints."
+    },
+    "cited_protocol": {
+      "citation": "Schr\u00f6ter et al., Journal of Biomolecular Screening 13 (2008) 17-28",
+      "doi": "10.1177/1087057107310806",
+      "official_url": "https://journals.sagepub.com/doi/10.1177/1087057107310806",
+      "official_pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/1087057107310806",
+      "evidence_status": "official indexed primary text supports human 6-His ROCK-II 1-543; PDF retrieval through the storage wrapper returned HTTP 403, so no local hash is asserted"
+    },
+    "review_paths": [
+      "data/phase20/urea2013-method-review.json",
+      "data/phase21/source-table-reconciliation.json",
+      "scripts/reconcile_urea2013_sources.py"
+    ],
+    "limits": [
+      "The ChEMBL assay description does not independently specify species or construct, so article-to-assay linkage remains a source-document reconciliation claim.",
+      "The model sequence used in earlier work is human ROCK2 residues 11-552, while the cited urea method is ROCK-II 1-543; this construct mismatch must be disclosed and prevents treating the assays as sequence-identical.",
+      "Murcko scaffold diversity, especially pendant-ring substitutions, is not equivalent to independent pharmacophore or mechanism diversity."
+    ]
+  },
+  "grk2_2017_deferred": {
+    "status": "deferred_primary_protocol_inaccessible_metadata_insufficient",
+    "primary": {
+      "doi": "10.1021/acs.jmedchem.7b00443",
+      "url": "https://doi.org/10.1021/acs.jmedchem.7b00443",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28699740/"
+    },
+    "reconciled_sources": {
+      "author_csv_path": "data/raw/phase21/grk2017/jm7b00443_si_001.csv",
+      "author_csv_sha256": "d2ca71e4f1f089992488076741c0eba6046b2accd44b5c9dca79a04ea0123a17",
+      "chembl_activity_path": "data/raw/phase20/inventory/CHEMBL4040374-activities.json",
+      "chembl_activity_sha256": "de431199924ea73e5a17228ae6061a669acda9e1d061b10218f1f6dd26731c33",
+      "reconciliation_path": "data/phase21/grk2017-source-reconciliation.json",
+      "reconciliation_summary": "All92ChEMBL records uniquely matched to author structures and values; six canonical-tautomer equivalences recorded explicitly. Author CSV has93rows: source-only30r>10000nM absent fromChEMBL. Primary historical methods remain unverified."
+    },
+    "what_is_supported": "ChEMBL assay metadata describes recombinant human N-terminal GST-tagged ROCK2 catalytic domain residues 1-553, baculovirus expression, STK 2-biotin substrate, and HTRF/TR-FRET measurement after 60 minutes.",
+    "what_is_not_supported": "The accessible primary article/protocol text did not establish the actual historical ATP concentration, reagent concentrations, enzyme lot, or complete assay procedure. ACS article access was blocked by a Cloudflare challenge; the LookChem copy is only an accepted-manuscript preview and omits the assay methods.",
+    "eligibility_decision": "defer; metadata alone is insufficient for the strict primary-method eligibility rule despite strong structure/value reconciliation",
+    "no_bypass": "No access-control bypass, outreach, or inference from another ROCK2/STK2 protocol was used."
+  },
+  "overall_decision": "2013urea selected after completed primary graph/value reconciliation and fixedsplit verification. 2017remains deferred. See eligibility-decision.json."
+}

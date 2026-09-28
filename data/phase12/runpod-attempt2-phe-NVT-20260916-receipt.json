@@ -1,0 +1,35 @@
+{
+  "job_id": "phe-NVT-20260916",
+  "pod_id": "j65ttntynm14h7",
+  "name": "cryo-phase12-phe-NVT-20260916-384a09",
+  "created_epoch": 1788694799.621454,
+  "deadline_epoch": 1788698399.621454,
+  "cost_per_hour": 0.74,
+  "input_sha256": {
+    "system.xml": "7e71fa0514484386c7167e0cf9939a2adc6716b248901400f5cec5126efe4b44",
+    "integrator.xml": "a3f274793692de1a9d29baf88e98c99d9681e7f8feb28c752c3d07b2db08a56c",
+    "final-state.xml": "bbe878afd64db3d29334cc0bd3e9a710bccc2750a351be396ef72c76843ab1e4",
+    "topology-final-box.pdb": "118faebf4a5908754ae9cb73280f111e4cc70d7b46d288b87683b94c47e82bcb",
+    "result.json": "b1bbfcc5db158b4627e8a024e0832e15d3b100696a64c007c212dfc5e81c8434"
+  },
+  "worker_sha256": "51e7c58f595c4b348efa305cad0713ee2462b848f964d850a29311875c943ff1",
+  "code_sha256": {
+    "scripts/run_hydration_extension.py": "4787678baf12519cb20cd6ccc486dbfc70f0fe0e33edb50b99635fe6395b23ea",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b"
+  },
+  "plan_sha256": "b59c2c20809b41f168eb76a4afe2af7f2a94597202aef07f8a2238d2f523a068",
+  "watchdog_pid": 83452,
+  "deleted": true,
+  "ended_epoch": 1788695746.0693,
+  "elapsed_hours": 0.2629021794266171,
+  "estimated_gpu_cost_usd": 0.19454761277569665,
+  "result_archive_sha256": "ce4d5a1075297f90eac9b838cf8b061c71a906ff9ed43852912ef9aee27aa37e",
+  "result_archive_bytes": 93302615,
+  "worker_status": {
+    "state": "complete",
+    "results_ready": true,
+    "current": "phe-NVT-20260916",
+    "archive_sha256": "ce4d5a1075297f90eac9b838cf8b061c71a906ff9ed43852912ef9aee27aa37e"
+  }
+}

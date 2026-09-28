@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-09-06T22:59:31.261292+00:00",
+  "status": "pre_prediction_eligibility_policy",
+  "objective": "Evaluate frozen ROCK2 predictor on a separate publication with a verified non-luciferase biochemical readout before considering novel screening.",
+  "candidate_order": [
+    "CHEMBL1686688",
+    "CHEMBL1219161"
+  ],
+  "selection_rule": "Select the first candidate in this order with accessible primary methods, verified target species, independently reconciled structures and IC50 table labels, at least 20 eligible unique compounds, and a viable deterministic scaffold split. Document failures before considering a later candidate. No predictions used in selection.",
+  "inclusion": [
+    "Primary experimental non-luciferase ROCK2 IC50 only; do not pool assays or cellular endpoints.",
+    "Verify source species and construct; human model mismatch must be disclosed and may make assay ineligible.",
+    "Exclude molecule-ID, isomeric and achiral structural overlaps with Phase17 and Phase18.",
+    "Primary-source supported exact positive IC50 <=10000 nM; preserve censored bounds and exclusions separately.",
+    "Collapse identical structures only with agreeing exact labels; conflicting or unresolvable identities excluded before prediction."
+  ],
+  "split": "Sort Murcko scaffold strings by SHA256(cryo-phase19-split-1900: + scaffold), fill calibration with whole groups until at least ceil(n/3); remaining groups test. Require >=6 calibration and >=10 test compounds, at least2 test scaffolds. Do not search alternative seeds to improve a split.",
+  "model": "Unchanged Phase17 protein sequence, MSA, template, Boltz2.2.1 settings; seeds1901/1902. No label inputs.",
+  "analysis": "Same primary and calibration gates as Phase18. Source-only constants fitted on Phase17; Phase18 offsets/test labels not used to fit or choose Phase19 predictions. Median additive calibration fitted on Phase19 calibration subset only.",
+  "qualification": "Another retrospective assay can diagnose transfer but cannot establish prospective novelty, unseen-pretraining independence, cellular survival or cryoprotection. Preserve failed prior results.",
+  "fallback": "If neither candidate qualifies, record the specific source/eligibility gap. Any same-compound Phase18 IMAP diagnostic is exploratory reuse, not fresh validation.",
+  "spending": "No GPU allocation until source audit, frozen plan, tests, and fresh cumulative budget reconciliation. User total cap remains $10."
+}

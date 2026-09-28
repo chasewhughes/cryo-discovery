@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-09-06T09:45:50.653925+00:00",
+  "prior_gpu_reserve_usd": 0.5,
+  "estimated_prior_gpu_usd": 0.2181551203502549,
+  "all_prior_research_pods_absent": true,
+  "billing_queries": [
+    {
+      "pod_id": "2fox527otky3rw",
+      "records": []
+    },
+    {
+      "pod_id": "7qai3yseudqx38",
+      "records": []
+    }
+  ],
+  "note": "No final itemized charges yet if records empty. Reserve $0.50 against elapsed-time estimate $0.2182; estimates are not final invoices.",
+  "unrelated_pods_untouched": 3
+}

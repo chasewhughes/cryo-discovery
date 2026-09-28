@@ -1,0 +1,72 @@
+{
+  "doi": "10.1093/stmcls/sxad059",
+  "pmid": "37622655",
+  "pmcid": "PMC10631806",
+  "title": "Improved Cryopreservation of Human Induced Pluripotent Stem Cell (iPSC) and iPSC-derived Neurons Using Ice-Recrystallization Inhibitors",
+  "year": 2023,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631806/",
+  "source_access": "full_text",
+  "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+  "retrieved_at": "2026-09-05",
+  "species": ["Homo sapiens"],
+  "cell_types": ["HAF-iPSC", "iPSC-derived neurons (iPSC-N)"],
+  "study_design": "Primary comparison of N-aryl-D-aldonamide ice-recrystallization inhibitors added to mFreSR for iPSCs or CryoStor10 (CS10) for terminally differentiated iPSC-Ns, with viability, recovery, pluripotency, and neuronal-function endpoints.",
+  "interventions": ["2-fluorophenyl gluconamide (2FA)", "4-chlorophenyl gluconamide (4ClA)", "4-methoxyphenyl gluconamide (PMA)", "N-(2,6-difluorobenzyl)-D-gluconamide (2,6 DFB)"],
+  "mechanism_axes": ["physical_ice", "biological_stress"],
+  "experiments": [
+    {
+      "experiment_id": "e1",
+      "model": "HAF-iPSCs frozen in mFreSR alone or supplemented with IRIs",
+      "intervention": "IRI dose screen followed by focus on 2FA",
+      "comparator": "mFreSR alone (46% control viability)",
+      "formulation": [
+        {"compound":"2FA","concentration":10,"unit":"mM"},
+        {"compound":"4ClA","concentration":0.5,"unit":"mM"},
+        {"compound":"PMA","concentration":15,"unit":"mM"}
+      ],
+      "treatment_stage": ["freezing", "thawing"],
+      "cooling": "−1 °C/min in 1 mL cryovials; 1 week storage before thawing",
+      "warming": null,
+      "storage": "−80 °C for 24–48 h then liquid nitrogen for long-term experiments; 1 week for initial dose screen",
+      "outcome_name": "Trypan-blue post-thaw viability and 48 h proliferation/recovery",
+      "outcome_type": "recovery",
+      "timepoint": "immediate post-thaw viability; 48 h post-thaw confluence",
+      "result": "0.5 mM 4ClA, 10 mM 2FA, and 15 mM PMA produced the highest reported viabilities (71%, 71.5%, and 74.5%); 10 mM 2FA reached 65.0% confluence at 48 h versus 47.6% mFreSR control. The figure reports n=3 for viability and confluence comparisons.",
+      "effect_numeric": null,
+      "effect_unit": null,
+      "sample_size": "n=3 for plotted comparisons; confluence averaged 9 images per well across triplicate conditions",
+      "source_locator": "Results, ‘Post-thaw Viability of iPSCs’ and ‘2FA Improves Post-thaw Recovery’; Fig. 1a-c",
+      "evidence_excerpt": "the highest percent viability was observed for 0.5 mM 4ClA (71%), 10 mM 2FA (71.5%), and 15 mM PMA (74.5%)"
+    },
+    {
+      "experiment_id": "e2",
+      "model": "Terminally differentiated iPSC-Ns at approximately 63 days in neuronal maturation medium",
+      "intervention": "2FA added to CS10 at 2.5, 5, or 10 mM",
+      "comparator": "CS10 cryopreservation control without 2FA",
+      "formulation": [
+        {"compound":"CryoStor10 (CS10)","concentration":null,"unit":null},
+        {"compound":"2FA","concentration":2.5,"unit":"mM"},
+        {"compound":"2FA","concentration":5,"unit":"mM"},
+        {"compound":"2FA","concentration":10,"unit":"mM"}
+      ],
+      "treatment_stage": ["freezing", "thawing"],
+      "cooling": "−1 °C/min; −80 °C for 24–48 h, then liquid nitrogen",
+      "warming": null,
+      "storage": "liquid nitrogen after initial −80 °C hold",
+      "outcome_name": "Post-thaw neuronal network activity, synaptic function, markers, and viability",
+      "outcome_type": "function",
+      "timepoint": "post-thaw functional recovery; viability endpoint not quantitatively improved",
+      "result": "2FA did not significantly improve iPSC-N post-thaw viability, but 2FA-cryopreserved neurons re-established neuronal network activity and synaptic function earlier than CS10 controls and retained neuronal markers and pharmacological responses.",
+      "effect_numeric": null,
+      "effect_unit": null,
+      "sample_size": null,
+      "source_locator": "Abstract; Methods, iPSC-N cryopreservation; Results, neuronal functional characterization",
+      "evidence_excerpt": "2FA cryopreserved iPSC-Ns re-established robust neuronal network activity and synaptic function much earlier compared to CS10 cryopreserved controls."
+    }
+  ],
+  "main_finding": "2FA improved HAF-iPSC viability/recovery and preserved or accelerated functional recovery of cryopreserved iPSC-derived neurons, despite no significant iPSC-N viability improvement.",
+  "limitations": ["Replicate counts and exact functional timepoints for the neuronal assays were not located in the extracted text summary.", "Routine 10 µM ROCK inhibitor was used in post-thaw iPSC culture, so iPSC recovery comparisons include that recovery background."],
+  "mechanism_claim": "IRI activity is the directly tested physical-ice axis; earlier neuronal function is an observed outcome, while a direct biological pathway mechanism is not established.",
+  "review_status": "agent_extracted",
+  "reviewer": "phase2-neurons"
+}

@@ -1,0 +1,102 @@
+{
+  "acceptance_criteria": {
+    "convergence_max_abs_metric_error": 1e-06,
+    "minimum_final_loading_ratio": 0.95,
+    "minimum_volume_improvement": 0.05,
+    "reference_max_abs_state_error": 1e-07
+  },
+  "adapter": "cell_transport_v1",
+  "code_refs": [
+    {
+      "sha256": "7392e09fa3f92a67fffdf17da32b58ada0f1d16027be16c2041a4b6ac3d31525",
+      "source_path": "scripts/discovery_pipeline.py"
+    },
+    {
+      "sha256": "fcc1b6dc1e46bfac02298aea9e2d221b52cdf54191a6b0c2aee5d3a8a37a45ba",
+      "source_path": "scripts/cell_transport.py"
+    },
+    {
+      "sha256": "134a753554480d79e7ca2d997d8a8d5156524685c61e61f2ce6946fa14513470",
+      "source_path": "scripts/hypothesis_registry.py"
+    }
+  ],
+  "controls": [
+    "single-step equal-duration equal-final-bath loading",
+    "isotonic no-CPA equilibrium",
+    "Appendix A transformed linear-system solution",
+    "tighter ODE tolerance and sampling"
+  ],
+  "design": {
+    "analysis_rule": "One prespecified primary schedule comparison; report every sensitivity scenario. No optimization, significance test or biological confidence interval.",
+    "endpoint_rule": "Compare intracellular molality, not merely total CPA moles; volume minima refined over dense solver output.",
+    "interpretation_rule": "Numerical check failure overrides the hypothesis decision to inconclusive. Passing biological loading comparison does not assert published volume tolerance limits are met.",
+    "parameters": {
+      "b": 1.62,
+      "gamma": 0.0168,
+      "minutes_per_tau": 4.33
+    },
+    "schedules": {
+      "single": [
+        {
+          "duration_min": 10,
+          "m1": 1,
+          "m2": 5
+        }
+      ],
+      "staged": [
+        {
+          "duration_min": 5,
+          "m1": 1,
+          "m2": 2.5
+        },
+        {
+          "duration_min": 5,
+          "m1": 1,
+          "m2": 5
+        }
+      ]
+    },
+    "sensitivity_b_factors": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "sensitivity_time_factors": [
+      0.75,
+      1.0,
+      1.25
+    ]
+  },
+  "domain": "Reference human oocyte + EG at 22 C; analyst-designed 10-minute bath schedules",
+  "endpoints": [
+    "minimum source-defined relative volume",
+    "final intracellular EG molality",
+    "intracellular EG exposure integral"
+  ],
+  "evidence_refs": [
+    {
+      "sha256": "0a0d6b271a1db9361d915361f8fd050b134fb053a42f9e889901bb98afa704a4",
+      "source_path": "data/raw/phase14/transport/PMC3994563.xml"
+    },
+    {
+      "sha256": "9df7feefa02c6dc61c27009cb7fec3bd3f7bb2aea19715e3aca20ad254ceda8e",
+      "source_path": "data/phase14/transport-reference.json"
+    }
+  ],
+  "frozen_at": "2026-09-06T14:55:09.143370+00:00",
+  "git_head_before_freeze": "ffcb58b14f102179ef0a30d10b110ec1e37eae3a",
+  "hypothesis_hash": "a36e567bb7ee0a776b6593edd382e5ca4b7478f33981a70d3bfe7787fd8b27f2",
+  "hypothesis_id": "transport-staged-eg-reference",
+  "id": "transport-staged-eg-reference",
+  "limitations": [
+    "Human oocyte ethylene glycol at 22 C, not iPSC or other CPA calibration.",
+    "Isothermal fixed bath steps; no cooling, ice growth, toxicity or survival response.",
+    "Exposure integral is reported in Osm min/kg, without the paper toxicity exponent or a fitted damage rate.",
+    "Schedules and sensitivity factors are analyst-designed virtual comparisons, not published protocols or laboratory instructions.",
+    "Generic staged loading is established prior art."
+  ],
+  "model": "Davidson 2014 Eq1 isothermal two-parameter transport",
+  "plan_id": "transport-002",
+  "statement": "In the reference oocyte-EG model at 22 C, a half-strength 5 minute loading step followed by 5 minutes at full strength improves minimum relative volume by at least 0.05 while retaining at least 95% of single-step final intracellular EG molality.",
+  "status": "known_reference"
+}

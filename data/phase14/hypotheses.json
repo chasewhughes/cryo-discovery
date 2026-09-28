@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "hypotheses": [
+    {
+      "id": "transport-staged-eg-reference",
+      "statement": "In the reference oocyte-EG model at 22 C, a half-strength 5 minute loading step followed by 5 minutes at full strength improves minimum relative volume by at least 0.05 while retaining at least 95% of single-step final intracellular EG molality.",
+      "model": "Davidson 2014 Eq1 isothermal two-parameter transport",
+      "domain": "Reference human oocyte + EG at 22 C; analyst-designed 10-minute bath schedules",
+      "endpoints": [
+        "minimum source-defined relative volume",
+        "final intracellular EG molality",
+        "intracellular EG exposure integral"
+      ],
+      "controls": [
+        "single-step equal-duration equal-final-bath loading",
+        "isotonic no-CPA equilibrium",
+        "Appendix A transformed linear-system solution",
+        "tighter ODE tolerance and sampling"
+      ],
+      "acceptance_criteria": {
+        "minimum_volume_improvement": 0.05,
+        "minimum_final_loading_ratio": 0.95,
+        "reference_max_abs_state_error": 1e-07,
+        "convergence_max_abs_metric_error": 1e-06
+      },
+      "evidence_refs": [
+        {
+          "source_path": "data/raw/phase14/transport/PMC3994563.xml",
+          "sha256": "0a0d6b271a1db9361d915361f8fd050b134fb053a42f9e889901bb98afa704a4"
+        },
+        {
+          "source_path": "data/phase14/transport-reference.json",
+          "sha256": "9df7feefa02c6dc61c27009cb7fec3bd3f7bb2aea19715e3aca20ad254ceda8e"
+        }
+      ],
+      "status": "known_reference",
+      "design": {
+        "parameters": {
+          "b": 1.62,
+          "minutes_per_tau": 4.33,
+          "gamma": 0.0168
+        },
+        "schedules": {
+          "single": [
+            {
+              "duration_min": 10,
+              "m1": 1,
+              "m2": 5
+            }
+          ],
+          "staged": [
+            {
+              "duration_min": 5,
+              "m1": 1,
+              "m2": 2.5
+            },
+            {
+              "duration_min": 5,
+              "m1": 1,
+              "m2": 5
+            }
+          ]
+        },
+        "sensitivity_b_factors": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "sensitivity_time_factors": [
+          0.75,
+          1.0,
+          1.25
+        ],
+        "analysis_rule": "One prespecified primary schedule comparison; report every sensitivity scenario. No optimization, significance test or biological confidence interval.",
+        "endpoint_rule": "Compare intracellular molality, not merely total CPA moles; volume minima refined over dense solver output.",
+        "interpretation_rule": "Numerical check failure overrides the hypothesis decision to inconclusive. Passing biological loading comparison does not assert published volume tolerance limits are met."
+      },
+      "limitations": [
+        "Human oocyte ethylene glycol at 22 C, not iPSC or other CPA calibration.",
+        "Isothermal fixed bath steps; no cooling, ice growth, toxicity or survival response.",
+        "Exposure integral is reported in Osm min/kg, without the paper toxicity exponent or a fitted damage rate.",
+        "Schedules and sensitivity factors are analyst-designed virtual comparisons, not published protocols or laboratory instructions.",
+        "Generic staged loading is established prior art."
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "id": "evidence-acquisition",
+      "state": "existing_curated_corpus",
+      "next": "Map transport-screen compounds to validated chemical identities and reproduce the BPAEC measurement model before transferring parameters.",
+      "new_dataset": "data/phase15/transport-screen.json"
+    },
+    {
+      "id": "cell-transport",
+      "state": "reference_comparison_completed",
+      "next": "Acquire independent target-cell volume-time/permeability data and predefine absolute volume/loading constraints before optimizing another schedule.",
+      "latest_result": "data/phase14/runs/transport-002/result.json"
+    },
+    {
+      "id": "ice-interface",
+      "state": "audit_complete_missing_reproducible_inputs",
+      "next": "Recover or reconstruct slab, topologies, wall/electrostatics and analysis inputs; qualify polymer-free growth before candidate tests.",
+      "source_review": "data/phase14/ice-source-review.json"
+    },
+    {
+      "id": "biological-target",
+      "state": "radiometric_transfer_passed_calibration_bias_gate_failed",
+      "next": "Phase20 raw transfer passed (50 compounds, MAE0.442, rho0.864). Heldout30 assay calibration MAE0.484/rho0.681 but bias-0.263 narrowly exceeds0.25 limit; retain joint screening failure. Design a new prespecified calibration-transfer study with broader independent scaffold coverage; freeze any revised correction before fresh heldout evaluation. Do not substitute the better source offset post hoc, retune on these test compounds, or infer cryoprotection. Preserve Phase18 failure.",
+      "latest_result": "data/phase20/validation-results.json",
+      "report": "reports/rock2-radiometric-validation.md",
+      "latest_diagnostic": "data/phase19/imap-diagnostic-results.json",
+      "latest_source_eligibility": "data/phase20/eligibility-decision.json"
+    },
+    {
+      "id": "experimental-validation",
+      "state": "planned_not_executed",
+      "next": "Use the existing four-arm physical/biological combination matrix after protocol calibration and laboratory arrangements."
+    },
+    {
+      "id": "novelty-review",
+      "state": "independently_unassessed",
+      "next": "Assess prior art independently for a precise candidate or mechanism; record replication and contrary evidence."
+    }
+  ]
+}

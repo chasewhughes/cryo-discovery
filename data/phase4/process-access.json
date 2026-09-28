@@ -1,0 +1,40 @@
+{
+  "retrieved_at": "2026-09-05",
+  "records": [
+    {
+      "doi": "10.1016/j.lssr.2025.08.002",
+      "title": "3D culture and cryopreservation/thawing strategy of human induced pluripotent stem cells for spaceflight experiments.",
+      "attempts": [
+        "https://doi.org/10.1016/j.lssr.2025.08.002",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.lssr.2025.08.002&format=json",
+        "https://www.sciencedirect.com/science/article/abs/pii/S2214552425000951",
+        "https://pubmed.ncbi.nlm.nih.gov/41565410/",
+        "https://www.researchgate.net/publication/398610737_3D_culture_and_cryopreservationthawing_strategy_of_human_induced_pluripotent_stem_cells_for_spaceflight_experiments"
+      ],
+      "access_status": "abstract_only",
+      "local_path": null,
+      "errors": [
+        "Official publisher page exposed indexed abstract/full-page sections but no locally capturable complete article; author-manuscript search returned request-only access."
+      ],
+      "limitations": [
+        "Abstract reports >85% post-thaw survival but protocol details and replication are unavailable."
+      ]
+    },
+    {
+      "doi": "10.64898/2026.07.24.740597",
+      "title": "Cryoaerosolization Enables Scalable Vitrification-Based Cell Cryopreservation",
+      "attempts": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.24.740597v1",
+        "https://www.biorxiv.org/content/10.64898/2026.07.24.740597v1.full"
+      ],
+      "access_status": "abstract_only",
+      "local_path": null,
+      "errors": [
+        "Some body text appeared in indexed search results, but a complete primary text was not obtained. Root direct request returned HTTP 429; web-reader opens returned HTTP 403. No repeated retries were made."
+      ],
+      "limitations": [
+        "Preprint (CC-BY-NC-ND 4.0); public indexed page supports abstract-level screening only for the current extraction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "files": [
+    {
+      "path": "data/raw/biology-PMC5046093.xml",
+      "bytes": 122099,
+      "sha256": "41bf85ac19461ec8f8c2f70d75b106b277a99f2f66cfa6aefcbbd2db98da7aef"
+    },
+    {
+      "path": "data/raw/biology-PMC5511045.xml",
+      "bytes": 93620,
+      "sha256": "3acc7df6fba58fb8a2c09fd770be52910ef717d67018f0da15c74a4d8c340e8a"
+    },
+    {
+      "path": "data/raw/biology-PMC7423927.xml",
+      "bytes": 83305,
+      "sha256": "12c1ac7f127bf98b8285f32242e56762178872dbb5e6581ab091da85013543a0"
+    },
+    {
+      "path": "data/raw/biology-PMC8314867.xml",
+      "bytes": 240504,
+      "sha256": "1713f7ad30ab6f6248030699a6ffce34d9c5bc41d47ecbe7b5d8c8b29a588f25"
+    },
+    {
+      "path": "data/raw/biology-PMC8773610.html",
+      "bytes": 282026,
+      "sha256": "69ce9bbd414f0d0f926b0a3a48979e974ffa65c02adc484bc68d2ba660b3e1e5"
+    },
+    {
+      "path": "data/raw/biology-PMC8909336.xml",
+      "bytes": 209348,
+      "sha256": "3f07d452b9262245ea06a562028c869cd7170e0ce5ba9981e46a42c998688498"
+    },
+    {
+      "path": "data/raw/fetched-metadata.json",
+      "bytes": 50883,
+      "sha256": "e26ee3d2a3c55be1faa0f450afd75865634594ddd03f6e04afd99d608d8061fe"
+    },
+    {
+      "path": "data/raw/methods-PMC11731021.xml",
+      "bytes": 169598,
+      "sha256": "da6cd4afcbd21cf7a2c976eacdffa0eb87e3947d38c82bda742ac582613b2b0a"
+    },
+    {
+      "path": "data/raw/methods-PMC4775837.xml",
+      "bytes": 105634,
+      "sha256": "68c760dd901e47c8d40efb70647a2db13064ff8a30c7831a8a0a698658f54a66"
+    },
+    {
+      "path": "data/raw/methods-PMC8221256.xml",
+      "bytes": 129765,
+      "sha256": "f8e6604627963ec3c651b7927813435ead3c90da82438abd292ab195f6cb3974"
+    },
+    {
+      "path": "data/raw/methods-PMC9790888.xml",
+      "bytes": 118932,
+      "sha256": "9cd20e58bec81e2a01690f80a16dbf622acdd7d588a0f4221ce8532ecfdb4252"
+    },
+    {
+      "path": "data/raw/methods-PMC9905984.xml",
+      "bytes": 155058,
+      "sha256": "1354140e45c206576ee02e1dd22052cf1ac3cbbcbdd360580f294730402ef104"
+    },
+    {
+      "path": "data/raw/methods-metadata.json",
+      "bytes": 51096,
+      "sha256": "e5e2315c83a43a1c6484c427c5b2a737b496e445e308469b949979debb7157cd"
+    },
+    {
+      "path": "data/raw/phase2/PMC10646010-web.txt",
+      "bytes": 978,
+      "sha256": "01f1e4311abbab3113e1e65cc849566b4dd372553aca6c21e286d86608f83f4b"
+    },
+    {
+      "path": "data/raw/phase2/PMC2729265-web.txt",
+      "bytes": 1098,
+      "sha256": "9298a5af791df03c99eff89493942a6debd5ae557f92a159f137e7ec12637f07"
+    },
+    {
+      "path": "data/raw/phase2/PMC3041861-web.txt",
+      "bytes": 1160,
+      "sha256": "ebd773b392eb11e6c3d40d136f67ac562a00bb5a5051b9b191b4b8cc5603ccc6"
+    },
+    {
+      "path": "data/raw/phase2/PMC3041861.html",
+      "bytes": 162897,
+      "sha256": "89295c419824aa5a5e8f91da83c25845651dbcee3fd9a028be1198ef7a2c420b"
+    },
+    {
+      "path": "data/raw/phase2/PMC5175444-web.txt",
+      "bytes": 1332,
+      "sha256": "dd553fe80a14cc4da001e8d854aa47b05cecc0daac43eb47e6e8284914164ced"
+    },
+    {
+      "path": "data/raw/phase2/access-retrieval.json",
+      "bytes": 3150,
+      "sha256": "31d93b097b710277f119a7095d92828c5e25bb3a3c90f07ab07e067c0e3341a3"
+    },
+    {
+      "path": "data/raw/phase2/ipsc-iri-2024-author-methods.txt",
+      "bytes": 23247,
+      "sha256": "79493d6c50e75f52086fd8fbf7db5ea4c7ddaffc1cd9450402c0d302588717de"
+    },
+    {
+      "path": "data/raw/phase2/ipsc-iri-2024-author-results.txt",
+      "bytes": 24197,
+      "sha256": "8642364650cc6dbec994515bb3733013c0250ac08161b1cbf3e72541ea702e61"
+    },
+    {
+      "path": "data/raw/phase2/ipsc-neurons-2023.html",
+      "bytes": 291038,
+      "sha256": "a055b5924ff9a2f75aa046e577bf03eb5900e41598c7870a26716dbef5554db3"
+    },
+    {
+      "path": "data/raw/phase2/metadata.json",
+      "bytes": 13568,
+      "sha256": "9696130ad592a60ff8d41aa3c2011f254260e19fa369a317dfa67829159f3c56"
+    },
+    {
+      "path": "data/raw/phase2/mommaerts-2022-process_RNAseq.R",
+      "bytes": 64442,
+      "sha256": "0bcb2beac7857662229f282574c841b0735477c4e811e0ad03df9264863afde7"
+    },
+    {
+      "path": "data/raw/phase2/priority-0.json",
+      "bytes": 6023,
+      "sha256": "09871ae2e86800bd77f4e62b51c4cfa721f8b569c9cf8594720236c280940809"
+    },
+    {
+      "path": "data/raw/phase2/priority-1.json",
+      "bytes": 3218,
+      "sha256": "089ffa12f156ac25890773ce6f740f9fbd22c45f06acdf1069b0b4c0733e0285"
+    },
+    {
+      "path": "data/raw/phase2/priority-2.json",
+      "bytes": 9628,
+      "sha256": "25bb322d51052e61c8731832822466b4af62eba85c08174799141f81a692fee7"
+    },
+    {
+      "path": "data/raw/phase2/priority-3.json",
+      "bytes": 4996,
+      "sha256": "bb5618064f72fb330114f210b3448cb513c24862a6dafb547e1e23976a7d4ff4"
+    },
+    {
+      "path": "data/raw/phase2/priority-4.json",
+      "bytes": 7449,
+      "sha256": "066c78cc6ed81f5f747cfa1eb1de9bb132132c74b7b68dd0adbaab4d265e471b"
+    },
+    {
+      "path": "data/raw/phase2/priority-5.json",
+      "bytes": 7306,
+      "sha256": "b8d0d3f4f792d01c64f0db6de35b73b9557bed0ef591b9ea9cc6886a2e16ac1a"
+    },
+    {
+      "path": "data/raw/phase2/priority-6.json",
+      "bytes": 7034,
+      "sha256": "6fab2170dcb16e56b0e2c80bb7e46910bb925bb1fd845eea21f718a0c54f8fc5"
+    },
+    {
+      "path": "data/raw/phase2/quick-open-parsed.json",
+      "bytes": 1860674,
+      "sha256": "968c2f47def9caec3a6f1e830237320ccd8f4ef16b0b757b6e0d9a1b6a24a5b5"
+    },
+    {
+      "path": "data/raw/phase2/zenodo-14038512.json",
+      "bytes": 6493,
+      "sha256": "29bf950fecc545080aa357cbb096085cf8b85c26a1963652cc7b5f23a7fa1d9e"
+    },
+    {
+      "path": "data/raw/phase2/zenodo-complete-inventory.json",
+      "bytes": 2016319,
+      "sha256": "fd55490e1b06204dab08d658c509b1b8754690ae375315c762e2e451bbb91764"
+    },
+    {
+      "path": "data/raw/phase3/abstract-batch-0.json",
+      "bytes": 151840,
+      "sha256": "d19e3a078ccdc44cbf9f16d7a3a1f4e24d37491f7b5ac1006ad72fad26e7cba2"
+    },
+    {
+      "path": "data/raw/phase3/abstract-batch-1.json",
+      "bytes": 130505,
+      "sha256": "bbdd4d7839e4aa02fbe49128693e9a7a88050569582313057c91d98e2f42113f"
+    },
+    {
+      "path": "data/raw/phase3/abstract-batch-2.json",
+      "bytes": 160340,
+      "sha256": "bc2a22cd99c3207e82b865867e238e5c445f64cfaecf20b8afa788de0e0c1086"
+    },
+    {
+      "path": "data/raw/phase3/abstract-batch-3.json",
+      "bytes": 132901,
+      "sha256": "2b01db145b0da6b553e531f469935812032ad5bc6442239039b9e257346bf219"
+    },
+    {
+      "path": "data/raw/phase3/abstract-screening-0-initial.json",
+      "bytes": 37467,
+      "sha256": "296b98e64be88183f5a3444d9b33b8ef33720f15e6af7e4450efc3a179b763a9"
+    },
+    {
+      "path": "data/raw/phase3/abstract-screening-0.json",
+      "bytes": 41836,
+      "sha256": "e12d47ddacf2253c27f81bcb436c2389927f04924ddf847d431cb6d7a1b1916c"
+    },
+    {
+      "path": "data/raw/phase3/abstract-screening-1.json",
+      "bytes": 44964,
+      "sha256": "ca56b699e4e8ef6d70d9051514e57a65f605bd3ea8ec7ac3c982e27020bd072e"
+    },
+    {
+      "path": "data/raw/phase3/cspb-metadata-response.json",
+      "bytes": 11158,
+      "sha256": "5fec6d1cc93394580d118229b0c287391cf8194836c7a83e1dbac8ab5a12eeb4"
+    },
+    {
+      "path": "data/raw/phase3/cspb.html",
+      "bytes": 222909,
+      "sha256": "b2807cefe3575205b41d3eab94c565af8f674e7b4f957cb67eb67ef4d18840d8"
+    },
+    {
+      "path": "data/raw/phase3/dmso-free-cm-metadata.json",
+      "bytes": 650,
+      "sha256": "07a2109d2b70e335050467130a44fa26b4109cf2ec039a270ae6ccbdf2bb6e94"
+    },
+    {
+      "path": "data/raw/phase3/dmso-free-cm-pmc.html",
+      "bytes": 232094,
+      "sha256": "aeec86c957b9e2978b199766afd008d5d983043dc01ac23818bef033ec2b323a"
+    },
+    {
+      "path": "data/raw/phase3/dmso-free-cm.html",
+      "bytes": 29080,
+      "sha256": "fd96cae7eb83eef8b749b0cad7f089b2b97cd2b87a8038fc1148b6e20bc1c7d9"
+    },
+    {
+      "path": "data/raw/phase3/geometry-methods-indexed.txt",
+      "bytes": 26839,
+      "sha256": "133eac0439b4b741177825cd74ddd02f87e3da175d7f051013ae737b8b0d8953"
+    },
+    {
+      "path": "data/raw/phase3/geometry-results-indexed.txt",
+      "bytes": 24594,
+      "sha256": "133e08b984d86b5f4a90754a317d06cb44b0339d011417bdebc8c8b888439a80"
+    },
+    {
+      "path": "data/raw/phase3/metadata.json",
+      "bytes": 909336,
+      "sha256": "e3a6cae7e5b8d56c20f80a5c782660357e02cc6613f2822bf9f6b9c556f54d52"
+    },
+    {
+      "path": "data/raw/phase3/root-retrieval.json",
+      "bytes": 365,
+      "sha256": "46c822f47b1ca32f3906d6c2503c3f331a9948b0e0c78c5de0835de482117b90"
+    },
+    {
+      "path": "data/raw/phase3/screening-packets-0.json",
+      "bytes": 462813,
+      "sha256": "a6d721874d31b08b2f1dde3629b23956d8db3e619e05f67566f110b4040f6201"
+    },
+    {
+      "path": "data/raw/phase3/screening-packets-1.json",
+      "bytes": 466168,
+      "sha256": "9d3bcbd0fed5c7eb01e90fadfbf859e55a3c4f37c2c56e6d76373b8c4d6d16e8"
+    },
+    {
+      "path": "data/raw/phase3/screening-packets.json",
+      "bytes": 928978,
+      "sha256": "0b516b2e452a5d0e5863564a717fe92f1b776ec5d9542edf60565c9001ee28f3"
+    },
+    {
+      "path": "data/raw/phase4/acs-biomac-5c00559-figshare.json",
+      "bytes": 8570,
+      "sha256": "c106fb944a3d0f6167d03efdb99fe349a9617649d4dc071c580792643b067797"
+    },
+    {
+      "path": "data/raw/phase4/acs-biomac-5c00559-si.txt",
+      "bytes": 8014,
+      "sha256": "edba98724f9cca24d8a193d655416abea8ea5e393bb516f701c4c085b2d0d581"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714-pmc.html",
+      "bytes": 243186,
+      "sha256": "adc7cae683eeea7469ef495d0a881f2302cb7d9163f1c03835d51d9dfa055fb4"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714.html",
+      "bytes": 29120,
+      "sha256": "be77fbe7b295ba973c14185964057437720eafb68cbc8d8088174fd0327e84ea"
+    },
+    {
+      "path": "data/raw/phase4/adma-72714.xml",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/phase4/cardiac-aggregates.html",
+      "bytes": 220891,
+      "sha256": "5f009889a4b04e8e14708492381da04efb3f3f443bad7124a7680a5ca48d8058"
+    },
+    {
+      "path": "data/raw/phase4/cardiac-contractile.html",
+      "bytes": 208887,
+      "sha256": "df44b8cad426e68fe3ec30080432047b1bff89321d641276bf5025f47e236996"
+    },
+    {
+      "path": "data/raw/phase4/dopaminergic.html",
+      "bytes": 291992,
+      "sha256": "e59c23263bac89e7b670b7d8eba97214af7d8f0f114b2695de2a47a99fbb617f"
+    },
+    {
+      "path": "data/raw/phase5/isci-2025-113802.html",
+      "bytes": 198094,
+      "sha256": "e73790738d729b4b363a16bf86c07fb10d4beabf2b9fdabea9d97315ca220c8f"
+    },
+    {
+      "path": "data/raw/phase5/monocytes.html",
+      "bytes": 212489,
+      "sha256": "8a348fdfff7c956415567f58123d642ece82e1f369f951498cfb12ed4718a7d3"
+    },
+    {
+      "path": "data/raw/phase5/monocytes.html.txt",
+      "bytes": 64773,
+      "sha256": "c503bfcd876a56c6ce97e61e3296a9708ffe3fe69d20e791b01a15f75ecc4c48"
+    },
+    {
+      "path": "data/raw/phase5/porcine-embryos.html",
+      "bytes": 265672,
+      "sha256": "60050cda93b82630fe1fd645dcfbb6318188c2d66e184bcb067abe7ac81328bf"
+    },
+    {
+      "path": "data/raw/phase5/porcine-embryos.html.txt",
+      "bytes": 81968,
+      "sha256": "1ebddde4f1a3f24e143df539e6b0b03bcd44f8f731eb54373de7f2bcf48ec95c"
+    },
+    {
+      "path": "data/raw/physical-0.xml",
+      "bytes": 65499,
+      "sha256": "e30a76762830d905a43e0185406ac1a9c3cf8b8c17265b85bf26c19e4553fd4a"
+    },
+    {
+      "path": "data/raw/physical-1.xml",
+      "bytes": 117780,
+      "sha256": "d4398685d840bbd7a1c3251988a0a1689e47bf150ef1e01f8dcf2592ceb793d2"
+    },
+    {
+      "path": "data/raw/physical-2.xml",
+      "bytes": 75297,
+      "sha256": "9cef4346d6aeddabc2118cf61afc4367d5ce6d6b5f93da7a3f31f2b5ff54bd7e"
+    },
+    {
+      "path": "data/raw/physical-3.xml",
+      "bytes": 119283,
+      "sha256": "331c0bd9f3df9de4a32dd33095d8a30b849041b0b3d75fcf4e38d5e5f7909802"
+    },
+    {
+      "path": "data/raw/physical-4.xml",
+      "bytes": 139792,
+      "sha256": "becf8ea4b6b5980033d8afcaeb1a4cf287a5a6a93c342287ab69e385baa289e2"
+    },
+    {
+      "path": "data/raw/physical-5.xml",
+      "bytes": 100343,
+      "sha256": "286595e51e7547af4fe584e8a5bbb394c961400bf0442624930f937d9288d555"
+    },
+    {
+      "path": "data/raw/physical-6.xml",
+      "bytes": 22990,
+      "sha256": "91dcc45548dfb9bf112f7b6ada36666942bf899bb4afd89b3898b50de2f4c0dc"
+    },
+    {
+      "path": "data/raw/physical-7.xml",
+      "bytes": 92460,
+      "sha256": "d4318335588b98db7c65b084cc16963de9b569abd72fd83c824f5d54d91cad1c"
+    },
+    {
+      "path": "data/raw/pilot-metadata.json",
+      "bytes": 176598,
+      "sha256": "1455484e8e243288a5416db96f2d28e63484e1a1e491d964e628b74c45d95fe5"
+    },
+    {
+      "path": "data/raw/revitalice-metadata.json",
+      "bytes": 334,
+      "sha256": "500bd1e2f6b26829d44cbd1a729cb6db023584080f84b0b3722a8fee703995fc"
+    }
+  ],
+  "license": "Source-specific license status must be checked; raw files are publicly retrieved material and may have redistribution limits."
+}

@@ -1,0 +1,161 @@
+{
+  "status": "Frozen before Phase 11 production: exploratory measurement and ensemble sensitivity, not efficacy validation",
+  "descriptor": {
+    "version": "cryo-nearest-water-v1",
+    "primary": "Unique water counts at 0.20,0.25,0.30,0.35,0.40,0.45,0.50 nm; nearest-solute-atom distance per water, equal-frame conditional PDF over [0,0.5] nm",
+    "selection": "All solute atoms including hydrogens; solvent oxygen only; each water counted once",
+    "normalization": "100 bins, width 0.005 nm; each frame normalized by its in-range water count and bin width, then arithmetic mean over frames; inclusive count cutoffs, bins left closed/right open except final right closed",
+    "rationale": "Explicit local water occupancy interpretation coherent with cumulative counts, not chosen as proof of published-method reproduction; Phase 10 alternatives remain preserved",
+    "secondary": "Phase 10 all-pairs conditional PDF retained for sensitivity; no radial PCF normalization and no source-model substitution",
+    "original_settings": "Unresolved; original DOLMEN generator/mode/frame averaging cannot be established from inspected public sources"
+  },
+  "design": {
+    "compounds": [
+      "gly",
+      "phe"
+    ],
+    "ensembles": [
+      "NVT",
+      "NPT"
+    ],
+    "replicates": 3,
+    "initial_box_nm": 4,
+    "water": "TIP4P/Ice",
+    "forcefield": "OpenMM CHARMM36 2015 distribution",
+    "temperature_K": 273,
+    "pressure_bar_NPT": 1,
+    "barostat_interval_steps": 25,
+    "salt_added": false,
+    "equilibration_ps": 500,
+    "production_ps": 3000,
+    "frames": 300,
+    "comparison": "Same preparation seed and duration in both ensembles; NPT changes volume and effective concentration. Different compounds remain unmatched in size.",
+    "total_production_ns": 36,
+    "total_equilibration_ns": 6
+  },
+  "diagnostics": {
+    "blocks": 3,
+    "block_duration_ns": 1,
+    "primary_count_cutoff_nm": 0.3,
+    "flags": {
+      "max_absolute_first_last_block_density_change_g_ml": 0.005,
+      "max_absolute_first_last_block_count_change": 0.5,
+      "max_first_last_block_pdf_total_variation": 0.05,
+      "max_absolute_mean_temperature_error_K": 3
+    },
+    "interpretation": "Engineering stability flags chosen before production, not validated physical convergence criteria. Report every seed, effect sizes, block values and stride sensitivity. No automatic expansion to candidate screening if unresolved flags.",
+    "stride_sensitivity": [
+      1,
+      2,
+      5
+    ],
+    "replicate_unit": "Seed, never individual frame; ensemble contrasts paired by preparation seed but trajectories diverge."
+  },
+  "cloud": {
+    "max_rate_usd_per_hour": 0.8,
+    "max_lifetime_seconds": 10800,
+    "per_run_timeout_seconds": 1500,
+    "phase_reserve_usd": 3,
+    "cumulative_gpu_limit_usd": 10,
+    "shutdown_storage_margin_usd": 0.3
+  },
+  "jobs": [
+    {
+      "compound": "gly",
+      "seed": 20260916,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "gly",
+      "seed": 20260916,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260916,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260916,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "gly",
+      "seed": 20260917,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "gly",
+      "seed": 20260917,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260917,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260917,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "gly",
+      "seed": 20260918,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "gly",
+      "seed": 20260918,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260918,
+      "ensemble": "NVT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    },
+    {
+      "compound": "phe",
+      "seed": 20260918,
+      "ensemble": "NPT",
+      "equilibration_ps": 500,
+      "production_ps": 3000,
+      "frames": 300
+    }
+  ],
+  "outcomes": "Versioned, tested hydration measurement; quantitative density/ensemble/time sensitivity; proceed or defer recommendation. No new activity labels, fitted model or cell-protection claims."
+}

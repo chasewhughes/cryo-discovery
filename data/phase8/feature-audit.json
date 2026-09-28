@@ -1,0 +1,2764 @@
+{
+  "amino": {
+    "standard_missing_cells": 0,
+    "hydration": {
+      "hydhist": {
+        "source_rows": 63,
+        "dimensions": 100,
+        "complete_rows": 63,
+        "missing_cells": 0,
+        "join_statuses": [
+          {
+            "id": "amino:line2",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line3",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line4",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line5",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line6",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line7",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line8",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line9",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line10",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line11",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line12",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line13",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line14",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line15",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line16",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line17",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line18",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line19",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line20",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line21",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line22",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line23",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line24",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line25",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line26",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line27",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line28",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line29",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line30",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line31",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line32",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line33",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line34",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line35",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line36",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line37",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line38",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line39",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line40",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line41",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line42",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line43",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line44",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line45",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line46",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line47",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line48",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line49",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line50",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line51",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line52",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line53",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line54",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line55",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line56",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line57",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line58",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line59",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line60",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line61",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line62",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line63",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line64",
+            "status": "matched",
+            "missing_features": 0
+          }
+        ]
+      },
+      "hydidx": {
+        "source_rows": 63,
+        "dimensions": 10,
+        "complete_rows": 63,
+        "missing_cells": 0,
+        "join_statuses": [
+          {
+            "id": "amino:line2",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line3",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line4",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line5",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line6",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line7",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line8",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line9",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line10",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line11",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line12",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line13",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line14",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line15",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line16",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line17",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line18",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line19",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line20",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line21",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line22",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line23",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line24",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line25",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line26",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line27",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line28",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line29",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line30",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line31",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line32",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line33",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line34",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line35",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line36",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line37",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line38",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line39",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line40",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line41",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line42",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line43",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line44",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line45",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line46",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line47",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line48",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line49",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line50",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line51",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line52",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line53",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line54",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line55",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line56",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line57",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line58",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line59",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line60",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line61",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line62",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line63",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "amino:line64",
+            "status": "matched",
+            "missing_features": 0
+          }
+        ]
+      }
+    }
+  },
+  "glyco2": {
+    "standard_missing_cells": 0,
+    "hydration": {
+      "hydhist": {
+        "source_rows": 208,
+        "dimensions": 100,
+        "complete_rows": 190,
+        "missing_cells": 1900,
+        "join_statuses": [
+          {
+            "id": "glyco2:line2",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line3",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line4",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line5",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line6",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line7",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line8",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line9",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line10",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line11",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line12",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line13",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line14",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line15",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line16",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line17",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line18",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line19",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line20",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line21",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line22",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line23",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line24",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line25",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line26",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line27",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line28",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line29",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line30",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line31",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line32",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line33",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line34",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line35",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line36",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line37",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line38",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line39",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line40",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line41",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line42",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line43",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line44",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line45",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line46",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line47",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line48",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line49",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line50",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line51",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line52",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line53",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line54",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line55",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line56",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line57",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line58",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line59",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line60",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line61",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line62",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line63",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line64",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line65",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line66",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line67",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line68",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line69",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line70",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line71",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line72",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line73",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line74",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line75",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line76",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line77",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line78",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line79",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line80",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line81",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line82",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line83",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line84",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line85",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line86",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line87",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line88",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line89",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line90",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line91",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line92",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line93",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line94",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line95",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line96",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line97",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line98",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line100",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line101",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line102",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line103",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line104",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line105",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line106",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line107",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line108",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line110",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line111",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line112",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line113",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line114",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line115",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line116",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line117",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line118",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line119",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line120",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line121",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line122",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line123",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line124",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line125",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line127",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line128",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line129",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line130",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line131",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line132",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line133",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line134",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line136",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line137",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line138",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line140",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line141",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line142",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line143",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line144",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line145",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line146",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line147",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line148",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line149",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line150",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line151",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line152",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line153",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line154",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line155",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line156",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line157",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line161",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line162",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line163",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line164",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line165",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line166",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line167",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line168",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line169",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line170",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line171",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line172",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line173",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line174",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line175",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line176",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line177",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line178",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line179",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line180",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line181",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line182",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line183",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line184",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line185",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line186",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line187",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line188",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line190",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line191",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line192",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line193",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line194",
+            "status": "unmapped",
+            "missing_features": 100
+          },
+          {
+            "id": "glyco2:line195",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line196",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line197",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line198",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line199",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line200",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line201",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line202",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line203",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line204",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line205",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line206",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line207",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line208",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line209",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line210",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line211",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line212",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line213",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line214",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line215",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line216",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line217",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line218",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line224",
+            "status": "matched",
+            "missing_features": 0
+          }
+        ]
+      },
+      "hydidx": {
+        "source_rows": 219,
+        "dimensions": 10,
+        "complete_rows": 188,
+        "missing_cells": 210,
+        "join_statuses": [
+          {
+            "id": "glyco2:line2",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line3",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line4",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line5",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line6",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line7",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line8",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line9",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line10",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line11",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line12",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line13",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line14",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line15",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line16",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line17",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line18",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line19",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line20",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line21",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line22",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line23",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line24",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line25",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line26",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line27",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line28",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line29",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line30",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line31",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line32",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line33",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line34",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line35",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line36",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line37",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line38",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line39",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line40",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line41",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line42",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line43",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line44",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line45",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line46",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line47",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line48",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line49",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line50",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line51",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line52",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line53",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line54",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line55",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line56",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line57",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line58",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line59",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line60",
+            "status": "unmapped",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line61",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line62",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line63",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line64",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line65",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line66",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line67",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line68",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line69",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line70",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line71",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line72",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line73",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line74",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line75",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line76",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line77",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line78",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line79",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line80",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line81",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line82",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line83",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line84",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line85",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line86",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line87",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line88",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line89",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line90",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line91",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line92",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line93",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line94",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line95",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line96",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line97",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line98",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line100",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line101",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line102",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line103",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line104",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line105",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line106",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line107",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line108",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line110",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line111",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line112",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line113",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line114",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line115",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line116",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line117",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line118",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line119",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line120",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line121",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line122",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line123",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line124",
+            "status": "conflicting_duplicate_name",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line125",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line127",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line128",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line129",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line130",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line131",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line132",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line133",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line134",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line136",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line137",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line138",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line140",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line141",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line142",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line143",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line144",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line145",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line146",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line147",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line148",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line149",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line150",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line151",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line152",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line153",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line154",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line155",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line156",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line157",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line161",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line162",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line163",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line164",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line165",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line166",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line167",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line168",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line169",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line170",
+            "status": "unmapped",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line171",
+            "status": "unmapped",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line172",
+            "status": "unmapped",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line173",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line174",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line175",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line176",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line177",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line178",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line179",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line180",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line181",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line182",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line183",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line184",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line185",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line186",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line187",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line188",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line190",
+            "status": "matched",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line191",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line192",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line193",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line194",
+            "status": "unmapped",
+            "missing_features": 10
+          },
+          {
+            "id": "glyco2:line195",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line196",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line197",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line198",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line199",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line200",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line201",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line202",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line203",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line204",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line205",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line206",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line207",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line208",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line209",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line210",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line211",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line212",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line213",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line214",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line215",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line216",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line217",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line218",
+            "status": "matched",
+            "missing_features": 0
+          },
+          {
+            "id": "glyco2:line224",
+            "status": "matched",
+            "missing_features": 0
+          }
+        ]
+      }
+    }
+  }
+}

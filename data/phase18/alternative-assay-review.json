@@ -1,0 +1,342 @@
+{
+  "source": {
+    "doi": "10.1016/j.bmcl.2011.01.039",
+    "title": "Synthesis and biological evaluation of 4-quinazolinones as Rho kinase inhibitors",
+    "authors": [
+      "Xingang Fang",
+      "Yen Ting Chen",
+      "E. Hampton Sessions",
+      "Sarwat Chowdhury",
+      "Tomas Vojkovsky",
+      "Yan Yin",
+      "Jennifer R. Pocas",
+      "Wayne Grant",
+      "Thomas Schr\u00f6ter",
+      "Li Lin",
+      "Claudia Ruiz",
+      "Michael D. Cameron",
+      "Philip LoGrasso",
+      "Thomas D. Bannister",
+      "Yangbo Feng"
+    ],
+    "primary_landing_page": "https://www.sciencedirect.com/science/article/pii/S0960894X11000527",
+    "access_status": "primary full text and supplementary information were not accessible from available endpoint (403); no primary table transcription claimed"
+  },
+  "retrieved_artifacts": {
+    "data/raw/phase18/alternative-methods/doi-metadata.json": "ee544dc778c2a3671c1172324d0cb9c576ca34c46317157f271e76c107622cc3",
+    "data/raw/phase17/external-review/CHEMBL1686688-activities.json": "2778aa2905f4ce5adbf03e3819d4f653653386f2e9daecc83fb9b0d9236a4b43",
+    "data/raw/phase17/external-review/CHEMBL1686688-assay.json": "2d69e9f215f1698d62e828078285e523171ebb687f9801553c52ce47ef20db8a"
+  },
+  "chembl_record": {
+    "assay_id": "CHEMBL1686688",
+    "document_id": "CHEMBL1681768",
+    "description": "Inhibition of ROCK2 by HTRF assay",
+    "target_id": "CHEMBL2973",
+    "target_name": "Rho-associated protein kinase 2",
+    "organism": "Homo sapiens",
+    "assay_type": "Binding",
+    "bao_format": "single protein format",
+    "confidence": "Homologous single protein target assigned",
+    "activity_count": 35,
+    "values": [
+      {
+        "molecule_id": "CHEMBL1684195",
+        "relation": ">",
+        "value_nM": 5000.0,
+        "units": "nM",
+        "canonical_smiles": "O=c1[nH]c(C2=Cc3ccccc3OC2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246422
+      },
+      {
+        "molecule_id": "CHEMBL1684196",
+        "relation": "=",
+        "value_nM": 2.0,
+        "units": "nM",
+        "canonical_smiles": "O=c1[nH]c(C2CCc3ccccc3O2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246423
+      },
+      {
+        "molecule_id": "CHEMBL1684197",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "O=c1[nH]c(C2COc3ccccc3C2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246424
+      },
+      {
+        "molecule_id": "CHEMBL1684198",
+        "relation": "=",
+        "value_nM": 31.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cccc2c1CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246425
+      },
+      {
+        "molecule_id": "CHEMBL1684199",
+        "relation": "=",
+        "value_nM": 423.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cccc2c1OCC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)C2",
+        "activity_id": 5246426
+      },
+      {
+        "molecule_id": "CHEMBL1684200",
+        "relation": "=",
+        "value_nM": 2.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246427
+      },
+      {
+        "molecule_id": "CHEMBL1684201",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)C[C@H](c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246428
+      },
+      {
+        "molecule_id": "CHEMBL1684202",
+        "relation": "=",
+        "value_nM": 87.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)C[C@@H](c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246429
+      },
+      {
+        "molecule_id": "CHEMBL1684203",
+        "relation": "=",
+        "value_nM": 6.0,
+        "units": "nM",
+        "canonical_smiles": "Cc1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246430
+      },
+      {
+        "molecule_id": "CHEMBL1684204",
+        "relation": "=",
+        "value_nM": 3.0,
+        "units": "nM",
+        "canonical_smiles": "O=c1[nH]c(C2COc3ccc(F)cc3C2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246431
+      },
+      {
+        "molecule_id": "CHEMBL1684205",
+        "relation": "=",
+        "value_nM": 18.0,
+        "units": "nM",
+        "canonical_smiles": "O=C(c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2)C1CC1",
+        "activity_id": 5246432
+      },
+      {
+        "molecule_id": "CHEMBL1684206",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "CN(C)CCNC(=O)c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246433
+      },
+      {
+        "molecule_id": "CHEMBL1684207",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "COCCNC(=O)c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246434
+      },
+      {
+        "molecule_id": "CHEMBL1684208",
+        "relation": "=",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "O=C(NC1CC1)c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246435
+      },
+      {
+        "molecule_id": "CHEMBL1684209",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "O=C(NCCc1ccccn1)c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246436
+      },
+      {
+        "molecule_id": "CHEMBL1684210",
+        "relation": "<",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "O=C(NCCN1CCOCC1)c1ccc2c(c1)CC(c1nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246437
+      },
+      {
+        "molecule_id": "CHEMBL1684211",
+        "relation": "=",
+        "value_nM": 188.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccccc1OCc1nc2ccc(-c3cn[nH]c3)cc2c(=O)[nH]1",
+        "activity_id": 5246438
+      },
+      {
+        "molecule_id": "CHEMBL1684212",
+        "relation": "=",
+        "value_nM": 33.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cccc(OCc2nc3ccc(-c4cn[nH]c4)cc3c(=O)[nH]2)c1",
+        "activity_id": 5246439
+      },
+      {
+        "molecule_id": "CHEMBL1684213",
+        "relation": "=",
+        "value_nM": 123.0,
+        "units": "nM",
+        "canonical_smiles": "O=c1[nH]c(C2CC2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246440
+      },
+      {
+        "molecule_id": "CHEMBL1684214",
+        "relation": "=",
+        "value_nM": 6.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc(SCCN(C)C)c3cc(-c4cn[nH]c4)ccc3n1)CO2",
+        "activity_id": 5246441
+      },
+      {
+        "molecule_id": "CHEMBL1684215",
+        "relation": "=",
+        "value_nM": 22.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc(N(C)CCO)c3cc(-c4cn[nH]c4)ccc3n1)CO2",
+        "activity_id": 5246442
+      },
+      {
+        "molecule_id": "CHEMBL1684216",
+        "relation": "=",
+        "value_nM": 358.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc(N(C)CCN(C)C)c3cc(-c4cn[nH]c4)ccc3n1)CO2",
+        "activity_id": 5246443
+      },
+      {
+        "molecule_id": "CHEMBL1684217",
+        "relation": ">",
+        "value_nM": 5000.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc(NCc3ccccn3)c3cc(-c4cn[nH]c4)ccc3n1)CO2",
+        "activity_id": 5246444
+      },
+      {
+        "molecule_id": "CHEMBL1684218",
+        "relation": "=",
+        "value_nM": 6.0,
+        "units": "nM",
+        "canonical_smiles": "CN(C)CCSc1nc(C2COc3ccc(C(=O)NC4CC4)cc3C2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246445
+      },
+      {
+        "molecule_id": "CHEMBL1684219",
+        "relation": "=",
+        "value_nM": 3.0,
+        "units": "nM",
+        "canonical_smiles": "COCCNC(=O)c1ccc2c(c1)CC(c1nc(SCCN(C)C)c3cc(-c4cn[nH]c4)ccc3n1)CO2",
+        "activity_id": 5246446
+      },
+      {
+        "molecule_id": "CHEMBL1684220",
+        "relation": "=",
+        "value_nM": 3.0,
+        "units": "nM",
+        "canonical_smiles": "CN(C)CCSc1nc(C2COc3ccc(C(=O)NCCN4CCOCC4)cc3C2)nc2ccc(-c3cn[nH]c3)cc12",
+        "activity_id": 5246447
+      },
+      {
+        "molecule_id": "CHEMBL1684221",
+        "relation": "=",
+        "value_nM": 2.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3c(OC)cc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246448
+      },
+      {
+        "molecule_id": "CHEMBL1684222",
+        "relation": "=",
+        "value_nM": 104.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3c(F)cc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246449
+      },
+      {
+        "molecule_id": "CHEMBL1684223",
+        "relation": "=",
+        "value_nM": 21.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3c(N(C)CCN(C)C)cc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246450
+      },
+      {
+        "molecule_id": "CHEMBL1684224",
+        "relation": "=",
+        "value_nM": 16.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3c(OCCN(C)C)cc(-c4cn[nH]c4)cc3c(=O)[nH]1)CO2",
+        "activity_id": 5246451
+      },
+      {
+        "molecule_id": "CHEMBL1684225",
+        "relation": "=",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cc(-c2cn[nH]c2)cc2c(=O)[nH]c(C3COc4ccc(F)cc4C3)nc12",
+        "activity_id": 5246452
+      },
+      {
+        "molecule_id": "CHEMBL1684226",
+        "relation": "=",
+        "value_nM": 5.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cc(-c2cn[nH]c2)cc2c(=O)[nH]c(C3COc4ccc(C)cc4C3)nc12",
+        "activity_id": 5246453
+      },
+      {
+        "molecule_id": "CHEMBL1684227",
+        "relation": "=",
+        "value_nM": 11.0,
+        "units": "nM",
+        "canonical_smiles": "COc1ccc2c(c1)CC(c1nc3c(OC)cc(-c4cn[nH]c4)cc3c(=O)[nH]1)CC2",
+        "activity_id": 5246454
+      },
+      {
+        "molecule_id": "CHEMBL1684228",
+        "relation": "=",
+        "value_nM": 2.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cc(-c2cn[nH]c2)cc2c(=O)[nH]c(C3COc4ccccc4O3)nc12",
+        "activity_id": 5246455
+      },
+      {
+        "molecule_id": "CHEMBL1684229",
+        "relation": "=",
+        "value_nM": 1.0,
+        "units": "nM",
+        "canonical_smiles": "COc1cccc(OCc2nc3c(OC)cc(-c4cn[nH]c4)cc3c(=O)[nH]2)c1",
+        "activity_id": 5246456
+      }
+    ]
+  },
+  "primary_method_verification": {
+    "rock2_species_construct": null,
+    "kinase_construct_or_residues": null,
+    "ht_rf_format": null,
+    "atp_concentration": null,
+    "buffer_cofactors": null,
+    "finding": "ChEMBL supports a single-protein human ROCK2 HTRF inhibition annotation, but does not provide construct boundaries or ATP concentration."
+  },
+  "eligibility": {
+    "eligible_for_external_benchmark": false,
+    "reason": "Primary construct and HTRF ATP conditions are unverified; ChEMBL values alone cannot establish assay comparability or reproduce the primary table.",
+    "what_is_supported": "ChEMBL provides 35 ROCK2 IC50 records in nM, with explicit <, =, > relations and canonical SMILES.",
+    "next_gate": "Obtain primary article/SI or authoritative full assay protocol and reconcile every compound/table value against ChEMBL."
+  },
+  "limits": [
+    "ChEMBL values include censored relations; preserve them.",
+    "No model inference or deduplication was performed."
+  ]
+}

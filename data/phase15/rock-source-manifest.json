@@ -1,0 +1,57 @@
+{
+  "verified_at": "2026-09-06T15:07:33.146662+00:00",
+  "sources": [
+    {
+      "source_path": "data/raw/phase15/rock/targets.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?pref_name__icontains=Rho-associated&limit=100",
+      "sha256": "c3c5196e04412cfa582606efdcde9398d046bca6295bb91ea8a335243363fad7",
+      "bytes": 129099
+    },
+    {
+      "source_path": "data/raw/phase15/rock/document.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?doi=10.1021%2Facs.jmedchem.8b01098",
+      "sha256": "047ed6eb2b2efbd184c78ee2be9d99650cf946b5e3136d7bfbb9892921730ac9",
+      "bytes": 2431
+    },
+    {
+      "source_path": "data/raw/phase15/rock/activities.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?document_chembl_id=CHEMBL4325872&target_chembl_id=CHEMBL2973&limit=1000",
+      "sha256": "63c57c276ecc232826ab3038042c06ce3175338311d547bc6eb31a47ea6abdee",
+      "bytes": 73396
+    },
+    {
+      "source_path": "data/raw/phase15/rock/assay.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL4328667.json",
+      "sha256": "2754f4be3d76158e9d9d1f11885f0ee000bf2d5bd3dc8f456afaba15772a4f44",
+      "bytes": 1026
+    },
+    {
+      "source_path": "data/raw/phase15/rock/6ED6-entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/6ED6",
+      "sha256": "1eb461619acbcac4e11c561c433950e11bb705923bf1cc8dfb942d99f281dde1",
+      "bytes": 15675
+    },
+    {
+      "source_path": "data/raw/phase15/rock/6ED6-polymer.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/6ED6/1",
+      "sha256": "37c1758374bd217f4bb0160b84a8e22dd9042b2f60739617ffad5eec8e526b95",
+      "bytes": 112130
+    },
+    {
+      "source_path": "data/raw/phase15/rock/J0P.json",
+      "url": "https://data.rcsb.org/rest/v1/core/chemcomp/J0P",
+      "sha256": "60469ffc588e02bc955dc47cf6e73725a0d4745ee92cf7363fd7858e636dc9ea",
+      "bytes": 3608
+    },
+    {
+      "source_path": "data/raw/phase15/rock/6ED6.cif",
+      "url": "https://files.rcsb.org/download/6ED6.cif",
+      "sha256": "e229155d03e51a24687da2fc422ee648373af0ac46811ca3091b2d98686000ec",
+      "bytes": 663159
+    }
+  ],
+  "licenses": {
+    "ChEMBL": "CC BY-SA 3.0; attribution and share-alike apply to derived data",
+    "RCSB PDB": "CC0"
+  }
+}

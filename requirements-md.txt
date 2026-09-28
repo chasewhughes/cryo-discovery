@@ -1,0 +1,5 @@
+# Isolated CPU/macOS OpenCL pilot environment; Python 3.13 or 3.14.
+openmm==8.6.0
+numpy==2.5.2
+rdkit==2026.3.6
+pillow==12.3.0

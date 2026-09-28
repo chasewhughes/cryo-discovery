@@ -1,0 +1,16 @@
+{
+  "attempt": 1,
+  "name": "cryo-phase21-scaffold-1-7c691964",
+  "created_epoch": 1788771526.582177,
+  "deadline_epoch": 1788782326.582177,
+  "reserved_usd": 2.6999999999999997,
+  "prior_reserve_usd": 6.770286922995429,
+  "other_pending_reserve_usd": 0.0,
+  "plan_sha256": "e37096a96a76ee3836be8392c63c5ee841744d0adb8bfe593f038e40e509ac2b",
+  "watchdog_pid": 852,
+  "pod_id": "girjn5adhmrwis",
+  "cost_per_hour": 0.74,
+  "image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "worker_sha256": "9c9386c6e9304a2329562f2a84a6b5fcdc37bdd2a98392501a9fe492823fc974"
+}

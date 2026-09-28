@@ -1,0 +1,34 @@
+{
+  "status": "Exploratory reconstruction and compute feasibility; specified before production simulations",
+  "controls": ["amino:line8 l-phenylalanine", "amino:line14 glycine"],
+  "selection": "Known high/low IRI range in the same 20 mM Amino assay. Different molecular sizes; not a matched perturbation or independent validation set.",
+  "molecular_state": "Explicit zwitterionic free amino acids, CHARMM36 terminal templates. Original per-compound topology and simulation states unresolved.",
+  "production": {
+    "replicates_per_compound": 3,
+    "seeds": [20260906, 20260907, 20260908],
+    "equilibration_ps": 100,
+    "production_ps": 1000,
+    "frames_per_replicate": 100,
+    "temperature_K": 273,
+    "ensemble": "NVT",
+    "box_nm": 4,
+    "water": "TIP4P/Ice",
+    "salt": "None",
+    "integrator": "LangevinMiddle, 2 fs, 1/ps friction, constrained H bonds and rigid water",
+    "nonbonded": "PME tolerance 5e-4; 1.0 nm cutoff, LJ switch from 0.8 nm"
+  },
+  "observables": ["Unique water hydration counts at seven cutoffs from 0.2 to 0.5 nm", "All water-oxygen to solute-atom pair histogram, 100 bins to 0.5 nm", "Hydration counts divided by molecular weight, explicitly not the published volume-index model", "Temperature/energy finiteness, time blocks and replicate spread"],
+  "interpretation": "No model fitting, no synthetic experimental labels, no ice-growth or cell-survival predictions. Short liquid-water trajectories test pipeline operation and descriptor variability; 1 ns does not establish convergence or reproduce published 20 ns simulations.",
+  "compute": {
+    "local_smoke": "CPU/OpenCL feasibility; 2 ps equilibration and 2 ps production are numerical checks only",
+    "cloud_target": "One Secure Cloud RTX 4090, or defer if unavailable; no multi-GPU or subscription",
+    "user_total_credit_ceiling_usd": 17,
+    "initial_pilot_target_max_usd": 3,
+    "maximum_accepted_gpu_rate_usd_per_hour": 0.8,
+    "maximum_pod_lifetime_seconds": 5400,
+    "container_disk_gb": 10,
+    "persistent_volume_gb": 0,
+    "shutdown": "Local process watchdog plus in-Pod deadline deletion, followed by explicit result retrieval and deletion confirmation. Timers reduce overspend risk; they are not a provider-enforced account budget. Existing user resources are excluded.",
+    "runtime_correction_before_production": "First cloud attempt failed CUDA PTX compatibility without a trajectory and was deleted. Retried with CUDA components pinned to 12.4 and an explicit CUDA force-test success check; six-run scientific design unchanged."
+  }
+}

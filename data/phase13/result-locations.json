@@ -1,0 +1,11 @@
+{
+  "locations": {
+    "leu-NPT-20261011": "runpod-attempt3/leu-NPT-20261011/runs/leu-NPT-20261011",
+    "leu-NPT-20261012": "runpod-attempt3/leu-NPT-20261012/runs/leu-NPT-20261012",
+    "leu-NPT-20261013": "runpod-attempt2/leu-NPT-20261013/runs/leu-NPT-20261013",
+    "ile-NPT-20261021": "runpod-attempt2/ile-NPT-20261021/runs/ile-NPT-20261021",
+    "ile-NPT-20261022": "runpod-attempt2/ile-NPT-20261022/runs/ile-NPT-20261022",
+    "ile-NPT-20261023": "runpod-attempt3/ile-NPT-20261023/runs/ile-NPT-20261023"
+  },
+  "selection_basis": "Frozen preparation/seed identities. Attempt3 replaces only deleted attempts that failed during software installation before any simulation; no completed production selected or excluded by outcome."
+}

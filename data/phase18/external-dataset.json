@@ -1,0 +1,732 @@
+{
+  "assay_id": "CHEMBL1071707",
+  "raw_path": "data/raw/phase17/external-review/CHEMBL1071707-activities.json",
+  "raw_sha256": "6bcd6eea03e7f9d6a101f4a98fe81955c8f147c454eebb6a89176ff678282056",
+  "source": "ChEMBL API snapshot, CC BY-SA3.0; primary assay audit is separate",
+  "records_downloaded": 51,
+  "exact_compounds": [
+    {
+      "molecule_id": "CHEMBL589102",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1C(F)(F)F",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1C(F)(F)F",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1C(F)(F)F",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 160.0,
+      "observed_pIC50": 6.795880017344075,
+      "activity_ids": [
+        3131704
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 35,
+      "original_standard_value_nM": "160000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 35,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.37142857142857144
+    },
+    {
+      "molecule_id": "CHEMBL589117",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(C#N)cc3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(C#N)cc3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(C#N)cc3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 1700.0,
+      "observed_pIC50": 5.769551078621726,
+      "activity_ids": [
+        3131697
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "1700000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 37,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.38028169014084506
+    },
+    {
+      "molecule_id": "CHEMBL589118",
+      "canonical_smiles": "N#Cc1cccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)c1",
+      "rdkit_isomeric_smiles": "N#Cc1cccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)c1",
+      "achiral_smiles": "N#Cc1cccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)c1",
+      "scaffold": "O=C(NCc1cccc(C(=O)NCCC2CCCNC2)c1)Nc1ccccc1",
+      "observed_nM": 89.0,
+      "observed_pIC50": 7.050609993355087,
+      "activity_ids": [
+        3131709
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 30,
+      "original_standard_value_nM": "89.0",
+      "original_validity_comment": null,
+      "source_compound_number": 38,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.2631578947368421
+    },
+    {
+      "molecule_id": "CHEMBL589359",
+      "canonical_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1",
+      "rdkit_isomeric_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1",
+      "achiral_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)NCCC2CCCNC2)c1)Nc1ccccc1",
+      "observed_nM": 18.0,
+      "observed_pIC50": 7.7447274948966935,
+      "activity_ids": [
+        3131715
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 30,
+      "original_standard_value_nM": "18.0",
+      "original_validity_comment": null,
+      "source_compound_number": 40,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.26666666666666666
+    },
+    {
+      "molecule_id": "CHEMBL589827",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 1300.0,
+      "observed_pIC50": 5.886056647693163,
+      "activity_ids": [
+        3131699
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "1300000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 31,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.48333333333333334
+    },
+    {
+      "molecule_id": "CHEMBL589844",
+      "canonical_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1",
+      "rdkit_isomeric_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1",
+      "achiral_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1",
+      "scaffold": "O=C(CCC1CCCNC1)Nc1cccc(CNC(=O)Nc2ccccc2)c1",
+      "observed_nM": 110.0,
+      "observed_pIC50": 6.958607314841775,
+      "activity_ids": [
+        3131705
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 30,
+      "original_standard_value_nM": "110000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 41,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.2236842105263158
+    },
+    {
+      "molecule_id": "CHEMBL589845",
+      "canonical_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1",
+      "rdkit_isomeric_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1",
+      "achiral_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)NCCC2CCNCC2)c1)Nc1ccccc1",
+      "observed_nM": 65.0,
+      "observed_pIC50": 7.187086643357144,
+      "activity_ids": [
+        3131713
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 30,
+      "original_standard_value_nM": "65000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 42,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.28169014084507044
+    },
+    {
+      "molecule_id": "CHEMBL590322",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "scaffold": "O=C(CCC1CCCNC1)Nc1cccc(CNC(=O)c2ccccc2)c1",
+      "observed_nM": 73.0,
+      "observed_pIC50": 7.136677139879544,
+      "activity_ids": [
+        3131722
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "73.0",
+      "original_validity_comment": null,
+      "source_compound_number": 28,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.35135135135135137
+    },
+    {
+      "molecule_id": "CHEMBL590810",
+      "canonical_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "rdkit_isomeric_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "achiral_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CNCC3)c1)Nc1ccccc1",
+      "observed_nM": 14.0,
+      "observed_pIC50": 7.853871964321762,
+      "activity_ids": [
+        3131716
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 32,
+      "original_standard_value_nM": "14.0",
+      "original_validity_comment": null,
+      "source_compound_number": 43,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.2602739726027397
+    },
+    {
+      "molecule_id": "CHEMBL590811",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)cc3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)cc3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)cc3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 65.0,
+      "observed_pIC50": 7.187086643357144,
+      "activity_ids": [
+        3131712
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 32,
+      "original_standard_value_nM": "65.0",
+      "original_validity_comment": null,
+      "source_compound_number": 44,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.30666666666666664
+    },
+    {
+      "molecule_id": "CHEMBL590826",
+      "canonical_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc(CN)cc3)c2)cc1",
+      "rdkit_isomeric_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc(CN)cc3)c2)cc1",
+      "achiral_smiles": "N#Cc1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc(CN)cc3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 70.0,
+      "observed_pIC50": 7.154901959985743,
+      "activity_ids": [
+        3131710
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 30,
+      "original_standard_value_nM": "70000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 45,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.30158730158730157
+    },
+    {
+      "molecule_id": "CHEMBL591058",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)c(Cl)c3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)c(Cl)c3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C#N)c(Cl)c3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 10.0,
+      "observed_pIC50": 8.0,
+      "activity_ids": [
+        3131717
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "10000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 46,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.2839506172839506
+    },
+    {
+      "molecule_id": "CHEMBL591116",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)cc3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)cc3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)cc3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 8.0,
+      "observed_pIC50": 8.096910013008056,
+      "activity_ids": [
+        3131718
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "8000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 47,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.3333333333333333
+    },
+    {
+      "molecule_id": "CHEMBL591355",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)c(Cl)c3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)c(Cl)c3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3ccc(C(N)=O)c(Cl)c3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 74.0,
+      "observed_pIC50": 7.130768280269024,
+      "activity_ids": [
+        3131711
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 34,
+      "original_standard_value_nM": "74000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 48,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.2911392405063291
+    },
+    {
+      "molecule_id": "CHEMBL592709",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1Cl",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1Cl",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1Cl",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 92.0,
+      "observed_pIC50": 7.036212172654444,
+      "activity_ids": [
+        3131708
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 32,
+      "original_standard_value_nM": "92.0",
+      "original_validity_comment": null,
+      "source_compound_number": 34,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.3880597014925373
+    },
+    {
+      "molecule_id": "CHEMBL592715",
+      "canonical_smiles": "COc1ccc(CC(=O)Nc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(CC(=O)Nc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(CC(=O)Nc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "scaffold": "O=C(Cc1ccccc1)Nc1cccc(C(=O)NCCC2CCCNC2)c1",
+      "observed_nM": 3200.0,
+      "observed_pIC50": 5.494850021680094,
+      "activity_ids": [
+        3131696
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "3200000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 25,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.25
+    },
+    {
+      "molecule_id": "CHEMBL597126",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CCNC4)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CCNC4)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CCNC4)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CCNC3)c1)c1ccccc1",
+      "observed_nM": 100.0,
+      "observed_pIC50": 7.0,
+      "activity_ids": [
+        3131707
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "100000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 16,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.36619718309859156
+    },
+    {
+      "molecule_id": "CHEMBL597127",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "scaffold": "O=C(NCCC1CCCNC1)c1cccc(CNC(=O)c2ccccc2)c1",
+      "observed_nM": 53.0,
+      "observed_pIC50": 7.275724130399211,
+      "activity_ids": [
+        3131726
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "53.0",
+      "original_validity_comment": null,
+      "source_compound_number": 17,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.37142857142857144
+    },
+    {
+      "molecule_id": "CHEMBL597734",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4cnccc4c3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4cnccc4c3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4cnccc4c3)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3cnccc3c2)c1)c1ccccc1",
+      "observed_nM": 685.0,
+      "observed_pIC50": 6.164309428507575,
+      "activity_ids": [
+        3131700
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "685000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 14,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.484375
+    },
+    {
+      "molecule_id": "CHEMBL599791",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CN(C)CC4)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CN(C)CC4)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CN(C)CC4)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CNCC3)c1)c1ccccc1",
+      "observed_nM": 46.0,
+      "observed_pIC50": 7.337242168318426,
+      "activity_ids": [
+        3131727
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 34,
+      "original_standard_value_nM": "46.0",
+      "original_validity_comment": null,
+      "source_compound_number": 20,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.36619718309859156
+    },
+    {
+      "molecule_id": "CHEMBL599792",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CN(C)C)cc3)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 69.0,
+      "observed_pIC50": 7.161150909262744,
+      "activity_ids": [
+        3131725
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "69.0",
+      "original_validity_comment": null,
+      "source_compound_number": 21,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.40625
+    },
+    {
+      "molecule_id": "CHEMBL600852",
+      "canonical_smiles": "NC(=O)c1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "rdkit_isomeric_smiles": "NC(=O)c1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "achiral_smiles": "NC(=O)c1ccc(NC(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CNCC3)c1)Nc1ccccc1",
+      "observed_nM": 4.0,
+      "observed_pIC50": 8.397940008672037,
+      "activity_ids": [
+        3131719
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "4.0",
+      "original_validity_comment": null,
+      "source_compound_number": 50,
+      "source_nearest_neighbor_id": "CHEMBL4536833",
+      "source_nearest_tanimoto": 0.28169014084507044
+    },
+    {
+      "molecule_id": "CHEMBL602238",
+      "canonical_smiles": "COc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(NC(=O)NCc2cccc(C(=O)NCCC3CCCNC3)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)NCCC2CCCNC2)c1)Nc1ccccc1",
+      "observed_nM": 1600.0,
+      "observed_pIC50": 5.795880017344075,
+      "activity_ids": [
+        3131698
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 32,
+      "original_standard_value_nM": "1600000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 39,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.3076923076923077
+    },
+    {
+      "molecule_id": "CHEMBL602437",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(OC(F)(F)F)c(Cl)c3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(OC(F)(F)F)c(Cl)c3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)c3ccc(OC(F)(F)F)c(Cl)c3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 670.0,
+      "observed_pIC50": 6.173925197299173,
+      "activity_ids": [
+        3131701
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 35,
+      "original_standard_value_nM": "670000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 36,
+      "source_nearest_neighbor_id": "CHEMBL4475535",
+      "source_nearest_tanimoto": 0.4084507042253521
+    },
+    {
+      "molecule_id": "CHEMBL603162",
+      "canonical_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3cccc(C(N)=O)c3)c2)cc1",
+      "rdkit_isomeric_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3cccc(C(N)=O)c3)c2)cc1",
+      "achiral_smiles": "CN(C)Cc1ccc(NC(=O)c2cccc(CNC(=O)Nc3cccc(C(N)=O)c3)c2)cc1",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)Nc1ccccc1",
+      "observed_nM": 240.0,
+      "observed_pIC50": 6.619788758288394,
+      "activity_ids": [
+        3131703
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "240000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 49,
+      "source_nearest_neighbor_id": "CHEMBL4436040",
+      "source_nearest_tanimoto": 0.30666666666666664
+    },
+    {
+      "molecule_id": "CHEMBL604085",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCNCC3)c2)cc1OC",
+      "scaffold": "O=C(NCCC1CCNCC1)c1cccc(CNC(=O)c2ccccc2)c1",
+      "observed_nM": 176.0,
+      "observed_pIC50": 6.75448733218585,
+      "activity_ids": [
+        3131723
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "176.0",
+      "original_validity_comment": null,
+      "source_compound_number": 15,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.3939393939393939
+    },
+    {
+      "molecule_id": "CHEMBL604087",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc4c(c3)CNCC4)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccc3c(c2)CNCC3)c1)c1ccccc1",
+      "observed_nM": 33.0,
+      "observed_pIC50": 7.481486060122112,
+      "activity_ids": [
+        3131728
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 33,
+      "original_standard_value_nM": "33.0",
+      "original_validity_comment": null,
+      "source_compound_number": 18,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.36619718309859156
+    },
+    {
+      "molecule_id": "CHEMBL604789",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCN(C)C3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCN(C)C3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)NCCC3CCCN(C)C3)c2)cc1OC",
+      "scaffold": "O=C(NCCC1CCCNC1)c1cccc(CNC(=O)c2ccccc2)c1",
+      "observed_nM": 102.0,
+      "observed_pIC50": 6.991399828238082,
+      "activity_ids": [
+        3131706
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 32,
+      "original_standard_value_nM": "102000.0",
+      "original_validity_comment": "Outside typical range",
+      "source_compound_number": 19,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.37142857142857144
+    },
+    {
+      "molecule_id": "CHEMBL605360",
+      "canonical_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CO)cc3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CO)cc3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(C(=O)NCc2cccc(C(=O)Nc3ccc(CO)cc3)c2)cc1OC",
+      "scaffold": "O=C(NCc1cccc(C(=O)Nc2ccccc2)c1)c1ccccc1",
+      "observed_nM": 870.0,
+      "observed_pIC50": 6.060480747381382,
+      "activity_ids": [
+        3131721
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "870.0",
+      "original_validity_comment": null,
+      "source_compound_number": 22,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.4262295081967213
+    },
+    {
+      "molecule_id": "CHEMBL605401",
+      "canonical_smiles": "COc1ccc(NC(=O)Cc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "rdkit_isomeric_smiles": "COc1ccc(NC(=O)Cc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "achiral_smiles": "COc1ccc(NC(=O)Cc2cccc(NC(=O)CCC3CCCNC3)c2)cc1OC",
+      "scaffold": "O=C(CCC1CCCNC1)Nc1cccc(CC(=O)Nc2ccccc2)c1",
+      "observed_nM": 37.0,
+      "observed_pIC50": 7.431798275933005,
+      "activity_ids": [
+        3131714
+      ],
+      "document_chembl_id": "CHEMBL1157712",
+      "heavy_atoms": 31,
+      "original_standard_value_nM": "37000.0",
+      "original_validity_comment": null,
+      "source_compound_number": 29,
+      "source_nearest_neighbor_id": "CHEMBL2006299",
+      "source_nearest_tanimoto": 0.21794871794871795
+    }
+  ],
+  "exclusions": [
+    {
+      "activity_id": 3131679,
+      "molecule_id": "CHEMBL597321",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131680,
+      "molecule_id": "CHEMBL597522",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131681,
+      "molecule_id": "CHEMBL597523",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131682,
+      "molecule_id": "CHEMBL610775",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131683,
+      "molecule_id": "CHEMBL559147",
+      "reason": "Different endpoint (Ki)"
+    },
+    {
+      "activity_id": 3131684,
+      "molecule_id": "CHEMBL559147",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131685,
+      "molecule_id": "CHEMBL406821",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131686,
+      "molecule_id": "CHEMBL590323",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131687,
+      "molecule_id": "CHEMBL1163034",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131688,
+      "molecule_id": "CHEMBL590072",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131689,
+      "molecule_id": "CHEMBL603157",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131690,
+      "molecule_id": "CHEMBL592299",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131691,
+      "molecule_id": "CHEMBL592714",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131692,
+      "molecule_id": "CHEMBL610211",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131693,
+      "molecule_id": "CHEMBL597534",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131694,
+      "molecule_id": "CHEMBL591914",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131695,
+      "molecule_id": "CHEMBL596708",
+      "reason": "Censored endpoint; retained raw, not treated as exact"
+    },
+    {
+      "activity_id": 3131702,
+      "molecule_id": "CHEMBL604249",
+      "reason": "Both records excluded: same database identity has conflicting33/34 source labels; one correctly chlorinated compound34 is separately represented by CHEMBL592709"
+    },
+    {
+      "activity_id": 3131720,
+      "molecule_id": "CHEMBL598336",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    },
+    {
+      "activity_id": 3131724,
+      "molecule_id": "CHEMBL604249",
+      "reason": "Both records excluded: same database identity has conflicting33/34 source labels; one correctly chlorinated compound34 is separately represented by CHEMBL592709"
+    },
+    {
+      "activity_id": 3131729,
+      "molecule_id": "CHEMBL38380",
+      "reason": "Outside the audited Tables4-7 analogue panel (early hits or literature controls)"
+    }
+  ],
+  "split": {
+    "calibration_ids": [
+      "CHEMBL589118",
+      "CHEMBL589359",
+      "CHEMBL590322",
+      "CHEMBL590811",
+      "CHEMBL590826",
+      "CHEMBL591058",
+      "CHEMBL591116",
+      "CHEMBL591355",
+      "CHEMBL592715",
+      "CHEMBL597734",
+      "CHEMBL602238",
+      "CHEMBL603162"
+    ],
+    "test_ids": [
+      "CHEMBL589102",
+      "CHEMBL589117",
+      "CHEMBL589827",
+      "CHEMBL589844",
+      "CHEMBL589845",
+      "CHEMBL590810",
+      "CHEMBL592709",
+      "CHEMBL597126",
+      "CHEMBL597127",
+      "CHEMBL599791",
+      "CHEMBL599792",
+      "CHEMBL600852",
+      "CHEMBL602437",
+      "CHEMBL604085",
+      "CHEMBL604087",
+      "CHEMBL604789",
+      "CHEMBL605360",
+      "CHEMBL605401"
+    ],
+    "method": "Sort achiral Murcko scaffold strings by SHA256(cryo-phase18-split-1800: + scaffold), assign whole groups to calibration until at least ceil(n/3) compounds; remaining groups held out. No potency or prediction stratification.",
+    "scaffold_count": 14
+  },
+  "source_constants": {
+    "source_mean_pIC50": 7.287426847457368,
+    "source_median_residual_offset_pIC50": 0.2913392098372469,
+    "fit_policy": "Mean baseline and additive median-residual correction fitted only on all43 Phase17 compounds, before external model outputs. No slope fitting or hyperparameter selection."
+  },
+  "overlap_policy": "Exclude Phase17 molecule ID, canonical isomeric identity and achiral identity. Preserve analogue similarity; no claim of pretrained-data independence.",
+  "duplicate_policy": "Collapse exact structural duplicates only if values agree, otherwise require source adjudication.",
+  "domain_policy": "Exact IC50<=10000nM only; no censored bounds treated as observed concentrations."
+}

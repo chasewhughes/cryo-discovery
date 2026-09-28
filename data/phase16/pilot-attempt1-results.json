@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "plan_id": "boltz-two-controls-001",
+  "claim_level": "smoke_execution_and_directional_comparison",
+  "validation_errors": [
+    "missing summary.json",
+    "missing case CHEMBL4522042.yaml",
+    "missing case CHEMBL4540054.yaml",
+    "missing or unexpected checkpoint hashes"
+  ],
+  "archive_sha256": "ce175fc023d542ece862e9ebd739e367acd448f50e0ef0b65ce9103ab11842ef",
+  "archive_hash_verified": true,
+  "checkpoint_hashes": [],
+  "checkpoint_names_valid": false,
+  "cases": [
+    {
+      "input": "CHEMBL4522042.yaml",
+      "expected_role": "known_bound_ligand",
+      "status": "missing_case",
+      "pIC50_equivalent": null,
+      "affinity_fields": {},
+      "affinity_finite": false,
+      "probability_in_range": false
+    },
+    {
+      "input": "CHEMBL4540054.yaml",
+      "expected_role": "measured_right_censored_weak_control",
+      "status": "missing_case",
+      "pIC50_equivalent": null,
+      "affinity_fields": {},
+      "affinity_finite": false,
+      "probability_in_range": false
+    }
+  ],
+  "directional_ordering_known_pIC50_higher_than_weak_control": null,
+  "observed_weak_control_pIC50_bound": "<5 (from >10,000 nM), not equality",
+  "limits": [
+    "Two controls do not support MAE, correlation, accuracy, calibration, efficacy, or novelty claims.",
+    "pIC50 is only the documented 6-affinity_pred_value conversion; binder probability remains separate."
+  ]
+}

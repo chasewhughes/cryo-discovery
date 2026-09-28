@@ -1,0 +1,9 @@
+{
+  "status": "Frozen-model diagnostic specified after source reconciliation and before diagnostic predictions; not an independent final test",
+  "source": "Existing 17 Amino prediction rows, not new experimental data",
+  "inclusion": "14 rows at nominal20mM after resolving Main Figure4 compounds7-9 as10mM using structures on Supplement page16",
+  "models": "Existing Phase8 Amino fingerprint KRR primary; existing standard45 SVR secondary; training63 median baseline",
+  "no_retraining": true,
+  "outputs": "MAE/RMSE/R2 for all compatible rows and separately after normalized-parent overlap exclusion; individual predictions; no pooled10mM score",
+  "caveats": "Labels previously visible, source-selected compounds, small sample, no hydration descriptors for this set in the repository; no whole-ensemble or cell-survival validation"
+}

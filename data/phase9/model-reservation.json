@@ -1,0 +1,22 @@
+{
+  "status": "Existing models reserved unchanged for future external evaluation; no eligible external numeric set acquired in this pass",
+  "eligible_external_rows": 0,
+  "models": {
+    "amino": {"local_path": "data/raw/phase8/models/amino-ensemble.joblib", "sha256": "0bded3166428c30468c6e6d3bc26e88425e4eec4f10fa9a4e67e9133268fcab9"},
+    "glyco2": {"local_path": "data/raw/phase8/models/glyco2-ensemble.joblib", "sha256": "3776c85a1857f87ef353587d747bf2533a86aa519feef9d0af25b92c0cbae502"}
+  },
+  "reserved_sources": [
+    {"doi": "10.1021/acs.cgd.5c00221", "state": "Supplement acquired; no numeric IRI table transcribed. Reserve for condition-shift analysis until exact assay mapping and raw grain data are available.", "numeric_training_rows_added": 0},
+    {"doi": "10.1016/j.jcis.2026.140021", "state": "Metadata/abstract lead; full methods/structures and numeric data not acquired. Self-assembly/counterion dependence requires separate applicability review.", "numeric_training_rows_added": 0}
+  ],
+  "legacy_diagnostic": "The 14 reconciled 20 mM Amino prediction rows are retrospective and explicitly excluded from claims of independent external validation.",
+  "required_measurement_fields": [
+    "Original experiment/source identifier and relationship to previously published tables",
+    "Exact molecular structure, stereochemistry, salt/counterion, supplier/lot and preparation age where relevant",
+    "Final compound concentration with units, buffer/ionic composition and measured pH if available",
+    "Cooling/nucleation/anneal temperature and duration, container and imaging method",
+    "Endpoint definition, length versus area units, normalization/control denominator",
+    "Raw per-run observations, replicate grouping and whether errors are SD or SEM",
+    "Source identifiers and availability of reproducible standard/hydration features"
+  ]
+}

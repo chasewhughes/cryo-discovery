@@ -1,0 +1,296 @@
+[
+  {
+    "study_id": "doi:10.1038/s41598-025-32439-3",
+    "doi": "10.1038/s41598-025-32439-3",
+    "title": "Improved cryopreservation of cardiomyocyte aggregates differentiated from GMP iPSC in a 3D culture format.",
+    "year": 2026,
+    "pmcid": "PMC12800097",
+    "source_url": "https://doi.org/10.1038/s41598-025-32439-3",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase4/cardiac-aggregates.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "R26 HLA-homozygous GMP iPSC-derived cardiomyocyte aggregates"
+    ],
+    "study_design": "Primary comparison and optimization of commercial/basic freezing media and Y-27632 pre-treatment for 3D cardiomyocyte aggregates, with recovery, purity, viability, morphology, and contraction endpoints.",
+    "interventions": [
+      "Study-labeled 10% HSA condition with CryoSure and final 10% DMSO",
+      "10 µM Y-27632 for 1 h before freezing"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization",
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p4-cardiac-1-1",
+        "model": "Cardiomyocyte aggregates from GMP iPSC differentiation days 9–11, >85% ACTN2/TNNT2",
+        "intervention": "Commercial media and basic media including 10% HSA, CS-10, Stemdiff-CMFM, Nutrifreeze-D10, Stem Cellbanker, CMFreeze, KOSR variants",
+        "comparator": "Fresh aggregate sample and among tested cryomedia",
+        "formulation": [
+          {
+            "compound": "HSA/CryoSure condition labeled 10% HSA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO in HSA/CryoSure condition",
+            "concentration": 10,
+            "unit": "% final volume"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "Cool cells to 4 °C for 30 minutes; keep near 4 °C while adding medium; CoolCell overnight at −80 °C",
+        "warming": "37 °C water bath until small ice clump; stepwise dilution using pre-cooled 5% HSA solution; two PBS washes",
+        "storage": "Liquid nitrogen after overnight −80 °C; study-specific duration not established here",
+        "outcome_name": "Aggregate morphology, viability, recovery, and cardiac marker expression",
+        "outcome_type": "recovery",
+        "timepoint": "d0 and d5 post-thaw",
+        "result": "Day-5 cell recovery relative to prefreeze counts was 91.2 ± 50.1% for HSA/CryoSure, 71.2 ± 34.2% for CS10 and 67.3 ± 33.2% for 10% KOSR; several other media were lower. Immediate recoveries near 110% in HSA and 10% KOSR reflect uncertain aggregate counting, not demonstrated cell generation during thawing. Media comparison has high batch variability.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "One R26 line; n=8 experiments for HSA, CS10, Stemdiff-CMFM and KOSR conditions; n=5 for three other media; >30 aggregate diameter measurements per experiment",
+        "source_locator": "Results, Efficient cryopreservation of cardiomyocyte-aggregates; Fig. 3",
+        "evidence_excerpt": "Freezing media CS-10 and 10% HSA demonstrated superior protection"
+      },
+      {
+        "experiment_id": "p4-cardiac-1-2",
+        "model": "Cryopreserved cardiomyocyte aggregates after 5-day post-thaw culture",
+        "intervention": "Additional 1 h pretreatment with 10 µM Y-27632 at 37 °C before HSA/CryoSure freezing",
+        "comparator": "10% HSA without Y-27632 pre-treatment",
+        "formulation": [
+          {
+            "compound": "HSA/CryoSure condition labeled 10% HSA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO in HSA/CryoSure condition",
+            "concentration": 10,
+            "unit": "% final volume"
+          },
+          {
+            "compound": "Y-27632 pretreatment",
+            "concentration": 10,
+            "unit": "µM"
+          }
+        ],
+        "treatment_stage": [
+          "pre_freeze_treatment",
+          "freezing",
+          "post_thaw_culture"
+        ],
+        "cooling": "Cool cells to 4 °C for 30 minutes; keep near 4 °C while adding medium; CoolCell overnight at −80 °C",
+        "warming": "37 °C water bath until small ice clump; stepwise dilution using pre-cooled 5% HSA solution; two PBS washes",
+        "storage": "Liquid nitrogen after overnight −80 °C; study-specific duration not established here",
+        "outcome_name": "Post-thaw recovery and aggregate integrity",
+        "outcome_type": "recovery",
+        "timepoint": "d0 and d5 post-thaw",
+        "result": "Pretreated recovery was 108.6 ± 47.2% immediately and 75.0 ± 43.8% on day 5, not significantly improved over the same formulation without pretreatment. Morphology appeared more intact immediately, but apoptosis/live-cell measures did not significantly improve. Both groups received post-thaw ROCK inhibition.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "n=8 for the Fig. 4 recovery condition",
+        "source_locator": "Results, Effect of Y-27632 pre-incubation; Fig. 4",
+        "evidence_excerpt": "the 1 h pre-treatment of cells at 37 °C"
+      },
+      {
+        "experiment_id": "p4-cardiac-1-3",
+        "model": "Cryopreserved cardiomyocyte aggregates assessed by MUSCLEMOTION",
+        "intervention": "HSA/CryoSure cryopreservation with versus without extra Y-27632 pretreatment",
+        "comparator": "No pretreatment under the same freezing/recovery workflow; fresh age-matched aggregates provide a separate context",
+        "formulation": [
+          {
+            "compound": "HSA/CryoSure condition labeled 10% HSA",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO in HSA/CryoSure condition",
+            "concentration": 10,
+            "unit": "% final volume"
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": "Cool cells to 4 °C for 30 minutes; keep near 4 °C while adding medium; CoolCell overnight at −80 °C",
+        "warming": "37 °C water bath until small ice clump; stepwise dilution using pre-cooled 5% HSA solution; two PBS washes",
+        "storage": "Liquid nitrogen after overnight −80 °C; study-specific duration not established here",
+        "outcome_name": "Spontaneous and electrically stimulated contraction",
+        "outcome_type": "function",
+        "timepoint": "5 days post-thaw; stimulation at 0.5 and 1 Hz",
+        "result": "On day 5, spontaneous beating was 10 ± 3 bpm without extra pretreatment and 17 ± 4 bpm with it; both groups paced at 0.5 Hz and partly at 1 Hz. Fresh age-matched aggregates showed no spontaneous and little induced beating. This demonstrates post-thaw beating and a timing-associated difference, not equivalence to mature fresh cardiomyocytes.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "n=3 experiments; >40 aggregates measured per experiment",
+        "source_locator": "Results, Functionality assessment; Fig. 5 and Extended Data Videos",
+        "evidence_excerpt": "spontaneous contraction activity"
+      }
+    ],
+    "main_finding": "In one R26 iPSC line, the HSA/CryoSure condition had the highest reported mean day-5 cell recovery (91.2 ± 50.1%), with high batch variability. Added Y-27632 pretreatment did not significantly improve recovery or apoptosis outcomes, although spontaneous beating rate differed.",
+    "limitations": [
+      "One R26 donor line; independent experiments/aggregate measurements do not establish multi-donor replication.",
+      "Recovery uses a prefreeze cell-count denominator; aggregate dissociation/counting uncertainty can produce values above 100%. Day-5 recovery also includes intervening culture effects.",
+      "The condition labeled 10% HSA contains final 10% DMSO from CryoSure. Table 2 describes HSA (20%) input plus CryoSure; exact mass/volume interpretation of the label needs source clarification before replication.",
+      "All conditions receive 10 µM Y-27632 during the first 48 h of post-thaw culture; pretreatment comparison tests additional timing, not all ROCK inhibition versus none.",
+      "High dispersion (day-5 recovery SD 50.1 percentage points) limits generalization of the highest observed mean. No absolute superiority or equivalence is established across cell formats.",
+      "Fresh age-matched aggregates showed no spontaneous and little induced beating; post-thaw beating is not a matched demonstration of unchanged mature cardiac function."
+    ],
+    "mechanism_claim": "The study directly measures process recovery, structure, viability, markers, and contraction; HSA-mediated protection is a formulation interpretation, not proof of a specific biological pathway.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root methods/results and endpoint-definition review"
+  },
+  {
+    "study_id": "doi:10.1038/s41598-026-59927-4",
+    "doi": "10.1038/s41598-026-59927-4",
+    "title": "Cryopreservation alters contractile function of human induced pluripotent stem cell-derived cardiomyocytes.",
+    "year": 2026,
+    "pmcid": "PMC13328489",
+    "source_url": "https://doi.org/10.1038/s41598-026-59927-4",
+    "source_access": "full_text",
+    "raw_source_path": "data/raw/phase4/cardiac-contractile.html",
+    "retrieved_at": "2026-09-05",
+    "evidence_scope": "ipsc_direct",
+    "species": [
+      "Homo sapiens"
+    ],
+    "cell_types": [
+      "Phoenix MHHi001-A female-donor hiPSC-derived cardiomyocytes"
+    ],
+    "study_design": "Fresh versus cryopreserved hiPSC-CM comparison using CryoStor CS10 or KSR, followed by recovery, morphology, sarcomeric expression, and paced-contractility measurements at day 10 and day 35.",
+    "interventions": [
+      "CryoStor CS10",
+      "KnockOut Serum Replacement (KSR) with 10% DMSO, 10 µM Y-27632, and 10 µL/mL Pluronic-F68"
+    ],
+    "mechanism_axes": [
+      "protocol_optimization",
+      "biological_stress"
+    ],
+    "experiments": [
+      {
+        "experiment_id": "p4-cardiac-2-1",
+        "model": "Human hiPSC-CMs differentiated in suspension to day 11–13 and recovered after cryostorage",
+        "intervention": "CryoStor CS10 or KSR cryopreservation at −150 °C",
+        "comparator": "Freshly cultured hiPSC-CMs",
+        "formulation": [
+          {
+            "compound": "CS10",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "KSR",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "DMSO",
+            "concentration": 10,
+            "unit": "% in KSR"
+          }
+        ],
+        "treatment_stage": [
+          "freezing",
+          "thawing"
+        ],
+        "cooling": "controlled-rate freezer for 1.5 h",
+        "warming": "37 °C water bath until small ice layer remained",
+        "storage": "6 weeks to 6 months; KSR samples 3 and 6 months",
+        "outcome_name": "Trypan-blue recovery and cardiomyocyte fraction",
+        "outcome_type": "recovery",
+        "timepoint": "Immediate post-thaw recovery; separate purity measurements around days 10 and 35 after plating",
+        "result": "Average viable-cell recovery was 39% for CS10 and 46% for KSR. Cardiomyocyte fraction at day 10/day 35 was 61%/64% for CS10 and 83%/79% for KSR versus fresh 81%/80%.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "3 CS10 vials and 2 KSR vials from 2 differentiations; cell-level n varies by assay",
+        "source_locator": "Results, Both cryopreservation media have a comparable recovery rate; Fig. 1",
+        "evidence_excerpt": "comparable recovery rate"
+      },
+      {
+        "experiment_id": "p4-cardiac-2-2",
+        "model": "Recovered hiPSC-CMs on laminin-coated glass coverslips",
+        "intervention": "CS10 or KSR cryopreservation followed by culture",
+        "comparator": "Fresh cells",
+        "formulation": [
+          {
+            "compound": "CS10",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "KSR",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Cell area, sarcomere length, and myofibril alignment",
+        "outcome_type": "mechanistic",
+        "timepoint": "day 10 and day 35 after replating",
+        "result": "Cryopreservation increased cell area at day 10 in both media; CS10 remained larger at day 35 while KSR returned closer to fresh. Sarcomere length and alignment also differed by medium and timepoint. Cell-level n was from two differentiations, with alignment score N=1.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "cell-level n from two differentiations; alignment score N=1",
+        "source_locator": "Results, Cryopreservation alters cell morphology and sarcomere length; Fig. 2",
+        "evidence_excerpt": "increased cell area"
+      },
+      {
+        "experiment_id": "p4-cardiac-2-3",
+        "model": "Recovered hiPSC-CMs paced at 1 Hz and analyzed by edge detection",
+        "intervention": "CS10 or KSR cryopreservation",
+        "comparator": "Fresh hiPSC-CMs",
+        "formulation": [
+          {
+            "compound": "CS10",
+            "concentration": null,
+            "unit": null
+          },
+          {
+            "compound": "KSR",
+            "concentration": null,
+            "unit": null
+          }
+        ],
+        "treatment_stage": [
+          "thawing"
+        ],
+        "cooling": null,
+        "warming": null,
+        "storage": null,
+        "outcome_name": "Contraction amplitude, time to peak, half-relaxation, shortening and relaxation velocity",
+        "outcome_type": "function",
+        "timepoint": "day 10 and day 35 after replating",
+        "result": "At day 10, CS10 showed increased twitch amplitude and shorter time-to-peak/half-relaxation, while KSR was comparable to fresh. At day 35, both cryopreserved groups had reduced twitch amplitude and shorter time-to-peak/half-relaxation versus fresh. Analysis used 15–20 twitches per cell, with cell-level n from 3 CS10 and 2 KSR vials across 2 differentiations. Cell-level statistics use nested measurements; unchanged velocity in most comparisons does not imply all contractile features are preserved.",
+        "effect_numeric": null,
+        "effect_unit": null,
+        "sample_size": "15–20 twitches averaged per cell; cell-level n from 3 CS10 and 2 KSR vials, 2 differentiations",
+        "source_locator": "Results, Cryopreservation alters contractile parameters; Fig. 5 and Methods Contractility",
+        "evidence_excerpt": "significantly reduced twitch amplitude"
+      }
+    ],
+    "main_finding": "CS10 and KSR yielded similarly low recovery, but cryopreservation altered hiPSC-CM morphology and paced contractile parameters in medium- and time-dependent ways.",
+    "limitations": [
+      "Recovery is live cells after thaw divided by the number frozen; it is not live fraction among post-thaw cells. Underlying vial counts are not available for independent recomputation.",
+      "One female-donor Phoenix line at passages 43/44 across two differentiations; cell/twitch observations are nested within three CS10 and two KSR vials.",
+      "Fresh and recovered cells were grown for corresponding intervals after plating, with different storage histories. Single-cell analyses do not establish donor-level population effects.",
+      "Both media have 10% DMSO; KSR additionally has Y-27632 and Pluronic-F68, so the comparison does not isolate one ingredient.",
+      "Methods say counts were subtracted but the explicit recovery equation and Figure 1 define a ratio; use the equation and retain the wording discrepancy.",
+      "Underlying data are available on author request, not independently reanalyzed here."
+    ],
+    "mechanism_claim": "The study directly measures recovery, morphology, sarcomeric features, and contractility; it demonstrates phenotype alteration after cryopreservation without identifying a single causal injury pathway.",
+    "review_status": "root_selected_fulltext_reviewed",
+    "reviewer": "Luna extraction; root methods/results and endpoint-definition review"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-06T14:23:15.356813+00:00",
+  "evidence_snapshot_commit": "6b9dc855bca2b8de329367c49243f83dbc33bd82",
+  "report_source": "reports/cryo-research-report.md",
+  "pdf": "output/pdf/cryo-research-report.pdf",
+  "pages": 10,
+  "hashes": {
+    "reports/cryo-research-report.md": "d1d07f94784ba2aee69674246b15a2b091a6506319249fa25e81676a15d5e072",
+    "output/pdf/cryo-research-report.pdf": "74dbef06c97e2252db59ff88e078afe241ad2cf6b8e90316b297693ee6669db7",
+    "scripts/build_research_report.py": "dee876b7ae1f2fc0bd1147b3251531060dbb493853eb48140a99a3847db3e6aa",
+    "requirements-report.txt": "4e1457dabfab8110dc778218c67e1c2404b72365a027e8c4f3bc9d1ba298d158",
+    "reports/matched-hydration.png": "129c40195fd3c8cbadeec8cb2553bdcb339071d4a20cc44ac668447115b5dbd3"
+  },
+  "verification": {
+    "all_10_pages_visually_reviewed": true,
+    "no_clipping_or_overlap_observed": true,
+    "key_statistics_present_in_pdf_text": true,
+    "all_fixed_commit_project_links_resolve": true,
+    "pdf_link_annotations": 27,
+    "independent_AI_evidence_review": "Existing Luna assistant reviewed draft against project reports and identified no substantive factual/scope issue; this is not expert peer review."
+  },
+  "reproduction": {
+    "environment": "Separate local cryo-adata/envs/report; existing model environments unchanged",
+    "install": "python3 scripts/with_external_storage.py -- uv pip install --python cryo-adata/envs/report/bin/python --cache-dir data/tmp/uv-cache -r requirements-report.txt",
+    "build": "python3 scripts/with_external_storage.py -- cryo-adata/envs/report/bin/python scripts/build_research_report.py",
+    "font_dependency": "macOS Arial TTF files in /System/Library/Fonts/Supplemental",
+    "render": "pdftoppm -r 110 -png output/pdf/cryo-research-report.pdf data/tmp/pdfs/cryo-report/reviewed"
+  },
+  "new_research_computation": false,
+  "new_gpu_rentals": false,
+  "laboratory_execution": false
+}

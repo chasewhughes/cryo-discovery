@@ -1,0 +1,36 @@
+{
+  "id": "7qai3yseudqx38",
+  "name": "cryo-hydration-phase10-1461e2",
+  "created_epoch": 1788685487.662276,
+  "deadline_epoch": 1788690885.572562,
+  "cost_per_hour": 0.74,
+  "container_disk_gb": 10,
+  "volume_gb": 0,
+  "input_sha256": {
+    "scripts/run_hydration_pilot.py": "4b3f090f69e58ca1094e080b02256dd9f91464cc726eeb0af18d663dad2014ac",
+    "simulation/tip4p-ice.xml": "67caa748b12c4d7e1d9c5cceeb3f9fafeac03ea148075d84d3e103688a3ee2fc",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b"
+  },
+  "worker_sha256": "0f31dd36e909c4e6c3db2f662a4974389d3178eeeb2b590f1f043f3c200300bb",
+  "watchdog_pid": 94669,
+  "deleted": true,
+  "ended_epoch": 1788686254.349051,
+  "elapsed_hours": 0.21296854860252803,
+  "estimated_gpu_cost_usd": 0.15759672596587074,
+  "cost_note": "Elapsed time times quoted GPU rate; not the final provider invoice. Container disk billing may be additional.",
+  "result_archive_sha256": "82348e0464ebaf7ce8c6684157282103c7616926232885f35eee8e79348565f2",
+  "result_archive_bytes": 59753867,
+  "worker_status": {
+    "state": "complete",
+    "current": "phe-20260908",
+    "completed": [
+      "gly-20260906",
+      "phe-20260906",
+      "gly-20260907",
+      "phe-20260907",
+      "gly-20260908",
+      "phe-20260908"
+    ],
+    "results_ready": true
+  }
+}

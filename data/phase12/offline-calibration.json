@@ -1,0 +1,3994 @@
+{
+  "status": "Exploratory offline engineering calibration; no revised pass criterion",
+  "grid": {
+    "bins": [
+      20,
+      50,
+      100
+    ],
+    "block_ps": [
+      100,
+      250,
+      500
+    ],
+    "endpoint_window_ps": [
+      500,
+      1000,
+      1500
+    ],
+    "permutations": 1000,
+    "random_seed": 20261005,
+    "frame_interval_ps": 10
+  },
+  "source_results_sha256": "8c3e3f1f348dbfde0ceefa655e634130e4441c449613da44eb42750fd0df94dd",
+  "script_sha256": "cc69324a4ae7055db7ae5c41f212608a75dbb26a59afed71fa3cf429b8755157",
+  "runs": [
+    {
+      "name": "gly-NVT-20260916",
+      "source_trajectory_sha256": "d386de2c5a5acd4e273c034d9c4ce2f1d938b396d6b5f156f63a9a43a20704f2",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.03346293272439287,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02807495668143842,
+            0.04158695532216328,
+            0.05837951907701222
+          ],
+          "fraction_mixed_tv_ge_observed": 0.846
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.03346293272439287,
+          "mixed_tv_quantiles_05_50_95": [
+            0.025800865176458045,
+            0.03916371911089443,
+            0.05430091840259862
+          ],
+          "fraction_mixed_tv_ge_observed": 0.728
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.03346293272439287,
+          "mixed_tv_quantiles_05_50_95": [
+            0.024112128718200485,
+            0.03494086958493227,
+            0.06447098566022703
+          ],
+          "fraction_mixed_tv_ge_observed": 0.633
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.024027523412239626,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02004951551461304,
+            0.02980451550550481,
+            0.041621492123320544
+          ],
+          "fraction_mixed_tv_ge_observed": 0.828
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.024027523412239626,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01898779534365507,
+            0.027707421166592847,
+            0.03825749265832169
+          ],
+          "fraction_mixed_tv_ge_observed": 0.717
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.024027523412239626,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01837551319480246,
+            0.02976969392575978,
+            0.038072476217083144
+          ],
+          "fraction_mixed_tv_ge_observed": 0.761
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.022764668002942474,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01551699736816965,
+            0.02406546383056003,
+            0.03381007998512001
+          ],
+          "fraction_mixed_tv_ge_observed": 0.591
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.022764668002942474,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014813504806185623,
+            0.022533361484782577,
+            0.030943609760694085
+          ],
+          "fraction_mixed_tv_ge_observed": 0.486
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.022764668002942474,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016407168243090416,
+            0.022925811583042528,
+            0.03156183174993687
+          ],
+          "fraction_mixed_tv_ge_observed": 0.507
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.06372882768323697,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05635530044099615,
+            0.07137183095079067,
+            0.08803698700610477
+          ],
+          "fraction_mixed_tv_ge_observed": 0.781
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.06372882768323697,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05619402569494641,
+            0.07102914205003984,
+            0.08800754154009272
+          ],
+          "fraction_mixed_tv_ge_observed": 0.781
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.06372882768323697,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06372882768323697,
+            0.07006412463920211,
+            0.09539378055759352
+          ],
+          "fraction_mixed_tv_ge_observed": 1.0
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.049793131045186276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03954340903610826,
+            0.05087047395453523,
+            0.06193527831518909
+          ],
+          "fraction_mixed_tv_ge_observed": 0.55
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.049793131045186276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03927041962840052,
+            0.0500967377862785,
+            0.06366491676659085
+          ],
+          "fraction_mixed_tv_ge_observed": 0.52
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.049793131045186276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04309938967994865,
+            0.05237682020481885,
+            0.06777624501564067
+          ],
+          "fraction_mixed_tv_ge_observed": 0.622
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.04187700212262273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.031770117778285645,
+            0.04087268640254545,
+            0.05177314861743178
+          ],
+          "fraction_mixed_tv_ge_observed": 0.445
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.04187700212262273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.032317539803807645,
+            0.041230962878098396,
+            0.05292884560671014
+          ],
+          "fraction_mixed_tv_ge_observed": 0.449
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.04187700212262273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.036150029834856594,
+            0.04187700212262277,
+            0.05477653226226334
+          ],
+          "fraction_mixed_tv_ge_observed": 0.522
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.10401327401351129,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08592310136140627,
+            0.10238704842439009,
+            0.11985454176625382
+          ],
+          "fraction_mixed_tv_ge_observed": 0.439
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.10401327401351129,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08744001116523711,
+            0.10148102612298657,
+            0.1204307689003788
+          ],
+          "fraction_mixed_tv_ge_observed": 0.392
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.10401327401351129,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08616087785750484,
+            0.1053250816170022,
+            0.12107754511252589
+          ],
+          "fraction_mixed_tv_ge_observed": 0.591
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.07035391593552358,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06101293912536485,
+            0.07249692937763166,
+            0.0842441084660082
+          ],
+          "fraction_mixed_tv_ge_observed": 0.603
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.07035391593552358,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06109628990086847,
+            0.07229111408055344,
+            0.08755688954416363
+          ],
+          "fraction_mixed_tv_ge_observed": 0.592
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.07035391593552358,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06068482767858579,
+            0.0734431780684352,
+            0.08721240788732432
+          ],
+          "fraction_mixed_tv_ge_observed": 0.705
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.06106897409973895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04873443574453115,
+            0.05867932305575246,
+            0.0696240185213583
+          ],
+          "fraction_mixed_tv_ge_observed": 0.353
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.06106897409973895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04918775669750806,
+            0.05901559598010114,
+            0.0711302757166676
+          ],
+          "fraction_mixed_tv_ge_observed": 0.382
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.06106897409973895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04971260414931934,
+            0.06229088128523618,
+            0.0749547755319697
+          ],
+          "fraction_mixed_tv_ge_observed": 0.621
+        }
+      ]
+    },
+    {
+      "name": "gly-NPT-20260916",
+      "source_trajectory_sha256": "585821b0b0884286d2e7baf69adecbaa7fd7851ff6d32e6911171ac757e27f3e",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.053501975756462,
+          "mixed_tv_quantiles_05_50_95": [
+            0.029629055892614553,
+            0.044274228623780776,
+            0.06212718419692216
+          ],
+          "fraction_mixed_tv_ge_observed": 0.178
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.053501975756462,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027592489542753635,
+            0.04117505263937822,
+            0.05632306381234639
+          ],
+          "fraction_mixed_tv_ge_observed": 0.093
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.053501975756462,
+          "mixed_tv_quantiles_05_50_95": [
+            0.022132640608030506,
+            0.04274438715902125,
+            0.06641502465460832
+          ],
+          "fraction_mixed_tv_ge_observed": 0.342
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.037809962513986065,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02111819122882827,
+            0.031416834030757235,
+            0.044053348583289485
+          ],
+          "fraction_mixed_tv_ge_observed": 0.208
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.037809962513986065,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019366758528276663,
+            0.028615298612381608,
+            0.03879861674124373
+          ],
+          "fraction_mixed_tv_ge_observed": 0.07
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.037809962513986065,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0246794566701837,
+            0.03252006182846951,
+            0.04502337133544632
+          ],
+          "fraction_mixed_tv_ge_observed": 0.278
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.025222576973920108,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0167907906498585,
+            0.025561587186269497,
+            0.03557120584298311
+          ],
+          "fraction_mixed_tv_ge_observed": 0.517
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.025222576973920108,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015384613551105384,
+            0.022917564112554807,
+            0.03192051824359249
+          ],
+          "fraction_mixed_tv_ge_observed": 0.327
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.025222576973920108,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019664096397884863,
+            0.028212209132331512,
+            0.03335928164845877
+          ],
+          "fraction_mixed_tv_ge_observed": 0.621
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.08065278898550461,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05640744548840362,
+            0.07157586903604884,
+            0.08747870881435446
+          ],
+          "fraction_mixed_tv_ge_observed": 0.188
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.08065278898550461,
+          "mixed_tv_quantiles_05_50_95": [
+            0.057323830933672076,
+            0.07416632080017788,
+            0.08860333410126679
+          ],
+          "fraction_mixed_tv_ge_observed": 0.246
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.08065278898550461,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05650277838015334,
+            0.07427916851230287,
+            0.09608515482783876
+          ],
+          "fraction_mixed_tv_ge_observed": 0.342
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.06071114492981126,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0405384983592316,
+            0.05122627231230821,
+            0.0629239499881019
+          ],
+          "fraction_mixed_tv_ge_observed": 0.102
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.06071114492981126,
+          "mixed_tv_quantiles_05_50_95": [
+            0.041646623026339376,
+            0.052534099046935345,
+            0.06284805172798077
+          ],
+          "fraction_mixed_tv_ge_observed": 0.093
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.06071114492981126,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04400228686365702,
+            0.05353540471644804,
+            0.06664754350629971
+          ],
+          "fraction_mixed_tv_ge_observed": 0.111
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.044953293785440954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03282494995125119,
+            0.04166865115445787,
+            0.05069799905681293
+          ],
+          "fraction_mixed_tv_ge_observed": 0.288
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.044953293785440954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03295417867984265,
+            0.04317803189968765,
+            0.05133353454554461
+          ],
+          "fraction_mixed_tv_ge_observed": 0.338
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.044953293785440954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03751999747799903,
+            0.044953293785440926,
+            0.04858300796370213
+          ],
+          "fraction_mixed_tv_ge_observed": 0.414
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.10941896080693204,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08868572127629101,
+            0.10503504134678093,
+            0.12200291550209391
+          ],
+          "fraction_mixed_tv_ge_observed": 0.336
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.10941896080693204,
+          "mixed_tv_quantiles_05_50_95": [
+            0.09030277868174724,
+            0.10244186992043894,
+            0.11751617250479672
+          ],
+          "fraction_mixed_tv_ge_observed": 0.216
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.10941896080693204,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08663367505679057,
+            0.09859728116815827,
+            0.11718069523444853
+          ],
+          "fraction_mixed_tv_ge_observed": 0.21
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.06996306429837638,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0628785847781493,
+            0.07418826768918624,
+            0.08610806342094059
+          ],
+          "fraction_mixed_tv_ge_observed": 0.747
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.06996306429837638,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06358564217451629,
+            0.07332133225777229,
+            0.0828106471136668
+          ],
+          "fraction_mixed_tv_ge_observed": 0.718
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.06996306429837638,
+          "mixed_tv_quantiles_05_50_95": [
+            0.062027361294969524,
+            0.07111580879924059,
+            0.0800034765112096
+          ],
+          "fraction_mixed_tv_ge_observed": 0.609
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.05546362038827473,
+          "mixed_tv_quantiles_05_50_95": [
+            0.051744729331747154,
+            0.060701301457453366,
+            0.07015995185264291
+          ],
+          "fraction_mixed_tv_ge_observed": 0.831
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.05546362038827473,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05135380906223414,
+            0.059942918397911674,
+            0.0676917858024258
+          ],
+          "fraction_mixed_tv_ge_observed": 0.817
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.05546362038827473,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05279958325610167,
+            0.0579260840595054,
+            0.06371360053258432
+          ],
+          "fraction_mixed_tv_ge_observed": 0.799
+        }
+      ]
+    },
+    {
+      "name": "phe-NVT-20260916",
+      "source_trajectory_sha256": "0cbdb2b22a10447102073208236d4a483dd21d7390a78dd785bafbba2b00e8c1",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.034894022529429324,
+          "mixed_tv_quantiles_05_50_95": [
+            0.025414068687741424,
+            0.037882190649558285,
+            0.051842726145946455
+          ],
+          "fraction_mixed_tv_ge_observed": 0.638
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.034894022529429324,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02490641474305765,
+            0.03606915432207365,
+            0.04917621385777713
+          ],
+          "fraction_mixed_tv_ge_observed": 0.577
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.034894022529429324,
+          "mixed_tv_quantiles_05_50_95": [
+            0.024686426609061392,
+            0.03906248499343304,
+            0.04323867107904959
+          ],
+          "fraction_mixed_tv_ge_observed": 0.653
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.029340907452074894,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017624681561397137,
+            0.026197566768707315,
+            0.03643878962019159
+          ],
+          "fraction_mixed_tv_ge_observed": 0.321
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.029340907452074894,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017811205290534947,
+            0.025924548032241125,
+            0.03564495950596117
+          ],
+          "fraction_mixed_tv_ge_observed": 0.245
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.029340907452074894,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017949673020942036,
+            0.026579182247634402,
+            0.03331335851343629
+          ],
+          "fraction_mixed_tv_ge_observed": 0.208
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.017021692971374895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014688379727070777,
+            0.021851949732011253,
+            0.030060184867501127
+          ],
+          "fraction_mixed_tv_ge_observed": 0.844
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.017021692971374895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014153716787377929,
+            0.02132261498858499,
+            0.02899394268954694
+          ],
+          "fraction_mixed_tv_ge_observed": 0.823
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.017021692971374895,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01614858269302028,
+            0.021882056709896416,
+            0.026054075491969465
+          ],
+          "fraction_mixed_tv_ge_observed": 0.887
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.05918210160459867,
+          "mixed_tv_quantiles_05_50_95": [
+            0.047803736288269796,
+            0.060172566544964126,
+            0.07452125725322822
+          ],
+          "fraction_mixed_tv_ge_observed": 0.549
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.05918210160459867,
+          "mixed_tv_quantiles_05_50_95": [
+            0.045484860058402084,
+            0.057686116479977595,
+            0.07042992949395974
+          ],
+          "fraction_mixed_tv_ge_observed": 0.419
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.05918210160459867,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04216459246108739,
+            0.0577735556061909,
+            0.07172194128908524
+          ],
+          "fraction_mixed_tv_ge_observed": 0.487
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.04579824024575815,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03399080991661625,
+            0.04206467990061244,
+            0.0522983809752575
+          ],
+          "fraction_mixed_tv_ge_observed": 0.255
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.04579824024575815,
+          "mixed_tv_quantiles_05_50_95": [
+            0.032051237532707166,
+            0.04097379565274395,
+            0.0505298527388264
+          ],
+          "fraction_mixed_tv_ge_observed": 0.175
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.04579824024575815,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0330065968951366,
+            0.03882384147887279,
+            0.049247520796146894
+          ],
+          "fraction_mixed_tv_ge_observed": 0.151
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.035698229571487945,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02723413466623775,
+            0.03457077596996391,
+            0.042691038393820574
+          ],
+          "fraction_mixed_tv_ge_observed": 0.389
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.035698229571487945,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02563567156334968,
+            0.033335696132390596,
+            0.04111132705553934
+          ],
+          "fraction_mixed_tv_ge_observed": 0.305
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.035698229571487945,
+          "mixed_tv_quantiles_05_50_95": [
+            0.024621016202256697,
+            0.03271398808416521,
+            0.03882376481745681
+          ],
+          "fraction_mixed_tv_ge_observed": 0.279
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.08897143142392845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07503089064974076,
+            0.08717405813039017,
+            0.1006064445289884
+          ],
+          "fraction_mixed_tv_ge_observed": 0.409
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.08897143142392845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07308349554889106,
+            0.08536630633549898,
+            0.0978009049018425
+          ],
+          "fraction_mixed_tv_ge_observed": 0.306
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.08897143142392845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06594502200960027,
+            0.08424173465616551,
+            0.0979400941566202
+          ],
+          "fraction_mixed_tv_ge_observed": 0.388
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.07518322096642341,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05255274685149275,
+            0.06180046357825954,
+            0.07146167164406837
+          ],
+          "fraction_mixed_tv_ge_observed": 0.013
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.07518322096642341,
+          "mixed_tv_quantiles_05_50_95": [
+            0.051776834557034426,
+            0.060563342378253934,
+            0.06975128160969701
+          ],
+          "fraction_mixed_tv_ge_observed": 0.001
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.07518322096642341,
+          "mixed_tv_quantiles_05_50_95": [
+            0.048915006199916594,
+            0.05992928668907363,
+            0.06996882200884269
+          ],
+          "fraction_mixed_tv_ge_observed": 0.0
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.05443627777006944,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04258858304240621,
+            0.05035171801414061,
+            0.05808828543883212
+          ],
+          "fraction_mixed_tv_ge_observed": 0.197
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.05443627777006944,
+          "mixed_tv_quantiles_05_50_95": [
+            0.041472636571129956,
+            0.04941891932369227,
+            0.05731663153778614
+          ],
+          "fraction_mixed_tv_ge_observed": 0.113
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.05443627777006944,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03744052307702779,
+            0.04720291067610659,
+            0.05527137054014858
+          ],
+          "fraction_mixed_tv_ge_observed": 0.19
+        }
+      ]
+    },
+    {
+      "name": "phe-NPT-20260916",
+      "source_trajectory_sha256": "9158415ea14da7247e55e7b981b1e389d8bca1613e01153c7a750c0febf5609c",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.029134951178025958,
+          "mixed_tv_quantiles_05_50_95": [
+            0.024471855482004225,
+            0.03714310088920132,
+            0.05150253826527686
+          ],
+          "fraction_mixed_tv_ge_observed": 0.828
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.029134951178025958,
+          "mixed_tv_quantiles_05_50_95": [
+            0.024855319825511944,
+            0.038550957762244875,
+            0.054872005072407234
+          ],
+          "fraction_mixed_tv_ge_observed": 0.845
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.029134951178025958,
+          "mixed_tv_quantiles_05_50_95": [
+            0.022712240663000077,
+            0.041801746278923635,
+            0.056592075899704074
+          ],
+          "fraction_mixed_tv_ge_observed": 0.945
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.026178507632450825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01736915478011932,
+            0.025988577385291214,
+            0.036446981452803735
+          ],
+          "fraction_mixed_tv_ge_observed": 0.491
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.026178507632450825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.018086064031507296,
+            0.027698866176716977,
+            0.038502792122412324
+          ],
+          "fraction_mixed_tv_ge_observed": 0.596
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.026178507632450825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.021048746128641938,
+            0.02889111853503405,
+            0.03633203807117673
+          ],
+          "fraction_mixed_tv_ge_observed": 0.745
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.02654497970982228,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01430997467794698,
+            0.0211057524853172,
+            0.029360602981112295
+          ],
+          "fraction_mixed_tv_ge_observed": 0.127
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.02654497970982228,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014395443837179726,
+            0.02266058406383512,
+            0.03189473234606779
+          ],
+          "fraction_mixed_tv_ge_observed": 0.214
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.02654497970982228,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017766790221900523,
+            0.025115068073623802,
+            0.02875695470632192
+          ],
+          "fraction_mixed_tv_ge_observed": 0.297
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.0619108807210691,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04864301896259581,
+            0.060347529900123896,
+            0.07343963006582863
+          ],
+          "fraction_mixed_tv_ge_observed": 0.439
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.0619108807210691,
+          "mixed_tv_quantiles_05_50_95": [
+            0.047043033380032795,
+            0.05934877802991754,
+            0.07183424546635792
+          ],
+          "fraction_mixed_tv_ge_observed": 0.368
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.0619108807210691,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05595656467511041,
+            0.06302609694406279,
+            0.07515236039326499
+          ],
+          "fraction_mixed_tv_ge_observed": 0.597
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.04486006562996413,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03459666099894098,
+            0.042846865479012654,
+            0.05237198089422643
+          ],
+          "fraction_mixed_tv_ge_observed": 0.373
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.04486006562996413,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03257592998605252,
+            0.04142172772846102,
+            0.05007339469607169
+          ],
+          "fraction_mixed_tv_ge_observed": 0.273
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.04486006562996413,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03834782440798199,
+            0.04495969307663042,
+            0.05170901557167322
+          ],
+          "fraction_mixed_tv_ge_observed": 0.521
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.034195918342766876,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028072806191925474,
+            0.03522575587902581,
+            0.042723886300884875
+          ],
+          "fraction_mixed_tv_ge_observed": 0.596
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.034195918342766876,
+          "mixed_tv_quantiles_05_50_95": [
+            0.026708181668543194,
+            0.03414458815212167,
+            0.041237934378633316
+          ],
+          "fraction_mixed_tv_ge_observed": 0.483
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.034195918342766876,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028544213961240468,
+            0.03549333191912039,
+            0.04353748180448679
+          ],
+          "fraction_mixed_tv_ge_observed": 0.692
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07734187982435645,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07432132171137526,
+            0.08668877909185523,
+            0.10049684875071618
+          ],
+          "fraction_mixed_tv_ge_observed": 0.886
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07734187982435645,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0736612266039024,
+            0.08496601527019529,
+            0.09879625469630698
+          ],
+          "fraction_mixed_tv_ge_observed": 0.87
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07734187982435645,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07734187982435645,
+            0.08838082806459865,
+            0.10343870363126001
+          ],
+          "fraction_mixed_tv_ge_observed": 1.0
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.05595870865968504,
+          "mixed_tv_quantiles_05_50_95": [
+            0.052869156914743906,
+            0.061584081094012574,
+            0.07176903599451552
+          ],
+          "fraction_mixed_tv_ge_observed": 0.842
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.05595870865968504,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05192573572181334,
+            0.06071406751838852,
+            0.06951747655159148
+          ],
+          "fraction_mixed_tv_ge_observed": 0.804
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.05595870865968504,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05477130685748117,
+            0.06295621113007281,
+            0.0723363286101812
+          ],
+          "fraction_mixed_tv_ge_observed": 0.901
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.0582675367447302,
+          "mixed_tv_quantiles_05_50_95": [
+            0.042810656673230266,
+            0.05030414518966589,
+            0.05833175906399539
+          ],
+          "fraction_mixed_tv_ge_observed": 0.053
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.0582675367447302,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04249799543870637,
+            0.049569183425564524,
+            0.05670295790848046
+          ],
+          "fraction_mixed_tv_ge_observed": 0.019
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.0582675367447302,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04770181512617519,
+            0.050216057382740376,
+            0.0582675367447302
+          ],
+          "fraction_mixed_tv_ge_observed": 0.096
+        }
+      ]
+    },
+    {
+      "name": "gly-NVT-20260917",
+      "source_trajectory_sha256": "d78be6b939f0dbd695639e620cc3d4badeb59d7ce24d0136c87d95b6b6062e49",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.041233372421165745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02775123058069607,
+            0.04115595353545393,
+            0.05719005820690315
+          ],
+          "fraction_mixed_tv_ge_observed": 0.493
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.041233372421165745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.026803875747150718,
+            0.039382386643235026,
+            0.05589164474267598
+          ],
+          "fraction_mixed_tv_ge_observed": 0.396
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.041233372421165745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.030231142843571757,
+            0.03965188885266536,
+            0.056290675055568305
+          ],
+          "fraction_mixed_tv_ge_observed": 0.426
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.022962902364324158,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019730811722222588,
+            0.029847637446911525,
+            0.040805714935690365
+          ],
+          "fraction_mixed_tv_ge_observed": 0.86
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.022962902364324158,
+          "mixed_tv_quantiles_05_50_95": [
+            0.018780335472637695,
+            0.027468646227007273,
+            0.03964025805677562
+          ],
+          "fraction_mixed_tv_ge_observed": 0.785
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.022962902364324158,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01816203084456231,
+            0.02834424541818052,
+            0.03995084189547019
+          ],
+          "fraction_mixed_tv_ge_observed": 0.797
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.020479019334607062,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015933068643136844,
+            0.024169050699542272,
+            0.03296955076228142
+          ],
+          "fraction_mixed_tv_ge_observed": 0.763
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.020479019334607062,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01512391221439393,
+            0.022731085116115813,
+            0.03157073150414298
+          ],
+          "fraction_mixed_tv_ge_observed": 0.677
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.020479019334607062,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017353882398599356,
+            0.020479019334607072,
+            0.03237399151369739
+          ],
+          "fraction_mixed_tv_ge_observed": 0.525
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.09768417941360621,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0550995449611018,
+            0.06942292661938373,
+            0.08745510245231547
+          ],
+          "fraction_mixed_tv_ge_observed": 0.003
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.09768417941360621,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05558995325161999,
+            0.07148917081306229,
+            0.09014505605558679
+          ],
+          "fraction_mixed_tv_ge_observed": 0.007
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.09768417941360621,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06543288070072002,
+            0.07819319325417648,
+            0.09768417941360621
+          ],
+          "fraction_mixed_tv_ge_observed": 0.068
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.06860429612111801,
+          "mixed_tv_quantiles_05_50_95": [
+            0.038571799946841484,
+            0.04951823062979494,
+            0.06069923229246669
+          ],
+          "fraction_mixed_tv_ge_observed": 0.005
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.06860429612111801,
+          "mixed_tv_quantiles_05_50_95": [
+            0.038974084055486004,
+            0.05025013337304236,
+            0.06337842747355722
+          ],
+          "fraction_mixed_tv_ge_observed": 0.01
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.06860429612111801,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04192441573596694,
+            0.05474208302560193,
+            0.06860429612111804
+          ],
+          "fraction_mixed_tv_ge_observed": 0.063
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.04895445154063954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03195477993946111,
+            0.0402453082682909,
+            0.04906089337884316
+          ],
+          "fraction_mixed_tv_ge_observed": 0.051
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.04895445154063954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03172058411252332,
+            0.0408136474986383,
+            0.050704492320049595
+          ],
+          "fraction_mixed_tv_ge_observed": 0.084
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.04895445154063954,
+          "mixed_tv_quantiles_05_50_95": [
+            0.037484603871450965,
+            0.04338839451378151,
+            0.05801367265414006
+          ],
+          "fraction_mixed_tv_ge_observed": 0.296
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.11539831918439734,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0856424541429198,
+            0.09988231722268101,
+            0.11731588566925191
+          ],
+          "fraction_mixed_tv_ge_observed": 0.071
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.11539831918439734,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08513550542880041,
+            0.10238101804378771,
+            0.11932708759654974
+          ],
+          "fraction_mixed_tv_ge_observed": 0.129
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.11539831918439734,
+          "mixed_tv_quantiles_05_50_95": [
+            0.09411399734979087,
+            0.11276679958858128,
+            0.12248234326733531
+          ],
+          "fraction_mixed_tv_ge_observed": 0.388
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.08400674175831478,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06032653168477065,
+            0.07120850438601115,
+            0.08218381008573636
+          ],
+          "fraction_mixed_tv_ge_observed": 0.032
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.08400674175831478,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0594590201003445,
+            0.07218167209664517,
+            0.08462803037115058
+          ],
+          "fraction_mixed_tv_ge_observed": 0.063
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.08400674175831478,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06993749767105033,
+            0.07743780994500062,
+            0.08456329316339428
+          ],
+          "fraction_mixed_tv_ge_observed": 0.085
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.05944236915518007,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04942268229820228,
+            0.05776862543287441,
+            0.06667140253160424
+          ],
+          "fraction_mixed_tv_ge_observed": 0.372
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.05944236915518007,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04890102068132504,
+            0.059111817322374874,
+            0.06899227555053727
+          ],
+          "fraction_mixed_tv_ge_observed": 0.481
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.05944236915518007,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0586310388812761,
+            0.06390266385462628,
+            0.07005276721988744
+          ],
+          "fraction_mixed_tv_ge_observed": 0.803
+        }
+      ]
+    },
+    {
+      "name": "gly-NPT-20260917",
+      "source_trajectory_sha256": "8e4607aba72db283e719dc1e6b2cc70283b7bc14cb91eb017901f5457cea8a92",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.052516038605422775,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02680819168945291,
+            0.041961686078498844,
+            0.058080730983124516
+          ],
+          "fraction_mixed_tv_ge_observed": 0.129
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.052516038605422775,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027697572563615994,
+            0.04337640854852237,
+            0.061355902185056106
+          ],
+          "fraction_mixed_tv_ge_observed": 0.19
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.052516038605422775,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02941429807402225,
+            0.04544740835679934,
+            0.06509644321764804
+          ],
+          "fraction_mixed_tv_ge_observed": 0.333
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.03861615838698348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019505388561652945,
+            0.02983901694174304,
+            0.04146583655540179
+          ],
+          "fraction_mixed_tv_ge_observed": 0.095
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.03861615838698348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019597087326477507,
+            0.02979764364132103,
+            0.041774090868231716
+          ],
+          "fraction_mixed_tv_ge_observed": 0.117
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.03861615838698348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.023298183563746046,
+            0.033949924026235666,
+            0.04504016088940836
+          ],
+          "fraction_mixed_tv_ge_observed": 0.168
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.02547257527265273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015938025061980932,
+            0.024364440231137607,
+            0.03397887490607206
+          ],
+          "fraction_mixed_tv_ge_observed": 0.411
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.02547257527265273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016288524185725267,
+            0.024886614771135955,
+            0.03454450548043045
+          ],
+          "fraction_mixed_tv_ge_observed": 0.451
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.02547257527265273,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0214637637605742,
+            0.028113601726945308,
+            0.03223721900577935
+          ],
+          "fraction_mixed_tv_ge_observed": 0.711
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07783239434607436,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05448046138657783,
+            0.06960371218179834,
+            0.08453579444996236
+          ],
+          "fraction_mixed_tv_ge_observed": 0.18
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07783239434607436,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0562057360314323,
+            0.07055112622163057,
+            0.08523992832387403
+          ],
+          "fraction_mixed_tv_ge_observed": 0.199
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07783239434607436,
+          "mixed_tv_quantiles_05_50_95": [
+            0.060997571925808264,
+            0.07474658376382327,
+            0.09373864859944214
+          ],
+          "fraction_mixed_tv_ge_observed": 0.333
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.04337019329557308,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03904431867108429,
+            0.049253562621408044,
+            0.05969787282623834
+          ],
+          "fraction_mixed_tv_ge_observed": 0.815
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.04337019329557308,
+          "mixed_tv_quantiles_05_50_95": [
+            0.040563794075130555,
+            0.049368357367795414,
+            0.05913797241468195
+          ],
+          "fraction_mixed_tv_ge_observed": 0.861
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.04337019329557308,
+          "mixed_tv_quantiles_05_50_95": [
+            0.043467157924444326,
+            0.051876634843958484,
+            0.06300184923634049
+          ],
+          "fraction_mixed_tv_ge_observed": 0.969
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.0379970726387771,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03217660436901933,
+            0.04028624564466529,
+            0.049228650820786486
+          ],
+          "fraction_mixed_tv_ge_observed": 0.659
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.0379970726387771,
+          "mixed_tv_quantiles_05_50_95": [
+            0.033263813583616554,
+            0.04068430075858703,
+            0.048589619936492384
+          ],
+          "fraction_mixed_tv_ge_observed": 0.735
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.0379970726387771,
+          "mixed_tv_quantiles_05_50_95": [
+            0.036573405157978196,
+            0.04288008867833428,
+            0.05315941509836063
+          ],
+          "fraction_mixed_tv_ge_observed": 0.81
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.1051372452038663,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08716137342455699,
+            0.10277067437766653,
+            0.11826207033354634
+          ],
+          "fraction_mixed_tv_ge_observed": 0.395
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.1051372452038663,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08639422225360019,
+            0.10172369752331471,
+            0.11562642527967919
+          ],
+          "fraction_mixed_tv_ge_observed": 0.348
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.1051372452038663,
+          "mixed_tv_quantiles_05_50_95": [
+            0.09900226127965236,
+            0.10726598613442796,
+            0.1291575306570937
+          ],
+          "fraction_mixed_tv_ge_observed": 0.663
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.08314939920892957,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06233924647088791,
+            0.07255087075300903,
+            0.08366886960676245
+          ],
+          "fraction_mixed_tv_ge_observed": 0.063
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.08314939920892957,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06194307761944675,
+            0.07131614513906294,
+            0.08276408784484217
+          ],
+          "fraction_mixed_tv_ge_observed": 0.042
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.08314939920892957,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07009964244233499,
+            0.07620594393076913,
+            0.0867105576912016
+          ],
+          "fraction_mixed_tv_ge_observed": 0.148
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.0661442211865246,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05108178983938301,
+            0.05926997051301751,
+            0.06815041494455819
+          ],
+          "fraction_mixed_tv_ge_observed": 0.116
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.0661442211865246,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05082923898304203,
+            0.05824416028952238,
+            0.06756695854563634
+          ],
+          "fraction_mixed_tv_ge_observed": 0.08
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.0661442211865246,
+          "mixed_tv_quantiles_05_50_95": [
+            0.056724869464720634,
+            0.06269953274137172,
+            0.06914995060553951
+          ],
+          "fraction_mixed_tv_ge_observed": 0.386
+        }
+      ]
+    },
+    {
+      "name": "phe-NVT-20260917",
+      "source_trajectory_sha256": "9158dc3767025e09effdcce6060c50465a4106e730662435728890832f30b4f2",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.05519372202845278,
+          "mixed_tv_quantiles_05_50_95": [
+            0.023434133421960313,
+            0.03612680103172043,
+            0.050370730099372985
+          ],
+          "fraction_mixed_tv_ge_observed": 0.014
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.05519372202845278,
+          "mixed_tv_quantiles_05_50_95": [
+            0.023335873340131923,
+            0.03725125108619076,
+            0.05462700692204224
+          ],
+          "fraction_mixed_tv_ge_observed": 0.041
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.05519372202845278,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02655520481641378,
+            0.037858021781739595,
+            0.0575635508108594
+          ],
+          "fraction_mixed_tv_ge_observed": 0.132
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.03114556828922339,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017109966197923113,
+            0.025267713861954484,
+            0.0359495850266348
+          ],
+          "fraction_mixed_tv_ge_observed": 0.183
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.03114556828922339,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01670591583864914,
+            0.02633957748721595,
+            0.038342005530662984
+          ],
+          "fraction_mixed_tv_ge_observed": 0.254
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.03114556828922339,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016972691097345942,
+            0.02746861707906397,
+            0.03896010205275374
+          ],
+          "fraction_mixed_tv_ge_observed": 0.309
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.024436313145038625,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014060753850540755,
+            0.02075331468244418,
+            0.02935665721862091
+          ],
+          "fraction_mixed_tv_ge_observed": 0.204
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.024436313145038625,
+          "mixed_tv_quantiles_05_50_95": [
+            0.013910964832303805,
+            0.021218688123788375,
+            0.030598513845205122
+          ],
+          "fraction_mixed_tv_ge_observed": 0.293
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.024436313145038625,
+          "mixed_tv_quantiles_05_50_95": [
+            0.013362877180459892,
+            0.022667104985098656,
+            0.03436181537469582
+          ],
+          "fraction_mixed_tv_ge_observed": 0.29
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07280969350459689,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04728064747042332,
+            0.05906122074898331,
+            0.07365815714324847
+          ],
+          "fraction_mixed_tv_ge_observed": 0.059
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07280969350459689,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04777956562590621,
+            0.06001737551965185,
+            0.07201775498056291
+          ],
+          "fraction_mixed_tv_ge_observed": 0.037
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07280969350459689,
+          "mixed_tv_quantiles_05_50_95": [
+            0.050985338505233964,
+            0.0616235615048812,
+            0.07453550647628265
+          ],
+          "fraction_mixed_tv_ge_observed": 0.195
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.04501121615769163,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03364614953166854,
+            0.0416850837111646,
+            0.051536319799291075
+          ],
+          "fraction_mixed_tv_ge_observed": 0.285
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.04501121615769163,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03354596835064238,
+            0.042691804242421014,
+            0.05124036164804874
+          ],
+          "fraction_mixed_tv_ge_observed": 0.317
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.04501121615769163,
+          "mixed_tv_quantiles_05_50_95": [
+            0.031720207537723685,
+            0.0439502415030493,
+            0.053302222625746486
+          ],
+          "fraction_mixed_tv_ge_observed": 0.366
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.03917502108566094,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027048834501504186,
+            0.034313192636017176,
+            0.04281604505784017
+          ],
+          "fraction_mixed_tv_ge_observed": 0.157
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.03917502108566094,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02701254050716287,
+            0.03447113330983688,
+            0.04086287145730064
+          ],
+          "fraction_mixed_tv_ge_observed": 0.112
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.03917502108566094,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02634102188927938,
+            0.037122452123405064,
+            0.043637683398155075
+          ],
+          "fraction_mixed_tv_ge_observed": 0.135
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.09856148788304837,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07189538544590539,
+            0.0840879815480441,
+            0.09872086888964961
+          ],
+          "fraction_mixed_tv_ge_observed": 0.053
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.09856148788304837,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07587216476444106,
+            0.0872274755250074,
+            0.10011708351591576
+          ],
+          "fraction_mixed_tv_ge_observed": 0.084
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.09856148788304837,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07737943373529141,
+            0.0940891861904079,
+            0.10312402561681491
+          ],
+          "fraction_mixed_tv_ge_observed": 0.263
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.06501244909827276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05094082051105309,
+            0.05970103199681417,
+            0.06926230617775904
+          ],
+          "fraction_mixed_tv_ge_observed": 0.179
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.06501244909827276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05306459401932679,
+            0.061388138227619224,
+            0.07118390382608063
+          ],
+          "fraction_mixed_tv_ge_observed": 0.258
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.06501244909827276,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06020621031829105,
+            0.06650219541985943,
+            0.07318482947765602
+          ],
+          "fraction_mixed_tv_ge_observed": 0.643
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.05314686542267646,
+          "mixed_tv_quantiles_05_50_95": [
+            0.041272678605316554,
+            0.04898954931178706,
+            0.05656171026322446
+          ],
+          "fraction_mixed_tv_ge_observed": 0.199
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.05314686542267646,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04226640906518062,
+            0.05061054903738256,
+            0.05691112868833441
+          ],
+          "fraction_mixed_tv_ge_observed": 0.234
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.05314686542267646,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05111424296362803,
+            0.05314686542267648,
+            0.06194685594324408
+          ],
+          "fraction_mixed_tv_ge_observed": 0.516
+        }
+      ]
+    },
+    {
+      "name": "phe-NPT-20260917",
+      "source_trajectory_sha256": "e7e8e22a36ef86c44d1e36354f7d6480a3b651352187839f73907dd99254d857",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.036146547739551296,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02368661130381244,
+            0.035480982010722306,
+            0.04888614264549519
+          ],
+          "fraction_mixed_tv_ge_observed": 0.463
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.036146547739551296,
+          "mixed_tv_quantiles_05_50_95": [
+            0.022789193997031113,
+            0.03416351631315346,
+            0.047969922990600905
+          ],
+          "fraction_mixed_tv_ge_observed": 0.397
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.036146547739551296,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017629090765864643,
+            0.036146547739551296,
+            0.05182787474066819
+          ],
+          "fraction_mixed_tv_ge_observed": 0.542
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.018231089082850226,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016838565637370073,
+            0.024849101805795124,
+            0.034084077067414634
+          ],
+          "fraction_mixed_tv_ge_observed": 0.912
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.018231089082850226,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016313985387209427,
+            0.024599065468498587,
+            0.03267217914212416
+          ],
+          "fraction_mixed_tv_ge_observed": 0.895
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.018231089082850226,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01759824409957016,
+            0.02546112427181326,
+            0.03515208434660346
+          ],
+          "fraction_mixed_tv_ge_observed": 0.926
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.015048713971525745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.013602873070908834,
+            0.02054342034840705,
+            0.02858470300393218
+          ],
+          "fraction_mixed_tv_ge_observed": 0.894
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.015048713971525745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.013420687501359817,
+            0.019992854284004123,
+            0.02704332533429875
+          ],
+          "fraction_mixed_tv_ge_observed": 0.876
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.015048713971525745,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015048713971525785,
+            0.020231623527723848,
+            0.028440034091602916
+          ],
+          "fraction_mixed_tv_ge_observed": 1.0
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.06669278279479153,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04734701731346604,
+            0.06091745144778922,
+            0.07674889868412707
+          ],
+          "fraction_mixed_tv_ge_observed": 0.267
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.06669278279479153,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04889634171796203,
+            0.06304237406024857,
+            0.08041260215816433
+          ],
+          "fraction_mixed_tv_ge_observed": 0.353
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.06669278279479153,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05445418209159561,
+            0.06956272663006265,
+            0.09102744714915112
+          ],
+          "fraction_mixed_tv_ge_observed": 0.577
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.04118017059327825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0334332634244888,
+            0.04281399963907301,
+            0.05390447822207237
+          ],
+          "fraction_mixed_tv_ge_observed": 0.601
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.04118017059327825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.033455281288578206,
+            0.04512956872021683,
+            0.05619327605321234
+          ],
+          "fraction_mixed_tv_ge_observed": 0.714
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.04118017059327825,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03936899897508283,
+            0.04929170760059583,
+            0.06340366607500522
+          ],
+          "fraction_mixed_tv_ge_observed": 0.868
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.044742892915051104,
+          "mixed_tv_quantiles_05_50_95": [
+            0.026733811494119967,
+            0.035396439717842884,
+            0.044160005046329526
+          ],
+          "fraction_mixed_tv_ge_observed": 0.037
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.044742892915051104,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02817978447172407,
+            0.03657648277919605,
+            0.04682612279339932
+          ],
+          "fraction_mixed_tv_ge_observed": 0.096
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.044742892915051104,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028801321430591525,
+            0.04259493366074382,
+            0.050692366675588685
+          ],
+          "fraction_mixed_tv_ge_observed": 0.296
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.08835612843769759,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07309979696454764,
+            0.08728086966411473,
+            0.10166560632803118
+          ],
+          "fraction_mixed_tv_ge_observed": 0.447
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.08835612843769759,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07489667665772583,
+            0.08771282468786079,
+            0.10309665304680037
+          ],
+          "fraction_mixed_tv_ge_observed": 0.463
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.08835612843769759,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0790709485800012,
+            0.08935404290951954,
+            0.11155880077240915
+          ],
+          "fraction_mixed_tv_ge_observed": 0.698
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.059294546134557535,
+          "mixed_tv_quantiles_05_50_95": [
+            0.052573842745679,
+            0.06209977408284739,
+            0.07157362954421637
+          ],
+          "fraction_mixed_tv_ge_observed": 0.675
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.059294546134557535,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05284192056694056,
+            0.06211189506884135,
+            0.07199565048801448
+          ],
+          "fraction_mixed_tv_ge_observed": 0.667
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.059294546134557535,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05665883842005782,
+            0.06354215655707592,
+            0.07675723681242543
+          ],
+          "fraction_mixed_tv_ge_observed": 0.73
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.05996689548154576,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04268323657203528,
+            0.05062099381318406,
+            0.05914721145725746
+          ],
+          "fraction_mixed_tv_ge_observed": 0.036
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.05996689548154576,
+          "mixed_tv_quantiles_05_50_95": [
+            0.042819217094052044,
+            0.050777242305506586,
+            0.058941099573783406
+          ],
+          "fraction_mixed_tv_ge_observed": 0.031
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.05996689548154576,
+          "mixed_tv_quantiles_05_50_95": [
+            0.043402822191676654,
+            0.053235670605908766,
+            0.06059637479372746
+          ],
+          "fraction_mixed_tv_ge_observed": 0.197
+        }
+      ]
+    },
+    {
+      "name": "gly-NVT-20260918",
+      "source_trajectory_sha256": "9a09241698cad0dfedf22d874b75c7795f7befa0c41642d666234140e85d780e",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.04479718958279326,
+          "mixed_tv_quantiles_05_50_95": [
+            0.025804199516584525,
+            0.03970816639946559,
+            0.054037032083471194
+          ],
+          "fraction_mixed_tv_ge_observed": 0.283
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.04479718958279326,
+          "mixed_tv_quantiles_05_50_95": [
+            0.029725991843628286,
+            0.044122011930778415,
+            0.06127126565378134
+          ],
+          "fraction_mixed_tv_ge_observed": 0.475
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.04479718958279326,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015307622928030284,
+            0.03677299703731604,
+            0.05369159109521957
+          ],
+          "fraction_mixed_tv_ge_observed": 0.212
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.03571998046209416,
+          "mixed_tv_quantiles_05_50_95": [
+            0.018624239056454328,
+            0.028096827142450577,
+            0.038172483774620763
+          ],
+          "fraction_mixed_tv_ge_observed": 0.109
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.03571998046209416,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01942319255575518,
+            0.030503679492215486,
+            0.0434868452566848
+          ],
+          "fraction_mixed_tv_ge_observed": 0.246
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.03571998046209416,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016794484827657996,
+            0.023595223903498146,
+            0.03765557028791615
+          ],
+          "fraction_mixed_tv_ge_observed": 0.086
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.018603592940081747,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014982978986750195,
+            0.022899976533364445,
+            0.031449927590923896
+          ],
+          "fraction_mixed_tv_ge_observed": 0.799
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.018603592940081747,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016306278063037586,
+            0.025023847181606704,
+            0.034509741894439304
+          ],
+          "fraction_mixed_tv_ge_observed": 0.838
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.018603592940081747,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015462924635341352,
+            0.01873823380341617,
+            0.03280513402478811
+          ],
+          "fraction_mixed_tv_ge_observed": 0.561
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.08100461210058722,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05552046398507725,
+            0.07142661633373325,
+            0.0871098765779448
+          ],
+          "fraction_mixed_tv_ge_observed": 0.142
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.08100461210058722,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0601504437638339,
+            0.07322073158917039,
+            0.08850806514889357
+          ],
+          "fraction_mixed_tv_ge_observed": 0.19
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.08100461210058722,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06049718170915615,
+            0.06972233771325255,
+            0.08490421394120524
+          ],
+          "fraction_mixed_tv_ge_observed": 0.126
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.05678374362290865,
+          "mixed_tv_quantiles_05_50_95": [
+            0.039266960030422,
+            0.05043732167071796,
+            0.06137843686713461
+          ],
+          "fraction_mixed_tv_ge_observed": 0.164
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.05678374362290865,
+          "mixed_tv_quantiles_05_50_95": [
+            0.041937588430106885,
+            0.05173279164443819,
+            0.0625027115963062
+          ],
+          "fraction_mixed_tv_ge_observed": 0.216
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.05678374362290865,
+          "mixed_tv_quantiles_05_50_95": [
+            0.044886955470111956,
+            0.05097548594054125,
+            0.06228274706840903
+          ],
+          "fraction_mixed_tv_ge_observed": 0.165
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.04594085220730502,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03257843288219811,
+            0.041341364825722676,
+            0.05095646663164105
+          ],
+          "fraction_mixed_tv_ge_observed": 0.2
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.04594085220730502,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0326266997677257,
+            0.042837752719846384,
+            0.051122560889005866
+          ],
+          "fraction_mixed_tv_ge_observed": 0.251
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.04594085220730502,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03600537917047245,
+            0.04191063337069106,
+            0.049476639023847205
+          ],
+          "fraction_mixed_tv_ge_observed": 0.201
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.11065626357576823,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08882658869099254,
+            0.10402371054533499,
+            0.11937562322676051
+          ],
+          "fraction_mixed_tv_ge_observed": 0.254
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.11065626357576823,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08947433927143716,
+            0.1060321591395432,
+            0.12319115259455816
+          ],
+          "fraction_mixed_tv_ge_observed": 0.327
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.11065626357576823,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08632714920967693,
+            0.10380445730101606,
+            0.12716631125041236
+          ],
+          "fraction_mixed_tv_ge_observed": 0.385
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.08318936523072674,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06322707664113207,
+            0.07345906004834063,
+            0.08451085869853492
+          ],
+          "fraction_mixed_tv_ge_observed": 0.073
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.08318936523072674,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06331572317365938,
+            0.07495474644362776,
+            0.08695532820035873
+          ],
+          "fraction_mixed_tv_ge_observed": 0.116
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.08318936523072674,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06290747434908744,
+            0.07500141635996928,
+            0.08556487858422374
+          ],
+          "fraction_mixed_tv_ge_observed": 0.071
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.0680434581761348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05215627326013298,
+            0.06039111295605627,
+            0.06908625590145953
+          ],
+          "fraction_mixed_tv_ge_observed": 0.076
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.0680434581761348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.051528908167959436,
+            0.06142678264603967,
+            0.07063460852807113
+          ],
+          "fraction_mixed_tv_ge_observed": 0.129
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.0680434581761348,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04854152145611784,
+            0.0621962603101601,
+            0.06804345817613484
+          ],
+          "fraction_mixed_tv_ge_observed": 0.096
+        }
+      ]
+    },
+    {
+      "name": "gly-NPT-20260918",
+      "source_trajectory_sha256": "54b8c6b82d86cffc7d70413ce5e5c96ea791562355f18f426b9d3d7dfce84f17",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.04519895571150012,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027282880431687872,
+            0.04120054707084767,
+            0.057395624687682556
+          ],
+          "fraction_mixed_tv_ge_observed": 0.335
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.04519895571150012,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02803689321332806,
+            0.04061596630433391,
+            0.05856388085974812
+          ],
+          "fraction_mixed_tv_ge_observed": 0.313
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.04519895571150012,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02569123284168718,
+            0.03838897788905337,
+            0.04736423201654839
+          ],
+          "fraction_mixed_tv_ge_observed": 0.198
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.03505563432156526,
+          "mixed_tv_quantiles_05_50_95": [
+            0.020016779973776704,
+            0.02941184234416138,
+            0.04055740987553952
+          ],
+          "fraction_mixed_tv_ge_observed": 0.209
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.03505563432156526,
+          "mixed_tv_quantiles_05_50_95": [
+            0.019392506049360603,
+            0.028387850045871698,
+            0.041482210273458976
+          ],
+          "fraction_mixed_tv_ge_observed": 0.183
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.03505563432156526,
+          "mixed_tv_quantiles_05_50_95": [
+            0.020020884080203277,
+            0.02653901316153543,
+            0.03252158209136245
+          ],
+          "fraction_mixed_tv_ge_observed": 0.029
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.028541008425983914,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01648914157842924,
+            0.023759930090845486,
+            0.033084866711196204
+          ],
+          "fraction_mixed_tv_ge_observed": 0.203
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.028541008425983914,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015387497979710119,
+            0.023218720666915195,
+            0.03408353027266028
+          ],
+          "fraction_mixed_tv_ge_observed": 0.218
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.028541008425983914,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017559295005856287,
+            0.021185561370173238,
+            0.028541008425983873
+          ],
+          "fraction_mixed_tv_ge_observed": 0.0
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07476524760113262,
+          "mixed_tv_quantiles_05_50_95": [
+            0.056702763690742716,
+            0.07220567881829494,
+            0.08905087202479336
+          ],
+          "fraction_mixed_tv_ge_observed": 0.394
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07476524760113262,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05606041282856764,
+            0.07140023877626232,
+            0.0861505202925807
+          ],
+          "fraction_mixed_tv_ge_observed": 0.324
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07476524760113262,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05508406511271236,
+            0.07098280509874648,
+            0.08942249722737533
+          ],
+          "fraction_mixed_tv_ge_observed": 0.396
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.052731573796189785,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03948464105928659,
+            0.05071388824840055,
+            0.06379640766851827
+          ],
+          "fraction_mixed_tv_ge_observed": 0.41
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.052731573796189785,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03992915408905233,
+            0.049402877220674796,
+            0.05982941661670347
+          ],
+          "fraction_mixed_tv_ge_observed": 0.302
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.052731573796189785,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03815192278578603,
+            0.05156434831393014,
+            0.061546640820743195
+          ],
+          "fraction_mixed_tv_ge_observed": 0.497
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.041332096147188385,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03236812548480887,
+            0.041580822356136235,
+            0.051457558965936255
+          ],
+          "fraction_mixed_tv_ge_observed": 0.52
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.041332096147188385,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03220331610561203,
+            0.04027979148237174,
+            0.04996611250964033
+          ],
+          "fraction_mixed_tv_ge_observed": 0.424
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.041332096147188385,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028555822397409784,
+            0.0422131344928715,
+            0.048890524601216276
+          ],
+          "fraction_mixed_tv_ge_observed": 0.502
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.09788764717160854,
+          "mixed_tv_quantiles_05_50_95": [
+            0.08958550167575367,
+            0.10395219070678066,
+            0.12251144135439343
+          ],
+          "fraction_mixed_tv_ge_observed": 0.747
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.09788764717160854,
+          "mixed_tv_quantiles_05_50_95": [
+            0.09208289376453122,
+            0.10673342591869765,
+            0.12484112407208574
+          ],
+          "fraction_mixed_tv_ge_observed": 0.82
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.09788764717160854,
+          "mixed_tv_quantiles_05_50_95": [
+            0.09307682172680116,
+            0.1076296326398362,
+            0.1266664085209732
+          ],
+          "fraction_mixed_tv_ge_observed": 0.914
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.084575058012131,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06251052178100362,
+            0.07402390541636991,
+            0.08670527263318971
+          ],
+          "fraction_mixed_tv_ge_observed": 0.085
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.084575058012131,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06318510598740891,
+            0.07478765366862336,
+            0.0869748573055618
+          ],
+          "fraction_mixed_tv_ge_observed": 0.1
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.084575058012131,
+          "mixed_tv_quantiles_05_50_95": [
+            0.06459923627534073,
+            0.07678247418975065,
+            0.08457505801213099
+          ],
+          "fraction_mixed_tv_ge_observed": 0.045
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.06444304645610845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.050791849865613636,
+            0.0603380398463032,
+            0.0712299791584325
+          ],
+          "fraction_mixed_tv_ge_observed": 0.28
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.06444304645610845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.052182249849084796,
+            0.06170564376566422,
+            0.07111164824433443
+          ],
+          "fraction_mixed_tv_ge_observed": 0.328
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.06444304645610845,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04704873909332049,
+            0.06316769180720101,
+            0.0682019688818448
+          ],
+          "fraction_mixed_tv_ge_observed": 0.231
+        }
+      ]
+    },
+    {
+      "name": "phe-NVT-20260918",
+      "source_trajectory_sha256": "57b1be2ab2cedc62a7b0d4eb3f2e7cf821ca28d1e18c370f3e9fb7d9affea7b5",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.028964516059648244,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02471266674299202,
+            0.038192261881526426,
+            0.05451130000701214
+          ],
+          "fraction_mixed_tv_ge_observed": 0.876
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.028964516059648244,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027344111977083405,
+            0.040635360810516066,
+            0.05710013257126061
+          ],
+          "fraction_mixed_tv_ge_observed": 0.917
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.028964516059648244,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028964516059648244,
+            0.043281605168831616,
+            0.06476265435563347
+          ],
+          "fraction_mixed_tv_ge_observed": 1.0
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.014834067186063874,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017742165315710077,
+            0.02691792222796966,
+            0.037260064599902554
+          ],
+          "fraction_mixed_tv_ge_observed": 0.994
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.014834067186063874,
+          "mixed_tv_quantiles_05_50_95": [
+            0.018455862810178435,
+            0.028814534737287567,
+            0.040203754272586004
+          ],
+          "fraction_mixed_tv_ge_observed": 0.994
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.014834067186063874,
+          "mixed_tv_quantiles_05_50_95": [
+            0.021483405448029107,
+            0.030778836654229348,
+            0.04691115135226364
+          ],
+          "fraction_mixed_tv_ge_observed": 0.984
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.022971432447740824,
+          "mixed_tv_quantiles_05_50_95": [
+            0.014277946611154411,
+            0.021783536476503905,
+            0.031229219925552745
+          ],
+          "fraction_mixed_tv_ge_observed": 0.431
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.022971432447740824,
+          "mixed_tv_quantiles_05_50_95": [
+            0.015173789987543781,
+            0.02372814915768718,
+            0.03333067910585446
+          ],
+          "fraction_mixed_tv_ge_observed": 0.541
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.022971432447740824,
+          "mixed_tv_quantiles_05_50_95": [
+            0.018523378497066957,
+            0.025646215608675534,
+            0.04157245906401717
+          ],
+          "fraction_mixed_tv_ge_observed": 0.805
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.04803353983604551,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04675341590827964,
+            0.0599904949365952,
+            0.07499119519876993
+          ],
+          "fraction_mixed_tv_ge_observed": 0.931
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.04803353983604551,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04849182854144633,
+            0.06235399564000611,
+            0.07825632620170095
+          ],
+          "fraction_mixed_tv_ge_observed": 0.958
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.04803353983604551,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04554718505211764,
+            0.06502705492582957,
+            0.07796527756321252
+          ],
+          "fraction_mixed_tv_ge_observed": 0.937
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.03387860621760207,
+          "mixed_tv_quantiles_05_50_95": [
+            0.032928917179800954,
+            0.04239332892755801,
+            0.05250517101126018
+          ],
+          "fraction_mixed_tv_ge_observed": 0.925
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.03387860621760207,
+          "mixed_tv_quantiles_05_50_95": [
+            0.033891883650238847,
+            0.04404096014218965,
+            0.05507095401032688
+          ],
+          "fraction_mixed_tv_ge_observed": 0.95
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.03387860621760207,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03391240519186375,
+            0.04502209620203464,
+            0.059273644253378756
+          ],
+          "fraction_mixed_tv_ge_observed": 0.971
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.030221122040815937,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027067607253732664,
+            0.03461306543222069,
+            0.042627571015325126
+          ],
+          "fraction_mixed_tv_ge_observed": 0.821
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.030221122040815937,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0272851461395769,
+            0.03600295276983936,
+            0.04470818504700161
+          ],
+          "fraction_mixed_tv_ge_observed": 0.845
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.030221122040815937,
+          "mixed_tv_quantiles_05_50_95": [
+            0.030221122040815993,
+            0.0351942450932761,
+            0.05115003774826198
+          ],
+          "fraction_mixed_tv_ge_observed": 1.0
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07035983486194375,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07219242140913158,
+            0.08607763694810226,
+            0.10212049167627546
+          ],
+          "fraction_mixed_tv_ge_observed": 0.971
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07035983486194375,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07194267842477585,
+            0.08760411511715065,
+            0.10205124766757054
+          ],
+          "fraction_mixed_tv_ge_observed": 0.963
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07035983486194375,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05733467614403965,
+            0.08913212288801815,
+            0.10427672587088745
+          ],
+          "fraction_mixed_tv_ge_observed": 0.937
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.05270142551482175,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05050936592758269,
+            0.06079121164832274,
+            0.07129744552836563
+          ],
+          "fraction_mixed_tv_ge_observed": 0.899
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.05270142551482175,
+          "mixed_tv_quantiles_05_50_95": [
+            0.051215597623061306,
+            0.06191443653451623,
+            0.07189703588251477
+          ],
+          "fraction_mixed_tv_ge_observed": 0.922
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.05270142551482175,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0477189995188251,
+            0.058304844207389905,
+            0.07974037504273791
+          ],
+          "fraction_mixed_tv_ge_observed": 0.853
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.04322571219891049,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0411116033916579,
+            0.049736029800978035,
+            0.058469626429704526
+          ],
+          "fraction_mixed_tv_ge_observed": 0.89
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.04322571219891049,
+          "mixed_tv_quantiles_05_50_95": [
+            0.040891542907749726,
+            0.05023150972421095,
+            0.05880476387754475
+          ],
+          "fraction_mixed_tv_ge_observed": 0.898
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.04322571219891049,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04322571219891049,
+            0.046360744506150145,
+            0.06663917020358846
+          ],
+          "fraction_mixed_tv_ge_observed": 0.964
+        }
+      ]
+    },
+    {
+      "name": "phe-NPT-20260918",
+      "source_trajectory_sha256": "26fd3637e129a9eaf6095c84c29908184c047de0faead2d87a653e6c1044cf89",
+      "diagnostics": [
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.038546692582127784,
+          "mixed_tv_quantiles_05_50_95": [
+            0.023758925785463337,
+            0.03617507823834418,
+            0.05095289871669034
+          ],
+          "fraction_mixed_tv_ge_observed": 0.399
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.038546692582127784,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02343436858557973,
+            0.036524255732527044,
+            0.05275852015373026
+          ],
+          "fraction_mixed_tv_ge_observed": 0.422
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.038546692582127784,
+          "mixed_tv_quantiles_05_50_95": [
+            0.023603364876137983,
+            0.03702818600883487,
+            0.04668524883222556
+          ],
+          "fraction_mixed_tv_ge_observed": 0.318
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.026194016624702665,
+          "mixed_tv_quantiles_05_50_95": [
+            0.017657694931954574,
+            0.025948998824923252,
+            0.03563352996065914
+          ],
+          "fraction_mixed_tv_ge_observed": 0.473
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.026194016624702665,
+          "mixed_tv_quantiles_05_50_95": [
+            0.016513025506645112,
+            0.026546124568710548,
+            0.03775883979035637
+          ],
+          "fraction_mixed_tv_ge_observed": 0.521
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.026194016624702665,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01810315351012457,
+            0.02552077356055149,
+            0.03146194288692622
+          ],
+          "fraction_mixed_tv_ge_observed": 0.445
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.022555664115623056,
+          "mixed_tv_quantiles_05_50_95": [
+            0.013807194171872074,
+            0.021223082207295386,
+            0.02928247449673578
+          ],
+          "fraction_mixed_tv_ge_observed": 0.386
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.022555664115623056,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01331497919349852,
+            0.021674751488360487,
+            0.031210300721678498
+          ],
+          "fraction_mixed_tv_ge_observed": 0.427
+        },
+        {
+          "bins": 20,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.022555664115623056,
+          "mixed_tv_quantiles_05_50_95": [
+            0.01313999681106259,
+            0.021934671577951505,
+            0.024002676955464382
+          ],
+          "fraction_mixed_tv_ge_observed": 0.402
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.07313978368223883,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04875665852013654,
+            0.06173679635176244,
+            0.07483849545138109
+          ],
+          "fraction_mixed_tv_ge_observed": 0.073
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.07313978368223883,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04919591478084258,
+            0.06345729949558367,
+            0.07744009662448478
+          ],
+          "fraction_mixed_tv_ge_observed": 0.135
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.07313978368223883,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04724498455696427,
+            0.06703274262771536,
+            0.07737664558187228
+          ],
+          "fraction_mixed_tv_ge_observed": 0.186
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.0534510059898132,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03492251114374251,
+            0.04372141559550504,
+            0.05365894222975882
+          ],
+          "fraction_mixed_tv_ge_observed": 0.052
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.0534510059898132,
+          "mixed_tv_quantiles_05_50_95": [
+            0.03499891517715946,
+            0.045061158510486365,
+            0.05522365370795966
+          ],
+          "fraction_mixed_tv_ge_observed": 0.087
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.0534510059898132,
+          "mixed_tv_quantiles_05_50_95": [
+            0.033944823404724295,
+            0.0480954245517143,
+            0.054536383052227515
+          ],
+          "fraction_mixed_tv_ge_observed": 0.121
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.046185946719552666,
+          "mixed_tv_quantiles_05_50_95": [
+            0.02844861514110318,
+            0.035758382197630154,
+            0.04383838345482572
+          ],
+          "fraction_mixed_tv_ge_observed": 0.016
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.046185946719552666,
+          "mixed_tv_quantiles_05_50_95": [
+            0.028894183791848983,
+            0.03636703462106338,
+            0.045048487240690945
+          ],
+          "fraction_mixed_tv_ge_observed": 0.027
+        },
+        {
+          "bins": 50,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.046185946719552666,
+          "mixed_tv_quantiles_05_50_95": [
+            0.027036643220492384,
+            0.039206412222668255,
+            0.046185946719552576
+          ],
+          "fraction_mixed_tv_ge_observed": 0.0
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 100,
+          "observed_tv": 0.09542979362968179,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07509617775502922,
+            0.08692520139067261,
+            0.10087201289717723
+          ],
+          "fraction_mixed_tv_ge_observed": 0.157
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 250,
+          "observed_tv": 0.09542979362968179,
+          "mixed_tv_quantiles_05_50_95": [
+            0.07749141081230852,
+            0.0918767215594096,
+            0.10497991710924376
+          ],
+          "fraction_mixed_tv_ge_observed": 0.309
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 500,
+          "block_ps": 500,
+          "observed_tv": 0.09542979362968179,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0815947332483665,
+            0.09400803741046446,
+            0.1050470491233149
+          ],
+          "fraction_mixed_tv_ge_observed": 0.269
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 100,
+          "observed_tv": 0.0714163566310146,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05292441233789087,
+            0.06183220287375188,
+            0.071255930353973
+          ],
+          "fraction_mixed_tv_ge_observed": 0.048
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 250,
+          "observed_tv": 0.0714163566310146,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05626267623632547,
+            0.06476942307571906,
+            0.07590423445078456
+          ],
+          "fraction_mixed_tv_ge_observed": 0.154
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1000,
+          "block_ps": 500,
+          "observed_tv": 0.0714163566310146,
+          "mixed_tv_quantiles_05_50_95": [
+            0.05903332239279308,
+            0.06591246206854717,
+            0.07372127451685509
+          ],
+          "fraction_mixed_tv_ge_observed": 0.179
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 100,
+          "observed_tv": 0.0615357254478098,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04367362132631148,
+            0.050815371280436256,
+            0.05874791324065911
+          ],
+          "fraction_mixed_tv_ge_observed": 0.013
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 250,
+          "observed_tv": 0.0615357254478098,
+          "mixed_tv_quantiles_05_50_95": [
+            0.04617715430325365,
+            0.05272624961428698,
+            0.061943314472360206
+          ],
+          "fraction_mixed_tv_ge_observed": 0.054
+        },
+        {
+          "bins": 100,
+          "endpoint_window_ps": 1500,
+          "block_ps": 500,
+          "observed_tv": 0.0615357254478098,
+          "mixed_tv_quantiles_05_50_95": [
+            0.0487900620964049,
+            0.05354748520361094,
+            0.06153572544780981
+          ],
+          "fraction_mixed_tv_ge_observed": 0.096
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    "Endpoint windows compare first and last equal-duration portions of the same 3 ns trajectory.",
+    "Block mixing gives descriptive finite-sampling references, not p-values or a stationarity test.",
+    "Exchangeability and every tested dependence scale remain assumptions.",
+    "Coarsening mechanically cannot increase TV; it does not establish convergence.",
+    "All original 100-bin TV > 0.05 flags are retained; no fitted efficacy model."
+  ]
+}

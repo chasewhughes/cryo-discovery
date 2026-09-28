@@ -1,0 +1,768 @@
+{
+  "query": "(FIRST_PDATE:[1900-01-01 TO 2026-09-05]) AND (\"ice recrystallization\" OR \"ice nucleation\") AND (cryopreservation OR cryoprotectant)",
+  "retrieved_at": "2026-09-05",
+  "europe_pmc_hit_count": 100,
+  "europe_pmc_truncated": true,
+  "europe_pmc": [
+    {
+      "doi": "10.1002/advs.75947",
+      "title": "Lessons From Drug Discovery for Cryoprotective Agent Design: An AI-Oriented Perspective.",
+      "pubYear": "2026",
+      "pmid": "42272450",
+      "pmcid": "PMC13336916",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3389/fvets.2026.1797831",
+      "title": "Research progress on novel bionic cryoprotectants in gamete and embryo cryopreservation.",
+      "pubYear": "2026",
+      "pmid": "42078852",
+      "pmcid": "PMC13130884",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.fochx.2026.104140",
+      "title": "Bio-based trifunctional integration strategies for aquatic products during frozen storage: Synergistic mechanisms and perspectives.",
+      "pubYear": "2026",
+      "pmid": "42394676",
+      "pmcid": "PMC13324498",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119924",
+      "title": "Molecular mechanisms of antifreeze natural deep eutectic solvents in frozen food systems: Hydrogen-bond network and ice regulation.",
+      "pubYear": "2026",
+      "pmid": "42632679",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/bioengineering13050557",
+      "title": "Bridging the Gap in Cryopreservation: A Review of Cryoprotectant Innovation and Global Market Trends.",
+      "pubYear": "2026",
+      "pmid": "42194314",
+      "pmcid": "PMC13203093",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/adma.73464",
+      "title": "Bioinspired (Glyco)Polypeptides for Ice-Control and Cell Cryopreservation.",
+      "pubYear": "2026",
+      "pmid": "42281270",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.bioactmat.2025.12.053",
+      "title": "Antifreezing hydrogels for biomedical applications from design strategies to emerging multifunctionality.",
+      "pubYear": "2026",
+      "pmid": "41551757",
+      "pmcid": "PMC12805308",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.jtherbio.2025.104234",
+      "title": "Impact of nucleation temperature and hydroxyethyl starch on ice crystal growth: Implications for cell viability during extreme temperature fluctuations.",
+      "pubYear": "2025",
+      "pmid": "40912070",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105640",
+      "title": "External N-2-fluorophenyl-D-gluconamide does not affect zebrafish embryogenesis.",
+      "pubYear": "2026",
+      "pmid": "42127885",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.ejpb.2026.115168",
+      "title": "Systematic evaluation of cryopreservation parameters for natural killer cells in clinically relevant cyclic olefin polymer vials.",
+      "pubYear": "2026",
+      "pmid": "42364663",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1080/10717544.2026.2614101",
+      "title": "Cryopreservation technology for improving the stability of liposomes and its precise drug monitoring in clinical drug research.",
+      "pubYear": "2026",
+      "pmid": "41548121",
+      "pmcid": "PMC12818334",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acspolymersau.5c00151",
+      "title": "Cryopreservation of Avian Erythrocytes Using Macromolecular Cryoprotectants.",
+      "pubYear": "2026",
+      "pmid": "41693816",
+      "pmcid": "PMC12903467",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/ani16142191",
+      "title": "Current Advances in Cetacean Semen Cryopreservation and Their Application to Yangtze Finless Porpoise Conservation.",
+      "pubYear": "2026",
+      "pmid": "42511070",
+      "pmcid": "PMC13404353",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.exphem.2026.105873",
+      "title": "Evolution in the cryopreservation of hematopoietic stem cells.",
+      "pubYear": "2026",
+      "pmid": "42660306",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105627",
+      "title": "Electric fields for warming cryopreserved tissue.",
+      "pubYear": "2026",
+      "pmid": "41932003",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1038/s44303-026-00181-8",
+      "title": "Automated image analysis for intracellular ice detection in monolayers by freeze-substitution.",
+      "pubYear": "2026",
+      "pmid": "42426321",
+      "pmcid": "PMC13396661",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.118549",
+      "title": "Chitosan and sulfated glucan nanoparticles: A novel strategy for cryopreservation of Lactobacillus plantarum.",
+      "pubYear": "2026",
+      "pmid": "41794538",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/ijms26146908",
+      "title": "Advances in Cryopreservation Strategies for 3D Biofabricated Constructs: From Hydrogels to Bioprinted Tissues.",
+      "pubYear": "2025",
+      "pmid": "40725153",
+      "pmcid": "PMC12295925",
+      "source": "Europe PMC"
+    },
+    {
+      "title": "Mechanistic insights into how water-network disorder determines the vitrification concentration in cryopreservation solutions",
+      "pubYear": "2026",
+      "pmcid": "PMC13293526",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.mtbio.2025.102529",
+      "title": "Red blood cell-activated antifreeze metal-organic framework armor for cryopreservation.",
+      "pubYear": "2025",
+      "pmid": "41322149",
+      "pmcid": "PMC12663683",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/gels12020106",
+      "title": "Hydrogel Systems in Plant Germplasm Cryopreservation: A Comprehensive Review.",
+      "pubYear": "2026",
+      "pmid": "41744978",
+      "pmcid": "PMC12941204",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105688",
+      "title": "Perfusion-based delivery of an ice recrystallization inhibitor in rat liver tissue.",
+      "pubYear": "2026",
+      "pmid": "42607523",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1007/s44211-025-00815-8",
+      "title": "The impact of initial cooling rates on cell preservation in frozen water-dimethyl sulfoxide media: a morphological study.",
+      "pubYear": "2025",
+      "pmid": "40613876",
+      "pmcid": "PMC12408769",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.34133/bmr.0302",
+      "title": "Size Effect of Stem Cell Spheroids in Their Cryopreservation Using Low-Molecular-Weight PEGs as a Cryoprotectant.",
+      "pubYear": "2026",
+      "pmid": "41503136",
+      "pmcid": "PMC12771483",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c02072",
+      "title": "Regulating Heterogeneous Ice Nucleation via Cation-Specific Modulation of the Electric Double Layer.",
+      "pubYear": "2026",
+      "pmid": "42689668",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.18699/vjgb-26-43",
+      "title": "Factors of wheat frost hardiness - ice recrystallization inhibitor proteins.",
+      "pubYear": "2026",
+      "pmid": "42245181",
+      "pmcid": "PMC13231050",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/antiox15010107",
+      "title": "Cold Shock Protein B as an Alternative to DMSO for Oocyte Vitrification.",
+      "pubYear": "2026",
+      "pmid": "41596165",
+      "pmcid": "PMC12837293",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2026.149173",
+      "title": "Improving porcine meat quality during freezing with agaro-oligosaccharide and pigskin collagen peptides: A study on ice recrystallization and myofibrillar proteins structure.",
+      "pubYear": "2026",
+      "pmid": "41967405",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/antiox14121412",
+      "title": "Integrated Antioxidants, Nanoparticle, and Antifreeze Protein Strategies Synergistically Enhance Cryotop Vitrification Outcomes of Porcine Parthenogenetic Embryos.",
+      "pubYear": "2025",
+      "pmid": "41462612",
+      "pmcid": "PMC12729773",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/bit.70116",
+      "title": "Bottom-Up Ice Growth Geometry Attenuates Shear Stress and Improves the Cryopreservation of Hematopoietic Stem/Progenitor Cells Under Low DMSO Concentrations.",
+      "pubYear": "2026",
+      "pmid": "41313085",
+      "pmcid": "PMC12883897",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/biomimetics11020134",
+      "title": "Silk Proteins as Biomaterial Additives for DMSO-Reduced Cryopreservation.",
+      "pubYear": "2026",
+      "pmid": "41744580",
+      "pmcid": "PMC12937786",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105650",
+      "title": "Multiscale investigation of Snomax effects on supercooling with application to high-subzero cryopreservation: Calorimetry and cryomacroscopy.",
+      "pubYear": "2026",
+      "pmid": "42229219",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/gels11120947",
+      "title": "Alginate Hydrogel with Pluronic F-68 Enhances Cryopreservation Efficiency in Peach Germplasm.",
+      "pubYear": "2025",
+      "pmid": "41441104",
+      "pmcid": "PMC12733349",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1039/d5na00534e",
+      "title": "Application of nanomaterials in organoid culture and cryopreservation.",
+      "pubYear": "2025",
+      "pmid": "41210600",
+      "pmcid": "PMC12591057",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.7759/cureus.100012",
+      "title": "Uterus Cryopreservation From Experimental Models to Clinical Application: A Translational Review.",
+      "pubYear": "2025",
+      "pmid": "41583239",
+      "pmcid": "PMC12829556",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.isci.2025.113802",
+      "title": "Protease-catalyzed enzymatic synthesis of antifreeze peptide oligomers and their cryopreservation performance.",
+      "pubYear": "2025",
+      "pmid": "41312381",
+      "pmcid": "PMC12651731",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119348",
+      "title": "Glycyrrhizic acid nanofibrils as potent ice recrystallization inhibitors: mechanism and application in ice cream.",
+      "pubYear": "2026",
+      "pmid": "42169309",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1186/s13048-025-01793-1",
+      "title": "The mechanism and protective strategies of follicle injury after ovarian tissue cryopreservation and thawed transplantation: a review.",
+      "pubYear": "2025",
+      "pmid": "41035050",
+      "pmcid": "PMC12487330",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1039/d6tb00077k",
+      "title": "Tyrosine monomer nanocrystal as a potent ice recrystallization inhibition activity.",
+      "pubYear": "2026",
+      "pmid": "42171213",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2025.147495",
+      "title": "New insights into the cryoprotective mechanism of antifreeze peptides for surimi: Dual regulation of ice crystals and myosin.",
+      "pubYear": "2026",
+      "pmid": "41386088",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.omta.2026.201813",
+      "title": "Natural killer cell cryopreservation: Influence of composition, temperature, and granules on post-thaw survival and function.",
+      "pubYear": "2026",
+      "pmid": "42564981",
+      "pmcid": "PMC13446314",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/foods15111836",
+      "title": "Study on the Freezing Protection Effect of Melatonin on &lt;i&gt;Lactobacillus plantarum&lt;/i&gt; FQR.",
+      "pubYear": "2026",
+      "pmid": "42279623",
+      "pmcid": "PMC13256162",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105699",
+      "title": "Vacuum-assisted sucrose impregnation improves frozen pineapple quality through water-state modification.",
+      "pubYear": "2026",
+      "pmid": "42648083",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.bbrep.2025.102383",
+      "title": "Systematic optimization of &lt;i&gt;Caenorhabditis elegans&lt;/i&gt; cryopreservation.",
+      "pubYear": "2025",
+      "pmid": "41362646",
+      "pmcid": "PMC12681763",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.64898/2026.08.21.746139",
+      "title": "AFP-R: An Open Resource Dedicated to Antifreeze Proteins",
+      "pubYear": "2026",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/foods15162878",
+      "title": "Cryoprotective Role of Soybean Oligosaccharides in Frozen Dough: Enhanced Gluten Stability and Bread Quality.",
+      "pubYear": "2026",
+      "pmid": "42650572",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1111/andr.70303",
+      "title": "Proteomic Profiling of Cryopreservation-Induced Alterations in Rhesus Macaque Sperm.",
+      "pubYear": "2026",
+      "pmid": "42381517",
+      "pmcid": "PMC13432455",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/plants14203127",
+      "title": "A Cryopreservation and Regeneration Protocol for Embryogenic Callus of &lt;i&gt;Larix olgensis&lt;/i&gt;.",
+      "pubYear": "2025",
+      "pmid": "41157686",
+      "pmcid": "PMC12566998",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.bbamem.2026.184502",
+      "title": "Effect of ice recrystallization inhibition on hydrogen bonding interactions and membrane leakage of liposomes.",
+      "pubYear": "2026",
+      "pmid": "41571223",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1590/1984-3143-ar2025-0096",
+      "title": "Cryopreservation of jaguar (&lt;i&gt;Panthera onca&lt;/i&gt;) fibroblast-like cells in straws and cryovials: a comparison of rapid and slow-freezing protocols.",
+      "pubYear": "2026",
+      "pmid": "42524470",
+      "pmcid": "PMC13412005",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1039/d6tb01172a",
+      "title": "Amino acid-functionalised trehalose for multifunctional cryopreservation.",
+      "pubYear": "2026",
+      "pmid": "42478158",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/adma.72714",
+      "title": "Cryopreservative Bioink Enables Direct Bioprinting of Adherent Cells.",
+      "pubYear": "2026",
+      "pmid": "41811195",
+      "pmcid": "PMC13378309",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/mabi.202500217",
+      "title": "Microfluidics-Generated Cryo-Fracture Resistant CNCs-Reinforced Composite Microcapsules for Enhanced Cryopreservation of Encapsulated Cells.",
+      "pubYear": "2025",
+      "pmid": "40843489",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.5187/jast.2500457",
+      "title": "Development of an oscillating magnetic field-assisted supercooling system for bovine embryo preservation.",
+      "pubYear": "2026",
+      "pmid": "42291116",
+      "pmcid": "PMC13260037",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3389/fmicb.2026.1800179",
+      "title": "Antarctic microbial protein-rich extracts with cryoprotective potential for cell and viral preservation.",
+      "pubYear": "2026",
+      "pmid": "42131215",
+      "pmcid": "PMC13163687",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1186/s12951-025-03265-6",
+      "title": "Overcoming ice: cutting-edge materials and advanced strategies for effective cryopreservation of biosample.",
+      "pubYear": "2025",
+      "pmid": "40050919",
+      "pmcid": "PMC11887326",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.34133/research.0520",
+      "title": "The Inhibition of Interfacial Ice Formation and Stress Accumulation with Zwitterionic Betaine and Trehalose for High-Efficiency Skin Cryopreservation.",
+      "pubYear": "2024",
+      "pmid": "39545039",
+      "pmcid": "PMC11561590",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1038/s41526-026-00598-w",
+      "title": "Efficient long-term cryopreservation of Arthrospira platensis NIES-39 and adaptation for the Space Algae-2 spaceflight experiment.",
+      "pubYear": "2026",
+      "pmid": "42020394",
+      "pmcid": "PMC13287806",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.cryobiol.2026.105635",
+      "title": "The interconnection of cryobiology and tissue engineering.",
+      "pubYear": "2026",
+      "pmid": "42150237",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/ani16091406",
+      "title": "Research Progress on Mammalian Oocyte Vitrification: From Damage Mechanisms to Optimization Strategies.",
+      "pubYear": "2026",
+      "pmid": "42121825",
+      "pmcid": "PMC13162991",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.5c06104",
+      "title": "Programmable Cooling-Free Cryopreservation via Multi-Parameter Optimization of Natural Deep Eutectic Solvents.",
+      "pubYear": "2026",
+      "pmid": "41992706",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1097/tp.0000000000005494",
+      "title": "Cryopreservation Strategies to Improve Access to Organ Transplantation.",
+      "pubYear": "2026",
+      "pmid": "40702598",
+      "pmcid": "PMC13359655",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodres.2026.119902",
+      "title": "Cryoprotective effects of fish skin collagen peptide on frozen gluten proteins: From conformational changes to functional properties.",
+      "pubYear": "2026",
+      "pmid": "42632737",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.ymthe.2025.07.045",
+      "title": "Advancing CAR-T cell therapy: Insights into patient biology, leukapheresis, and cryopreservation.",
+      "pubYear": "2025",
+      "pmid": "40745920",
+      "pmcid": "PMC12628162",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c00431",
+      "title": "Microstructured Surface Design for Ice Nucleation Control Assisted by a Hybrid Classical Nucleation Theory-Blackbox Approach.",
+      "pubYear": "2026",
+      "pmid": "42081670",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/biomimetics10060368",
+      "title": "Topology-Dependent Antifreeze Properties of Biomimetic Linear and Star-Shaped Peptoids.",
+      "pubYear": "2025",
+      "pmid": "40558337",
+      "pmcid": "PMC12190692",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1186/s13287-025-04871-9",
+      "title": "Cryogenic microcarrier-assisted stem cell storage (Cryo-MASCS): a preservation method enabling scalable culture of human mesenchymal stem cells.",
+      "pubYear": "2025",
+      "pmid": "41457250",
+      "pmcid": "PMC12859993",
+      "source": "Europe PMC"
+    },
+    {
+      "title": "Casein phosphopeptide as a high-performance cryoprotectant in frozen dough: Ice inhibition behaviors, stabilized gluten network, and improved quality attributes",
+      "pubYear": "2026",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1007/978-3-031-97297-3_20",
+      "title": "Barriers to Effective Cryopreservation of Cell Therapies: Challenges and Emerging Solution.",
+      "pubYear": "2025",
+      "pmid": "41136846",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3389/fvets.2026.1807486",
+      "title": "Development of a three-dimensional vitrification protocol for domestic cat cumulus-oocyte complexes and comparison with standard vitrification.",
+      "pubYear": "2026",
+      "pmid": "42027816",
+      "pmcid": "PMC13099318",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/polym17121600",
+      "title": "Glycopolypeptoids as Novel Biomimetic Antifreeze Agents: Structural Design, Synthesis, and Antifreeze Properties.",
+      "pubYear": "2025",
+      "pmid": "40574127",
+      "pmcid": "PMC12197131",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/btpr.3504",
+      "title": "Optimizing cryopreservation strategies for scalable cell therapies: A comprehensive review with insights from iPSC-derived therapies.",
+      "pubYear": "2024",
+      "pmid": "39268839",
+      "pmcid": "PMC11659802",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1039/d5lp00131e",
+      "title": "Cryopreservation and post-thaw differentiation of monocytes enabled by macromolecular cryoprotectants which restrict intracellular ice formation.",
+      "pubYear": "2025",
+      "pmid": "40503111",
+      "pmcid": "PMC12147442",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acsami.3c11260",
+      "title": "Poly(l-alanine-<i>co</i>-l-threonine succinate) as a Biomimetic Cryoprotectant.",
+      "pubYear": "2023",
+      "pmid": "38060278",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodres.2025.118310",
+      "title": "Casein phosphopeptide as a high-performance cryoprotectant in frozen dough: Ice inhibition behaviors, stabilized gluten network, and improved quality attributes.",
+      "pubYear": "2026",
+      "pmid": "41652712",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1111/trf.18204",
+      "title": "Strategies to improve platelet cryopreservation: A narrative review.",
+      "pubYear": "2025",
+      "pmid": "40059666",
+      "pmcid": "PMC12005584",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acsmacrolett.5c00473",
+      "title": "Structural Insights into Ice Recrystallization Activity of Helical Disubstituted Polypeptoids.",
+      "pubYear": "2025",
+      "pmid": "41061204",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.biomac.5c00086",
+      "title": "Side-Functionalization of Poly(l-methionine) for Ice Control.",
+      "pubYear": "2025",
+      "pmid": "40084906",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.biomac.4c00760",
+      "title": "Cryopreserved Kidney Epithelial (Vero) Cell Monolayers for Rapid Viral Quantification, Enabled by a Combination of Macromolecular Cryoprotectants.",
+      "pubYear": "2024",
+      "pmid": "39051654",
+      "pmcid": "PMC11323000",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.jcyt.2025.102008",
+      "title": "Very cold but still too warm; functional characterization of transient warming events in stem cell grafts.",
+      "pubYear": "2026",
+      "pmid": "41344218",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.ijbiomac.2025.148084",
+      "title": "Freeze-denaturation mitigation in surimi by Naematelia aurantialba polysaccharides: structural stabilization and ice recrystallization inhibition.",
+      "pubYear": "2025",
+      "pmid": "41046892",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acs.langmuir.6c00027",
+      "title": "Enhanced Preservation of HEK293T Cells and Rat Kidneys by Optimizing Double-Phase Isochoric Freezing with Active Nucleation Management.",
+      "pubYear": "2026",
+      "pmid": "41824941",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1063/5.0312183",
+      "title": "Predictive correlation and mechanistic understanding of ice nucleation in cryoprotective solutions.",
+      "pubYear": "2026",
+      "pmid": "41711335",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/cells15121065",
+      "title": "Evaluation of a Room-Temperature Preservation Method Maintaining Viability and Function in Human Cardiac Organoids.",
+      "pubYear": "2026",
+      "pmid": "42346092",
+      "pmcid": "PMC13297580",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1111/trf.70253",
+      "title": "Hold on to your units: Quality of red cell concentrates is only affected after multiple transient warming events.",
+      "pubYear": "2026",
+      "pmid": "42083450",
+      "pmcid": "PMC13250346",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acsomega.5c10512",
+      "title": "Disappearance of Electro-Freezing in Salt Solutions Beyond a Critical Ion Concentration: Salt-Type Independence.",
+      "pubYear": "2026",
+      "pmid": "41908451",
+      "pmcid": "PMC13019398",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1101/2025.07.18.664799",
+      "title": "Tailoring a glycerol-free cryopreservation protocol with anti-freeze (glycol)proteins for commercial and native breeds of chicken",
+      "pubYear": "2025",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1002/adma.202420504",
+      "title": "An Ultrapotent, Ultraeconomical, Antifreeze Polypeptide.",
+      "pubYear": "2026",
+      "pmid": "40878389",
+      "pmcid": "PMC12810662",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acsami.5c22113",
+      "title": "Development of Organogel-AFPT System for Encapsulation and Cryopreservation of &lt;i&gt;Yarrowia lipolytica&lt;/i&gt;.",
+      "pubYear": "2026",
+      "pmid": "41591409",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1021/acsomega.5c11565",
+      "title": "Silk Microneedles for Targeted Epidermal Delivery of Antifreeze Proteins.",
+      "pubYear": "2026",
+      "pmid": "41939373",
+      "pmcid": "PMC13044823",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3389/fcell.2025.1571198",
+      "title": "Effect of low-frequency assisted ultrasonic on cryopreservation of L-02 hepatocyte cells.",
+      "pubYear": "2025",
+      "pmid": "40356599",
+      "pmcid": "PMC12066654",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1038/s41598-026-37136-3",
+      "title": "Pressure enhanced dual-solid-surface ultra-rapid cooling improves post-thaw recovery in hepatocytes and precision cut liver slices.",
+      "pubYear": "2026",
+      "pmid": "41571879",
+      "pmcid": "PMC12901298",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3389/fbioe.2026.1717539",
+      "title": "Research advances in cryopreserved preparations of mesenchymal stem cells: technical innovations, application challenges, and quality control.",
+      "pubYear": "2026",
+      "pmid": "41647357",
+      "pmcid": "PMC12868153",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1186/s12958-026-01540-1",
+      "title": "Frozen-Thawed ovarian autografts treated with scaffold-based melatonin delivery in rats.",
+      "pubYear": "2026",
+      "pmid": "41776625",
+      "pmcid": "PMC13007367",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.3390/ijms252011124",
+      "title": "Current State and Challenges of Tissue and Organ Cryopreservation in Biobanking.",
+      "pubYear": "2024",
+      "pmid": "39456905",
+      "pmcid": "PMC11508709",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1007/s11259-025-10651-w",
+      "title": "Optimization of canine sperm cryopreservation by focusing on glycerol concentration and freezing rate.",
+      "pubYear": "2025",
+      "pmid": "39841301",
+      "pmcid": "PMC11754312",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1038/s41570-022-00407-4",
+      "title": "Chemical approaches to cryopreservation.",
+      "pubYear": "2022",
+      "pmid": "35875681",
+      "pmcid": "PMC9294745",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1016/j.foodchem.2025.147834",
+      "title": "Uncovering cryoprotective mechanism of natural deep eutectic solvents for highly efficient cryopreservation of Lactiplantibacillus plantarum.",
+      "pubYear": "2026",
+      "pmid": "41570687",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1371/journal.pone.0318459",
+      "title": "Antifreeze proteins produced by Antarctic yeast from the genus Glaciozyma as cryoprotectants in food storage.",
+      "pubYear": "2025",
+      "pmid": "40048460",
+      "pmcid": "PMC11884722",
+      "source": "Europe PMC"
+    },
+    {
+      "doi": "10.1530/raf-25-0196",
+      "title": "Patient-specific in vitro follicle development in response to ovarian freezing and culture.",
+      "pubYear": "2026",
+      "pmid": "42447040",
+      "pmcid": "PMC13393308",
+      "source": "Europe PMC"
+    }
+  ],
+  "exa_hit_count": 0,
+  "exa_truncated": false,
+  "exa": [],
+  "license_caveat": "Downloaded XML is retained only for publicly accessible sources; license and redistribution limits must be checked per source."
+}

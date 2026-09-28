@@ -1,0 +1,533 @@
+{
+  "study_count": 40,
+  "experiment_count": 75,
+  "flags": [],
+  "entries": [
+    {
+      "study_id": "doi:10.1038/s41592-021-01126-2",
+      "experiment_id": "biology-0-1",
+      "doi": "10.1038/s41592-021-01126-2",
+      "raw_source_path": "data/raw/biology-PMC8314867.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41592-021-01126-2",
+      "experiment_id": "biology-0-2",
+      "doi": "10.1038/s41592-021-01126-2",
+      "raw_source_path": "data/raw/biology-PMC8314867.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.scr.2024.103583",
+      "experiment_id": "biology-1-1",
+      "doi": "10.1016/j.scr.2024.103583",
+      "raw_source_path": "data/raw/phase2/ipsc-iri-2024-author-results.txt",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.scr.2024.103583",
+      "experiment_id": "biology-1-2",
+      "doi": "10.1016/j.scr.2024.103583",
+      "raw_source_path": "data/raw/phase2/ipsc-iri-2024-author-results.txt",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1089/ten.tec.2016.0345",
+      "experiment_id": "biology-2-1",
+      "doi": "10.1089/ten.tec.2016.0345",
+      "raw_source_path": "data/raw/pilot-metadata.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/srep34476",
+      "experiment_id": "biology-3-1",
+      "doi": "10.1038/srep34476",
+      "raw_source_path": "data/raw/biology-PMC5046093.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/srep34476",
+      "experiment_id": "biology-3-2",
+      "doi": "10.1038/srep34476",
+      "raw_source_path": "data/raw/biology-PMC5046093.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.stemcr.2017.04.033",
+      "experiment_id": "biology-4-1",
+      "doi": "10.1016/j.stemcr.2017.04.033",
+      "raw_source_path": "data/raw/biology-PMC5511045.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.stemcr.2017.04.033",
+      "experiment_id": "biology-4-2",
+      "doi": "10.1016/j.stemcr.2017.04.033",
+      "raw_source_path": "data/raw/biology-PMC5511045.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-020-70707-6",
+      "experiment_id": "biology-5-1",
+      "doi": "10.1038/s41598-020-70707-6",
+      "raw_source_path": "data/raw/biology-PMC7423927.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-020-70707-6",
+      "experiment_id": "biology-5-2",
+      "doi": "10.1038/s41598-020-70707-6",
+      "raw_source_path": "data/raw/biology-PMC7423927.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1007/s13770-023-00568-3",
+      "experiment_id": "biology-6-1",
+      "doi": "10.1007/s13770-023-00568-3",
+      "raw_source_path": "data/raw/pilot-metadata.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/cells12141914",
+      "experiment_id": "biology-7-1",
+      "doi": "10.3390/cells12141914",
+      "raw_source_path": "data/raw/pilot-metadata.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/cells11020278",
+      "experiment_id": "biology-8-1",
+      "doi": "10.3390/cells11020278",
+      "raw_source_path": "data/raw/biology-PMC8773610.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/antiox15010107",
+      "experiment_id": "cspb-2026-1",
+      "doi": "10.3390/antiox15010107",
+      "raw_source_path": "data/raw/phase3/cspb.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/antiox15010107",
+      "experiment_id": "cspb-2026-2",
+      "doi": "10.3390/antiox15010107",
+      "raw_source_path": "data/raw/phase3/cspb.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/antiox15010107",
+      "experiment_id": "cspb-2026-3",
+      "doi": "10.3390/antiox15010107",
+      "raw_source_path": "data/raw/phase3/cspb.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1186/s13287-025-04384-5",
+      "experiment_id": "cm-2025-1",
+      "doi": "10.1186/s13287-025-04384-5",
+      "raw_source_path": "data/raw/phase3/dmso-free-cm-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1186/s13287-025-04384-5",
+      "experiment_id": "cm-2025-2",
+      "doi": "10.1186/s13287-025-04384-5",
+      "raw_source_path": "data/raw/phase3/dmso-free-cm-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1186/s13287-025-04384-5",
+      "experiment_id": "cm-2025-3",
+      "doi": "10.1186/s13287-025-04384-5",
+      "raw_source_path": "data/raw/phase3/dmso-free-cm-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/btpr.70019",
+      "experiment_id": "geometry-2025-1",
+      "doi": "10.1002/btpr.70019",
+      "raw_source_path": "data/raw/phase3/geometry-results-indexed.txt",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/btpr.70019",
+      "experiment_id": "geometry-2025-2",
+      "doi": "10.1002/btpr.70019",
+      "raw_source_path": "data/raw/phase3/geometry-results-indexed.txt",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/btpr.70019",
+      "experiment_id": "geometry-2025-3",
+      "doi": "10.1002/btpr.70019",
+      "raw_source_path": "data/raw/phase3/geometry-results-indexed.txt",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-025-85509-x",
+      "experiment_id": "methods-0-1",
+      "doi": "10.1038/s41598-025-85509-x",
+      "raw_source_path": "data/raw/methods-PMC11731021.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-025-85509-x",
+      "experiment_id": "methods-0-2",
+      "doi": "10.1038/s41598-025-85509-x",
+      "raw_source_path": "data/raw/methods-PMC11731021.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.cryobiol.2025.105315",
+      "experiment_id": "methods-1-1",
+      "doi": "10.1016/j.cryobiol.2025.105315",
+      "raw_source_path": "data/raw/methods-metadata.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-022-25104-6",
+      "experiment_id": "methods-2-1",
+      "doi": "10.1038/s41598-022-25104-6",
+      "raw_source_path": "data/raw/methods-PMC9790888.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-022-25104-6",
+      "experiment_id": "methods-2-2",
+      "doi": "10.1038/s41598-022-25104-6",
+      "raw_source_path": "data/raw/methods-PMC9790888.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1098/rsif.2022.0682",
+      "experiment_id": "methods-3-1",
+      "doi": "10.1098/rsif.2022.0682",
+      "raw_source_path": "data/raw/methods-PMC9905984.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1098/rsif.2022.0682",
+      "experiment_id": "methods-3-2",
+      "doi": "10.1098/rsif.2022.0682",
+      "raw_source_path": "data/raw/methods-PMC9905984.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d1md00078k",
+      "experiment_id": "methods-4-1",
+      "doi": "10.1039/d1md00078k",
+      "raw_source_path": "data/raw/methods-PMC8221256.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d1md00078k",
+      "experiment_id": "methods-4-2",
+      "doi": "10.1039/d1md00078k",
+      "raw_source_path": "data/raw/methods-PMC8221256.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.bpj.2015.09.029",
+      "experiment_id": "methods-5-1",
+      "doi": "10.1016/j.bpj.2015.09.029",
+      "raw_source_path": "data/raw/methods-PMC4775837.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.cryobiol.2009.04.012",
+      "experiment_id": "methods-6-1",
+      "doi": "10.1016/j.cryobiol.2009.04.012",
+      "raw_source_path": "data/raw/methods-metadata.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.cryobiol.2010.10.159",
+      "experiment_id": "methods-7-1",
+      "doi": "10.1016/j.cryobiol.2010.10.159",
+      "raw_source_path": "data/raw/phase2/PMC3041861.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1093/stmcls/sxad059",
+      "experiment_id": "neurons-2023-1",
+      "doi": "10.1093/stmcls/sxad059",
+      "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1093/stmcls/sxad059",
+      "experiment_id": "neurons-2023-2",
+      "doi": "10.1093/stmcls/sxad059",
+      "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1093/stmcls/sxad059",
+      "experiment_id": "neurons-2023-3",
+      "doi": "10.1093/stmcls/sxad059",
+      "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1093/stmcls/sxad059",
+      "experiment_id": "neurons-2023-4",
+      "doi": "10.1093/stmcls/sxad059",
+      "raw_source_path": "data/raw/phase2/ipsc-neurons-2023.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-025-32439-3",
+      "experiment_id": "p4-cardiac-1-1",
+      "doi": "10.1038/s41598-025-32439-3",
+      "raw_source_path": "data/raw/phase4/cardiac-aggregates.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-025-32439-3",
+      "experiment_id": "p4-cardiac-1-2",
+      "doi": "10.1038/s41598-025-32439-3",
+      "raw_source_path": "data/raw/phase4/cardiac-aggregates.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-025-32439-3",
+      "experiment_id": "p4-cardiac-1-3",
+      "doi": "10.1038/s41598-025-32439-3",
+      "raw_source_path": "data/raw/phase4/cardiac-aggregates.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-026-59927-4",
+      "experiment_id": "p4-cardiac-2-1",
+      "doi": "10.1038/s41598-026-59927-4",
+      "raw_source_path": "data/raw/phase4/cardiac-contractile.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-026-59927-4",
+      "experiment_id": "p4-cardiac-2-2",
+      "doi": "10.1038/s41598-026-59927-4",
+      "raw_source_path": "data/raw/phase4/cardiac-contractile.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41598-026-59927-4",
+      "experiment_id": "p4-cardiac-2-3",
+      "doi": "10.1038/s41598-026-59927-4",
+      "raw_source_path": "data/raw/phase4/cardiac-contractile.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/adma.72714",
+      "experiment_id": "p4-camp-ice",
+      "doi": "10.1002/adma.72714",
+      "raw_source_path": "data/raw/phase4/adma-72714-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/adma.72714",
+      "experiment_id": "p4-camp-cells",
+      "doi": "10.1002/adma.72714",
+      "raw_source_path": "data/raw/phase4/adma-72714-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1002/adma.72714",
+      "experiment_id": "p4-camp-fak",
+      "doi": "10.1002/adma.72714",
+      "raw_source_path": "data/raw/phase4/adma-72714-pmc.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acs.biomac.5c00559",
+      "experiment_id": "p4-materials-2a",
+      "doi": "10.1021/acs.biomac.5c00559",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acs.biomac.5c00559",
+      "experiment_id": "p4-materials-2b",
+      "doi": "10.1021/acs.biomac.5c00559",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acs.biomac.5c00559",
+      "experiment_id": "p4-materials-2c",
+      "doi": "10.1021/acs.biomac.5c00559",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41531-026-01399-4",
+      "experiment_id": "p4-neural-1",
+      "doi": "10.1038/s41531-026-01399-4",
+      "raw_source_path": "data/raw/phase4/dopaminergic.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/s41531-026-01399-4",
+      "experiment_id": "p4-neural-2",
+      "doi": "10.1038/s41531-026-01399-4",
+      "raw_source_path": "data/raw/phase4/dopaminergic.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.lssr.2025.08.002",
+      "experiment_id": "p4-process-lssr-1",
+      "doi": "10.1016/j.lssr.2025.08.002",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.64898/2026.07.24.740597",
+      "experiment_id": "p4-process-cryoaerosol-1",
+      "doi": "10.64898/2026.07.24.740597",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.64898/2026.07.24.740597",
+      "experiment_id": "p4-process-cryoaerosol-2",
+      "doi": "10.64898/2026.07.24.740597",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/antiox14121412",
+      "experiment_id": "p5-bio-porcine-1",
+      "doi": "10.3390/antiox14121412",
+      "raw_source_path": "data/raw/phase5/porcine-embryos.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.3390/antiox14121412",
+      "experiment_id": "p5-bio-porcine-2",
+      "doi": "10.3390/antiox14121412",
+      "raw_source_path": "data/raw/phase5/porcine-embryos.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d5lp00131e",
+      "experiment_id": "p5-bio-monocytes-1",
+      "doi": "10.1039/d5lp00131e",
+      "raw_source_path": "data/raw/phase5/monocytes.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d5lp00131e",
+      "experiment_id": "p5-bio-monocytes-2",
+      "doi": "10.1039/d5lp00131e",
+      "raw_source_path": "data/raw/phase5/monocytes.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.isci.2025.113802",
+      "experiment_id": "p5-chem-1",
+      "doi": "10.1016/j.isci.2025.113802",
+      "raw_source_path": "data/raw/phase5/isci-2025-113802.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.isci.2025.113802",
+      "experiment_id": "p5-chem-2",
+      "doi": "10.1016/j.isci.2025.113802",
+      "raw_source_path": "data/raw/phase5/isci-2025-113802.html",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d6tb01172a",
+      "experiment_id": "p5-chem-3",
+      "doi": "10.1039/d6tb01172a",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1039/d6tb01172a",
+      "experiment_id": "p5-chem-4",
+      "doi": "10.1039/d6tb01172a",
+      "raw_source_path": "data/raw/phase3/screening-packets.json",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/srep26403",
+      "experiment_id": "physical-0-1",
+      "doi": "10.1038/srep26403",
+      "raw_source_path": "data/raw/physical-0.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acsomega.6b00178",
+      "experiment_id": "physical-1-1",
+      "doi": "10.1021/acsomega.6b00178",
+      "raw_source_path": "data/raw/physical-1.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acsomega.6b00178",
+      "experiment_id": "physical-1-2",
+      "doi": "10.1021/acsomega.6b00178",
+      "raw_source_path": "data/raw/physical-1.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/srep23619",
+      "experiment_id": "physical-2-1",
+      "doi": "10.1038/srep23619",
+      "raw_source_path": "data/raw/physical-2.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1038/srep09692",
+      "experiment_id": "physical-3-1",
+      "doi": "10.1038/srep09692",
+      "raw_source_path": "data/raw/physical-3.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1016/j.isci.2022.104423",
+      "experiment_id": "physical-4-1",
+      "doi": "10.1016/j.isci.2022.104423",
+      "raw_source_path": "data/raw/physical-4.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/acs.biomac.1c01477",
+      "experiment_id": "physical-5-1",
+      "doi": "10.1021/acs.biomac.1c01477",
+      "raw_source_path": "data/raw/physical-5.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1111/trf.15395",
+      "experiment_id": "physical-6-1",
+      "doi": "10.1111/trf.15395",
+      "raw_source_path": "data/raw/physical-6.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1111/trf.15395",
+      "experiment_id": "physical-6-2",
+      "doi": "10.1111/trf.15395",
+      "raw_source_path": "data/raw/physical-6.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/jacsau.3c00056",
+      "experiment_id": "physical-7-1",
+      "doi": "10.1021/jacsau.3c00056",
+      "raw_source_path": "data/raw/physical-7.xml",
+      "flags": []
+    },
+    {
+      "study_id": "doi:10.1021/jacsau.3c00056",
+      "experiment_id": "physical-7-2",
+      "doi": "10.1021/jacsau.3c00056",
+      "raw_source_path": "data/raw/physical-7.xml",
+      "flags": []
+    }
+  ],
+  "note": "Flags indicate provenance or text-support conditions; they are not scientific validity labels."
+}

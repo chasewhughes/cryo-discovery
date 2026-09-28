@@ -1,0 +1,724 @@
+{
+  "source": {
+    "pmcid": "PMC11731021",
+    "doi": "10.1038/s41598-025-85509-x",
+    "title": "High throughput method for simultaneous screening of membrane permeability and toxicity for discovery of new cryoprotective agents",
+    "xml_sha256": "da6cd4afcbd21cf7a2c976eacdffa0eb87e3947d38c82bda742ac582613b2b0a",
+    "xml_path": "data/raw/phase15/transport/PMC11731021.xml"
+  },
+  "study_context": {
+    "cell": "bovine pulmonary artery endothelial cells (BPAEC)",
+    "temperatures_C": [
+      4,
+      25
+    ],
+    "screened_test_chemicals": 27,
+    "control": "sucrose non-permeant control",
+    "permeability_units": {
+      "P_CPA": "reported table value \u00d710^-3 s^-1",
+      "L_p": "reported table value \u00d710^-8 Pa^-1 s^-1"
+    },
+    "permeability_replicates": "minimum 13 at 4 C and minimum 16 at 25 C across at least 3 plates",
+    "toxicity_exposure": "approximately 25 min at 4 C (range 13\u201334 min), approximately 20 min at 25 C (range 8\u201334 min); approximately 1 M at 4 C and approximately 2 M at 25 C",
+    "toxicity_threshold": "80% viability",
+    "bath_total_osmolality_mOsm_kg": {
+      "4_C": "1000 \u00b1 100",
+      "25_C": "2000 \u00b1 100 except sucrose 1000 \u00b1 100"
+    },
+    "table_uncertainty": "Table 1 reports mean \u00b1 value with statistical-letter annotations; the XML does not explicitly identify the uncertainty as SD or SEM, so it is retained as unspecified."
+  },
+  "table1_permeability": [
+    {
+      "solute": "Sucrose",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 0.26,
+          "uncertainty": 0.07,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "0.26 \u00b1 0.07 A"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 2.15,
+          "uncertainty": 0.05,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "2.15 \u00b1 0.05 G"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 5.46,
+          "uncertainty": 0.58,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "5.46 \u00b1 0.58 A"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 8.93,
+          "uncertainty": 0.14,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "8.93 \u00b1 0.14 H"
+        }
+      }
+    },
+    {
+      "solute": "1,3-Propanediol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 19.69,
+          "uncertainty": 0.98,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "19.69 \u00b1 0.98 GH"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.46,
+          "uncertainty": 0.06,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.46 \u00b1 0.06 DEF"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 345.53,
+          "uncertainty": 15.39,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "345.53 \u00b1 15.39 F"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 5.8,
+          "uncertainty": 0.29,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "5.8 \u00b1 0.29 DE"
+        }
+      }
+    },
+    {
+      "solute": "1,3-Dihydroxyacetone",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 8.55,
+          "uncertainty": 0.89,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "8.55 \u00b1 0.89 CD"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.37,
+          "uncertainty": 0.07,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.37 \u00b1 0.07 BCDEF"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 28.39,
+          "uncertainty": 4.01,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "28.39 \u00b1 4.01 B"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 6.77,
+          "uncertainty": 0.37,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "6.77 \u00b1 0.37 EFG"
+        }
+      }
+    },
+    {
+      "solute": "Triethylene Glycol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 6.13,
+          "uncertainty": 0.7,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "6.13 \u00b1 0.7 C"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 2.18,
+          "uncertainty": 0.07,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "2.18 \u00b1 0.07 G"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 151.07,
+          "uncertainty": 4.17,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "151.07 \u00b1 4.17 D"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 7.32,
+          "uncertainty": 0.22,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "7.32 \u00b1 0.22 G"
+        }
+      }
+    },
+    {
+      "solute": "Propionamide",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 45.05,
+          "uncertainty": 1.96,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "45.05 \u00b1 1.96 I"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.28,
+          "uncertainty": 0.05,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.28 \u00b1 0.05B CD"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 448.88,
+          "uncertainty": 18.87,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "448.88 \u00b1 18.87 G"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 9.42,
+          "uncertainty": 0.51,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "9.42 \u00b1 0.51 H"
+        }
+      }
+    },
+    {
+      "solute": "Acetamide",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 10.58,
+          "uncertainty": 0.59,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "10.58 \u00b1 0.59 DE"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.36,
+          "uncertainty": 0.03,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.36 \u00b1 0.03 CD"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 174.82,
+          "uncertainty": 19.02,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "174.82 \u00b1 19.02 DE"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 5.94,
+          "uncertainty": 0.28,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "5.94 \u00b1 0.28 DEF"
+        }
+      }
+    },
+    {
+      "solute": "Diethylene Glycol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 12.56,
+          "uncertainty": 0.59,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "12.56 \u00b1 0.59 EF"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.66,
+          "uncertainty": 0.06,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.66 \u00b1 0.06 EF"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 247.84,
+          "uncertainty": 14.66,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "247.84 \u00b1 14.66 E"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 7.17,
+          "uncertainty": 0.2,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "7.17 \u00b1 0.2 FG"
+        }
+      }
+    },
+    {
+      "solute": "Dimethyl Sulfoxide",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 20.62,
+          "uncertainty": 1.0,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "20.62 \u00b1 1.0 H"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.42,
+          "uncertainty": 0.03,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.42 \u00b1 0.03 DF"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 347.86,
+          "uncertainty": 13.67,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "347.86 \u00b1 13.67 F"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 4.42,
+          "uncertainty": 0.15,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "4.42 \u00b1 0.15 B"
+        }
+      }
+    },
+    {
+      "solute": "Ethylene Glycol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 15.73,
+          "uncertainty": 0.77,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "15.73 \u00b1 0.77 FG"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.35,
+          "uncertainty": 0.03,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.35 \u00b1 0.03 CD"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 317.07,
+          "uncertainty": 9.9,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "317.07 \u00b1 9.9 F"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 5.24,
+          "uncertainty": 0.14,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "5.24 \u00b1 0.14 CD"
+        }
+      }
+    },
+    {
+      "solute": "Formamide",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 57.36,
+          "uncertainty": 4.97,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "57.36 \u00b1 4.97 I"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.18,
+          "uncertainty": 0.03,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.18 \u00b1 0.03 B"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 622.51,
+          "uncertainty": 34.96,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "622.51 \u00b1 34.96 H"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 4.7,
+          "uncertainty": 0.21,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "4.7 \u00b1 0.21B CD"
+        }
+      }
+    },
+    {
+      "solute": "Glycerol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 2.36,
+          "uncertainty": 0.26,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "2.36 \u00b1 0.26 B"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.64,
+          "uncertainty": 0.05,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.64 \u00b1 0.05 E"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 56.77,
+          "uncertainty": 2.55,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "56.77 \u00b1 2.55 C"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 6.2,
+          "uncertainty": 0.14,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "6.2 \u00b1 0.14 E"
+        }
+      }
+    },
+    {
+      "solute": "N-Methylacetamide",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 10.96,
+          "uncertainty": 0.73,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "10.96 \u00b1 0.73 DE"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 0.54,
+          "uncertainty": 0.04,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "0.54 \u00b1 0.04 A"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 142.0,
+          "uncertainty": 5.26,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "142.0 \u00b1 5.26 D"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 2.49,
+          "uncertainty": 0.1,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "2.49 \u00b1 0.1 A"
+        }
+      }
+    },
+    {
+      "solute": "Propylene Glycol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 26.43,
+          "uncertainty": 1.73,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "26.43 \u00b1 1.73 H"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.34,
+          "uncertainty": 0.04,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.34 \u00b1 0.04 BCD"
+        }
+      },
+      "25_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 527.68,
+          "uncertainty": 34.26,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "527.68 \u00b1 34.26 GH"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 4.31,
+          "uncertainty": 0.26,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "4.31 \u00b1 0.26 BC"
+        }
+      }
+    },
+    {
+      "solute": "Triethanolamine",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 9.65,
+          "uncertainty": 0.57,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "9.65 \u00b1 0.57 DE"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.52,
+          "uncertainty": 0.06,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.52 \u00b1 0.06 DEF"
+        }
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    },
+    {
+      "solute": "2,3-Butanediol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 43.82,
+          "uncertainty": 3.38,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "43.82 \u00b1 3.38 I"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.27,
+          "uncertainty": 0.04,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.27 \u00b1 0.04 BCD"
+        }
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "2-Methyl-1,3-Propanediol",
+      "4_C": {
+        "status": "measured",
+        "P_CPA_x10^-3_s^-1": {
+          "mean": 42.92,
+          "uncertainty": 3.3,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "42.92 \u00b1 3.3 I"
+        },
+        "L_p_x10^-8_Pa^-1_s^-1": {
+          "mean": 1.16,
+          "uncertainty": 0.05,
+          "uncertainty_type": "not_explicitly_specified",
+          "raw": "1.16 \u00b1 0.05 BC"
+        }
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "2-Methoxyethanol",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "2-Methyl-2,4-Pentanediol",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Diglyme",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Tetraethylene Glycol Dimethyl Ether",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Dimethylacetamide",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Triethylene Glycol Diacetate",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    },
+    {
+      "solute": "Triglyme",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Tetrahydrofurfuryl Alcohol",
+      "4_C": {
+        "status": "fast"
+      },
+      "25_C": {
+        "status": "fast"
+      }
+    },
+    {
+      "solute": "Diethylene Glycol Monobutyl Ether",
+      "4_C": {
+        "status": "toxic"
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    },
+    {
+      "solute": "Pyridine",
+      "4_C": {
+        "status": "toxic"
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    },
+    {
+      "solute": "N,N-Dimethylethanolamine",
+      "4_C": {
+        "status": "toxic"
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    },
+    {
+      "solute": "Ethanolamine",
+      "4_C": {
+        "status": "toxic"
+      },
+      "25_C": {
+        "status": "toxic"
+      }
+    }
+  ],
+  "table2_activation_energy": [
+    {
+      "solute": "Dimethyl Sulfoxide",
+      "E_Lp_kJ_mol": 37.3,
+      "E_PCPA_kJ_mol": 93.3
+    },
+    {
+      "solute": "Ethylene Glycol",
+      "E_Lp_kJ_mol": 44.4,
+      "E_PCPA_kJ_mol": 98.8
+    },
+    {
+      "solute": "Propylene Glycol",
+      "E_Lp_kJ_mol": 37.1,
+      "E_PCPA_kJ_mol": 100.2
+    },
+    {
+      "solute": "Formamide",
+      "E_Lp_kJ_mol": 48.6,
+      "E_PCPA_kJ_mol": 87.0
+    },
+    {
+      "solute": "Glycerol",
+      "E_Lp_kJ_mol": 43.9,
+      "E_PCPA_kJ_mol": 107.4
+    },
+    {
+      "solute": "1,3-Dihydroxyacetone",
+      "E_Lp_kJ_mol": 49.7,
+      "E_PCPA_kJ_mol": 41.0
+    },
+    {
+      "solute": "Diethylene Glycol",
+      "E_Lp_kJ_mol": 47.7,
+      "E_PCPA_kJ_mol": 98.9
+    },
+    {
+      "solute": "Acetamide",
+      "E_Lp_kJ_mol": 47.8,
+      "E_PCPA_kJ_mol": 92.5
+    },
+    {
+      "solute": "N-Methylacetamide",
+      "E_Lp_kJ_mol": 49.7,
+      "E_PCPA_kJ_mol": 83.4
+    },
+    {
+      "solute": "1,3-Propanediol",
+      "E_Lp_kJ_mol": 44.8,
+      "E_PCPA_kJ_mol": 95.0
+    },
+    {
+      "solute": "Triethylene Glycol",
+      "E_Lp_kJ_mol": 39.3,
+      "E_PCPA_kJ_mol": 106.8
+    },
+    {
+      "solute": "Propionamide",
+      "E_Lp_kJ_mol": 65.0,
+      "E_PCPA_kJ_mol": 75.0
+    },
+    {
+      "solute": "Sucrose",
+      "E_Lp_kJ_mol": 46.2,
+      "E_PCPA_kJ_mol": null
+    }
+  ],
+  "toxicity_summary": {
+    "numeric_per_compound_data_available": false,
+    "status_counts": {
+      "4_C": {
+        "toxic": 4,
+        "measured": 16,
+        "fast": 8
+      },
+      "25_C": {
+        "toxic": 6,
+        "measured": 13,
+        "fast": 9
+      }
+    },
+    "published_text": "Figure 6 reports viability graphically; the article states four toxic chemicals at 4 C and six at 25 C, with an 80% threshold. Exact per-compound numeric viability values were not present in the XML tables and are not reconstructed."
+  },
+  "notes": [
+    "Sucrose is a non-permeating control; its small fitted apparent P_CPA value is a model/control estimate, not evidence of CPA membrane transport."
+  ],
+  "limitations": [
+    "Fast status means permeation exceeded the measurement capability; it is not a numeric lower bound.",
+    "Toxic status means permeability was not measured, not zero permeability.",
+    "Permeability is an indirect calcein-fluorescence estimate in BPAEC, not a general compound constant.",
+    "Activation energies are reported only for compounds with measured values in Table 2; no model fitting is performed by this extractor."
+  ]
+}

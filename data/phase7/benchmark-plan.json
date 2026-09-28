@@ -1,0 +1,28 @@
+{
+  "status": "Fixed before inspecting model performance; local research benchmark, not registered prospective study",
+  "source_commit": "10ed726bed8158544222b5f16298a54013b6ad62",
+  "task": "Predict reported percent mean grain size (MGS); lower means stronger IRI in the specified assay, not higher cell survival",
+  "cohorts": {
+    "amino": "Only 63 train/test records at nominal 20 mM in 10 mM NaCl; preserve 17 source-selected predict records as a separate diagnostic, with concentration conflicts excluded from condition-matched evaluation",
+    "glyco2": "Only records explicitly labelled 22 mM in PBS; do not concatenate the overlapping Glyco subset"
+  },
+  "features": "16 recomputed two-dimensional RDKit descriptors; no labels, error bars, names, set flags or source predictions as inputs. Archived upstream descriptors not required for this baseline.",
+  "models": {
+    "median": "DummyRegressor(strategy=median), fitted on training fold only",
+    "ridge": "StandardScaler then Ridge(alpha=10); scaler fitted on training fold only",
+    "forest": "RandomForestRegressor(n_estimators=300, min_samples_leaf=3, random_state=42, n_jobs=1), all other defaults"
+  },
+  "primary_validation": "Five-fold GroupKFold without shuffle using nonchiral Bemis-Murcko scaffolds; all acyclic molecules share one group",
+  "secondary_validation": "Five-fold shuffled GroupKFold(random_state=42) by canonical nonstereochemical connectivity, keeping stereoisomers together",
+  "metrics": "Out-of-fold MAE, RMSE, R2 and equal-weight scaffold MAE; all models/splits reported, no hyperparameter search or model selection on held-out outcomes",
+  "uncertainty": "2000 bootstrap resamples of group-mean paired absolute-error differences (model minus median), seed 42; descriptive percentile intervals conditional on this dataset and split, not independent confirmation or per-molecule intervals",
+  "candidate_handling": "2FA is present in Glyco2: report its withheld-scaffold prediction and observed assay value explicitly. No trained-on-self novelty claim. Mixtures, polymers and proteins are not represented as single small molecules.",
+  "limitations": [
+    "A new simple baseline on the published task, not an exact reproduction of the paper's multi-representation ensemble",
+    "Grouped cross-validation assesses withheld structures in existing data, not prospective experimental validation",
+    "Scaffold groups are imbalanced and coarse; empty scaffolds share a group",
+    "The 2D features do not resolve all stereochemical effects",
+    "Glyco2 pools literature sources; concentration filtering does not establish complete inter-lab protocol equivalence",
+    "No cell viability, pathway inhibition, cocktail interaction, dose-response or iPSC efficacy prediction"
+  ]
+}

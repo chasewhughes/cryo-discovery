@@ -1,0 +1,131 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Candidate independent biochemical ROCK2 IC50 datasets outside DOI 10.1021/acs.jmedchem.8b01098. Counts are per-assay ChEMBL API snapshots and are not yet a blinded held-out set.",
+  "query": {
+    "target": "CHEMBL2973 (Rho-associated protein kinase 2)",
+    "api": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL2973&limit=1000",
+    "screening_snapshot_local_path": "data/raw/phase17/external-review/rock2-activities.json",
+    "screening_snapshot_sha256": "1983e18e916c6a290438ba236580a087be3e8474ee98b9df4cf8b65e8ecb4dec",
+    "selection": "Distinct publication DOI, human ROCK2 target assignment, at least 20 exact (=) IC50 records with numeric nM values in a per-assay query."
+  },
+  "candidates": [
+    {
+      "priority": 1,
+      "doi": "10.1021/jm9014263",
+      "year": 2010,
+      "title": "Hit to lead account of the discovery of bisbenzamide and related ureidobenzamide inhibitors of Rho kinase.",
+      "document_chembl_id": "CHEMBL1157712",
+      "assay_chembl_id": "CHEMBL1071707",
+      "target_chembl_id": "CHEMBL2973",
+      "target_organism": "Homo sapiens",
+      "assay_description": "Inhibition of human ROCK2 by homogenous luciferase assay",
+      "exact_record_count": 40,
+      "exact_unique_compound_count": 39,
+      "total_assay_records": 51,
+      "units": "nM",
+      "relation_policy": "40 exact numeric IC50 records; 11 other assay records are not counted as exact (including censored/non-exact records if present).",
+      "construct_atp_readout": "Construct and ATP concentration are not specified in the ChEMBL assay record; luciferase homogeneous assay is the recorded readout description.",
+      "source_files": [
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1071707-assay.json",
+          "sha256": "8d067cf73bacd33cbd789ee00adbc4794b1ab564d7cdf14172b0b5f587ab7e73"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1071707-activities.json",
+          "sha256": "6bcd6eea03e7f9d6a101f4a98fe81955c8f147c454eebb6a89176ff678282056"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1157712-document.json",
+          "sha256": "99cb39b4c026676b1f23a48a3948046b2858d57379399f6d49705b38599da451"
+        }
+      ],
+      "source_urls": [
+        "https://doi.org/10.1021/jm9014263",
+        "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1071707.json",
+        "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id=CHEMBL1071707&limit=1000",
+        "https://www.ebi.ac.uk/chembl/api/data/document/CHEMBL1157712.json"
+      ],
+      "independence_and_overlap": "Outside the 2018 source DOI and a distinct congeneric series; overlap with Boltz or other benchmark training data is unknown."
+    },
+    {
+      "priority": 2,
+      "doi": "10.1016/j.bmcl.2011.01.039",
+      "year": 2011,
+      "title": "Synthesis and biological evaluation of 4-quinazolinones as Rho kinase inhibitors.",
+      "document_chembl_id": "CHEMBL1681768",
+      "assay_chembl_id": "CHEMBL1686688",
+      "target_chembl_id": "CHEMBL2973",
+      "target_organism": null,
+      "assay_description": "Inhibition of ROCK2 by HTRF assay",
+      "relationship_caveat": "ChEMBL marks the target assignment as homologous (confidence 8), so human protein identity is not confirmed by this assay record alone.",
+      "exact_record_count": 27,
+      "exact_unique_compound_count": 27,
+      "total_assay_records": 35,
+      "units": "nM",
+      "relation_policy": "27 exact numeric IC50 records; 8 records are non-exact/censored or otherwise excluded.",
+      "construct_atp_readout": "Construct and ATP concentration are not specified in the ChEMBL assay record; HTRF is the recorded readout.",
+      "source_files": [
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1686688-assay.json",
+          "sha256": "2d69e9f215f1698d62e828078285e523171ebb687f9801553c52ce47ef20db8a"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1686688-activities.json",
+          "sha256": "2778aa2905f4ce5adbf03e3819d4f653653386f2e9daecc83fb9b0d9236a4b43"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1681768-document.json",
+          "sha256": "9dc2a9758e11ad8e8d963c3cf64f9125eb5a1bdf187536c7678c956f22226753"
+        }
+      ],
+      "source_urls": [
+        "https://doi.org/10.1016/j.bmcl.2011.01.039",
+        "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1686688.json",
+        "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id=CHEMBL1686688&limit=1000",
+        "https://www.ebi.ac.uk/chembl/api/data/document/CHEMBL1681768.json"
+      ],
+      "independence_and_overlap": "Outside the 2018 source DOI and a different quinazolinone/quinazoline series; overlap with pretrained model data is unknown. Do not use as confirmed human held-out data without primary assay verification."
+    },
+    {
+      "priority": 3,
+      "doi": "10.1021/jm100579r",
+      "year": 2010,
+      "title": "Tetrahydroisoquinoline derivatives as highly selective and potent Rho kinase inhibitors.",
+      "document_chembl_id": "CHEMBL1212924",
+      "assay_chembl_id": "CHEMBL1219161",
+      "target_chembl_id": "CHEMBL2973",
+      "target_organism": null,
+      "assay_description": "Inhibition of ROCK2",
+      "relationship_caveat": "ChEMBL marks the target assignment as homologous (confidence 8); human protein identity, construct, and assay format are not confirmed by this assay record alone.",
+      "exact_record_count": 33,
+      "exact_unique_compound_count": 33,
+      "total_assay_records": 34,
+      "units": "nM",
+      "relation_policy": "33 exact numeric IC50 records and one non-exact/censored record.",
+      "construct_atp_readout": "Not specified in the ChEMBL assay record.",
+      "source_files": [
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1219161.json",
+          "sha256": "aa70bf97d8a6bd39efd085260d22270533305923a0f31e4a71ecd5dca991b2cf"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1219161-activities.json",
+          "sha256": "dc24df2eff425cad6926e5f8226af88eb7c6c2e069842200024159b10f10888c"
+        },
+        {
+          "path": "data/raw/phase17/external-review/CHEMBL1212924.json",
+          "sha256": "70e2c6f3ba7d50e53af3c54012b4e32c0100cd8d00bcbbd56c99a71c0aac38a7"
+        }
+      ],
+      "source_urls": [
+        "https://doi.org/10.1021/jm100579r",
+        "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1219161.json",
+        "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id=CHEMBL1219161&limit=1000",
+        "https://www.ebi.ac.uk/chembl/api/data/document/CHEMBL1212924.json"
+      ],
+      "independence_and_overlap": "Outside the 2018 source DOI and a separate tetrahydroisoquinoline series; overlap with pretrained model data is unknown."
+    }
+  ],
+  "selection_warning": "These are candidate external sources, not automatically valid held-out datasets. Do not pool assays: endpoint, construct, ATP/substrate context, readout and target assignment differ or are incompletely recorded. Freeze the external-dataset eligibility and leakage policy before evaluating any model.",
+  "recommended_next_gate": "Prioritize CHEMBL1071707 because its assay is directly assigned to human ROCK2 and has 39 exact unique compounds, then independently verify the primary paper's construct and biochemical conditions. Treat the two homologous ChEMBL assignments as secondary candidates requiring target/assay confirmation."
+}

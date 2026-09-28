@@ -1,0 +1,114 @@
+{
+  "review_type": "Primary-source methods review for a computational IRI baseline",
+  "review_date": "2026-09-06",
+  "scope": "Assess whether DOLMEN is a defensible baseline for prioritising 2FA and for interpreting CEPT components; no upstream code was executed and no bulk files were downloaded.",
+  "sources": [
+    {
+      "kind": "pinned_local_repository_audit",
+      "url": "https://github.com/gcsosso/DOLMEN/tree/10ed726bed8158544222b5f16298a54013b6ad62",
+      "local_path": "data/raw/phase7/dolmen",
+      "commit": "10ed726bed8158544222b5f16298a54013b6ad62",
+      "findings": [
+        "The local amino.csv contains 80 records: 63 train/test rows and 17 prediction rows. The CSV columns contain names, SMILES, concentration, experimental % MGS, experimental error and set; it does not contain predicted values despite the repository README wording. The 17 prediction rows retain measured values and are not an untouched external assay set.",
+        "The local glyco.csv has 122 records at 22 mM and two at 0.5 mM. The local glyco2.csv has 209 records at 22 mM and 14 records at other or unreported concentrations (11, 5.5, 1, 0.5, 0.055, 0.55 mM or Unreported). Do not describe all Glyco/Glyco2 rows as 22 mM; filter concentration explicitly.",
+        "Exact 2FA identity is present in both glyco.csv and glyco2.csv as n-2-fluorophenyl-d-gluconamide, SMILES OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(=O)Nc1ccccc1F, concentration 22 mM and experimental % MGS 3.0. It is therefore a seen labelled compound, not a novel holdout; its DOLMEN label is not a 2FA prospective prediction.",
+        "Root visually checked archived Figure 4: compound 7 is the ethyl amino-methyloxazole ester. The pictured mono-chlorotyrosine is compound 6, not compound 8. The earlier assistant mapping of 8 was rejected; compound 8/9 name mappings remain unverified here. All 17 prediction rows remain excluded from benchmark scoring."
+      ]
+    },
+    {
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1038/s41467-024-52266-w",
+      "open_fulltext_url": "https://www.nature.com/articles/s41467-024-52266-w",
+      "repository_doi": "https://doi.org/10.5281/zenodo.13150337",
+      "findings": [
+        "DOLMEN predicts cell-free ice recrystallisation inhibition (IRI) activity from molecular descriptors and simulation-derived representations; its biological demonstration is downstream RBC transient-warming protection, not an iPSC/CEPT study.",
+        "Datasets are Glyco (124), Glyco2 (223, explicitly containing all 124 Glyco structures), Amino (63), and a 497-member Amino screening library; 17 predicted Amino compounds were experimentally tested.",
+        "Classification converts % mean grain size (% MGS) to active/inactive using a threshold; the Glyco benchmark uses the prior 70% MGS threshold. Regression predicts continuous % MGS.",
+        "The paper uses leave-one-out cross-validation; 10% of each training fold is randomly selected for validation and early stopping. The reported prospective library is similarity-selected from 15 most-active and 5 least-active Amino compounds (Tanimoto >0.7), then filtered for hard overlap, salts/additives and logP.",
+        "The authors explicitly limit applicability: Amino-trained models perform poorly on carbohydrates and vice versa; the model domain is amino acids or structurally similar molecules."
+      ]
+    },
+    {
+      "kind": "primary_repository_readme",
+      "url": "https://github.com/gcsosso/DOLMEN",
+      "raw_readme_url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/main/README.md",
+      "dataset_readme_url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/main/data/datasets/README.md",
+      "descriptor_readme_url": "https://raw.githubusercontent.com/gcsosso/DOLMEN/main/data/descriptors/README.md",
+      "findings": [
+        "The public repository supplies names, SMILES and IRI activities for Amino, Glyco and Glyco2, plus precomputed descriptors; it is data/code associated with the paper rather than an independently validated benchmark.",
+        "Amino: 63 amino acids or acid-like molecules, measured at 20 mM in 10 mM NaCl by splat cooling; amino.csv includes triplicate % MGS standard deviations and prediction-set predictions.",
+        "Glyco: 124 literature carbohydrates, measured at 22 mM in PBS by splat cooling. Glyco2: 223 literature carbohydrates, explicitly including the 124 Glyco compounds; concentrations are 22 mM unless stated otherwise, in PBS.",
+        "Descriptors include approximately 45 RDKit properties, dataset-specific molecular-clique vocabularies, 3D SOAP/wACSF representations, hydration histograms and MD-derived hydration indices. Hydration descriptors are unavailable for the Amino prediction set."
+      ]
+    },
+    {
+      "kind": "primary_2fa_study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631806/",
+      "doi": "https://doi.org/10.1093/stmcls/sxad059",
+      "findings": [
+        "2FA is 2-fluorophenyl gluconamide, an N-aryl-D-aldonamide IRI. The study reports a modified splat-cooling assay and IC50-style activity curves, with 2FA IC50 around 4 mM.",
+        "The assay and formulation conditions are not demonstrated to be identical to DOLMEN: the neuronal study uses a 5-minute anneal for its modified assay, whereas DOLMEN describes 30 minutes at -8 C; DOLMEN Amino/Glyco concentrations and salt/buffer conditions also differ.",
+        "2FA has direct iPSC/iPSC-neuron recovery and delayed electrophysiology evidence, but those endpoints cannot be used as labels for DOLMEN’s cell-free % MGS target."
+      ]
+    },
+    {
+      "kind": "primary_cept_study",
+      "url": "https://doi.org/10.1038/s41592-021-01126-2",
+      "findings": [
+        "CEPT is a multi-component post-thaw cytoprotection cocktail (Chroman 1, emricasan, polyamine stock and trans-ISRIB) evaluated in hPSCs and differentiated cells.",
+        "The cited CEPT study does not provide a DOLMEN-compatible small-molecule IRI dataset or establish ice recrystallisation activity for CEPT or any component; DOLMEN descriptors therefore cannot predict CEPT biological recovery directly."
+      ]
+    }
+  ],
+  "dataset_selection": {
+    "recommended_baseline": "Use the public DOLMEN data as a reproducibility and representation baseline, with Glyco/Glyco2 as the first chemical-family comparator for 2FA because the paper describes aryl/alkyl aldonamides among Glyco2 classes. Do not silently pool Amino and Glyco2 labels.",
+    "2fa_fit": "The exact 2FA structure is already labelled in Glyco/Glyco2 (n-2-fluorophenyl-d-gluconamide, 22 mM, % MGS 3.0), so it must be excluded from any claimed prospective holdout. Its aryl-D-aldonamide scaffold is chemically represented in Glyco2, making that family the relevant baseline, but assay calibration and protonation/solubility context remain transfer uncertainties.",
+    "cept_fit": "No direct fit for CEPT activity. Treat CEPT as a biological recovery factor requiring separate functional experiments; only individual CEPT molecules could be screened as hypothetical IRI candidates after chemical identity and assay compatibility are established."
+  },
+  "leakage_and_validation_risks": [
+    "Glyco is a strict subset of Glyco2, so Glyco-versus-Glyco2 performance is not an independent test; keep all related structures and source-series analogues in the same held-out group.",
+    "LOO leaves individual molecules out, but random molecule-level folds can place close analogues, salts, stereoisomers or repeated literature series in train and test. This can inflate apparent performance for a prospective 2FA-like scaffold.",
+    "The Amino prediction library was similarity-selected from the Amino training set (Tanimoto >0.7). Its 17-compound validation is prospective with respect to measurements but is not a scaffold-novel external test.",
+    "Literature Glyco/Glyco2 records may differ in buffer, concentration, assay operator and reporting precision. Continuous % MGS values should not be treated as directly comparable across conditions without metadata harmonisation.",
+    "A 70% MGS classification threshold is a historical convention, not a universal biological cutoff; report continuous activity and uncertainty alongside any class label."
+  ],
+  "figure4_solubility_audit": {
+    "condition": "Prediction-set compounds were tested at an initial 20 mM in 10 mM NaCl; compounds 7, 8 and 9 were insoluble at 20 mM and were tested at 10 mM instead. Three additional prediction-set compounds could not be tested because of poor solubility.",
+    "compounds_7_to_9": [
+      {
+        "compound_number": 7,
+        "name": "ethyl 2-amino-5-methyl-1,3-oxazole-4-carboxylate",
+        "local_csv_row": 81,
+        "experimental_concentration_mM": 10
+      },
+      {
+        "compound_number": 8,
+        "name": null,
+        "local_csv_row": null,
+        "experimental_concentration_mM": 10,
+        "mapping_status": "Unverified; Figure 4 identifies mono-chlorotyrosine as compound 6, so row 77 must not be assigned to 8."
+      },
+      {
+        "compound_number": 9,
+        "name": null,
+        "local_csv_row": null,
+        "experimental_concentration_mM": 10,
+        "mapping_status": "Name-to-number mapping not independently verified; matching an outcome value alone is insufficient."
+      }
+    ],
+    "interpretation": "The 10 mM measurements are condition-shifted relative to the 20 mM prediction-set protocol and should not be pooled as if they were exchangeable labels; concentration must be included in any validation table or sensitivity analysis."
+  },
+  "strict_validation_plan": [
+    "Canonicalise SMILES, salts, stereochemistry and tautomer handling; remove the exact 2FA row and its close aryl-gluconamide series from any claimed 2FA holdout, and document the resulting training/test membership.",
+    "Use scaffold-, series- and source-aware grouped splits, with all Glyco members excluded from a Glyco2 external test and all close 2FA analogues held out together. Report a true external test or prospective assay batch.",
+    "Re-measure 2FA and selected 2FA-like compounds in the same splat assay, concentration, salt/buffer, temperature and anneal protocol used for the intended benchmark; include technical repeats, uncertainty and blinded analysis. Treat the published 22 mM/3.0 % MGS DOLMEN row and the neuronal study’s modified assay as separate condition records.",
+    "Fit models using training-fold-only scaling, feature selection and hyperparameter tuning. Compare standard RDKit descriptors against SOAP/clique/hydration representations, but do not claim MD hydration benefit without reproducing its force-field, trajectory and cutoff settings.",
+    "For CEPT, retain a separate factorial cryopreservation/recovery experiment with 2FA, CEPT and combined arms; measure ice activity independently from immediate viability, delayed yield and neuronal function."
+  ],
+  "uncertainties": [
+    "The pinned local CSV audit establishes exact 2FA membership and the Glyco/Glyco2 subset relationship; a future benchmark should still publish its canonicalisation and duplicate-resolution report so the audit is reproducible.",
+    "The paper reports aggregate CV and prospective results, not a leakage-audited scaffold split for 2FA. Transfer performance is therefore unknown.",
+    "DOLMEN’s cell-free IRI target is mechanistically relevant to physical cryoprotection, but it does not identify a direct cell-death pathway and cannot establish CEPT-like biological protection."
+  ],
+  "decision": "Suitable as a transparent computational baseline for 2FA-adjacent IRI ranking only after chemical overlap audit and strict grouped/external validation. Insufficient as a predictor of CEPT activity or of the combined 2FA+CEPT biological outcome."
+}

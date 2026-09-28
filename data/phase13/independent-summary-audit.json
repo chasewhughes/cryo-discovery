@@ -1,0 +1,121 @@
+{
+  "method": "Direct NPZ recomputation without analyzer helpers; no formal inference",
+  "runs": [
+    {
+      "job_id": "leu-NPT-20261011",
+      "seed": 20262011,
+      "mean_count_0_30nm": 15.095,
+      "first_second_500_pdf_tv": 0.0325222555642242,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "1eb6add8b189c4e29f40139b14d933fc211f0fcedcf84338ff97d22da9b9336d"
+    },
+    {
+      "job_id": "leu-NPT-20261012",
+      "seed": 20262012,
+      "mean_count_0_30nm": 15.238,
+      "first_second_500_pdf_tv": 0.026932989398468714,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "22f1ca8abb8d2814a2604ab655bd7e6623a50fd520555e7d605506cb6b3c3298"
+    },
+    {
+      "job_id": "leu-NPT-20261013",
+      "seed": 20262013,
+      "mean_count_0_30nm": 15.255,
+      "first_second_500_pdf_tv": 0.026232756181813477,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "5628d9e2413b6cff7beb365955653527de035c21663d8d17df0dbf75f92164d7"
+    },
+    {
+      "job_id": "ile-NPT-20261021",
+      "seed": 20262021,
+      "mean_count_0_30nm": 14.935,
+      "first_second_500_pdf_tv": 0.024239979440998236,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "e0b0c156f700380345faf4852afe846e2e802ac6ab760c6c3b3086618259e7a9"
+    },
+    {
+      "job_id": "ile-NPT-20261022",
+      "seed": 20262022,
+      "mean_count_0_30nm": 14.934,
+      "first_second_500_pdf_tv": 0.028030067038697766,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "aec28506136704c7d2efcd06d76d7a07cfbeeace96970a40c1be81d70b813f32"
+    },
+    {
+      "job_id": "ile-NPT-20261023",
+      "seed": 20262023,
+      "mean_count_0_30nm": 15.064,
+      "first_second_500_pdf_tv": 0.029071652276479037,
+      "flags": {
+        "pdf_drift": false,
+        "count_drift": false,
+        "density_drift": false,
+        "temperature_offset": false
+      },
+      "trajectory_sha256": "7e7b9c9fd47f1b046e9040c0decb45623cee9bbcc569c0c606d2306bd77c85e6"
+    }
+  ],
+  "groups": {
+    "leu": {
+      "mean_count_0_30nm": 15.196,
+      "sample_sd_count_0_30nm": 0.087880600817245
+    },
+    "ile": {
+      "mean_count_0_30nm": 14.977666666666666,
+      "sample_sd_count_0_30nm": 0.07476853170507863
+    }
+  },
+  "between_compound_mean_pdf_tv": 0.013983691527286584,
+  "within_pair_tvs": [
+    0.022623359289649675,
+    0.019573960016741557,
+    0.024395959629687786,
+    0.025272215026258215,
+    0.02493806098460462,
+    0.022352285580072653
+  ],
+  "cross_pair_tvs": [
+    0.024569742596978028,
+    0.019472027128230266,
+    0.021349204063429956,
+    0.024071735319571956,
+    0.02360390626044904,
+    0.02264929427600784,
+    0.022740658752987003,
+    0.023643112901564338,
+    0.02309169598130117
+  ],
+  "all_cross_count_differences_same_sign": true,
+  "flagged_runs": 0,
+  "comparison_to_matched_results": {
+    "max_abs_difference": 0.0,
+    "all_metrics_match": true
+  },
+  "checked_at": "2026-09-06T14:05:53.313722+00:00",
+  "count_comparison_cutoff_nm": 0.3
+}

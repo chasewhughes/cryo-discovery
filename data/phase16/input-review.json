@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Read-only schema and provenance review of the two Phase 15 Boltz affinity drafts; no model execution, weight download, cloud work or mutation of frozen inputs.",
+  "official_sources": [
+    {
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.2.1",
+      "finding": "The latest official upstream release identified is Boltz v2.2.1 (tag commit cb04aec). PyPI also lists boltz 2.2.1. Pin this exact version/commit and checkpoint hashes for reproducibility; do not use an unpinned main-branch install."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jwohlwend/boltz/main/docs/prediction.md",
+      "finding": "The current official schema accepts version, sequences with protein sequence/msa and ligand smiles, templates with cif/chain_id/template_id, and properties affinity binder. The drafts use this shape. Official docs explicitly allow msa: empty for single-sequence mode, but describe it as lower accuracy; without msa: empty or --use_msa_server, a precomputed MSA is required.",
+      "endpoint_semantics": "affinity_pred_value is log10(IC50 in µM), where lower values indicate stronger predicted binding; affinity_probability_binary is a separate binder-versus-decoy probability. For comparison to pIC50 in nM, use pIC50 = 6 - affinity_pred_value."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jwohlwend/boltz/main/examples/affinity.yaml",
+      "finding": "The official affinity example confirms a single protein/ligand sequence pair and properties affinity binder pointing to the ligand chain ID. Both drafts use binder L and a unique ligand ID L, so their affinity-property linkage is schema-consistent."
+    }
+  ],
+  "draft_audit": {
+    "inputs": [
+      {
+        "path": "data/phase15/boltz-inputs/CHEMBL4522042.yaml",
+        "role": "6ED6 structure-linked known-bound ligand; measured ROCK2 IC50 37 nM",
+        "schema_status": "Shape matches official affinity YAML schema.",
+        "template_mapping": "protein chain A -> 6ED6 CIF template chain A",
+        "risks": ["Single-sequence mode is intentionally lower-accuracy.", "One in-series known ligand cannot establish affinity calibration or generalisation."]
+      },
+      {
+        "path": "data/phase15/boltz-inputs/CHEMBL4540054.yaml",
+        "role": "measured right-censored weak ROCK2 control; IC50 >10000 nM",
+        "schema_status": "Shape matches official affinity YAML schema.",
+        "template_mapping": "protein chain A -> 6ED6 CIF template chain A",
+        "risks": ["The censored value is a weak-control bound, not an exact numeric target for regression.", "Boltz affinity_pred_value is documented for comparing binders and should not be treated as a calibrated inactive/nonbinder score."]
+      }
+    ],
+    "template_and_sequence": {
+      "local_template": "data/raw/phase15/rock/6ED6.cif",
+      "template_chain": "A",
+      "draft_sequence_length": 415,
+      "rcsb_record": "6ED6 reports human ROCK2, chains A/B, 415-residue polymer and 2.86 Å X-ray structure.",
+      "assessment": "The explicit A-to-A mapping is plausible and consistent with the RCSB entry, but the parser must be run before inference to catch sequence/template alignment or residue-numbering issues. Preserve the construct/assay mismatch already documented in the ROCK review."
+    }
+  },
+  "hardware_and_run_caveats": [
+    "Boltz official docs default to GPU and state CPU is significantly slower; use a pinned CUDA-compatible environment for a bounded run and record GPU, driver, CUDA, PyTorch, Boltz and checkpoint versions.",
+    "The two inputs are smoke-test drafts only. Validate YAML through the pinned Boltz parser before downloading weights or running inference; no parser is installed in the current local .venv.",
+    "Set an explicit cache/output directory inside approved research storage and hash all downloaded checkpoints. Avoid implicit ~/.boltz caches for provenance.",
+    "Keep msa: empty only as the declared single-sequence smoke-test condition. A validation run should use a reproducible precomputed MSA or explicitly record use of the official MSA server and its date/result hash.",
+    "Relative template paths should be resolved from a fixed repository working directory or converted to verified absolute paths; do not rely on an undocumented invocation CWD."
+  ],
+  "scientific_interpretation": {
+    "comparison": "The known 37 nM compound and >10 µM censored weak control can check execution and whether outputs are directionally separated, but two points cannot test rank correlation, MAE, calibration or applicability.",
+    "target_endpoint": "Boltz predicts a learned binding-affinity surrogate documented as log10(IC50 in µM), while the source assay is a specific GST-fused recombinant ROCK2 HTRF/33P-ATP inhibition assay. Compare only after preserving assay metadata and conversion; do not call the output Kd or cellular efficacy.",
+    "leakage": "The known-bound ligand is necessarily structure-selected and from the same medicinal chemistry source series as the affinity record. It must remain an anchor/smoke test, not an independent test point; future evaluation needs publication/series-held-out measured ligands.",
+    "cept": "Neither input tests CEPT. CEPT is a biological mixture; its cell-recovery effects cannot be inferred from one ROCK2 affinity anchor and one censored enzyme control."
+  },
+  "recommended_pinned_release": {
+    "package": "boltz",
+    "version": "2.2.1",
+    "upstream_commit": "cb04aec",
+    "required_artifacts": ["boltz2_conf.ckpt", "boltz2_aff.ckpt", "CCD/molecule cache"],
+    "preflight": ["parser validation of both drafts", "template chain/sequence mapping check", "explicit cache and output paths", "checkpoint SHA256 capture", "single-input runtime/memory smoke test"]
+  },
+  "decision": "Both drafts are structurally valid against the current official schema and have a plausible 415-residue ROCK2 chain-A template mapping. Proceed only as a pinned, parser-validated smoke test. Interpret affinity_pred_value using the documented log10(IC50 in µM) semantics; the two-control result cannot establish model performance, novelty, ROCK2 assay calibration, or CEPT efficacy."
+}

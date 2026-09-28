@@ -1,0 +1,14 @@
+{
+  "study_id": "doi:10.1016/j.cryobiol.2010.10.159",
+  "pmcid": "PMC3041861",
+  "title": "Survival of mouse oocytes after being cooled in a vitrification solution to −196°C at 95° to 70,000°C/min and warmed at 610° to 118,000°C/min: A new paradigm for cryopreservation by vitrification",
+  "publication_date": "2011-02",
+  "source_version": "PMC full HTML archive",
+  "source_path": "data/raw/phase2/PMC3041861.html",
+  "cell_and_endpoint": {"model": "Mature unfertilized metaphase-II oocytes from female ICR mice", "media": "EAFS 10/10 in PB1: 10% v/v ethylene glycol, 10.7% w/v acetamide, final 0.4 M sucrose and 24% w/v Ficoll 70", "handling": "0.1 μl EAFS containing about 6 oocytes on a Cryotop; 20 cooling/warming combinations, generally 4–6 replicate runs each", "endpoint": "Binary viability based on osmotic responsiveness and morphology during sucrose/PB1 exposure, after PB1 transfer, and after 2 h in modified M16"},
+  "arms": {"cooling": ["95°C/min", "875°C/min", "3,700°C/min", "69,250 ± 4,280°C/min (20 to −120°C)"], "warming": ["612°C/min", "4,050°C/min", "7,850°C/min", "24,000°C/min", "117,500 ± 10,630°C/min (approximately −170 to −30°C)"], "warming_media": "2 ml of 0.5 M sucrose/PB1 at 0°C or 23°C, or room-temperature air, with Cryotop insulation varied", "storage": "Cryotops cooled to −196°C in liquid nitrogen; vitrification with concentrated glass-forming solutes, distinct from slow equilibrium freezing"},
+  "results": "The highest warming rate produced approximately 70–85% survival across cooling rates; the lowest warming rate produced approximately 25–0% survival as cooling rate increased. The paper discusses intracellular ice growth by recrystallization and presents devitrification as an alternative possibility.",
+  "exact_supporting_quotes": ["The ability to manifest these characteristics after two hours in M16 is considered a rather stringent test of viability."],
+  "limitations": ["Mouse oocytes and a vitrification solution; transfer to iPSC systems is not established.", "Survival is a morphology/osmotic-response endpoint after 2 h culture, not long-term developmental function.", "The mechanistic explanation includes an alternative possibility and is not direct intracellular ice imaging."],
+  "review_note": "Full-text methods and results reviewed for extraction planning; root agent retains final extraction decisions."
+}

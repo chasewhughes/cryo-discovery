@@ -1,0 +1,80 @@
+{
+  "review_date": "2026-09-06",
+  "scope": "Primary-source audit for a ROCK1/ROCK2 structure-affinity baseline; no upstream code, GPU work, credentials, outreach or bulk provider download.",
+  "sources": [
+    {
+      "kind": "primary_medicinal_chemistry_paper",
+      "title": "Identification of Selective Dual ROCK1 and ROCK2 Inhibitors Using Structure-Based Drug Design",
+      "doi": "https://doi.org/10.1021/acs.jmedchem.8b01098",
+      "publisher": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.8b01098",
+      "findings": [
+        "The paper reports a hit-to-lead medicinal chemistry series intended to produce dual ROCK1/ROCK2 inhibitors, with enzyme, cell and in vivo assays.",
+        "The publisher table's rendered unit is µM (the low-resolution text rendering can appear as mM); independent ChEMBL records for the same paper store equivalent values in nM, for example 3.8 µM as 3800 nM and 2 nM as 0.002 µM. Preserve the original unit and convert only with an explicit unit field.",
+        "The paper reports cocrystal structures for an early lead in ROCK1, ROCK2 and PKA; the RCSB related entries are 6E99, 6E9L, 6E9W and 6ED6. RCSB 6ED6 specifically contains ROCK2 bound to compound 12 (ligand J0P).",
+        "The article's table includes weak controls and censored upper bounds. For example, compound 22 is reported as >10 µM for both ROCK1 and ROCK2; this is an experimentally assayed right-censored weak/inactive observation, not an exact inactive affinity. Compound 11 is weak in ROCK1 (15.81 µM) and ROCK2 (3.79 µM).",
+        "Compound 16 is reported as a potent dual inhibitor (table value approximately 0.017 µM ROCK1 and 0.002 µM ROCK2 in the accessible table); compound 58 is also reported with measured enzyme values (approximately 0.122 µM and 0.014 µM). These are measured enzyme endpoints, not binding Kd values."
+      ],
+      "assay_and_endpoint": {
+        "target": "ROCK1 and ROCK2 kinase enzyme assays; PKA and pMYPT1 are separate selectivity/cellular endpoints",
+        "endpoint": "enzyme IC50 (half-maximal inhibition), with >10 µM censoring in some table cells",
+        "units": "µM in the publisher table; equivalent ChEMBL records may be represented in nM; convert only after recording the original unit and censoring flag",
+        "negative_control_status": "weak/inactive observations are assay-derived IC50 or >10 µM bounds, not decoys"
+      },
+      "availability": "Paper, ACS table and supporting information are publicly discoverable; ligand/protein coordinate files for deposited complexes are available through RCSB PDB."
+    },
+    {
+      "kind": "primary_structure_record",
+      "pdb_id": "6ED6",
+      "url": "https://www.rcsb.org/structure/6ED6",
+      "pdb_doi": "https://doi.org/10.2210/pdb6ED6/pdb",
+      "findings": [
+        "Human ROCK2 kinase construct, no listed mutation, X-ray structure at 2.86 Å; ligand J0P is N-[(2,3-dihydro-1,4-benzodioxin-5-yl)methyl]-4-(pyridin-4-yl)benzamide (the paper’s compound 12).",
+        "RCSB provides coordinate, sequence, ligand and validation data. The structure establishes a solved protein-ligand pose, but RCSB does not itself provide an affinity endpoint for this entry; link affinity to the paper’s assay table by compound identity and preserve that mapping as provenance.",
+        "This is a measured active complex, not an inactive control. A pose-only structure must not be treated as evidence that docking score or contact recovery predicts IC50."
+      ]
+    },
+    {
+      "kind": "primary_structure_record",
+      "pdb_id": "8X8Z",
+      "url": "https://www.rcsb.org/structure/8X8Z",
+      "pdb_doi": "https://doi.org/10.2210/pdb8X8Z/pdb",
+      "findings": [
+        "Human ROCK2, no listed mutation, X-ray structure at 2.70 Å, ligand YEI/GNS-2664; the RCSB entry states the associated literature is to be published.",
+        "The coordinate and validation files are publicly available from RCSB, but this record alone supplies no published measured IC50/Kd and should be marked structure-only until an authoritative assay source is linked.",
+        "Do not use 8X8Z as a labelled positive affinity datum or infer an inactive control from the absence of an assay value."
+      ]
+    },
+    {
+      "kind": "primary_biological_relevance",
+      "title": "A versatile polypharmacology platform promotes cytoprotection and viability of human pluripotent and differentiated cells",
+      "doi": "https://doi.org/10.1038/s41592-021-01126-2",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8314867/",
+      "findings": [
+        "CEPT uses Chroman 1 (50 nM), emricasan (5 µM), polyamine supplement and trans-ISRIB (0.7 µM); Y-27632 is a comparator/recovery ROCK inhibitor in the biological experiments.",
+        "CEPT and Y-27632 effects are cellular recovery/viability or function endpoints. The same study also reports independent HotSpot kinase assays: Chroman 1 IC50 = 52 pM at ROCK1 and 1 pM at ROCK2, versus Y-27632 71 nM and 46 nM, respectively. These are experimentally measured component/comparator potencies, not an affinity label for the CEPT mixture; emricasan, polyamine and trans-ISRIB are not thereby assigned ROCK affinities.",
+        "Chromane/Y-27632 comparator performance must not be interpreted as a measured ROCK2 affinity control without a separate biochemical source."
+      ]
+    }
+  ],
+  "benchmark_data_policy": {
+    "label_definition": "Primary label should be target-specific enzyme IC50 with original unit, assay format, construct, ATP/substrate context where available, censoring and source identifier retained. Kd/Ki/IC50 are distinct endpoints and must not be pooled as interchangeable.",
+    "positive_controls": "Use structure-linked compounds only when the ligand identity in the PDB can be reconciled to the paper or an authoritative assay record. 6ED6/compound 12 is a suitable active structure-affinity anchor; 8X8Z is structure-only pending an assay source.",
+    "inactive_controls": "Use measured weak compounds or right-censored >10 µM observations as assay controls with censoring flags. Do not call random docking decoys, untested library molecules, or missing affinity records inactive.",
+    "rock1_rock2": "Keep ROCK1 and ROCK2 as separate target labels or a multi-task target field. Dual inhibition cannot be represented by a single potency number without a prespecified aggregation rule.",
+    "cept": "Keep CEPT as a separate biological-use track. It is a four-component post-thaw intervention and cannot be predicted by a ROCK affinity model as a mixture or as equivalent to Y-27632."
+  },
+  "leakage_risks": [
+    "The ACS series is a congeneric medicinal chemistry campaign; random molecule splits can put near-identical analogues in train and test and substantially overstate generalisation.",
+    "Several PDB entries and assay rows refer to the same compound series. Any structure-affinity benchmark must group exact compounds, salt forms, stereoisomers and close analogue series across folds.",
+    "RCSB structures are selected for crystallisation and are not a random sample of assay compounds; structure availability is a selection variable and must not be treated as independent test evidence.",
+    "ChEMBL ROCK records can combine IC50, Ki, Kd, activity assay formats, constructs and units across laboratories. Deduplicate by canonical ligand and assay metadata, preserve censored values, and split by scaffold/series and publication source.",
+    "A structure-only entry such as 8X8Z has no negative label. Missing affinity must remain missing/withheld rather than being converted to inactivity."
+  ],
+  "strict_validation_requirements": [
+    "Create a source-linked table with target isoform, ligand identifier/SMILES, PDB ID, assay endpoint, unit, numeric value or censoring bound, construct and publication DOI.",
+    "Hold out complete medicinal chemistry series and any ligand with a solved structure from model development when testing prospective structure transfer; report a separate structure-only pose-recovery analysis.",
+    "Use an external assay source or a new blinded biochemical batch for validation. Do not count CEPT cell viability or Y-27632 cellular comparator data as enzyme-affinity validation.",
+    "Report ROCK1 and ROCK2 performance separately, with weak/inactive controls explicitly identified as measured, censored or untested."
+  ],
+  "decision": "6ED6 plus the 2018 ACS assay table is a defensible primary structure-affinity anchor for ROCK2 and a dual-ROCK medicinal chemistry series, provided IC50 units and censoring are preserved. 8X8Z is publicly available structural context but currently lacks a primary published affinity label. CEPT supports biological relevance only; it is not an affinity-model training or negative-control source."
+}

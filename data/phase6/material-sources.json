@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-09-06",
+  "scope": "Primary manufacturer/catalog identity and current rendered availability checks for Phase 5 CEPT materials and the exact 2FA candidate. No procurement performed.",
+  "materials": [
+    {
+      "name": "Chroman 1",
+      "role": "CEPT component",
+      "catalog_status": "verified_current_catalog",
+      "manufacturer": "Tocris Bioscience (Bio-Techne)",
+      "catalog_number": "7163",
+      "catalog_sizes_displayed": ["7163/10", "7163/50"],
+      "price": null,
+      "availability": "Catalog page currently lists selectable sizes; rendered page did not display an unambiguous stock status or price.",
+      "identity": {
+        "chemical_name": "(3S)-N-[2-[2-(Dimethylamino)ethoxy]-4-(1H-pyrazol-4-yl)phenyl]-3,4-dihydro-6-methoxy-2H-1-benzopyran-3-carboxamide dihydrochloride",
+        "formula": "C24H28N4O4.2HCl",
+        "molecular_weight_catalog": 509.43,
+        "inchi_key": "ROFMCPHQNWGXGE-SFHVURJKSA-N",
+        "purity": ">=98% HPLC"
+      },
+      "source_urls": [
+        "https://www.bio-techne.com/p/small-molecules-peptides/chroman-1_7163",
+        "https://resources.tocris.com/pdfs/protocols/protocol-for-cept-cocktail-kit.pdf"
+      ],
+      "quote_required": true,
+      "uncertainties": ["Confirm selected pack, lot-specific CoA, hydrate state/molecular weight, and region-specific availability before use."]
+    },
+    {
+      "name": "Emricasan",
+      "role": "CEPT component",
+      "catalog_status": "verified_current_catalog",
+      "manufacturer": "Tocris Bioscience (Bio-Techne)",
+      "catalog_number": "7310",
+      "catalog_sizes_displayed": ["7310/5", "7310/25"],
+      "price": null,
+      "availability": "Catalog page currently lists selectable sizes; rendered page did not display an unambiguous stock status or price.",
+      "identity": {
+        "synonyms": ["IDN-6556", "PF-03491390"],
+        "cas": "254750-02-2",
+        "formula": "C26H27F4N3O7",
+        "molecular_weight": 569.51,
+        "pubchem_id": 12000240,
+        "inchi_key": "SCVHJVCATBPIHN-SJCJKPOMSA-N",
+        "purity": ">=98% HPLC"
+      },
+      "source_urls": [
+        "https://www.bio-techne.com/p/small-molecules-peptides/emricasan_7310",
+        "https://resources.tocris.com/pdfs/protocols/protocol-for-cept-cocktail-kit.pdf"
+      ],
+      "quote_required": true,
+      "uncertainties": ["Confirm selected pack, lot-specific CoA, and region-specific availability before use."]
+    },
+    {
+      "name": "Polyamine Supplement (1000x), liquid",
+      "role": "Polyamine stock explicitly used in the original CEPT paper and Phase 5 matrix",
+      "catalog_status": "verified_current_catalog",
+      "manufacturer": "Sigma-Aldrich",
+      "catalog_number": "P8483",
+      "catalog_sizes_displayed": ["P8483-5ML (5 mL)"],
+      "price": {"amount_usd": 52.40, "package": "5 mL", "as_displayed": true},
+      "availability": "Available to ship today from Milwaukee (US page).",
+      "identity": {
+        "description": "Polyamine Supplement (1000x), liquid, sterile-filtered, BioReagent, suitable for cell culture",
+        "composition_disclosed_by_manufacturer": [
+          "putrescine dihydrochloride",
+          "spermine free base",
+          "spermidine free base",
+          "ethanolamine"
+        ],
+        "storage": "2-8 C",
+        "sterility": "sterile-filtered",
+        "biological_source": "non-animal source"
+      },
+      "source_urls": ["https://www.sigmaaldrich.com/US/en/product/sigma/p8483"],
+      "cept_reference_comparison": {
+        "tocris_reference_catalog_number": "7739",
+        "tocris_reference_form": "Polyamine Supplement x1000, lyophilized",
+        "equivalence_verified": false,
+        "note": "Original CEPT methods (DOI 10.1038/s41592-021-01126-2) explicitly use Sigma P8483 at 1:1000. It is not a substitution relative to that paper. The later Tocris kit has a different supplied form; equivalence after reconstitution is unverified, and different physical form alone does not establish chemical non-equivalence."
+      },
+      "quote_required": false,
+      "uncertainties": ["Price and stock are region/page-time specific; confirm lot CoA, exact composition/concentration, and suitability before treating as CEPT-equivalent."]
+    },
+    {
+      "name": "trans-ISRIB",
+      "role": "CEPT component",
+      "catalog_status": "verified_current_catalog",
+      "manufacturer": "Tocris Bioscience (Bio-Techne)",
+      "catalog_number": "5284",
+      "catalog_sizes_displayed": ["5284/10", "5284/50"],
+      "price": null,
+      "availability": "Catalog page currently lists selectable sizes; rendered page did not display an unambiguous stock status or price.",
+      "identity": {
+        "cas": "1597403-47-8",
+        "formula": "C22H24Cl2N2O4",
+        "molecular_weight": 451.34,
+        "pubchem_id": 1011240,
+        "inchi_key": "HJGMCDHQPXTGAV-UHFFFAOYSA-N",
+        "purity": ">=98% HPLC",
+        "chemical_name": "N,N'-trans-1,4-cyclohexanediylbis[2-(4-chlorophenoxy)acetamide]"
+      },
+      "source_urls": [
+        "https://www.bio-techne.com/p/small-molecules-peptides/trans-isrib_5284",
+        "https://resources.tocris.com/pdfs/protocols/protocol-for-cept-cocktail-kit.pdf"
+      ],
+      "quote_required": true,
+      "uncertainties": ["Confirm selected pack, lot-specific CoA, and region-specific availability before use; do not confuse trans-ISRIB with trans-ISRIB A17 or other ISRIB listings having different CAS numbers."]
+    },
+    {
+      "name": "2-fluorophenyl gluconamide (2FA)",
+      "role": "Physical candidate from DOI 10.1093/stmcls/sxad059",
+      "catalog_status": "no_verified_catalog_listing_found",
+      "manufacturer": null,
+      "catalog_number": null,
+      "catalog_sizes_displayed": [],
+      "price": null,
+      "availability": "Not verified as a commercial catalog reagent in the primary-source search.",
+      "identity": {
+        "exact_name": "N-(2-fluorophenyl)-D-gluconamide",
+        "synonym_used_in_paper": "2-fluorophenyl gluconamide (2FA)",
+        "cas": null,
+        "formula": null,
+        "inchi_key": null,
+        "identity_status": "Exact molecule name and structure are disclosed in the article/supplement; no catalog identifier or CAS was verified."
+      },
+      "source_urls": [
+        "https://doi.org/10.1093/stmcls/sxad059",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631806/"
+      ],
+      "quote_required": true,
+      "custom_synthesis_note": "The source literature describes a laboratory-designed, synthesized N-aryl-D-gluconamide series and the supplement gives synthesis/characterization for N-(2-fluorophenyl)-D-gluconamide. Plan for custom or source-lab synthesis plus identity/purity confirmation unless a supplier can provide a structure-matched lot and analytical documentation.",
+      "uncertainties": [
+        "2-fluoroaniline is only a starting material and must not be treated as 2FA.",
+        "No verified commercial catalog source, CAS, package, or price was found for the exact 2FA molecule.",
+        "A supplier quote would need to specify N-(2-fluorophenyl)-D-gluconamide, D-gluconamide stereochemistry, analytical identity, purity, and lot documentation."
+      ]
+    }
+  ],
+  "global_notes": [
+    "Original CEPT paper methods specify Chroman 1 MedChem Express HY-15392, Emricasan Selleckchem S7775, Sigma P8483, and Tocris trans-ISRIB 5284. Tocris Chroman 1 and Emricasan listings above are candidate alternate vendors, not the original paper's vendors; verify chemical form and lot identity. Root checked the original methods in local biology-PMC8314867.xml.",
+    "Catalog availability and displayed price are time- and region-specific; no purchase or vendor contact was performed."
+  ]
+}

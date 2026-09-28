@@ -1,0 +1,43 @@
+<ForceField>
+  <!-- TIP4P/Ice: Abascal et al., JCP 122, 234511 (2005), DOI 10.1063/1.1931662.
+       Parameters cross-checked against https://doc.lammps.org/stable/Howto_tip4p.html.
+       Units nm, kJ/mol, elementary charge. For use with OpenMM CHARMM36.
+       Rigid water is required. Virtual-site weights are computed from
+       dOM=0.01577 nm, dOH=0.09572 nm, angle=104.52 degrees.
+       This local conversion has not been validated against original GROMACS inputs. -->
+  <AtomTypes>
+    <Type name="ice-O" class="ice-O" element="O" mass="15.9994"/>
+    <Type name="ice-H" class="ice-H" element="H" mass="1.008"/>
+    <Type name="ice-M" class="ice-M" mass="0"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="HOH">
+      <Atom name="O" type="ice-O" charge="0"/>
+      <Atom name="H1" type="ice-H" charge="0.5897"/>
+      <Atom name="H2" type="ice-H" charge="0.5897"/>
+      <Atom name="M" type="ice-M" charge="-1.1794"/>
+      <VirtualSite type="localCoords" siteName="M" atomName1="O" atomName2="H1" atomName3="H2"
+        wo1="1" wo2="0" wo3="0" wx1="-1" wx2="0.5" wx3="0.5"
+        wy1="0" wy2="-1" wy3="1" p1="0.01577" p2="0" p3="0"/>
+      <Bond atomName1="O" atomName2="H1"/>
+      <Bond atomName1="O" atomName2="H2"/>
+    </Residue>
+  </Residues>
+  <HarmonicBondForce>
+    <Bond type1="ice-O" type2="ice-H" length="0.09572" k="462750.4"/>
+  </HarmonicBondForce>
+  <HarmonicAngleForce>
+    <Angle type1="ice-H" type2="ice-O" type3="ice-H" angle="1.8242181341844732" k="836.8"/>
+  </HarmonicAngleForce>
+  <NonbondedForce coulomb14scale="1.0" lj14scale="1.0">
+    <UseAttributeFromResidue name="charge"/>
+    <Atom type="ice-O" sigma="1" epsilon="0"/>
+    <Atom type="ice-H" sigma="1" epsilon="0"/>
+    <Atom type="ice-M" sigma="1" epsilon="0"/>
+  </NonbondedForce>
+  <LennardJonesForce lj14scale="1.0">
+    <Atom type="ice-O" sigma="0.31668" epsilon="0.88215456"/>
+    <Atom type="ice-H" sigma="1" epsilon="0"/>
+    <Atom type="ice-M" sigma="1" epsilon="0"/>
+  </LennardJonesForce>
+</ForceField>

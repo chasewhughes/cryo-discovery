@@ -1,0 +1,35 @@
+{
+  "claim_limit": "Two selected controls only check execution/ranking direction. They cannot validate performance or novelty.",
+  "inference_mode": "Single sequence with protein template; lower-accuracy smoke test, not a validation configuration.",
+  "inputs": [
+    {
+      "molecule_id": "CHEMBL4522042",
+      "observed_IC50_nM": 37.0,
+      "observed_relation": "=",
+      "path": "data/phase15/boltz-inputs/CHEMBL4522042.yaml",
+      "role": "known_bound_ligand",
+      "sha256": "78d2ed24ec4ab453dbf4d64bdaed48d922a0098a6dbc86b4b41068d122eea7b9"
+    },
+    {
+      "molecule_id": "CHEMBL4540054",
+      "observed_IC50_nM": 10000.0,
+      "observed_relation": ">",
+      "path": "data/phase15/boltz-inputs/CHEMBL4540054.yaml",
+      "role": "measured_right_censored_weak_control",
+      "sha256": "b15263b9af031f38fdab51c4c8e6b28e887f5ee8ecb0f47c6899daee225d43f8"
+    }
+  ],
+  "output_conversion": "Current official documentation defines affinity_pred_value as log10(IC50 in uM), hence pIC50=6-value. Reverify semantics against the pinned model version before evaluating outputs; binder probability is separate.",
+  "protein_length": 415,
+  "protein_source_sha256": "37c1758374bd217f4bb0160b84a8e22dd9042b2f60739617ffad5eec8e526b95",
+  "required_next": [
+    "Pin/install Boltz and validate YAML through its parser",
+    "Hash downloaded structure and affinity checkpoints",
+    "Reconcile provider spending and reserve a bounded run with automatic cleanup before rental",
+    "Measure runtime and memory on one complex",
+    "Resolve MSA, assay and construct mismatches before validation"
+  ],
+  "source_dataset_sha256": "dbd0408cd4e3b4a01b3e7ce616885342eb8e997a3aea0d47b3d29f17546cdf0f",
+  "status": "prepared_not_executed_or_Boltz_parser_validated",
+  "template_sha256": "e229155d03e51a24687da2fc422ee648373af0ac46811ca3091b2d98686000ec"
+}

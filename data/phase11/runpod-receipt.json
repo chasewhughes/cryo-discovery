@@ -1,0 +1,42 @@
+{
+  "id": "d4ipt6c2xslrpd",
+  "name": "cryo-stability-phase11-c62b82",
+  "created_epoch": 1788688208.797332,
+  "deadline_epoch": 1788699008.780465,
+  "cost_per_hour": 0.74,
+  "input_sha256": {
+    "scripts/run_hydration_stability.py": "3cb4195fa5b5b322b4f2617ef4553471f0d3f9adb968248ab895a5651c9f05dd",
+    "scripts/run_hydration_pilot.py": "4b3f090f69e58ca1094e080b02256dd9f91464cc726eeb0af18d663dad2014ac",
+    "scripts/hydration_descriptor.py": "b0c55a1f7973653d684584271c2fc26c4a407692f29d1858ba23eae6f7b77e4f",
+    "simulation/tip4p-ice.xml": "67caa748b12c4d7e1d9c5cceeb3f9fafeac03ea148075d84d3e103688a3ee2fc",
+    "requirements-md-cuda.txt": "30061ac5ec61daaabd1184e028c9b24abfa54d2000c2b97dc76bd8e55abea41b",
+    "data/phase11/stability-plan.json": "8bcf5561a505c84d02c73e562097847218edf6b5615a1b7d1b4396af05aee1d1"
+  },
+  "worker_sha256": "802bf8e0f32bf8fa278699c97aea9c8fd19a3f92dda497dcbdccc1137c6f1995",
+  "watchdog_pid": 57180,
+  "deleted": true,
+  "ended_epoch": 1788692272.944603,
+  "elapsed_hours": 1.1289297974771924,
+  "estimated_gpu_cost_usd": 0.8354080501331224,
+  "result_archive_sha256": "fe587399c142c6e83d36c885e94730b9051c10241465d0dec9cece86f9e37d3d",
+  "result_archive_bytes": 342322684,
+  "worker_status": {
+    "state": "complete",
+    "current": "phe-NPT-20260918",
+    "completed": [
+      "gly-NVT-20260916",
+      "gly-NPT-20260916",
+      "phe-NVT-20260916",
+      "phe-NPT-20260916",
+      "gly-NVT-20260917",
+      "gly-NPT-20260917",
+      "phe-NVT-20260917",
+      "phe-NPT-20260917",
+      "gly-NVT-20260918",
+      "gly-NPT-20260918",
+      "phe-NVT-20260918",
+      "phe-NPT-20260918"
+    ],
+    "results_ready": true
+  }
+}

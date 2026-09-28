@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-09-07T09:07:16.169466+00:00",
+  "timing": "Supplement recorded while first-seed structure generation is underway; no affinity outputs or new model potencies have been inspected. Original frozenplan and pointdecision unchanged.",
+  "purpose": "Account descriptively for limited calibration-scaffold diversity, beyond primary bootstrap conditional on fitted offset.",
+  "method": "Independently resample whole calibration and test scaffold groups with replacement; refit median residual and calibration mean inside each draw; score resampled test. Also omit each calibration scaffold in turn and report offset sensitivity only.",
+  "resamples": 2000,
+  "seed": 2105,
+  "script_sha256": "8c9d6de4184e46fff2cf70d8c2fd21397a1e2299863c70b6197def4cb3314702",
+  "original_plan_sha256": "e37096a96a76ee3836be8392c63c5ee841744d0adb8bfe593f038e40e509ac2b",
+  "decision_rule": "Diagnostic only; no additional pass gate, best offset or test-label fit; original scientific decision remains authoritative."
+}
