@@ -14,10 +14,6 @@ flowchart LR
     D --> E["Bounded conclusion<br/>pass / fail / not qualified against the frozen gate"]
 ```
 
-## Who did what
-
-I set the question and the ground rules, and made the calls along the way: which tracks to keep or drop (adding ROCK2 when the ice models didn't generalize), what counted as a pass before each run, and leaving the ROCK2 calibration miss as a miss. AI coding agents (Claude and Codex) wrote the code, gathered the data, ran the simulations and GPU jobs, and drafted the reports.
-
 ## Results
 
 All ROCK2 evaluations below are retrospective on compounds from published assays that may overlap Boltz-2's pretraining data — none of this is a test on unseen compounds, and none of it is a novelty, cryoprotection, or efficacy claim. Bootstrap intervals are descriptive, not formal confidence intervals for external generalization.
