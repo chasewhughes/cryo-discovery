@@ -19,7 +19,7 @@ flowchart LR
 **Decided (Chase):**
 - The research question and scope: an evidence-linked cryopreservation resource separating physical ice protection, biological stress protection, and protocol effects, with cell-specific preservation benchmarks rather than a claimed universal optimum.
 - Evidence standards: pre-registered plans with frozen thresholds, SHA256-hashed provenance, and independent verification before any result is reported.
-- Which tracks to pursue or stop: moved from a baseline IRI (ice-recrystallization-inhibition) model to an advanced IRI ensemble, then pivoted to a ROCK2/Boltz-2 structural-affinity track after the IRI ensemble missed a known strong inhibitor (2FA).
+- Which tracks to pursue or stop: after the IRI (ice-recrystallization-inhibition) models failed to generalize to unseen scaffolds, added a biological-target track: ROCK2, the kinase targeted by the ROCK inhibitor (chroman 1) in the CEPT recovery cocktail, the #2 candidate on the ranked shortlist. That track uses Boltz-2 structural affinity prediction.
 - The pre-registered pass/fail thresholds for each benchmark (e.g. ≥20% MAE improvement and Spearman ≥0.5 for ROCK2 transfer gates; MAE ≤0.5 pIC50 and absolute bias ≤0.25 pIC50 for calibration gates).
 - The $10 cumulative GPU spend cap and the per-run spend guards enforced before every Pod launch.
 - The call to record the radiometric-assay calibration miss (absolute bias short by 0.013 pIC50) as an unqualified joint gate, rather than relaxing the threshold to pass it.
@@ -37,7 +37,7 @@ All ROCK2 evaluations below are retrospective on compounds from published assays
 
 | Evaluation | n | Result | Verdict |
 | --- | ---: | --- | --- |
-| ROCK2 in-series benchmark ([report](reports/rock2-panel-benchmark.md)) | 43 | MAE 0.439 vs. 0.683 baseline (35.8% better), Spearman 0.744 | Transfer gate **passed** (retrospective, in-series). Scaffold-bootstrap improvement interval is 6.4%–43.2%, which includes values below the 20% gate. |
+| ROCK2 in-series benchmark ([report](reports/rock2-panel-benchmark.md)) | 43 | MAE 0.439 vs. 0.683 baseline (35.8% better), Spearman 0.744 | Frozen benchmark hypothesis **supported** (same assay, not external validation). Scaffold-bootstrap improvement interval is 6.4%–43.2%, which includes values below the 20% gate. |
 | Separate-publication assay ([report](reports/rock2-external-calibration.md)) | 30 | Worse than baseline (MAE 0.834 vs. 0.586, −42.2%), Spearman 0.448 | Transfer gate **failed** |
 | Independent radiometric assay ([report](reports/rock2-radiometric-validation.md)) | 50 | Raw MAE 0.442 vs. 0.864 baseline (48.8% better), Spearman 0.864 | Transfer gate **passed**; held-out calibration gate **failed** — absolute bias missed its ≤0.25 pIC50 limit by 0.013; joint gate **not qualified** |
 | Transport virtual experiment ([report](reports/discovery-pipeline.md)) | — | Staged CPA-loading hypothesis met its frozen improvement criteria | **Passed** in a published reference-cell (human oocyte) transport model — a model-level result, not a survival finding |
@@ -53,7 +53,7 @@ All ROCK2 evaluations below are retrospective on compounds from published assays
 - Every experiment is frozen before execution: a written plan, hashed (SHA256), committed to version control, with pass/fail thresholds fixed in advance.
 - Re-runs of a completed, frozen plan are refused by the tooling itself (`discovery_pipeline.py` refuses to repeat a run ID; the Boltz inference scripts refuse to reuse an existing seed output directory).
 - Failed attempts are preserved, not deleted: failed GPU launches, provider setup failures, and rejected retries all remain in the cost and verification records rather than being cleaned out of the history.
-- Spend guards: a $10 cumulative GPU budget was enforced before every launch, with per-phase and running-total cost reconciliation recorded in [verification.md](reports/verification.md). Total estimated GPU spend across the project was about $6.76.
+- Spend guards: a $10 cumulative GPU budget was enforced before every launch, with per-phase and running-total cost reconciliation recorded in [verification.md](reports/verification.md). Total estimated GPU spend across the project was about $6.75 (reconciled all-phase estimate, $10 cap).
 
 ## Reproduce
 
@@ -68,6 +68,8 @@ python3 scripts/build_phase4_status.py
 python3 -m unittest discover -s tests
 ```
 
+With only the standard library installed, tests for the IRI, MD and Boltz tracks error on missing `numpy`/`rdkit`; install the pinned `requirements-*.txt` environment for the track you want to check.
+
 With locally archived sources also present:
 
 ```sh
@@ -80,7 +82,7 @@ The optional IRI/MD/Boltz-2 tracks use separate pinned scientific environments; 
 
 ## Next step
 
-A calibration-transfer test on a broader, independent set of scaffolds is pre-specified but not yet run: the panel is frozen (see [rock2-orthogonal-assay-review.md](reports/rock2-orthogonal-assay-review.md) and the phase 17 external-benchmark candidate inventory), pending a new frozen plan and fresh GPU budget reconciliation before execution.
+A calibration-transfer test on a broader, independent set of scaffolds is pre-specified but not yet run. Its panel and plan are frozen in [data/phase21/scaffold-plan.json](data/phase21/scaffold-plan.json) (frozen 2026-09-07); see also [rock2-orthogonal-assay-review.md](reports/rock2-orthogonal-assay-review.md). Execution needs a fresh GPU budget reconciliation.
 
 ## Full report
 
